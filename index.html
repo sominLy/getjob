@@ -7,42 +7,42 @@
 <meta name="description" content="채용 공고 캘린더, 전형 일정, 자소서 아카이브를 한 곳에서. 내 데이터는 내 브라우저에만 저장됩니다.">
 <style>
 :root{
-  --paper:#F0F2F0; --card:#FFFFFF; --ink:#141B1A; --ink-2:#3A4744; --muted:#6C7B76;
-  --line:#D9DEDB; --line-2:#E7EAE8;
-  --accent:#2E6A5C; --accent-soft:#DDE9E5; --accent-ink:#1F4C42;
-  --urgent:#BE4318; --urgent-soft:#F7E2D9;
-  --amber:#8F6408; --amber-soft:#F4E9CE;
-  --pass:#2E6A5C; --fail:#8A8F8C;
-  --shadow:0 1px 2px rgba(20,27,26,.06),0 6px 18px rgba(20,27,26,.05);
+  --paper:#FAF5F4; --card:#FFFDFD; --ink:#2B2126; --ink-2:#5E4E55; --muted:#9A868D;
+  --line:#EBDFDC; --line-2:#F4ECE9;
+  --accent:#A5577A; --accent-soft:#F8E7EE; --accent-ink:#7B3B58;
+  --urgent:#C5503F; --urgent-soft:#FBE4DD;
+  --amber:#96682E; --amber-soft:#F9EDDA;
+  --pass:#A5577A; --fail:#9A868D;
+  --shadow:0 1px 2px rgba(70,42,54,.05),0 8px 22px rgba(70,42,54,.06);
   --sans:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",system-ui,sans-serif;
   --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
 }
 @media (prefers-color-scheme:dark){:root{
-  --paper:#101514; --card:#1A2221; --ink:#E8EDEB; --ink-2:#B8C4C0; --muted:#87958F;
-  --line:#2C3836; --line-2:#232D2C;
-  --accent:#63B39F; --accent-soft:#1E3230; --accent-ink:#8FD0BE;
-  --urgent:#F0805A; --urgent-soft:#3A2118;
-  --amber:#D6A945; --amber-soft:#332A16;
-  --pass:#63B39F; --fail:#77837E;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+  --paper:#1A1418; --card:#241B20; --ink:#F1E7EA; --ink-2:#CBB9C0; --muted:#9B868E;
+  --line:#382C32; --line-2:#2C2227;
+  --accent:#E29CB6; --accent-soft:#3B2531; --accent-ink:#F2BDD1;
+  --urgent:#F08A70; --urgent-soft:#3F251E;
+  --amber:#DDB068; --amber-soft:#3A2C19;
+  --pass:#E29CB6; --fail:#8B7880;
+  --shadow:0 1px 2px rgba(0,0,0,.34),0 8px 22px rgba(0,0,0,.28);
 }}
 :root[data-theme="dark"]{
-  --paper:#101514; --card:#1A2221; --ink:#E8EDEB; --ink-2:#B8C4C0; --muted:#87958F;
-  --line:#2C3836; --line-2:#232D2C;
-  --accent:#63B39F; --accent-soft:#1E3230; --accent-ink:#8FD0BE;
-  --urgent:#F0805A; --urgent-soft:#3A2118;
-  --amber:#D6A945; --amber-soft:#332A16;
-  --pass:#63B39F; --fail:#77837E;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+  --paper:#1A1418; --card:#241B20; --ink:#F1E7EA; --ink-2:#CBB9C0; --muted:#9B868E;
+  --line:#382C32; --line-2:#2C2227;
+  --accent:#E29CB6; --accent-soft:#3B2531; --accent-ink:#F2BDD1;
+  --urgent:#F08A70; --urgent-soft:#3F251E;
+  --amber:#DDB068; --amber-soft:#3A2C19;
+  --pass:#E29CB6; --fail:#8B7880;
+  --shadow:0 1px 2px rgba(0,0,0,.34),0 8px 22px rgba(0,0,0,.28);
 }
 :root[data-theme="light"]{
-  --paper:#F0F2F0; --card:#FFFFFF; --ink:#141B1A; --ink-2:#3A4744; --muted:#6C7B76;
-  --line:#D9DEDB; --line-2:#E7EAE8;
-  --accent:#2E6A5C; --accent-soft:#DDE9E5; --accent-ink:#1F4C42;
-  --urgent:#BE4318; --urgent-soft:#F7E2D9;
-  --amber:#8F6408; --amber-soft:#F4E9CE;
-  --pass:#2E6A5C; --fail:#8A8F8C;
-  --shadow:0 1px 2px rgba(20,27,26,.06),0 6px 18px rgba(20,27,26,.05);
+  --paper:#FAF5F4; --card:#FFFDFD; --ink:#2B2126; --ink-2:#5E4E55; --muted:#9A868D;
+  --line:#EBDFDC; --line-2:#F4ECE9;
+  --accent:#A5577A; --accent-soft:#F8E7EE; --accent-ink:#7B3B58;
+  --urgent:#C5503F; --urgent-soft:#FBE4DD;
+  --amber:#96682E; --amber-soft:#F9EDDA;
+  --pass:#A5577A; --fail:#9A868D;
+  --shadow:0 1px 2px rgba(70,42,54,.05),0 8px 22px rgba(70,42,54,.06);
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
@@ -334,6 +334,26 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
   background:var(--ink);color:var(--paper);padding:9px 17px;border-radius:7px;font-size:13px;
   opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:60}
 .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+/* ---------- 형태: 모서리를 조금 더 둥글게, 선은 얇고 부드럽게 ---------- */
+.cal,.ddb,.app,.day,.acard,.qa,.tblwrap,.empty{border-radius:14px}
+.essay,.col,.jc{border-radius:12px}
+.ghost,.primary,.nav-btn,.step,.doc textarea,.dchip{border-radius:9px}
+.step:first-child{border-radius:9px 9px 0 0}
+.step:last-child{border-radius:0 0 9px 9px}
+@media (min-width:641px){
+  .step:first-child{border-radius:9px 0 0 9px}
+  .step:last-child{border-radius:0 9px 9px 0}
+}
+dialog,.help{border-radius:16px}
+thead th{font-weight:600;letter-spacing:.07em}
+.ghost,.filters button,.subtabs button{transition:border-color .15s,color .15s,background .15s}
+.jc,.acard,.app,.day,.ddb{transition:box-shadow .18s,border-color .18s}
+.app:hover,.acard:hover{border-color:var(--accent-soft)}
+.brand{color:var(--accent-ink)}
+:root[data-theme="dark"] .brand,
+:root:not([data-theme="light"]) .brand{color:var(--accent)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .brand{color:var(--accent-ink)}}
+
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
 /* ---------- 모바일 (iOS · Android) ---------- */
