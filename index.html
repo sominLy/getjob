@@ -1,0 +1,1095 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>지원 보드 — 하반기 채용 캘린더</title>
+<meta name="description" content="채용 공고 캘린더, 전형 일정, 자소서 아카이브를 한 곳에서. 내 데이터는 내 브라우저에만 저장됩니다.">
+<style>
+:root{
+  --paper:#F0F2F0; --card:#FFFFFF; --ink:#141B1A; --ink-2:#3A4744; --muted:#6C7B76;
+  --line:#D9DEDB; --line-2:#E7EAE8;
+  --accent:#2E6A5C; --accent-soft:#DDE9E5; --accent-ink:#1F4C42;
+  --urgent:#BE4318; --urgent-soft:#F7E2D9;
+  --amber:#8F6408; --amber-soft:#F4E9CE;
+  --pass:#2E6A5C; --fail:#8A8F8C;
+  --shadow:0 1px 2px rgba(20,27,26,.06),0 6px 18px rgba(20,27,26,.05);
+  --sans:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",system-ui,sans-serif;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#101514; --card:#1A2221; --ink:#E8EDEB; --ink-2:#B8C4C0; --muted:#87958F;
+  --line:#2C3836; --line-2:#232D2C;
+  --accent:#63B39F; --accent-soft:#1E3230; --accent-ink:#8FD0BE;
+  --urgent:#F0805A; --urgent-soft:#3A2118;
+  --amber:#D6A945; --amber-soft:#332A16;
+  --pass:#63B39F; --fail:#77837E;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+}}
+:root[data-theme="dark"]{
+  --paper:#101514; --card:#1A2221; --ink:#E8EDEB; --ink-2:#B8C4C0; --muted:#87958F;
+  --line:#2C3836; --line-2:#232D2C;
+  --accent:#63B39F; --accent-soft:#1E3230; --accent-ink:#8FD0BE;
+  --urgent:#F0805A; --urgent-soft:#3A2118;
+  --amber:#D6A945; --amber-soft:#332A16;
+  --pass:#63B39F; --fail:#77837E;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+}
+:root[data-theme="light"]{
+  --paper:#F0F2F0; --card:#FFFFFF; --ink:#141B1A; --ink-2:#3A4744; --muted:#6C7B76;
+  --line:#D9DEDB; --line-2:#E7EAE8;
+  --accent:#2E6A5C; --accent-soft:#DDE9E5; --accent-ink:#1F4C42;
+  --urgent:#BE4318; --urgent-soft:#F7E2D9;
+  --amber:#8F6408; --amber-soft:#F4E9CE;
+  --pass:#2E6A5C; --fail:#8A8F8C;
+  --shadow:0 1px 2px rgba(20,27,26,.06),0 6px 18px rgba(20,27,26,.05);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;
+  line-height:1.55;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px 90px}
+h2{font-size:20px;font-weight:700;letter-spacing:-.02em;margin:0;text-wrap:balance}
+h3{margin:0}
+p{margin:0}
+
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:30}
+.hbar{max-width:1200px;margin:0 auto;padding:13px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-size:17px;font-weight:700;letter-spacing:-.02em}
+.today{font-family:var(--serif);font-size:13px;color:var(--muted)}
+.hspace{flex:1}
+.ghost{background:none;border:1px solid var(--line);border-radius:6px;padding:5px 11px;
+  font-size:12.5px;color:var(--ink-2)}
+.ghost:hover{border-color:var(--accent);color:var(--accent)}
+.primary{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:8px 16px;
+  font-weight:600;font-size:13.5px}
+.primary:hover{filter:brightness(1.08)}
+.rail{border-bottom:1px solid var(--line);background:var(--card)}
+.rail-in{max-width:1200px;margin:0 auto;padding:0 20px 13px;display:flex;gap:9px;overflow-x:auto}
+.dchip{flex:0 0 auto;border:1px solid var(--line);border-left:3px solid var(--muted);border-radius:5px;
+  padding:7px 12px 8px;background:var(--paper);min-width:130px}
+.dchip.u{border-left-color:var(--urgent);background:var(--urgent-soft)}
+.dchip.s{border-left-color:var(--amber);background:var(--amber-soft)}
+.dchip .d{font-family:var(--serif);font-size:19px;font-weight:600;line-height:1.1}
+.dchip .c{font-size:12.5px;font-weight:600;margin-top:2px}
+.dchip .k{font-size:11px;color:var(--muted);letter-spacing:.03em}
+
+nav.tabs{display:flex;gap:2px;margin:22px 0 18px;border-bottom:1px solid var(--line);overflow-x:auto}
+nav.tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:9px 14px;
+  font-size:14px;font-weight:600;color:var(--muted);margin-bottom:-1px;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+nav.tabs button:hover{color:var(--ink)}
+nav.tabs .cnt{font-family:var(--serif);font-size:11.5px;opacity:.8;margin-left:4px}
+.view[hidden]{display:none}
+.viewhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.sub{font-size:13px;color:var(--muted)}
+
+.pill{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:700;
+  letter-spacing:.03em;padding:2px 7px;border-radius:99px;white-space:nowrap}
+.pill::before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor}
+.p-open{background:var(--urgent-soft);color:var(--urgent)}
+.p-soon{background:var(--accent-soft);color:var(--accent-ink)}
+.p-est{background:transparent;color:var(--muted);border:1px dashed var(--line)}
+.p-roll{background:var(--amber-soft);color:var(--amber)}
+.p-shut{background:var(--line-2);color:var(--muted)}
+.p-open::before{animation:blip 1.6s ease-in-out infinite}
+@keyframes blip{0%,100%{opacity:1}50%{opacity:.25}}
+
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.filters button{background:var(--card);border:1px solid var(--line);border-radius:99px;
+  padding:4px 12px;font-size:12.5px;font-weight:600;color:var(--muted)}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.tblwrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:900px;font-size:13px}
+thead th{text-align:left;font-size:11px;letter-spacing:.05em;color:var(--muted);font-weight:700;
+  padding:10px 12px;border-bottom:1px solid var(--line);background:var(--paper);white-space:nowrap}
+thead th.sortable{cursor:pointer}
+thead th.sortable:hover{color:var(--accent)}
+tbody td{padding:9px 12px;border-bottom:1px solid var(--line-2);vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--paper)}
+td.co{font-weight:700;white-space:nowrap}
+td.dt{font-family:var(--serif);white-space:nowrap;color:var(--ink-2)}
+td.hist{color:var(--muted);font-size:12px;max-width:270px;line-height:1.45}
+td.ro{color:var(--ink-2);font-size:12.5px;max-width:210px}
+td.act{white-space:nowrap;text-align:right}
+td.act button,td.act a{background:none;border:0;color:var(--muted);font-size:12px;text-decoration:none;padding:0 4px}
+td.act button:hover,td.act a:hover{color:var(--accent)}
+td.act button.on{color:var(--accent);font-weight:700}
+.legend{display:flex;gap:15px;flex-wrap:wrap;margin-top:12px;font-size:12.5px;color:var(--muted)}
+.sw{display:inline-block;width:11px;height:11px;border-radius:3px;vertical-align:-1px;margin-right:5px}
+
+.nav-btn{background:var(--card);border:1px solid var(--line);border-radius:6px;width:30px;height:30px;
+  line-height:1;font-size:15px;color:var(--ink-2)}
+.nav-btn:hover{border-color:var(--accent);color:var(--accent)}
+.period{font-family:var(--serif);font-size:17px;font-weight:600;min-width:118px;text-align:center}
+.cal{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:var(--shadow)}
+.cal-dow{display:grid;grid-template-columns:repeat(7,1fr);border-bottom:1px solid var(--line);background:var(--paper)}
+.cal-dow div{padding:8px 10px;font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--muted)}
+.cal-dow div:first-child{color:var(--urgent)}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr)}
+.cell{min-height:112px;border-right:1px solid var(--line-2);border-bottom:1px solid var(--line-2);
+  padding:6px 7px;display:flex;flex-direction:column;gap:3px}
+.cell:nth-child(7n){border-right:0}
+.cell.out{background:var(--paper);opacity:.5}
+.cell .dnum{font-family:var(--serif);font-size:13px;color:var(--muted)}
+.cell.is-today .dnum{background:var(--accent);color:#fff;border-radius:50%;width:20px;height:20px;
+  display:grid;place-items:center;font-size:12px}
+.ev{border-radius:4px;padding:3px 6px;font-size:11.5px;line-height:1.35;font-weight:600;text-align:left;border:0;width:100%}
+.ev-start{background:var(--accent-soft);color:var(--accent-ink)}
+.ev-end{background:var(--urgent-soft);color:var(--urgent)}
+.ev-stage{background:var(--amber-soft);color:var(--amber)}
+.ev .pre{font-family:var(--serif);font-weight:700;margin-right:3px;opacity:.75}
+.ev.est{border:1px dashed currentColor;background:transparent}
+
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
+.day{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:10px;
+  display:flex;flex-direction:column;gap:7px;min-height:190px;box-shadow:var(--shadow)}
+.day.is-today{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.day h3{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.05em;
+  display:flex;justify-content:space-between;align-items:baseline}
+.day h3 b{font-family:var(--serif);font-size:17px;color:var(--ink);letter-spacing:0}
+.pev{font-size:11.5px;font-weight:600;border-radius:4px;padding:3px 6px}
+.pev.s{background:var(--accent-soft);color:var(--accent-ink)}
+.pev.e{background:var(--urgent-soft);color:var(--urgent)}
+.pev.g{background:var(--amber-soft);color:var(--amber)}
+.todos{display:flex;flex-direction:column;gap:4px;margin-top:auto}
+.todo{display:flex;gap:6px;align-items:flex-start;font-size:12.5px}
+.todo input{margin:3px 0 0;accent-color:var(--accent)}
+.todo span{flex:1;word-break:break-word}
+.todo.done span{text-decoration:line-through;color:var(--muted)}
+.todo button{background:none;border:0;color:var(--muted);padding:0 2px;font-size:13px;opacity:0}
+.todo:hover button,.todo button:focus{opacity:1}
+.addtodo{background:none;border:1px dashed var(--line);border-radius:5px;color:var(--muted);font-size:11.5px;padding:3px}
+.addtodo:hover{border-color:var(--accent);color:var(--accent)}
+
+/* 내 지원 */
+.apps{display:flex;flex-direction:column;gap:14px}
+.app{background:var(--card);border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow);overflow:hidden}
+.app-h{padding:13px 16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  border-bottom:1px solid var(--line-2);background:var(--paper)}
+.app-h .nm{font-size:15.5px;font-weight:700;letter-spacing:-.01em}
+.app-h .rl{font-size:12.5px;color:var(--muted)}
+.app-b{padding:14px 16px;display:flex;flex-direction:column;gap:14px}
+.track{display:flex;gap:0;flex-wrap:wrap;align-items:stretch}
+.step{flex:1;min-width:112px;border:1px solid var(--line);border-right:0;padding:8px 10px;
+  display:flex;flex-direction:column;gap:3px;background:var(--paper)}
+.step:first-child{border-radius:7px 0 0 7px}
+.step:last-child{border-right:1px solid var(--line);border-radius:0 7px 7px 0}
+.step .sn{font-size:11px;font-weight:700;letter-spacing:.03em;color:var(--muted)}
+.step .sd{font-family:var(--serif);font-size:13px}
+.step.done{background:var(--accent-soft);border-color:var(--accent-soft)}
+.step.done .sn{color:var(--accent-ink)}
+.step.fail{background:var(--line-2);opacity:.6}
+.step.next{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.step input[type=date]{border:0;background:none;padding:0;font-family:var(--serif);font-size:13px;width:100%}
+.step button.x{background:none;border:0;color:var(--muted);font-size:11px;padding:0;text-align:left}
+.step button.x:hover{color:var(--urgent)}
+.rowline{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px}
+.rowline label{font-size:12px;font-weight:600;color:var(--muted)}
+select,input[type=date],input[type=text],input[type=url],textarea{border:1px solid var(--line);
+  border-radius:6px;padding:6px 9px;background:var(--paper);font-size:13.5px;color:var(--ink)}
+textarea{width:100%;resize:vertical;min-height:80px;line-height:1.6;font-size:13.5px}
+.res-pass{color:var(--pass);font-weight:700}
+.res-fail{color:var(--fail);font-weight:700}
+.stage-add{display:flex;gap:6px;flex-wrap:wrap}
+.stage-add button{background:var(--card);border:1px dashed var(--line);border-radius:99px;
+  padding:3px 11px;font-size:12px;color:var(--muted)}
+.stage-add button:hover{border-color:var(--accent);border-style:solid;color:var(--accent)}
+.docs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.doc label{display:flex;justify-content:space-between;align-items:baseline;font-size:12px;
+  font-weight:700;color:var(--muted);margin-bottom:4px}
+.doc .cc{font-family:var(--serif);font-weight:400}
+details.fold summary{cursor:pointer;font-size:12.5px;font-weight:600;color:var(--muted);
+  list-style:none;padding:2px 0}
+details.fold summary::-webkit-details-marker{display:none}
+details.fold summary::before{content:"▸ ";font-size:10px}
+details.fold[open] summary::before{content:"▾ "}
+details.fold>div{padding-top:11px}
+
+/* 아카이브 */
+.arcgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.acard{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 15px;
+  display:flex;flex-direction:column;gap:8px;box-shadow:var(--shadow)}
+.acard .at{font-size:14.5px;font-weight:700;letter-spacing:-.01em}
+.acard .tags{display:flex;gap:5px;flex-wrap:wrap}
+.tg{font-size:11px;background:var(--accent-soft);color:var(--accent-ink);border-radius:99px;padding:1px 8px;font-weight:600}
+.star{display:grid;grid-template-columns:auto 1fr;gap:4px 9px;font-size:12.5px;line-height:1.5}
+.star dt{font-weight:700;color:var(--muted);font-size:11px;padding-top:2px}
+.star dd{margin:0;color:var(--ink-2)}
+.acard .row{display:flex;gap:8px;margin-top:2px}
+.acard .row button{background:none;border:0;color:var(--muted);font-size:12px;padding:0 3px}
+.acard .row button:hover{color:var(--accent)}
+.subtabs{display:flex;gap:5px;margin-bottom:14px}
+.subtabs button{background:var(--card);border:1px solid var(--line);border-radius:7px;
+  padding:5px 13px;font-size:13px;font-weight:600;color:var(--muted)}
+.subtabs button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.qa{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 15px;
+  display:flex;flex-direction:column;gap:8px;box-shadow:var(--shadow)}
+.qa .qh{display:flex;gap:8px;align-items:baseline}
+.qa .qh input{flex:1;font-weight:700}
+.empty{color:var(--muted);font-size:13.5px;background:var(--card);border:1px dashed var(--line);
+  border-radius:10px;padding:26px 20px;text-align:center;line-height:1.7}
+
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);
+  padding:22px;max-width:500px;width:92vw;box-shadow:0 20px 50px rgba(0,0,0,.25)}
+dialog::backdrop{background:rgba(20,27,26,.5)}
+.f{display:flex;flex-direction:column;gap:12px;margin-top:14px}
+.f label{display:flex;flex-direction:column;gap:3px;font-size:12px;font-weight:600;color:var(--muted)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.f-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:6px}
+.danger{background:none;border:0;color:var(--urgent);font-size:12.5px;margin-right:auto}
+.chkline{flex-direction:row!important;align-items:center;gap:7px!important;color:var(--ink)!important}
+.chips{display:flex;gap:7px;flex-wrap:wrap}
+.chips button{background:var(--paper);border:1px solid var(--line);border-radius:99px;
+  padding:5px 13px;font-size:13px;color:var(--ink-2)}
+.chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.note{font-size:12.5px;color:var(--muted);line-height:1.65;margin-top:26px;
+  border-top:1px solid var(--line);padding-top:14px;max-width:68ch}
+.note b{color:var(--ink-2)}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(12px);
+  background:var(--ink);color:var(--paper);padding:9px 17px;border-radius:7px;font-size:13px;
+  opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:60}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@media (max-width:900px){
+  .week{grid-template-columns:1fr 1fr}
+  .cell{min-height:88px}
+  .ev{font-size:10.5px}
+  .docs{grid-template-columns:1fr}
+}
+@media (max-width:560px){.week{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hbar">
+    <span class="brand">지원 보드</span>
+    <span class="today" id="todayLbl"></span>
+    <span class="hspace"></span>
+    <button class="ghost" id="prefBtn">내 조건</button>
+    <button class="ghost" id="addBtn">+ 공고</button>
+    <button class="ghost" id="expBtn">백업</button>
+    <button class="ghost" id="impBtn">복원</button>
+  </div>
+  <div class="rail"><div class="rail-in" id="rail"></div></div>
+</header>
+
+<div class="wrap">
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-v="list">전체 공고<span class="cnt" id="c-list"></span></button>
+    <button role="tab" aria-selected="false" data-v="mine">내 지원<span class="cnt" id="c-mine"></span></button>
+    <button role="tab" aria-selected="false" data-v="cal">캘린더</button>
+    <button role="tab" aria-selected="false" data-v="plan">주간 플래너</button>
+    <button role="tab" aria-selected="false" data-v="arc">아카이브</button>
+  </nav>
+
+  <!-- 전체 공고 -->
+  <section class="view" id="v-list">
+    <div class="viewhead">
+      <h2>전체 공고</h2>
+      <p class="sub" id="listCount"></p>
+      <span class="hspace"></span>
+      <button class="ghost" id="scopeBtn"></button>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="tblwrap">
+      <table>
+        <thead><tr>
+          <th>상태</th>
+          <th class="sortable" data-s="company">기업</th>
+          <th>직무</th>
+          <th class="sortable" data-s="start">시작</th>
+          <th class="sortable" data-s="end">마감</th>
+          <th>역대 오픈</th>
+          <th>출처</th>
+          <th></th>
+        </tr></thead>
+        <tbody id="listBody"></tbody>
+      </table>
+    </div>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--urgent-soft)"></i>접수 중</span>
+      <span><i class="sw" style="background:var(--accent-soft)"></i>확정 예정</span>
+      <span><i class="sw" style="border:1px dashed var(--muted)"></i>예상 (과거 패턴 추정)</span>
+      <span><i class="sw" style="background:var(--amber-soft)"></i>상시</span>
+      <span><i class="sw" style="background:var(--line-2)"></i>마감</span>
+    </div>
+  </section>
+
+  <!-- 내 지원 -->
+  <section class="view" id="v-mine" hidden>
+    <div class="viewhead">
+      <h2>내 지원</h2>
+      <p class="sub">전체 공고에서 ‘지원’을 누른 것만 모입니다. 서류 결과를 합격으로 바꾸면 다음 전형을 붙일 수 있습니다.</p>
+    </div>
+    <div class="apps" id="apps"></div>
+  </section>
+
+  <!-- 캘린더 -->
+  <section class="view" id="v-cal" hidden>
+    <div class="viewhead">
+      <button class="nav-btn" id="mPrev" aria-label="이전 달">‹</button>
+      <span class="period" id="mLbl"></span>
+      <button class="nav-btn" id="mNext" aria-label="다음 달">›</button>
+      <p class="sub">시작일·마감일과 내 전형 일정만 표시합니다.</p>
+    </div>
+    <div class="cal">
+      <div class="cal-dow"><div>일</div><div>월</div><div>화</div><div>수</div><div>목</div><div>금</div><div>토</div></div>
+      <div class="cal-grid" id="calGrid"></div>
+    </div>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--accent-soft)"></i>접수 시작</span>
+      <span><i class="sw" style="background:var(--urgent-soft)"></i>접수 마감</span>
+      <span><i class="sw" style="background:var(--amber-soft)"></i>전형 일정</span>
+    </div>
+  </section>
+
+  <!-- 주간 -->
+  <section class="view" id="v-plan" hidden>
+    <div class="viewhead">
+      <button class="nav-btn" id="wPrev" aria-label="지난 주">‹</button>
+      <span class="period" id="wLbl"></span>
+      <button class="nav-btn" id="wNext" aria-label="다음 주">›</button>
+      <button class="ghost" id="wToday">이번 주</button>
+    </div>
+    <div class="week" id="week"></div>
+  </section>
+
+  <!-- 아카이브 -->
+  <section class="view" id="v-arc" hidden>
+    <div class="viewhead">
+      <h2>아카이브</h2>
+      <p class="sub">공고와 무관하게 쌓아두는 재료입니다. 지원할 때 꺼내 씁니다.</p>
+    </div>
+    <div class="subtabs" id="arcTabs">
+      <button data-a="exp" aria-pressed="true">경험 정리</button>
+      <button data-a="cov" aria-pressed="false">마스터 자소서</button>
+      <button data-a="res" aria-pressed="false">마스터 이력서</button>
+    </div>
+    <div id="arcBody"></div>
+  </section>
+
+  <p class="note" id="footnote"></p>
+</div>
+
+<!-- 공고 추가/편집 -->
+<dialog id="dlg">
+  <h2 id="dlgTitle">공고 추가</h2>
+  <form method="dialog" class="f" id="form">
+    <label>기업<input type="text" name="company" required placeholder="예: 무신사"></label>
+    <label>직무 (쉼표로 구분)<input type="text" name="roles" placeholder="예: MD, 마케팅"></label>
+    <div class="row2">
+      <label>접수 시작<input type="date" name="start"></label>
+      <label>접수 마감<input type="date" name="end"></label>
+    </div>
+    <label class="chkline"><input type="checkbox" name="confirmed"> 확정 일정 (해제하면 ‘예상’으로 표시)</label>
+    <div class="row2">
+      <label>출처<select name="source">
+        <option>링커리어</option><option>자소설닷컴</option><option>사람인</option>
+        <option>원티드</option><option>잡코리아</option><option>자체 채용페이지</option><option>기타</option>
+      </select></label>
+      <label>기업 형태<select name="type">
+        <option>대기업</option><option>중견기업</option><option>유니콘</option>
+        <option>스타트업</option><option>공기업</option><option>기타</option>
+      </select></label>
+    </div>
+    <label>역대 오픈<input type="text" name="hist" placeholder="예: 23년 9/11~10/1 · 24년 9/12~10/4"></label>
+    <label>공고 링크<input type="url" name="url" placeholder="https://"></label>
+    <label>메모<textarea name="note" placeholder="지원 조건, 컬쳐핏 근거 등"></textarea></label>
+    <div class="f-actions">
+      <button type="button" class="danger" id="delBtn" hidden>삭제</button>
+      <button type="button" class="ghost" id="cancelBtn">취소</button>
+      <button type="submit" class="primary">저장</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- 내 조건 -->
+<dialog id="prefDlg">
+  <h2>내 조건</h2>
+  <p class="sub" style="margin-top:6px">고른 조건에 맞는 공고만 기본으로 보여줍니다. 안 고르면 전부 보입니다.</p>
+  <div class="f">
+    <label>관심 직무<div class="chips" id="roleChips"></div></label>
+    <label>기업 형태<div class="chips" id="typeChips"></div></label>
+    <div class="f-actions"><button class="primary" id="prefDone">저장</button></div>
+  </div>
+</dialog>
+
+<input type="file" id="fileIn" accept="application/json" hidden>
+<div class="toast" id="toast"></div>
+
+<script>
+"use strict";
+
+const KEY = "jobboard-v2";
+const ROLES = ["PM/서비스기획","마케팅","MD","사업기획","사업개발","영업","데이터","브랜드"];
+const TYPES = ["대기업","중견기업","유니콘","스타트업","공기업"];
+let STAGES = ["AI 역량검사","적성검사","인적성검사","1차 면접","2차 면접","최종 면접"];
+let SEED = [];
+
+/* ---------- 저장소 ---------- */
+let db = load();
+function load(){
+  try{
+    const r = JSON.parse(localStorage.getItem(KEY));
+    if(r && r.apps && r.custom && r.todos && r.arc && r.profile) return r;
+  }catch(e){}
+  return {profile:{roles:[],types:[],onboarded:false}, apps:{}, custom:[], todos:{},
+          arc:{exp:[], cov:[], res:""}};
+}
+function save(){
+  try{ localStorage.setItem(KEY, JSON.stringify(db)); }
+  catch(e){ toast("저장 공간이 가득 찼습니다. 백업 후 오래된 내용을 지워주세요."); }
+}
+function app(id){
+  if(!db.apps[id]) db.apps[id] = {applied:false, note:"", doc:"대기", stages:[], cover:"", resume:""};
+  return db.apps[id];
+}
+function allJobs(){ return SEED.concat(db.custom).filter(j => !j.deleted); }
+
+/* ---------- 날짜 ---------- */
+const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+const iso = d => d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const parse = s => { const p = s.split("-").map(Number); return new Date(p[0], p[1]-1, p[2]); };
+const dleft = s => Math.round((parse(s) - TODAY) / 86400000);
+const fmt = s => { const d = parse(s); return (d.getMonth()+1)+"월 "+d.getDate()+"일"; };
+
+/* ---------- 상태 판정 ---------- */
+function state(j){
+  if(!j.start && !j.end) return {k:"roll", label:"상시", cls:"p-roll"};
+  const s = j.start ? dleft(j.start) : null;
+  const e = j.end ? dleft(j.end) : null;
+  if(e !== null && e < 0) return {k:"shut", label:"마감", cls:"p-shut"};
+  if((s === null || s <= 0) && e !== null) return {k:"open", label:"접수 중 D-"+e, cls:"p-open"};
+  if(!j.confirmed) return {k:"est", label:"예상", cls:"p-est"};
+  return {k:"soon", label: s !== null ? "예정 D-"+s : "예정", cls:"p-soon"};
+}
+function pill(j){
+  const st = state(j), el = document.createElement("span");
+  el.className = "pill " + st.cls; el.textContent = st.label; return el;
+}
+/* 내 조건에 맞는가 */
+function fits(j){
+  const p = db.profile;
+  if(p.roles.length && !(j.roles || []).some(r => p.roles.includes(r))) return false;
+  if(p.types.length && !p.types.includes(j.type)) return false;
+  return true;
+}
+function scoped(){
+  return allJobs().filter(j => fits(j) || app(j.id).applied);
+}
+
+/* ---------- 전체 공고 ---------- */
+let filter = "all", sortKey = "end", sortDir = 1;
+const FILTERS = [["all","전체"],["open","접수 중"],["soon","확정 예정"],["est","예상"],["roll","상시"],["shut","마감"]];
+function renderList(){
+  const base = scoped();
+  const fb = document.getElementById("filters");
+  fb.innerHTML = "";
+  FILTERS.forEach(function(f){
+    const n = f[0]==="all" ? base.length : base.filter(j => state(j).k===f[0]).length;
+    const b = document.createElement("button");
+    b.textContent = f[1] + " " + n;
+    b.setAttribute("aria-pressed", filter===f[0]);
+    b.onclick = () => { filter = f[0]; renderList(); };
+    fb.appendChild(b);
+  });
+
+  const scopeOn = db.profile.roles.length || db.profile.types.length;
+  const sb = document.getElementById("scopeBtn");
+  sb.textContent = scopeOn ? "내 조건 적용 중 · 전체 보기" : "전체 보는 중 · 내 조건 설정";
+  sb.onclick = () => {
+    if(scopeOn){ db.profile._bak = {roles:db.profile.roles, types:db.profile.types};
+      db.profile.roles = []; db.profile.types = []; save(); renderAll(); }
+    else if(db.profile._bak){ db.profile.roles = db.profile._bak.roles;
+      db.profile.types = db.profile._bak.types; save(); renderAll(); }
+    else openPref();
+  };
+
+  let rows = filter==="all" ? base : base.filter(j => state(j).k===filter);
+  const key = j => sortKey==="company" ? (j.company||"") : (j[sortKey] || "9999-99-99");
+  rows = rows.slice().sort((a,b) => key(a).localeCompare(key(b),"ko") * sortDir);
+
+  document.getElementById("listCount").textContent = rows.length + "개";
+  document.getElementById("c-list").textContent = base.length;
+
+  const body = document.getElementById("listBody");
+  body.innerHTML = "";
+  if(!rows.length){
+    const tr = document.createElement("tr"), td = document.createElement("td");
+    td.colSpan = 8; td.style.cssText = "color:var(--muted);padding:24px 12px";
+    td.textContent = "해당하는 공고가 없습니다. ‘내 조건’을 넓히거나 직접 추가해 보세요.";
+    tr.appendChild(td); body.appendChild(tr); return;
+  }
+  rows.forEach(function(j){
+    const a = app(j.id), tr = document.createElement("tr");
+    tr.appendChild(cell(pill(j)));
+    tr.appendChild(cell(j.company, "co"));
+    tr.appendChild(cell((j.roles||[]).join(", ") || "—", "ro"));
+    tr.appendChild(cell(j.start ? fmt(j.start) : "—", "dt"));
+    tr.appendChild(cell(j.end ? fmt(j.end) : "—", "dt"));
+    tr.appendChild(cell(j.hist || "—", "hist"));
+    tr.appendChild(cell(j.source || "—", "", "color:var(--muted);font-size:12px"));
+
+    const act = document.createElement("td"); act.className = "act";
+    const ap = document.createElement("button");
+    ap.textContent = a.applied ? "지원함" : "지원";
+    ap.className = a.applied ? "on" : "";
+    ap.title = a.applied ? "내 지원에서 빼기" : "내 지원에 담기";
+    ap.onclick = () => { a.applied = !a.applied; save(); renderAll();
+      toast(a.applied ? j.company + " · 내 지원에 담았습니다" : "내 지원에서 뺐습니다"); };
+    act.appendChild(ap);
+    if(j.url){
+      const l = document.createElement("a");
+      l.href = j.url; l.target = "_blank"; l.rel = "noopener"; l.textContent = "공고";
+      act.appendChild(l);
+    }
+    const ed = document.createElement("button");
+    ed.textContent = "편집"; ed.onclick = () => openForm(j.id); act.appendChild(ed);
+    tr.appendChild(act);
+    body.appendChild(tr);
+  });
+}
+function cell(content, cls, style){
+  const td = document.createElement("td");
+  if(cls) td.className = cls;
+  if(style) td.style.cssText = style;
+  if(content instanceof Node) td.appendChild(content); else td.textContent = content;
+  return td;
+}
+
+/* ---------- 내 지원 ---------- */
+function myJobs(){ return allJobs().filter(j => app(j.id).applied); }
+function renderMine(){
+  const wrap = document.getElementById("apps");
+  wrap.innerHTML = "";
+  const list = myJobs().sort((a,b) => (a.end||"9999").localeCompare(b.end||"9999"));
+  document.getElementById("c-mine").textContent = list.length || "";
+  if(!list.length){
+    wrap.innerHTML = '<div class="empty">아직 담은 공고가 없습니다.<br>전체 공고에서 <b>지원</b>을 누르면 여기 모이고, 마감일과 전형 일정을 관리할 수 있습니다.</div>';
+    return;
+  }
+  list.forEach(function(j){
+    const a = app(j.id);
+    const card = document.createElement("div"); card.className = "app";
+
+    const h = document.createElement("div"); h.className = "app-h";
+    const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = j.company;
+    const rl = document.createElement("span"); rl.className = "rl"; rl.textContent = (j.roles||[]).join(", ");
+    h.append(nm, pill(j), rl);
+    const sp = document.createElement("span"); sp.className = "hspace"; h.appendChild(sp);
+    if(j.url){
+      const l = document.createElement("a"); l.href = j.url; l.target = "_blank"; l.rel = "noopener";
+      l.textContent = "공고 열기"; l.style.cssText = "font-size:12.5px;color:var(--muted)"; h.appendChild(l);
+    }
+    const rm = document.createElement("button"); rm.className = "ghost"; rm.textContent = "지원 취소";
+    rm.onclick = () => { a.applied = false; save(); renderAll(); };
+    h.appendChild(rm);
+    card.appendChild(h);
+
+    const b = document.createElement("div"); b.className = "app-b";
+
+    /* 전형 트랙 */
+    const track = document.createElement("div"); track.className = "track";
+    const s0 = document.createElement("div");
+    s0.className = "step" + (a.doc==="합격" ? " done" : a.doc==="불합격" ? " fail" : " next");
+    const s0n = document.createElement("div"); s0n.className = "sn"; s0n.textContent = "서류 마감";
+    const s0d = document.createElement("div"); s0d.className = "sd";
+    s0d.textContent = j.end ? fmt(j.end) + " (D-" + dleft(j.end) + ")" : "상시";
+    const s0r = document.createElement("select");
+    s0r.setAttribute("aria-label", j.company + " 서류 결과");
+    ["대기","합격","불합격"].forEach(function(o){
+      const op = document.createElement("option"); op.value = o;
+      op.textContent = "서류 " + o; op.selected = (a.doc===o); s0r.appendChild(op);
+    });
+    s0r.style.cssText = "border:0;background:none;padding:0;font-size:12px;font-weight:700";
+    s0r.className = a.doc==="합격" ? "res-pass" : a.doc==="불합격" ? "res-fail" : "";
+    s0r.onchange = () => { a.doc = s0r.value; save(); renderAll(); };
+    s0.append(s0n, s0d, s0r);
+    track.appendChild(s0);
+
+    a.stages.forEach(function(st, i){
+      const el = document.createElement("div");
+      el.className = "step" + (st.date && dleft(st.date) < 0 ? " done" : "");
+      const n = document.createElement("div"); n.className = "sn"; n.textContent = st.name;
+      const d = document.createElement("input"); d.type = "date"; d.value = st.date || "";
+      d.setAttribute("aria-label", j.company + " " + st.name + " 일정");
+      d.onchange = () => { st.date = d.value; save(); renderAll(); };
+      const x = document.createElement("button"); x.className = "x"; x.textContent = "빼기";
+      x.onclick = () => { a.stages.splice(i,1); save(); renderAll(); };
+      el.append(n, d, x);
+      track.appendChild(el);
+    });
+    b.appendChild(track);
+
+    /* 다음 전형 붙이기 — 서류 합격 이후에만 */
+    if(a.doc === "합격"){
+      const add = document.createElement("div"); add.className = "stage-add";
+      const lbl = document.createElement("span");
+      lbl.className = "sub"; lbl.style.marginRight = "2px"; lbl.textContent = "다음 전형 추가";
+      add.appendChild(lbl);
+      STAGES.filter(s => !a.stages.some(x => x.name===s)).forEach(function(s){
+        const btn = document.createElement("button"); btn.textContent = "+ " + s;
+        btn.onclick = () => { a.stages.push({name:s, date:""}); save(); renderAll(); };
+        add.appendChild(btn);
+      });
+      const other = document.createElement("button"); other.textContent = "+ 직접 입력";
+      other.onclick = () => {
+        const v = prompt("전형 이름 (예: 포트폴리오 발표)");
+        if(v && v.trim()){ a.stages.push({name:v.trim(), date:""}); save(); renderAll(); }
+      };
+      add.appendChild(other);
+      b.appendChild(add);
+    } else if(a.doc === "불합격"){
+      const p = document.createElement("p"); p.className = "sub";
+      p.textContent = "다음 시즌을 위해 아래에 쓴 자소서는 그대로 남겨둡니다.";
+      b.appendChild(p);
+    }
+
+    /* 제출 서류 */
+    const fold = document.createElement("details"); fold.className = "fold";
+    const sum = document.createElement("summary");
+    const cLen = (a.cover||"").length, rLen = (a.resume||"").length;
+    sum.textContent = "제출한 자소서 · 이력서" +
+      (cLen||rLen ? " (자소서 " + cLen + "자, 이력서 " + rLen + "자)" : " — 아직 비어 있음");
+    const inner = document.createElement("div"); inner.className = "docs";
+    inner.appendChild(docBox("자소서", a, "cover", j));
+    inner.appendChild(docBox("이력서", a, "resume", j));
+    fold.append(sum, inner);
+    b.appendChild(fold);
+
+    card.appendChild(b);
+    wrap.appendChild(card);
+  });
+}
+function docBox(title, a, field, j){
+  const d = document.createElement("div"); d.className = "doc";
+  const lab = document.createElement("label");
+  const t = document.createElement("span"); t.textContent = title;
+  const cc = document.createElement("span"); cc.className = "cc";
+  cc.textContent = (a[field]||"").length + "자";
+  const cp = document.createElement("button");
+  cp.className = "ghost"; cp.textContent = "마스터 불러오기";
+  cp.style.cssText = "padding:2px 8px;font-size:11px";
+  cp.onclick = () => {
+    const src = field==="cover"
+      ? db.arc.cov.map(q => q.q + "\n" + q.a).join("\n\n")
+      : db.arc.res;
+    if(!src){ toast("아카이브에 저장된 마스터 " + title + "가 없습니다"); return; }
+    if(a[field] && !confirm("지금 쓴 내용을 마스터 " + title + "로 덮어쓸까요?")) return;
+    a[field] = src; save(); renderMine(); toast("마스터 " + title + "를 불러왔습니다");
+  };
+  lab.append(t, cc, cp);
+  const ta = document.createElement("textarea");
+  ta.value = a[field] || "";
+  ta.placeholder = j.company + "에 낸 " + title + " 본문을 붙여넣어 두세요. 면접 준비 때 다시 씁니다.";
+  ta.oninput = () => { a[field] = ta.value; cc.textContent = ta.value.length + "자"; };
+  ta.onblur = save;
+  d.append(lab, ta);
+  return d;
+}
+
+/* ---------- 일정 모음 (캘린더·플래너 공용) ---------- */
+function events(){
+  const out = {};
+  const push = (date, obj) => { if(date) (out[date] = out[date] || []).push(obj); };
+  scoped().forEach(function(j){
+    const a = app(j.id);
+    push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, id:j.id});
+    push(j.end,   {kind:"end",   label:"마감", name:j.company, est:!j.confirmed, id:j.id});
+    if(a.applied) a.stages.forEach(s => push(s.date, {kind:"stage", label:s.name, name:j.company, est:false, id:j.id}));
+  });
+  return out;
+}
+
+/* ---------- 캘린더 ---------- */
+let curMonth = new Date(TODAY.getFullYear(), TODAY.getMonth(), 1);
+function renderCal(){
+  document.getElementById("mLbl").textContent = curMonth.getFullYear()+"년 "+(curMonth.getMonth()+1)+"월";
+  const grid = document.getElementById("calGrid"); grid.innerHTML = "";
+  const first = new Date(curMonth), start = new Date(first);
+  start.setDate(1 - first.getDay());
+  const ev = events();
+  for(let i=0;i<42;i++){
+    const d = new Date(start); d.setDate(start.getDate()+i);
+    const c = document.createElement("div");
+    c.className = "cell" + (d.getMonth()!==curMonth.getMonth() ? " out" : "") +
+                  (iso(d)===iso(TODAY) ? " is-today" : "");
+    const n = document.createElement("div"); n.className = "dnum"; n.textContent = d.getDate();
+    c.appendChild(n);
+    (ev[iso(d)] || []).forEach(function(e){
+      const b = document.createElement("button");
+      b.className = "ev ev-" + e.kind + (e.est ? " est" : "");
+      const pre = document.createElement("span"); pre.className = "pre"; pre.textContent = e.label;
+      b.appendChild(pre);
+      b.appendChild(document.createTextNode(e.name));
+      b.onclick = () => openForm(e.id);
+      c.appendChild(b);
+    });
+    grid.appendChild(c);
+  }
+}
+
+/* ---------- 주간 플래너 ---------- */
+let weekStart = mondayOf(TODAY);
+function mondayOf(d){ const m = new Date(d); m.setDate(d.getDate() - ((d.getDay()+6)%7)); m.setHours(0,0,0,0); return m; }
+function renderWeek(){
+  const end = new Date(weekStart); end.setDate(weekStart.getDate()+6);
+  document.getElementById("wLbl").textContent =
+    (weekStart.getMonth()+1)+"/"+weekStart.getDate()+" – "+(end.getMonth()+1)+"/"+end.getDate();
+  const names = ["월","화","수","목","금","토","일"];
+  const wrap = document.getElementById("week"); wrap.innerHTML = "";
+  const ev = events();
+  for(let i=0;i<7;i++){
+    const d = new Date(weekStart); d.setDate(weekStart.getDate()+i);
+    const k = iso(d);
+    const day = document.createElement("div");
+    day.className = "day" + (k===iso(TODAY) ? " is-today" : "");
+    const h = document.createElement("h3");
+    h.appendChild(document.createTextNode(names[i]));
+    const bb = document.createElement("b"); bb.textContent = d.getDate(); h.appendChild(bb);
+    day.appendChild(h);
+
+    (ev[k] || []).forEach(function(e){
+      const p = document.createElement("div");
+      p.className = "pev " + (e.kind==="start" ? "s" : e.kind==="end" ? "e" : "g");
+      p.textContent = e.label + " · " + e.name;
+      day.appendChild(p);
+    });
+
+    const list = document.createElement("div"); list.className = "todos";
+    (db.todos[k] || []).forEach(function(t, idx){
+      const row = document.createElement("div"); row.className = "todo" + (t.done ? " done" : "");
+      const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = !!t.done;
+      cb.setAttribute("aria-label", t.text);
+      cb.onchange = () => { db.todos[k][idx].done = cb.checked; save(); renderWeek(); };
+      const sp = document.createElement("span"); sp.textContent = t.text;
+      const x = document.createElement("button"); x.textContent = "×";
+      x.setAttribute("aria-label","할 일 삭제");
+      x.onclick = () => { db.todos[k].splice(idx,1); save(); renderWeek(); };
+      row.append(cb, sp, x); list.appendChild(row);
+    });
+    const add = document.createElement("button"); add.className = "addtodo"; add.textContent = "+ 할 일";
+    add.onclick = () => {
+      const v = prompt(names[i] + "요일에 할 일");
+      if(v && v.trim()){ (db.todos[k] = db.todos[k] || []).push({text:v.trim(), done:false}); save(); renderWeek(); }
+    };
+    list.appendChild(add);
+    day.appendChild(list);
+    wrap.appendChild(day);
+  }
+}
+
+/* ---------- 아카이브 ---------- */
+let arcTab = "exp";
+function renderArc(){
+  document.querySelectorAll("#arcTabs button").forEach(b =>
+    b.setAttribute("aria-pressed", b.dataset.a === arcTab));
+  const box = document.getElementById("arcBody");
+  box.innerHTML = "";
+
+  if(arcTab === "exp"){
+    const add = document.createElement("button");
+    add.className = "primary"; add.textContent = "+ 경험 추가";
+    add.style.marginBottom = "14px";
+    add.onclick = () => { db.arc.exp.unshift({id:"e"+Date.now(), title:"", tags:"", s:"", t:"", a:"", r:""}); save(); renderArc(); };
+    box.appendChild(add);
+
+    if(!db.arc.exp.length){
+      box.insertAdjacentHTML("beforeend",
+        '<div class="empty">경험을 상황·과제·행동·결과로 쪼개 두면 자소서를 쓸 때 그대로 꺼내 쓸 수 있습니다.<br>결과에는 숫자를 넣어두세요.</div>');
+      return;
+    }
+    const g = document.createElement("div"); g.className = "arcgrid";
+    db.arc.exp.forEach(function(e, i){
+      const c = document.createElement("div"); c.className = "acard";
+      c.appendChild(inp(e, "title", "경험 이름 (예: 커뮤니티 위기 대응)", "at"));
+      c.appendChild(inp(e, "tags", "태그 — 쉼표로 구분 (예: PM, 위기관리)"));
+      const dl = document.createElement("dl"); dl.className = "star";
+      [["상황","s"],["과제","t"],["행동","a"],["결과","r"]].forEach(function(p){
+        const dt = document.createElement("dt"); dt.textContent = p[0];
+        const dd = document.createElement("dd");
+        const ta = document.createElement("textarea");
+        ta.value = e[p[1]] || ""; ta.style.minHeight = "48px";
+        ta.setAttribute("aria-label", p[0]);
+        ta.oninput = () => { e[p[1]] = ta.value; };
+        ta.onblur = save;
+        dd.appendChild(ta); dl.append(dt, dd);
+      });
+      c.appendChild(dl);
+      const row = document.createElement("div"); row.className = "row";
+      const del = document.createElement("button"); del.textContent = "삭제";
+      del.onclick = () => { if(confirm("이 경험을 지울까요?")){ db.arc.exp.splice(i,1); save(); renderArc(); } };
+      row.appendChild(del); c.appendChild(row);
+      g.appendChild(c);
+    });
+    box.appendChild(g);
+  }
+
+  if(arcTab === "cov"){
+    const add = document.createElement("button");
+    add.className = "primary"; add.textContent = "+ 문항 추가"; add.style.marginBottom = "14px";
+    add.onclick = () => { db.arc.cov.push({id:"q"+Date.now(), q:"", a:""}); save(); renderArc(); };
+    box.appendChild(add);
+    if(!db.arc.cov.length){
+      box.insertAdjacentHTML("beforeend",
+        '<div class="empty">자주 나오는 문항(지원동기, 협업 경험, 직무 역량)의 기본 답안을 여기 만들어 두면,<br>공고마다 앞뒤만 고쳐 쓰면 됩니다.</div>');
+      return;
+    }
+    const g = document.createElement("div");
+    g.style.cssText = "display:flex;flex-direction:column;gap:12px";
+    db.arc.cov.forEach(function(q, i){
+      const c = document.createElement("div"); c.className = "qa";
+      const qh = document.createElement("div"); qh.className = "qh";
+      const qi = document.createElement("input"); qi.type = "text"; qi.value = q.q;
+      qi.placeholder = "문항 (예: 지원 동기와 입사 후 포부)";
+      qi.setAttribute("aria-label","문항");
+      qi.oninput = () => { q.q = qi.value; }; qi.onblur = save;
+      const cc = document.createElement("span");
+      cc.className = "sub"; cc.textContent = (q.a||"").length + "자";
+      const del = document.createElement("button");
+      del.className = "ghost"; del.textContent = "삭제";
+      del.onclick = () => { if(confirm("이 문항을 지울까요?")){ db.arc.cov.splice(i,1); save(); renderArc(); } };
+      qh.append(qi, cc, del);
+      const ta = document.createElement("textarea");
+      ta.value = q.a; ta.style.minHeight = "130px";
+      ta.setAttribute("aria-label","답안");
+      ta.oninput = () => { q.a = ta.value; cc.textContent = ta.value.length + "자"; };
+      ta.onblur = save;
+      c.append(qh, ta); g.appendChild(c);
+    });
+    box.appendChild(g);
+  }
+
+  if(arcTab === "res"){
+    const c = document.createElement("div"); c.className = "qa";
+    const lab = document.createElement("div");
+    lab.className = "sub";
+    lab.textContent = "경력·학력·자격증·수상을 한 벌로 써두고, 지원할 때 필요한 줄만 골라 씁니다. (" + (db.arc.res||"").length + "자)";
+    const ta = document.createElement("textarea");
+    ta.value = db.arc.res; ta.style.minHeight = "420px";
+    ta.setAttribute("aria-label","마스터 이력서");
+    ta.placeholder = "예)\n[경력]\n2026.02–현재 · 대학내일 비즈니스임팩트3팀 · 인플루언서 캐스팅 BDC, PPL 마케팅\n\n[프로젝트]\n\n[자격증]\n\n[수상]";
+    ta.oninput = () => { db.arc.res = ta.value; lab.textContent =
+      "경력·학력·자격증·수상을 한 벌로 써두고, 지원할 때 필요한 줄만 골라 씁니다. (" + ta.value.length + "자)"; };
+    ta.onblur = save;
+    c.append(lab, ta); box.appendChild(c);
+  }
+}
+function inp(obj, field, ph, cls){
+  const i = document.createElement("input");
+  i.type = "text"; i.value = obj[field] || ""; i.placeholder = ph;
+  i.setAttribute("aria-label", ph);
+  if(cls) i.className = cls;
+  i.style.cssText = "width:100%;border:0;border-bottom:1px solid var(--line-2);border-radius:0;" +
+                    "background:none;padding:3px 0" + (cls==="at" ? ";font-size:14.5px;font-weight:700" : "");
+  i.oninput = () => { obj[field] = i.value; }; i.onblur = save;
+  return i;
+}
+
+/* ---------- D-day 레일 ---------- */
+function renderRail(){
+  const items = [];
+  myJobs().forEach(function(j){
+    const a = app(j.id);
+    if(j.end && dleft(j.end) >= 0 && a.doc === "대기")
+      items.push({d:dleft(j.end), name:j.company, what:"서류 마감"});
+    a.stages.forEach(function(s){
+      if(s.date && dleft(s.date) >= 0) items.push({d:dleft(s.date), name:j.company, what:s.name});
+    });
+  });
+  scoped().forEach(function(j){
+    if(!app(j.id).applied && j.end && dleft(j.end) >= 0 && state(j).k !== "shut")
+      items.push({d:dleft(j.end), name:j.company, what:"마감 " + (j.confirmed ? "" : "(예상)")});
+  });
+  items.sort((a,b) => a.d - b.d);
+  const rail = document.getElementById("rail");
+  rail.innerHTML = "";
+  if(!items.length){
+    rail.innerHTML = '<p class="sub" style="margin:0">다가오는 일정이 없습니다.</p>';
+    return;
+  }
+  items.slice(0,9).forEach(function(it){
+    const el = document.createElement("div");
+    el.className = "dchip" + (it.d <= 3 ? " u" : it.d <= 10 ? " s" : "");
+    const d = document.createElement("div"); d.className = "d"; d.textContent = "D-" + it.d;
+    const c = document.createElement("div"); c.className = "c"; c.textContent = it.name;
+    const k = document.createElement("div"); k.className = "k"; k.textContent = it.what;
+    el.append(d, c, k); rail.appendChild(el);
+  });
+}
+
+/* ---------- 공고 폼 ---------- */
+const dlg = document.getElementById("dlg"), form = document.getElementById("form");
+let editId = null;
+function openForm(id){
+  editId = id || null;
+  const j = id ? allJobs().find(x => x.id === id) : null;
+  const isCustom = j && db.custom.some(c => c.id === j.id);
+  document.getElementById("dlgTitle").textContent = j ? j.company : "공고 추가";
+  form.company.value = j ? j.company : "";
+  form.roles.value = j ? (j.roles||[]).join(", ") : "";
+  form.start.value = j ? (j.start||"") : "";
+  form.end.value = j ? (j.end||"") : "";
+  form.confirmed.checked = j ? !!j.confirmed : true;
+  form.source.value = j ? (j.source || "링커리어") : "링커리어";
+  form.type.value = j ? (j.type || "대기업") : "대기업";
+  form.hist.value = j ? (j.hist || "") : "";
+  form.url.value = j ? (j.url || "") : "";
+  form.note.value = j ? (app(j.id).note || "") : "";
+  document.getElementById("delBtn").hidden = !isCustom;
+  dlg.showModal();
+}
+form.addEventListener("submit", function(){
+  const v = {
+    company: form.company.value.trim(),
+    roles: form.roles.value.split(",").map(s => s.trim()).filter(Boolean),
+    start: form.start.value, end: form.end.value,
+    confirmed: form.confirmed.checked,
+    source: form.source.value, type: form.type.value,
+    hist: form.hist.value.trim(), url: form.url.value.trim()
+  };
+  if(editId){
+    const own = db.custom.find(c => c.id === editId);
+    if(own) Object.assign(own, v);
+    else {
+      /* 공용 공고는 원본을 안 건드리고 내 사본으로 대체합니다 */
+      const orig = SEED.find(s => s.id === editId);
+      if(orig) Object.assign(orig, v);
+      db.apps[editId] = Object.assign(app(editId), {ovr:v});
+    }
+    app(editId).note = form.note.value.trim();
+  } else {
+    const id = "u" + Date.now();
+    db.custom.push(Object.assign({id:id}, v));
+    app(id).note = form.note.value.trim();
+  }
+  save(); editId = null; renderAll(); toast("저장했습니다");
+});
+document.getElementById("cancelBtn").onclick = () => { editId = null; dlg.close(); };
+document.getElementById("delBtn").onclick = function(){
+  if(!editId || !confirm("이 공고를 지울까요?")) return;
+  const i = db.custom.findIndex(c => c.id === editId);
+  if(i > -1) db.custom.splice(i,1);
+  delete db.apps[editId];
+  save(); editId = null; dlg.close(); renderAll(); toast("삭제했습니다");
+};
+document.getElementById("addBtn").onclick = () => openForm(null);
+
+/* ---------- 내 조건 ---------- */
+const prefDlg = document.getElementById("prefDlg");
+function openPref(){
+  chips("roleChips", ROLES, db.profile.roles);
+  chips("typeChips", TYPES, db.profile.types);
+  prefDlg.showModal();
+}
+function chips(elId, opts, arr){
+  const box = document.getElementById(elId); box.innerHTML = "";
+  opts.forEach(function(o){
+    const b = document.createElement("button"); b.type = "button"; b.textContent = o;
+    b.setAttribute("aria-pressed", arr.includes(o));
+    b.onclick = () => {
+      const i = arr.indexOf(o);
+      if(i > -1) arr.splice(i,1); else arr.push(o);
+      b.setAttribute("aria-pressed", arr.includes(o));
+    };
+    box.appendChild(b);
+  });
+}
+document.getElementById("prefBtn").onclick = openPref;
+document.getElementById("prefDone").onclick = function(){
+  db.profile.onboarded = true; delete db.profile._bak;
+  save(); prefDlg.close(); renderAll();
+  const n = scoped().length;
+  toast("조건에 맞는 공고 " + n + "개를 보여드립니다");
+};
+
+/* ---------- 백업 / 복원 ---------- */
+document.getElementById("expBtn").onclick = function(){
+  const blob = new Blob([JSON.stringify(db, null, 2)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "지원보드-백업-" + iso(new Date()) + ".json";
+  a.click(); URL.revokeObjectURL(a.href);
+  toast("백업 파일을 내려받았습니다");
+};
+document.getElementById("impBtn").onclick = () => document.getElementById("fileIn").click();
+document.getElementById("fileIn").onchange = function(e){
+  const f = e.target.files[0]; if(!f) return;
+  const rd = new FileReader();
+  rd.onload = function(){
+    try{
+      const r = JSON.parse(rd.result);
+      if(!r.apps || !r.arc || !r.profile) throw new Error("shape");
+      if(!confirm("지금 보드 내용을 백업 파일로 덮어씁니다. 진행할까요?")) return;
+      db = r; save(); renderAll(); toast("복원했습니다");
+    }catch(err){ toast("백업 파일 형식이 아닙니다"); }
+  };
+  rd.readAsText(f); e.target.value = "";
+};
+
+/* ---------- 배선 ---------- */
+document.querySelectorAll("nav.tabs button").forEach(function(b){
+  b.onclick = function(){
+    document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+    document.querySelectorAll(".view").forEach(v => v.hidden = (v.id !== "v-" + b.dataset.v));
+  };
+});
+document.querySelectorAll("#arcTabs button").forEach(function(b){
+  b.onclick = () => { arcTab = b.dataset.a; renderArc(); };
+});
+document.querySelectorAll("th.sortable").forEach(function(th){
+  th.onclick = () => { const k = th.dataset.s;
+    sortDir = (sortKey === k) ? -sortDir : 1; sortKey = k; renderList(); };
+});
+document.getElementById("mPrev").onclick = () => { curMonth.setMonth(curMonth.getMonth()-1); renderCal(); };
+document.getElementById("mNext").onclick = () => { curMonth.setMonth(curMonth.getMonth()+1); renderCal(); };
+document.getElementById("wPrev").onclick = () => { weekStart.setDate(weekStart.getDate()-7); renderWeek(); };
+document.getElementById("wNext").onclick = () => { weekStart.setDate(weekStart.getDate()+7); renderWeek(); };
+document.getElementById("wToday").onclick = () => { weekStart = mondayOf(TODAY); renderWeek(); };
+
+let tt;
+function toast(m){
+  const t = document.getElementById("toast");
+  t.textContent = m; t.classList.add("on");
+  clearTimeout(tt); tt = setTimeout(() => t.classList.remove("on"), 2400);
+}
+function renderAll(){ renderRail(); renderList(); renderMine(); renderCal(); renderWeek(); renderArc(); }
+
+/* ---------- 시작 ---------- */
+document.getElementById("todayLbl").textContent =
+  TODAY.getFullYear() + "." + String(TODAY.getMonth()+1).padStart(2,"0") + "." + String(TODAY.getDate()).padStart(2,"0");
+
+fetch("data/jobs.json?t=" + Date.now())
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(function(d){
+    SEED = d.jobs || [];
+    if(d.stages && d.stages.length) STAGES = d.stages;
+    /* 내가 고쳐둔 공용 공고는 내 값으로 되돌립니다 */
+    SEED.forEach(function(s){
+      const o = db.apps[s.id] && db.apps[s.id].ovr;
+      if(o) Object.assign(s, o);
+    });
+    document.getElementById("footnote").innerHTML =
+      '<b>공고 데이터 갱신</b> — ' + (d.updated || "—") + ' 기준. 공고 목록은 자동으로 갱신되지만, ' +
+      '<b>내 데이터는 이 브라우저에만 저장됩니다.</b> 지원 상태, 전형 일정, 자소서, 경험 정리는 서버로 전송되지 않고 ' +
+      '다른 사람에게도 보이지 않습니다. 대신 브라우저 데이터를 지우거나 기기를 옮기면 사라지니, ' +
+      '가끔 <b>백업</b>으로 파일을 내려받아 두세요.<br>' +
+      '<b>예상과 확정</b> — 점선 ‘예상’은 과거 3년 접수 패턴으로 추정한 날짜입니다. ' +
+      '실제 공고가 뜨면 확정 날짜로 바뀝니다. 직접 고칠 수도 있습니다.';
+    renderAll();
+    if(!db.profile.onboarded) openPref();
+  })
+  .catch(function(err){
+    document.getElementById("listBody").innerHTML =
+      '<tr><td colspan="8" style="padding:24px 12px;color:var(--muted)">' +
+      '공고 데이터를 불러오지 못했습니다. 배포된 주소로 열어야 합니다 (' + err.message + ').</td></tr>';
+  });
+</script>
+</body>
+</html>
