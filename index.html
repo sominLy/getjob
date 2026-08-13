@@ -200,6 +200,29 @@ textarea{width:100%;resize:vertical;min-height:80px;line-height:1.6;font-size:13
   padding:3px 11px;font-size:12px;color:var(--muted)}
 .stage-add button:hover{border-color:var(--accent);border-style:solid;color:var(--accent)}
 .docs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.docs.two{grid-template-columns:1fr 1fr}
+/* 자소서 문항 편집기 */
+.essay{border:1px solid var(--line);border-radius:9px;padding:11px 12px;background:var(--paper);
+  display:flex;flex-direction:column;gap:8px}
+.e-head{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--muted)}
+.e-num{font-family:var(--serif);font-weight:700;font-size:14px;color:var(--accent-ink);
+  background:var(--accent-soft);border-radius:50%;width:22px;height:22px;
+  display:grid;place-items:center;flex:0 0 auto}
+.e-q{flex:1;min-width:0;border:0;border-bottom:1px solid var(--line);border-radius:0;
+  background:none;padding:4px 0;font-size:13.5px;font-weight:600}
+.e-lim{width:74px;flex:0 0 auto;text-align:right;font-family:var(--serif)}
+.e-del{background:none;border:0;color:var(--muted);font-size:16px;line-height:1;padding:0 3px;flex:0 0 auto}
+.e-del:hover{color:var(--urgent)}
+.essay textarea{background:var(--card)}
+.e-bar{display:flex;align-items:center;gap:10px}
+.e-cnt{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.e-cnt.near{color:var(--amber);font-weight:600}
+.e-cnt.over{color:var(--urgent);font-weight:700}
+.e-gauge{flex:1;height:3px;background:var(--line);border-radius:2px;overflow:hidden}
+.e-gauge i{display:block;height:100%;background:var(--accent);transition:width .15s}
+.e-gauge i.over{background:var(--urgent)}
+/* 내가 지원한 공고는 캘린더에서 굵게 */
+.ev.mine{box-shadow:inset 2px 0 0 currentColor;font-weight:700}
 .doc label{display:flex;justify-content:space-between;align-items:baseline;font-size:12px;
   font-weight:700;color:var(--muted);margin-bottom:4px}
 .doc .cc{font-family:var(--serif);font-weight:400}
@@ -337,7 +360,8 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
       <button class="nav-btn" id="mPrev" aria-label="이전 달">‹</button>
       <span class="period" id="mLbl"></span>
       <button class="nav-btn" id="mNext" aria-label="다음 달">›</button>
-      <p class="sub">시작일·마감일과 내 전형 일정만 표시합니다.</p>
+      <button class="ghost" id="mineBtn" aria-pressed="false">내 지원만</button>
+      <p class="sub">내가 지원한 공고는 굵게 표시되고, 전형 일정도 함께 올라옵니다.</p>
     </div>
     <div class="cal">
       <div class="cal-dow"><div>일</div><div>월</div><div>화</div><div>수</div><div>목</div><div>금</div><div>토</div></div>
@@ -371,6 +395,7 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
       <button data-a="exp" aria-pressed="true">경험 정리</button>
       <button data-a="cov" aria-pressed="false">마스터 자소서</button>
       <button data-a="res" aria-pressed="false">마스터 이력서</button>
+      <button data-a="pf" aria-pressed="false">마스터 포트폴리오</button>
     </div>
     <div id="arcBody"></div>
   </section>
@@ -439,19 +464,37 @@ let db = load();
 function load(){
   try{
     const r = JSON.parse(localStorage.getItem(KEY));
-    if(r && r.apps && r.custom && r.todos && r.arc && r.profile) return r;
+    if(r && r.apps && r.custom && r.todos && r.arc && r.profile){
+      if(r.arc.pf === undefined) r.arc.pf = "";
+      return r;
+    }
   }catch(e){}
   return {profile:{roles:[],types:[],onboarded:false}, apps:{}, custom:[], todos:{},
-          arc:{exp:[], cov:[], res:""}};
+          arc:{exp:[], cov:[], res:"", pf:""}};
 }
 function save(){
   try{ localStorage.setItem(KEY, JSON.stringify(db)); }
   catch(e){ toast("저장 공간이 가득 찼습니다. 백업 후 오래된 내용을 지워주세요."); }
 }
 function app(id){
-  if(!db.apps[id]) db.apps[id] = {applied:false, note:"", doc:"대기", stages:[], cover:"", resume:""};
-  return db.apps[id];
+  if(!db.apps[id]) db.apps[id] = {applied:false, note:"", doc:"대기", stages:[],
+                                  cover:"", resume:"", folio:"", myEnd:"", at:""};
+  const a = db.apps[id];
+  if(a.folio === undefined) a.folio = "";
+  if(a.myEnd === undefined) a.myEnd = "";
+  if(a.at === undefined) a.at = "";
+  if(a.role === undefined) a.role = "";      // 이 공고에 어떤 직무로 넣었는지
+  if(a.req === undefined) a.req = "";        // 그 직무의 자격요건
+  if(a.pref === undefined) a.pref = "";      // 우대사항
+  if(!a.essays){                             // 자소서를 문항별로 쪼갭니다
+    a.essays = a.cover ? [{q:"", limit:0, a:a.cover}] : [];
+  }
+  return a;
 }
+/* 공백 포함·제외 글자수 */
+function counts(s){ s = s || ""; return {all:s.length, noSpace:s.replace(/\s/g,"").length}; }
+/* 지원한 공고의 마감일 — 내가 적은 게 있으면 그걸 우선 */
+function deadline(j){ const a = app(j.id); return (a.applied && a.myEnd) ? a.myEnd : j.end; }
 function allJobs(){ return SEED.concat(db.custom).filter(j => !j.deleted); }
 
 /* ---------- 날짜 ---------- */
@@ -543,8 +586,17 @@ function renderList(){
     ap.textContent = a.applied ? "지원함" : "지원";
     ap.className = a.applied ? "on" : "";
     ap.title = a.applied ? "내 지원에서 빼기" : "내 지원에 담기";
-    ap.onclick = () => { a.applied = !a.applied; save(); renderAll();
-      toast(a.applied ? j.company + " · 내 지원에 담았습니다" : "내 지원에서 뺐습니다"); };
+    ap.onclick = () => {
+      a.applied = !a.applied;
+      if(a.applied){
+        a.at = iso(TODAY);
+        if(!j.end && !a.myEnd) a.myEnd = "";   // 상시 공고는 내 지원 탭에서 마감일을 직접 넣습니다
+        save(); renderAll();
+        document.querySelector('nav.tabs button[data-v="mine"]').click();
+        toast(j.end ? j.company + " · 내 지원에 담았습니다"
+                    : j.company + " · 담았습니다. 상시 공고라 마감일을 직접 넣어주세요");
+      } else { save(); renderAll(); toast("내 지원에서 뺐습니다"); }
+    };
     act.appendChild(ap);
     if(j.url){
       const l = document.createElement("a");
@@ -602,7 +654,23 @@ function renderMine(){
     s0.className = "step" + (a.doc==="합격" ? " done" : a.doc==="불합격" ? " fail" : " next");
     const s0n = document.createElement("div"); s0n.className = "sn"; s0n.textContent = "서류 마감";
     const s0d = document.createElement("div"); s0d.className = "sd";
-    s0d.textContent = j.end ? fmt(j.end) + " (D-" + dleft(j.end) + ")" : "상시";
+    const dl = deadline(j);
+    if(dl && !a.myEnd){
+      s0d.textContent = fmt(dl) + " (D-" + dleft(dl) + ")";
+    } else {
+      /* 상시 공고이거나 내가 마감일을 바꾼 경우 — 직접 입력 */
+      const di = document.createElement("input");
+      di.type = "date"; di.value = a.myEnd || "";
+      di.setAttribute("aria-label", j.company + " 서류 마감일");
+      di.onchange = () => { a.myEnd = di.value; save(); renderAll(); };
+      s0d.appendChild(di);
+      if(dl){
+        const dd = document.createElement("div");
+        dd.style.cssText = "font-size:10.5px;color:var(--muted)";
+        dd.textContent = "D-" + dleft(dl);
+        s0d.appendChild(dd);
+      }
+    }
     const s0r = document.createElement("select");
     s0r.setAttribute("aria-label", j.company + " 서류 결과");
     ["대기","합격","불합격"].forEach(function(o){
@@ -653,22 +721,172 @@ function renderMine(){
       b.appendChild(p);
     }
 
-    /* 제출 서류 */
+    /* 지원 직무 */
+    const rl2 = document.createElement("div"); rl2.className = "rowline";
+    const rlab = document.createElement("label"); rlab.textContent = "지원 직무";
+    const rsel = document.createElement("select");
+    rsel.setAttribute("aria-label", j.company + " 지원 직무");
+    const opts = (j.roles || []).slice();
+    if(a.role && opts.indexOf(a.role) === -1) opts.push(a.role);
+    const none = document.createElement("option");
+    none.value = ""; none.textContent = "— 고르기 —"; none.selected = !a.role;
+    rsel.appendChild(none);
+    opts.forEach(function(o){
+      const op = document.createElement("option");
+      op.value = o; op.textContent = o; op.selected = (o === a.role); rsel.appendChild(op);
+    });
+    const other = document.createElement("option");
+    other.value = "__etc"; other.textContent = "직접 입력…"; rsel.appendChild(other);
+    rsel.onchange = () => {
+      if(rsel.value === "__etc"){
+        const v = prompt("지원 직무 (공고에 적힌 이름 그대로)", a.role || "");
+        a.role = (v || "").trim();
+      } else a.role = rsel.value;
+      save(); renderMine();
+    };
+    rl2.append(rlab, rsel);
+    if(a.role){
+      const tg = document.createElement("span"); tg.className = "tg"; tg.textContent = a.role;
+      rl2.appendChild(tg);
+    }
+    b.appendChild(rl2);
+
+    /* 직무 요구사항 아카이빙 */
+    const rqf = document.createElement("details"); rqf.className = "fold";
+    const rqs = document.createElement("summary");
+    rqs.textContent = "이 직무의 자격요건 · 우대사항" +
+      ((a.req || a.pref) ? "" : " — 공고에서 복사해 두세요");
+    const rqi = document.createElement("div"); rqi.className = "docs two";
+    rqi.appendChild(memoBox("자격요건", a, "req", "공고의 자격요건을 그대로 붙여넣으세요."));
+    rqi.appendChild(memoBox("우대사항", a, "pref", "우대사항을 붙여넣고, 내가 충족하는 항목에 표시해 두면 자소서 소재가 됩니다."));
+    rqf.append(rqs, rqi);
+    b.appendChild(rqf);
+
+    /* 자소서 — 문항별 */
+    const ef = document.createElement("details"); ef.className = "fold";
+    const es = document.createElement("summary");
+    const done = a.essays.filter(e => (e.a || "").trim()).length;
+    es.textContent = a.essays.length
+      ? "자소서 — " + a.essays.length + "문항 (작성 " + done + "/" + a.essays.length + ")"
+      : "자소서 — 문항을 추가해 주세요";
+    const ei = document.createElement("div");
+    ei.style.cssText = "display:flex;flex-direction:column;gap:12px";
+    a.essays.forEach(function(e, i){ ei.appendChild(essayBox(a, e, i, j)); });
+    const eadd = document.createElement("div"); eadd.className = "stage-add";
+    const eb = document.createElement("button");
+    eb.textContent = "+ 문항 추가";
+    eb.onclick = () => { a.essays.push({q:"", limit:0, a:""}); save(); renderMine(); };
+    eadd.appendChild(eb);
+    if(db.arc.cov.length){
+      const mb = document.createElement("button");
+      mb.textContent = "마스터 자소서 문항 가져오기";
+      mb.onclick = () => {
+        db.arc.cov.forEach(q => a.essays.push({q:q.q, limit:0, a:q.a}));
+        save(); renderMine(); toast("마스터 문항 " + db.arc.cov.length + "개를 가져왔습니다");
+      };
+      eadd.appendChild(mb);
+    }
+    ei.appendChild(eadd);
+    ef.append(es, ei);
+    b.appendChild(ef);
+
+    /* 이력서 · 포트폴리오 */
     const fold = document.createElement("details"); fold.className = "fold";
     const sum = document.createElement("summary");
-    const cLen = (a.cover||"").length, rLen = (a.resume||"").length;
-    sum.textContent = "제출한 자소서 · 이력서" +
-      (cLen||rLen ? " (자소서 " + cLen + "자, 이력서 " + rLen + "자)" : " — 아직 비어 있음");
-    const inner = document.createElement("div"); inner.className = "docs";
-    inner.appendChild(docBox("자소서", a, "cover", j));
+    const lens = [["이력서", (a.resume||"").length], ["포트폴리오", (a.folio||"").length]].filter(x => x[1]);
+    sum.textContent = "이력서 · 포트폴리오" +
+      (lens.length ? " (" + lens.map(x => x[0] + " " + x[1] + "자").join(", ") + ")" : " — 아직 비어 있음");
+    const inner = document.createElement("div"); inner.className = "docs two";
     inner.appendChild(docBox("이력서", a, "resume", j));
+    inner.appendChild(docBox("포트폴리오", a, "folio", j));
     fold.append(sum, inner);
     b.appendChild(fold);
+
+    if(a.at){
+      const meta = document.createElement("p");
+      meta.className = "sub"; meta.style.fontSize = "11.5px";
+      meta.textContent = "담은 날 " + fmt(a.at);
+      b.appendChild(meta);
+    }
 
     card.appendChild(b);
     wrap.appendChild(card);
   });
 }
+/* 자소설닷컴처럼 문항별로 제한 글자수를 걸고 실시간으로 셉니다 */
+function essayBox(a, e, i, j){
+  const box = document.createElement("div"); box.className = "essay";
+
+  const head = document.createElement("div"); head.className = "e-head";
+  const num = document.createElement("span"); num.className = "e-num"; num.textContent = i + 1;
+  const q = document.createElement("input");
+  q.type = "text"; q.value = e.q || ""; q.className = "e-q";
+  q.placeholder = "문항을 그대로 붙여넣으세요 (예: 지원 동기와 입사 후 포부를 기술해 주십시오)";
+  q.setAttribute("aria-label", (i+1) + "번 문항");
+  q.oninput = () => { e.q = q.value; }; q.onblur = save;
+
+  const lim = document.createElement("input");
+  lim.type = "number"; lim.min = "0"; lim.step = "100"; lim.className = "e-lim";
+  lim.value = e.limit || ""; lim.placeholder = "제한";
+  lim.setAttribute("aria-label", (i+1) + "번 문항 제한 글자수");
+
+  const del = document.createElement("button");
+  del.className = "e-del"; del.textContent = "×";
+  del.setAttribute("aria-label", (i+1) + "번 문항 삭제");
+  del.onclick = () => { if(confirm((i+1) + "번 문항을 지울까요?")){ a.essays.splice(i,1); save(); renderMine(); } };
+  head.append(num, q, lim, document.createTextNode("자"), del);
+
+  const ta = document.createElement("textarea");
+  ta.value = e.a || ""; ta.style.minHeight = "150px";
+  ta.setAttribute("aria-label", (i+1) + "번 문항 답안");
+  ta.placeholder = "답안을 쓰세요. 붙여넣어도 글자수가 바로 계산됩니다.";
+
+  const bar = document.createElement("div"); bar.className = "e-bar";
+  const cnt = document.createElement("span"); cnt.className = "e-cnt";
+  const gauge = document.createElement("div"); gauge.className = "e-gauge";
+  const fill = document.createElement("i");
+  gauge.appendChild(fill);
+
+  function refresh(){
+    const c = counts(ta.value), L = Number(e.limit) || 0;
+    if(L){
+      const over = c.all > L;
+      cnt.textContent = c.all + " / " + L + "자 · 공백 제외 " + c.noSpace + "자" +
+                        (over ? " · " + (c.all - L) + "자 초과" : " · " + (L - c.all) + "자 남음");
+      cnt.className = "e-cnt" + (over ? " over" : c.all >= L * 0.9 ? " near" : "");
+      gauge.hidden = false;
+      fill.style.width = Math.min(100, (c.all / L) * 100) + "%";
+      fill.className = over ? "over" : "";
+    } else {
+      cnt.textContent = c.all + "자 · 공백 제외 " + c.noSpace + "자";
+      cnt.className = "e-cnt"; gauge.hidden = true;
+    }
+  }
+  ta.oninput = () => { e.a = ta.value; refresh(); };
+  ta.onblur = save;
+  lim.oninput = () => { e.limit = Number(lim.value) || 0; refresh(); };
+  lim.onblur = () => { save(); renderMine(); };
+  refresh();
+
+  bar.append(cnt, gauge);
+  box.append(head, ta, bar);
+  return box;
+}
+
+/* 자격요건·우대사항처럼 그냥 붙여넣어 두는 칸 */
+function memoBox(title, a, field, ph){
+  const d = document.createElement("div"); d.className = "doc";
+  const lab = document.createElement("label");
+  const t = document.createElement("span"); t.textContent = title;
+  lab.appendChild(t);
+  const ta = document.createElement("textarea");
+  ta.value = a[field] || ""; ta.placeholder = ph;
+  ta.setAttribute("aria-label", title);
+  ta.oninput = () => { a[field] = ta.value; }; ta.onblur = save;
+  d.append(lab, ta);
+  return d;
+}
+
 function docBox(title, a, field, j){
   const d = document.createElement("div"); d.className = "doc";
   const lab = document.createElement("label");
@@ -679,9 +897,9 @@ function docBox(title, a, field, j){
   cp.className = "ghost"; cp.textContent = "마스터 불러오기";
   cp.style.cssText = "padding:2px 8px;font-size:11px";
   cp.onclick = () => {
-    const src = field==="cover"
-      ? db.arc.cov.map(q => q.q + "\n" + q.a).join("\n\n")
-      : db.arc.res;
+    const src = field==="cover" ? db.arc.cov.map(q => q.q + "\n" + q.a).join("\n\n")
+              : field==="resume" ? db.arc.res
+              : db.arc.pf;
     if(!src){ toast("아카이브에 저장된 마스터 " + title + "가 없습니다"); return; }
     if(a[field] && !confirm("지금 쓴 내용을 마스터 " + title + "로 덮어쓸까요?")) return;
     a[field] = src; save(); renderMine(); toast("마스터 " + title + "를 불러왔습니다");
@@ -697,14 +915,23 @@ function docBox(title, a, field, j){
 }
 
 /* ---------- 일정 모음 (캘린더·플래너 공용) ---------- */
+let mineOnly = false;
 function events(){
   const out = {};
   const push = (date, obj) => { if(date) (out[date] = out[date] || []).push(obj); };
   scoped().forEach(function(j){
     const a = app(j.id);
-    push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, id:j.id});
-    push(j.end,   {kind:"end",   label:"마감", name:j.company, est:!j.confirmed, id:j.id});
-    if(a.applied) a.stages.forEach(s => push(s.date, {kind:"stage", label:s.name, name:j.company, est:false, id:j.id}));
+    if(mineOnly && !a.applied) return;
+    if(!a.applied) {
+      push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, mine:false, id:j.id});
+      push(j.end,   {kind:"end",   label:"마감", name:j.company, est:!j.confirmed, mine:false, id:j.id});
+      return;
+    }
+    /* 지원한 공고 — 내가 정한 마감일을 우선하고, 전형 일정도 함께 올립니다 */
+    push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, mine:true, id:j.id});
+    push(deadline(j), {kind:"end", label:"마감", name:j.company, est:false, mine:true, id:j.id});
+    a.stages.forEach(s => push(s.date,
+      {kind:"stage", label:s.name, name:j.company, est:false, mine:true, id:j.id}));
   });
   return out;
 }
@@ -726,7 +953,8 @@ function renderCal(){
     c.appendChild(n);
     (ev[iso(d)] || []).forEach(function(e){
       const b = document.createElement("button");
-      b.className = "ev ev-" + e.kind + (e.est ? " est" : "");
+      b.className = "ev ev-" + e.kind + (e.est ? " est" : "") + (e.mine ? " mine" : "");
+      if(e.mine) b.title = "내가 지원한 공고";
       const pre = document.createElement("span"); pre.className = "pre"; pre.textContent = e.label;
       b.appendChild(pre);
       b.appendChild(document.createTextNode(e.name));
@@ -868,17 +1096,24 @@ function renderArc(){
     box.appendChild(g);
   }
 
-  if(arcTab === "res"){
+  if(arcTab === "res" || arcTab === "pf"){
+    const isRes = arcTab === "res";
+    const field = isRes ? "res" : "pf";
+    if(db.arc[field] === undefined) db.arc[field] = "";
+    const desc = isRes
+      ? "경력·학력·자격증·수상을 한 벌로 써두고, 지원할 때 필요한 줄만 골라 씁니다."
+      : "포트폴리오 링크와 각 프로젝트 설명을 한 벌로 써둡니다. 파일은 못 올리니 노션·피그마 링크를 적어두세요.";
     const c = document.createElement("div"); c.className = "qa";
-    const lab = document.createElement("div");
-    lab.className = "sub";
-    lab.textContent = "경력·학력·자격증·수상을 한 벌로 써두고, 지원할 때 필요한 줄만 골라 씁니다. (" + (db.arc.res||"").length + "자)";
+    const lab = document.createElement("div"); lab.className = "sub";
+    const setLab = n => { lab.textContent = desc + " (" + n + "자)"; };
+    setLab((db.arc[field] || "").length);
     const ta = document.createElement("textarea");
-    ta.value = db.arc.res; ta.style.minHeight = "420px";
-    ta.setAttribute("aria-label","마스터 이력서");
-    ta.placeholder = "예)\n[경력]\n2026.02–현재 · 대학내일 비즈니스임팩트3팀 · 인플루언서 캐스팅 BDC, PPL 마케팅\n\n[프로젝트]\n\n[자격증]\n\n[수상]";
-    ta.oninput = () => { db.arc.res = ta.value; lab.textContent =
-      "경력·학력·자격증·수상을 한 벌로 써두고, 지원할 때 필요한 줄만 골라 씁니다. (" + ta.value.length + "자)"; };
+    ta.value = db.arc[field]; ta.style.minHeight = "420px";
+    ta.setAttribute("aria-label", isRes ? "마스터 이력서" : "마스터 포트폴리오");
+    ta.placeholder = isRes
+      ? "예)\n[경력]\n2026.02–현재 · 대학내일 비즈니스임팩트3팀 · 인플루언서 캐스팅 BDC, PPL 마케팅\n\n[프로젝트]\n\n[자격증]\n\n[수상]"
+      : "예)\n[포트폴리오 링크] https://...\n\n[프로젝트 1] 이름 / 기간 / 역할\n- 문제:\n- 한 일:\n- 결과(숫자):\n\n[프로젝트 2]";
+    ta.oninput = () => { db.arc[field] = ta.value; setLab(ta.value.length); };
     ta.onblur = save;
     c.append(lab, ta); box.appendChild(c);
   }
@@ -1049,6 +1284,12 @@ document.querySelectorAll("th.sortable").forEach(function(th){
   th.onclick = () => { const k = th.dataset.s;
     sortDir = (sortKey === k) ? -sortDir : 1; sortKey = k; renderList(); };
 });
+document.getElementById("mineBtn").onclick = function(){
+  mineOnly = !mineOnly;
+  this.setAttribute("aria-pressed", mineOnly);
+  this.textContent = mineOnly ? "전체 보기" : "내 지원만";
+  renderCal(); renderWeek();
+};
 document.getElementById("mPrev").onclick = () => { curMonth.setMonth(curMonth.getMonth()-1); renderCal(); };
 document.getElementById("mNext").onclick = () => { curMonth.setMonth(curMonth.getMonth()+1); renderCal(); };
 document.getElementById("wPrev").onclick = () => { weekStart.setDate(weekStart.getDate()-7); renderWeek(); };
