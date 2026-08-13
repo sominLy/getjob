@@ -758,6 +758,8 @@ function state(j){
   const e = j.end ? dleft(j.end) : null;
   if(e !== null && e < 0) return {k:"shut", label:"마감", cls:"p-shut"};
   if((s === null || s <= 0) && e !== null) return {k:"open", label:"접수 중 D-"+e, cls:"p-open"};
+  /* 시작은 했는데 마감일을 아직 못 확인한 공고 */
+  if(s !== null && s <= 0 && e === null) return {k:"open", label:"접수 중", cls:"p-open"};
   if(!j.confirmed) return {k:"est", label:"예상", cls:"p-est"};
   return {k:"soon", label: s !== null ? "예정 D-"+s : "예정", cls:"p-soon"};
 }
