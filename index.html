@@ -46,8 +46,11 @@
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
 body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;
-  line-height:1.55;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+  line-height:1.55;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums;
+  overflow-x:hidden;overscroll-behavior-y:none}
+button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 button,input,select,textarea{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
@@ -223,6 +226,59 @@ textarea{width:100%;resize:vertical;min-height:80px;line-height:1.6;font-size:13
 .e-gauge i.over{background:var(--urgent)}
 /* 내가 지원한 공고는 캘린더에서 굵게 */
 .ev.mine{box-shadow:inset 2px 0 0 currentColor;font-weight:700}
+
+/* D-day 레일 */
+.rail-lead{flex:0 0 auto;align-self:center;display:flex;flex-direction:column;gap:1px;
+  padding-right:4px;font-size:11px;color:var(--muted);line-height:1.25}
+.rail-lead b{color:var(--accent);font-size:11.5px;letter-spacing:.02em}
+.rail-lead.dim b{color:var(--muted);font-weight:600}
+.dchip.mine{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent-soft)}
+.dchip.dim{opacity:.72}
+
+/* D-day 한눈에 보기 */
+.ddb{background:var(--card);border:1px solid var(--line);border-radius:11px;
+  padding:14px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
+.ddb-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.ddb-h h3{font-size:15px;font-weight:700;letter-spacing:-.01em}
+.ddb-list{display:flex;flex-direction:column;gap:1px}
+.dd{display:grid;grid-template-columns:66px 1fr auto auto;align-items:center;gap:12px;
+  padding:8px 10px;border-radius:7px;border-left:3px solid var(--line)}
+.dd:nth-child(odd){background:var(--paper)}
+.dd.s{border-left-color:var(--amber)}
+.dd.u{border-left-color:var(--urgent);background:var(--urgent-soft)}
+.dd-n{font-family:var(--serif);font-size:19px;font-weight:700;line-height:1;letter-spacing:-.02em}
+.dd.s .dd-n{color:var(--amber)}
+.dd.u .dd-n{color:var(--urgent)}
+.dd-co{font-size:13.5px;font-weight:700;letter-spacing:-.01em;min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dd-w{font-size:12px;color:var(--ink-2);white-space:nowrap}
+.dd-d{font-family:var(--serif);font-size:12px;color:var(--muted);white-space:nowrap}
+.hd-dday{font-family:var(--serif);font-size:14px;font-weight:700;letter-spacing:-.01em;
+  padding:1px 9px;border-radius:99px;background:var(--line-2);color:var(--ink-2)}
+.hd-dday.s{background:var(--amber-soft);color:var(--amber)}
+.hd-dday.u{background:var(--urgent-soft);color:var(--urgent)}
+
+/* 도움말 */
+.help-fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:50;
+  width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--card);
+  color:var(--accent);font-size:19px;font-weight:700;box-shadow:0 4px 16px rgba(20,27,26,.18)}
+.help-fab:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.help{position:fixed;right:16px;bottom:calc(72px + env(safe-area-inset-bottom));z-index:50;
+  width:min(370px,calc(100vw - 32px));max-height:min(66vh,560px);overflow-y:auto;
+  background:var(--card);border:1px solid var(--line);border-radius:13px;
+  box-shadow:0 18px 46px rgba(20,27,26,.24);padding:16px 18px 18px}
+.help[hidden]{display:none}
+.help h3{font-size:15px;font-weight:700;letter-spacing:-.01em;margin-bottom:2px}
+.help .close{position:absolute;top:10px;right:12px;background:none;border:0;
+  color:var(--muted);font-size:19px;line-height:1;padding:4px}
+.help .close:hover{color:var(--ink)}
+.help section{margin-top:14px}
+.help h4{font-size:12.5px;font-weight:700;color:var(--accent);letter-spacing:.01em;margin-bottom:4px}
+.help p{font-size:12.5px;line-height:1.65;color:var(--ink-2)}
+.help p + p{margin-top:5px}
+.help b{color:var(--ink)}
+.help .tip{font-size:12px;color:var(--muted);border-left:2px solid var(--line);
+  padding-left:9px;margin-top:6px;line-height:1.6}
 .doc label{display:flex;justify-content:space-between;align-items:baseline;font-size:12px;
   font-weight:700;color:var(--muted);margin-bottom:4px}
 .doc .cc{font-family:var(--serif);font-weight:400}
@@ -279,13 +335,80 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
   opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:60}
 .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* ---------- 모바일 (iOS · Android) ---------- */
 @media (max-width:900px){
   .week{grid-template-columns:1fr 1fr}
   .cell{min-height:88px}
   .ev{font-size:10.5px}
-  .docs{grid-template-columns:1fr}
+  .docs,.docs.two{grid-template-columns:1fr}
 }
-@media (max-width:560px){.week{grid-template-columns:1fr}}
+@media (max-width:640px){
+  body{font-size:15px}
+  .wrap{padding:0 14px calc(96px + env(safe-area-inset-bottom))}
+  .hbar,.rail-in{padding-left:14px;padding-right:14px}
+  .hbar{gap:8px;padding-top:11px;padding-bottom:11px}
+  .brand{font-size:16px}
+  .today{display:none}
+  .hspace{flex-basis:100%;height:0}          /* 버튼 줄을 아래로 내립니다 */
+  .ghost{padding:7px 12px;min-height:36px}   /* 손가락으로 누를 크기 */
+
+  nav.tabs{position:sticky;top:0;z-index:15;background:var(--paper);
+    margin:14px -14px 14px;padding:0 14px;
+    scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  nav.tabs::-webkit-scrollbar{display:none}
+  nav.tabs button{padding:10px 13px;min-height:42px}
+
+  h2{font-size:18px}
+  .viewhead{gap:9px}
+  .nav-btn{width:38px;height:38px}
+  .period{font-size:16px;min-width:96px}
+  .filters button{padding:7px 13px;min-height:34px}
+
+  /* 캘린더는 좁으면 글씨만 줄이고 가로 스크롤은 안 만듭니다 */
+  .cal-dow div{padding:7px 5px;font-size:10px}
+  .cell{min-height:74px;padding:4px 4px;gap:2px}
+  .cell .dnum{font-size:12px}
+  .ev{font-size:10px;padding:2px 4px;line-height:1.3}
+  .ev .pre{margin-right:2px}
+
+  .week{grid-template-columns:1fr;gap:8px}
+  .day{min-height:0}
+
+  /* 전형 트랙은 세로로 쌓습니다 */
+  .track{flex-direction:column}
+  .step{border-right:1px solid var(--line);border-bottom:0;min-width:0}
+  .step:first-child{border-radius:7px 7px 0 0}
+  .step:last-child{border-bottom:1px solid var(--line);border-radius:0 0 7px 7px}
+  .step + .step{border-top:0}
+
+  .app-h{padding:11px 13px;gap:7px}
+  .app-b{padding:12px 13px;gap:12px}
+  .dd{grid-template-columns:56px 1fr auto;gap:8px;padding:9px 8px}
+  .dd-d{display:none}
+  .dd-n{font-size:17px}
+  .ddb{padding:12px 13px}
+
+  .e-head{flex-wrap:wrap}
+  .e-q{flex:1 1 100%;order:-1}
+  .arcgrid{grid-template-columns:1fr}
+  .subtabs{overflow-x:auto;scrollbar-width:none}
+  .subtabs::-webkit-scrollbar{display:none}
+  .subtabs button{white-space:nowrap;min-height:38px}
+
+  dialog{padding:18px 16px;border-radius:14px;max-height:88vh}
+  .row2{grid-template-columns:1fr}
+  .chips button{padding:8px 14px;min-height:38px}
+
+  /* iOS는 글자가 16px보다 작으면 입력할 때 화면을 확대합니다 */
+  input,select,textarea{font-size:16px}
+  .e-lim{width:82px}
+
+  .help-fab{right:14px;bottom:calc(14px + env(safe-area-inset-bottom));width:48px;height:48px}
+  .help{right:14px;left:14px;width:auto;bottom:calc(70px + env(safe-area-inset-bottom));max-height:70vh}
+  .toast{left:14px;right:14px;transform:translateY(12px);bottom:calc(74px + env(safe-area-inset-bottom))}
+  .toast.on{transform:translateY(0)}
+}
 </style>
 </head>
 <body>
@@ -445,6 +568,63 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
     <div class="f-actions"><button class="primary" id="prefDone">저장</button></div>
   </div>
 </dialog>
+
+<button class="help-fab" id="helpBtn" aria-expanded="false" aria-controls="help" title="사용법">?</button>
+<aside class="help" id="help" hidden aria-label="사용법">
+  <button class="close" id="helpClose" aria-label="닫기">×</button>
+  <h3>어떻게 쓰나요</h3>
+  <p class="sub" style="font-size:12px">처음이면 위에서부터 순서대로 하시면 됩니다.</p>
+
+  <section>
+    <h4>1 · 내 조건 고르기</h4>
+    <p>맨 위 <b>내 조건</b>을 눌러 관심 직무와 기업 형태를 고릅니다. 고른 조건에 맞는 공고만 보여줍니다.
+       아무것도 안 고르면 전부 보입니다.</p>
+    <p class="tip">너무 많이 고르면 거의 다 통과해서 걸러지지 않습니다. 3~4개로 좁히는 게 낫습니다.</p>
+  </section>
+
+  <section>
+    <h4>2 · 공고 상태 읽기</h4>
+    <p><b>접수 중</b>은 오늘 지원할 수 있다는 뜻입니다. <b>확정 예정</b>은 실제 공고로 날짜를 확인했지만 아직 안 열린 것,
+       <b>예상</b>은 과거 3년 접수 패턴으로 추정만 한 날짜, <b>상시</b>는 수시로 뽑는 곳, <b>마감</b>은 지난 것입니다.</p>
+    <p><b>역대 오픈</b> 칸에 그 회사가 예년에 실제로 열었던 기간이 적혀 있습니다. 올해가 이른지 늦은지 판단하는 기준입니다.</p>
+  </section>
+
+  <section>
+    <h4>3 · 지원할 공고 담기</h4>
+    <p>전체 공고에서 <b>지원</b>을 누르면 <b>내 지원</b> 탭에 담기고, 맨 위에 마감 D-day가 뜹니다.
+       캘린더에서도 굵게 표시됩니다.</p>
+    <p class="tip">상시 공고는 원래 날짜가 없습니다. 담은 뒤 서류 마감 칸에 직접 날짜를 넣어야 D-day와 캘린더에 올라갑니다.</p>
+  </section>
+
+  <section>
+    <h4>4 · 전형 단계 붙이기</h4>
+    <p>내 지원 카드에서 서류 결과를 <b>합격</b>으로 바꾸면 그 다음 전형(AI 역량검사, 인적성, 1·2차·최종 면접 등)을
+       붙일 수 있습니다. 날짜를 넣으면 캘린더와 주간 플래너에 함께 표시됩니다.</p>
+  </section>
+
+  <section>
+    <h4>5 · 자소서 쓰기</h4>
+    <p>자소서는 문항별로 나눠 씁니다. 문항을 추가하고 옆 칸에 <b>제한 글자수</b>를 넣으면,
+       쓰는 동안 공백 포함·제외 글자수와 남은 글자수가 실시간으로 나옵니다.
+       90%를 넘으면 노랑, 넘치면 빨강입니다.</p>
+    <p>같은 공고라도 직무가 여러 개라 <b>지원 직무</b>를 골라두고, 그 직무의 자격요건·우대사항을 붙여넣어 두세요.
+       면접 준비할 때 그대로 꺼내 씁니다.</p>
+  </section>
+
+  <section>
+    <h4>6 · 아카이브</h4>
+    <p><b>경험 정리</b>는 경험 하나를 상황·과제·행동·결과로 쪼개 두는 곳입니다. 결과에 숫자를 넣어두세요.
+       <b>마스터 자소서·이력서·포트폴리오</b>는 기본 한 벌을 만들어 두고 공고마다 꺼내 고쳐 쓰는 용도입니다.</p>
+    <p class="tip">파일 업로드는 안 됩니다. 포트폴리오는 노션·피그마 링크를 적어두세요.</p>
+  </section>
+
+  <section>
+    <h4>7 · 백업은 꼭</h4>
+    <p>쓰신 내용은 <b>이 브라우저에만</b> 저장됩니다. 다른 사람에게 보이지 않는 대신,
+       브라우저 기록을 지우거나 기기를 바꾸면 사라집니다. 가끔 <b>백업</b>을 눌러 파일로 받아두고,
+       새 기기에서는 <b>복원</b>으로 불러오세요.</p>
+  </section>
+</aside>
 
 <input type="file" id="fileIn" accept="application/json" hidden>
 <div class="toast" id="toast"></div>
@@ -619,15 +799,62 @@ function cell(content, cls, style){
 
 /* ---------- 내 지원 ---------- */
 function myJobs(){ return allJobs().filter(j => app(j.id).applied); }
+
+/* 담은 공고의 마감·전형 일정을 D-day 순으로 한 판에 */
+function ddayBoard(list){
+  const rows = [];
+  list.forEach(function(j){
+    const a = app(j.id), dl = deadline(j);
+    if(dl && a.doc === "대기") rows.push({date:dl, what:"서류 마감", j:j});
+    a.stages.forEach(s => { if(s.date) rows.push({date:s.date, what:s.name, j:j}); });
+  });
+  rows.sort((x,y) => x.date.localeCompare(y.date));
+  const up = rows.filter(r => dleft(r.date) >= 0);
+  const past = rows.length - up.length;
+
+  const box = document.createElement("section"); box.className = "ddb";
+  const h = document.createElement("div"); h.className = "ddb-h";
+  const t = document.createElement("h3"); t.textContent = "다가오는 일정";
+  const s = document.createElement("span"); s.className = "sub";
+  s.textContent = up.length ? up.length + "건" + (past ? " · 지난 일정 " + past + "건은 숨김" : "")
+                            : "마감일이 잡힌 일정이 없습니다";
+  h.append(t, s); box.appendChild(h);
+
+  if(!up.length){
+    const p = document.createElement("p"); p.className = "sub";
+    p.style.padding = "4px 2px 2px";
+    p.textContent = "아래 카드에서 서류 마감일을 넣으면 여기 D-day로 모입니다. 상시 공고는 직접 날짜를 정하세요.";
+    box.appendChild(p);
+    return box;
+  }
+  const ul = document.createElement("div"); ul.className = "ddb-list";
+  up.forEach(function(r){
+    const d = dleft(r.date);
+    const row = document.createElement("div");
+    row.className = "dd" + (d <= 3 ? " u" : d <= 10 ? " s" : "");
+    const n = document.createElement("div"); n.className = "dd-n";
+    n.textContent = d === 0 ? "오늘" : "D-" + d;
+    const co = document.createElement("div"); co.className = "dd-co"; co.textContent = r.j.company;
+    const wt = document.createElement("div"); wt.className = "dd-w"; wt.textContent = r.what;
+    const dt = document.createElement("div"); dt.className = "dd-d"; dt.textContent = fmt(r.date);
+    row.append(n, co, wt, dt);
+    ul.appendChild(row);
+  });
+  box.appendChild(ul);
+  return box;
+}
 function renderMine(){
   const wrap = document.getElementById("apps");
   wrap.innerHTML = "";
-  const list = myJobs().sort((a,b) => (a.end||"9999").localeCompare(b.end||"9999"));
+  const list = myJobs().sort(function(x,y){
+    return (deadline(x) || "9999").localeCompare(deadline(y) || "9999");
+  });
   document.getElementById("c-mine").textContent = list.length || "";
   if(!list.length){
     wrap.innerHTML = '<div class="empty">아직 담은 공고가 없습니다.<br>전체 공고에서 <b>지원</b>을 누르면 여기 모이고, 마감일과 전형 일정을 관리할 수 있습니다.</div>';
     return;
   }
+  wrap.appendChild(ddayBoard(list));
   list.forEach(function(j){
     const a = app(j.id);
     const card = document.createElement("div"); card.className = "app";
@@ -635,7 +862,16 @@ function renderMine(){
     const h = document.createElement("div"); h.className = "app-h";
     const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = j.company;
     const rl = document.createElement("span"); rl.className = "rl"; rl.textContent = (j.roles||[]).join(", ");
-    h.append(nm, pill(j), rl);
+    h.append(nm, pill(j));
+    const dl0 = deadline(j);
+    if(dl0 && dleft(dl0) >= 0 && a.doc === "대기"){
+      const dd = document.createElement("span");
+      const n = dleft(dl0);
+      dd.className = "hd-dday" + (n <= 3 ? " u" : n <= 10 ? " s" : "");
+      dd.textContent = n === 0 ? "오늘 마감" : "D-" + n;
+      h.appendChild(dd);
+    }
+    h.appendChild(rl);
     const sp = document.createElement("span"); sp.className = "hspace"; h.appendChild(sp);
     if(j.url){
       const l = document.createElement("a"); l.href = j.url; l.target = "_blank"; l.rel = "noopener";
@@ -1131,30 +1367,50 @@ function inp(obj, field, ph, cls){
 
 /* ---------- D-day 레일 ---------- */
 function renderRail(){
-  const items = [];
+  const mine = [], rest = [];
   myJobs().forEach(function(j){
-    const a = app(j.id);
-    if(j.end && dleft(j.end) >= 0 && a.doc === "대기")
-      items.push({d:dleft(j.end), name:j.company, what:"서류 마감"});
+    const a = app(j.id), dl = deadline(j);
+    if(dl && dleft(dl) >= 0 && a.doc === "대기")
+      mine.push({d:dleft(dl), name:j.company, what:"서류 마감", mine:true});
     a.stages.forEach(function(s){
-      if(s.date && dleft(s.date) >= 0) items.push({d:dleft(s.date), name:j.company, what:s.name});
+      if(s.date && dleft(s.date) >= 0)
+        mine.push({d:dleft(s.date), name:j.company, what:s.name, mine:true});
     });
   });
   scoped().forEach(function(j){
     if(!app(j.id).applied && j.end && dleft(j.end) >= 0 && state(j).k !== "shut")
-      items.push({d:dleft(j.end), name:j.company, what:"마감 " + (j.confirmed ? "" : "(예상)")});
+      rest.push({d:dleft(j.end), name:j.company,
+                 what:"마감" + (j.confirmed ? "" : " (예상)"), mine:false});
   });
-  items.sort((a,b) => a.d - b.d);
+  mine.sort((a,b) => a.d - b.d);
+  rest.sort((a,b) => a.d - b.d);
+
   const rail = document.getElementById("rail");
   rail.innerHTML = "";
+
+  /* 지원한 것부터 앞에 세웁니다 */
+  const items = mine.concat(rest.slice(0, Math.max(3, 10 - mine.length)));
   if(!items.length){
-    rail.innerHTML = '<p class="sub" style="margin:0">다가오는 일정이 없습니다.</p>';
+    rail.innerHTML = '<p class="sub" style="margin:0">다가오는 일정이 없습니다. 공고를 담으면 마감 D-day가 여기 뜹니다.</p>';
     return;
   }
-  items.slice(0,9).forEach(function(it){
+  if(mine.length){
+    const lead = document.createElement("div");
+    lead.className = "rail-lead";
+    lead.innerHTML = '<b>내 지원</b><span>' + mine.length + '건</span>';
+    rail.appendChild(lead);
+  }
+  items.slice(0, 12).forEach(function(it, i){
+    if(it.mine === false && i > 0 && items[i-1].mine === true){
+      const sep = document.createElement("div");
+      sep.className = "rail-lead dim";
+      sep.innerHTML = '<b>안 담은 공고</b>';
+      rail.appendChild(sep);
+    }
     const el = document.createElement("div");
-    el.className = "dchip" + (it.d <= 3 ? " u" : it.d <= 10 ? " s" : "");
-    const d = document.createElement("div"); d.className = "d"; d.textContent = "D-" + it.d;
+    el.className = "dchip" + (it.d <= 3 ? " u" : it.d <= 10 ? " s" : "") + (it.mine ? " mine" : " dim");
+    const d = document.createElement("div"); d.className = "d";
+    d.textContent = it.d === 0 ? "오늘 마감" : "D-" + it.d;
     const c = document.createElement("div"); c.className = "c"; c.textContent = it.name;
     const k = document.createElement("div"); k.className = "k"; k.textContent = it.what;
     el.append(d, c, k); rail.appendChild(el);
@@ -1295,6 +1551,20 @@ document.getElementById("mNext").onclick = () => { curMonth.setMonth(curMonth.ge
 document.getElementById("wPrev").onclick = () => { weekStart.setDate(weekStart.getDate()-7); renderWeek(); };
 document.getElementById("wNext").onclick = () => { weekStart.setDate(weekStart.getDate()+7); renderWeek(); };
 document.getElementById("wToday").onclick = () => { weekStart = mondayOf(TODAY); renderWeek(); };
+
+/* 도움말 패널 */
+const helpEl = document.getElementById("help"), helpBtn = document.getElementById("helpBtn");
+function toggleHelp(on){
+  helpEl.hidden = !on;
+  helpBtn.setAttribute("aria-expanded", on);
+  helpBtn.textContent = on ? "×" : "?";
+}
+helpBtn.onclick = () => toggleHelp(helpEl.hidden);
+document.getElementById("helpClose").onclick = () => toggleHelp(false);
+document.addEventListener("keydown", e => { if(e.key === "Escape" && !helpEl.hidden) toggleHelp(false); });
+document.addEventListener("click", function(e){
+  if(!helpEl.hidden && !helpEl.contains(e.target) && e.target !== helpBtn) toggleHelp(false);
+});
 
 let tt;
 function toast(m){
