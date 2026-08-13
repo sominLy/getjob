@@ -6,43 +6,71 @@
 <title>지원 보드 — 하반기 채용 캘린더</title>
 <meta name="description" content="채용 공고 캘린더, 전형 일정, 자소서 아카이브를 한 곳에서. 내 데이터는 내 브라우저에만 저장됩니다.">
 <style>
+/* ===== 테마 색 — 색마다 밝은 화면용(-l)과 어두운 화면용(-d)을 함께 정의 ===== */
+:root,:root[data-accent="lime"]{      /* 연두 (기본) */
+  --a-l:#5F8F3A; --a-l-soft:#EAF3DC; --a-l-ink:#446629;
+  --a-d:#A8CE7C; --a-d-soft:#243019; --a-d-ink:#C4E09E;
+}
+:root[data-accent="sky"]{             /* 하늘 */
+  --a-l:#3B7EA1; --a-l-soft:#E1EEF5; --a-l-ink:#2A5C77;
+  --a-d:#7BC0DE; --a-d-soft:#172A33; --a-d-ink:#A5D7EC;
+}
+:root[data-accent="lavender"]{        /* 라벤더 */
+  --a-l:#7565B0; --a-l-soft:#EBE7F7; --a-l-ink:#554889;
+  --a-d:#B4A5E6; --a-d-soft:#231F33; --a-d-ink:#CDC3F0;
+}
+:root[data-accent="peach"]{           /* 피치 */
+  --a-l:#BE6440; --a-l-soft:#FAE8DE; --a-l-ink:#8F482A;
+  --a-d:#EDA279; --a-d-soft:#33211A; --a-d-ink:#F5C1A1;
+}
+:root[data-accent="rose"]{            /* 로즈 */
+  --a-l:#A5577A; --a-l-soft:#F8E7EE; --a-l-ink:#7B3B58;
+  --a-d:#E29CB6; --a-d-soft:#33202A; --a-d-ink:#F0BACE;
+}
+:root[data-accent="mustard"]{         /* 머스타드 */
+  --a-l:#8C6B1F; --a-l-soft:#F7EED7; --a-l-ink:#6A5015;
+  --a-d:#D9B45E; --a-d-soft:#322A16; --a-d-ink:#E9CD8C;
+}
+
+/* ===== 밝은 화면 (기본) ===== */
 :root{
-  --paper:#FAF5F4; --card:#FFFDFD; --ink:#2B2126; --ink-2:#5E4E55; --muted:#9A868D;
-  --line:#EBDFDC; --line-2:#F4ECE9;
-  --accent:#A5577A; --accent-soft:#F8E7EE; --accent-ink:#7B3B58;
-  --urgent:#C5503F; --urgent-soft:#FBE4DD;
-  --amber:#96682E; --amber-soft:#F9EDDA;
-  --pass:#A5577A; --fail:#9A868D;
-  --shadow:0 1px 2px rgba(70,42,54,.05),0 8px 22px rgba(70,42,54,.06);
+  --paper:#FAFAF9; --card:#FFFFFF; --ink:#1C1D1B; --ink-2:#4B4E49; --muted:#82877E;
+  --line:#E4E6E1; --line-2:#F0F1EE;
+  --accent:var(--a-l); --accent-soft:var(--a-l-soft); --accent-ink:var(--a-l-ink);
+  --urgent:#C24B32; --urgent-soft:#FAE5DF;
+  --amber:#8E6A16; --amber-soft:#F8EFD8;
+  --pass:var(--a-l); --fail:#909690;
+  --shadow:0 1px 2px rgba(24,26,22,.05),0 8px 22px rgba(24,26,22,.05);
   --sans:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",system-ui,sans-serif;
   --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
 }
-@media (prefers-color-scheme:dark){:root{
-  --paper:#1A1418; --card:#241B20; --ink:#F1E7EA; --ink-2:#CBB9C0; --muted:#9B868E;
-  --line:#382C32; --line-2:#2C2227;
-  --accent:#E29CB6; --accent-soft:#3B2531; --accent-ink:#F2BDD1;
-  --urgent:#F08A70; --urgent-soft:#3F251E;
-  --amber:#DDB068; --amber-soft:#3A2C19;
-  --pass:#E29CB6; --fail:#8B7880;
+/* ===== 어두운 화면 ===== */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#121311; --card:#1B1D19; --ink:#EDEEEA; --ink-2:#BFC2BA; --muted:#868B81;
+  --line:#2E312C; --line-2:#232620;
+  --accent:var(--a-d); --accent-soft:var(--a-d-soft); --accent-ink:var(--a-d-ink);
+  --urgent:#F08A6E; --urgent-soft:#3B241C;
+  --amber:#DBB05F; --amber-soft:#332A16;
+  --pass:var(--a-d); --fail:#7E837A;
   --shadow:0 1px 2px rgba(0,0,0,.34),0 8px 22px rgba(0,0,0,.28);
 }}
 :root[data-theme="dark"]{
-  --paper:#1A1418; --card:#241B20; --ink:#F1E7EA; --ink-2:#CBB9C0; --muted:#9B868E;
-  --line:#382C32; --line-2:#2C2227;
-  --accent:#E29CB6; --accent-soft:#3B2531; --accent-ink:#F2BDD1;
-  --urgent:#F08A70; --urgent-soft:#3F251E;
-  --amber:#DDB068; --amber-soft:#3A2C19;
-  --pass:#E29CB6; --fail:#8B7880;
+  --paper:#121311; --card:#1B1D19; --ink:#EDEEEA; --ink-2:#BFC2BA; --muted:#868B81;
+  --line:#2E312C; --line-2:#232620;
+  --accent:var(--a-d); --accent-soft:var(--a-d-soft); --accent-ink:var(--a-d-ink);
+  --urgent:#F08A6E; --urgent-soft:#3B241C;
+  --amber:#DBB05F; --amber-soft:#332A16;
+  --pass:var(--a-d); --fail:#7E837A;
   --shadow:0 1px 2px rgba(0,0,0,.34),0 8px 22px rgba(0,0,0,.28);
 }
 :root[data-theme="light"]{
-  --paper:#FAF5F4; --card:#FFFDFD; --ink:#2B2126; --ink-2:#5E4E55; --muted:#9A868D;
-  --line:#EBDFDC; --line-2:#F4ECE9;
-  --accent:#A5577A; --accent-soft:#F8E7EE; --accent-ink:#7B3B58;
-  --urgent:#C5503F; --urgent-soft:#FBE4DD;
-  --amber:#96682E; --amber-soft:#F9EDDA;
-  --pass:#A5577A; --fail:#9A868D;
-  --shadow:0 1px 2px rgba(70,42,54,.05),0 8px 22px rgba(70,42,54,.06);
+  --paper:#FAFAF9; --card:#FFFFFF; --ink:#1C1D1B; --ink-2:#4B4E49; --muted:#82877E;
+  --line:#E4E6E1; --line-2:#F0F1EE;
+  --accent:var(--a-l); --accent-soft:var(--a-l-soft); --accent-ink:var(--a-l-ink);
+  --urgent:#C24B32; --urgent-soft:#FAE5DF;
+  --amber:#8E6A16; --amber-soft:#F8EFD8;
+  --pass:var(--a-l); --fail:#909690;
+  --shadow:0 1px 2px rgba(24,26,22,.05),0 8px 22px rgba(24,26,22,.05);
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
@@ -327,6 +355,14 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .chips button{background:var(--paper);border:1px solid var(--line);border-radius:99px;
   padding:5px 13px;font-size:13px;color:var(--ink-2)}
 .chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.swatches{display:flex;gap:9px;flex-wrap:wrap}
+.swatches button{width:auto;padding:6px 8px 7px;border:1px solid var(--line);border-radius:10px;
+  background:var(--card);display:flex;flex-direction:column;align-items:center;gap:5px;
+  font-size:11px;color:var(--muted);min-width:58px}
+.swatches button i{display:block;width:26px;height:26px;border-radius:50%;
+  border:1px solid rgba(0,0,0,.06)}
+.swatches button[aria-pressed="true"]{border-color:var(--ink);color:var(--ink);font-weight:700}
+.swatches button[aria-pressed="true"] i{box-shadow:0 0 0 2px var(--card),0 0 0 4px var(--ink)}
 .note{font-size:12.5px;color:var(--muted);line-height:1.65;margin-top:26px;
   border-top:1px solid var(--line);padding-top:14px;max-width:68ch}
 .note b{color:var(--ink-2)}
@@ -438,6 +474,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <span class="brand">지원 보드</span>
     <span class="today" id="todayLbl"></span>
     <span class="hspace"></span>
+    <button class="ghost" id="themeBtn" title="화면 모드와 테마 색">테마</button>
     <button class="ghost" id="prefBtn">내 조건</button>
     <button class="ghost" id="addBtn">+ 공고</button>
     <button class="ghost" id="expBtn">백업</button>
@@ -589,6 +626,15 @@ thead th{font-weight:600;letter-spacing:.07em}
   </div>
 </dialog>
 
+<dialog id="themeDlg">
+  <h2>테마</h2>
+  <div class="f">
+    <label>화면 모드<div class="chips" id="modeChips"></div></label>
+    <label>테마 색<div class="swatches" id="accentChips"></div></label>
+    <div class="f-actions"><button class="primary" id="themeDone">닫기</button></div>
+  </div>
+</dialog>
+
 <button class="help-fab" id="helpBtn" aria-expanded="false" aria-controls="help" title="사용법">?</button>
 <aside class="help" id="help" hidden aria-label="사용법">
   <button class="close" id="helpClose" aria-label="닫기">×</button>
@@ -666,11 +712,12 @@ function load(){
     const r = JSON.parse(localStorage.getItem(KEY));
     if(r && r.apps && r.custom && r.todos && r.arc && r.profile){
       if(r.arc.pf === undefined) r.arc.pf = "";
+      if(!r.profile.theme) r.profile.theme = {mode:"system", accent:"lime"};
       return r;
     }
   }catch(e){}
-  return {profile:{roles:[],types:[],onboarded:false}, apps:{}, custom:[], todos:{},
-          arc:{exp:[], cov:[], res:"", pf:""}};
+  return {profile:{roles:[],types:[],onboarded:false,theme:{mode:"system",accent:"lime"}},
+          apps:{}, custom:[], todos:{}, arc:{exp:[], cov:[], res:"", pf:""}};
 }
 function save(){
   try{ localStorage.setItem(KEY, JSON.stringify(db)); }
@@ -1571,6 +1618,43 @@ document.getElementById("mNext").onclick = () => { curMonth.setMonth(curMonth.ge
 document.getElementById("wPrev").onclick = () => { weekStart.setDate(weekStart.getDate()-7); renderWeek(); };
 document.getElementById("wNext").onclick = () => { weekStart.setDate(weekStart.getDate()+7); renderWeek(); };
 document.getElementById("wToday").onclick = () => { weekStart = mondayOf(TODAY); renderWeek(); };
+
+/* ---------- 테마 ---------- */
+const MODES = [["system","시스템 따라"],["light","밝게"],["dark","어둡게"]];
+const ACCENTS = [["lime","연두","#8FBF63"],["sky","하늘","#6FB3D6"],["lavender","라벤더","#A594DD"],
+                 ["peach","피치","#E3A183"],["rose","로즈","#D690AC"],["mustard","머스타드","#D7B565"]];
+function applyTheme(){
+  const t = db.profile.theme || (db.profile.theme = {mode:"system", accent:"lime"});
+  const r = document.documentElement;
+  if(t.mode === "system") r.removeAttribute("data-theme");
+  else r.setAttribute("data-theme", t.mode);
+  r.setAttribute("data-accent", t.accent || "lime");
+}
+function openTheme(){
+  const t = db.profile.theme;
+  const mb = document.getElementById("modeChips"); mb.innerHTML = "";
+  MODES.forEach(function(m){
+    const b = document.createElement("button"); b.type = "button"; b.textContent = m[1];
+    b.setAttribute("aria-pressed", t.mode === m[0]);
+    b.onclick = () => { t.mode = m[0]; save(); applyTheme(); openTheme(); };
+    mb.appendChild(b);
+  });
+  const ab = document.getElementById("accentChips"); ab.innerHTML = "";
+  ACCENTS.forEach(function(c){
+    const b = document.createElement("button"); b.type = "button";
+    b.setAttribute("aria-pressed", (t.accent || "lime") === c[0]);
+    b.setAttribute("aria-label", c[1] + " 테마");
+    const sw = document.createElement("i"); sw.style.background = c[2];
+    const nm = document.createElement("span"); nm.textContent = c[1];
+    b.append(sw, nm);
+    b.onclick = () => { t.accent = c[0]; save(); applyTheme(); openTheme(); };
+    ab.appendChild(b);
+  });
+  document.getElementById("themeDlg").showModal();
+}
+document.getElementById("themeBtn").onclick = openTheme;
+document.getElementById("themeDone").onclick = () => document.getElementById("themeDlg").close();
+applyTheme();
 
 /* 도움말 패널 */
 const helpEl = document.getElementById("help"), helpBtn = document.getElementById("helpBtn");
