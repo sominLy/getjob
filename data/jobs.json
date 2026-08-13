@@ -1,173 +1,299 @@
 {
   "updated": "2026-08-13",
-  "note": "공개 정보만 담습니다. 개인 메모·우선순위·자소서는 각자 브라우저에만 저장됩니다.",
-  "stages": ["AI 역량검사", "적성검사", "인적성검사", "1차 면접", "2차 면접", "최종 면접"],
+  "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
+  "stages": ["AI 역량검사", "적성검사", "인적성검사", "필기전형", "1차 면접", "2차 면접", "최종 면접"],
   "jobs": [
     {
+      "id": "woori-bank", "company": "우리은행", "type": "금융",
+      "roles": ["영업", "금융/심사", "기획/전략", "데이터"],
+      "start": "2026-08-18", "end": "2026-08-28", "confirmed": false,
+      "source": "자체 채용페이지", "url": "https://spot.wooribank.com/pot/Dream?withyou=BPHRR0011",
+      "hist": "25년 하반기 8/18~8/28 · 24년 하반기 195명 채용. 은행권에서 가장 먼저 연다"
+    },
+    {
+      "id": "samsung", "company": "삼성그룹", "type": "대기업",
+      "roles": ["마케팅", "기획/전략", "영업", "재무/회계", "HR/인사", "구매/물류"],
+      "start": "2026-08-26", "end": "2026-09-02", "confirmed": false,
+      "source": "자체 채용페이지", "url": "https://www.samsungcareers.com",
+      "hist": "23년 9/11~9/18 · 24년 9/4~9/11 · 25년 8/27~9/3 (19개 계열사). 해마다 앞당겨지는 중이고 접수 창이 7~8일뿐"
+    },
+    {
+      "id": "samsung-fin", "company": "삼성 금융계열 (생명·화재·증권)", "type": "금융",
+      "roles": ["영업", "금융/심사", "기획/전략", "데이터", "마케팅"],
+      "start": "2026-08-26", "end": "2026-09-02", "confirmed": false,
+      "source": "자체 채용페이지", "url": "https://www.samsungcareers.com",
+      "hist": "삼성 공채에 포함 — 25년 8/27~9/3. 직무적합성(9월) → GSAT(10월) → 면접(11월)"
+    },
+    {
       "id": "lg-group", "company": "LG그룹", "type": "대기업",
-      "roles": ["마케팅", "사업기획", "PM/서비스기획"],
+      "roles": ["마케팅", "기획/전략", "PM/서비스기획", "영업", "HR/인사", "재무/회계"],
       "start": "2026-08-26", "end": "2026-09-18", "confirmed": false,
       "source": "자체 채용페이지", "url": "https://apply.lg.com",
       "hist": "22년 9/5~9/25 · 23년 8/28~9/24 · 24년 8/26~9/18"
     },
     {
-      "id": "hyundai", "company": "현대그룹", "type": "대기업",
-      "roles": ["사업기획", "마케팅", "영업"],
-      "start": "2026-09-01", "end": "2026-09-14", "confirmed": false,
-      "source": "자체 채용페이지", "url": "https://recruit.hyundai.com",
-      "hist": "22년 9/1~9/14 · 23년 9/1~9/14 · 24년 9/1~9/14"
+      "id": "kb-bank", "company": "KB국민은행", "type": "금융",
+      "roles": ["영업", "고객/CS", "금융/심사", "데이터"],
+      "start": "2026-08-27", "end": "2026-09-08", "confirmed": false,
+      "source": "링커리어", "url": "https://kbstar.incruit.com",
+      "hist": "25년 하반기 8/28~9/9 (UB부문 L1) · 24년 하반기 180명. 서류→필기→1차면접→2차면접"
     },
     {
-      "id": "samsung", "company": "삼성그룹", "type": "대기업",
-      "roles": ["마케팅", "사업기획", "영업"],
-      "start": "2026-09-04", "end": "2026-09-11", "confirmed": false,
-      "source": "자체 채용페이지", "url": "https://www.samsungcareers.com",
-      "hist": "22년 9/6~9/14 · 23년 9/11~9/18 · 24년 9/4~9/11 (접수 창 7~8일)"
+      "id": "hana-bank", "company": "하나은행", "type": "금융",
+      "roles": ["영업", "금융/심사", "데이터", "개발"],
+      "start": "2026-08-28", "end": "2026-09-16", "confirmed": false,
+      "source": "링커리어", "url": "https://hanabank.incruit.com/",
+      "hist": "25년 하반기 8/29~9/17 18시 (종합금융·ICT·디지털/AI·지역인재) · 24년 하반기 ~9/25, 170여명. 어학성적 1개 이상 필수"
+    },
+    {
+      "id": "hyundai", "company": "현대자동차그룹", "type": "대기업",
+      "roles": ["기획/전략", "마케팅", "영업", "재무/회계", "구매/물류"],
+      "start": "2026-09-01", "end": "2026-09-14", "confirmed": false,
+      "source": "자체 채용페이지", "url": "https://recruit.hyundai.com",
+      "hist": "22년 9/1~9/14 · 23년 9/1~9/14 · 24년 9/1~9/14 (3년 연속 동일)"
+    },
+    {
+      "id": "db-insure", "company": "DB손해보험", "type": "금융",
+      "roles": ["영업관리", "금융/심사", "기획/전략", "재무/회계", "데이터"],
+      "start": "2026-09-01", "end": "2026-10-09", "confirmed": false,
+      "source": "링커리어", "url": "https://dbgroup.recruiter.co.kr",
+      "hist": "25년 하반기 9/1~10/10 17시 (영업관리·보상관리·상품U/W·자산운용·리스크·경영지원). 접수 6주로 가장 긺"
+    },
+    {
+      "id": "lina", "company": "라이나생명", "type": "금융",
+      "roles": ["금융/심사", "기획/전략", "개발", "재무/회계"],
+      "start": "2026-09-01", "end": "2026-09-18", "confirmed": false,
+      "source": "링커리어", "url": "",
+      "hist": "25년 하반기 9/1~9/19 (상품·계리, 경영지원, IT)"
+    },
+    {
+      "id": "kis", "company": "한국투자증권", "type": "금융",
+      "roles": ["금융/심사", "PM/서비스기획", "리서치", "영업", "기획/전략"],
+      "start": "2026-09-01", "end": "2026-10-01", "confirmed": false,
+      "source": "자체 채용페이지", "url": "",
+      "hist": "25년 하반기 9월~10/1 (PB·IB·홀세일·리서치·디지털서비스기획·PF)"
+    },
+    {
+      "id": "shinhan-bank", "company": "신한은행", "type": "금융",
+      "roles": ["영업", "금융/심사", "데이터", "개발"],
+      "start": "2026-09-01", "end": "2026-09-22", "confirmed": false,
+      "source": "링커리어", "url": "",
+      "hist": "25년 하반기 ~9/22 14시 (일반직 신입행원, 100명 규모)"
     },
     {
       "id": "posco", "company": "포스코", "type": "대기업",
-      "roles": ["사업기획", "영업"],
+      "roles": ["기획/전략", "영업", "구매/물류", "재무/회계"],
       "start": "2026-09-02", "end": "2026-09-22", "confirmed": false,
       "source": "자체 채용페이지", "url": "",
       "hist": "22년 9/1~9/28 · 23년 9/1~9/19 · 24년 9/6~9/23"
     },
     {
-      "id": "lotte", "company": "롯데그룹", "type": "대기업",
-      "roles": ["MD", "마케팅", "사업기획"],
+      "id": "lotte", "company": "롯데그룹 (백화점·쇼핑 포함)", "type": "대기업",
+      "roles": ["MD", "마케팅", "기획/전략", "브랜드", "콘텐츠", "영업관리"],
+      "start": "2026-09-02", "end": "2026-09-16", "confirmed": false,
+      "source": "자체 채용페이지", "url": "https://recruit.lotte.co.kr",
+      "hist": "22년 9/1~9/16 · 23년 9/6~10/29 · 24년 9/5~9/19 · 25년 롯데백화점 9/3~9/14 (쇼핑몰MD·콘텐츠기획·VIP서비스기획·브랜딩MKT·아트콘텐츠·온라인전략)"
+    },
+    {
+      "id": "gs-retail", "company": "GS리테일", "type": "대기업",
+      "roles": ["영업관리", "MD", "콘텐츠", "마케팅"],
       "start": "2026-09-04", "end": "2026-09-18", "confirmed": false,
-      "source": "자체 채용페이지", "url": "https://job.lotte.co.kr",
-      "hist": "22년 9/1~9/16 · 23년 9/6~10/29 · 24년 9/5~9/19"
+      "source": "자소설닷컴", "url": "https://gsretail.recruiter.co.kr",
+      "hist": "25년 하반기 9/5~9/19 (편의점 영업관리 OFC, 수퍼 점포영업담당 인턴, 홈쇼핑 MD·PD)"
     },
     {
       "id": "kakao", "company": "카카오그룹", "type": "유니콘",
-      "roles": ["PM/서비스기획", "사업개발", "마케팅", "사업기획"],
-      "start": "2026-09-08", "end": "2026-09-28", "confirmed": false,
-      "source": "자체 채용페이지", "url": "https://careers.kakao.com/jobs",
-      "hist": "25년 9/8~9/28 (그룹 첫 전직군 신입공채 · 6개 계열사 · 면접 11월)"
+      "roles": ["PM/서비스기획", "MD", "사업개발", "마케팅", "기획/전략", "홍보/PR", "HR/인사", "재무/회계"],
+      "start": "2026-09-07", "end": "2026-09-27", "confirmed": false,
+      "source": "링커리어", "url": "https://careers.kakao.com/jobs",
+      "hist": "25년 9/8 14시~9/28 23:59. Service & Business = MD·AI서비스기획 / Staff = PR·재무·HR. 6개 계열사 참여, 계열사 간 중복지원 시 전체 무효. 면접 11월, 입사 1월"
     },
     {
       "id": "amore", "company": "아모레퍼시픽", "type": "대기업",
-      "roles": ["마케팅", "MD", "영업"],
+      "roles": ["마케팅", "MD", "영업", "브랜드"],
       "start": "2026-09-08", "end": "2026-09-30", "confirmed": false,
       "source": "자체 채용페이지", "url": "",
       "hist": "22년 9/19~10/7 · 23년 9/18~10/3 · 24년 9/2~9/23"
     },
     {
+      "id": "oliveyoung", "company": "CJ올리브영", "type": "대기업",
+      "roles": ["MD", "브랜드", "콘텐츠", "마케팅", "영업"],
+      "start": "2026-09-09", "end": "2026-09-23", "confirmed": false,
+      "source": "링커리어", "url": "https://career.oliveyoung.com/ko/apply",
+      "hist": "25년 하반기 9/10~9/24 17시 (MD·상품개발BM·운영BM·면세영업·브랜딩전략·콘텐츠마케팅). AI역량검사 → 서류 → TEST → 1·2차 면접"
+    },
+    {
       "id": "cj", "company": "CJ그룹", "type": "대기업",
-      "roles": ["마케팅", "MD", "사업기획"],
+      "roles": ["마케팅", "MD", "기획/전략", "콘텐츠", "브랜드"],
       "start": "2026-09-11", "end": "2026-10-02", "confirmed": false,
       "source": "링커리어", "url": "",
       "hist": "22년 9/13~9/28 · 23년 9/11~10/1 · 24년 9/12~10/4 · 25년 ~9/24"
     },
     {
+      "id": "hyundai-marine", "company": "현대해상", "type": "금융",
+      "roles": ["데이터", "금융/심사", "영업관리", "개발"],
+      "start": "2026-09-11", "end": "2026-09-28", "confirmed": false,
+      "source": "링커리어", "url": "",
+      "hist": "25년 하반기 9/12~9/29 18시 (디지털·데이터분석, IT·정보보호, 보험계리, 자산운용, 기업보험, 점포영업관리, 손해사정)"
+    },
+    {
       "id": "skhynix", "company": "SK하이닉스", "type": "대기업",
-      "roles": ["사업기획", "마케팅"],
+      "roles": ["기획/전략", "마케팅", "구매/물류", "데이터"],
       "start": "2026-09-14", "end": "2026-09-25", "confirmed": false,
       "source": "자체 채용페이지", "url": "",
-      "hist": "22년 8/22 · 23년 9/18 · 24년 9/10 · 25년 9/22 오픈 (편차 큼)"
+      "hist": "22년 8/22 · 23년 9/18 · 24년 9/10 · 25년 9/22 오픈 (연도별 편차가 커서 8월 말부터 확인 필요)"
     },
     {
-      "id": "shinsegae", "company": "신세계그룹", "type": "대기업",
-      "roles": ["MD", "마케팅", "브랜드", "데이터", "영업"],
+      "id": "kyobo-life", "company": "교보생명", "type": "금융",
+      "roles": ["영업관리", "금융/심사", "고객/CS"],
+      "start": "2026-09-15", "end": "2026-10-14", "confirmed": false,
+      "source": "자체 채용페이지", "url": "",
+      "hist": "25년 하반기 ~10/15 18시 (영업관리·법인영업·Wealth Manager·소매여신·사무지원). 25년부터 인턴십 후 정규직 전환 방식"
+    },
+    {
+      "id": "woori-card", "company": "우리카드", "type": "금융",
+      "roles": ["기획/전략", "마케팅", "개발", "디자인", "영업", "콘텐츠"],
+      "start": "2026-09-17", "end": "2026-09-28", "confirmed": false,
+      "source": "링커리어", "url": "https://wooricard.incruit.com/",
+      "hist": "25년 하반기 9/18~9/29 (일반 / 디지털·IT). 학력 제한 없음"
+    },
+    {
+      "id": "nh-central", "company": "농협중앙회·NH농협은행", "type": "금융",
+      "roles": ["영업", "금융/심사", "개발", "기획/전략"],
+      "start": "2026-09-18", "end": "2026-09-28", "confirmed": false,
+      "source": "링커리어", "url": "",
+      "hist": "25년 하반기 9/19~9/29, 1,520명 규모 (일반·IT·지역인재). 채용 규모가 압도적으로 큼"
+    },
+    {
+      "id": "shinsegae", "company": "신세계그룹 (이마트 포함)", "type": "대기업",
+      "roles": ["MD", "마케팅", "브랜드", "데이터", "영업", "기획/전략", "구매/물류", "재무/회계", "HR/인사"],
       "start": "2026-09-18", "end": "2026-10-12", "confirmed": false,
       "source": "자소설닷컴", "url": "https://job.shinsegae.com",
-      "hist": "25년 9/19~10/13 (약 3.5주 · 매입/영업·마케팅·MD·브랜드커뮤니케이션·데이터)"
+      "hist": "25년 9/19~10/13 (신세계·이마트·스타벅스·SSG닷컴 등). 매입/영업, 마케팅, MD, 브랜드커뮤니케이션, 데이터, 전략기획, 구매, 물류, 부동산개발"
     },
     {
-      "id": "lgu", "company": "LG유플러스", "type": "대기업",
-      "roles": ["PM/서비스기획", "마케팅"],
-      "start": "2026-09-25", "end": "2026-10-09", "confirmed": false,
-      "source": "자체 채용페이지", "url": "", "hist": "25년 9/26 오픈"
-    },
-    {
-      "id": "hcapital", "company": "현대캐피탈", "type": "대기업",
-      "roles": ["사업기획", "데이터"],
-      "start": "2026-09-25", "end": "2026-10-09", "confirmed": false,
-      "source": "자체 채용페이지", "url": "", "hist": "25년 9/26 오픈"
+      "id": "kb-insure", "company": "KB손해보험", "type": "금융",
+      "roles": ["데이터", "금융/심사", "영업관리", "기획/전략"],
+      "start": "2026-09-21", "end": "2026-10-11", "confirmed": false,
+      "source": "링커리어", "url": "",
+      "hist": "25년 하반기 9/22~10/12 23시 (DT·일반보험·경영지원·영업관리, 자동차보상, 상품·계리). 전 과정 블라인드"
     },
     {
       "id": "public-intern", "company": "공기업 체험형 인턴", "type": "공기업",
-      "roles": ["사업기획", "마케팅", "데이터"],
+      "roles": ["기획/전략", "마케팅", "데이터", "재무/회계", "HR/인사"],
       "start": "2026-09-23", "end": "2026-10-01", "confirmed": false,
       "source": "링커리어", "url": "",
-      "hist": "25년 한전 9/24~10/1 (400명 · 경력무관)"
+      "hist": "25년 한전 9/24 14시~10/1 14시, 400명 (경력무관). 공기업마다 9월 말~10월 초에 몰림"
+    },
+    {
+      "id": "lgu", "company": "LG유플러스", "type": "대기업",
+      "roles": ["PM/서비스기획", "마케팅", "영업", "데이터"],
+      "start": "2026-09-25", "end": "2026-10-09", "confirmed": false,
+      "source": "자체 채용페이지", "url": "", "hist": "25년 9/26 오픈"
+    },
+    {
+      "id": "hcapital", "company": "현대캐피탈", "type": "금융",
+      "roles": ["기획/전략", "데이터", "금융/심사"],
+      "start": "2026-09-25", "end": "2026-10-09", "confirmed": false,
+      "source": "자체 채용페이지", "url": "", "hist": "25년 9/26 오픈"
+    },
+    {
+      "id": "hyundai-dept", "company": "현대백화점그룹", "type": "대기업",
+      "roles": ["MD", "영업관리", "마케팅", "기획/전략", "재무/회계", "HR/인사", "콘텐츠"],
+      "start": "2026-10-22", "end": "2026-11-05", "confirmed": false,
+      "source": "링커리어", "url": "",
+      "hist": "25년 하반기 10/23~11/6. 백화점(영업관리 의류/잡화/식품/e커머스, 판매기획, 회원서비스) + 홈쇼핑(방송MD, 편성, 신사업검토, 전략기획). 하반기 공채 중 가장 늦게 열림"
     },
     {
       "id": "kakao-winter", "company": "카카오 겨울 인턴십", "type": "유니콘",
-      "roles": ["PM/서비스기획", "마케팅", "사업개발"],
+      "roles": ["PM/서비스기획", "마케팅", "사업개발", "개발"],
       "start": "2026-11-02", "end": "2026-11-20", "confirmed": false,
       "source": "자체 채용페이지", "url": "https://careers.kakao.com/jobs",
-      "hist": "23년 11월 ~11/20 (채용연계형 · 14개 부문)"
+      "hist": "23년 11월 ~11/20 (채용연계형, 14개 부문)"
     },
 
     {
       "id": "daangn", "company": "당근", "type": "유니콘",
-      "roles": ["PM/서비스기획"],
+      "roles": ["PM/서비스기획", "데이터", "디자인"],
       "start": "", "end": "", "confirmed": false,
       "source": "자체 채용페이지", "url": "https://careers.daangn.com/jobs/",
-      "hist": "수시 · 최근 1년 12회 이상 (PM 인턴 반복 게시)"
+      "hist": "수시 · 최근 1년 12회 이상. PM 인턴(중고거래실, 커뮤니티·모임) 반복 게시"
+    },
+    {
+      "id": "naver", "company": "네이버 (계열 포함)", "type": "유니콘",
+      "roles": ["PM/서비스기획", "사업개발", "마케팅", "콘텐츠", "기획/전략", "디자인", "개발"],
+      "start": "", "end": "", "confirmed": false,
+      "source": "링커리어", "url": "https://recruit.navercorp.com",
+      "hist": "공채는 3월 단발 — 24년 3/5~3/18 · 25년 3/5~3/17. Service & Business = 광고상품/플랫폼·커머스/플레이스·콘텐츠·사업/제휴. 전형은 서류→프로덕트 디벨롭 인터뷰→챌린지+종합역량 인터뷰. 하반기는 인턴·수시만"
     },
     {
       "id": "upstage", "company": "업스테이지", "type": "스타트업",
-      "roles": ["PM/서비스기획", "마케팅", "사업기획"],
+      "roles": ["PM/서비스기획", "마케팅", "기획/전략", "개발"],
       "start": "", "end": "", "confirmed": false,
       "source": "자체 채용페이지", "url": "https://careers.upstage.ai/ko/upstage",
       "hist": "수시 · Technical Program Manager 신입 채용 이력"
     },
     {
-      "id": "naver", "company": "네이버 (계열 포함)", "type": "유니콘",
-      "roles": ["PM/서비스기획", "사업개발", "마케팅", "사업기획"],
-      "start": "", "end": "", "confirmed": false,
-      "source": "자체 채용페이지", "url": "https://recruit.navercorp.com",
-      "hist": "공채는 3월 단발 — 24년 3/5~3/18 · 25년 3/5~3/17. 하반기는 인턴·수시만"
-    },
-    {
       "id": "kream", "company": "크림 KREAM", "type": "유니콘",
-      "roles": ["마케팅", "PM/서비스기획", "MD", "브랜드"],
+      "roles": ["마케팅", "PM/서비스기획", "MD", "브랜드", "콘텐츠"],
       "start": "", "end": "", "confirmed": false,
       "source": "잡코리아", "url": "https://recruit.kreamcorp.com/",
-      "hist": "수시 · 신입 중심 + 체험형 인턴 운영"
+      "hist": "수시 · 신입 중심 + 디지털 마케팅 기획 체험형 인턴"
     },
     {
       "id": "woowa", "company": "우아한형제들", "type": "유니콘",
-      "roles": ["PM/서비스기획", "마케팅", "사업개발"],
+      "roles": ["PM/서비스기획", "마케팅", "사업개발", "개발", "디자인"],
       "start": "", "end": "", "confirmed": false,
       "source": "자체 채용페이지", "url": "https://career.woowahan.com/",
-      "hist": "상시 · 부문별 수시"
+      "hist": "상시 · 부문별 수시. 플랫폼에 안 올라오는 공고가 많음"
     },
     {
       "id": "coupang", "company": "쿠팡", "type": "유니콘",
-      "roles": ["영업", "사업기획", "MD"],
+      "roles": ["영업", "영업관리", "기획/전략", "MD", "구매/물류", "고객/CS"],
       "start": "", "end": "", "confirmed": false,
       "source": "사람인", "url": "https://www.coupang.jobs/",
-      "hist": "수시 · 최근 1년 29회 이상 (영업기획·영업관리 중심)"
+      "hist": "수시 · 최근 1년 29회 이상. 영업관리·영업기획·B2B영업·고객관리 중심"
+    },
+    {
+      "id": "toss", "company": "토스", "type": "유니콘",
+      "roles": ["PM/서비스기획", "사업개발", "개발", "디자인", "데이터"],
+      "start": "", "end": "", "confirmed": false,
+      "source": "자체 채용페이지", "url": "https://toss.im/career",
+      "hist": "수시 · NEXT 챌린지는 개발 직군(서버·FE·AND·iOS·Node). PO는 경력 3년 이하 조건"
+    },
+    {
+      "id": "musinsa", "company": "무신사", "type": "유니콘",
+      "roles": ["MD", "마케팅", "브랜드", "콘텐츠"],
+      "start": "", "end": "", "confirmed": false,
+      "source": "링커리어", "url": "", "hist": "수시 · 상시"
     },
     {
       "id": "wrtn", "company": "뤼튼테크놀로지스", "type": "스타트업",
-      "roles": ["PM/서비스기획", "마케팅"],
+      "roles": ["PM/서비스기획", "마케팅", "개발"],
       "start": "", "end": "", "confirmed": false,
       "source": "자체 채용페이지", "url": "https://wrtn.career.greetinghr.com/ko/career",
       "hist": "수시 · 상시"
     },
     {
-      "id": "musinsa", "company": "무신사", "type": "유니콘",
-      "roles": ["MD", "마케팅", "브랜드"],
-      "start": "", "end": "", "confirmed": false,
-      "source": "링커리어", "url": "", "hist": "수시 · 상시"
-    },
-    {
-      "id": "toss", "company": "토스", "type": "유니콘",
-      "roles": ["PM/서비스기획", "사업개발"],
-      "start": "", "end": "", "confirmed": false,
-      "source": "자체 채용페이지", "url": "https://toss.im/career",
-      "hist": "수시 · NEXT 챌린지는 개발 직군. PO는 경력 3년 이하 조건"
-    },
-    {
       "id": "scatterlab", "company": "스캐터랩", "type": "스타트업",
-      "roles": ["마케팅", "데이터", "PM/서비스기획"],
+      "roles": ["마케팅", "데이터", "PM/서비스기획", "고객/CS", "콘텐츠"],
       "start": "", "end": "", "confirmed": false,
       "source": "자체 채용페이지", "url": "https://www.scatterlab.co.kr/ko/recruiting",
-      "hist": "수시 · 콘텐츠 마케터, 데이터 기획 인턴 게시 이력"
+      "hist": "수시 · 콘텐츠 마케터, CS, 데이터 기획 인턴 게시 이력"
+    },
+    {
+      "id": "hyundai-card", "company": "현대카드", "type": "금융",
+      "roles": ["마케팅", "브랜드", "데이터", "기획/전략", "디자인"],
+      "start": "", "end": "", "confirmed": false,
+      "source": "자체 채용페이지", "url": "",
+      "hist": "수시 · 최근 1년 30회 이상"
+    },
+    {
+      "id": "shinhan-card", "company": "신한카드", "type": "금융",
+      "roles": ["금융/심사", "영업", "개발", "마케팅", "데이터"],
+      "start": "", "end": "", "confirmed": false,
+      "source": "자체 채용페이지", "url": "https://shcard.incruit.com/hire/hirelist.asp",
+      "hist": "수시 · 4급 신입 (채권·보험·보상·심사, B2B영업, ERP·시스템개발)"
     }
   ]
 }
