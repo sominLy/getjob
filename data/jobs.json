@@ -492,7 +492,7 @@
       "confirmed": false,
       "source": "링커리어",
       "url": "",
-      "hist": "25년 하반기 10/23~11/6. 백화점(영업관리 의류/잡화/식품/e커머스, 판매기획, 회원서비스) + 홈쇼핑(방송MD, 편성, 신사업검토, 전략기획). 하반기 공채 중 가장 늦게 열림"
+      "hist": "25년 하반기 10/23~11/6. 백화점(영업관리 의류/잡화/식품/e커머스, 판매기획, 회원서비스) + 홈쇼핑(방송MD, 편성, 신사업검토, 전략기획). 하반기 공채 중 가장 늦게 열림 상반기에는 면세점 디지털기획 등 별도 직무를 뽑기도 함 (26년 상반기 ~5/13)"
     },
     {
       "id": "kakao-winter",
@@ -515,14 +515,16 @@
       "company": "당근",
       "type": "유니콘",
       "roles": [
-        "PM/서비스기획"
+        "PM/서비스기획",
+        "기획/전략",
+        "고객/CS"
       ],
       "start": "",
       "end": "",
       "confirmed": false,
       "source": "자체 채용페이지",
       "url": "https://careers.daangn.com/jobs/",
-      "hist": "수시 · 최근 1년 12회 이상. PM 인턴(중고거래실, 커뮤니티·모임) 반복 게시"
+      "hist": "수시 · 거의 매달 새 PM 인턴 공고. 26년 관측: 로컬비즈니스 UGC ~1/11, 운영개발 ~1/20, 부동산 ~2/1, 검색 Product Operation ~2/4, 당근페이 ~3/8, 로컬딜 ~4/19, 커뮤니티(모임) ~5/3, 로컬비즈니스 S&D ~5/10, 픽업오더 ~6/17. 우대: SQL·데이터분석, 프로젝트 오너십, 커뮤니티 그로스"
     },
     {
       "id": "naver",
@@ -540,7 +542,7 @@
       "confirmed": false,
       "source": "링커리어",
       "url": "https://recruit.navercorp.com",
-      "hist": "공채는 3월 단발 — 24년 3/5~3/18 · 25년 3/5~3/17. Service & Business = 광고상품/플랫폼·커머스/플레이스·콘텐츠·사업/제휴. 전형은 서류→프로덕트 디벨롭 인터뷰→챌린지+종합역량 인터뷰. 하반기는 인턴·수시만"
+      "hist": "공채는 3월 단발 — 24년 3/5~3/18 · 25년 3/5~3/17. Service & Business = 광고상품/플랫폼·커머스/플레이스·콘텐츠·사업/제휴. 전형: 서류→프로덕트 디벨롭 인터뷰→챌린지+종합역량 인터뷰. 26년 관측: 하계 인턴십 비즈니스 트랙(체험형) 6/12~6/22, 플레이스 프로모션·캠페인 운영(계약) ~6/29"
     },
     {
       "id": "upstage",
@@ -548,15 +550,16 @@
       "type": "스타트업",
       "roles": [
         "PM/서비스기획",
+        "기획/전략",
         "마케팅",
-        "기획/전략"
+        "사업개발"
       ],
       "start": "",
       "end": "",
       "confirmed": false,
       "source": "자체 채용페이지",
       "url": "https://careers.upstage.ai/ko/upstage",
-      "hist": "수시 · Technical Program Manager 신입 채용 이력"
+      "hist": "수시 · 26년 관측: AI Enterprise Manager Internship(정규직전환형/체험형), AI Enterprise Planning Internship(정규직전환형) 상시모집. 우대: IT·데이터 과제 PMO, AI 솔루션 지식, 노코드 개발"
     },
     {
       "id": "kream",
@@ -567,14 +570,15 @@
         "PM/서비스기획",
         "MD",
         "브랜드",
-        "콘텐츠"
+        "콘텐츠",
+        "기획/전략"
       ],
       "start": "",
       "end": "",
       "confirmed": false,
       "source": "잡코리아",
       "url": "https://recruit.kreamcorp.com/",
-      "hist": "수시 · 신입 중심 + 디지털 마케팅 기획 체험형 인턴"
+      "hist": "수시 · 체험형 인턴 상시 운영. 26년 관측: Pay Biz 사업기획 어시스턴트 ~1/18. 자격: 3개월 풀타임, PPT·Excel 능숙, 논리적 문서화. 우대: KREAM 구매·판매 경험, 결제·정산 생태계 관심"
     },
     {
       "id": "woowa",
@@ -608,7 +612,7 @@
       "confirmed": false,
       "source": "사람인",
       "url": "https://www.coupang.jobs/",
-      "hist": "수시 · 최근 1년 29회 이상. 영업관리·영업기획·B2B영업·고객관리 중심"
+      "hist": "수시 · 최근 1년 29회 이상. 영업관리·영업기획·B2B영업·고객관리 중심. 주의: CX Design PM은 '주니어' 표기여도 경력 3~13년 요구라 신입 지원 불가"
     },
     {
       "id": "toss",
@@ -705,6 +709,198 @@
       "source": "자체 채용페이지",
       "url": "https://shcard.incruit.com/hire/hirelist.asp",
       "hist": "수시 · 4급 신입 (채권·보험·보상·심사, B2B영업, ERP·시스템개발)"
+    },
+    {
+      "id": "kakaobank",
+      "company": "카카오뱅크",
+      "type": "금융",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "고객/CS"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "https://recruit.kakaobank.com/jobs",
+      "hist": "수시 · 체험형/채용연계형 인턴을 꾸준히 돌림. 26년 관측: 비즈니스 기획·운영(전자금융) ~3/20, 신사업(서베이) 운영·기획 어시스턴트 ~5/19, AI 서비스 기획 어시스턴트 ~5/26, 서비스 기획자(인증기획) ~7/13. 금융 도메인 이해가 사실상 전제"
+    },
+    {
+      "id": "line",
+      "company": "라인",
+      "type": "유니콘",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "고객/CS"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "https://careers.linecorp.com/ko/jobs",
+      "hist": "상시모집 · Business & Product Operations Assistant (1년 계약). Web3 플랫폼 기반 Product·Wallet·Billing 운영 리포트 지원. 글로벌 조직이라 영어 필요"
+    },
+    {
+      "id": "myrealtrip",
+      "company": "마이리얼트립",
+      "type": "스타트업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "마케팅"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · Product Manager 인턴 (채용연계형). 26년 상반기에 두 차례 게시"
+    },
+    {
+      "id": "bunjang",
+      "company": "번개장터",
+      "type": "스타트업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "MD"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · Product Manager. 중고거래 커머스라 커뮤니티·그로스 경험이 직접 붙음"
+    },
+    {
+      "id": "tridge",
+      "company": "트릿지",
+      "type": "스타트업",
+      "roles": [
+        "PM/서비스기획",
+        "리서치",
+        "사업개발"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · PM Intern. 글로벌 농식품 무역 데이터 플랫폼이라 영어 비중 높음"
+    },
+    {
+      "id": "nota",
+      "company": "노타",
+      "type": "스타트업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "사업개발"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · (Solution Biz1) Project Manager. AI 온디바이스 B2B — 업스테이지와 같은 결"
+    },
+    {
+      "id": "hybe",
+      "company": "하이브",
+      "type": "유니콘",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "콘텐츠",
+        "브랜드"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · Weverse Company AI 서비스 기획, 서비스 기획. 팬덤 플랫폼 도메인 이해 필요"
+    },
+    {
+      "id": "nhn-payco",
+      "company": "NHN PAYCO",
+      "type": "중견기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "고객/CS"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · 페이코 플랫폼 기획, 페이코 서비스 운영. 결제·정산 도메인"
+    },
+    {
+      "id": "shinhan-ds",
+      "company": "신한DS",
+      "type": "금융",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · 플랫폼 서비스 기획, PM/PMO. 금융 SI라 요건정의·문서화 비중이 큼"
+    },
+    {
+      "id": "ktm",
+      "company": "kt M mobile",
+      "type": "중견기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "마케팅"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · 상품/서비스 기획 (26년 상반기 공채 신입). 알뜰폰 상품기획"
+    },
+    {
+      "id": "hyundai-vendys",
+      "company": "현대벤디스",
+      "type": "스타트업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "상시모집 · 서비스기획팀 서비스기획자. 기업 식대 솔루션(식권대장) B2B SaaS"
+    },
+    {
+      "id": "iicombined",
+      "company": "아이아이컴바인드 (젠틀몬스터)",
+      "type": "중견기업",
+      "roles": [
+        "PM/서비스기획",
+        "MD",
+        "브랜드",
+        "마케팅"
+      ],
+      "start": "",
+      "end": "",
+      "confirmed": false,
+      "source": "링커리어",
+      "url": "",
+      "hist": "26년 상반기 이커머스 서비스 운영 담당자 ~4/14. 브랜드 커머스 운영"
     }
   ]
 }
