@@ -355,6 +355,22 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .chips button{background:var(--paper);border:1px solid var(--line);border-radius:99px;
   padding:5px 13px;font-size:13px;color:var(--ink-2)}
 .chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+/* 공고 상세 (캘린더·플래너에서 열림) */
+#jobDlg h2{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.jd{display:flex;flex-direction:column;gap:11px;margin-top:13px}
+.jd-roles{font-size:13px;color:var(--ink-2)}
+.jd-facts{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0;font-size:13.5px}
+.jd-facts dt{font-size:11.5px;font-weight:700;color:var(--muted);padding-top:2px}
+.jd-facts dd{margin:0;font-family:var(--serif)}
+.jd-hist,.jd-note{font-size:12.5px;color:var(--muted);line-height:1.6;
+  border-left:2px solid var(--line);padding-left:10px}
+.jd-note{color:var(--ink-2)}
+.jd-actions{align-items:center;flex-wrap:wrap}
+.jd-actions a.ghost{text-decoration:none;display:inline-block;line-height:normal}
+.jd-actions #jdEdit{margin-right:auto}
+.ev{cursor:pointer}
+.pev{cursor:pointer;text-align:left;border:0;width:100%;font-family:inherit}
+.pev:hover,.ev:hover{filter:brightness(.96)}
 .chips.sm{gap:5px}
 .chips.sm button{padding:3px 10px;font-size:12px}
 .swatches{display:flex;gap:9px;flex-wrap:wrap}
@@ -634,6 +650,22 @@ thead th{font-weight:600;letter-spacing:.07em}
     <label>화면 모드<div class="chips" id="modeChips"></div></label>
     <label>테마 색<div class="swatches" id="accentChips"></div></label>
     <div class="f-actions"><button class="primary" id="themeDone">닫기</button></div>
+  </div>
+</dialog>
+
+<dialog id="jobDlg">
+  <h2 id="jdCompany"></h2>
+  <div class="jd">
+    <p class="jd-roles" id="jdRoles"></p>
+    <dl class="jd-facts" id="jdFacts"></dl>
+    <p class="jd-hist" id="jdHist"></p>
+    <p class="jd-note" id="jdNote"></p>
+  </div>
+  <div class="f-actions jd-actions">
+    <button type="button" class="ghost" id="jdEdit">편집</button>
+    <a class="ghost" id="jdLink" target="_blank" rel="noopener">공고 열기</a>
+    <button type="button" class="ghost" id="jdClose">닫기</button>
+    <button type="button" class="primary" id="jdApply"></button>
   </div>
 </dialog>
 
@@ -1267,12 +1299,74 @@ function renderCal(){
       const pre = document.createElement("span"); pre.className = "pre"; pre.textContent = e.label;
       b.appendChild(pre);
       b.appendChild(document.createTextNode(e.name));
-      b.onclick = () => openForm(e.id);
+      b.onclick = () => openJob(e.id);
       c.appendChild(b);
     });
     grid.appendChild(c);
   }
 }
+
+/* ---------- 공고 상세 ---------- */
+const jobDlg = document.getElementById("jobDlg");
+let jdId = null;
+function openJob(id){
+  const j = allJobs().find(x => x.id === id);
+  if(!j) return;
+  jdId = id;
+  const a = app(id);
+
+  const h = document.getElementById("jdCompany");
+  h.textContent = j.company;
+  h.appendChild(pill(j));
+
+  document.getElementById("jdRoles").textContent = (j.roles || []).join(" · ") || "직무 미기재";
+
+  const facts = document.getElementById("jdFacts");
+  facts.innerHTML = "";
+  const add = (k, v) => {
+    if(!v) return;
+    const dt = document.createElement("dt"); dt.textContent = k;
+    const dd = document.createElement("dd"); dd.textContent = v;
+    facts.append(dt, dd);
+  };
+  add("접수 시작", j.start ? fmt(j.start) : (j.end ? "—" : "상시 · 수시"));
+  add("접수 마감", j.end ? fmt(j.end) + " (D-" + dleft(j.end) + ")" : "");
+  add("기업 형태", j.type);
+  add("출처", j.source);
+  if(a.applied){
+    add("서류 결과", a.doc);
+    a.stages.forEach(s => add(s.name, s.date ? fmt(s.date) : "날짜 미정"));
+  }
+
+  const hist = document.getElementById("jdHist");
+  hist.textContent = j.hist ? "역대 " + j.hist : "";
+  hist.hidden = !j.hist;
+
+  const note = document.getElementById("jdNote");
+  note.textContent = a.note || "";
+  note.hidden = !a.note;
+
+  const link = document.getElementById("jdLink");
+  if(j.url){ link.href = j.url; link.hidden = false; } else { link.hidden = true; }
+
+  const ap = document.getElementById("jdApply");
+  ap.textContent = a.applied ? "지원 취소" : "지원하기";
+  ap.className = a.applied ? "ghost" : "primary";
+
+  jobDlg.showModal();
+}
+document.getElementById("jdApply").onclick = function(){
+  if(!jdId) return;
+  const a = app(jdId), j = allJobs().find(x => x.id === jdId);
+  a.applied = !a.applied;
+  save(); renderAll();
+  toast(a.applied ? j.company + " · 내 지원에 담았습니다" : "내 지원에서 뺐습니다");
+  openJob(jdId);
+};
+document.getElementById("jdEdit").onclick = function(){
+  const id = jdId; jobDlg.close(); openForm(id);
+};
+document.getElementById("jdClose").onclick = () => jobDlg.close();
 
 /* ---------- 주간 플래너 ---------- */
 let weekStart = mondayOf(TODAY);
@@ -1295,9 +1389,11 @@ function renderWeek(){
     day.appendChild(h);
 
     (ev[k] || []).forEach(function(e){
-      const p = document.createElement("div");
+      const p = document.createElement("button");
+      p.type = "button";
       p.className = "pev " + (e.kind==="start" ? "s" : e.kind==="end" ? "e" : "g");
       p.textContent = e.label + " · " + e.name;
+      p.onclick = () => openJob(e.id);
       day.appendChild(p);
     });
 
