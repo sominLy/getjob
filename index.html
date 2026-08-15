@@ -355,6 +355,8 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .chips button{background:var(--paper);border:1px solid var(--line);border-radius:99px;
   padding:5px 13px;font-size:13px;color:var(--ink-2)}
 .chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.chips.sm{gap:5px}
+.chips.sm button{padding:3px 10px;font-size:12px}
 .swatches{display:flex;gap:9px;flex-wrap:wrap}
 .swatches button{width:auto;padding:6px 8px 7px;border:1px solid var(--line);border-radius:10px;
   background:var(--card);display:flex;flex-direction:column;align-items:center;gap:5px;
@@ -588,7 +590,7 @@ thead th{font-weight:600;letter-spacing:.07em}
   <h2 id="dlgTitle">공고 추가</h2>
   <form method="dialog" class="f" id="form">
     <label>기업<input type="text" name="company" required placeholder="예: 무신사"></label>
-    <label>직무 (쉼표로 구분)<input type="text" name="roles" placeholder="예: MD, 마케팅"></label>
+    <label>직무 — 고른 것만 필터에 잡힙니다<div class="chips sm" id="formRoles"></div></label>
     <div class="row2">
       <label>접수 시작<input type="date" name="start"></label>
       <label>접수 마감<input type="date" name="end"></label>
@@ -774,8 +776,10 @@ function fits(j){
   if(p.types.length && !p.types.includes(j.type)) return false;
   return true;
 }
+/* 내가 직접 넣은 공고와 이미 지원한 공고는 조건과 무관하게 항상 보입니다 */
 function scoped(){
-  return allJobs().filter(j => fits(j) || app(j.id).applied);
+  return allJobs().filter(j =>
+    fits(j) || app(j.id).applied || db.custom.some(c => c.id === j.id));
 }
 
 /* ---------- 전체 공고 ---------- */
@@ -1488,14 +1492,15 @@ function renderRail(){
 
 /* ---------- 공고 폼 ---------- */
 const dlg = document.getElementById("dlg"), form = document.getElementById("form");
-let editId = null;
+let editId = null, formRoleSel = [];
 function openForm(id){
   editId = id || null;
   const j = id ? allJobs().find(x => x.id === id) : null;
   const isCustom = j && db.custom.some(c => c.id === j.id);
   document.getElementById("dlgTitle").textContent = j ? j.company : "공고 추가";
   form.company.value = j ? j.company : "";
-  form.roles.value = j ? (j.roles||[]).join(", ") : "";
+  formRoleSel = j ? (j.roles || []).slice() : [];
+  chips("formRoles", ROLES, formRoleSel);
   form.start.value = j ? (j.start||"") : "";
   form.end.value = j ? (j.end||"") : "";
   form.confirmed.checked = j ? !!j.confirmed : true;
@@ -1510,7 +1515,7 @@ function openForm(id){
 form.addEventListener("submit", function(){
   const v = {
     company: form.company.value.trim(),
-    roles: form.roles.value.split(",").map(s => s.trim()).filter(Boolean),
+    roles: formRoleSel.slice(),
     start: form.start.value, end: form.end.value,
     confirmed: form.confirmed.checked,
     source: form.source.value, type: form.type.value,

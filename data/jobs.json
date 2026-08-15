@@ -12,6 +12,21 @@
   ],
   "jobs": [
     {
+      "id": "kakaobank-263159",
+      "company": "카카오뱅크",
+      "type": "금융",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-08-15",
+      "confirmed": true,
+      "source": "자체 채용페이지",
+      "url": "https://recruit.kakaobank.com/jobs/263159",
+      "hist": "마감 8/15 08:17 확정. 공고 제목이 스크립트로 그려져 읽지 못했으니 링크에서 직무 확인 후 편집하세요"
+    },
+    {
       "id": "woori-bank",
       "company": "우리은행",
       "type": "금융",
