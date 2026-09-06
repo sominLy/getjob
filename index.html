@@ -218,6 +218,11 @@ td.act button.on{color:var(--accent);font-weight:700}
 .step.next{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
 .step input[type=date]{border:0;background:none;padding:0;font-family:var(--serif);font-size:13px;width:100%}
 .step button.x{background:none;border:0;color:var(--muted);font-size:11px;padding:0;text-align:left}
+.step select.st-res{border:0;background:none;padding:0;font-size:12px;font-weight:700;width:100%}
+.subm{display:flex;flex-wrap:wrap;gap:8px 12px;margin-top:6px}
+.subm label{display:flex;align-items:center;gap:4px;font-size:11.5px;color:var(--ink-2);cursor:pointer}
+.subm input{margin:0}
+.subm button{background:none;border:0;color:var(--muted);font-size:11px;padding:0;cursor:pointer;text-decoration:underline}
 .step button.x:hover{color:var(--urgent)}
 .rowline{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px}
 .rowline label{font-size:12px;font-weight:600;color:var(--muted)}
@@ -836,6 +841,9 @@ function app(id){
   if(!a.essays){                             // 자소서를 문항별로 쪼갭니다
     a.essays = a.cover ? [{q:"", limit:0, a:a.cover}] : [];
   }
+  /* 서류로 무엇을 냈는지 체크. 포트폴리오는 요구하는 곳만 있어서 필요할 때 추가한다. */
+  if(!a.submit) a.submit = {cover:false, resume:false, folio:false, hasFolio:false};
+  a.stages.forEach(st => { if(!st.result) st.result = "예정"; });
   return a;
 }
 /* 공백 포함·제외 글자수 */
@@ -850,6 +858,10 @@ const iso = d => d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+
 const parse = s => { const p = s.split("-").map(Number); return new Date(p[0], p[1]-1, p[2]); };
 const dleft = s => Math.round((parse(s) - TODAY) / 86400000);
 const fmt = s => { const d = parse(s); return (d.getMonth()+1)+"월 "+d.getDate()+"일"; };
+/* 마감이 지난 날짜에 "D--6"처럼 마이너스가 두 번 붙지 않게 한다 */
+const dday = s => { const n = dleft(s); return n === 0 ? "오늘" : n > 0 ? "D-" + n : Math.abs(n) + "일 지남"; };
+/* 마감 시각까지 아는 공고는 "9월 7일 16:00"으로 보여준다 */
+const fmtAt = (date, time) => fmt(date) + (time ? " " + time : "");
 
 /* ---------- 상태 판정 ---------- */
 function state(j){
@@ -1005,8 +1017,8 @@ function ddayBoard(list){
   const rows = [];
   list.forEach(function(j){
     const a = app(j.id), dl = deadline(j);
-    if(dl && a.doc === "대기") rows.push({date:dl, what:"서류 마감", j:j});
-    a.stages.forEach(s => { if(s.date) rows.push({date:s.date, what:s.name, j:j}); });
+    if(dl && a.doc === "대기") rows.push({date:dl, what:"서류 마감", j:j, time: a.myEnd ? "" : (j.endTime || "")});
+    a.stages.forEach(s => { if(s.date) rows.push({date:s.date, what:s.name, j:j, time:""}); });
   });
   rows.sort((x,y) => x.date.localeCompare(y.date));
   const up = rows.filter(r => dleft(r.date) >= 0);
@@ -1033,10 +1045,10 @@ function ddayBoard(list){
     const row = document.createElement("div");
     row.className = "dd" + (d <= 3 ? " u" : d <= 10 ? " s" : "");
     const n = document.createElement("div"); n.className = "dd-n";
-    n.textContent = d === 0 ? "오늘" : "D-" + d;
+    n.textContent = dday(r.date);
     const co = document.createElement("div"); co.className = "dd-co"; co.textContent = r.j.company;
     const wt = document.createElement("div"); wt.className = "dd-w"; wt.textContent = r.what;
-    const dt = document.createElement("div"); dt.className = "dd-d"; dt.textContent = fmt(r.date);
+    const dt = document.createElement("div"); dt.className = "dd-d"; dt.textContent = fmtAt(r.date, r.time);
     row.append(n, co, wt, dt);
     ul.appendChild(row);
   });
@@ -1092,7 +1104,7 @@ function renderMine(){
     const s0d = document.createElement("div"); s0d.className = "sd";
     const dl = deadline(j);
     if(dl && !a.myEnd){
-      s0d.textContent = fmt(dl) + " (D-" + dleft(dl) + ")";
+      s0d.textContent = fmtAt(dl, j.endTime) + " (" + dday(dl) + ")";
     } else {
       /* 상시 공고이거나 내가 마감일을 바꾼 경우 — 직접 입력 */
       const di = document.createElement("input");
@@ -1103,7 +1115,7 @@ function renderMine(){
       if(dl){
         const dd = document.createElement("div");
         dd.style.cssText = "font-size:10.5px;color:var(--muted)";
-        dd.textContent = "D-" + dleft(dl);
+        dd.textContent = dday(dl);
         s0d.appendChild(dd);
       }
     }
@@ -1117,11 +1129,33 @@ function renderMine(){
     s0r.className = a.doc==="합격" ? "res-pass" : a.doc==="불합격" ? "res-fail" : "";
     s0r.onchange = () => { a.doc = s0r.value; save(); renderAll(); };
     s0.append(s0n, s0d, s0r);
+
+    /* 무엇을 냈는지 체크 — 포트폴리오는 요구하는 곳만 있어서 필요할 때 추가한다. */
+    const sub = document.createElement("div"); sub.className = "subm";
+    const checks = [["cover","자소서"], ["resume","이력서"]];
+    if(a.submit.hasFolio) checks.push(["folio","포트폴리오"]);
+    checks.forEach(function(c){
+      const lab = document.createElement("label");
+      const cb = document.createElement("input"); cb.type = "checkbox"; cb.checked = !!a.submit[c[0]];
+      cb.onchange = () => { a.submit[c[0]] = cb.checked; save(); renderMine(); };
+      lab.append(cb, document.createTextNode(c[1]));
+      sub.appendChild(lab);
+    });
+    const fb = document.createElement("button"); fb.type = "button";
+    fb.textContent = a.submit.hasFolio ? "포트폴리오 빼기" : "+ 포트폴리오";
+    fb.onclick = () => {
+      a.submit.hasFolio = !a.submit.hasFolio;
+      if(!a.submit.hasFolio) a.submit.folio = false;
+      save(); renderMine();
+    };
+    sub.appendChild(fb);
+    s0.appendChild(sub);
     track.appendChild(s0);
 
     a.stages.forEach(function(st, i){
       const el = document.createElement("div");
-      el.className = "step" + (st.date && dleft(st.date) < 0 ? " done" : "");
+      el.className = "step" + (st.result==="합격" ? " done" : st.result==="불합격" ? " fail" :
+                               st.result==="완료" ? " next" : "");
       const n = document.createElement("div"); n.className = "sn"; n.textContent = st.name;
       if(st.est){
         const est = document.createElement("span"); est.className = "sub"; est.style.marginLeft = "4px";
@@ -1131,9 +1165,19 @@ function renderMine(){
       const d = document.createElement("input"); d.type = "date"; d.value = st.date || "";
       d.setAttribute("aria-label", j.company + " " + st.name + " 일정");
       d.onchange = () => { st.date = d.value; st.est = false; save(); renderAll(); };
+      /* 이 전형을 봤는지, 붙었는지 여기서 바로 바꾼다 */
+      const res = document.createElement("select");
+      res.className = "st-res" + (st.result==="합격" ? " res-pass" : st.result==="불합격" ? " res-fail" : "");
+      res.setAttribute("aria-label", j.company + " " + st.name + " 상태");
+      ["예정","완료","합격","불합격"].forEach(function(o){
+        const op = document.createElement("option"); op.value = o; op.textContent = o;
+        op.selected = (st.result === o); res.appendChild(op);
+      });
+      res.onchange = () => { st.result = res.value; save(); renderAll(); };
+
       const x = document.createElement("button"); x.className = "x"; x.textContent = "빼기";
       x.onclick = () => { a.stages.splice(i,1); save(); renderAll(); };
-      el.append(n, d, x);
+      el.append(n, d, res, x);
       track.appendChild(el);
     });
     b.appendChild(track);
@@ -1509,7 +1553,7 @@ function openJob(id){
     facts.append(dt, dd);
   };
   add("접수 시작", j.start ? fmt(j.start) : (j.end ? "—" : "상시 · 수시"));
-  add("접수 마감", j.end ? fmt(j.end) + (j.endTime ? " " + j.endTime : "") + " (D-" + dleft(j.end) + ")" : "");
+  add("접수 마감", j.end ? fmtAt(j.end, j.endTime) + " (" + dday(j.end) + ")" : "");
   add("기업 형태", j.type);
   add("출처", j.source);
   if(a.applied){
@@ -1761,7 +1805,7 @@ function renderRail(){
     const el = document.createElement("div");
     el.className = "dchip" + (it.d <= 3 ? " u" : it.d <= 10 ? " s" : "") + (it.mine ? " mine" : " dim");
     const d = document.createElement("div"); d.className = "d";
-    d.textContent = it.d === 0 ? "오늘 마감" : "D-" + it.d;
+    d.textContent = it.d === 0 ? "오늘 마감" : "D-" + it.d;   /* 레일은 지난 일정을 애초에 안 담는다 */
     const c = document.createElement("div"); c.className = "c"; c.textContent = it.name;
     const k = document.createElement("div"); k.className = "k"; k.textContent = it.what;
     el.append(d, c, k); rail.appendChild(el);
