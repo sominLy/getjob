@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-// 원티드 + 링커리어 + 자소설닷컴에서 PM/서비스기획·기획/전략 관련 인턴/신입 공고를 모아
-// data/jobs.json에 병합한다. 기존 항목은 건드리지 않고 새 공고만 추가한다.
+// 원티드·링커리어는 PM/서비스기획·기획/전략 관련 인턴/신입 공고만,
+// 자소설닷컴은 신입/인턴 공고 전부(직무 무관)를 가져와 data/jobs.json에 병합한다.
+// 기존 항목은 건드리지 않고 새 공고만 추가한다.
 
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -108,23 +109,25 @@ async function fetchJasoseol() {
   if (!res.ok) throw new Error(`jasoseol fetch failed: ${res.status}`);
   const data = await res.json();
 
+  // 자소설닷컴은 직무 필터 없이 신입/인턴 공고 전부를 가져온다.
+  // PM/기획 키워드가 없으면 roles를 비워두고 "직무 확인 필요"로 표시 —
+  // 빈 roles는 index.html의 fits()가 필터로 걸러내지 않고 항상 보여준다.
   const results = [];
   for (const item of data.employment ?? []) {
     const text = `${item.title ?? ""} ${item.name ?? ""}`;
     const hit = classify(text);
-    if (!hit) continue;
 
     results.push({
       id: `jasoseol-${item.id}`,
       company: item.name ?? "",
       type: "",
-      roles: hit.roles,
+      roles: hit ? hit.roles : [],
       start: "",
       end: item.end_time ? toDateOnly(item.end_time) : "",
       confirmed: true,
       source: "자소설닷컴",
       url: `https://jasoseol.com/employment/${item.id}`,
-      hist: hit.hist,
+      hist: hit ? hit.hist : "자동 수집 · 직무 확인 필요",
     });
   }
   return results;

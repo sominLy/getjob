@@ -841,8 +841,8 @@ function pill(j){
 /* 내 조건에 맞는가 */
 function fits(j){
   const p = db.profile;
-  if(p.roles.length && !(j.roles || []).some(r => p.roles.includes(r))) return false;
-  /* 기업 형태를 모르는(자동 수집) 공고는 필터로 숨기지 않고 항상 보여준다 */
+  /* 직무·기업 형태를 모르는(자동 수집) 공고는 필터로 숨기지 않고 항상 보여준다 */
+  if(p.roles.length && (j.roles || []).length && !j.roles.some(r => p.roles.includes(r))) return false;
   if(p.types.length && j.type && !p.types.includes(j.type)) return false;
   return true;
 }
