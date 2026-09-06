@@ -545,6 +545,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <button class="ghost" id="prefBtn">내 조건</button>
     <button class="ghost" id="addBtn">+ 공고</button>
     <button class="ghost" id="shareBtn" title="다른 사람에게도 보이는 공고를 올립니다">공고 제보</button>
+    <button class="ghost" id="icsBtn" title="마감·전형 일정을 휴대폰 캘린더로 보냅니다">일정 내보내기</button>
     <button class="ghost" id="expBtn">백업</button>
     <button class="ghost" id="impBtn">복원</button>
     <button class="ghost" id="logoutBtn">로그아웃</button>
@@ -2000,6 +2001,75 @@ document.getElementById("prefDone").onclick = function(){
   save(); prefDlg.close(); renderAll();
   const n = scoped().length;
   toast("조건에 맞는 공고 " + n + "개를 보여드립니다");
+};
+
+/* ---------- 일정 내보내기 (휴대폰 캘린더) ----------
+   브라우저 알림은 앱을 열어둬야만 와서 마감을 놓치기 쉽다. 대신 캘린더에 넣어두면
+   휴대폰이 알아서 울려준다. 마감은 하루 전과 6시간 전, 두 번 알림을 건다. */
+function icsEscape(t){ return String(t).replace(/([,;\\])/g, "\\$1").replace(/\n/g, "\\n"); }
+function icsStamp(d){ return d.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z"; }
+
+/* 마감 시각을 알면 그 시각에, 모르면 그날 23:59(한국 시간)로 잡는다 */
+function icsMoment(date, time){
+  const [y, m, d] = date.split("-").map(Number);
+  const [hh, mm] = (time || "23:59").split(":").map(Number);
+  return new Date(Date.UTC(y, m - 1, d, hh - 9, mm));   /* KST → UTC */
+}
+
+function buildIcs(){
+  const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//지원 보드//KR", "CALSCALE:GREGORIAN",
+                 "METHOD:PUBLISH", "X-WR-CALNAME:지원 보드"];
+  const now = icsStamp(new Date());
+  let count = 0;
+
+  myJobs().forEach(function(j){
+    const a = app(j.id);
+    const push = (when, title, alarms) => {
+      if(!when) return;
+      const start = icsMoment(when.date, when.time);
+      const end = new Date(start.getTime() + 30 * 60000);
+      lines.push("BEGIN:VEVENT",
+        "UID:" + j.id + "-" + title.replace(/\s/g, "") + "@jobboard",
+        "DTSTAMP:" + now,
+        "DTSTART:" + icsStamp(start),
+        "DTEND:" + icsStamp(end),
+        "SUMMARY:" + icsEscape(j.company + " " + title),
+        "DESCRIPTION:" + icsEscape((j.roles || []).join(", ") + (j.url ? "\n" + j.url : "")));
+      if(j.url) lines.push("URL:" + j.url);
+      alarms.forEach(function(al){
+        lines.push("BEGIN:VALARM", "ACTION:DISPLAY",
+          "DESCRIPTION:" + icsEscape(j.company + " " + title + " " + al[1]),
+          "TRIGGER:" + al[0], "END:VALARM");
+      });
+      lines.push("END:VEVENT");
+      count++;
+    };
+
+    const dl = deadline(j);
+    if(dl && a.doc === "대기"){
+      /* 하루 전, 6시간 전 두 번 */
+      push({date: dl, time: a.myEnd ? "" : j.endTime}, "서류 마감",
+           [["-P1D", "하루 전"], ["-PT6H", "6시간 전"]]);
+    }
+    a.stages.forEach(function(st){
+      if(st.date && st.result !== "불합격")
+        push({date: st.date, time: ""}, st.name, [["-P1D", "하루 전"]]);
+    });
+  });
+
+  lines.push("END:VCALENDAR");
+  return {text: lines.join("\r\n"), count: count};
+}
+
+document.getElementById("icsBtn").onclick = function(){
+  const ics = buildIcs();
+  if(!ics.count){ toast("내보낼 일정이 없습니다. 공고를 담고 마감일을 넣어주세요"); return; }
+  const blob = new Blob([ics.text], {type:"text/calendar;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "지원보드-일정.ics";
+  a.click(); URL.revokeObjectURL(a.href);
+  toast(ics.count + "개 일정을 내보냈습니다. 파일을 열면 캘린더에 들어갑니다");
 };
 
 /* ---------- 백업 / 복원 ---------- */
