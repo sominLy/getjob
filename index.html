@@ -365,6 +365,11 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .jd-hist,.jd-note{font-size:12.5px;color:var(--muted);line-height:1.6;
   border-left:2px solid var(--line);padding-left:10px}
 .jd-note{color:var(--ink-2)}
+.jd-poster{max-width:100%;max-height:60vh;border-radius:8px;display:block}
+.jd-poster[hidden],.jd-detail[hidden]{display:none}
+.jd-detail{white-space:pre-wrap;font-family:inherit;font-size:12.5px;line-height:1.6;
+  color:var(--ink-2);max-height:40vh;overflow-y:auto;margin:0;padding:10px 12px;
+  background:var(--panel-2,rgba(0,0,0,.03));border-radius:8px}
 .jd-actions{align-items:center;flex-wrap:wrap}
 .jd-actions a.ghost{text-decoration:none;display:inline-block;line-height:normal}
 .jd-actions #jdEdit{margin-right:auto}
@@ -685,6 +690,9 @@ thead th{font-weight:600;letter-spacing:.07em}
     <dl class="jd-facts" id="jdFacts"></dl>
     <p class="jd-hist" id="jdHist"></p>
     <p class="jd-note" id="jdNote"></p>
+    <img class="jd-poster" id="jdPoster" alt="공고 이미지" hidden>
+    <p class="jd-hist" id="jdPosterFail" hidden>이 공고는 본문이 이미지로 되어 있고, 회사 사이트가 외부 표시를 막아두었습니다. 아래 <b>공고 열기</b>로 확인하세요.</p>
+    <pre class="jd-detail" id="jdDetail" hidden></pre>
   </div>
   <div class="f-actions jd-actions">
     <button type="button" class="ghost" id="jdEdit">편집</button>
@@ -1417,6 +1425,24 @@ function openJob(id){
   const note = document.getElementById("jdNote");
   note.textContent = a.note || "";
   note.hidden = !a.note;
+
+  /* 공고 본문이 포스터 이미지인 경우. 일부 회사는 외부 도메인에서의 이미지 로딩을 막아
+     (핫링크 차단) 깨진 이미지가 뜨는데, 그때는 조용히 감추고 "공고 열기"로 안내한다. */
+  const poster = document.getElementById("jdPoster");
+  const posterFail = document.getElementById("jdPosterFail");
+  posterFail.hidden = true;
+  if(j.detailImage){
+    poster.hidden = false;
+    poster.onerror = () => { poster.hidden = true; posterFail.hidden = false; };
+    poster.src = j.detailImage;
+  } else {
+    poster.hidden = true;
+    poster.removeAttribute("src");
+  }
+
+  const detail = document.getElementById("jdDetail");
+  detail.textContent = j.detail || "";
+  detail.hidden = !j.detail;
 
   const link = document.getElementById("jdLink");
   if(j.url){ link.href = j.url; link.hidden = false; } else { link.hidden = true; }

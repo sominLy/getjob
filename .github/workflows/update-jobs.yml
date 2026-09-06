@@ -18,8 +18,12 @@ jobs:
         with:
           node-version: 20
 
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+
       - run: node scripts/fetch-jobs.mjs
       - run: node scripts/fetch-ai-companies.mjs
+      - run: node scripts/fetch-official-details.mjs
 
       - name: Commit and push if changed
         run: |

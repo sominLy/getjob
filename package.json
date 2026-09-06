@@ -1,0 +1,11 @@
+{
+  "name": "jobboard",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}
