@@ -27,9 +27,25 @@
 - `confirmed: true` — 실제 공고로 확인한 **확정** 일정
 - `start`, `end`가 빈 문자열 — 상시·수시 채용
 
+## 자동 업데이트
+
+매일 KST 11:00에 GitHub Actions(`.github/workflows/update-jobs.yml`)가 두 스크립트를 실행합니다.
+
+- `scripts/fetch-jobs.mjs` — 링커리어·자소설닷컴에서 PM/서비스기획·기획/전략 관련 인턴/신입 공고를 찾아
+  `data/jobs.json`에 새 항목만 추가(기존 항목은 건드리지 않음)
+- `scripts/fetch-ai-companies.mjs` — 구글·앤스로픽·노션 서울 오피스 공고를 직무·경력 무관하게 전부 모아
+  `data/ai-companies-jobs.json`을 매번 새로 씀 (지원보드 트래킹 대상이 아닌 분석용 자료)
+
+잡코리아는 robots.txt가 AI 크롤러를 전면 차단해서, 스펙업은 실체가 로그인 필요한 네이버 카페라서,
+OpenAI는 봇 차단(403)이라 자동 수집 대상에서 제외했습니다.
+
 ## 구조
 
 ```
-index.html        앱 전체 (의존성 없음)
-data/jobs.json    공고 데이터
+index.html                     앱 전체 (의존성 없음)
+data/jobs.json                 공고 데이터 (지원보드용)
+data/ai-companies-jobs.json    구글/앤스로픽/노션 서울 공고 (분석용, 자동 갱신)
+scripts/fetch-jobs.mjs         지원보드용 공고 수집 스크립트
+scripts/fetch-ai-companies.mjs AI 3사 공고 수집 스크립트
+.github/workflows/update-jobs.yml  매일 11시 자동 실행 워크플로우
 ```
