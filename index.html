@@ -538,6 +538,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <button class="ghost" id="themeBtn" title="화면 모드와 테마 색">테마</button>
     <button class="ghost" id="prefBtn">내 조건</button>
     <button class="ghost" id="addBtn">+ 공고</button>
+    <button class="ghost" id="shareBtn" title="다른 사람에게도 보이는 공고를 올립니다">공고 제보</button>
     <button class="ghost" id="expBtn">백업</button>
     <button class="ghost" id="impBtn">복원</button>
     <button class="ghost" id="logoutBtn">로그아웃</button>
@@ -689,6 +690,25 @@ thead th{font-weight:600;letter-spacing:.07em}
     <label>기업 형태<div class="chips" id="typeChips"></div></label>
     <div class="f-actions"><button class="primary" id="prefDone">저장</button></div>
   </div>
+</dialog>
+
+<dialog id="shareDlg">
+  <h2>공고 제보</h2>
+  <p class="sub" style="margin-top:6px">올리면 이 보드를 쓰는 모든 사람에게 보입니다. 회사·직무·링크만 있으면 됩니다.</p>
+  <form method="dialog" class="f" id="shareForm">
+    <label>회사<input type="text" name="company" required placeholder="예: 무신사"></label>
+    <label>직무<div class="chips sm" id="shareRoles"></div></label>
+    <label>공고 링크<input type="url" name="url" required placeholder="https://"></label>
+    <div class="row2">
+      <label>접수 마감 (모르면 비워두세요)<input type="date" name="end"></label>
+      <label>메모<input type="text" name="note" placeholder="예: 인턴 전환형"></label>
+    </div>
+    <p class="err" id="shareMsg" hidden style="color:#c0392b;font-size:12.5px"></p>
+    <div class="f-actions">
+      <button type="button" class="ghost" id="shareCancel">취소</button>
+      <button type="submit" class="primary" id="shareSubmit">올리기</button>
+    </div>
+  </form>
 </dialog>
 
 <dialog id="themeDlg">
@@ -850,7 +870,8 @@ function app(id){
 function counts(s){ s = s || ""; return {all:s.length, noSpace:s.replace(/\s/g,"").length}; }
 /* 지원한 공고의 마감일 — 내가 적은 게 있으면 그걸 우선 */
 function deadline(j){ const a = app(j.id); return (a.applied && a.myEnd) ? a.myEnd : j.end; }
-function allJobs(){ return SEED.concat(db.custom).filter(j => !j.deleted); }
+let SHARED = [];   /* 다른 사람이 올린 제보 공고 */
+function allJobs(){ return SEED.concat(SHARED, db.custom).filter(j => !j.deleted); }
 
 /* ---------- 날짜 ---------- */
 const TODAY = new Date(); TODAY.setHours(0,0,0,0);
@@ -1870,6 +1891,71 @@ document.getElementById("delBtn").onclick = function(){
 };
 document.getElementById("addBtn").onclick = () => openForm(null);
 
+/* ---------- 공고 제보(모두에게 보이는 공용 목록) ---------- */
+const shareDlg = document.getElementById("shareDlg");
+let shareRoleSel = [];
+
+/* 제보 목록을 서버에서 받아 공고 목록에 섞는다. 실패해도 앱은 그대로 돌아간다. */
+async function loadShared(){
+  const { data, error } = await sb
+    .from("jobboard_shared_jobs")
+    .select("id, company, roles, url, end_date, note, created_at")
+    .order("created_at", { ascending: false });
+  if(error){ console.warn("제보 공고를 불러오지 못했습니다:", error.message); SHARED = []; return; }
+  SHARED = (data || []).map(r => ({
+    id: "shared-" + r.id,
+    company: r.company,
+    type: "",
+    roles: r.roles || [],
+    start: "",
+    end: r.end_date || "",
+    confirmed: true,
+    source: "제보",
+    url: r.url,
+    hist: r.note || "",
+  }));
+}
+
+document.getElementById("shareBtn").onclick = function(){
+  shareRoleSel = [];
+  chips("shareRoles", ROLES, shareRoleSel);
+  const f = document.getElementById("shareForm");
+  f.reset();
+  document.getElementById("shareMsg").hidden = true;
+  shareDlg.showModal();
+};
+document.getElementById("shareCancel").onclick = () => shareDlg.close();
+
+document.getElementById("shareForm").onsubmit = async function(e){
+  e.preventDefault();
+  const f = e.target, msg = document.getElementById("shareMsg");
+  const btn = document.getElementById("shareSubmit");
+  if(!currentUserId){ msg.textContent = "로그인이 필요합니다."; msg.hidden = false; return; }
+
+  btn.disabled = true; msg.hidden = true;
+  const { error } = await sb.from("jobboard_shared_jobs").insert({
+    company: f.company.value.trim(),
+    roles: shareRoleSel,
+    url: f.url.value.trim(),
+    end_date: f.end.value || null,
+    note: f.note.value.trim() || null,
+    created_by: currentUserId,
+  });
+  btn.disabled = false;
+
+  if(error){
+    msg.textContent = error.message.includes("does not exist")
+      ? "제보 기능이 아직 켜지지 않았습니다. Supabase에 공용 표를 만들어야 합니다."
+      : "올리지 못했습니다: " + error.message;
+    msg.hidden = false;
+    return;
+  }
+  await loadShared();
+  shareDlg.close();
+  renderAll();
+  toast(f.company.value.trim() + " 공고를 올렸습니다. 모두에게 보입니다");
+};
+
 /* ---------- 내 조건 ---------- */
 const prefDlg = document.getElementById("prefDlg");
 function openPref(){
@@ -2013,6 +2099,7 @@ document.getElementById("todayLbl").textContent =
 
 function boot(){
   applyTheme();
+  loadShared().then(renderAll).catch(() => {});
   fetch("data/jobs.json?t=" + Date.now())
     .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
     .then(function(d){
