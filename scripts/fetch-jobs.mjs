@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// 링커리어 + 자소설닷컴에서 PM/서비스기획·기획/전략 관련 인턴/신입 공고를 모아
+// 원티드 + 링커리어 + 자소설닷컴에서 PM/서비스기획·기획/전략 관련 인턴/신입 공고를 모아
 // data/jobs.json에 병합한다. 기존 항목은 건드리지 않고 새 공고만 추가한다.
 
 import { readFile, writeFile } from "node:fs/promises";
@@ -18,12 +18,25 @@ const ROLE_KEYWORDS = [
   { role: "기획/전략", pattern: /경영기획|사업기획|전략기획|기획\/경영|기획팀|사업전략/i },
 ];
 
-function matchRoles(text) {
+// "2026년 대졸신입 채용"처럼 직무가 안 적힌 대기업 공채 — 대부분 기획 트랙이 있어서
+// 놓치면 안 되지만, 실제로 PM/기획인지는 공고를 봐야 알 수 있으므로 "확인 필요"로 표시한다.
+const BATCH_PATTERN = /대졸\s*신입|신입\s*공채|공채|대규모/;
+const BATCH_EXCLUDE = /생산|기술직|현장|영업직|엔지니어|디자이너|개발자|R&D|연구소|판매|매장|간호|약사|의사/i;
+
+function classify(text) {
   const roles = new Set();
   for (const { role, pattern } of ROLE_KEYWORDS) {
     if (pattern.test(text)) roles.add(role);
   }
-  return [...roles];
+  if (roles.size > 0) return { roles: [...roles], hist: "자동 수집" };
+
+  if (BATCH_PATTERN.test(text) && !BATCH_EXCLUDE.test(text)) {
+    return {
+      roles: ["PM/서비스기획", "기획/전략"],
+      hist: "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+    };
+  }
+  return null;
 }
 
 function toDateOnly(isoOrEpoch) {
@@ -57,20 +70,20 @@ async function fetchLinkareer() {
       .filter(Boolean)
       .join(" ");
     const text = `${value.title ?? ""} ${categoryNames}`;
-    const roles = matchRoles(text);
-    if (roles.length === 0) continue;
+    const hit = classify(text);
+    if (!hit) continue;
 
     results.push({
       id: `linkareer-${value.id}`,
       company: value.organizationName ?? "",
       type: "",
-      roles,
+      roles: hit.roles,
       start: "",
       end: value.recruitCloseAt ? toDateOnly(value.recruitCloseAt) : "",
       confirmed: true,
       source: "링커리어",
       url: `https://linkareer.com/activity/${value.id}`,
-      hist: "자동 수집",
+      hist: hit.hist,
     });
   }
   return results;
@@ -98,21 +111,57 @@ async function fetchJasoseol() {
   const results = [];
   for (const item of data.employment ?? []) {
     const text = `${item.title ?? ""} ${item.name ?? ""}`;
-    const roles = matchRoles(text);
-    if (roles.length === 0) continue;
+    const hit = classify(text);
+    if (!hit) continue;
 
     results.push({
       id: `jasoseol-${item.id}`,
       company: item.name ?? "",
       type: "",
-      roles,
+      roles: hit.roles,
       start: "",
       end: item.end_time ? toDateOnly(item.end_time) : "",
       confirmed: true,
       source: "자소설닷컴",
       url: `https://jasoseol.com/employment/${item.id}`,
-      hist: "자동 수집",
+      hist: hit.hist,
     });
+  }
+  return results;
+}
+
+// ---------- 원티드 ----------
+async function fetchWanted() {
+  const results = [];
+  for (let offset = 0; offset < 300; offset += 100) {
+    const res = await fetch(
+      `https://www.wanted.co.kr/api/v4/jobs?country=kr&years=-1&locations=all&limit=100&offset=${offset}&job_sort=job.latest_order`,
+      { headers: { "User-Agent": UA } }
+    );
+    if (!res.ok) throw new Error(`wanted fetch failed: ${res.status}`);
+    const data = await res.json();
+    const batch = data.data ?? [];
+    if (batch.length === 0) break;
+
+    for (const item of batch) {
+      const text = `${item.position ?? ""}`;
+      const hit = classify(text);
+      if (!hit) continue;
+
+      results.push({
+        id: `wanted-${item.id}`,
+        company: item.company?.name ?? "",
+        type: "",
+        roles: hit.roles,
+        start: "",
+        end: item.due_time ? toDateOnly(item.due_time) : "",
+        confirmed: true,
+        source: "원티드",
+        url: `https://www.wanted.co.kr/wd/${item.id}`,
+        hist: item.due_time ? hit.hist : `${hit.hist} · 상시/수시 채용으로 추정(마감일 미표기)`,
+      });
+    }
+    if (!data.links?.next) break;
   }
   return results;
 }
@@ -122,7 +171,7 @@ async function main() {
   const db = JSON.parse(raw);
   const existingUrls = new Set(db.jobs.map((j) => j.url));
 
-  const [linkareer, jasoseol] = await Promise.all([
+  const [linkareer, jasoseol, wanted] = await Promise.all([
     fetchLinkareer().catch((err) => {
       console.error("링커리어 수집 실패:", err.message);
       return [];
@@ -131,9 +180,13 @@ async function main() {
       console.error("자소설닷컴 수집 실패:", err.message);
       return [];
     }),
+    fetchWanted().catch((err) => {
+      console.error("원티드 수집 실패:", err.message);
+      return [];
+    }),
   ]);
 
-  const fresh = [...linkareer, ...jasoseol].filter(
+  const fresh = [...linkareer, ...jasoseol, ...wanted].filter(
     (job) => !existingUrls.has(job.url)
   );
 
@@ -146,7 +199,9 @@ async function main() {
   db.updated = new Date().toISOString().slice(0, 10);
 
   await writeFile(JOBS_PATH, JSON.stringify(db, null, 2) + "\n", "utf-8");
-  console.log(`새 공고 ${fresh.length}건 추가 (링커리어 ${linkareer.length}, 자소설닷컴 ${jasoseol.length} 중 중복 제외).`);
+  console.log(
+    `새 공고 ${fresh.length}건 추가 (링커리어 ${linkareer.length}, 자소설닷컴 ${jasoseol.length}, 원티드 ${wanted.length} 중 중복 제외).`
+  );
 }
 
 main().catch((err) => {

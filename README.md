@@ -38,8 +38,9 @@ Supabase 쪽 최초 설정(테이블 생성 SQL)은 `jobboard_data` 테이블이
 
 매일 KST 11:00에 GitHub Actions(`.github/workflows/update-jobs.yml`)가 두 스크립트를 실행합니다.
 
-- `scripts/fetch-jobs.mjs` — 링커리어·자소설닷컴에서 PM/서비스기획·기획/전략 관련 인턴/신입 공고를 찾아
-  `data/jobs.json`에 새 항목만 추가(기존 항목은 건드리지 않음)
+- `scripts/fetch-jobs.mjs` — 원티드·링커리어·자소설닷컴에서 PM/서비스기획·기획/전략 관련 인턴/신입
+  공고를 찾아 `data/jobs.json`에 새 항목만 추가(기존 항목은 건드리지 않음). 제목에 직무가 안 써있는
+  "2026년 대졸신입 채용" 같은 대기업 공채도 기획 트랙이 있을 가능성이 높아 "확인 필요" 표시로 함께 수집
 - `scripts/fetch-ai-companies.mjs` — 구글·앤스로픽·노션 서울 오피스 공고를 직무·경력 무관하게 전부 모아
   `data/ai-companies-jobs.json`을 매번 새로 씀 (지원보드 트래킹 대상이 아닌 분석용 자료)
 
