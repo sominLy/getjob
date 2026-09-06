@@ -48,6 +48,9 @@ const BATCH_EXCLUDE = /생산|기술직|현장|영업직|엔지니어|디자이�
  * @returns {{roles: string[], hist: string} | null} 분류 실패 시 null
  */
 export function classifyPosting({ title = "", company = "", dutyNames = [] } = {}) {
+  // hist는 "역대 오픈 이력"을 보여주는 칸이라, 수집 방식 같은 내부 사정은 넣지 않는다.
+  // 사용자가 실제로 확인해야 할 안내가 있을 때만 채운다.
+
   // 1순위: 채용 사이트가 공고에 직접 매겨둔 직무 카테고리 — 제목 추측보다 훨씬 정확하다.
   const fromDuty = new Set();
   for (const name of dutyNames) {
@@ -56,9 +59,7 @@ export function classifyPosting({ title = "", company = "", dutyNames = [] } = {
       if (pattern.test(name)) { fromDuty.add(role); break; }
     }
   }
-  if (fromDuty.size > 0) {
-    return { roles: [...fromDuty], hist: "자동 수집 · 공고에 표기된 직무 분류 기준" };
-  }
+  if (fromDuty.size > 0) return { roles: [...fromDuty], hist: "" };
 
   // 2순위: 제목에 직무가 드러난 경우
   const text = `${title} ${company}`;
@@ -66,20 +67,20 @@ export function classifyPosting({ title = "", company = "", dutyNames = [] } = {
   for (const [pattern, role] of TITLE_ROLE_RULES) {
     if (pattern.test(text)) fromTitle.add(role);
   }
-  if (fromTitle.size > 0) return { roles: [...fromTitle], hist: "자동 수집" };
+  if (fromTitle.size > 0) return { roles: [...fromTitle], hist: "" };
 
-  // 3순위: 직무 표기가 없는 대기업 공채 — 일단 잡아두고 확인하도록 안내
+  // 3순위: 직무 표기가 없는 대기업 공채 — 일단 잡아두되 직접 확인하라고 안내한다.
   if (BATCH_PATTERN.test(text) && !BATCH_EXCLUDE.test(text)) {
     return {
       roles: ["PM/서비스기획", "기획/전략"],
-      hist: "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      hist: "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요",
     };
   }
   return null;
 }
 
-/** 분류 실패 시 쓰는 기본 설명. */
-export const UNKNOWN_ROLE_HIST = "자동 수집 · 직무 확인 필요";
+/** 직무를 못 알아낸 공고. hist를 비우고 화면에서 직무 칸에 "확인 필요"로 표시한다. */
+export const UNKNOWN_ROLE_HIST = "";
 
 const EXPERIENCED_ONLY = /경력/;
 const NEWCOMER_HINT = /신입|인턴|수시|채용연계형|무관|공채|졸업예정/;
@@ -89,9 +90,19 @@ export function isExperiencedOnly(text) {
   return EXPERIENCED_ONLY.test(text) && !NEWCOMER_HINT.test(text);
 }
 
-/** 자소설닷컴의 기업 규모/유형 → 지원보드의 "기업 형태". */
+/**
+ * 회사 이름으로 알 수 있는 형태. 채용 사이트가 규모만 알려주고 업종은 안 알려주기 때문에
+ * (예: 키움증권을 "대기업"으로만 표기) 금융·공기업은 이름으로 한 번 더 잡아준다.
+ */
+const FINANCE_NAME = /증권|은행|보험|카드|캐피탈|자산운용|저축은행|생명|손해보험|금융|신용|캐피털|투자|페이먼츠/;
+const PUBLIC_NAME = /공사|공단|공제회|진흥원|진흥회|연구원|연구소|재단|위원회|협회|공제|중앙회|관리원|보증기금|한국.*원$/;
+
+/** 자소설닷컴의 기업 규모/유형 + 회사 이름 → 지원보드의 "기업 형태". */
 export function mapCompanyType(item) {
+  const name = item?.name ?? "";
   if (item?.business_type === "public_institution") return "공기업";
+  if (PUBLIC_NAME.test(name)) return "공기업";
+  if (FINANCE_NAME.test(name)) return "금융";
   if (item?.business_size === "big_business") return "대기업";
   if (item?.business_size === "middle_market") return "중견기업";
   return "";

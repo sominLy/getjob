@@ -11,6 +11,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { chromium } from "playwright";
+import { splitSections } from "./lib/sections.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const JOBS_PATH = path.join(__dirname, "..", "data", "jobs.json");
@@ -93,7 +94,11 @@ async function main() {
             });
 
         if (hasRealText) {
-          details.items[job.id] = { detail: cleaned, at: today };
+          // 항목별로 나뉘면 화면에서 접었다 펼 수 있게 sections로, 아니면 원문 그대로.
+          const sections = splitSections(cleaned);
+          details.items[job.id] = sections.length
+            ? { sections, at: today }
+            : { detail: cleaned, at: today };
           ok++;
         } else if (posterUrl) {
           details.items[job.id] = { image: posterUrl, at: today };

@@ -366,7 +366,17 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
   border-left:2px solid var(--line);padding-left:10px}
 .jd-note{color:var(--ink-2)}
 .jd-poster{max-width:100%;max-height:60vh;border-radius:8px;display:block}
-.jd-poster[hidden],.jd-detail[hidden]{display:none}
+.jd-poster[hidden],.jd-detail[hidden],.jd-secs[hidden]{display:none}
+.jd-secs{display:flex;flex-direction:column;gap:6px}
+.jd-secs details{border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.jd-secs summary{cursor:pointer;padding:9px 12px;font-size:12.5px;font-weight:700;
+  list-style:none;display:flex;align-items:center;gap:6px}
+.jd-secs summary::-webkit-details-marker{display:none}
+.jd-secs summary::before{content:"▸";color:var(--muted);font-weight:400}
+.jd-secs details[open] summary::before{content:"▾"}
+.jd-secs details[open] summary{border-bottom:1px solid var(--line)}
+.jd-secs .sec-body{white-space:pre-wrap;font-size:12.5px;line-height:1.65;color:var(--ink-2);
+  padding:10px 12px;max-height:34vh;overflow-y:auto;margin:0}
 .jd-detail{white-space:pre-wrap;font-family:inherit;font-size:12.5px;line-height:1.6;
   color:var(--ink-2);max-height:40vh;overflow-y:auto;margin:0;padding:10px 12px;
   background:var(--panel-2,rgba(0,0,0,.03));border-radius:8px}
@@ -545,6 +555,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       <h2>전체 공고</h2>
       <p class="sub" id="listCount"></p>
       <span class="hspace"></span>
+      <button class="ghost" id="dateModeBtn"></button>
       <button class="ghost" id="scopeBtn"></button>
     </div>
     <div class="filters" id="filters"></div>
@@ -588,6 +599,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       <span class="period" id="mLbl"></span>
       <button class="nav-btn" id="mNext" aria-label="다음 달">›</button>
       <button class="ghost" id="mineBtn" aria-pressed="false">내 지원만</button>
+      <button class="ghost" id="calDateModeBtn"></button>
       <button class="ghost" id="calScopeBtn"></button>
       <p class="sub">내가 지원한 공고는 굵게 표시되고, 전형 일정도 함께 올라옵니다.</p>
     </div>
@@ -649,7 +661,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       </select></label>
       <label>기업 형태<select name="type">
         <option>대기업</option><option>중견기업</option><option>유니콘</option>
-        <option>스타트업</option><option>금융</option><option>공기업</option><option>기타</option>
+        <option>스타트업</option><option>금융</option><option>공기업</option><option>외국계</option><option>기타</option>
       </select></label>
     </div>
     <label>역대 오픈<input type="text" name="hist" placeholder="예: 23년 9/11~10/1 · 24년 9/12~10/4"></label>
@@ -692,6 +704,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <p class="jd-note" id="jdNote"></p>
     <img class="jd-poster" id="jdPoster" alt="공고 이미지" hidden>
     <p class="jd-hist" id="jdPosterFail" hidden>이 공고는 본문이 이미지로 되어 있고, 회사 사이트가 외부 표시를 막아두었습니다. 아래 <b>공고 열기</b>로 확인하세요.</p>
+    <div class="jd-secs" id="jdSections" hidden></div>
     <pre class="jd-detail" id="jdDetail" hidden></pre>
   </div>
   <div class="f-actions jd-actions">
@@ -768,7 +781,7 @@ thead th{font-weight:600;letter-spacing:.07em}
 const KEY = "jobboard-v2";
 const ROLES = ["PM/서비스기획","기획/전략","사업개발","마케팅","브랜드","콘텐츠","MD",
                "영업","영업관리","고객/CS","HR/인사","금융/심사","리서치","홍보/PR"];
-const TYPES = ["대기업","중견기업","유니콘","스타트업","금융","공기업"];
+const TYPES = ["대기업","중견기업","유니콘","스타트업","금융","공기업","외국계"];
 let STAGES = ["서류 발표","AI 역량검사","적성검사","인적성검사","GSAT","1차 면접","2차 면접","최종 면접"];
 /* "서류 마감 → 서류 발표 → 1차 면접 → 최종 면접" 업계 통상 간격(일). 실제 데이터 기반 예측이 아닌
    대략적인 초안 제안용 — 소민님이 그대로 쓰거나 직접 고칠 수 있게 항상 "예상"임을 표시한다. */
@@ -857,15 +870,37 @@ function pill(j){
 /* 내 조건에 맞는가 */
 function fits(j){
   const p = db.profile;
-  /* 직무·기업 형태를 모르는(자동 수집) 공고는 필터로 숨기지 않고 항상 보여준다 */
+  /* 직무는 못 알아낸 공고(대기업 공채 등)가 많아 숨기지 않지만,
+     기업 형태는 대부분 채워져 있어 고른 조건을 그대로 지킨다. */
   if(p.roles.length && (j.roles || []).length && !j.roles.some(r => p.roles.includes(r))) return false;
-  if(p.types.length && j.type && !p.types.includes(j.type)) return false;
+  if(p.types.length && !p.types.includes(j.type)) return false;
   return true;
 }
 /* 내가 직접 넣은 공고와 이미 지원한 공고는 조건과 무관하게 항상 보입니다 */
 function scoped(){
   return allJobs().filter(j =>
     fits(j) || app(j.id).applied || db.custom.some(c => c.id === j.id));
+}
+
+/* ---------- 시작/마감 보기 기준 ---------- */
+/* 전체공고와 캘린더가 같은 기준을 쓴다. "마감만" 상태에서는 접수 시작 일정이 빠져
+   마감일만 남으므로, 마감 임박한 것만 훑어볼 때 쓴다. */
+const DATE_MODES = [["all","시작·마감 모두"],["end","마감만"],["start","시작만"]];
+let dateMode = "all";
+function dateModeLabel(){
+  const cur = DATE_MODES.find(m => m[0] === dateMode);
+  return cur ? cur[1] : DATE_MODES[0][1];
+}
+function cycleDateMode(){
+  const i = DATE_MODES.findIndex(m => m[0] === dateMode);
+  dateMode = DATE_MODES[(i + 1) % DATE_MODES.length][0];
+  renderList(); renderCal();
+}
+function wireDateModeBtn(id){
+  const b = document.getElementById(id);
+  b.textContent = dateModeLabel();
+  b.title = "시작·마감 중 무엇을 볼지 바꿉니다";
+  b.onclick = cycleDateMode;
 }
 
 /* ---------- 전체 공고 ---------- */
@@ -895,7 +930,13 @@ function renderList(){
     else openPref();
   };
 
+  wireDateModeBtn("dateModeBtn");
   let rows = filter==="all" ? base : base.filter(j => state(j).k===filter);
+  /* 마감만/시작만 보기: 해당 날짜가 있는 공고만 남기고 그 날짜로 정렬한다. */
+  if(dateMode !== "all"){
+    rows = rows.filter(j => j[dateMode]);
+    sortKey = dateMode;
+  }
   const key = j => sortKey==="company" ? (j.company||"") : (j[sortKey] || "9999-99-99");
   rows = rows.slice().sort((a,b) => key(a).localeCompare(key(b),"ko") * sortDir);
 
@@ -1334,13 +1375,13 @@ function events(forceMineOnly){
     const a = app(j.id);
     if(only && !a.applied) return;
     if(!a.applied) {
-      push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, mine:false, id:j.id});
-      push(j.end,   {kind:"end",   label:"마감", name:j.company, est:!j.confirmed, mine:false, id:j.id});
+      if(dateMode !== "end") push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, mine:false, id:j.id});
+      if(dateMode !== "start") push(j.end, {kind:"end", label:"마감", name:j.company, est:!j.confirmed, mine:false, id:j.id});
       return;
     }
     /* 지원한 공고 — 내가 정한 마감일을 우선하고, 전형 일정도 함께 올립니다 */
-    push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, mine:true, id:j.id});
-    push(deadline(j), {kind:"end", label:"마감", name:j.company, est:false, mine:true, id:j.id});
+    if(dateMode !== "end") push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, mine:true, id:j.id});
+    if(dateMode !== "start") push(deadline(j), {kind:"end", label:"마감", name:j.company, est:false, mine:true, id:j.id});
     a.stages.forEach(s => push(s.date,
       {kind:"stage", label:s.name, name:j.company, est:false, mine:true, id:j.id}));
   });
@@ -1350,6 +1391,7 @@ function events(forceMineOnly){
 /* ---------- 캘린더 ---------- */
 let curMonth = new Date(TODAY.getFullYear(), TODAY.getMonth(), 1);
 function renderCal(){
+  wireDateModeBtn("calDateModeBtn");
   const scopeOn = db.profile.roles.length || db.profile.types.length;
   const csb = document.getElementById("calScopeBtn");
   csb.textContent = scopeOn ? "내 조건 적용 중 · 전체 보기" : "전체 보는 중 · 내 조건 설정";
@@ -1406,7 +1448,8 @@ function showDetail(id){
   const poster = document.getElementById("jdPoster");
   const posterFail = document.getElementById("jdPosterFail");
   const detail = document.getElementById("jdDetail");
-  poster.hidden = true; posterFail.hidden = true;
+  const secs = document.getElementById("jdSections");
+  poster.hidden = true; posterFail.hidden = true; secs.hidden = true; secs.innerHTML = "";
   detail.hidden = false; detail.textContent = "공고 내용을 불러오는 중…";
 
   loadDetails().then(function(items){
@@ -1414,8 +1457,25 @@ function showDetail(id){
     const d = items[id];
     if(!d){ detail.hidden = true; return; }
 
-    detail.textContent = d.detail || "";
-    detail.hidden = !d.detail;
+    /* 항목별로 나뉜 공고는 접었다 펼 수 있게 보여준다. 첫 항목만 펼친 채로 시작. */
+    if(d.sections && d.sections.length){
+      detail.hidden = true;
+      secs.hidden = false;
+      d.sections.forEach(function(sec, i){
+        const box = document.createElement("details");
+        if(i === 0) box.open = true;
+        const sum = document.createElement("summary");
+        sum.textContent = sec.title;
+        const body = document.createElement("p");
+        body.className = "sec-body";
+        body.textContent = sec.body;
+        box.append(sum, body);
+        secs.appendChild(box);
+      });
+    } else {
+      detail.textContent = d.detail || "";
+      detail.hidden = !d.detail;
+    }
     /* 본문이 포스터 이미지인 공고. 회사가 외부 도메인 표시를 막아둔 경우(핫링크 차단)
        깨진 이미지 대신 안내 문구를 띄운다. */
     if(d.image){
