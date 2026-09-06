@@ -24,6 +24,7 @@ jobs:
       - run: node scripts/fetch-jobs.mjs
       - run: node scripts/fetch-ai-companies.mjs
       - run: node scripts/fetch-official-details.mjs
+      - run: node scripts/fetch-tracks.mjs
       - run: node scripts/prune-expired.mjs
 
       - name: Commit and push if changed

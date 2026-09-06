@@ -223,6 +223,9 @@ td.act button.on{color:var(--accent);font-weight:700}
 .subm label{display:flex;align-items:center;gap:4px;font-size:11.5px;color:var(--ink-2);cursor:pointer}
 .subm input{margin:0}
 .subm button{background:none;border:0;color:var(--muted);font-size:11px;padding:0;cursor:pointer;text-decoration:underline}
+.warn{display:inline-flex;align-items:center;gap:4px;font-size:11px;color:var(--urgent);font-weight:600}
+.warn-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:4px}
+.warn-row input[type=time]{border:1px solid var(--line);border-radius:5px;padding:2px 4px;font-size:11.5px}
 .step button.x:hover{color:var(--urgent)}
 .rowline{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px}
 .rowline label{font-size:12px;font-weight:600;color:var(--muted)}
@@ -736,6 +739,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <p class="jd-note" id="jdNote"></p>
     <img class="jd-poster" id="jdPoster" alt="공고 이미지" hidden>
     <p class="jd-hist" id="jdPosterFail" hidden>이 공고는 본문이 이미지로 되어 있고, 회사 사이트가 외부 표시를 막아두었습니다. 아래 <b>공고 열기</b>로 확인하세요.</p>
+    <div class="jd-secs" id="jdTracks" hidden></div>
     <div class="jd-secs" id="jdSections" hidden></div>
     <pre class="jd-detail" id="jdDetail" hidden></pre>
   </div>
@@ -870,6 +874,7 @@ function app(id){
   }
   /* 서류로 무엇을 냈는지 체크. 포트폴리오는 요구하는 곳만 있어서 필요할 때 추가한다. */
   if(!a.submit) a.submit = {cover:false, resume:false, folio:false, hasFolio:false};
+  if(a.myEndTime === undefined) a.myEndTime = "";   // 공고에 시각이 없을 때 직접 확인해 넣은 마감 시각
   a.stages.forEach(st => { if(!st.result) st.result = "예정"; });
   return a;
 }
@@ -877,6 +882,8 @@ function app(id){
 function counts(s){ s = s || ""; return {all:s.length, noSpace:s.replace(/\s/g,"").length}; }
 /* 지원한 공고의 마감일 — 내가 적은 게 있으면 그걸 우선 */
 function deadline(j){ const a = app(j.id); return (a.applied && a.myEnd) ? a.myEnd : j.end; }
+/* 마감 "시각" — 내가 직접 확인해 넣은 값이 우선. 둘 다 없으면 아직 모르는 것이다. */
+function deadlineTime(j){ const a = app(j.id); return a.myEndTime || (a.myEnd ? "" : (j.endTime || "")); }
 let SHARED = [];   /* 다른 사람이 올린 제보 공고 */
 function allJobs(){ return SEED.concat(SHARED, db.custom).filter(j => !j.deleted); }
 
@@ -1045,7 +1052,7 @@ function ddayBoard(list){
   const rows = [];
   list.forEach(function(j){
     const a = app(j.id), dl = deadline(j);
-    if(dl && a.doc === "대기") rows.push({date:dl, what:"서류 마감", j:j, time: a.myEnd ? "" : (j.endTime || "")});
+    if(dl && a.doc === "대기") rows.push({date:dl, what:"서류 마감", j:j, time: deadlineTime(j)});
     a.stages.forEach(s => { if(s.date) rows.push({date:s.date, what:s.name, j:j, time:""}); });
   });
   rows.sort((x,y) => x.date.localeCompare(y.date));
@@ -1141,9 +1148,26 @@ function renderMine(){
     const s0d = document.createElement("div"); s0d.className = "sd";
     const dl = deadline(j);
     if(dl && !a.myEnd){
-      s0d.textContent = fmtAt(dl, j.endTime) + " (" + dday(dl) + ")";
+      s0d.textContent = fmtAt(dl, deadlineTime(j)) + " (" + dday(dl) + ")";
+      /* 날짜만 있고 시각을 모르면 "그날 자정까지"로 착각하기 쉬워 반드시 확인시킨다 */
+      if(!deadlineTime(j)){
+        const w = document.createElement("div"); w.className = "warn-row";
+        const lab = document.createElement("span"); lab.className = "warn";
+        lab.textContent = "⚠ 마감 시각 미확인 — 공고에서 꼭 확인하세요";
+        const ti = document.createElement("input");
+        ti.type = "time"; ti.value = "";
+        ti.setAttribute("aria-label", j.company + " 마감 시각 직접 입력");
+        ti.onchange = () => { a.myEndTime = ti.value; save(); renderAll(); };
+        w.append(lab, ti);
+        s0d.appendChild(w);
+      }
     } else {
       /* 상시 공고이거나 내가 마감일을 바꾼 경우 — 직접 입력 */
+      if(!j.end && !a.myEnd){
+        const w = document.createElement("div"); w.className = "warn";
+        w.textContent = "⚠ 마감일 없음 — 상시·수시 채용인지 공고에서 확인하세요";
+        s0d.appendChild(w);
+      }
       const di = document.createElement("input");
       di.type = "date"; di.value = a.myEnd || "";
       di.setAttribute("aria-label", j.company + " 서류 마감일");
@@ -1530,13 +1554,46 @@ function showDetail(id){
   const posterFail = document.getElementById("jdPosterFail");
   const detail = document.getElementById("jdDetail");
   const secs = document.getElementById("jdSections");
+  const trk = document.getElementById("jdTracks");
   poster.hidden = true; posterFail.hidden = true; secs.hidden = true; secs.innerHTML = "";
+  trk.hidden = true; trk.innerHTML = "";
   detail.hidden = false; detail.textContent = "공고 내용을 불러오는 중…";
 
   loadDetails().then(function(items){
     if(jdId !== id) return;              /* 그 사이 다른 공고를 열었으면 무시 */
     const d = items[id];
     if(!d){ detail.hidden = true; return; }
+
+    /* 한 공고에 직무가 여러 개면 직무별로 접었다 펴서 자소서 문항까지 본다 */
+    if(d.tracks && d.tracks.length){
+      trk.hidden = false;
+      const h = document.createElement("p"); h.className = "trk-h";
+      h.textContent = "모집 직무 " + d.tracks.length + "개 · 직무를 누르면 자소서 문항이 나옵니다";
+      trk.appendChild(h);
+      d.tracks.forEach(function(t, i){
+        const box = document.createElement("details");
+        if(d.tracks.length === 1 || i === 0) box.open = (d.tracks.length === 1);
+        const sum = document.createElement("summary");
+        sum.textContent = t.name + (t.questions.length ? "  (문항 " + t.questions.length + "개)" : "");
+        const zone = document.createElement("div"); zone.className = "qz";
+        if(t.questions.length){
+          t.questions.forEach(function(q, n){
+            const p = document.createElement("p"); p.className = "q";
+            const lab = document.createElement("b");
+            lab.textContent = "문항 " + (n+1) + (q.limit ? " · " + q.limit + "자" + (q.space ? " (공백 포함)" : " (공백 제외)") : "");
+            p.appendChild(lab);
+            p.appendChild(document.createTextNode(q.q));
+            zone.appendChild(p);
+          });
+        } else {
+          const p = document.createElement("p"); p.className = "none";
+          p.textContent = "이 직무는 자소서 문항이 등록되어 있지 않습니다.";
+          zone.appendChild(p);
+        }
+        box.append(sum, zone);
+        trk.appendChild(box);
+      });
+    }
 
     /* 항목별로 나뉜 공고는 접었다 펼 수 있게 보여준다. 첫 항목만 펼친 채로 시작. */
     if(d.sections && d.sections.length){
@@ -1802,8 +1859,11 @@ function renderRail(){
   myJobs().forEach(function(j){
     const a = app(j.id), dl = deadline(j);
     if(dl && dleft(dl) >= 0 && a.doc === "대기")
+    {
+      const dt = deadlineTime(j);
       mine.push({d:dleft(dl), name:j.company, id:j.id,
-                 what:"서류 마감" + (!a.myEnd && j.endTime ? " " + j.endTime : ""), mine:true});
+                 what:"서류 마감" + (dt ? " " + dt : " (시각 확인 필요)"), mine:true});
+    }
     a.stages.forEach(function(s){
       if(s.date && dleft(s.date) >= 0)
         mine.push({d:dleft(s.date), name:j.company, id:j.id, what:s.name, mine:true});
@@ -2048,7 +2108,7 @@ function buildIcs(){
     const dl = deadline(j);
     if(dl && a.doc === "대기"){
       /* 하루 전, 6시간 전 두 번 */
-      push({date: dl, time: a.myEnd ? "" : j.endTime}, "서류 마감",
+      push({date: dl, time: deadlineTime(j)}, "서류 마감",
            [["-P1D", "하루 전"], ["-PT6H", "6시간 전"]]);
     }
     a.stages.forEach(function(st){
