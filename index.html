@@ -1295,12 +1295,13 @@ function docBox(title, a, field, j){
 
 /* ---------- 일정 모음 (캘린더·플래너 공용) ---------- */
 let mineOnly = false;
-function events(){
+function events(forceMineOnly){
+  const only = forceMineOnly !== undefined ? forceMineOnly : mineOnly;
   const out = {};
   const push = (date, obj) => { if(date) (out[date] = out[date] || []).push(obj); };
   scoped().forEach(function(j){
     const a = app(j.id);
-    if(mineOnly && !a.applied) return;
+    if(only && !a.applied) return;
     if(!a.applied) {
       push(j.start, {kind:"start", label:"시작", name:j.company, est:!j.confirmed, mine:false, id:j.id});
       push(j.end,   {kind:"end",   label:"마감", name:j.company, est:!j.confirmed, mine:false, id:j.id});
@@ -1415,7 +1416,7 @@ function renderWeek(){
     (weekStart.getMonth()+1)+"/"+weekStart.getDate()+" – "+(end.getMonth()+1)+"/"+end.getDate();
   const names = ["월","화","수","목","금","토","일"];
   const wrap = document.getElementById("week"); wrap.innerHTML = "";
-  const ev = events();
+  const ev = events(true); /* 주간 플래너는 내가 지원한 공고 일정만 — 캘린더의 "전체 보기" 토글과 무관 */
   for(let i=0;i<7;i++){
     const d = new Date(weekStart); d.setDate(weekStart.getDate()+i);
     const k = iso(d);

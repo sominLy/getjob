@@ -126,11 +126,37 @@ async function fetchJasoseol() {
       end: item.end_time ? toDateOnly(item.end_time) : "",
       confirmed: true,
       source: "자소설닷컴",
-      url: `https://jasoseol.com/employment/${item.id}`,
+      url: `https://jasoseol.com/recruit/${item.id}`, // 아래에서 회사 공식 링크로 교체 시도
       hist: hit ? hit.hist : "자동 수집 · 직무 확인 필요",
+      _jasoseolId: item.id,
     });
   }
+  await attachOfficialUrls(results);
+  results.forEach((r) => delete r._jasoseolId);
   return results;
+}
+
+// 각 공고 상세에서 회사 공식 채용페이지 링크(employment_page_url)를 가져와 url을 교체한다.
+// 실패하면 jasoseol 자체 공고 페이지 링크(위에서 이미 넣어둔 값)를 그대로 둔다.
+async function attachOfficialUrls(results, concurrency = 8) {
+  let idx = 0;
+  async function worker() {
+    while (idx < results.length) {
+      const item = results[idx++];
+      try {
+        const res = await fetch(
+          `https://jasoseol.com/api/v1/employment_companies/${item._jasoseolId}`,
+          { headers: { "User-Agent": UA, Accept: "application/json" } }
+        );
+        if (!res.ok) continue;
+        const detail = await res.json();
+        if (detail.employment_page_url) item.url = detail.employment_page_url;
+      } catch {
+        // 무시 — jasoseol 자체 링크로 폴백
+      }
+    }
+  }
+  await Promise.all(Array.from({ length: concurrency }, worker));
 }
 
 // ---------- 원티드 ----------
