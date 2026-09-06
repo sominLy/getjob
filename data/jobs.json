@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13",
+  "updated": "2026-09-06",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "AI 역량검사",
@@ -1740,6 +1740,76 @@
       "source": "자소설닷컴",
       "url": "",
       "hist": "자소설닷컴 캘린더에서 확인한 2026년 8월 실제 공고. 모집 직무는 공고 원문에서 확인하세요"
+    },
+    {
+      "id": "jasoseol-105205",
+      "company": "NHN",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "2026-09-19",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jasoseol.com/employment/105205",
+      "hist": "자동 수집"
+    },
+    {
+      "id": "jasoseol-105333",
+      "company": "이노션",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "2026-09-25",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jasoseol.com/employment/105333",
+      "hist": "자동 수집"
+    },
+    {
+      "id": "jasoseol-105338",
+      "company": "이노션",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "2026-09-25",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jasoseol.com/employment/105338",
+      "hist": "자동 수집"
+    },
+    {
+      "id": "jasoseol-105850",
+      "company": "동국제약",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-09-06",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jasoseol.com/employment/105850",
+      "hist": "자동 수집"
+    },
+    {
+      "id": "jasoseol-106013",
+      "company": "한국중부발전(KOMIPO)",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "2026-09-16",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jasoseol.com/employment/106013",
+      "hist": "자동 수집"
     }
   ]
 }
