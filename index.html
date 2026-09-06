@@ -583,6 +583,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       <span class="period" id="mLbl"></span>
       <button class="nav-btn" id="mNext" aria-label="다음 달">›</button>
       <button class="ghost" id="mineBtn" aria-pressed="false">내 지원만</button>
+      <button class="ghost" id="calScopeBtn"></button>
       <p class="sub">내가 지원한 공고는 굵게 표시되고, 전형 일정도 함께 올라옵니다.</p>
     </div>
     <div class="cal">
@@ -1341,6 +1342,16 @@ function events(forceMineOnly){
 /* ---------- 캘린더 ---------- */
 let curMonth = new Date(TODAY.getFullYear(), TODAY.getMonth(), 1);
 function renderCal(){
+  const scopeOn = db.profile.roles.length || db.profile.types.length;
+  const csb = document.getElementById("calScopeBtn");
+  csb.textContent = scopeOn ? "내 조건 적용 중 · 전체 보기" : "전체 보는 중 · 내 조건 설정";
+  csb.onclick = () => {
+    if(scopeOn){ db.profile._bak = {roles:db.profile.roles, types:db.profile.types};
+      db.profile.roles = []; db.profile.types = []; save(); renderAll(); }
+    else if(db.profile._bak){ db.profile.roles = db.profile._bak.roles;
+      db.profile.types = db.profile._bak.types; save(); renderAll(); }
+    else openPref();
+  };
   document.getElementById("mLbl").textContent = curMonth.getFullYear()+"년 "+(curMonth.getMonth()+1)+"월";
   const grid = document.getElementById("calGrid"); grid.innerHTML = "";
   const first = new Date(curMonth), start = new Date(first);
