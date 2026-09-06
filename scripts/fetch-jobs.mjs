@@ -47,6 +47,22 @@ function toDateOnly(isoOrEpoch) {
   return d.toISOString().slice(0, 10);
 }
 
+const KST_TIME = new Intl.DateTimeFormat("en-GB", {
+  timeZone: "Asia/Seoul",
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+});
+
+// 마감 "시각"(KST, HH:mm). 00:00이면 시각 정보가 없는 경우가 많아 표시하지 않는다.
+function toTimeKST(isoOrEpoch) {
+  const d =
+    typeof isoOrEpoch === "number" ? new Date(isoOrEpoch) : new Date(isoOrEpoch);
+  if (Number.isNaN(d.getTime())) return "";
+  const t = KST_TIME.format(d);
+  return t === "00:00" ? "" : t;
+}
+
 // ---------- 링커리어 ----------
 async function fetchLinkareer() {
   const res = await fetch("https://linkareer.com/list/recruit", {
@@ -81,6 +97,7 @@ async function fetchLinkareer() {
       roles: hit.roles,
       start: "",
       end: value.recruitCloseAt ? toDateOnly(value.recruitCloseAt) : "",
+      endTime: value.recruitCloseAt ? toTimeKST(value.recruitCloseAt) : "",
       confirmed: true,
       source: "링커리어",
       url: `https://linkareer.com/activity/${value.id}`,
@@ -124,6 +141,7 @@ async function fetchJasoseol() {
       roles: hit ? hit.roles : [],
       start: "",
       end: item.end_time ? toDateOnly(item.end_time) : "",
+      endTime: item.end_time ? toTimeKST(item.end_time) : "",
       confirmed: true,
       source: "자소설닷컴",
       url: `https://jasoseol.com/recruit/${item.id}`, // 아래에서 회사 공식 링크로 교체 시도
@@ -184,6 +202,7 @@ async function fetchWanted() {
         roles: hit.roles,
         start: "",
         end: item.due_time ? toDateOnly(item.due_time) : "",
+        endTime: item.due_time ? toTimeKST(item.due_time) : "",
         confirmed: true,
         source: "원티드",
         url: `https://www.wanted.co.kr/wd/${item.id}`,

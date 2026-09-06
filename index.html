@@ -1402,7 +1402,7 @@ function openJob(id){
     facts.append(dt, dd);
   };
   add("접수 시작", j.start ? fmt(j.start) : (j.end ? "—" : "상시 · 수시"));
-  add("접수 마감", j.end ? fmt(j.end) + " (D-" + dleft(j.end) + ")" : "");
+  add("접수 마감", j.end ? fmt(j.end) + (j.endTime ? " " + j.endTime : "") + " (D-" + dleft(j.end) + ")" : "");
   add("기업 형태", j.type);
   add("출처", j.source);
   if(a.applied){
@@ -1612,7 +1612,8 @@ function renderRail(){
   myJobs().forEach(function(j){
     const a = app(j.id), dl = deadline(j);
     if(dl && dleft(dl) >= 0 && a.doc === "대기")
-      mine.push({d:dleft(dl), name:j.company, what:"서류 마감", mine:true});
+      mine.push({d:dleft(dl), name:j.company,
+                 what:"서류 마감" + (!a.myEnd && j.endTime ? " " + j.endTime : ""), mine:true});
     a.stages.forEach(function(s){
       if(s.date && dleft(s.date) >= 0)
         mine.push({d:dleft(s.date), name:j.company, what:s.name, mine:true});
@@ -1621,7 +1622,7 @@ function renderRail(){
   scoped().forEach(function(j){
     if(!app(j.id).applied && j.end && dleft(j.end) >= 0 && state(j).k !== "shut")
       rest.push({d:dleft(j.end), name:j.company,
-                 what:"마감" + (j.confirmed ? "" : " (예상)"), mine:false});
+                 what:"마감" + (j.endTime ? " " + j.endTime : "") + (j.confirmed ? "" : " (예상)"), mine:false});
   });
   mine.sort((a,b) => a.d - b.d);
   rest.sort((a,b) => a.d - b.d);
