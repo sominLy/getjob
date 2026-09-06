@@ -1746,7 +1746,7 @@
     {
       "id": "jasoseol-105205",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -1761,7 +1761,7 @@
     {
       "id": "jasoseol-105333",
       "company": "이노션",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -1776,7 +1776,7 @@
     {
       "id": "jasoseol-105338",
       "company": "이노션",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -1791,7 +1791,7 @@
     {
       "id": "jasoseol-106013",
       "company": "한국중부발전(KOMIPO)",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -1807,7 +1807,7 @@
     {
       "id": "jasoseol-105739",
       "company": "한화금융",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -1823,7 +1823,7 @@
     {
       "id": "jasoseol-105776",
       "company": "KT",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -1838,7 +1838,7 @@
     {
       "id": "jasoseol-105842",
       "company": "키움증권",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -1853,7 +1853,7 @@
     {
       "id": "jasoseol-105868",
       "company": "다우기술",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -1869,7 +1869,7 @@
     {
       "id": "jasoseol-105892",
       "company": "뷰웍스",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-21",
@@ -1882,7 +1882,7 @@
     {
       "id": "jasoseol-105922",
       "company": "한화에어로스페이스",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -1912,7 +1912,7 @@
     {
       "id": "jasoseol-105951",
       "company": "포스코이앤씨",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -1927,7 +1927,7 @@
     {
       "id": "jasoseol-106033",
       "company": "현대해상화재보험",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -1942,7 +1942,7 @@
     {
       "id": "jasoseol-106064",
       "company": "한화시스템",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -2264,7 +2264,7 @@
     {
       "id": "jasoseol-105055",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-08",
@@ -2277,7 +2277,7 @@
     {
       "id": "jasoseol-105063",
       "company": "토스페이먼츠",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-08",
@@ -2303,7 +2303,7 @@
     {
       "id": "jasoseol-105161",
       "company": "현대경제연구원",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-18",
@@ -2316,7 +2316,7 @@
     {
       "id": "jasoseol-105163",
       "company": "한국생산성본부(KPC)",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-11-12",
@@ -2342,7 +2342,7 @@
     {
       "id": "jasoseol-105206",
       "company": "NHN comico Korea",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-19",
@@ -2383,7 +2383,7 @@
     {
       "id": "jasoseol-105223",
       "company": "GC셀",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-20",
@@ -2396,7 +2396,7 @@
     {
       "id": "jasoseol-105224",
       "company": "GC셀",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-21",
@@ -2435,7 +2435,7 @@
     {
       "id": "jasoseol-105264",
       "company": "NHN Enterprise",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-23",
@@ -2448,7 +2448,7 @@
     {
       "id": "jasoseol-105265",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-23",
@@ -2461,7 +2461,7 @@
     {
       "id": "jasoseol-105266",
       "company": "NHN Enterprise",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-23",
@@ -2474,7 +2474,7 @@
     {
       "id": "jasoseol-105269",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-23",
@@ -2528,7 +2528,7 @@
     {
       "id": "jasoseol-105313",
       "company": "토스페이먼츠",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-27",
@@ -2541,7 +2541,7 @@
     {
       "id": "jasoseol-105315",
       "company": "GC셀",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-27",
@@ -2554,7 +2554,7 @@
     {
       "id": "jasoseol-105335",
       "company": "이노션",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -2569,7 +2569,7 @@
     {
       "id": "jasoseol-105336",
       "company": "이노션",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-25",
@@ -2595,7 +2595,7 @@
     {
       "id": "jasoseol-105357",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-28",
@@ -2675,7 +2675,7 @@
     {
       "id": "jasoseol-105494",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-04",
@@ -2688,7 +2688,7 @@
     {
       "id": "jasoseol-105508",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-04",
@@ -2701,7 +2701,7 @@
     {
       "id": "jasoseol-105509",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-04",
@@ -2797,7 +2797,7 @@
     {
       "id": "jasoseol-105566",
       "company": "KT&G",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -2825,7 +2825,7 @@
     {
       "id": "jasoseol-105582",
       "company": "SAP Korea",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -2840,7 +2840,7 @@
     {
       "id": "jasoseol-105587",
       "company": "이노션",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-10",
@@ -2853,7 +2853,7 @@
     {
       "id": "jasoseol-105604",
       "company": "LIG D&A",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -2868,7 +2868,7 @@
     {
       "id": "jasoseol-105605",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-10",
@@ -2894,7 +2894,7 @@
     {
       "id": "jasoseol-105618",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-11",
@@ -2946,7 +2946,7 @@
     {
       "id": "jasoseol-105658",
       "company": "토스페이먼츠",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-06",
@@ -2975,7 +2975,7 @@
     {
       "id": "jasoseol-105678",
       "company": "스튜디오에스",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -3042,7 +3042,7 @@
     {
       "id": "jasoseol-105707",
       "company": "현대엔지비",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-09",
@@ -3081,7 +3081,7 @@
     {
       "id": "jasoseol-105716",
       "company": "한국관광공사",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -3110,7 +3110,7 @@
     {
       "id": "jasoseol-105728",
       "company": "서해철도",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-09-07",
@@ -3123,7 +3123,7 @@
     {
       "id": "jasoseol-105729",
       "company": "대구경북첨단의료산업진흥재단",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-09-17",
@@ -3136,7 +3136,7 @@
     {
       "id": "jasoseol-105741",
       "company": "다쏘시스템코리아",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -3164,7 +3164,7 @@
     {
       "id": "jasoseol-105753",
       "company": "현대종합금속",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-06",
@@ -3203,7 +3203,7 @@
     {
       "id": "jasoseol-105757",
       "company": "한국환경공단(KECO)",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-09-08",
@@ -3216,7 +3216,7 @@
     {
       "id": "jasoseol-105758",
       "company": "아데카코리아",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -3229,7 +3229,7 @@
     {
       "id": "jasoseol-105762",
       "company": "한국산업기술시험원(KTL)",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -3244,7 +3244,7 @@
     {
       "id": "jasoseol-105763",
       "company": "호반그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-06",
@@ -3285,7 +3285,7 @@
     {
       "id": "jasoseol-105769",
       "company": "현대로템",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -3300,7 +3300,7 @@
     {
       "id": "jasoseol-105770",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-20",
@@ -3313,7 +3313,7 @@
     {
       "id": "jasoseol-105771",
       "company": "현대자동차",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -3329,7 +3329,7 @@
     {
       "id": "jasoseol-105772",
       "company": "DB그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-02",
@@ -3368,7 +3368,7 @@
     {
       "id": "jasoseol-105779",
       "company": "The·K한국교직원공제회",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -3384,7 +3384,7 @@
     {
       "id": "jasoseol-105780",
       "company": "LG전자",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -3452,7 +3452,7 @@
     {
       "id": "jasoseol-105787",
       "company": "한국보건산업진흥원",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -3494,7 +3494,7 @@
     {
       "id": "jasoseol-105793",
       "company": "넥슨컴퍼니",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -3561,7 +3561,7 @@
     {
       "id": "jasoseol-105798",
       "company": "금호석유화학그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-11",
@@ -3574,7 +3574,7 @@
     {
       "id": "jasoseol-105800",
       "company": "유안타증권",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-09",
@@ -3600,7 +3600,7 @@
     {
       "id": "jasoseol-105804",
       "company": "한국표준협회",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -3615,7 +3615,7 @@
     {
       "id": "jasoseol-105808",
       "company": "한화에어로스페이스",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -3749,7 +3749,7 @@
     {
       "id": "jasoseol-105819",
       "company": "삼성전자 DS부문",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-27",
@@ -3788,7 +3788,7 @@
     {
       "id": "jasoseol-105822",
       "company": "한미정밀화학",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -3819,7 +3819,7 @@
     {
       "id": "jasoseol-105826",
       "company": "LIG D&A",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -3835,7 +3835,7 @@
     {
       "id": "jasoseol-105827",
       "company": "STX엔진",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "기획/전략"
       ],
@@ -3850,7 +3850,7 @@
     {
       "id": "jasoseol-105828",
       "company": "대구경북첨단의료산업진흥재단",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -3865,7 +3865,7 @@
     {
       "id": "jasoseol-105830",
       "company": "이노션",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -3891,7 +3891,7 @@
     {
       "id": "jasoseol-105836",
       "company": "한국보건산업진흥원",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -3906,7 +3906,7 @@
     {
       "id": "jasoseol-105837",
       "company": "경기창조경제혁신센터",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -3947,7 +3947,7 @@
     {
       "id": "jasoseol-105841",
       "company": "중소벤처기업진흥공단(KOSME)",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -3962,7 +3962,7 @@
     {
       "id": "jasoseol-105844",
       "company": "롯데그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-27",
@@ -4027,7 +4027,7 @@
     {
       "id": "jasoseol-105852",
       "company": "현대카드/현대커머셜",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4042,7 +4042,7 @@
     {
       "id": "jasoseol-105854",
       "company": "유한양행",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -4055,7 +4055,7 @@
     {
       "id": "jasoseol-105855",
       "company": "쎄트렉아이",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-15",
@@ -4068,7 +4068,7 @@
     {
       "id": "jasoseol-105856",
       "company": "어플라이드 머티어리얼즈 코리아",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4083,7 +4083,7 @@
     {
       "id": "jasoseol-105857",
       "company": "LG생활건강",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -4109,7 +4109,7 @@
     {
       "id": "jasoseol-105862",
       "company": "롯데그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4124,7 +4124,7 @@
     {
       "id": "jasoseol-105865",
       "company": "한화에너지",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-21",
@@ -4137,7 +4137,7 @@
     {
       "id": "jasoseol-105866",
       "company": "아주산업",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-06",
@@ -4150,7 +4150,7 @@
     {
       "id": "jasoseol-105867",
       "company": "과천도시공사",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-09-07",
@@ -4163,7 +4163,7 @@
     {
       "id": "jasoseol-105871",
       "company": "우리은행",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -4194,7 +4194,7 @@
     {
       "id": "jasoseol-105875",
       "company": "NHN Cloud Japan",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-10-26",
@@ -4207,7 +4207,7 @@
     {
       "id": "jasoseol-105877",
       "company": "LX인터내셔널",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4222,7 +4222,7 @@
     {
       "id": "jasoseol-105878",
       "company": "LG에너지솔루션",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-10",
@@ -4235,7 +4235,7 @@
     {
       "id": "jasoseol-105879",
       "company": "롯데백화점",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-10",
@@ -4248,7 +4248,7 @@
     {
       "id": "jasoseol-105880",
       "company": "LX세미콘",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-14",
@@ -4274,7 +4274,7 @@
     {
       "id": "jasoseol-105882",
       "company": "AXA손해보험",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -4313,7 +4313,7 @@
     {
       "id": "jasoseol-105886",
       "company": "GS칼텍스",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4328,7 +4328,7 @@
     {
       "id": "jasoseol-105887",
       "company": "한국항공우주산업",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-21",
@@ -4341,7 +4341,7 @@
     {
       "id": "jasoseol-105888",
       "company": "KBS",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -4371,7 +4371,7 @@
     {
       "id": "jasoseol-105890",
       "company": "SIMPAC그룹",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -4384,7 +4384,7 @@
     {
       "id": "jasoseol-105891",
       "company": "SK핀크스",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4399,7 +4399,7 @@
     {
       "id": "jasoseol-105893",
       "company": "BGF리테일",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-14",
@@ -4412,7 +4412,7 @@
     {
       "id": "jasoseol-105894",
       "company": "서울교통공사(Seoul Metro)",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-09-07",
@@ -4425,7 +4425,7 @@
     {
       "id": "jasoseol-105895",
       "company": "서울교통공사(Seoul Metro)",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-09-18",
@@ -4464,7 +4464,7 @@
     {
       "id": "jasoseol-105898",
       "company": "현대모비스",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -4480,7 +4480,7 @@
     {
       "id": "jasoseol-105899",
       "company": "현대엔지니어링",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4495,7 +4495,7 @@
     {
       "id": "jasoseol-105900",
       "company": "HL그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-27",
@@ -4508,7 +4508,7 @@
     {
       "id": "jasoseol-105902",
       "company": "현대엘리베이터",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -4523,7 +4523,7 @@
     {
       "id": "jasoseol-105903",
       "company": "LS그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -4539,7 +4539,7 @@
     {
       "id": "jasoseol-105904",
       "company": "IBK기업은행",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -4582,7 +4582,7 @@
     {
       "id": "jasoseol-105910",
       "company": "엘티정밀",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-06",
@@ -4595,7 +4595,7 @@
     {
       "id": "jasoseol-105911",
       "company": "LG CNS",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -4611,7 +4611,7 @@
     {
       "id": "jasoseol-105912",
       "company": "LG디스플레이",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4639,7 +4639,7 @@
     {
       "id": "jasoseol-105916",
       "company": "세아특수강",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-07",
@@ -4652,7 +4652,7 @@
     {
       "id": "jasoseol-105918",
       "company": "신원",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-21",
@@ -4665,7 +4665,7 @@
     {
       "id": "jasoseol-105921",
       "company": "한국석유공업",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-10",
@@ -4678,7 +4678,7 @@
     {
       "id": "jasoseol-105923",
       "company": "현대그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -4707,7 +4707,7 @@
     {
       "id": "jasoseol-105926",
       "company": "포스코",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -4750,7 +4750,7 @@
     {
       "id": "jasoseol-105929",
       "company": "포스코인터내셔널",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4765,7 +4765,7 @@
     {
       "id": "jasoseol-105930",
       "company": "동진쎄미켐",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-10",
@@ -4778,7 +4778,7 @@
     {
       "id": "jasoseol-105931",
       "company": "한국산업은행",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -4794,7 +4794,7 @@
     {
       "id": "jasoseol-105932",
       "company": "한국가스공사(KOGAS)",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -4836,7 +4836,7 @@
     {
       "id": "jasoseol-105936",
       "company": "인천국제공항공사",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -4851,7 +4851,7 @@
     {
       "id": "jasoseol-105937",
       "company": "녹십자웰빙",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-09",
@@ -4864,7 +4864,7 @@
     {
       "id": "jasoseol-105938",
       "company": "LS증권",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -4877,7 +4877,7 @@
     {
       "id": "jasoseol-105939",
       "company": "한화솔루션",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-27",
@@ -4890,7 +4890,7 @@
     {
       "id": "jasoseol-105941",
       "company": "현대건설",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -4905,7 +4905,7 @@
     {
       "id": "jasoseol-105942",
       "company": "넥센타이어",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "기획/전략"
       ],
@@ -4920,7 +4920,7 @@
     {
       "id": "jasoseol-105943",
       "company": "KB국민은행",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -4935,7 +4935,7 @@
     {
       "id": "jasoseol-105944",
       "company": "한국알콜그룹",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "기획/전략"
       ],
@@ -4950,7 +4950,7 @@
     {
       "id": "jasoseol-105945",
       "company": "제일약품",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "기획/전략"
       ],
@@ -4965,7 +4965,7 @@
     {
       "id": "jasoseol-105946",
       "company": "한국알콜그룹",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-14",
@@ -4978,7 +4978,7 @@
     {
       "id": "jasoseol-105947",
       "company": "현대글로비스",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -4994,7 +4994,7 @@
     {
       "id": "jasoseol-105949",
       "company": "연합인포맥스",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-09",
@@ -5007,7 +5007,7 @@
     {
       "id": "jasoseol-105952",
       "company": "포스코홀딩스",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-16",
@@ -5033,7 +5033,7 @@
     {
       "id": "jasoseol-105955",
       "company": "포스코DX",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -5048,7 +5048,7 @@
     {
       "id": "jasoseol-105956",
       "company": "한국기계연구원",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-09-15",
@@ -5061,7 +5061,7 @@
     {
       "id": "jasoseol-105958",
       "company": "한화엔진",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-21",
@@ -5074,7 +5074,7 @@
     {
       "id": "jasoseol-105959",
       "company": "두산그룹",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -5090,7 +5090,7 @@
     {
       "id": "jasoseol-105961",
       "company": "한국로봇산업진흥원",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -5105,7 +5105,7 @@
     {
       "id": "jasoseol-105970",
       "company": "케이씨텍",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-08",
@@ -5118,7 +5118,7 @@
     {
       "id": "jasoseol-105971",
       "company": "현대종합금속",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-27",
@@ -5131,7 +5131,7 @@
     {
       "id": "jasoseol-105973",
       "company": "이화다이아몬드공업",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-10",
@@ -5183,7 +5183,7 @@
     {
       "id": "jasoseol-105977",
       "company": "서울창조경제혁신센터",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -5198,7 +5198,7 @@
     {
       "id": "jasoseol-105978",
       "company": "한국장학재단(KOSAF)",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -5214,7 +5214,7 @@
     {
       "id": "jasoseol-105979",
       "company": "셀트리온스킨큐어",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -5268,7 +5268,7 @@
     {
       "id": "jasoseol-105983",
       "company": "한국지방재정공제회(LOFA)",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -5311,7 +5311,7 @@
     {
       "id": "jasoseol-105986",
       "company": "HD현대",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -5353,7 +5353,7 @@
     {
       "id": "jasoseol-105990",
       "company": "AXA손해보험",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -5366,7 +5366,7 @@
     {
       "id": "jasoseol-105991",
       "company": "AXA손해보험",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-09",
@@ -5379,7 +5379,7 @@
     {
       "id": "jasoseol-105992",
       "company": "김앤장 법률사무소",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -5394,7 +5394,7 @@
     {
       "id": "jasoseol-105993",
       "company": "이노션",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -5407,7 +5407,7 @@
     {
       "id": "jasoseol-105994",
       "company": "카카오페이",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -5422,7 +5422,7 @@
     {
       "id": "jasoseol-105995",
       "company": "하나은행",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-15",
@@ -5448,7 +5448,7 @@
     {
       "id": "jasoseol-105998",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-11-01",
@@ -5474,7 +5474,7 @@
     {
       "id": "jasoseol-106000",
       "company": "부산항만공사",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -5502,7 +5502,7 @@
     {
       "id": "jasoseol-106002",
       "company": "드림라인",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -5517,7 +5517,7 @@
     {
       "id": "jasoseol-106004",
       "company": "금호타이어",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-10",
@@ -5530,7 +5530,7 @@
     {
       "id": "jasoseol-106005",
       "company": "하나증권",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-08",
@@ -5543,7 +5543,7 @@
     {
       "id": "jasoseol-106007",
       "company": "한국해양진흥공사(KOBC)",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -5558,7 +5558,7 @@
     {
       "id": "jasoseol-106009",
       "company": "금호타이어",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-10",
@@ -5612,7 +5612,7 @@
     {
       "id": "jasoseol-106016",
       "company": "예금보험공사(KDIC)",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -5628,7 +5628,7 @@
     {
       "id": "jasoseol-106017",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-11-01",
@@ -5667,7 +5667,7 @@
     {
       "id": "jasoseol-106020",
       "company": "대중소기업농어업협력재단",
-      "type": "",
+      "type": "공기업",
       "roles": [],
       "start": "",
       "end": "2026-09-18",
@@ -5680,7 +5680,7 @@
     {
       "id": "jasoseol-106022",
       "company": "한국해양과학기술원 부설 선박해양플랜트연구소",
-      "type": "",
+      "type": "공기업",
       "roles": [
         "기획/전략"
       ],
@@ -5695,7 +5695,7 @@
     {
       "id": "jasoseol-106024",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-11-02",
@@ -5708,7 +5708,7 @@
     {
       "id": "jasoseol-106025",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-11-02",
@@ -5721,7 +5721,7 @@
     {
       "id": "jasoseol-106026",
       "company": "김앤장 법률사무소",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -5736,7 +5736,7 @@
     {
       "id": "jasoseol-106027",
       "company": "NH농협은행",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -5751,7 +5751,7 @@
     {
       "id": "jasoseol-106028",
       "company": "한화손보",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],
@@ -5766,7 +5766,7 @@
     {
       "id": "jasoseol-106029",
       "company": "안랩",
-      "type": "",
+      "type": "중견기업",
       "roles": [
         "PM/서비스기획",
         "기획/전략"
@@ -5795,7 +5795,7 @@
     {
       "id": "jasoseol-106034",
       "company": "한국삼공",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-18",
@@ -5808,7 +5808,7 @@
     {
       "id": "jasoseol-106035",
       "company": "녹십자웰빙",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -5821,7 +5821,7 @@
     {
       "id": "jasoseol-106036",
       "company": "NHN Cloud",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-11-02",
@@ -5834,7 +5834,7 @@
     {
       "id": "jasoseol-106037",
       "company": "대원제약",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-16",
@@ -5860,7 +5860,7 @@
     {
       "id": "jasoseol-106039",
       "company": "린데코리아",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-16",
@@ -5873,7 +5873,7 @@
     {
       "id": "jasoseol-106040",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-11-02",
@@ -5886,7 +5886,7 @@
     {
       "id": "jasoseol-106041",
       "company": "경신",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -5899,7 +5899,7 @@
     {
       "id": "jasoseol-106042",
       "company": "하나카드",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "PM/서비스기획"
       ],
@@ -5914,7 +5914,7 @@
     {
       "id": "jasoseol-106043",
       "company": "경신전선",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-13",
@@ -5953,7 +5953,7 @@
     {
       "id": "jasoseol-106048",
       "company": "NHN",
-      "type": "",
+      "type": "대기업",
       "roles": [],
       "start": "",
       "end": "2026-11-03",
@@ -5979,7 +5979,7 @@
     {
       "id": "jasoseol-106055",
       "company": "현대종합금속",
-      "type": "",
+      "type": "중견기업",
       "roles": [],
       "start": "",
       "end": "2026-09-20",
@@ -5992,7 +5992,7 @@
     {
       "id": "jasoseol-106065",
       "company": "세아제강",
-      "type": "",
+      "type": "대기업",
       "roles": [
         "기획/전략"
       ],

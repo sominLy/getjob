@@ -30,6 +30,12 @@ const NOT_EXPERIENCED_ONLY_HINT = /신입|인턴|수시|채용연계형|무관|�
 function isExperiencedOnly(text) {
   return EXPERIENCED_ONLY.test(text) && !NOT_EXPERIENCED_ONLY_HINT.test(text);
 }
+function mapCompanyType(item) {
+  if (item.business_type === "public_institution") return "공기업";
+  if (item.business_size === "big_business") return "대기업";
+  if (item.business_size === "middle_market") return "중견기업";
+  return "";
+}
 
 async function main() {
   const db = JSON.parse(await readFile(JOBS_PATH, "utf-8"));
@@ -67,8 +73,9 @@ async function main() {
     const hit = classify(text);
     const newRoles = hit ? hit.roles : [];
     const newHist = hit ? hit.hist : "자동 수집 · 직무 확인 필요";
-    if (JSON.stringify(newRoles) !== JSON.stringify(job.roles) || newHist !== job.hist) {
-      job.roles = newRoles; job.hist = newHist; reclassified++;
+    const newType = mapCompanyType(item);
+    if (JSON.stringify(newRoles) !== JSON.stringify(job.roles) || newHist !== job.hist || newType !== job.type) {
+      job.roles = newRoles; job.hist = newHist; job.type = newType; reclassified++;
     }
     return true;
   });

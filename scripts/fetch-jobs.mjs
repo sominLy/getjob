@@ -21,6 +21,14 @@ const ROLE_KEYWORDS = [
 
 // 경력만 뽑는 공고는 제외 — "경력"이라는 말이 있어도 신입/인턴/수시 등 표현이 함께 있으면
 // 신입도 지원 가능하다고 보고 포함한다.
+// 자소설닷컴이 붙여둔 기업 규모/유형 → 지원보드의 "기업 형태" 값으로 매핑
+function mapCompanyType(item) {
+  if (item.business_type === "public_institution") return "공기업";
+  if (item.business_size === "big_business") return "대기업";
+  if (item.business_size === "middle_market") return "중견기업";
+  return "";
+}
+
 const EXPERIENCED_ONLY = /경력/;
 const NOT_EXPERIENCED_ONLY_HINT = /신입|인턴|수시|채용연계형|무관|공채|졸업예정/;
 function isExperiencedOnly(text) {
@@ -165,7 +173,7 @@ async function fetchJasoseol() {
     results.push({
       id: `jasoseol-${item.id}`,
       company: item.name ?? "",
-      type: "",
+      type: mapCompanyType(item),
       roles: hit ? hit.roles : [],
       start: "",
       end: item.end_time ? toDateOnly(item.end_time) : "",
