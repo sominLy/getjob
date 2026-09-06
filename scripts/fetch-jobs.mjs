@@ -16,8 +16,16 @@ const UA =
 // 제목/카테고리 문자열에서 PM/서비스기획 관련 공고인지 판별
 const ROLE_KEYWORDS = [
   { role: "PM/서비스기획", pattern: /서비스\s*기획|프로덕트|PM\b|product manager|PO\b/i },
-  { role: "기획/전략", pattern: /경영기획|사업기획|전략기획|기획\/경영|기획팀|사업전략/i },
+  { role: "기획/전략", pattern: /경영기획|사업기획|전략기획|기획\/경영|기획팀|사업전략|경영전략/i },
 ];
+
+// 경력만 뽑는 공고는 제외 — "경력"이라는 말이 있어도 신입/인턴/수시 등 표현이 함께 있으면
+// 신입도 지원 가능하다고 보고 포함한다.
+const EXPERIENCED_ONLY = /경력/;
+const NOT_EXPERIENCED_ONLY_HINT = /신입|인턴|수시|채용연계형|무관|공채|졸업예정/;
+function isExperiencedOnly(text) {
+  return EXPERIENCED_ONLY.test(text) && !NOT_EXPERIENCED_ONLY_HINT.test(text);
+}
 
 // "2026년 대졸신입 채용"처럼 직무가 안 적힌 대기업 공채 — 대부분 기획 트랙이 있어서
 // 놓치면 안 되지만, 실제로 PM/기획인지는 공고를 봐야 알 수 있으므로 "확인 필요"로 표시한다.
@@ -107,31 +115,51 @@ async function fetchLinkareer() {
   return results;
 }
 
+// 자소설닷컴의 직무 카테고리(duty-groups) id → 이름. "서비스기획·PM", "경영기획" 같은
+// 정확한 직무명이 들어있어서, 제목만 보고 추측하는 것보다 훨씬 정확하게 분류할 수 있다.
+async function fetchDutyGroupNames() {
+  const res = await fetch("https://jasoseol.com/api/v1/duty-groups", {
+    headers: { "User-Agent": UA, Accept: "application/json" },
+  });
+  if (!res.ok) return new Map();
+  const list = await res.json();
+  return new Map(list.map((g) => [g.id, g.name]));
+}
+
 // ---------- 자소설닷컴 ----------
 async function fetchJasoseol() {
   const start = new Date();
   const end = new Date(start.getTime() + 90 * 24 * 60 * 60 * 1000);
-  const res = await fetch("https://jasoseol.com/employment/calendar_list.json", {
-    method: "POST",
-    headers: {
-      "User-Agent": UA,
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-    body: JSON.stringify({
-      start_time: start.toISOString(),
-      end_time: end.toISOString(),
+  const [res, dutyGroupNames] = await Promise.all([
+    fetch("https://jasoseol.com/employment/calendar_list.json", {
+      method: "POST",
+      headers: {
+        "User-Agent": UA,
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        start_time: start.toISOString(),
+        end_time: end.toISOString(),
+      }),
     }),
-  });
+    fetchDutyGroupNames(),
+  ]);
   if (!res.ok) throw new Error(`jasoseol fetch failed: ${res.status}`);
   const data = await res.json();
 
-  // 자소설닷컴은 직무 필터 없이 신입/인턴 공고 전부를 가져온다.
+  // 자소설닷컴은 직무 필터 없이 신입/인턴/계약직 공고를 가져온다(경력만 뽑는 공고는 제외).
   // PM/기획 키워드가 없으면 roles를 비워두고 "직무 확인 필요"로 표시 —
   // 빈 roles는 index.html의 fits()가 필터로 걸러내지 않고 항상 보여준다.
   const results = [];
   for (const item of data.employment ?? []) {
-    const text = `${item.title ?? ""} ${item.name ?? ""}`;
+    const dutyNames = (item.employments ?? [])
+      .flatMap((e) => e.duty_groups ?? [])
+      .map((g) => dutyGroupNames.get(g.group_id))
+      .filter(Boolean)
+      .join(" ");
+    const text = `${item.title ?? ""} ${item.name ?? ""} ${dutyNames}`;
+    if (isExperiencedOnly(text)) continue;
     const hit = classify(text);
 
     results.push({
@@ -191,6 +219,7 @@ async function fetchWanted() {
     if (batch.length === 0) break;
 
     for (const item of batch) {
+      if ((item.annual_from ?? 0) > 0) continue; // 경력(연차 요구)만 있는 공고 제외
       const text = `${item.position ?? ""}`;
       const hit = classify(text);
       if (!hit) continue;

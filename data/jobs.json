@@ -1789,26 +1789,12 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105850",
-      "company": "동국제약",
-      "type": "",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "",
-      "end": "2026-09-06",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://dkpharm.recruiter.co.kr/career/jobs/126329",
-      "hist": "자동 수집",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-106013",
       "company": "한국중부발전(KOMIPO)",
       "type": "",
       "roles": [
-        "PM/서비스기획"
+        "PM/서비스기획",
+        "기획/전략"
       ],
       "start": "",
       "end": "2026-09-16",
@@ -1831,7 +1817,7 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.recruit-hanwhafinance.com/",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "15:00"
     },
     {
@@ -1839,7 +1825,6 @@
       "company": "KT",
       "type": "",
       "roles": [
-        "PM/서비스기획",
         "기획/전략"
       ],
       "start": "",
@@ -1847,7 +1832,7 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://recruit.kt.com/careers/263897",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "16:00"
     },
     {
@@ -1855,15 +1840,14 @@
       "company": "키움증권",
       "type": "",
       "roles": [
-        "PM/서비스기획",
-        "기획/전략"
+        "PM/서비스기획"
       ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kiwoom.saramin.co.kr/",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "23:00"
     },
     {
@@ -1879,23 +1863,20 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://blog.naver.com/daoustory/224389835245",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
       "id": "jasoseol-105892",
       "company": "뷰웍스",
       "type": "",
-      "roles": [
-        "PM/서비스기획",
-        "기획/전략"
-      ],
+      "roles": [],
       "start": "",
       "end": "2026-09-21",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://2027-vieworks-recruit.com?utm_source=jasosal&utm_medium=cpc&utm_campaign=recruit&utm_content=a",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집 · 직무 확인 필요",
       "endTime": "23:59"
     },
     {
@@ -1903,7 +1884,6 @@
       "company": "한화에어로스페이스",
       "type": "",
       "roles": [
-        "PM/서비스기획",
         "기획/전략"
       ],
       "start": "",
@@ -1911,7 +1891,7 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hanwhaaerospace-recruit.com/?utm_source=jasoseol&utm_medium=cpc&utm_campaign=20263Q",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -1919,15 +1899,14 @@
       "company": "에이피알",
       "type": "",
       "roles": [
-        "PM/서비스기획",
-        "기획/전략"
+        "PM/서비스기획"
       ],
       "start": "",
       "end": "2026-09-20",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://apr-careers.com/2026recruit",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -1935,7 +1914,6 @@
       "company": "포스코이앤씨",
       "type": "",
       "roles": [
-        "PM/서비스기획",
         "기획/전략"
       ],
       "start": "",
@@ -1943,7 +1921,7 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.poscorecruit.com/?utm_source=jasoseol&utm_medium=CPC&utm_campaign=CPC",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "15:00"
     },
     {
@@ -1951,15 +1929,14 @@
       "company": "현대해상화재보험",
       "type": "",
       "roles": [
-        "PM/서비스기획",
-        "기획/전략"
+        "PM/서비스기획"
       ],
       "start": "",
       "end": "2026-09-21",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hi.recruiter.co.kr/career/jobs/126918?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609hi",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
@@ -1967,7 +1944,6 @@
       "company": "한화시스템",
       "type": "",
       "roles": [
-        "PM/서비스기획",
         "기획/전략"
       ],
       "start": "",
@@ -1975,7 +1951,7 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hanwhasystems-space.com/recruit2026",
-      "hist": "자동 수집 · 대졸 신입 공채 — 기획 트랙 포함 여부는 공고에서 직접 확인하세요",
+      "hist": "자동 수집",
       "endTime": "13:00"
     },
     {
@@ -2380,13 +2356,15 @@
       "id": "jasoseol-105208",
       "company": "NHN Cloud",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-20",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers.nhn.com/recruits/4380789081860362477?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Corporate",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -2536,13 +2514,15 @@
       "id": "jasoseol-105298",
       "company": "서울경제진흥원",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://sesac.seoul.kr/sesac/course/offline/courseList.do?cPage=1&rowCount=12&pageCount=10&searchCrsClsfSnList=&searchCampusSn=28&searchRcrtStts=RECRUITING&searchCrsNm",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -2575,13 +2555,15 @@
       "id": "jasoseol-105335",
       "company": "이노션",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-25",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://innocean.recruiter.co.kr/career/jobs/122545",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -2607,19 +2589,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://toss.im/career/job-detail?job_id=7811271003",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105353",
-      "company": "NHN Cloud",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-28",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4387139938134480074?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
       "hist": "자동 수집 · 직무 확인 필요",
       "endTime": "23:59"
     },
@@ -2663,19 +2632,6 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105441",
-      "company": "페이히어",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-10-02",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.payhere.in/job_posting/8K2sLUGP?utm_source=%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105444",
       "company": "모두닥",
       "type": "",
@@ -2685,32 +2641,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://modoodoc.career.greetinghr.com/ko/home#6fa875d6-44cc-4715-b6b0-d7f659d5bb23",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105455",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-10-03",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/quv0sXPv",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105466",
-      "company": "페이히어",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-10-03",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.payhere.in/job_posting/eN0nExez?utm_source=%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4",
       "hist": "자동 수집 · 직무 확인 필요",
       "endTime": "23:59"
     },
@@ -2731,13 +2661,15 @@
       "id": "jasoseol-105484",
       "company": "마카롱팩토리",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-10-05",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://mycle.career.greetinghr.com/ko/home",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -2809,39 +2741,31 @@
       "id": "jasoseol-105524",
       "company": "NHN Dooray",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-10-04",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers.nhn.com/recruits/4368278317848221368?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Dooray_Tech",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105530",
-      "company": "엠알인프라오토",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-10-05",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://jasoseol.com",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105536",
       "company": "KG ICT",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-06",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSftsM29qo_KUM3l7PvNpYeTsO9sHv-p4BwGNKJKDhMWJ7EZ4g/viewform",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -2874,13 +2798,15 @@
       "id": "jasoseol-105566",
       "company": "KT&G",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-10",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://ktng.recruiter.co.kr/career/home",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "15:00"
     },
     {
@@ -2900,13 +2826,15 @@
       "id": "jasoseol-105582",
       "company": "SAP Korea",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-28",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "http://www.sap-code.co.kr",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "11:00"
     },
     {
@@ -2926,13 +2854,15 @@
       "id": "jasoseol-105604",
       "company": "LIG D&A",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-11-29",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://ligdna.recruiter.co.kr/appsite/company/index",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -3030,26 +2960,31 @@
       "id": "jasoseol-105673",
       "company": "2026년 중견기업 일자리 박람회",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-08",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://fome-jobfair.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
       "id": "jasoseol-105678",
       "company": "스튜디오에스",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://sbs.careerlink.kr/jobs/RC20260818033336",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -3147,13 +3082,16 @@
       "id": "jasoseol-105716",
       "company": "한국관광공사",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-15",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "http://www.tourjobfair.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -3196,42 +3134,18 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105732",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-10-19",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/ZJnUQD2r",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105734",
-      "company": "신원",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-13",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://shinwon.career.greetinghr.com/ko/o/232930",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105741",
       "company": "다쏘시스템코리아",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-15",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://bit.ly/4vTfclt",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -3287,19 +3201,6 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105756",
-      "company": "화신",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-10-20",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://hwashins.com",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105757",
       "company": "한국환경공단(KECO)",
       "type": "",
@@ -3329,13 +3230,15 @@
       "id": "jasoseol-105762",
       "company": "한국산업기술시험원(KTL)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-08",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://ktl2026.careerlink.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "11:00"
     },
     {
@@ -3368,26 +3271,30 @@
       "id": "jasoseol-105765",
       "company": "한국물가협회",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-06",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.kprc.or.kr/intro.do?modeType=recruit",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105769",
       "company": "현대로템",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-20",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://m.site.naver.com/2eYEC",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -3407,13 +3314,16 @@
       "id": "jasoseol-105771",
       "company": "현대자동차",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://talent-hyundai-now.com/?utm_source=jasoseol&utm_medium=banner&utm_campaign=26_09_recruit",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -3459,26 +3369,32 @@
       "id": "jasoseol-105779",
       "company": "The·K한국교직원공제회",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-11",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://ktcu.applyin.co.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "16:00"
     },
     {
       "id": "jasoseol-105780",
       "company": "LG전자",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://lge-recruit.com/?utm_source=jasoseol&utm_medium=fit&utm_campaign=august",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:00"
     },
     {
@@ -3537,13 +3453,16 @@
       "id": "jasoseol-105787",
       "company": "한국보건산업진흥원",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-07",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://khidi.recruitlab.co.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
@@ -3576,13 +3495,15 @@
       "id": "jasoseol-105793",
       "company": "넥슨컴퍼니",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-07",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.nexon-tutorial.com/?utm_campaign=2026nexon-tutorial&utm_source=jasoseol&utm_medium=display&utm_content=post",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "16:00"
     },
     {
@@ -3664,19 +3585,6 @@
       "endTime": "23:00"
     },
     {
-      "id": "jasoseol-105801",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-10-24",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/psQDcdsW",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105803",
       "company": "앱솔브랩",
       "type": "",
@@ -3693,39 +3601,45 @@
       "id": "jasoseol-105804",
       "company": "한국표준협회",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-22",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://ksa.careerlink.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "10:00"
     },
     {
       "id": "jasoseol-105808",
       "company": "한화에어로스페이스",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-08",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLScFaulWUTknCxsQFct0LK1srXQ8mXoDBg3dsRRHi54y-DZ_Vg/viewform",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105810",
       "company": "비아이매트릭스",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-24",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49843194?Oem_Code=1",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -3875,65 +3789,77 @@
       "id": "jasoseol-105822",
       "company": "한미정밀화학",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-06",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hanmi.recruiter.co.kr/career/apply",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105824",
       "company": "리멤버앤컴퍼니",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-10-24",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hello.remember.co.kr/recruit",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105826",
       "company": "LIG D&A",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.ligdna-2026.com/?utm_source=jasoseol&utm_medium=cpc&utm_campaign=cpc",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105827",
       "company": "STX엔진",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-08",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://recruit.stxengine.co.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105828",
       "company": "대구경북첨단의료산업진흥재단",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-09",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kmedihub.recruiter.co.kr/career/resume",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -3966,26 +3892,30 @@
       "id": "jasoseol-105836",
       "company": "한국보건산업진흥원",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-07",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://khidi.recruitlab.co.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
       "id": "jasoseol-105837",
       "company": "경기창조경제혁신센터",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-06",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://gccei.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=244269",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
@@ -4015,29 +3945,18 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105840",
-      "company": "유안타증권",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-10",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.yuantakorea.com:4433/jobinfo/jobinfo_view.asp?ID=1945",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:00"
-    },
-    {
       "id": "jasoseol-105841",
       "company": "중소벤처기업진흥공단(KOSME)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-10",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kosmes.applyin.co.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -4109,13 +4028,15 @@
       "id": "jasoseol-105852",
       "company": "현대카드/현대커머셜",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://m.site.naver.com/21dBn",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "10:00"
     },
     {
@@ -4148,13 +4069,15 @@
       "id": "jasoseol-105856",
       "company": "어플라이드 머티어리얼즈 코리아",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-09",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://appliedkorea.applyin.co.kr/jobs/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -4187,39 +4110,15 @@
       "id": "jasoseol-105862",
       "company": "롯데그룹",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-21",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://lotte-36912recruit.com/?nt_source=jasosal&nt_medium=cpc&nt_detail=recruit&nt_keyword=a",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105863",
-      "company": "브이샘",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-06",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.aju.co.kr/recruitNotice/RecruitNotice.do?enterCd=AP00&recSeq=1283",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105864",
-      "company": "아주산업",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-13",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.aju.co.kr/recruitNotice/RecruitNotice.do?enterCd=AP00&recSeq=1282",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -4265,26 +4164,31 @@
       "id": "jasoseol-105871",
       "company": "우리은행",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-08",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://jrs.jobkorea.co.kr/wooribank",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "14:00"
     },
     {
       "id": "jasoseol-105874",
       "company": "한국투자공사",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-18",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kicrecruit.fairyhr.com",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -4301,29 +4205,18 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105876",
-      "company": "포스코",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-06",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.posco.com/h22a01-front/H22A1001.html?id=692001",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105877",
       "company": "LX인터내셔널",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-20",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://lx.recruiter.co.kr/career/jobs/125420",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -4421,13 +4314,15 @@
       "id": "jasoseol-105886",
       "company": "GS칼텍스",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-15",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://recruit2026-gscaltex.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -4447,26 +4342,30 @@
       "id": "jasoseol-105888",
       "company": "KBS",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "http://recruit.kbs.co.kr",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "10:00"
     },
     {
       "id": "jasoseol-105889",
       "company": "한국방위산업진흥회",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kdia.careerlink.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -4486,13 +4385,15 @@
       "id": "jasoseol-105891",
       "company": "SK핀크스",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-10",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://skpinx.skcareers.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -4564,26 +4465,31 @@
       "id": "jasoseol-105898",
       "company": "현대모비스",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-10",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers.mobis.com/index",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "11:00"
     },
     {
       "id": "jasoseol-105899",
       "company": "현대엔지니어링",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-09",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hec.recruiter.co.kr/career/jobs/123862",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -4600,55 +4506,49 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105901",
-      "company": "로지스올",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-11",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://logisall.recruiter.co.kr/career/apply",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105902",
       "company": "현대엘리베이터",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-30",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://connect-elevator.com/?utm_source=jasoseol&utm_medium=ad&utm_campaign=26fw",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105903",
       "company": "LS그룹",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://litt.ly/ls_careers",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105904",
       "company": "IBK기업은행",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "http://ibk.incruit.com/hire/viewhire.asp?projectid=128",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "10:00"
     },
     {
@@ -4668,27 +4568,16 @@
       "id": "jasoseol-105908",
       "company": "한국건설생활환경시험연구원",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "http://kcl.incruit.com",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
-    },
-    {
-      "id": "jasoseol-105909",
-      "company": "한국후지필름",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.lotte.co.kr/apply/announcement/detail/21939136?compcd=?id=bookmark1008",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:00"
     },
     {
       "id": "jasoseol-105910",
@@ -4707,26 +4596,31 @@
       "id": "jasoseol-105911",
       "company": "LG CNS",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers-lgcns2026.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105912",
       "company": "LG디스플레이",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-16",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://lgd-recruit.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -4756,19 +4650,6 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105917",
-      "company": "신원",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-21",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://shinwon.career.greetinghr.com/ko/o/215893",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105918",
       "company": "신원",
       "type": "",
@@ -4778,32 +4659,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://shinwon.career.greetinghr.com/ko/o/226251",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105919",
-      "company": "신원",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-21",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://shinwon.career.greetinghr.com/ko/o/209718",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105920",
-      "company": "신원",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-21",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://shinwon.career.greetinghr.com/ko/o/208475",
       "hist": "자동 수집 · 직무 확인 필요",
       "endTime": "23:59"
     },
@@ -4824,13 +4679,16 @@
       "id": "jasoseol-105923",
       "company": "현대그룹",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-22",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://connect-hyundai.com/?utm_source=jasoseol&utm_medium=ad&utm_campaign=26fw",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -4847,42 +4705,33 @@
       "endTime": "18:00"
     },
     {
-      "id": "jasoseol-105925",
-      "company": "SK핀크스",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://skpinx.skcareers.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105926",
       "company": "포스코",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-16",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.poscorecruit.com?utm_source=jasoseol&utm_medium=CPC&utm_campaign=CPC",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "15:00"
     },
     {
       "id": "jasoseol-105927",
       "company": "포항산업과학연구원(RIST)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-16",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.poscorecruit.com/?utm_source=jasoseol&utm_medium=CPC&utm_campaign=CPC",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "15:00"
     },
     {
@@ -4902,13 +4751,15 @@
       "id": "jasoseol-105929",
       "company": "포스코인터내셔널",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-16",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.poscorecruit.com/?utm_source=jasoseol&utm_medium=CPC&utm_campaign=CPC",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "15:00"
     },
     {
@@ -4928,39 +4779,32 @@
       "id": "jasoseol-105931",
       "company": "한국산업은행",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "http://kdb.incruit.com",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "16:00"
     },
     {
       "id": "jasoseol-105932",
       "company": "한국가스공사(KOGAS)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-15",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608310000702",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105933",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-10-30",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/bsX8u2F9",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -4993,13 +4837,15 @@
       "id": "jasoseol-105936",
       "company": "인천국제공항공사",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-15",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://airport.incruit.com",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "10:00"
     },
     {
@@ -5045,65 +4891,75 @@
       "id": "jasoseol-105941",
       "company": "현대건설",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-29",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://recruit.hdec.co.kr/#/Recruit/2802",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
       "id": "jasoseol-105942",
       "company": "넥센타이어",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-08",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://yw.work24.go.kr/main.do",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105943",
       "company": "KB국민은행",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-09",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kbstar.careerlink.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
       "id": "jasoseol-105944",
       "company": "한국알콜그룹",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://enf-recruit.career.greetinghr.com/ko/home",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105945",
       "company": "제일약품",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://jeil.recruiter.co.kr/career/jobs/126733",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -5123,13 +4979,16 @@
       "id": "jasoseol-105947",
       "company": "현대글로비스",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://glovis.recruiter.co.kr/career/jobs/125855",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -5142,19 +5001,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://recruit.einfomax.co.kr/#/board/notice",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105950",
-      "company": "에스엘푸드 피티이 엘티디",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-18",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://slfoods.net/",
       "hist": "자동 수집 · 직무 확인 필요",
       "endTime": "23:59"
     },
@@ -5188,13 +5034,15 @@
       "id": "jasoseol-105955",
       "company": "포스코DX",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-16",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.poscorecruit.com/?utm_source=jasoseol&utm_medium=CPC&utm_campaign=CPC",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "15:00"
     },
     {
@@ -5227,40 +5075,32 @@
       "id": "jasoseol-105959",
       "company": "두산그룹",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-21",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://bit.ly/4xtuoWV",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
       "id": "jasoseol-105961",
       "company": "한국로봇산업진흥원",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-15",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://dware.intojob.co.kr/main/kiria.jsp",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "11:00"
-    },
-    {
-      "id": "jasoseol-105962",
-      "company": "케이씨텍",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-13",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kc-group.recruiter.co.kr/career/jobs/127012",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:55"
     },
     {
       "id": "jasoseol-105970",
@@ -5344,26 +5184,31 @@
       "id": "jasoseol-105977",
       "company": "서울창조경제혁신센터",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-09",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://sccei.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2608sccei",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105978",
       "company": "한국장학재단(KOSAF)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-15",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kosaf.scout.co.kr",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -5396,13 +5241,15 @@
       "id": "jasoseol-105981",
       "company": "한국기계전기전자시험연구원(KTC)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://ktchr.saramin.co.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -5422,13 +5269,15 @@
       "id": "jasoseol-105983",
       "company": "한국지방재정공제회(LOFA)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-16",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609010002650",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "14:00"
     },
     {
@@ -5448,26 +5297,31 @@
       "id": "jasoseol-105985",
       "company": "비씨월드제약",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-14",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://bcwp.recruiter.co.kr/career/jobs/126774?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609bcwp",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-105986",
       "company": "HD현대",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-27",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hd-recruit2026.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -5493,19 +5347,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://apr-careers.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105989",
-      "company": "녹십자웰빙",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-13",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.gcbiopharma.com/job/GC%EB%85%B9%EC%8B%AD%EC%9E%90%EC%9B%B0%EB%B9%99-BD-%EC%82%AC%EC%97%85%EA%B0%9C%EB%B0%9C%28%ED%95%B4%EC%99%B8%2C%EA%B5%AD%EB%82%B4%29%28%EA%B2%BD%EB%A0%A5%29/4429850/",
       "hist": "자동 수집 · 직무 확인 필요",
       "endTime": "23:59"
     },
@@ -5539,13 +5380,15 @@
       "id": "jasoseol-105992",
       "company": "김앤장 법률사무소",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers.kimchang.com/ko/guide/index.kc?category=H",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -5565,13 +5408,15 @@
       "id": "jasoseol-105994",
       "company": "카카오페이",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-20",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kakaopay.career.greetinghr.com/ko/main",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -5630,13 +5475,15 @@
       "id": "jasoseol-106000",
       "company": "부산항만공사",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-17",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609020001142&handle=554F91A1730BEDA2E593D44ED8B53F8903D2F73F657219C2DF884FB43B422320",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
@@ -5656,13 +5503,15 @@
       "id": "jasoseol-106002",
       "company": "드림라인",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=54880025&view_type=etc&ref=recruit_manage",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -5695,13 +5544,15 @@
       "id": "jasoseol-106007",
       "company": "한국해양진흥공사(KOBC)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-15",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kobc.scout.co.kr/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "16:00"
     },
     {
@@ -5744,42 +5595,34 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-106014",
-      "company": "엘티정밀",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ltpr.careerlink.kr/jobs/RC20260901033880",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-106015",
       "company": "서울대학교 산학협력단",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-20",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.snukdt.com/abs/notice/notice.php?ptype=view&idx=302&page=&code=notice",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-106016",
       "company": "예금보험공사(KDIC)",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-11",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kdic.saramin.co.kr/service/kdic/3943/applicant/apply/recruit_default.asp",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
@@ -5838,13 +5681,15 @@
       "id": "jasoseol-106022",
       "company": "한국해양과학기술원 부설 선박해양플랜트연구소",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-18",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609030000997",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "18:00"
     },
     {
@@ -5877,65 +5722,61 @@
       "id": "jasoseol-106026",
       "company": "김앤장 법률사무소",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-20",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers.kimchang.com/ko/guide/index.kc?category=H",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
       "id": "jasoseol-106027",
       "company": "NH농협은행",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-17",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://nhbank.incruit.com/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "17:00"
     },
     {
       "id": "jasoseol-106028",
       "company": "한화손보",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-28",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://m.site.naver.com/2fQxS",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "15:00"
     },
     {
       "id": "jasoseol-106029",
       "company": "안랩",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-13",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://ahnlab.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609ahnlab",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-106030",
-      "company": "녹십자웰빙",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-13",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.gcbiopharma.com/job/%EB%85%B9%EC%8B%AD%EC%9E%90%EC%9B%B0%EB%B9%99-%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC%28%EA%B2%BD%EB%A0%A5%29/4436250/",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
@@ -6059,13 +5900,15 @@
       "id": "jasoseol-106042",
       "company": "하나카드",
       "type": "",
-      "roles": [],
+      "roles": [
+        "PM/서비스기획"
+      ],
       "start": "",
       "end": "2026-09-18",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hanacard.incruit.com",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "16:00"
     },
     {
@@ -6134,19 +5977,6 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-106053",
-      "company": "케이씨텍",
-      "type": "",
-      "roles": [],
-      "start": "",
-      "end": "2026-09-13",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kc-group.recruiter.co.kr/career/jobs/127358",
-      "hist": "자동 수집 · 직무 확인 필요",
-      "endTime": "23:55"
-    },
-    {
       "id": "jasoseol-106055",
       "company": "현대종합금속",
       "type": "",
@@ -6163,13 +5993,15 @@
       "id": "jasoseol-106065",
       "company": "세아제강",
       "type": "",
-      "roles": [],
+      "roles": [
+        "기획/전략"
+      ],
       "start": "",
       "end": "2026-09-09",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://seahsteel.recruiter.co.kr/career/jobs/127303",
-      "hist": "자동 수집 · 직무 확인 필요",
+      "hist": "자동 수집",
       "endTime": "23:59"
     },
     {
