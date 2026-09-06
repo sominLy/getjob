@@ -267,6 +267,12 @@ textarea{width:100%;resize:vertical;min-height:80px;line-height:1.6;font-size:13
 .rail-lead.dim b{color:var(--muted);font-weight:600}
 .dchip.mine{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent-soft)}
 .dchip.dim{opacity:.72}
+.dchip{cursor:pointer;text-align:left;font:inherit;color:inherit}
+.dchip:hover{border-color:var(--accent)}
+.dd{cursor:pointer}
+.dd:hover{background:var(--accent-soft)}
+.dd-go{font-size:11px;color:var(--muted);text-decoration:underline;white-space:nowrap}
+.dd-go:hover{color:var(--accent-ink)}
 
 /* D-day 한눈에 보기 */
 .ddb{background:var(--card);border:1px solid var(--line);border-radius:11px;
@@ -274,7 +280,7 @@ textarea{width:100%;resize:vertical;min-height:80px;line-height:1.6;font-size:13
 .ddb-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .ddb-h h3{font-size:15px;font-weight:700;letter-spacing:-.01em}
 .ddb-list{display:flex;flex-direction:column;gap:1px}
-.dd{display:grid;grid-template-columns:66px 1fr auto auto;align-items:center;gap:12px;
+.dd{display:grid;grid-template-columns:66px 1fr auto auto auto;align-items:center;gap:12px;
   padding:8px 10px;border-radius:7px;border-left:3px solid var(--line)}
 .dd:nth-child(odd){background:var(--paper)}
 .dd.s{border-left-color:var(--amber)}
@@ -1071,6 +1077,15 @@ function ddayBoard(list){
     const wt = document.createElement("div"); wt.className = "dd-w"; wt.textContent = r.what;
     const dt = document.createElement("div"); dt.className = "dd-d"; dt.textContent = fmtAt(r.date, r.time);
     row.append(n, co, wt, dt);
+    /* 눌러서 바로 공고로 — 행 전체는 상세, 링크는 회사 채용페이지로 */
+    row.onclick = () => openJob(r.j.id);
+    if(r.j.url){
+      const go = document.createElement("a");
+      go.className = "dd-go"; go.href = r.j.url; go.target = "_blank"; go.rel = "noopener";
+      go.textContent = "공고 ↗";
+      go.onclick = e => e.stopPropagation();
+      row.appendChild(go);
+    }
     ul.appendChild(row);
   });
   box.appendChild(ul);
@@ -1786,16 +1801,16 @@ function renderRail(){
   myJobs().forEach(function(j){
     const a = app(j.id), dl = deadline(j);
     if(dl && dleft(dl) >= 0 && a.doc === "대기")
-      mine.push({d:dleft(dl), name:j.company,
+      mine.push({d:dleft(dl), name:j.company, id:j.id,
                  what:"서류 마감" + (!a.myEnd && j.endTime ? " " + j.endTime : ""), mine:true});
     a.stages.forEach(function(s){
       if(s.date && dleft(s.date) >= 0)
-        mine.push({d:dleft(s.date), name:j.company, what:s.name, mine:true});
+        mine.push({d:dleft(s.date), name:j.company, id:j.id, what:s.name, mine:true});
     });
   });
   scoped().forEach(function(j){
     if(!app(j.id).applied && j.end && dleft(j.end) >= 0 && state(j).k !== "shut")
-      rest.push({d:dleft(j.end), name:j.company,
+      rest.push({d:dleft(j.end), name:j.company, id:j.id,
                  what:"마감" + (j.endTime ? " " + j.endTime : "") + (j.confirmed ? "" : " (예상)"), mine:false});
   });
   mine.sort((a,b) => a.d - b.d);
@@ -1823,8 +1838,11 @@ function renderRail(){
       sep.innerHTML = '<b>안 담은 공고</b>';
       rail.appendChild(sep);
     }
-    const el = document.createElement("div");
+    const el = document.createElement("button");
+    el.type = "button";
     el.className = "dchip" + (it.d <= 3 ? " u" : it.d <= 10 ? " s" : "") + (it.mine ? " mine" : " dim");
+    el.onclick = () => openJob(it.id);
+    el.title = it.name + " 공고 보기";
     const d = document.createElement("div"); d.className = "d";
     d.textContent = it.d === 0 ? "오늘 마감" : "D-" + it.d;   /* 레일은 지난 일정을 애초에 안 담는다 */
     const c = document.createElement("div"); c.className = "c"; c.textContent = it.name;
