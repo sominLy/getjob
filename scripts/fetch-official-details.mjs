@@ -14,6 +14,7 @@ import { chromium } from "playwright";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const JOBS_PATH = path.join(__dirname, "..", "data", "jobs.json");
+const DETAILS_PATH = path.join(__dirname, "..", "data", "details.json");
 
 const MAX_CHARS = 4000;
 const CONCURRENCY = 4;
@@ -46,12 +47,20 @@ function looksLikeRealContent(text) {
   return text.length > 800 && CONTENT_HINT.test(text);
 }
 
+async function readJson(file, fallback) {
+  try { return JSON.parse(await readFile(file, "utf-8")); } catch { return fallback; }
+}
+
 async function main() {
-  const db = JSON.parse(await readFile(JOBS_PATH, "utf-8"));
+  const db = await readJson(JOBS_PATH, null);
+  if (!db) throw new Error("jobs.json을 읽지 못했습니다");
+  const details = await readJson(DETAILS_PATH, { updated: "", items: {} });
+
+  // 본문은 details.json에 따로 모은다(jobs.json은 목록만 담아 가볍게 유지).
   const targets = db.jobs.filter(
-    (j) => j.confirmed === true && j.url && !j.detail
+    (j) => j.confirmed === true && j.url && !details.items[j.id]
   );
-  console.log(`대상 ${targets.length}건 (확정 공고 중 detail 없는 것만)`);
+  console.log(`대상 ${targets.length}건 (확정 공고 중 본문 없는 것만)`);
   if (targets.length === 0) return;
 
   const browser = await chromium.launch();
@@ -84,12 +93,10 @@ async function main() {
             });
 
         if (hasRealText) {
-          job.detail = cleaned;
-          job.detailAt = today;
+          details.items[job.id] = { detail: cleaned, at: today };
           ok++;
         } else if (posterUrl) {
-          job.detailImage = posterUrl;
-          job.detailAt = today;
+          details.items[job.id] = { image: posterUrl, at: today };
           ok++;
         } else {
           fail++;
@@ -105,8 +112,9 @@ async function main() {
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
   await browser.close();
 
-  await writeFile(JOBS_PATH, JSON.stringify(db, null, 2) + "\n", "utf-8");
-  console.log(`완료. 성공 ${ok}건, 실패(이미지 포스터형/접근차단/타임아웃 등) ${fail}건.`);
+  details.updated = today;
+  await writeFile(DETAILS_PATH, JSON.stringify(details, null, 2) + "\n", "utf-8");
+  console.log(`완료. 성공 ${ok}건, 실패(접근차단/타임아웃 등) ${fail}건.`);
 }
 
 main().catch((err) => {

@@ -52,10 +52,24 @@ Supabase 쪽 최초 설정(테이블 생성 SQL)은 `jobboard_data` 테이블이
 ## 구조
 
 ```
-index.html                     앱 전체 (의존성 없음)
-data/jobs.json                 공고 데이터 (지원보드용)
-data/ai-companies-jobs.json    구글/앤스로픽/노션 서울 공고 (분석용, 자동 갱신)
-scripts/fetch-jobs.mjs         지원보드용 공고 수집 스크립트
-scripts/fetch-ai-companies.mjs AI 3사 공고 수집 스크립트
-.github/workflows/update-jobs.yml  매일 11시 자동 실행 워크플로우
+index.html                        앱 전체
+data/jobs.json                    공고 목록 (첫 화면에서 바로 받음, 가볍게 유지)
+data/details.json                 공고 본문·포스터 이미지 (공고를 열 때만 받음)
+data/ai-companies-jobs.json       구글/앤스로픽/노션/OpenAI 서울 공고 (분석용)
+scripts/lib/classify.mjs          직무 분류·정규화 공용 규칙 (수집·재분류가 함께 사용)
+scripts/fetch-jobs.mjs            공고 목록 수집
+scripts/fetch-official-details.mjs 공식 채용페이지 본문 수집 (헤드리스 브라우저)
+scripts/fetch-ai-companies.mjs    AI 4사 공고 수집
+scripts/reclassify-jasoseol.mjs   분류 규칙 변경 시 기존 데이터 재분류
+.github/workflows/update-jobs.yml 매일 11시 자동 실행 워크플로우
 ```
+
+## 공고 본문은 어떻게 가져오나
+
+회사 공식 채용페이지는 대부분 자바스크립트로 그려지는 사이트라 단순 요청으로는 빈 화면만 옵니다.
+그래서 헤드리스 브라우저로 페이지를 실제로 띄운 뒤 화면에 보이는 내용을 가져옵니다.
+한국 채용공고는 본문 전체가 이미지 한 장인 경우도 많아서, 텍스트가 부실하면 그 포스터 이미지를
+대신 저장해 앱에서 그대로 보여줍니다.
+
+회사마다 페이지 구조가 전부 달라 "직무별 표"처럼 구조화해서 뽑는 것은 하지 않습니다.
+사람이 페이지를 열어 읽는 것과 같은 원문을 그대로 담습니다.

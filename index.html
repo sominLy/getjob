@@ -1388,6 +1388,45 @@ function renderCal(){
 
 /* ---------- 공고 상세 ---------- */
 const jobDlg = document.getElementById("jobDlg");
+
+/* 공고 본문(data/details.json)은 목록보다 훨씬 무거워서 첫 화면 로딩을 늦춘다.
+   공고를 실제로 열어볼 때 한 번만 받아 캐시해 둔다. */
+let DETAILS = null, detailsPromise = null;
+function loadDetails(){
+  if(DETAILS) return Promise.resolve(DETAILS);
+  if(!detailsPromise){
+    detailsPromise = fetch("data/details.json?t=" + Date.now())
+      .then(r => r.ok ? r.json() : {items:{}})
+      .then(d => (DETAILS = d.items || {}))
+      .catch(() => (DETAILS = {}));
+  }
+  return detailsPromise;
+}
+function showDetail(id){
+  const poster = document.getElementById("jdPoster");
+  const posterFail = document.getElementById("jdPosterFail");
+  const detail = document.getElementById("jdDetail");
+  poster.hidden = true; posterFail.hidden = true;
+  detail.hidden = false; detail.textContent = "공고 내용을 불러오는 중…";
+
+  loadDetails().then(function(items){
+    if(jdId !== id) return;              /* 그 사이 다른 공고를 열었으면 무시 */
+    const d = items[id];
+    if(!d){ detail.hidden = true; return; }
+
+    detail.textContent = d.detail || "";
+    detail.hidden = !d.detail;
+    /* 본문이 포스터 이미지인 공고. 회사가 외부 도메인 표시를 막아둔 경우(핫링크 차단)
+       깨진 이미지 대신 안내 문구를 띄운다. */
+    if(d.image){
+      poster.hidden = false;
+      poster.onerror = () => { poster.hidden = true; posterFail.hidden = false; };
+      poster.src = d.image;
+    } else {
+      poster.removeAttribute("src");
+    }
+  });
+}
 let jdId = null;
 function openJob(id){
   const j = allJobs().find(x => x.id === id);
@@ -1426,23 +1465,7 @@ function openJob(id){
   note.textContent = a.note || "";
   note.hidden = !a.note;
 
-  /* 공고 본문이 포스터 이미지인 경우. 일부 회사는 외부 도메인에서의 이미지 로딩을 막아
-     (핫링크 차단) 깨진 이미지가 뜨는데, 그때는 조용히 감추고 "공고 열기"로 안내한다. */
-  const poster = document.getElementById("jdPoster");
-  const posterFail = document.getElementById("jdPosterFail");
-  posterFail.hidden = true;
-  if(j.detailImage){
-    poster.hidden = false;
-    poster.onerror = () => { poster.hidden = true; posterFail.hidden = false; };
-    poster.src = j.detailImage;
-  } else {
-    poster.hidden = true;
-    poster.removeAttribute("src");
-  }
-
-  const detail = document.getElementById("jdDetail");
-  detail.textContent = j.detail || "";
-  detail.hidden = !j.detail;
+  showDetail(id);
 
   const link = document.getElementById("jdLink");
   if(j.url){ link.href = j.url; link.hidden = false; } else { link.hidden = true; }
