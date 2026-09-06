@@ -484,10 +484,32 @@ thead th{font-weight:600;letter-spacing:.07em}
   .toast.on{transform:translateY(0)}
 }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<style>
+  #authScreen{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px}
+  #authScreen h1{font-size:1.4rem;margin:0}
+  #authScreen p{color:var(--muted,#777);margin:0;text-align:center}
+  #authScreen form{display:flex;flex-direction:column;gap:8px;width:100%;max-width:320px}
+  #authScreen input{padding:10px 12px;border:1px solid #ccc;border-radius:8px;font-size:1rem}
+  #authScreen .err{color:#c0392b;font-size:.9rem;white-space:pre-line;text-align:center}
+  #authScreen .switch{background:none;border:none;text-decoration:underline;cursor:pointer;color:inherit}
+</style>
 </head>
 <body>
 
-<header>
+<div id="authScreen" hidden>
+  <h1>지원 보드</h1>
+  <p>로그인하면 어느 기기에서든 같은 지원 현황을 볼 수 있어요.</p>
+  <form id="authForm">
+    <input type="email" id="authEmail" placeholder="이메일" required autocomplete="email">
+    <input type="password" id="authPw" placeholder="비밀번호 (6자 이상)" required minlength="6" autocomplete="current-password">
+    <button type="submit" class="primary" id="authSubmit">로그인</button>
+  </form>
+  <p class="err" id="authMsg" hidden></p>
+  <button type="button" class="switch" id="authSwitch">처음이신가요? 가입하기</button>
+</div>
+
+<header id="appHeader" hidden>
   <div class="hbar">
     <span class="brand">지원 보드</span>
     <span class="today" id="todayLbl"></span>
@@ -497,11 +519,12 @@ thead th{font-weight:600;letter-spacing:.07em}
     <button class="ghost" id="addBtn">+ 공고</button>
     <button class="ghost" id="expBtn">백업</button>
     <button class="ghost" id="impBtn">복원</button>
+    <button class="ghost" id="logoutBtn">로그아웃</button>
   </div>
   <div class="rail"><div class="rail-in" id="rail"></div></div>
 </header>
 
-<div class="wrap">
+<div class="wrap" id="appWrap" hidden>
   <nav class="tabs" role="tablist">
     <button role="tab" aria-selected="true" data-v="list">전체 공고<span class="cnt" id="c-list"></span></button>
     <button role="tab" aria-selected="false" data-v="mine">내 지원<span class="cnt" id="c-mine"></span></button>
@@ -740,22 +763,35 @@ let STAGES = ["AI 역량검사","적성검사","인적성검사","1차 면접","
 let SEED = [];
 
 /* ---------- 저장소 ---------- */
-let db = load();
-function load(){
-  try{
-    const r = JSON.parse(localStorage.getItem(KEY));
-    if(r && r.apps && r.custom && r.todos && r.arc && r.profile){
-      if(r.arc.pf === undefined) r.arc.pf = "";
-      if(!r.profile.theme) r.profile.theme = {mode:"system", accent:"lime"};
-      return r;
-    }
-  }catch(e){}
+const SUPABASE_URL = "https://mtmhkojervdqiftglcnq.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_soR7fHjBKYKExEGeLsJ9IQ_ejf4TH3K";
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+function defaultDb(){
   return {profile:{roles:[],types:[],onboarded:false,theme:{mode:"system",accent:"lime"}},
           apps:{}, custom:[], todos:{}, arc:{exp:[], cov:[], res:"", pf:""}};
 }
+function normalizeDb(r){
+  if(!(r && r.apps && r.custom && r.todos && r.arc && r.profile)) return null;
+  if(r.arc.pf === undefined) r.arc.pf = "";
+  if(!r.profile.theme) r.profile.theme = {mode:"system", accent:"lime"};
+  return r;
+}
+function loadLocal(){
+  try{ return normalizeDb(JSON.parse(localStorage.getItem(KEY))); }
+  catch(e){ return null; }
+}
+let db = defaultDb();
+let syncTimer = null;
 function save(){
   try{ localStorage.setItem(KEY, JSON.stringify(db)); }
   catch(e){ toast("저장 공간이 가득 찼습니다. 백업 후 오래된 내용을 지워주세요."); }
+  if(!currentUserId) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(function(){
+    sb.from("jobboard_data").upsert({user_id: currentUserId, data: db, updated_at: new Date().toISOString()})
+      .then(function(res){ if(res.error) console.error("sync failed:", res.error.message); });
+  }, 800);
 }
 function app(id){
   if(!db.apps[id]) db.apps[id] = {applied:false, note:"", doc:"대기", stages:[],
@@ -1785,31 +1821,111 @@ function renderAll(){ renderRail(); renderList(); renderMine(); renderCal(); ren
 document.getElementById("todayLbl").textContent =
   TODAY.getFullYear() + "." + String(TODAY.getMonth()+1).padStart(2,"0") + "." + String(TODAY.getDate()).padStart(2,"0");
 
-fetch("data/jobs.json?t=" + Date.now())
-  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
-  .then(function(d){
-    SEED = d.jobs || [];
-    if(d.stages && d.stages.length) STAGES = d.stages;
-    /* 내가 고쳐둔 공용 공고는 내 값으로 되돌립니다 */
-    SEED.forEach(function(s){
-      const o = db.apps[s.id] && db.apps[s.id].ovr;
-      if(o) Object.assign(s, o);
+function boot(){
+  applyTheme();
+  fetch("data/jobs.json?t=" + Date.now())
+    .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(d){
+      SEED = d.jobs || [];
+      if(d.stages && d.stages.length) STAGES = d.stages;
+      /* 내가 고쳐둔 공용 공고는 내 값으로 되돌립니다 */
+      SEED.forEach(function(s){
+        const o = db.apps[s.id] && db.apps[s.id].ovr;
+        if(o) Object.assign(s, o);
+      });
+      document.getElementById("footnote").innerHTML =
+        '<b>공고 데이터 갱신</b> — ' + (d.updated || "—") + ' 기준. 공고 목록은 자동으로 갱신되지만, ' +
+        '<b>내 데이터는 로그인 계정 기준으로 저장</b>되어 어느 기기에서 열어도 같은 내용이 보입니다. ' +
+        '다른 사람에게는 보이지 않습니다. 그래도 가끔 <b>백업</b>으로 파일을 내려받아 두세요.<br>' +
+        '<b>예상과 확정</b> — 점선 ‘예상’은 과거 3년 접수 패턴으로 추정한 날짜입니다. ' +
+        '실제 공고가 뜨면 확정 날짜로 바뀝니다. 직접 고칠 수도 있습니다.';
+      renderAll();
+      if(!db.profile.onboarded) openPref();
+    })
+    .catch(function(err){
+      document.getElementById("listBody").innerHTML =
+        '<tr><td colspan="8" style="padding:24px 12px;color:var(--muted)">' +
+        '공고 데이터를 불러오지 못했습니다. 배포된 주소로 열어야 합니다 (' + err.message + ').</td></tr>';
     });
-    document.getElementById("footnote").innerHTML =
-      '<b>공고 데이터 갱신</b> — ' + (d.updated || "—") + ' 기준. 공고 목록은 자동으로 갱신되지만, ' +
-      '<b>내 데이터는 이 브라우저에만 저장됩니다.</b> 지원 상태, 전형 일정, 자소서, 경험 정리는 서버로 전송되지 않고 ' +
-      '다른 사람에게도 보이지 않습니다. 대신 브라우저 데이터를 지우거나 기기를 옮기면 사라지니, ' +
-      '가끔 <b>백업</b>으로 파일을 내려받아 두세요.<br>' +
-      '<b>예상과 확정</b> — 점선 ‘예상’은 과거 3년 접수 패턴으로 추정한 날짜입니다. ' +
-      '실제 공고가 뜨면 확정 날짜로 바뀝니다. 직접 고칠 수도 있습니다.';
-    renderAll();
-    if(!db.profile.onboarded) openPref();
-  })
-  .catch(function(err){
-    document.getElementById("listBody").innerHTML =
-      '<tr><td colspan="8" style="padding:24px 12px;color:var(--muted)">' +
-      '공고 데이터를 불러오지 못했습니다. 배포된 주소로 열어야 합니다 (' + err.message + ').</td></tr>';
-  });
+}
+
+/* ---------- 인증 ---------- */
+let currentUserId = null;
+const authScreen = document.getElementById("authScreen");
+const appHeader = document.getElementById("appHeader");
+const appWrap = document.getElementById("appWrap");
+const authMsg = document.getElementById("authMsg");
+let authMode = "login";
+
+function showApp(){ authScreen.hidden = true; appHeader.hidden = false; appWrap.hidden = false; }
+function showAuth(){ authScreen.hidden = false; appHeader.hidden = true; appWrap.hidden = true; }
+
+function authErrorMessage(m){
+  if(m.includes("Invalid login")) return "이메일이나 비밀번호가 맞지 않아요.";
+  if(m.includes("least 6")) return "비밀번호는 6자 이상이어야 해요.";
+  if(m.includes("already registered")) return "이미 가입된 이메일이에요. 로그인해 주세요.";
+  if(m.includes("signups are disabled")) return "이메일 로그인이 꺼져 있어요. 잠시 후 다시 시도해주세요.";
+  if(m.includes("Email not confirmed")) return "메일 인증이 필요한 상태예요. 받은 메일함을 확인해주세요.";
+  return m;
+}
+
+document.getElementById("authSwitch").onclick = function(){
+  authMode = authMode === "login" ? "signup" : "login";
+  document.getElementById("authSubmit").textContent = authMode === "login" ? "로그인" : "가입하기";
+  this.textContent = authMode === "login" ? "처음이신가요? 가입하기" : "이미 계정이 있어요";
+  authMsg.hidden = true;
+};
+
+document.getElementById("authForm").onsubmit = async function(e){
+  e.preventDefault();
+  const email = document.getElementById("authEmail").value;
+  const password = document.getElementById("authPw").value;
+  const submitBtn = document.getElementById("authSubmit");
+  submitBtn.disabled = true; authMsg.hidden = true;
+  const { error } = authMode === "login"
+    ? await sb.auth.signInWithPassword({ email, password })
+    : await sb.auth.signUp({ email, password });
+  submitBtn.disabled = false;
+  if(error){
+    authMsg.textContent = authErrorMessage(error.message);
+    authMsg.hidden = false;
+  } else if(authMode === "signup"){
+    authMsg.textContent = "가입 완료. 이제 로그인해 주세요.";
+    authMsg.hidden = false;
+    document.getElementById("authSwitch").click();
+  }
+  // 로그인 성공 시에는 onAuthStateChange가 처리
+};
+
+document.getElementById("logoutBtn").onclick = async function(){
+  await sb.auth.signOut();
+};
+
+async function loadUserData(userId){
+  const { data, error } = await sb.from("jobboard_data").select("data").eq("user_id", userId).maybeSingle();
+  if(error){ toast("데이터를 불러오지 못했습니다: " + error.message); return defaultDb(); }
+  if(data && data.data) return normalizeDb(data.data) || defaultDb();
+
+  // 첫 로그인: 이 기기에 남아있던 로컬 데이터가 있으면 가져올지 확인
+  const local = loadLocal();
+  const initial = (local && confirm("이 기기에 저장된 기존 지원보드 데이터를 계정으로 가져올까요?"))
+    ? local : defaultDb();
+  await sb.from("jobboard_data").upsert({ user_id: userId, data: initial, updated_at: new Date().toISOString() });
+  return initial;
+}
+
+sb.auth.onAuthStateChange(async function(event, session){
+  if(session && session.user){
+    if(currentUserId === session.user.id) return; // 이미 로드됨(예: 탭 포커스 시 재발화)
+    currentUserId = session.user.id;
+    db = await loadUserData(currentUserId);
+    showApp();
+    boot();
+  } else {
+    currentUserId = null;
+    showAuth();
+  }
+});
 </script>
 </body>
 </html>
