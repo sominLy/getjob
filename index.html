@@ -842,7 +842,8 @@ function pill(j){
 function fits(j){
   const p = db.profile;
   if(p.roles.length && !(j.roles || []).some(r => p.roles.includes(r))) return false;
-  if(p.types.length && !p.types.includes(j.type)) return false;
+  /* 기업 형태를 모르는(자동 수집) 공고는 필터로 숨기지 않고 항상 보여준다 */
+  if(p.types.length && j.type && !p.types.includes(j.type)) return false;
   return true;
 }
 /* 내가 직접 넣은 공고와 이미 지원한 공고는 조건과 무관하게 항상 보입니다 */
