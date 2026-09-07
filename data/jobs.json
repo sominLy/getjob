@@ -6953,6 +6953,236 @@
       "source": "원티드",
       "url": "https://www.wanted.co.kr/wd/384831",
       "hist": ""
+    },
+    {
+      "id": "jasoseol-106049",
+      "company": "HSAD",
+      "type": "대기업",
+      "roles": [
+        "홍보/PR",
+        "마케팅",
+        "브랜드",
+        "리서치",
+        "콘텐츠",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-21",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.lg.com/apply/detail?id=1002146",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106060",
+      "company": "에코마케팅",
+      "type": "",
+      "roles": [
+        "마케팅",
+        "MD",
+        "영업",
+        "콘텐츠"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-10-19",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://echomarketing.career.greetinghr.com/ko/recruit",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106062",
+      "company": "GS리테일",
+      "type": "대기업",
+      "roles": [
+        "영업관리",
+        "영업",
+        "MD",
+        "마케팅",
+        "PM/서비스기획",
+        "브랜드"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-21",
+      "endTime": "12:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://gsretail.recruiter.co.kr/career/home",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106068",
+      "company": "딜리셔스",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-02",
+      "end": "2026-09-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://yw.work24.go.kr:443/d/a/prgmDtl/1ouRpljANC",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106069",
+      "company": "한국고용정보원(KEIS)",
+      "type": "공기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "HR/인사",
+        "영업관리",
+        "마케팅",
+        "리서치"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-22",
+      "endTime": "16:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609040002065&handle=02D919970EF06D9C69E7A5AD6AFE8CEDB6D14B0EEA1705DD65B5D4888DC7A5B5",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106073",
+      "company": "수협",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-09-06",
+      "end": "2026-09-21",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609070000507&handle=03320099D78746785C64F3DBC56F88EF0849E3235D14314F4FC26421CBAE65E0",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106074",
+      "company": "앳홈",
+      "type": "",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-09-06",
+      "end": "2026-09-26",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.athomecorp.com/job_posting/vgBfmBSB",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106075",
+      "company": "코스테크",
+      "type": "",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-09-06",
+      "end": "2026-09-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kostech.careerlink.kr/jobs/RC20260907034102",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106076",
+      "company": "한국교통안전공단(KOTSA)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "리서치"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-22",
+      "endTime": "10:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kotsa1.career.co.kr/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106077",
+      "company": "LG전자",
+      "type": "대기업",
+      "roles": [
+        "마케팅",
+        "콘텐츠",
+        "HR/인사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-06",
+      "end": "2026-09-30",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lge-letsgrow.careerlink.kr/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106078",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/127661",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106079",
+      "company": "앳홈",
+      "type": "",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-09-06",
+      "end": "2026-09-26",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.athomecorp.com/job_posting/xVaK1oRT",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106082",
+      "company": "앳홈",
+      "type": "",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-09-06",
+      "end": "2026-11-26",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.athomecorp.com/job_posting/CYWhmncw",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106083",
+      "company": "매그나칩반도체",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-08-31",
+      "end": "2026-09-14",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://magnachip.career.greetinghr.com/o/235064",
+      "hist": ""
     }
   ]
 }
