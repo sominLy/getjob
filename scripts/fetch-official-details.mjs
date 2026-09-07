@@ -58,14 +58,16 @@ async function main() {
   const details = await readJson(DETAILS_PATH, { updated: "", items: {} });
 
   // 본문은 details.json에 따로 모은다(jobs.json은 목록만 담아 가볍게 유지).
+  /* 이미 마감된 공고는 링크가 죽어 있는 경우가 많아 본문 수집 대상에서 뺀다.
+     (직무·자소서 문항은 fetch-tracks.mjs가 마감 여부와 상관없이 따로 모은다) */
+  const today = new Date().toISOString().slice(0, 10);
   const targets = db.jobs.filter(
-    (j) => j.confirmed === true && j.url && !details.items[j.id]
+    (j) => j.confirmed === true && j.url && !details.items[j.id] && (!j.end || j.end >= today)
   );
   console.log(`대상 ${targets.length}건 (확정 공고 중 본문 없는 것만)`);
   if (targets.length === 0) return;
 
   const browser = await chromium.launch();
-  const today = new Date().toISOString().slice(0, 10);
   let idx = 0, ok = 0, fail = 0;
 
   async function worker() {

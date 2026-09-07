@@ -223,6 +223,9 @@ td.act button.on{color:var(--accent);font-weight:700}
 .subm label{display:flex;align-items:center;gap:4px;font-size:11.5px;color:var(--ink-2);cursor:pointer}
 .subm input{margin:0}
 .subm button{background:none;border:0;color:var(--muted);font-size:11px;padding:0;cursor:pointer;text-decoration:underline}
+.qbox{border:1px solid var(--line);border-radius:7px;padding:5px 10px;font-size:12.5px;
+  background:var(--panel);color:inherit;min-width:150px}
+.qbox:focus{outline:none;border-color:var(--accent)}
 .warn{display:inline-flex;align-items:center;gap:4px;font-size:11px;color:var(--urgent);font-weight:600}
 .warn-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:4px}
 .warn-row input[type=time]{border:1px solid var(--line);border-radius:5px;padding:2px 4px;font-size:11.5px}
@@ -492,6 +495,29 @@ thead th{font-weight:600;letter-spacing:.07em}
   .dd-n{font-size:17px}
   .ddb{padding:12px 13px}
 
+  /* 좁은 화면에서 표를 옆으로 밀어 보게 하면 마감일이 아예 안 보인다.
+     한 줄을 카드처럼 쌓아서 회사·직무·마감이 한눈에 들어오게 한다. */
+  table{min-width:0}
+  thead{display:none}
+  /* 가운데 칸을 minmax(0,1fr)로 둬야 긴 직무 목록이 행을 화면 밖으로 밀지 않는다 */
+  tbody tr{display:grid;grid-template-columns:auto minmax(0,1fr) 44px;align-items:center;
+    gap:3px 9px;padding:12px 2px;border-bottom:1px solid var(--line-2);
+    width:100%;box-sizing:border-box}
+  tbody td{padding:0;border:0}
+  td.stt{grid-column:1;grid-row:1}
+  td.co{grid-column:2;grid-row:1}
+  /* 좁은 화면에서는 버튼 3개가 가로로 안 들어가 잘린다 — 세로로 세우고 터치 크기를 지킨다 */
+  td.act{grid-column:3;grid-row:1 / span 3;align-self:start;display:flex;
+    flex-direction:column;align-items:flex-end;gap:2px;white-space:nowrap}
+  td.act button,td.act a{padding:5px 0;font-size:12px;min-height:0;width:100%;text-align:right}
+  td.co,td.ro,td.dt-end{min-width:0;overflow-wrap:anywhere}
+  td.ro{grid-column:2;grid-row:2;max-width:none;font-size:12px}
+  td.dt-end{grid-column:2;grid-row:3;font-size:12.5px}
+  td.dt-end::before{content:"마감 ";color:var(--muted);font-family:var(--sans)}
+  td.dt-start,td.hist,td.src{display:none}
+
+  .tblwrap{overflow-x:visible}
+
   .e-head{flex-wrap:wrap}
   .e-q{flex:1 1 100%;order:-1}
   .arcgrid{grid-template-columns:1fr}
@@ -570,6 +596,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <div class="viewhead">
       <h2>전체 공고</h2>
       <p class="sub" id="listCount"></p>
+      <input type="search" id="q" class="qbox" placeholder="회사 이름 검색" aria-label="회사 이름 검색">
       <span class="hspace"></span>
       <button class="ghost" id="dateModeBtn"></button>
       <button class="ghost" id="scopeBtn"></button>
@@ -680,7 +707,8 @@ thead th{font-weight:600;letter-spacing:.07em}
         <option>스타트업</option><option>금융</option><option>공기업</option><option>외국계</option><option>기타</option>
       </select></label>
     </div>
-    <label>역대 오픈<input type="text" name="hist" placeholder="예: 23년 9/11~10/1 · 24년 9/12~10/4"></label>
+    <label id="histField" hidden>역대 오픈 — 예상 일정을 잡은 근거
+      <input type="text" name="hist" placeholder="예: 23년 9/11~10/1 · 24년 9/12~10/4"></label>
     <label>공고 링크<input type="url" name="url" placeholder="https://"></label>
     <label>메모<textarea name="note" placeholder="지원 조건, 컬쳐핏 근거 등"></textarea></label>
     <div class="f-actions">
@@ -884,8 +912,21 @@ function counts(s){ s = s || ""; return {all:s.length, noSpace:s.replace(/\s/g,"
 function deadline(j){ const a = app(j.id); return (a.applied && a.myEnd) ? a.myEnd : j.end; }
 /* 마감 "시각" — 내가 직접 확인해 넣은 값이 우선. 둘 다 없으면 아직 모르는 것이다. */
 function deadlineTime(j){ const a = app(j.id); return a.myEndTime || (a.myEnd ? "" : (j.endTime || "")); }
-let SHARED = [];   /* 다른 사람이 올린 제보 공고 */
-function allJobs(){ return SEED.concat(SHARED, db.custom).filter(j => !j.deleted); }
+let SHARED = [];    /* 다른 사람이 올린 제보 공고 */
+let ARCHIVE = [];   /* 마감된 공고 — 무거워서 필요할 때만 불러온다 */
+function allJobs(){ return SEED.concat(SHARED, ARCHIVE, db.custom).filter(j => !j.deleted); }
+
+/* 마감 공고는 당장 지원할 수 없어 첫 화면에는 없어도 된다.
+   "마감" 필터를 켜거나 회사를 검색할 때만 받아 온다. */
+let archivePromise = null;
+function loadArchive(){
+  if(archivePromise) return archivePromise;
+  archivePromise = fetch("data/archive.json?t=" + Date.now())
+    .then(r => r.ok ? r.json() : {jobs:[]})
+    .then(d => { ARCHIVE = d.jobs || []; renderAll(); })
+    .catch(() => {});
+  return archivePromise;
+}
 
 /* ---------- 날짜 ---------- */
 const TODAY = new Date(); TODAY.setHours(0,0,0,0);
@@ -951,7 +992,8 @@ function wireDateModeBtn(id){
 }
 
 /* ---------- 전체 공고 ---------- */
-let filter = "all", sortKey = "end", sortDir = 1;
+/* 처음 열었을 때 이미 끝난 공고가 위에 깔리면 쓸모가 없어서 '접수 중'부터 보여준다 */
+let filter = "open", sortKey = "end", sortDir = 1, query = "";
 const FILTERS = [["all","전체"],["open","접수 중"],["soon","확정 예정"],["est","예상"],["roll","상시"],["shut","마감"]];
 function renderList(){
   const base = scoped();
@@ -962,7 +1004,11 @@ function renderList(){
     const b = document.createElement("button");
     b.textContent = f[1] + " " + n;
     b.setAttribute("aria-pressed", filter===f[0]);
-    b.onclick = () => { filter = f[0]; renderList(); };
+    b.onclick = () => {
+      filter = f[0];
+      if(f[0] === "shut" || f[0] === "all") loadArchive();
+      renderList();
+    };
     fb.appendChild(b);
   });
 
@@ -978,16 +1024,24 @@ function renderList(){
   };
 
   wireDateModeBtn("dateModeBtn");
-  let rows = filter==="all" ? base : base.filter(j => state(j).k===filter);
+  /* 회사를 검색할 때는 지금 켜둔 상태 필터(접수 중 등)에 막히면 안 된다 —
+     "그 회사 공고가 있었나"를 찾는 것이므로 마감된 것까지 함께 뒤진다. */
+  const q = query.trim().toLowerCase();
+  let rows = (!q && filter !== "all") ? base.filter(j => state(j).k===filter) : base;
+  if(q) rows = rows.filter(j => (j.company || "").toLowerCase().includes(q));
   /* 마감만/시작만 보기: 해당 날짜가 있는 공고만 남기고 그 날짜로 정렬한다. */
   if(dateMode !== "all"){
     rows = rows.filter(j => j[dateMode]);
     sortKey = dateMode;
   }
   const key = j => sortKey==="company" ? (j.company||"") : (j[sortKey] || "9999-99-99");
-  rows = rows.slice().sort((a,b) => key(a).localeCompare(key(b),"ko") * sortDir);
+  /* 이미 끝난 공고는 정렬과 무관하게 항상 아래로 내린다 */
+  const shut = j => state(j).k === "shut" ? 1 : 0;
+  rows = rows.slice().sort((a,b) =>
+    (shut(a) - shut(b)) || key(a).localeCompare(key(b),"ko") * sortDir);
 
-  document.getElementById("listCount").textContent = rows.length + "개";
+  document.getElementById("listCount").textContent =
+    rows.length + "개" + (q ? " · ‘" + query.trim() + "’ 검색 (마감 포함)" : "");
   document.getElementById("c-list").textContent = base.length;
 
   const body = document.getElementById("listBody");
@@ -995,18 +1049,20 @@ function renderList(){
   if(!rows.length){
     const tr = document.createElement("tr"), td = document.createElement("td");
     td.colSpan = 8; td.style.cssText = "color:var(--muted);padding:24px 12px";
-    td.textContent = "해당하는 공고가 없습니다. ‘내 조건’을 넓히거나 직접 추가해 보세요.";
+    td.textContent = (filter === "shut" || query) && !ARCHIVE.length
+      ? "지난 공고를 불러오는 중입니다…"
+      : "해당하는 공고가 없습니다. ‘내 조건’을 넓히거나 직접 추가해 보세요.";
     tr.appendChild(td); body.appendChild(tr); return;
   }
   rows.forEach(function(j){
     const a = app(j.id), tr = document.createElement("tr");
-    tr.appendChild(cell(pill(j)));
+    tr.appendChild(cell(pill(j), "stt"));
     tr.appendChild(cell(j.company, "co"));
-    tr.appendChild(cell((j.roles||[]).join(", ") || "—", "ro"));
-    tr.appendChild(cell(j.start ? fmt(j.start) : "—", "dt"));
-    tr.appendChild(cell(j.end ? fmt(j.end) : "—", "dt"));
+    tr.appendChild(cell((j.roles||[]).join(", ") || "직무 확인 필요", "ro"));
+    tr.appendChild(cell(j.start ? fmt(j.start) : "—", "dt dt-start"));
+    tr.appendChild(cell(j.end ? fmtAt(j.end, j.endTime) : "상시·수시", "dt dt-end"));
     tr.appendChild(cell(j.hist || "—", "hist"));
-    tr.appendChild(cell(j.source || "—", "", "color:var(--muted);font-size:12px"));
+    tr.appendChild(cell(j.source || "—", "src", "color:var(--muted);font-size:12px"));
 
     const act = document.createElement("td"); act.className = "act";
     const ap = document.createElement("button");
@@ -1929,6 +1985,7 @@ function openForm(id){
   form.source.value = j ? (j.source || "링커리어") : "링커리어";
   form.type.value = j ? (j.type || "대기업") : "대기업";
   form.hist.value = j ? (j.hist || "") : "";
+  syncHistField();
   form.url.value = j ? (j.url || "") : "";
   form.note.value = j ? (app(j.id).note || "") : "";
   document.getElementById("delBtn").hidden = !isCustom;
@@ -1968,6 +2025,12 @@ document.getElementById("delBtn").onclick = function(){
   delete db.apps[editId];
   save(); editId = null; dlg.close(); renderAll(); toast("삭제했습니다");
 };
+/* 역대 오픈은 아직 공고가 안 뜬 자리를 과거 패턴으로 추정할 때만 쓰는 칸이라,
+   '확정 일정'을 해제했을 때만 보여준다. */
+function syncHistField(){
+  document.getElementById("histField").hidden = form.confirmed.checked;
+}
+form.confirmed.addEventListener("change", syncHistField);
 document.getElementById("addBtn").onclick = () => openForm(null);
 
 /* ---------- 공고 제보(모두에게 보이는 공용 목록) ---------- */
@@ -2166,6 +2229,11 @@ document.querySelectorAll("nav.tabs button").forEach(function(b){
 document.querySelectorAll("#arcTabs button").forEach(function(b){
   b.onclick = () => { arcTab = b.dataset.a; renderArc(); };
 });
+document.getElementById("q").oninput = function(){
+  query = this.value;
+  if(query.trim()) loadArchive();   /* 지난 공고까지 뒤져야 검색이 쓸모 있다 */
+  renderList();
+};
 document.querySelectorAll("th.sortable").forEach(function(th){
   th.onclick = () => { const k = th.dataset.s;
     sortDir = (sortKey === k) ? -sortDir : 1; sortKey = k; renderList(); };

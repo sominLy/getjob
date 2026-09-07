@@ -25,13 +25,13 @@ jobs:
       - run: node scripts/fetch-ai-companies.mjs
       - run: node scripts/fetch-official-details.mjs
       - run: node scripts/fetch-tracks.mjs
-      - run: node scripts/prune-expired.mjs
+      - run: node scripts/archive-expired.mjs
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/ai-companies-jobs.json data/details.json
+          git add data/jobs.json data/archive.json data/ai-companies-jobs.json data/details.json
           if git diff --cached --quiet; then
             echo "No changes."
           else

@@ -13,6 +13,7 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const JOBS_PATH = path.join(__dirname, "..", "data", "jobs.json");
+const ARCHIVE_PATH = path.join(__dirname, "..", "data", "archive.json");
 
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
@@ -66,8 +67,10 @@ async function fetchLinkareer() {
 
 // ---------- 자소설닷컴 ----------
 async function fetchJasoseol() {
-  const start = new Date();
-  const end = new Date(start.getTime() + 90 * 24 * 60 * 60 * 1000);
+  /* 마감된 공고도 "이 회사가 언제 뽑았고 문항이 뭐였는지" 참고가 되므로 함께 받되,
+     너무 오래된 건 도움이 안 돼서 최근 45일치까지만 본다. */
+  const start = new Date(Date.now() - 45 * 24 * 60 * 60 * 1000);
+  const end = new Date(Date.now() + 90 * 24 * 60 * 60 * 1000);
   const [res, dutyGroupNames] = await Promise.all([
     fetch("https://jasoseol.com/employment/calendar_list.json", {
       method: "POST",
@@ -178,7 +181,12 @@ async function fetchWanted() {
 async function main() {
   const raw = await readFile(JOBS_PATH, "utf-8");
   const db = JSON.parse(raw);
-  const existingUrls = new Set(db.jobs.map((j) => j.url));
+  /* 이미 보관함으로 넘어간 마감 공고를 매일 다시 집어넣지 않도록 함께 비교한다 */
+  let archived = [];
+  try {
+    archived = JSON.parse(await readFile(ARCHIVE_PATH, "utf-8")).jobs ?? [];
+  } catch { /* 보관함이 아직 없으면 무시 */ }
+  const existingUrls = new Set([...db.jobs, ...archived].map((j) => j.url));
 
   const [linkareer, jasoseol, wanted] = await Promise.all([
     fetchLinkareer().catch((err) => {
