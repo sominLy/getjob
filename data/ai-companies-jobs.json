@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -150,7 +150,7 @@
       "company": "OpenAI",
       "title": "Developer Experience Engineer",
       "location": "Seoul, South Korea",
-      "department": "Applied AI",
+      "department": "Go To Market",
       "url": "https://jobs.ashbyhq.com/openai/14994645-e453-478c-be65-511dc156a961",
       "updated": "2026-05-13"
     },
@@ -177,6 +177,14 @@
       "department": "Go To Market",
       "url": "https://jobs.ashbyhq.com/openai/ea647f38-5af4-4767-8268-608059af4095",
       "updated": "2026-08-21"
+    },
+    {
+      "company": "Google",
+      "title": "Google Trade Compliance Program Manager",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774",
+      "updated": ""
     },
     {
       "company": "Google",
