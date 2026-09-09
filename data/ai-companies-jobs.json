@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -180,18 +180,18 @@
     },
     {
       "company": "Google",
-      "title": "Google Trade Compliance Program Manager",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774",
-      "updated": ""
-    },
-    {
-      "company": "Google",
       "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/101798306123784902",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "Google Trade Compliance Program Manager",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774",
       "updated": ""
     },
     {
@@ -260,6 +260,14 @@
     },
     {
       "company": "Google",
+      "title": "Technical Solutions Consultant, gTech (English, Korean)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/139541106478981830",
+      "updated": ""
+    },
+    {
+      "company": "Google",
       "title": "Apps Solutions Expert, gTech Ads Solutions (Fixed-Term Contract)",
       "location": "Seoul, South Korea",
       "department": "",
@@ -280,6 +288,14 @@
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/121012619711521478",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "People Consultant (English, Korean)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/115080752332186310",
       "updated": ""
     },
     {

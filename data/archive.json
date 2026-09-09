@@ -1,6 +1,221 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "jobs": [
+    {
+      "id": "jasoseol-105055",
+      "company": "NHN",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-07-09",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4372715143150233773?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105063",
+      "company": "토스페이먼츠",
+      "type": "금융",
+      "roles": [
+        "영업관리"
+      ],
+      "start": "2026-07-09",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://toss.im/career/job-detail?job_id=5784849003&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2607_DA",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105673",
+      "company": "2026년 중견기업 일자리 박람회",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "MD",
+        "홍보/PR",
+        "영업",
+        "PM/서비스기획",
+        "영업관리",
+        "고객/CS",
+        "금융/심사"
+      ],
+      "start": "2026-08-11",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://fome-jobfair.com/",
+      "hist": "",
+      "endTime": "17:00"
+    },
+    {
+      "id": "jasoseol-105757",
+      "company": "한국환경공단(KECO)",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-08-28",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://keco.applyin.co.kr/",
+      "hist": "",
+      "endTime": "15:00"
+    },
+    {
+      "id": "jasoseol-105762",
+      "company": "한국산업기술시험원(KTL)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "고객/CS"
+      ],
+      "start": "2026-08-24",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://ktl2026.careerlink.kr/",
+      "hist": "",
+      "endTime": "11:00"
+    },
+    {
+      "id": "jasoseol-105808",
+      "company": "한화에어로스페이스",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-08-26",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScFaulWUTknCxsQFct0LK1srXQ8mXoDBg3dsRRHi54y-DZ_Vg/viewform",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105827",
+      "company": "STX엔진",
+      "type": "중견기업",
+      "roles": [
+        "HR/인사",
+        "기획/전략",
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-08-26",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.stxengine.co.kr/",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105871",
+      "company": "우리은행",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "금융/심사",
+        "PM/서비스기획",
+        "기획/전략",
+        "영업관리"
+      ],
+      "start": "2026-08-27",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jrs.jobkorea.co.kr/wooribank",
+      "hist": "",
+      "endTime": "14:00"
+    },
+    {
+      "id": "jasoseol-105942",
+      "company": "넥센타이어",
+      "type": "중견기업",
+      "roles": [
+        "기획/전략",
+        "리서치",
+        "홍보/PR",
+        "HR/인사",
+        "브랜드",
+        "마케팅",
+        "콘텐츠"
+      ],
+      "start": "2026-08-31",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://yw.work24.go.kr/main.do",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105970",
+      "company": "케이씨텍",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-08-31",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kc-group.recruiter.co.kr/career/jobs/127029",
+      "hist": "",
+      "endTime": "23:55"
+    },
+    {
+      "id": "jasoseol-105980",
+      "company": "비전바이오켐",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-01",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://bision.recruiter.co.kr/appsite/company/index",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-106001",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-02",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/127184",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-106005",
+      "company": "하나증권",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "기획/전략",
+        "리서치"
+      ],
+      "start": "2026-08-31",
+      "end": "2026-09-08",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://hanaw-hr.recruiter.co.kr/career/jobs/126902?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609hana",
+      "hist": "",
+      "endTime": "14:00"
+    },
     {
       "id": "jasoseol-105776",
       "company": "KT",
@@ -8873,19 +9088,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://flex.careers.team/job-descriptions/7907edgEgJ/Customer-Consultant-Sales-Intern-6%EA%B0%9C%EC%9B%94-%EC%B1%84%EC%9A%A9%EC%97%B0%EA%B3%84%ED%98%95",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105072",
-      "company": "사립학교교직원연금공단(TP)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-07-09",
-      "end": "2026-07-25",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://tp.careerlink.kr/jobs/RC20260708031888",
       "hist": ""
     }
   ]
