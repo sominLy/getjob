@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -148,14 +148,6 @@
     },
     {
       "company": "OpenAI",
-      "title": "Developer Experience Engineer",
-      "location": "Seoul, South Korea",
-      "department": "Go To Market",
-      "url": "https://jobs.ashbyhq.com/openai/14994645-e453-478c-be65-511dc156a961",
-      "updated": "2026-05-13"
-    },
-    {
-      "company": "OpenAI",
       "title": "Consumer Marketing Lead, Korea",
       "location": "Seoul, South Korea",
       "department": "Marketing",
@@ -180,18 +172,18 @@
     },
     {
       "company": "Google",
-      "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101798306123784902",
-      "updated": ""
-    },
-    {
-      "company": "Google",
       "title": "Google Trade Compliance Program Manager",
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101798306123784902",
       "updated": ""
     },
     {
@@ -208,14 +200,6 @@
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/124250095192285894",
-      "updated": ""
-    },
-    {
-      "company": "Google",
-      "title": "Field Sales Manager, Enterprise, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/117415535745868486",
       "updated": ""
     },
     {
@@ -304,6 +288,14 @@
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/137925552383107782",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "Technical Account Manager, Google Cloud Consulting (Korean, English)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/140886212926677702",
       "updated": ""
     },
     {
