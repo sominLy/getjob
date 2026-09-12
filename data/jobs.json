@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -3198,23 +3198,6 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105779",
-      "company": "The·K한국교직원공제회",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "PM/서비스기획"
-      ],
-      "start": "2026-08-24",
-      "end": "2026-09-11",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ktcu.applyin.co.kr/",
-      "hist": "",
-      "endTime": "16:00"
-    },
-    {
       "id": "jasoseol-105780",
       "company": "LG전자",
       "type": "대기업",
@@ -3309,25 +3292,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://delightroom.com/recruit",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105798",
-      "company": "금호석유화학그룹",
-      "type": "대기업",
-      "roles": [
-        "HR/인사",
-        "기획/전략",
-        "영업관리",
-        "영업",
-        "마케팅"
-      ],
-      "start": "2026-08-30",
-      "end": "2026-09-11",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://kkpc-recruit2026.com/",
       "hist": "",
       "endTime": "23:59"
     },
@@ -5013,23 +4977,6 @@
       "url": "https://www.snukdt.com/abs/notice/notice.php?ptype=view&idx=302&page=&code=notice",
       "hist": "",
       "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-106016",
-      "company": "예금보험공사(KDIC)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "금융/심사",
-        "PM/서비스기획"
-      ],
-      "start": "2026-08-27",
-      "end": "2026-09-11",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kdic.saramin.co.kr/service/kdic/3943/applicant/apply/recruit_default.asp",
-      "hist": "",
-      "endTime": "17:00"
     },
     {
       "id": "jasoseol-106017",
@@ -7829,6 +7776,141 @@
       "source": "Google 채용페이지",
       "url": "https://www.google.com/about/careers/applications/jobs/results/140886212926677702",
       "hist": "Technical Account Manager, Google Cloud Consulting (Korean, English)"
+    },
+    {
+      "id": "jasoseol-106166",
+      "company": "LG유플러스",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-11",
+      "end": "2026-09-27",
+      "endTime": "23:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.lg.com/apply/detail?id=1002196",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106170",
+      "company": "현대모비스",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-11",
+      "end": "2026-09-29",
+      "endTime": "10:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://mobisrobotics-recruit.com/?utm_source=jasoseol&utm_medium=nonad&utm_campaign=careersite",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106183",
+      "company": "한국미쓰비시전기오토메이션",
+      "type": "대기업",
+      "roles": [
+        "고객/CS",
+        "영업"
+      ],
+      "start": "2026-09-11",
+      "end": "2026-09-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://meak.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=266159",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106193",
+      "company": "한솔제지",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-11",
+      "end": "2026-09-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.hansol-recruit.com/jobs/RC20260911034445",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106195",
+      "company": "KIS정보통신",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-09-10",
+      "end": "2026-09-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://nice.career.greetinghr.com/ko/o/236653",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106196",
+      "company": "에이아이씨엑스",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-10",
+      "end": "2026-09-30",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://aicx.career.greetinghr.com/intro",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106197",
+      "company": "교원그룹",
+      "type": "중견기업",
+      "roles": [
+        "영업관리",
+        "브랜드",
+        "마케팅",
+        "영업"
+      ],
+      "start": "2026-09-11",
+      "end": "2026-09-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kyowon.ninehire.site/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106199",
+      "company": "한국앤컴퍼니",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-11",
+      "end": "2026-09-17",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.catch.co.kr/NCS/RecruitInfoDetails/569090",
+      "hist": ""
+    },
+    {
+      "id": "global-anthropic-5417967008",
+      "company": "Anthropic",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "Anthropic 채용페이지",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5417967008",
+      "hist": "External Affairs, South Korea · Public Policy"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -57,6 +57,14 @@
       "department": "Sales",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391336008",
       "updated": "2026-08-28"
+    },
+    {
+      "company": "Anthropic",
+      "title": "External Affairs, South Korea",
+      "location": "Seoul, South Korea",
+      "department": "Public Policy",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5417967008",
+      "updated": "2026-09-11"
     },
     {
       "company": "Anthropic",
@@ -172,18 +180,18 @@
     },
     {
       "company": "Google",
-      "title": "Google Trade Compliance Program Manager",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774",
-      "updated": ""
-    },
-    {
-      "company": "Google",
       "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/101798306123784902",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "Google Trade Compliance Program Manager",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774",
       "updated": ""
     },
     {
@@ -220,14 +228,6 @@
     },
     {
       "company": "Google",
-      "title": "Field Sales Representative, FSI, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/128952949089936070",
-      "updated": ""
-    },
-    {
-      "company": "Google",
       "title": "Outcome Customer Engineer, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "department": "",
@@ -236,26 +236,10 @@
     },
     {
       "company": "Google",
-      "title": "Product Marketing Manager, YouTube Shopping (English, Korean)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/124311691465761478",
-      "updated": ""
-    },
-    {
-      "company": "Google",
       "title": "Technical Solutions Consultant, gTech (English, Korean)",
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/139541106478981830",
-      "updated": ""
-    },
-    {
-      "company": "Google",
-      "title": "Apps Solutions Expert, gTech Ads Solutions (Fixed-Term Contract)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/109823920667796166",
       "updated": ""
     },
     {
