@@ -1,6 +1,738 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "jobs": [
+    {
+      "id": "wanted-384627",
+      "company": "리틀핀",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/wd/384627",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-105176",
+      "company": "NHN Cloud",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-07-16",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4377672568219408500?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Business",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105716",
+      "company": "한국관광공사",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-08-19",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "http://www.tourjobfair.com/",
+      "hist": "",
+      "endTime": "17:00"
+    },
+    {
+      "id": "jasoseol-105741",
+      "company": "다쏘시스템코리아",
+      "type": "중견기업",
+      "roles": [
+        "PM/서비스기획",
+        "HR/인사"
+      ],
+      "start": "2026-08-20",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://bit.ly/4vTfclt",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105855",
+      "company": "쎄트렉아이",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-08-31",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://sifuture-ship.careerlink.kr/",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105881",
+      "company": "뤼튼테크놀로지스",
+      "type": "",
+      "roles": [],
+      "start": "2026-08-27",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.wrtn.io/ko/o/234726",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105886",
+      "company": "GS칼텍스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "마케팅",
+        "영업관리",
+        "MD",
+        "브랜드",
+        "콘텐츠",
+        "홍보/PR"
+      ],
+      "start": "2026-09-02",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit2026-gscaltex.com/",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105932",
+      "company": "한국가스공사(KOGAS)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "PM/서비스기획",
+        "마케팅",
+        "영업",
+        "HR/인사"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608310000702",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-105936",
+      "company": "인천국제공항공사",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://airport.incruit.com",
+      "hist": "",
+      "endTime": "10:00"
+    },
+    {
+      "id": "jasoseol-105956",
+      "company": "한국기계연구원",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-09-01",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "http://kimm.fairy.im/announcement",
+      "hist": "",
+      "endTime": "11:00"
+    },
+    {
+      "id": "jasoseol-105961",
+      "company": "한국로봇산업진흥원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "영업관리",
+        "영업"
+      ],
+      "start": "2026-08-30",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://dware.intojob.co.kr/main/kiria.jsp",
+      "hist": "",
+      "endTime": "11:00"
+    },
+    {
+      "id": "jasoseol-105978",
+      "company": "한국장학재단(KOSAF)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-01",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kosaf.scout.co.kr",
+      "hist": "",
+      "endTime": "17:00"
+    },
+    {
+      "id": "jasoseol-105995",
+      "company": "하나은행",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "영업"
+      ],
+      "start": "2026-09-03",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdCgQplT2FVVYSaC5CaD-cE2ouXeS5UBAtumtIcDjX2RIuyfg/viewform",
+      "hist": "",
+      "endTime": "23:59"
+    },
+    {
+      "id": "jasoseol-106007",
+      "company": "한국해양진흥공사(KOBC)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-08-31",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kobc.scout.co.kr/",
+      "hist": "",
+      "endTime": "16:00"
+    },
+    {
+      "id": "jasoseol-106011",
+      "company": "한국무역정보통신",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-02",
+      "end": "2026-09-15",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://krecruit.ktnet.com/",
+      "hist": "",
+      "endTime": "18:00"
+    },
+    {
+      "id": "jasoseol-106090",
+      "company": "피에스케이",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "endTime": "23:50",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://psk.recruiter.co.kr/career/jobs/127741",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106092",
+      "company": "삼성물산(패션)",
+      "type": "대기업",
+      "roles": [
+        "MD",
+        "마케팅",
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "http://www.samsungcareers.com/subsid/detail/E7A",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106093",
+      "company": "삼성디스플레이",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "브랜드",
+        "마케팅"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106095",
+      "company": "삼성물산(건설)",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/subsid/detail/B12",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106096",
+      "company": "삼성생명",
+      "type": "금융",
+      "roles": [
+        "영업관리",
+        "영업",
+        "금융/심사",
+        "MD",
+        "기획/전략",
+        "마케팅",
+        "PM/서비스기획",
+        "고객/CS",
+        "HR/인사"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsunglife-recruit.com/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106097",
+      "company": "삼성E&A",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "홍보/PR",
+        "HR/인사"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23067",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106098",
+      "company": "삼성전자 DX부문",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "고객/CS",
+        "마케팅",
+        "MD",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsung-dxrecruit.com",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106099",
+      "company": "삼성전자 DS부문",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://bit.ly/dsrecruitjasoseol262H",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106102",
+      "company": "삼성SDI",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23015",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106105",
+      "company": "삼성전기",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=22976",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106107",
+      "company": "삼성웰스토리",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23088",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106109",
+      "company": "삼성SDS",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=22987",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106110",
+      "company": "삼성SDS",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=22975",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106111",
+      "company": "삼성에스원",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.s1-recruit.com/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106112",
+      "company": "제일기획",
+      "type": "대기업",
+      "roles": [
+        "마케팅",
+        "홍보/PR",
+        "기획/전략",
+        "HR/인사",
+        "PM/서비스기획",
+        "콘텐츠"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=22981",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106113",
+      "company": "삼성바이오로직스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23046",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106114",
+      "company": "삼성바이오에피스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=22999",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106115",
+      "company": "호텔신라",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "마케팅",
+        "브랜드",
+        "MD",
+        "영업관리",
+        "영업"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23045",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106116",
+      "company": "삼성증권",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "금융/심사",
+        "리서치",
+        "기획/전략",
+        "PM/서비스기획",
+        "마케팅"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23009",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106118",
+      "company": "삼성카드",
+      "type": "금융",
+      "roles": [
+        "영업관리",
+        "영업",
+        "마케팅",
+        "MD",
+        "브랜드",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23085",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106121",
+      "company": "삼성물산(상사)",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23001",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106125",
+      "company": "삼성전자 DX부문",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "마케팅",
+        "MD"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23056",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106126",
+      "company": "삼성전자 DS부문",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23074",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106127",
+      "company": "삼성전자 DS부문",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "HR/인사"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23063",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106108",
+      "company": "삼성서울병원",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "기획/전략"
+      ],
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?strKey=C&strTxt=%EC%82%BC%EC%84%B1%EC%84%9C%EC%9A%B8%EB%B3%91%EC%9B%90#none",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106139",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-09",
+      "end": "2026-09-15",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/127918",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106147",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-09",
+      "end": "2026-09-15",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/127779",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106148",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-09",
+      "end": "2026-09-15",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/127791",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106149",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-09",
+      "end": "2026-09-15",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/127800",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106117",
+      "company": "삼성화재",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "브랜드",
+        "마케팅",
+        "MD",
+        "금융/심사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-09-15",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.samsungcareers.com/hr/?no=23126",
+      "hist": ""
+    },
     {
       "id": "jasoseol-105298",
       "company": "서울경제진흥원",
@@ -9301,19 +10033,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://caumc.recruiter.co.kr/career/jobs/123193",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105331",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-07-27",
-      "end": "2026-08-01",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/123263",
       "hist": ""
     }
   ]
