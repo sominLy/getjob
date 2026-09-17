@@ -77,12 +77,18 @@ async function main() {
         const tracks = [];
         for (const e of employments) {
           const questions = await fetchQuestions(e.id);
-          tracks.push({ name: e.field || "직무 미표기", questions });
+          tracks.push({
+            name: e.field || "직무 미표기",
+            questions,
+            /* 이 직무에 자소서를 쓰고 있는 사람 수 — 직무별 경쟁 강도를 가늠할 수 있다 */
+            applicants: e.resume_count ?? e.resumes_count ?? 0,
+          });
           if (questions.length) withQuestions++;
         }
 
         const item = details.items[job.id] ?? { at: today };
         item.tracks = tracks;
+        if (detail.resumes_count) item.applicants = detail.resumes_count;
         details.items[job.id] = item;
         withTracks++;
       } catch {

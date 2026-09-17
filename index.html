@@ -226,6 +226,13 @@ td.act button.on{color:var(--accent);font-weight:700}
 .qbox{border:1px solid var(--line);border-radius:7px;padding:5px 10px;font-size:12.5px;
   background:var(--panel);color:inherit;min-width:150px}
 .qbox:focus{outline:none;border-color:var(--accent)}
+.mybadge{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:9px;font-size:11px;
+  font-weight:600;background:var(--accent-soft);color:var(--accent-ink);white-space:nowrap;vertical-align:middle}
+.ev.asked{box-shadow:inset 3px 0 0 var(--accent)}
+.fnl{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:8px}
+.fnl-c{border:1px solid var(--line);border-radius:8px;padding:9px 10px;text-align:center}
+.fnl-n{font-family:var(--serif);font-size:19px;font-weight:600;line-height:1.15}
+.fnl-l{font-size:11px;color:var(--muted);margin-top:2px}
 .warn{display:inline-flex;align-items:center;gap:4px;font-size:11px;color:var(--urgent);font-weight:600}
 .warn-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:4px}
 .warn-row input[type=time]{border:1px solid var(--line);border-radius:5px;padding:2px 4px;font-size:11.5px}
@@ -903,6 +910,7 @@ function app(id){
   /* 서류로 무엇을 냈는지 체크. 포트폴리오는 요구하는 곳만 있어서 필요할 때 추가한다. */
   if(!a.submit) a.submit = {cover:false, resume:false, folio:false, hasFolio:false};
   if(a.myEndTime === undefined) a.myEndTime = "";   // 공고에 시각이 없을 때 직접 확인해 넣은 마감 시각
+  if(a.starred === undefined) a.starred = false;    // 지원 전 "일단 관심"으로 찜해두는 단계
   a.stages.forEach(st => { if(!st.result) st.result = "예정"; });
   return a;
 }
@@ -994,13 +1002,15 @@ function wireDateModeBtn(id){
 /* ---------- 전체 공고 ---------- */
 /* 처음 열었을 때 이미 끝난 공고가 위에 깔리면 쓸모가 없어서 '접수 중'부터 보여준다 */
 let filter = "open", sortKey = "end", sortDir = 1, query = "";
-const FILTERS = [["all","전체"],["open","접수 중"],["soon","확정 예정"],["est","예상"],["roll","상시"],["shut","마감"]];
+const FILTERS = [["all","전체"],["open","접수 중"],["star","관심"],["soon","확정 예정"],["est","예상"],["roll","상시"],["shut","마감"]];
 function renderList(){
   const base = scoped();
   const fb = document.getElementById("filters");
   fb.innerHTML = "";
   FILTERS.forEach(function(f){
-    const n = f[0]==="all" ? base.length : base.filter(j => state(j).k===f[0]).length;
+    const n = f[0]==="all" ? base.length
+            : f[0]==="star" ? base.filter(j => app(j.id).starred).length
+            : base.filter(j => state(j).k===f[0]).length;
     const b = document.createElement("button");
     b.textContent = f[1] + " " + n;
     b.setAttribute("aria-pressed", filter===f[0]);
@@ -1027,7 +1037,9 @@ function renderList(){
   /* 회사를 검색할 때는 지금 켜둔 상태 필터(접수 중 등)에 막히면 안 된다 —
      "그 회사 공고가 있었나"를 찾는 것이므로 마감된 것까지 함께 뒤진다. */
   const q = query.trim().toLowerCase();
-  let rows = (!q && filter !== "all") ? base.filter(j => state(j).k===filter) : base;
+  let rows = q || filter === "all" ? base
+           : filter === "star" ? base.filter(j => app(j.id).starred)
+           : base.filter(j => state(j).k===filter);
   if(q) rows = rows.filter(j => (j.company || "").toLowerCase().includes(q));
   /* 마감만/시작만 보기: 해당 날짜가 있는 공고만 남기고 그 날짜로 정렬한다. */
   if(dateMode !== "all"){
@@ -1057,7 +1069,9 @@ function renderList(){
   rows.forEach(function(j){
     const a = app(j.id), tr = document.createElement("tr");
     tr.appendChild(cell(pill(j), "stt"));
-    tr.appendChild(cell(j.company, "co"));
+    const coTd = cell(j.company, "co");
+    const coB = myBadge(j.id); if(coB) coTd.appendChild(coB);
+    tr.appendChild(coTd);
     tr.appendChild(cell((j.roles||[]).join(", ") || "직무 확인 필요", "ro"));
     tr.appendChild(cell(j.start ? fmt(j.start) : "—", "dt dt-start"));
     tr.appendChild(cell(j.end ? fmtAt(j.end, j.endTime) : "상시·수시", "dt dt-end"));
@@ -1065,6 +1079,13 @@ function renderList(){
     tr.appendChild(cell(j.source || "—", "src", "color:var(--muted);font-size:12px"));
 
     const act = document.createElement("td"); act.className = "act";
+    /* 450건을 한 번에 지원 여부로 가르기는 어려워서, 먼저 찜해두고 나중에 추리게 한다 */
+    const st = document.createElement("button");
+    st.textContent = a.starred ? "★ 관심" : "☆ 관심";
+    st.className = a.starred ? "on" : "";
+    st.title = a.starred ? "관심에서 빼기" : "관심 공고로 찜하기";
+    st.onclick = () => { a.starred = !a.starred; save(); renderList(); };
+    act.appendChild(st);
     const ap = document.createElement("button");
     ap.textContent = a.applied ? "지원함" : "지원";
     ap.className = a.applied ? "on" : "";
@@ -1092,6 +1113,21 @@ function renderList(){
     body.appendChild(tr);
   });
 }
+/* 내가 직접 분석을 부탁해 등록한 공고와 운세 판정 — 계정별 표(jobboard_my_notes)에만 있어 남에게 안 보인다 */
+let MY_NOTES = {};
+async function loadMyNotes(){
+  const { data, error } = await sb.from("jobboard_my_notes").select("job_id,fortune,fortune_note,checked_at");
+  if(error){ console.warn("jobboard_my_notes:", error.message); MY_NOTES = {}; return; }
+  MY_NOTES = Object.fromEntries((data || []).map(r => [r.job_id, r]));
+}
+function myBadge(id){
+  const n = MY_NOTES[id];
+  if(!n) return null;
+  const s = document.createElement("span"); s.className = "mybadge";
+  s.textContent = "📌 부탁" + (n.fortune ? " · " + n.fortune : "");
+  s.title = "직접 분석을 부탁한 공고" + (n.fortune_note ? "\n운세: " + n.fortune_note : "");
+  return s;
+}
 function cell(content, cls, style){
   const td = document.createElement("td");
   if(cls) td.className = cls;
@@ -1102,6 +1138,53 @@ function cell(content, cls, style){
 
 /* ---------- 내 지원 ---------- */
 function myJobs(){ return allJobs().filter(j => app(j.id).applied); }
+
+/* 지원이 어디서 막히는지 한 판에 — 서류에서 막히면 자소서를, 면접에서 막히면 답변을 손본다.
+   그리고 마감이 지났는데 아직 "대기"인 건은 결과 확인을 놓치기 쉬워 따로 짚어준다. */
+function funnelBoard(list){
+  const box = document.createElement("section"); box.className = "ddb";
+  const applied = list.length;
+  const docPass = list.filter(j => app(j.id).doc === "합격").length;
+  const docFail = list.filter(j => app(j.id).doc === "불합격").length;
+  const stageDone = list.filter(j => app(j.id).stages.some(s => s.result === "합격")).length;
+  const finalPass = list.filter(j => app(j.id).stages.some(s => /최종/.test(s.name) && s.result === "합격")).length;
+
+  /* 마감일이 지났는데 서류 결과가 아직 "대기"인 공고 — 확인이 안 된 채 잊히는 자리 */
+  const stale = list.filter(function(j){
+    const dl = deadline(j), a = app(j.id);
+    return dl && a.doc === "대기" && dleft(dl) < -3;
+  });
+
+  const h = document.createElement("div"); h.className = "ddb-h";
+  const t = document.createElement("h3"); t.textContent = "지원 현황";
+  const sub = document.createElement("span"); sub.className = "sub";
+  sub.textContent = applied ? "담은 공고 " + applied + "건" : "";
+  h.append(t, sub); box.appendChild(h);
+
+  const row = document.createElement("div"); row.className = "fnl";
+  const rate = (n, d) => d ? " (" + Math.round(n / d * 100) + "%)" : "";
+  [["지원", applied, ""],
+   ["서류 합격", docPass, rate(docPass, docPass + docFail)],
+   ["전형 통과", stageDone, ""],
+   ["최종 합격", finalPass, ""]].forEach(function(c){
+    const cell = document.createElement("div"); cell.className = "fnl-c";
+    const n = document.createElement("div"); n.className = "fnl-n";
+    n.textContent = c[1] + (c[2] || "");
+    const l = document.createElement("div"); l.className = "fnl-l"; l.textContent = c[0];
+    cell.append(n, l); row.appendChild(cell);
+  });
+  box.appendChild(row);
+
+  if(stale.length){
+    const p = document.createElement("p"); p.className = "warn";
+    p.style.marginTop = "8px";
+    p.textContent = "⚠ 마감이 지났는데 서류 결과를 아직 안 넣은 공고 " + stale.length +
+                    "건 (" + stale.slice(0,3).map(j => j.company).join(", ") +
+                    (stale.length > 3 ? " 외" : "") + ") — 결과를 확인해 기록해 두세요";
+    box.appendChild(p);
+  }
+  return box;
+}
 
 /* 담은 공고의 마감·전형 일정을 D-day 순으로 한 판에 */
 function ddayBoard(list){
@@ -1138,6 +1221,7 @@ function ddayBoard(list){
     const n = document.createElement("div"); n.className = "dd-n";
     n.textContent = dday(r.date);
     const co = document.createElement("div"); co.className = "dd-co"; co.textContent = r.j.company;
+    const ddB = myBadge(r.j.id); if(ddB) co.appendChild(ddB);
     const wt = document.createElement("div"); wt.className = "dd-w"; wt.textContent = r.what;
     const dt = document.createElement("div"); dt.className = "dd-d"; dt.textContent = fmtAt(r.date, r.time);
     row.append(n, co, wt, dt);
@@ -1166,6 +1250,7 @@ function renderMine(){
     wrap.innerHTML = '<div class="empty">아직 담은 공고가 없습니다.<br>전체 공고에서 <b>지원</b>을 누르면 여기 모이고, 마감일과 전형 일정을 관리할 수 있습니다.</div>';
     return;
   }
+  wrap.appendChild(funnelBoard(list));
   wrap.appendChild(ddayBoard(list));
   list.forEach(function(j){
     const a = app(j.id);
@@ -1173,6 +1258,7 @@ function renderMine(){
 
     const h = document.createElement("div"); h.className = "app-h";
     const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = j.company;
+    const nmB = myBadge(j.id); if(nmB) nm.appendChild(nmB);
     const rl = document.createElement("span"); rl.className = "rl"; rl.textContent = (j.roles||[]).join(", ");
     h.append(nm, pill(j));
     const dl0 = deadline(j);
@@ -1579,8 +1665,15 @@ function renderCal(){
       const b = document.createElement("button");
       b.className = "ev ev-" + e.kind + (e.est ? " est" : "") + (e.mine ? " mine" : "");
       if(e.mine) b.title = "내가 지원한 공고";
+      const note = MY_NOTES[e.id];
+      if(note){
+        b.classList.add("asked");
+        b.title = (b.title ? b.title + " · " : "") + "직접 부탁한 공고" + (note.fortune ? " · 운세 " + note.fortune : "");
+      }
       const pre = document.createElement("span"); pre.className = "pre"; pre.textContent = e.label;
       b.appendChild(pre);
+      /* 운세 판정은 칸이 좁아 이모지 하나만 붙인다 */
+      if(note) b.appendChild(document.createTextNode((note.fortune ? note.fortune.split(" ")[0] : "📌") + " "));
       b.appendChild(document.createTextNode(e.name));
       b.onclick = () => openJob(e.id);
       c.appendChild(b);
@@ -1624,13 +1717,18 @@ function showDetail(id){
     if(d.tracks && d.tracks.length){
       trk.hidden = false;
       const h = document.createElement("p"); h.className = "trk-h";
-      h.textContent = "모집 직무 " + d.tracks.length + "개 · 직무를 누르면 자소서 문항이 나옵니다";
+      h.textContent = "모집 직무 " + d.tracks.length + "개 · 직무를 누르면 자소서 문항이 나옵니다"
+        + (d.applicants ? " · 전체 지원자 " + d.applicants.toLocaleString() + "명" : "");
       trk.appendChild(h);
       d.tracks.forEach(function(t, i){
         const box = document.createElement("details");
         if(d.tracks.length === 1 || i === 0) box.open = (d.tracks.length === 1);
         const sum = document.createElement("summary");
-        sum.textContent = t.name + (t.questions.length ? "  (문항 " + t.questions.length + "개)" : "");
+        const bits = [];
+        if(t.questions.length) bits.push("문항 " + t.questions.length + "개");
+        /* 이 직무에 자소서를 쓰고 있는 사람 수 — 직무 간 경쟁 강도를 비교할 수 있다 */
+        if(t.applicants) bits.push("지원자 " + t.applicants.toLocaleString() + "명");
+        sum.textContent = t.name + (bits.length ? "  (" + bits.join(" · ") + ")" : "");
         const zone = document.createElement("div"); zone.className = "qz";
         if(t.questions.length){
           t.questions.forEach(function(q, n){
@@ -1691,6 +1789,7 @@ function openJob(id){
   const h = document.getElementById("jdCompany");
   h.textContent = j.company;
   h.appendChild(pill(j));
+  const hB = myBadge(id); if(hB) h.appendChild(hB);
 
   document.getElementById("jdRoles").textContent = (j.roles || []).join(" · ") || "직무 미기재";
 
@@ -1706,6 +1805,8 @@ function openJob(id){
   add("접수 마감", j.end ? fmtAt(j.end, j.endTime) + " (" + dday(j.end) + ")" : "");
   add("기업 형태", j.type);
   add("출처", j.source);
+  if(MY_NOTES[id] && MY_NOTES[id].fortune)
+    add("운세 판정", MY_NOTES[id].fortune + (MY_NOTES[id].fortune_note ? " — " + MY_NOTES[id].fortune_note : ""));
   if(a.applied){
     add("서류 결과", a.doc);
     a.stages.forEach(s => add(s.name, s.date ? fmt(s.date) : "날짜 미정"));
@@ -2412,10 +2513,12 @@ sb.auth.onAuthStateChange(async function(event, session){
     if(currentUserId === session.user.id) return; // 이미 로드됨(예: 탭 포커스 시 재발화)
     currentUserId = session.user.id;
     db = await loadUserData(currentUserId);
+    await loadMyNotes();
     showApp();
     boot();
   } else {
     currentUserId = null;
+    MY_NOTES = {};
     showAuth();
   }
 });
