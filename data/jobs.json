@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -1744,21 +1744,6 @@
       "hist": "자소설닷컴 캘린더에서 확인한 2026년 8월 실제 공고. 모집 직무는 공고 원문에서 확인하세요"
     },
     {
-      "id": "jasoseol-105205",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-20",
-      "end": "2026-09-19",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4377674079511025954?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Enterprise_Tech",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105333",
       "company": "이노션",
       "type": "대기업",
@@ -2159,19 +2144,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607130000176",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105206",
-      "company": "NHN comico Korea",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-07-20",
-      "end": "2026-09-19",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4380802192172537120?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20comico%20Korea_Business",
       "hist": "",
       "endTime": "23:59"
     },
@@ -3318,21 +3290,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://apr-careers.com/job_posting/PgXGXMS2",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105885",
-      "company": "와디즈",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-08-26",
-      "end": "2026-09-19",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.job.wadiz.kr/",
       "hist": "",
       "endTime": "23:59"
     },
@@ -7790,6 +7747,19 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://bucketplace.career.greetinghr.com/ko/o/235852",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106198",
+      "company": "무역안보관리원",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-09-14",
+      "end": "2026-09-29",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kosti.recruiter.co.kr/appsite/company/index",
       "hist": ""
     }
   ]
