@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "items": {
     "kakaobank-263159": {
       "at": "2026-09-06",
@@ -88800,6 +88800,26 @@
           "applicants": 0
         }
       ]
+    },
+    "jasoseol-106299": {
+      "image": "https://lh.incruit.com/img/1070_470.png",
+      "at": "2026-09-22"
+    },
+    "jasoseol-106296": {
+      "image": "https://lh.incruit.com/img/1070_470.png",
+      "at": "2026-09-22"
+    },
+    "jasoseol-106297": {
+      "image": "https://lh.incruit.com/img/1070_470.png",
+      "at": "2026-09-22"
+    },
+    "jasoseol-106298": {
+      "image": "https://lh.incruit.com/img/1070_470.png",
+      "at": "2026-09-22"
+    },
+    "jasoseol-106384": {
+      "image": "https://infra1-static.recruiter.co.kr/builder/2025/12/15/e99554d9-bd40-4cb3-b8a9-8730e5e08f45.png",
+      "at": "2026-09-22"
     }
   }
 }

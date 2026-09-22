@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -7847,6 +7847,244 @@
       "source": "자소설닷컴",
       "url": "https://ulsanaluminum.com/home/recruit/recruit03_01.jsp",
       "hist": ""
+    },
+    {
+      "id": "jasoseol-106277",
+      "company": "건설근로자공제회(CWMA)",
+      "type": "공기업",
+      "roles": [
+        "고객/CS"
+      ],
+      "start": "2026-09-14",
+      "end": "2026-10-01",
+      "endTime": "10:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://cw.careerlink.kr/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106296",
+      "company": "한국토지주택공사(LH)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-09-29",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lh.incruit.com/main/main.asp",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106297",
+      "company": "한국토지주택공사(LH)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-09-29",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lh.incruit.com/main/main.asp",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106298",
+      "company": "한국토지주택공사(LH)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-09-29",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lh.incruit.com/main/main.asp",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106299",
+      "company": "한국토지주택공사(LH)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-09-29",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lh.incruit.com/main/main.asp",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106349",
+      "company": "한국장애인고용공단(KEAD)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "고객/CS"
+      ],
+      "start": "2026-09-28",
+      "end": "2026-10-06",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kead.careerlink.kr/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106367",
+      "company": "현대건설 기술교육원",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-21",
+      "end": "2026-09-28",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://edu.hdec.co.kr/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106383",
+      "company": "밀도",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-20",
+      "end": "2026-10-30",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://mildo.ninehire.site/job_posting/m4VFJbjr",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106384",
+      "company": "LS ELECTRIC",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략",
+        "영업관리",
+        "홍보/PR",
+        "HR/인사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-11",
+      "endTime": "23:55",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lselectric.recruiter.co.kr/career/home",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106387",
+      "company": "원익그룹",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-12",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://wonik.recruiter.co.kr/career/recruit?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609wonik",
+      "hist": "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요"
+    },
+    {
+      "id": "jasoseol-106388",
+      "company": "원익그룹",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "HR/인사",
+        "기획/전략",
+        "콘텐츠",
+        "마케팅"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-12",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://wonik.recruiter.co.kr/career/recruit?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609wonik",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106390",
+      "company": "다우데이타",
+      "type": "중견기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-09-17",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://daoudata.career.greetinghr.com/ko/o/237624",
+      "hist": ""
+    },
+    {
+      "id": "wanted-388297",
+      "company": "코드박스",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "",
+      "endTime": "",
+      "confirmed": true,
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/wd/388297",
+      "hist": " · 상시/수시 채용으로 추정(마감일 미표기)"
+    },
+    {
+      "id": "wanted-388080",
+      "company": "더스윙",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "2026-10-31",
+      "endTime": "09:00",
+      "confirmed": true,
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/wd/388080",
+      "hist": ""
+    },
+    {
+      "id": "wanted-388078",
+      "company": "피아스페이스",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "",
+      "endTime": "",
+      "confirmed": true,
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/wd/388078",
+      "hist": " · 상시/수시 채용으로 추정(마감일 미표기)"
     }
   ]
 }
