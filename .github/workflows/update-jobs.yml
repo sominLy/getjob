@@ -38,3 +38,21 @@ jobs:
             git commit -m "공고 자동 업데이트 $(date -u +%F)"
             git push
           fi
+
+      # Vercel이 GitHub push로 자동 배포되지 않아서(2026-09-17 확인) 여기서 직접 배포한다.
+      # 필요 시크릿: repo Settings > Secrets and variables > Actions에 VERCEL_TOKEN 등록
+      # (https://vercel.com/account/tokens 에서 발급, "getjob" 프로젝트로 스코프 권장)
+      - name: Deploy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: team_eivQnLHnOtYTptIEcwW3VzGS
+          VERCEL_PROJECT_ID: prj_GNttMFJpWZKx8kKHJOhBVXYWv03p
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "VERCEL_TOKEN secret이 없어서 배포를 건너뜁니다. (Settings > Secrets and variables > Actions에 등록)"
+            exit 0
+          fi
+          npx vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
+          npx vercel build --prod --token="$VERCEL_TOKEN"
+          DEPLOY_URL=$(npx vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN")
+          npx vercel alias set "$DEPLOY_URL" getjob.vercel.app --token="$VERCEL_TOKEN"
