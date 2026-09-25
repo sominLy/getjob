@@ -1,6 +1,21 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "jobs": [
+    {
+      "id": "jasoseol-105810",
+      "company": "비아이매트릭스",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-08-24",
+      "end": "2026-09-24",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49843194?Oem_Code=1",
+      "hist": "",
+      "endTime": "23:59"
+    },
     {
       "id": "jasoseol-105263",
       "company": "NHN Cloud",
@@ -10203,161 +10218,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://caumc.recruiter.co.kr/career/jobs/124232",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105012",
-      "company": "대한상공회의소",
-      "type": "",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-06",
-      "end": "2026-08-10",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://aivle.kt.co.kr/home/main/applyMain?mcd=MC00000051",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105051",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-07-09",
-      "end": "2026-08-10",
-      "endTime": "09:45",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4372606588027981969?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Enterprise_Tech",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105173",
-      "company": "아난티",
-      "type": "",
-      "roles": [
-        "브랜드",
-        "HR/인사",
-        "마케팅"
-      ],
-      "start": "2026-07-20",
-      "end": "2026-08-10",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://naver.me/G1pQa0BX",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105268",
-      "company": "YTN",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-07-27",
-      "end": "2026-08-10",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ytn.incruit.com/hire/hirelist.asp",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105328",
-      "company": "한국도로공사(ex)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-08-03",
-      "end": "2026-08-10",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ex.cairos.co.kr/ex/1449/Recruit/RecruitView.aspx",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105342",
-      "company": "한국석유공업",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-07-29",
-      "end": "2026-08-10",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kpgroup.recruiter.co.kr/career/jobs/123388",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105375",
-      "company": "유니드비티플러스",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-07-31",
-      "end": "2026-08-10",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://unidbtplus.recruiter.co.kr/career/jobs?utm_source=jasoseol&utm_medium=banner&utm_campaign=2607unidbtplus",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105449",
-      "company": "현대해상화재보험",
-      "type": "금융",
-      "roles": [
-        "영업관리",
-        "고객/CS",
-        "금융/심사"
-      ],
-      "start": "2026-07-26",
-      "end": "2026-08-10",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://hi.recruiter.co.kr/career/jobs/122743",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105460",
-      "company": "한국파스퇴르연구소",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-08-04",
-      "end": "2026-08-10",
-      "endTime": "10:30",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ipk.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=150912",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105482",
-      "company": "한국석유공업",
-      "type": "중견기업",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-08-09",
-      "end": "2026-08-10",
-      "endTime": "10:23",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kpgroup.recruiter.co.kr/career/home",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-105525",
-      "company": "NHN Dooray",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-04",
-      "end": "2026-08-10",
-      "endTime": "14:38",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4368370369718021487?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Dooray_Tech",
       "hist": ""
     }
   ]

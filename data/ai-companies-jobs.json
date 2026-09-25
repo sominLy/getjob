@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -64,7 +64,7 @@
       "location": "Seoul, South Korea",
       "department": "Public Policy",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5417967008",
-      "updated": "2026-09-11"
+      "updated": "2026-09-24"
     },
     {
       "company": "Anthropic",
@@ -280,14 +280,6 @@
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/115080752332186310",
-      "updated": ""
-    },
-    {
-      "company": "Google",
-      "title": "Customer Engineer, AI, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/137925552383107782",
       "updated": ""
     },
     {
