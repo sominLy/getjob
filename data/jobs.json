@@ -1744,36 +1744,6 @@
       "hist": "자소설닷컴 캘린더에서 확인한 2026년 8월 실제 공고. 모집 직무는 공고 원문에서 확인하세요"
     },
     {
-      "id": "jasoseol-105333",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-27",
-      "end": "2026-09-25",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/122494",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105338",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-27",
-      "end": "2026-09-25",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/122543",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
       "id": "wanted-384792",
       "company": "리얼월드",
       "type": "",
@@ -2094,34 +2064,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=54575681&view_type=etc&ref=recruit_manage",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105335",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-27",
-      "end": "2026-09-25",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/122545",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105336",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-07-27",
-      "end": "2026-09-25",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/122887",
       "hist": "",
       "endTime": "23:59"
     },
@@ -4180,29 +4122,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://innocean.recruiter.co.kr/career/jobs/128152",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106184",
-      "company": "한국우편사업진흥원(POSA)",
-      "type": "공기업",
-      "roles": [
-        "마케팅",
-        "PM/서비스기획",
-        "기획/전략",
-        "브랜드",
-        "MD",
-        "콘텐츠",
-        "영업",
-        "영업관리",
-        "HR/인사"
-      ],
-      "start": "2026-09-11",
-      "end": "2026-09-25",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://posa.incruit.com/",
       "hist": ""
     },
     {
