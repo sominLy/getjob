@@ -2068,22 +2068,6 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105351",
-      "company": "토스뱅크",
-      "type": "",
-      "roles": [
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-07-29",
-      "end": "2026-09-26",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://toss.im/career/job-detail?job_id=7811271003",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105357",
       "company": "NHN",
       "type": "대기업",
@@ -3739,21 +3723,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106074",
-      "company": "앳홈",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-09-06",
-      "end": "2026-09-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.athomecorp.com/job_posting/vgBfmBSB",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106077",
       "company": "LG전자",
       "type": "대기업",
@@ -3769,21 +3738,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://lge-letsgrow.careerlink.kr/",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106079",
-      "company": "앳홈",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-09-06",
-      "end": "2026-09-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.athomecorp.com/job_posting/xVaK1oRT",
       "hist": ""
     },
     {
@@ -5766,21 +5720,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106313",
-      "company": "전북은행",
-      "type": "금융",
-      "roles": [
-        "금융/심사"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-09-26",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://jbbank.recruiter.co.kr/career/notice",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106316",
       "company": "NHN",
       "type": "대기업",
@@ -6091,22 +6030,6 @@
       "source": "Google 채용페이지",
       "url": "https://www.google.com/about/careers/applications/jobs/results/113194397327073990",
       "hist": "Customer Engineer, AI, Google Cloud (English, Korean)"
-    },
-    {
-      "id": "linkareer-351936",
-      "company": "전북은행",
-      "type": "",
-      "roles": [
-        "마케팅",
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-09-26",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/351936",
-      "hist": ""
     },
     {
       "id": "linkareer-351932",
