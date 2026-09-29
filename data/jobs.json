@@ -7254,6 +7254,33 @@
       "source": "자소설닷컴",
       "url": "https://hrc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=267830",
       "hist": ""
+    },
+    {
+      "id": "linkareer-353647",
+      "company": "모빌린트",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-12-28",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/353647",
+      "hist": ""
+    },
+    {
+      "id": "global-anthropic-5432554008",
+      "company": "Anthropic",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "Anthropic 채용페이지",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432554008",
+      "hist": "Applied AI Architects, Partner · Applied AI"
     }
   ]
 }
