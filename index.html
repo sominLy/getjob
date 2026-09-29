@@ -2550,7 +2550,7 @@ function initRadar(data){
    공고 쪽 키워드(data/jd-keywords.json)는 공개 데이터, 내 쪽 키워드(db.match)는 내 계정에만 있다.
    매칭률 = JD 키워드 가중치 중 내 키워드에 해당하는 비율. 가중치는 JD에 나온 횟수(최대 3). */
 const MT_TIERS = [["적극지원", 80, "tier-1"], ["적합지원", 70, "tier-2"], ["상향지원", 60, "tier-3"], ["연습지원", 50, "tier-4"]];
-const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판", linkedin:"링크드인"};
+const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판", company:"기업 채용", linkedin:"링크드인"};
 let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "";
 function loadMatch(){
   if(!matchPromise){
