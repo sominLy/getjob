@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-09-22T01:32:00.948Z",
+  "collectedAt": "2026-09-29T10:16:53.553Z",
   "errors": {
-    "toss": "page.goto: Timeout 60000ms exceeded."
+    "toss": "토스 목록에서 공고 링크를 찾지 못함"
   },
   "jobs": [
     {
@@ -718,7 +718,8 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
     },
     {
       "source": "google",
@@ -736,7 +737,8 @@
       "reqs": [],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.\nExperience with South Korea regulations and country-specific import and export trade requirements.\n"
     },
     {
       "source": "google",
@@ -756,7 +758,8 @@
       ],
       "bucket": "open",
       "fit": false,
-      "firstSeen": "2026-09-22"
+      "firstSeen": "2026-09-22",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\nExperience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nExperience in Google Workspace applications, including Docs, Slides, Sheets, and Forms.\nAbility to communicate in English and Korean fluently to collaborate with colleagues and complete tasks and projects.\n"
     },
     {
       "source": "google",
@@ -777,7 +780,8 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n7 years of experience troubleshooting technical issues for internal/external partners or customers.\nExperience reading or debugging code in a general purpose coding language (e.g., Java, Python, JavaScript, etc).\nExperience in system design or orchestration frameworks.\nExperience with enterprise integrations (e.g., Application Programming Interfaces (APIs), Enterprise Content Management (ECMs), identity, cloud infrastructure, or AI/ML model deployments.\nExperience leading technical delivery strategies, debugging systems, and interfacing directly with core product/engineering organizations.\n"
     },
     {
       "source": "google",
@@ -799,7 +803,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree in a technical field or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience architecting AI systems on cloud platforms.\nExperience building full-stack solutions that interface with enterprise systems.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
@@ -820,7 +825,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n7 years of experience with quota-carrying cloud or software sales, or account management at a Business-to-Business (B2B) software company.\nExperience in, or supporting the digital native or gaming industry.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
     },
     {
       "source": "google",
@@ -841,7 +847,8 @@
       ],
       "bucket": "junior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\nAbility to travel up to 20% of the time as required.\n"
     },
     {
       "source": "google",
@@ -861,27 +868,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Technical Operations Manager, Third Party Data Centers (English)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/142528337837728454-technical-operations-manager-third-party-data-centers-english",
-      "years": 9,
-      "noLimit": false,
-      "evidence": "9 years of experience in Electrical, Mechanical/HVAC, or controls experience in an industrial/commercial environment.",
-      "roles": [
-        "운영"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n10 years of experience in a technical sales engineering role in security or cloud native environments.\n\nExperience in cybersecurity (e.g., network security, SoC platform, threat detection, malware intelligence, cloud security posture management, or identity and access management systems).\n\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
     },
     {
       "source": "google",
@@ -902,7 +890,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience in quota-carrying cloud or software sales, or consultative account management at a Business-To-Business (B2B) software company.\nExperience with leadership (e.g., people management, team lead, mentorship, coaching).\nExperience managing the full sales cycle (e.g., pipeline management, forecasting, reporting) and managing commercial negotiations and agreements.\nExperience engaging and building relationships with a wide range of internal teams and customer stakeholders.\nAbility to communicate in English and Korean fluently in order to interact with local stakeholders.\n"
     },
     {
       "source": "google",
@@ -923,7 +912,8 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-22"
+      "firstSeen": "2026-09-22",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
     },
     {
       "source": "google",
@@ -944,47 +934,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-22"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Media Lead (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/98489177703621318-media-lead-english-korean",
-      "years": 6,
-      "noLimit": false,
-      "evidence": "6 years of experience managing brand and performance media campaigns at the agency or client side.",
-      "roles": [
-        "마케팅·브랜드"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Customer Onboarding Strategist, Google Customer Solutions (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/91272208864682694-customer-onboarding-strategist-google-customer-solutions-english-korean",
-      "years": 2,
-      "noLimit": false,
-      "evidence": "2 years of experience in advertising sales, marketing, consulting or media.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "junior",
-      "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-22",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.\n\nExperience in SQL, databases, and automation techniques (e.g., dashboards, automating custom reports, materializing tables).\nAbility to communicate fluently in English and Korean in order to interact with local stakeholders.\n"
     },
     {
       "source": "google",
@@ -1002,7 +953,8 @@
       "reqs": [],
       "bucket": "junior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor’s degree or equivalent practical experience.\n2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.\n1 year of experience with programming in C++.\n"
     },
     {
       "source": "google",
@@ -1022,7 +974,8 @@
       ],
       "bucket": "junior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience working with digital media or digital marketing/advertising solutions, implementing and measuring campaigns and providing client solutions.\n\n1 year of experience working in customer relationship development, account management, media consulting, or a similar role.\n\nAbility to communicate in English and Korean fluently to collaborate with stakeholders.\n"
     },
     {
       "source": "google",
@@ -1042,7 +995,8 @@
       ],
       "bucket": "open",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.\nExperience in product implementations, technical solutions consulting, or technical sales.\nExperience troubleshooting technical issues for internal/external partners or customers.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
@@ -1062,7 +1016,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with enterprise architectures and migration strategies for technologies such as Oracle, VMware, or SAP.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience in building product demonstrations and prototypes as part of a technical workshop or executive briefing.\nExperience engaging with, and presenting to, technical stakeholders and executive leaders.\n"
     },
     {
       "source": "google",
@@ -1083,7 +1038,8 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor’s degree or equivalent practical experience.\n7 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with technical delivery strategies and interfacing with product or engineering organizations.\nExperience reading or debugging code in a general purpose coding language (e.g., Java, Python, JavaScript).\nExperience in system design or orchestration frameworks (e.g., LangGraph, AutoGen, CrewAI).\nExperience with enterprise integrations (APIs, enterprise content management (ECMs), identity), cloud infrastructure, or AI/ML model deployments.\n"
     },
     {
       "source": "google",
@@ -1104,7 +1060,8 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience in business development, partnerships, strategy,\nsupply chain, semiconductors, or other key components management.\nExperience working with C-level executives and cross-functionally across all levels of management.\nExperience in leading cross-functional projects (e.g., strategy plan, new product launch) from inception to deployment.\nAbility to communicate in Korean and English fluently to support partner relationship management.\n"
     },
     {
       "source": "google",
@@ -1125,7 +1082,8 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience in a management consulting, sales operations, business strategy or corporate advisory role.\nAbility to communicate in English and Korean fluently to support client relationship management in the region.\n"
     },
     {
       "source": "google",
@@ -1146,28 +1104,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Customer Engineer, AI, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/137925552383107782-customer-engineer-ai-google-cloud-korean-english",
-      "years": 6,
-      "noLimit": false,
-      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.\n\nExperience of managing multiple stakeholders.\n\nAbility to communicate in English and Korean fluently to manage the client relationships in the area.\n"
     },
     {
       "source": "google",
@@ -1188,7 +1126,8 @@
       ],
       "bucket": "junior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor’s degree in Computer Science, Engineering, related technical field, or equivalent practical experience.\n2 years of experience in a customer-facing role working with stakeholders, driving customer technical implementations or transformation programs.\nExperience building, supporting, or migrating public cloud workloads in the enterprise space.\nAbility to communicate in English and Korean fluently.\n\n"
     },
     {
       "source": "google",
@@ -1208,7 +1147,29 @@
       ],
       "bucket": "open",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n1 year of experience with cloud native architecture and development methodologies in a customer-facing or support role.\nExperience with one or more programming languages.\nExperience in delivering technical presentations.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Outcome Customer Engineer, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/105359333302117062-outcome-customer-engineer-google-cloud-english-korean",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-29",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience in deployment planning, orchestration, or change management.\nExperience in programming languages, debugging, or systems design.\nExperience engaging with, presenting to, or influencing technical stakeholders or executive leaders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
@@ -1226,12 +1187,13 @@
       "reqs": [],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\nBachelor's degree in Finance or Accounting or equivalent practical experience.\nCertified Public Accountant (CPA) or Chartered Accountant (CA).\n4 years of experience in accounting and taxes, compliance, or finance operations.\n"
     },
     {
       "source": "notion",
       "company": "Notion",
-      "title": "Business Development Representative, Korea",
+      "title": "Business Development Representative",
       "location": "Seoul, South Korea",
       "url": "https://jobs.ashbyhq.com/notion/759a9c5a-cdd6-4d05-8eaf-e78eabc34293",
       "years": null,
@@ -1246,12 +1208,13 @@
       ],
       "bucket": "unstated",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "SKILLS YOU'LL NEED TO BRING\n\n - Fluency in Korean and business level in English\n\n - Proven track record in outbound pipeline generation, with hands-on experience in cold prospecting across phone, email, and social channels\n\n - Strong written and verbal communication skills with the ability to craft compelling, persona-specific outreach that earns a response\n\n - Sharp qualification instincts—able to quickly assess ICP fit, identify urgency, and set solutions consultants up for high-quality first conversations\n\n - Passion for AI/ML and understanding of API-first or consumption-based business models\n\n - High-activity mindset with the discipline to prioritize based on signal and data, not just volume\n\n - You don't need to be an AI expert, but you're curious and willing to adopt AI tools to work smarter and deliver better results.\n\n \n\n\nNICE TO HAVES\n\n - Experience with Salesforce, Outreach, or similar GTM tooling\n\n - Familiarity with Notion as a product or prior experience selling productivity, collaboration, or workflow software\n\n - Background in a high-velocity, metric-driven outbound environment with clear pipeline targets\n   \n   \n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550.  https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21#LI-Onsite\n\n\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement — when that’s the case, we'll say so explicitly in the qualifications. People who thrive here don’t treat AI as a novelty. They use it to think better, and make their work easier for others to build on.\n\n\n\n\nEQUAL OPPORTUNITY & ACCOMMODATIONS\n\nWe hire talented people from a wide range of backgrounds. If you’re excited about this role but don’t meet every bullet, we still encourage you to apply. Notion is an equal opportunity employer and does not discriminate on the basis of any legally protected characteristic. Consistent with applicable law, we will consider for employment qualified applicants with arrest and conviction records. Notion provides reasonable accommodations during the applicati"
     },
     {
       "source": "notion",
       "company": "Notion",
-      "title": "Enterprise Solutions Consultant, Korea",
+      "title": "Enterprise Solutions Consultant",
       "location": "Seoul, South Korea",
       "url": "https://jobs.ashbyhq.com/notion/be119222-db73-45fb-8634-0095154fcf1d",
       "years": 8,
@@ -1266,7 +1229,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "SKILLS YOU'LL NEED TO BRING\n\n - 8-15+ years of experience selling technical products to technical buyers\n\n - Technical fluency and genuine comfort building live in software—you can demo, co-design, and troubleshoot in front of a customer without a specialist in the room\n\n - Strong discovery and qualification instincts, with the ability to map customer workflows and translate them into commercial outcomes and adoption plans\n\n - Experience running complex, multi-stakeholder interactions including procurement, legal, and security review cycles\n\n - You can own the room - you operate with agency and urgency to bring new ideas and workflows to our customers and present simple ways to solve complex problems\n\n - You’re obsessed with AI, constantly building with the newest tools & learning new ways of working\n\n\n\n\nNICE TO HAVES\n\n - Full-cycle B2B software sales experience or solutions engineering experience with a consistent track record of exceeding quota across new logo acquisition and expansion motions\n   \n   - Familiarity with usage-based or consumption-based pricing models and the ability to structure credit-based commercial proposals\n\n - Prior experience selling to mid-market and enterprise accounts in productivity, collaboration, or workflow software\n\n - Experience in a shared account ownership model, partnering with a post-sale or CS team as part of an integrated customer motion\n   \n    \n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550.  https://app.dev.notion.com/p/a3ce416456924276a59de91bca740028?pvs=21#LI-Onsite\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement — when that’s the case, we'll say so explicitly in the qualifications. People who thrive here don’t treat AI as a novelty. They use it to think better, and make their work easier for others to build on.\n\n\n\n\nEQUAL OPPORTUNITY & ACCOMMODATIONS\n\nWe hire talented people from a wide range of backgrounds. If you’re excited about this role but don’t meet every bullet, we still encourage you to apply. Notion is an equal opportunity emplo"
     },
     {
       "source": "notion",
@@ -1287,7 +1251,8 @@
       ],
       "bucket": "junior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "SKILLS YOU'LL NEED TO BRING\n\n - 1-3 years of Experience in selling technical products to technical buyers\n\n - Technical fluency and genuine comfort building live in software—you can demo, co-design, and troubleshoot in front of a customer without a specialist in the room\n\n - Strong discovery and qualification instincts, with the ability to map customer workflows and translate them into commercial outcomes and adoption plans\n\n - Experience running complex, multi-stakeholder interactions including procurement, legal, and security review cycles\n\n - You can own the room—you operate with agency and urgency to bring new ideas and workflows to our customers and present simple ways to solve complex problems\n\n - You’re obsessed with AI, constantly building with the newest tools and learning new ways of working\n\n - Native or bilingual-level Korean fluency and business-level English proficiency\n   \n   \n\n\nNICE TO HAVES\n\n - Full-cycle B2B software sales experience or solutions engineering experience, with a consistent track record of exceeding quota across new logo acquisition and expansion motions\n   \n   - Familiarity with usage-based or consumption-based pricing models and the ability to structure credit-based commercial proposals\n\n - Prior experience selling to mid-market and enterprise accounts in productivity, collaboration, or workflow software\n\n - Experience in a shared account ownership model, partnering with a post-sale or CS team as part of an integrated customer motion\n\n\n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550. https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21\n\n\n\n#LI-Onsite\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement — when that’s the case, we'll say so explicitly in the qualifications. People who thrive here don’t treat AI as a novelty. They use it to think better, and make their work easier for others to build on.\n\n\n\n\nEQUAL OPPORTUNITY & ACCOMMODATIONS\n\nWe hire talented people from a wide range of backgrounds. If you’re excited about this role but don’t meet ev"
     },
     {
       "source": "notion",
@@ -1308,7 +1273,8 @@
       ],
       "bucket": "unstated",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "SKILLS YOU'LL NEED TO BRING\n\n - Experience in selling technical products to technical buyers in the Mid-Market segment (500-2999 employees)\n\n - Technical fluency and genuine comfort building live in software—you can demo, co-design, and troubleshoot in front of a customer without a specialist in the room\n\n - Strong discovery and qualification instincts, with the ability to map customer workflows and translate them into commercial outcomes and adoption plans\n\n - Experience running complex, multi-stakeholder interactions including procurement, legal, and security review cycles\n\n - You can own the room—you operate with agency and urgency to bring new ideas and workflows to our customers and present simple ways to solve complex problems\n\n - You’re obsessed with AI, constantly building with the newest tools and learning new ways of working\n\n - Native or bilingual-level Korean fluency and business-level English proficiency\n   \n   \n\n\nNICE TO HAVES\n\n - Full-cycle B2B software sales experience or solutions engineering experience, with a consistent track record of exceeding quota across new logo acquisition and expansion motions\n   \n   - Familiarity with usage-based or consumption-based pricing models and the ability to structure credit-based commercial proposals\n\n - Prior experience selling to mid-market and enterprise accounts in productivity, collaboration, or workflow software\n\n - Experience in a shared account ownership model, partnering with a post-sale or CS team as part of an integrated customer motion\n\n\n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550. https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21\n\n\n\n#LI-Onsite\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement — when that’s the case, we'll say so explicitly in the qualifications. People who thrive here don’t treat AI as a novelty. They use it to think better, and make their work easier for others to build on.\n\n\n\n\nEQUAL OPPORTUNITY & ACCOMMODATIONS\n\nWe hire talented people from a wide range of backgrounds. If you’re excited"
     },
     {
       "source": "anthropic",
@@ -1329,7 +1295,31 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "requirements and translate them into technical solutions, ensuring alignment between business objectives and technical implementation\n Serve as the primary technical advisor to enterprise customers across South Korea throughout their Claude adoption journey, from discovery to initial evaluation through deployment. You will need to coordinate internally across multiple teams &amp; stakeholders to drive customer success\n Support customers building with both the Claude API and Claude for Work&nbsp;\n Create and deliver compelling technical content tailored to different audiences across South Korea. You will need to be able to run the gamut from technical deep dives for engineering &amp; development teams up to business value focused conversations with executives\n Guide technical architecture decisions and help customers across South Korea integrate Claude effectively into their existing technology stack\n Help customers develop evaluation frameworks to measure Claude's performance for their specific use cases\n Identify common integration patterns and contribute insights back to our Product and Engineering teams\n Travel occasionally to customer sites for workshops, technical deep dives, and relationship building\n Maintain strong knowledge of the latest developments in LLM capabilities and implementation patterns\n Minimum qualifications\n Experience in technical customer-facing roles such as Solutions Architect, Sales Engineer, or Technical Account Manager\n Native-level Korean fluency and business-level English required\n Experience working with enterprise customers, navigating complex buying cycles involving multiple stakeholders\n Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders to include C-suite executives, engineering &amp; IT teams, and more\n Strong technical communication skills with the ability to translate customer requirements between technical and business stakeholders\n Preferred qualifications \n 5+ years of relevant experience\n Experience designing scalable cloud architectures and integrating with enterprise systems\n Comfortable with python\n Familiarity with common LLM frameworks and tools or a background in machine learning or data science\n Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n A love of teaching, mentoring, and helping others succeed\n Excellent communication and interpersonal skills, able to convey complicated topics in easily understandable terms to a diverse set of external and internal stakeholders. You enjoy engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems\n Deadline to apply: None. Applications will be reviewed on a rolling basis.\n "
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Applied AI Architects, Partner",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432554008",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5+ years of experience in technical customer-facing/partner-facing roles such as Solutions Architect, Sales Engineer, Partner Sales Engineer, Technical Account Manager",
+      "roles": [
+        "솔루션·컨설팅",
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-29",
+      "jd": "qualifications \n 5+ years of experience in technical customer-facing/partner-facing roles such as Solutions Architect, Sales Engineer, Partner Sales Engineer, Technical Account Manager\n Track record of successfully partnering with GSIs and/or cloud providers to solve complex technical challenges, from initial solution design through customer delivery\n Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders to include C-suite executives, engineering &amp; IT teams, and more\n Strong presentation &amp; technical communication skills with the ability to translate requirements between technical and business stakeholders\n Experience designing scalable cloud architectures and integrating with enterprise systems\n Familiarity with common LLM frameworks and tools or a background in machine learning or data science\n Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n A love of teaching, mentoring, and helping others succeed\n Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems\n Fluent in Korean and English&nbsp;\n "
     },
     {
       "source": "anthropic",
@@ -1351,7 +1341,8 @@
       ],
       "bucket": "unstated",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications \n Experience managing channel or reseller partner relationships in enterprise software or cloud\n Experience working with large Korean systems integrators or cloud managed service providers, and an understanding of how partner-led selling works in Korean enterprise, public sector, and financial services accounts\n Working knowledge of channel program mechanics such as deal registration and partner tiering\n Full professional fluency in Korean and professional working proficiency in English, written and spoken, including the ability to deliver enablement to partners in Korean\n Comfort joining a new program early: hands-on, structured, and able to build process where none exists yet\n Are excited about Anthropic's mission to develop AI that is safe and beneficial\n Preferred qualifications \n Experience with cloud marketplace resale, particularly AWS Marketplace private offers, or with AWS partner teams more generally\n Familiarity with margin and rebate mechanics in a partner program\n Experience bringing existing, informal partner activity into a structured program, or joining a partner program at or before launch\n Experience on the systems integrator or managed service provider side of a vendor relationship, as well as the vendor side\n Familiarity with how enterprises and public sector organizations in Korea are evaluating and adopting AI\n "
     },
     {
       "source": "anthropic",
@@ -1368,7 +1359,8 @@
       "reqs": [],
       "bucket": "unstated",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Requirements \n Korean national with established links into government and the energy industry strongly preferred.\n Structured thinker with a track record of learning new domains quickly and going deep fast.\n Excellent communicator, comfortable representing Anthropic to senior government, utility, and industry stakeholders.\n Demonstrated ability to lead and coordinate cross-functional teams without direct line authority.\n Hyper-organized and detail-oriented, with the ability to own multiple concurrent workstreams at once.\n Comfortable with ambiguity; a problem solver who drives structure into undefined situations.\n Background in energy, infrastructure, or a related sector.\n Nice to have \n Prior experience with large-scale infrastructure or datacenter development.\n Existing relationships with Korean federal or provincial government bodies relevant to energy, land use, or industrial development.\n Experience managing or overseeing capital-intensive projects.\n Familiarity with the compute, cloud, or datacenter industry.\n "
     },
     {
       "source": "anthropic",
@@ -1388,7 +1380,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "qualifications \n 6+ years of experience in customer-facing roles (Customer Success, Consulting, Solutions Architect, Solutions/Functional Consultant, Success Engineer or similar)\n Experience driving success across both consumption-based and seat-based business models, with understanding of different expansion levers and success metrics for each\n Technical fluency with ability to understand and articulate AI/ML concepts, API integrations, and software implementation patterns to various audiences\n Strategic mindset to identify growth opportunities and translate them into actionable expansion plans\n Cross-functional collaborator who represents the customer in a positive, proactive manner, rallying everyone around paths forward that solve customer needs\n Strong project management skills and a knack for bringing order to chaos, demonstrating an enthusiastic \"roll up your sleeves\" mentality and team player mindset\n Passion for AI and interest in responsible development of advanced systems\n Experience working in and building a growing region, while navigating across time zones with US-based headquarters\n Fluency in English and Korean required\n "
     },
     {
       "source": "anthropic",
@@ -1409,7 +1402,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "qualifications \n 8+ years of sales experience in Korea with a clear track record as a hunter: consistently winning net-new logos and generating the majority of your own pipeline through outbound prospecting\n Experience selling to digital native, internet, or high-growth technology companies, and comfort engaging technical buyers such as engineering and product leaders, not just business stakeholders\n A track record of opening greenfield territories or segments with little existing brand presence, building pipeline and closing revenue from zero\n Proven experience exceeding revenue targets driven primarily by new business, with the ability to manage high-velocity cycles alongside larger strategic deals\n Strong commercial instincts for usage-based and consumption models, and the ability to connect product adoption to revenue growth\n A knack for bringing order to chaos and an enthusiastic \"roll up your sleeves\" mentality. You are a true team player who thrives in ambiguous, startup-like environments\n A strategic, analytical approach to territory and account prioritization combined with high-energy, persistent execution\n A passion for and/or experience with advanced AI systems. You feel strongly about ensuring frontier AI systems are developed safely and responsibly for broad benefit\n Excellent communication skills in both Korean and English\n "
     },
     {
       "source": "anthropic",
@@ -1431,7 +1425,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "requirements, data residency, model risk, and financial-sector compliance\n Work with internal teams (Product, Engineering, Applied AI, Partnerships, Legal) to tailor solutions that meet financial-sector security and compliance standards\n Stay informed on trends shaping Korean FSI, including digital banking, AI in risk/underwriting, and regulatory shifts around AI use in finance\n Preferred qualifications\n 8+ years of enterprise sales experience in Korea, with significant exposure to financial services\n A genuine understanding of how Korean financial institutions make technology decisions, including the role of regulators, internal risk/compliance functions, and IT governance\n Direct experience navigating Financial Supervisory Service (FSS) requirements and review processes — this is required given how heavily FSS oversight shapes technology adoption in Korean FSI\n A track record of managing complex, multi-stakeholder sales cycles typical of FSI, including rigorous security and compliance review\n Proven experience exceeding revenue targets within financial services accounts\n Excellent communication skills in both Korean and English\n A passion for AI built and deployed safely\n What We Offer\n Competitive base salary and commission\n Equity participation\n Comprehensive benefits\n Hybrid work model\n Access to cutting-edge AI technology and world-class research team\n "
     },
     {
       "source": "anthropic",
@@ -1452,7 +1447,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "requirements under PIPA\n You may be a good fit if you have:\n 8+ years of enterprise sales experience in Korea with significant exposure to retail and consumer goods accounts, driving adoption of emerging technologies with a consultative, solutions-oriented approach\n A track record of managing complex sales processes and securing strategic deals with large-scale retailers and CPG companies by understanding the operational and technology challenges unique to Korea's retail landscape\n Demonstrated ability to navigate retail and CPG stakeholder ecosystems, building alignment across merchandising, supply chain, digital, brand marketing, and customer experience teams with multiple budget authorities and approval layers\n Proven experience exceeding revenue targets by effectively managing pipeline across seasonal retail cycles and the rapid decision-making cadence of consumer-facing businesses\n A knack for bringing order to chaos and an enthusiastic \"roll up your sleeves\" mentality. You are a true team player who thrives in ambiguous, startup-like environments\n A strategic, analytical approach to identifying opportunities within Korea's retail and CPG sector combined with patient, relationship-focused execution\n A passion for and/or experience with advanced AI systems. You feel strongly about ensuring frontier AI systems are developed safely and responsibly for broad benefit\n Excellent communication skills in both Korean and English\n "
     },
     {
       "source": "anthropic",
@@ -1472,7 +1468,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications \n Preferred 10+ years of professional experience in government, technology, legal, and/or other policy-relevant environments\n Have a track record of effective, information-rich advocacy with Korean government authorities at the federal and/or state level\n Have experience analyzing legislation and engaging in regulatory processes\n Are energized by agency — you will be the first policy hire in Korea and will be building the operation from scratch\n Enjoy drafting and executing complex policy campaigns that move the needle\n Thrive when engaging with policymakers, civil society, and think tanks to translate complex technical topics into accessible and relevant information\n Excel at translating high-level vision into executable operational plans\n Have demonstrated an ability to quickly get up to speed on complex technical areas and policy dynamics\n Are deeply curious about frontier technological research and are eager to work closely with technical colleagues to translate new discoveries into policy outcomes\n Are fluent in Korean and English\n Preferred qualifications\n AI/technology industry experience (heavily preferred)\n Experience working with international companies or organizations\n Academic or think tank background in AI policy or related fields\n Experience in both government and private sector roles\n Familiarity with intelligence and security cooperation frameworks\n &nbsp;\n "
     },
     {
       "source": "anthropic",
@@ -1491,7 +1488,30 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications \n Experience across strategic finance, go-to-market finance, private equity, growth equity, venture capital, consulting, and investment banking\n Exceptional analytical skills with an ability to synthesize data into compelling insights and develop / maintain complex financial operating models\n Extraordinary problem-solving and critical thinking abilities to navigate complex financial challenges\n Comfort working cross-functionally and are adept at communicating complex financial information to non-finance audiences\n Excitement about working in a fast paced, dynamic environment and adapt well to change\n Possess a bias towards action, strong work ethic, and have experience driving operational outcomes under tight timelines\n Strong relationship building, business judgment, process management, and communication skills\n Are passionate about Anthropic's mission to build safe, transformative AI systems\n Preferred qualifications \n 10+ years of experience across strategic finance, go-to-market finance, private equity, growth equity, venture capital, consulting, and investment banking\n GTM Finance Business Partnership experience\n A combination of 10+ years in strategic finance, paired with several years prior across private equity, growth equity, venture capital, consulting, and investment banking\n Experience with consumption based and/or complex business models\n High knowledge of and interest in effective go-to-market strategies including deal-desk management\n Background in AI, ML, or related technologies\n "
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Manager, Applied AI Architect",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5430869008",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5+ years of experience in people management for the technical sales roles.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-29",
+      "jd": "requirements and translate them into technical solutions, ensuring alignment between business objectives and technical implementation\n Serve as the primary technical advisor to enterprise customers in Korea throughout their Claude adoption journey, from discovery to initial evaluation through deployment. You will need to coordinate internally across multiple teams and stakeholders, including global teams across time zones, to drive customer success\n Support customers building with both the Claude API and Claude for Work\n Create and deliver compelling technical content tailored to different audiences. You will need to be able to span the gamut from technical deep dives for engineering and development teams up to business value focused conversations with executives\n Guide technical architecture decisions and help customers integrate Claude effectively into their existing technology stack\n Help customers develop evaluation frameworks to measure Claude's performance for their specific use cases, including Korean language use cases\n Identify common integration patterns and contribute insights back to our Product and Engineering teams\n Travel occasionally to customer sites for workshops, technical deep dives, and relationship building\n Maintain strong knowledge of the latest developments in LLM capabilities and implementation patterns\n &nbsp;\n You may be a good fit if you have: \n 5+ years of experience in people management for the technical sales roles.\n Experience working with enterprise customers, navigating complex buying cycles involving multiple stakeholders\n Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders, including C-suite executives, engineering and IT teams, and more\n Strong technical communication skills with the ability to translate customer requirements between technical and business stakeholders\n Experience designing scalable cloud architectures and integrating with enterprise systems\n Familiarity with common LLM frameworks and tools or a background in machine learning or data science\n Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n A love of teaching, mentoring, and helping others succeed\n Excellent communication and interpersonal skills, able to convey complicated topics in easily understandable terms to a diverse set of external and internal stakeholders\n Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems\n Fluency in Korean and English\n "
     },
     {
       "source": "anthropic",
@@ -1512,7 +1532,8 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "Minimum qualifications\n Experience in B2B SaaS, cloud or enterprise software, including direct experience in sales strategy, revenue operations or commercial go‑to‑market roles\n Structured thinking: a track record of taking ambiguous, open‑ended problems and turning them into clear analysis, options and a recommendation\n Strong analytical capabilities, with a demonstrated ability to convert complex data into actionable insights\n Hands‑on experience with annual planning, territory design, quota setting and business reviews for enterprise sales teams\n Comfortable working in Salesforce and with data every day — reports, dashboards and your own analysis; you will use the systems rather than administer them\n Ability to influence without direct authority — partnering effectively with senior sales leadership and C‑level stakeholders, and getting decisions made across teams you don't manage\n Comfortable operating in ambiguity and at pace; you can build the process while running it\n Experience partnering with regional leadership on go‑to‑market strategy and championing it across the business\n Fluent Korean for executive settings with Korea's largest companies, and business‑level English — your manager, regional peers and much of the written work are in English\n Preferred qualifications \n 8+ years in relevant role or experience\n Management consulting experience (strategy or operations work), ideally combined with time in an operating role\n A track record of scaling sales organizations through 3x+ growth periods in B2B software\n Experience in Chief of Staff or Business Operations roles supporting regional leadership, or go‑to‑market work with partners and resellers\n Familiarity with the wider Asia‑Pacific region\n "
     },
     {
       "source": "anthropic",
@@ -1533,7 +1554,8 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17"
+      "firstSeen": "2026-09-17",
+      "jd": "qualifications \n 15+ years of enterprise sales experience, preferably driving adoption of SaaS or emerging technologies\n 5+ years of sales leadership experience within the Enterprise segment\n Proven track record of building and leading high-performing sales teams selling into large enterprises, with demonstrated success in coaching and developing AEs\n Experience establishing and scaling sales processes, tools, and methodologies in fast-growing organizations\n Strong technical acumen with ability to enable credible AI conversations\n Track record of successful partnership with technical teams throughout the customer journey\n Deep understanding of enterprise buying cycles, procurement frameworks, and common pain points across industries\n Demonstrated ability to navigate complex, multithreaded sales cycles across diverse stakeholder groups and drive cross-functional initiatives\n Experience managing complex enterprise sales cycles and helping AEs secure strategic deals\n Excellent communication skills and ability to build relationships across all levels, from individual contributors to C-suite executives\n Strategic approach to market analysis combined with tactical excellence in execution\n Passion for AI technology and commitment to its safe, responsible development\n Business-level Korean required; English proficiency strongly preferred\n "
     }
   ]
 }
