@@ -56,10 +56,12 @@ index.html                        앱 전체
 data/jobs.json                    공고 목록 (첫 화면에서 바로 받음, 가볍게 유지)
 data/details.json                 공고 본문·포스터 이미지 (공고를 열 때만 받음)
 data/ai-companies-jobs.json       구글/앤스로픽/노션/OpenAI 서울 공고 (분석용)
+data/radar.json                   채용 레이더 탭 데이터 (토스·구글·노션·앤스로픽, 연차 구분)
 scripts/lib/classify.mjs          직무 분류·정규화 공용 규칙 (수집·재분류가 함께 사용)
 scripts/fetch-jobs.mjs            공고 목록 수집
 scripts/fetch-official-details.mjs 공식 채용페이지 본문 수집 (헤드리스 브라우저)
 scripts/fetch-ai-companies.mjs    AI 4사 공고 수집
+scripts/fetch-radar.mjs           채용 레이더 수집 (요건 문장에서 연차를 읽어 분류)
 scripts/reclassify-jasoseol.mjs   분류 규칙 변경 시 기존 데이터 재분류
 .github/workflows/update-jobs.yml 매일 11시 자동 실행 워크플로우
 ```
