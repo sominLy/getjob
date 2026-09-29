@@ -238,6 +238,7 @@ async function main() {
         bucket: bucket(j),
         fit: FIT_WORDS.test(j.title),
         firstSeen: firstSeen.get(j.url) || today,
+        jd: reqText.slice(0, 3000), // 매칭 아카이브용 요건 원문(build-jd-keywords.mjs가 키워드를 뽑음)
       };
     });
 

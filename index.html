@@ -440,6 +440,23 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .rd-pill.junior{background:var(--amber-soft);color:var(--amber)}
 .rd-pill.senior{background:var(--urgent-soft);color:var(--urgent)}
 .rd-empty{padding:28px;text-align:center;color:var(--muted)}
+
+/* 매칭 아카이브 */
+.mt-me{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:9px;margin-bottom:16px}
+.mt-me-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.mt-me textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px;background:var(--paper);font-size:13px;margin-top:8px}
+.mt-edit-actions{display:flex;gap:8px;margin-top:8px}
+.mt-tiers{margin-bottom:12px}
+.mt-grp{font-size:14px;font-weight:700;margin:18px 0 8px;display:flex;gap:8px;align-items:baseline}
+.mt-grp small{font-weight:400;color:var(--muted);font-size:12px}
+.mt-pct{font-family:var(--serif);font-size:18px;font-weight:600;line-height:1.1;text-align:right}
+.mt-pct small{display:block;font-family:var(--sans);font-size:11px;font-weight:400;color:var(--muted)}
+.mt-tag-miss{text-decoration:line-through;opacity:.7}
+.mt-foot{margin-top:12px}
+.tier-1{background:var(--accent);color:#fff}
+.tier-2{background:var(--accent-soft);color:var(--accent-ink)}
+.tier-3{background:var(--amber-soft);color:var(--amber)}
+.tier-4{background:var(--line-2);color:var(--ink-2)}
 .rd-foot{font-size:12.5px;color:var(--muted);display:grid;gap:3px;margin-top:12px}
 @media (max-width:560px){.rd-job{grid-template-columns:1fr auto}.rd-co{grid-column:1/-1;padding:0}.rd-row{flex-direction:column;gap:4px}.rd-lab{flex:none;padding:0}}
 .swatches{display:flex;gap:9px;flex-wrap:wrap}
@@ -612,6 +629,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <button class="ghost" id="addBtn">+ 공고</button>
     <button class="ghost" id="shareBtn" title="다른 사람에게도 보이는 공고를 올립니다">공고 제보</button>
     <button class="ghost" id="icsBtn" title="마감·전형 일정을 휴대폰 캘린더로 보냅니다">일정 내보내기</button>
+    <button class="ghost" id="privBtn" hidden aria-pressed="true"></button>
     <button class="ghost" id="expBtn">백업</button>
     <button class="ghost" id="impBtn">복원</button>
     <button class="ghost" id="logoutBtn">로그아웃</button>
@@ -627,6 +645,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <button role="tab" aria-selected="false" data-v="plan">주간 플래너</button>
     <button role="tab" aria-selected="false" data-v="arc">아카이브</button>
     <button role="tab" aria-selected="false" data-v="radar">채용 레이더</button>
+    <button role="tab" aria-selected="false" data-v="match" hidden>매칭 아카이브</button>
   </nav>
 
   <!-- 전체 공고 -->
@@ -737,6 +756,32 @@ thead th{font-weight:600;letter-spacing:.07em}
     </div>
     <ul class="rd-jobs" id="rdList"></ul>
     <div class="rd-foot" id="rdFoot"></div>
+  </section>
+
+  <!-- 매칭 아카이브 -->
+  <section class="view" id="v-match" hidden>
+    <div class="viewhead">
+      <h2>매칭 아카이브</h2>
+      <p class="sub">연차 표시가 없는 공고 중, JD 키워드의 50% 이상이 내 경험과 겹치는 것만 모읍니다.</p>
+    </div>
+    <div class="mt-me">
+      <div class="mt-me-head">
+        <b>내 경험 키워드</b>
+        <span class="sub" id="mtMeStat"></span>
+        <span class="hspace"></span>
+        <button class="ghost" id="mtEditBtn">경험 원문으로 다시 뽑기</button>
+      </div>
+      <div id="mtEditor" hidden>
+        <p class="sub">경험정리 문서를 통째로 붙여넣으세요. ‘#’ 제목 단위(없으면 빈 줄 단위)로 경험을 나눠, 각 키워드가 몇 개 경험에서 나오는지 셉니다. 아카이브 &gt; 경험 정리에 적어 둔 경험도 함께 셉니다. 원문은 저장하지 않고 키워드와 개수만 내 계정에 남깁니다.</p>
+        <textarea id="mtText" rows="8" placeholder="경험정리 붙여넣기"></textarea>
+        <div class="mt-edit-actions"><button class="primary" id="mtRunBtn">키워드 뽑기</button><button class="ghost" id="mtCancelBtn">닫기</button></div>
+      </div>
+      <p class="sub" id="mtRule"></p>
+      <div class="chips sm" id="mtChips"></div>
+    </div>
+    <div class="chips sm mt-tiers" id="mtTierChips"></div>
+    <div id="mtOut"></div>
+    <p class="sub mt-foot" id="mtFoot"></p>
   </section>
 
   <p class="note" id="footnote"></p>
@@ -1162,9 +1207,36 @@ function renderList(){
     body.appendChild(tr);
   });
 }
+/* 소민 전용 기능(매칭 아카이브 · 부탁/운세 표시)은 소민 계정으로 로그인했을 때만 보이고,
+   헤더 버튼으로 켜고 끌 수 있다. 공개 저장소라 이메일 원문 대신 해시로 비교한다. */
+const OWNER_HASH = "9f8aab6396d4b630923807854d5070db20b178bc76291b82525dd2ac74e39c9d";
+let IS_OWNER = false;
+async function checkOwner(email){
+  if(!email || !crypto.subtle) return false;
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(email.trim().toLowerCase()));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("") === OWNER_HASH;
+}
+const privOn = () => IS_OWNER && db.profile.privOn !== false;
+function applyPrivate(){
+  const btn = document.getElementById("privBtn");
+  btn.hidden = !IS_OWNER;
+  btn.textContent = "소민 전용 " + (privOn() ? "켜짐" : "꺼짐");
+  btn.setAttribute("aria-pressed", privOn());
+  const tab = document.querySelector('nav.tabs button[data-v="match"]');
+  tab.hidden = !privOn();
+  if(!privOn() && tab.getAttribute("aria-selected") === "true")
+    document.querySelector('nav.tabs button[data-v="list"]').click();
+}
+document.getElementById("privBtn").onclick = async function(){
+  db.profile.privOn = !privOn(); save();
+  if(privOn()) await loadMyNotes(); else MY_NOTES = {};
+  applyPrivate(); renderAll();
+};
+
 /* 내가 직접 분석을 부탁해 등록한 공고와 운세 판정 — 계정별 표(jobboard_my_notes)에만 있어 남에게 안 보인다 */
 let MY_NOTES = {};
 async function loadMyNotes(){
+  if(!privOn()){ MY_NOTES = {}; return; }
   const { data, error } = await sb.from("jobboard_my_notes").select("job_id,fortune,fortune_note,checked_at");
   if(error){ console.warn("jobboard_my_notes:", error.message); MY_NOTES = {}; return; }
   MY_NOTES = Object.fromEntries((data || []).map(r => [r.job_id, r]));
@@ -2459,12 +2531,149 @@ function initRadar(data){
     .forEach(t => { const p = document.createElement("div"); p.textContent = t; foot.append(p); });
 }
 
+/* ---------- 매칭 아카이브 ----------
+   공고 쪽 키워드(data/jd-keywords.json)는 공개 데이터, 내 쪽 키워드(db.match)는 내 계정에만 있다.
+   매칭률 = JD 키워드 가중치 중 내 키워드에 해당하는 비율. 가중치는 JD에 나온 횟수(최대 3). */
+const MT_TIERS = [["적극지원", 80, "tier-1"], ["적합지원", 70, "tier-2"], ["상향지원", 60, "tier-3"], ["연습지원", 50, "tier-4"]];
+const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판"};
+let matchPromise = null, mtData = null, mtDict = null, mtTier = "";
+function loadMatch(){
+  if(!matchPromise){
+    matchPromise = Promise.all([
+      fetch("data/jd-keywords.json?t=" + Date.now()).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch("data/keyword-dict.json?t=" + Date.now()).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }),
+    ]).then(([data, dict]) => {
+      mtData = data;
+      mtDict = dict.map(([label, src]) => [label, new RegExp(src, "i")]);
+    }).catch(() => { matchPromise = null; });
+  }
+  return matchPromise.then(renderMatch, () => {
+    document.getElementById("mtOut").textContent = "매칭 데이터를 불러오지 못했습니다. 잠시 후 탭을 다시 눌러 주세요.";
+  });
+}
+function mtSplit(text){
+  const parts = /^#{1,4}\s/m.test(text) ? text.split(/\n(?=#{1,4}\s)/) : text.split(/\n\s*\n/);
+  return parts.map(p => p.trim()).filter(p => p.length > 40);
+}
+function mtExtract(text){ return mtDict.filter(([, re]) => re.test(text)).map(([l]) => l); }
+function mtBuild(text){
+  const exps = mtSplit(text || "").concat(
+    (db.arc.exp || []).map(e => [e.title, e.tags, e.s, e.t, e.a, e.r].join("\n")).filter(t => t.trim().length > 40));
+  const counts = {};
+  exps.forEach(e => mtExtract(e).forEach(k => { counts[k] = (counts[k] || 0) + 1; }));
+  const prev = db.match || {};
+  const d = new Date(); const at = d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0");
+  db.match = {counts, n: exps.length, at, on: prev.on || [], off: prev.off || []};
+  save();
+}
+/* 경험 수의 8% 이상에서 나온 키워드를 '내 것'으로 본다(문서가 길수록 우연히 한 번 스친 단어가 많아서) */
+function mtThreshold(){ const m = db.match; return m ? Math.max(1, Math.round(m.n * 0.08)) : 1; }
+function mtMine(){
+  const m = db.match; if(!m) return new Set();
+  const th = mtThreshold();
+  return new Set(Object.keys(m.counts).filter(k => (m.counts[k] >= th && !m.off.includes(k)) || m.on.includes(k)));
+}
+function renderMatch(){
+  if(!mtData) return;
+  const m = db.match, mine = mtMine();
+  document.getElementById("mtMeStat").textContent = m
+    ? "경험 " + m.n + "개에서 뽑음 · " + m.at + " · 내 키워드 " + mine.size + "개"
+    : "아직 없음 — 오른쪽 버튼으로 경험정리를 붙여넣어 주세요";
+  if(!m) document.getElementById("mtEditor").hidden = false;
+
+  document.getElementById("mtRule").textContent = m
+    ? "경험 " + mtThreshold() + "개 이상에서 나온 키워드만 ‘내 것’으로 칩니다(숫자는 나온 경험 수). 칩을 눌러 켜고 끌 수 있어요." : "";
+  const chips = document.getElementById("mtChips"); chips.replaceChildren();
+  if(m){
+    const th = mtThreshold();
+    Object.entries(m.counts).sort((a, b) => b[1] - a[1]).forEach(([k, n]) => {
+      const b = document.createElement("button"); b.type = "button";
+      b.textContent = k + " " + n;
+      b.setAttribute("aria-pressed", mine.has(k));
+      b.onclick = () => {
+        const on = mine.has(k);
+        m.on = m.on.filter(x => x !== k); m.off = m.off.filter(x => x !== k);
+        if(on && n >= th) m.off.push(k);
+        if(!on && n < th) m.on.push(k);
+        save(); renderMatch();
+      };
+      chips.append(b);
+    });
+  }
+
+  const rows = [];
+  if(m) for(const j of mtData.jobs){
+    const entries = Object.entries(j.w);
+    const tot = entries.reduce((s, [, w]) => s + w, 0);
+    const hit = entries.reduce((s, [k, w]) => s + (mine.has(k) ? w : 0), 0);
+    const pct = Math.round(hit / tot * 100);
+    const tier = MT_TIERS.find(t => pct >= t[1]);
+    if(tier) rows.push({j, pct, tier, got: entries.filter(([k]) => mine.has(k)).map(([k]) => k), miss: entries.filter(([k]) => !mine.has(k)).map(([k]) => k)});
+  }
+  rows.sort((a, b) => b.pct - a.pct);
+
+  const tc = document.getElementById("mtTierChips"); tc.replaceChildren();
+  [["", "전체", rows.length]].concat(MT_TIERS.map(t => [t[0], t[0], rows.filter(r => r.tier[0] === t[0]).length])).forEach(([k, l, n]) => {
+    const b = document.createElement("button"); b.type = "button"; b.textContent = l + " " + n;
+    b.setAttribute("aria-pressed", mtTier === k);
+    b.onclick = () => { mtTier = k; renderMatch(); };
+    tc.append(b);
+  });
+
+  const out = document.getElementById("mtOut"); out.replaceChildren();
+  if(!m){ return; }
+  if(!rows.length){
+    const e = document.createElement("p"); e.className = "rd-empty";
+    e.textContent = "50% 넘게 겹치는 공고가 아직 없어요. 키워드 칩을 더 켜 보거나 경험 원문을 보강해 보세요."; out.append(e); return;
+  }
+  MT_TIERS.filter(t => !mtTier || t[0] === mtTier).forEach(t => {
+    const list = rows.filter(r => r.tier[0] === t[0]);
+    if(!list.length) return;
+    const h = document.createElement("h3"); h.className = "mt-grp";
+    const pill = document.createElement("span"); pill.className = "rd-pill " + t[2]; pill.textContent = t[0];
+    const sm = document.createElement("small"); sm.textContent = "매칭 " + t[1] + "% 이상 · " + list.length + "건";
+    h.append(pill, sm); out.append(h);
+    const ul = document.createElement("ul"); ul.className = "rd-jobs";
+    list.forEach(r => {
+      const li = document.createElement("li"); li.className = "rd-job";
+      const co = document.createElement("div"); co.className = "rd-co"; co.textContent = r.j.company;
+      const main = document.createElement("div"); main.className = "rd-main";
+      const a = document.createElement("a"); a.className = "rd-t"; a.href = r.j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = r.j.title;
+      const meta = document.createElement("div"); meta.className = "rd-meta";
+      meta.append(MT_SRC[r.j.src] || r.j.src);
+      if(r.j.end) meta.append(" · 마감 " + r.j.end);
+      const tags = document.createElement("div"); tags.className = "rd-tags";
+      r.got.forEach(k => { const s = document.createElement("span"); s.className = "rd-tag role"; s.textContent = k; tags.append(s); });
+      r.miss.forEach(k => { const s = document.createElement("span"); s.className = "rd-tag mt-tag-miss"; s.textContent = k; s.title = "내 경험에 없는 키워드"; tags.append(s); });
+      main.append(a, meta, tags);
+      const pct = document.createElement("div"); pct.className = "mt-pct"; pct.textContent = r.pct + "%";
+      const sm2 = document.createElement("small"); sm2.textContent = "매칭"; pct.append(sm2);
+      li.append(co, main, pct); ul.append(li);
+    });
+    out.append(ul);
+  });
+  document.getElementById("mtFoot").textContent = "공고 키워드 기준일 " + mtData.updated +
+    " · 연차가 숫자로 적힌 공고와 본문이 이미지뿐인 공고는 빠져 있습니다. 초록 칩은 겹치는 키워드, 줄 그은 칩은 내 경험에 없는 키워드예요.";
+}
+document.getElementById("mtEditBtn").onclick = () => { document.getElementById("mtEditor").hidden = false; document.getElementById("mtText").focus(); };
+document.getElementById("mtCancelBtn").onclick = () => { document.getElementById("mtEditor").hidden = true; };
+document.getElementById("mtRunBtn").onclick = () => {
+  if(!mtDict){ toast("매칭 데이터를 아직 불러오는 중입니다"); return; }
+  const t = document.getElementById("mtText").value;
+  if(!t.trim() && !(db.arc.exp || []).length){ toast("경험정리를 붙여넣어 주세요"); return; }
+  mtBuild(t);
+  document.getElementById("mtText").value = "";
+  document.getElementById("mtEditor").hidden = true;
+  renderMatch(); toast("경험 키워드를 저장했습니다");
+};
+
 /* ---------- 배선 ---------- */
 document.querySelectorAll("nav.tabs button").forEach(function(b){
   b.onclick = function(){
     document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
     document.querySelectorAll(".view").forEach(v => v.hidden = (v.id !== "v-" + b.dataset.v));
     if(b.dataset.v === "radar") loadRadar();
+    if(b.dataset.v === "match") loadMatch();
   };
 });
 document.querySelectorAll("#arcTabs button").forEach(function(b){
@@ -2653,12 +2862,16 @@ sb.auth.onAuthStateChange(async function(event, session){
     if(currentUserId === session.user.id) return; // 이미 로드됨(예: 탭 포커스 시 재발화)
     currentUserId = session.user.id;
     db = await loadUserData(currentUserId);
+    IS_OWNER = await checkOwner(session.user.email);
     await loadMyNotes();
     showApp();
     boot();
+    applyPrivate();
   } else {
     currentUserId = null;
+    IS_OWNER = false;
     MY_NOTES = {};
+    applyPrivate();
     showAuth();
   }
 });
