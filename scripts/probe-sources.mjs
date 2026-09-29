@@ -41,6 +41,12 @@ const COMPANIES = [
   ["스포티파이", ["spotify"]], ["틱톡/바이트댄스", ["bytedance", "tiktok"]], ["쇼피", ["shopee", "sea"]],
   ["그랩", ["grab"]], ["아고다", ["agoda"]], ["트립닷컴", ["tripcom", "trip"]], ["부킹닷컴", ["booking"]],
   ["오픈AI", ["openai"]], ["퍼플렉시티", ["perplexity", "perplexityai"]], ["스케일AI", ["scaleai"]], ["코히어", ["cohere"]],
+  // 사용자가 링크드인에서 본 서울 공고 회사들 — 공식 채용 시스템 쪽을 찾는다
+  ["틱톡", ["tiktok", "bytedance", "lifeattiktok"]], ["타코벨", ["tacobell", "yumbrands"]], ["2K", ["2k", "2kgames", "taketwo"]],
+  ["샤크닌자", ["sharkninja"]], ["라쿠텐 심포니", ["rakutensymphony", "rakuten"]], ["얼라인 테크놀로지", ["align", "aligntech"]],
+  ["KLA", ["kla", "klacorp"]], ["르네사스", ["renesas"]], ["덴츠플라이 시로나", ["dentsplysirona"]],
+  ["스탠리블랙앤데커", ["stanleyblackdecker", "sbd"]], ["오비터스", ["orbiters"]], ["피키", ["picky"]],
+  ["익스팬드케이", ["expandk"]], ["뉴베슬", ["newvessel"]], ["웰뉴", ["wellnew"]], ["키스뷰티", ["kissbeauty", "kissusa"]],
   ["미스트랄", ["mistral"]], ["허깅페이스", ["huggingface"]], ["일레븐랩스", ["elevenlabs"]], ["런웨이", ["runwayml", "runway"]],
 ];
 
