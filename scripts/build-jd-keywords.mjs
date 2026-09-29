@@ -10,13 +10,13 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import { DICT, yearsIn } from "./lib/jd-keywords.mjs";
+import { DICT, yearsIn, weights } from "./lib/jd-keywords.mjs";
+import { stripHtml, greetingJd, fetchText } from "./lib/jd-text.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const OUT = path.join(ROOT, "data", "jd-keywords.json");
 const DICT_OUT = path.join(ROOT, "data", "keyword-dict.json");
-const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
 const MIN_KEYWORDS = 3; // 키워드가 이보다 적으면 매칭률이 의미가 없어 뺀다
 
 // 직무와 무관한 회사 소개·복리후생·전형 절차에 나온 단어가 매칭률을 부풀리지 않도록,
@@ -25,54 +25,8 @@ const JD_SECTIONS = /자격|담당|우대|업무|모집\s*부문/;
 // 개발·설비·디자인 직군은 기획·마케팅·운영 경험과 비교하는 의미가 없어 뺀다.
 const EXCLUDE_TITLE = /개발(?!\s*(자와|협업))|엔지니어|engineer|developer|백엔드|프론트엔드|backend|frontend|전기|기계|설비|R&D|ENG\b|디자이너|designer|연구원|생산|품질보증|디자인|설계|간호|인체적용|임상/i;
 
-const COMPILED = DICT.map(([label, src]) => [label, new RegExp(src, "gi")]);
-
-/** 키워드별 가중치: JD에 여러 번 나올수록 핵심 요건으로 보고 최대 3까지 */
-function weights(text) {
-  const w = {};
-  for (const [label, re] of COMPILED) {
-    const n = (text.match(re) || []).length;
-    if (n) w[label] = Math.min(n, 3);
-  }
-  return w;
-}
-
 async function readJson(file, fallback) {
   try { return JSON.parse(await readFile(file, "utf-8")); } catch { return fallback; }
-}
-
-const stripHtml = (h) => h
-  .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ")
-  .replace(/<\/(li|p|h\d|div|br)>|<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, " ")
-  .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&")
-  .replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n").trim();
-
-/** JSON 안에서 가장 긴 문자열 값(대개 공고 본문 HTML)을 찾는다 */
-function longestString(node, best = "") {
-  if (typeof node === "string") return node.length > best.length ? node : best;
-  if (node && typeof node === "object") for (const v of Object.values(node)) best = longestString(v, best);
-  return best;
-}
-
-async function fetchText(url) {
-  const res = await fetch(url, { headers: { "User-Agent": UA } });
-  if (!res.ok) throw new Error(String(res.status));
-  return res.text();
-}
-
-// 그리팅 공고 페이지는 서버에서 그려진 Next.js 페이지다. 페이지 데이터(__NEXT_DATA__)에서
-// 가장 긴 문자열이 공고 본문이라, 메뉴·다른 공고 제목이 섞이지 않게 그것만 쓴다.
-async function greetingJd(url) {
-  const html = await fetchText(url);
-  const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
-  if (m) {
-    try {
-      const body = stripHtml(longestString(JSON.parse(m[1])));
-      if (body.length > 200) return body;
-    } catch {}
-  }
-  const main = html.match(/<main[\s\S]*?<\/main>/i);
-  return stripHtml(main ? main[0] : html);
 }
 
 const GREENHOUSE_BOARDS = { 쿠팡: "coupang", 당근: "daangn", 센드버드: "sendbird" };
@@ -166,9 +120,20 @@ async function main() {
     nJunior += out.length - before;
   }
 
+  // 4) 스타트업·유니콘·외국계 공식 채용 시스템 — fetch-companies.mjs가 키워드까지 뽑아 둠
+  const companies = await readJson(path.join(ROOT, "data", "company-jobs.json"), { jobs: [] });
+  let nCompany = 0;
+  for (const j of companies.jobs) {
+    if (!j.url || seen.has(j.url)) continue;
+    seen.add(j.url);
+    if (j.years !== null || EXCLUDE_TITLE.test(j.title) || Object.keys(j.w || {}).length < MIN_KEYWORDS) continue;
+    out.push({ src: "company", company: j.company, title: j.title, url: j.url, end: "", w: j.w });
+    nCompany++;
+  }
+
   await writeFile(OUT, JSON.stringify({ updated: today, jobs: out, skip: skipOut }, null, 1) + "\n", "utf-8");
   await writeFile(DICT_OUT, JSON.stringify(DICT) + "\n", "utf-8");
-  console.log(`매칭 대상 ${out.length}건 (지원보드 ${nBoard} · 레이더 ${nRadar} · 주니어 ${nJunior}) · 본문 새로 받음 ${fetched} · 실패 ${failed}`);
+  console.log(`매칭 대상 ${out.length}건 (지원보드 ${nBoard} · 레이더 ${nRadar} · 주니어 ${nJunior} · 기업 채용 ${nCompany}) · 본문 새로 받음 ${fetched} · 실패 ${failed}`);
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });

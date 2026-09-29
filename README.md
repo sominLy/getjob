@@ -63,6 +63,7 @@ scripts/fetch-jobs.mjs            공고 목록 수집
 scripts/fetch-official-details.mjs 공식 채용페이지 본문 수집 (헤드리스 브라우저)
 scripts/fetch-ai-companies.mjs    AI 4사 공고 수집
 scripts/fetch-radar.mjs           채용 레이더 수집 (요건 문장에서 연차를 읽어 분류)
+scripts/fetch-companies.mjs       스타트업·유니콘·외국계 공식 채용 시스템에서 기획·PM·마케팅 공고 수집
 scripts/build-jd-keywords.mjs     JD 본문에서 역량 키워드 추출 (사전: scripts/lib/jd-keywords.mjs)
 scripts/reclassify-jasoseol.mjs   분류 규칙 변경 시 기존 데이터 재분류
 .github/workflows/update-jobs.yml 매일 11시 자동 실행 워크플로우

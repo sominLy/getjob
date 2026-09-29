@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: ["claude/**"]
-    paths: ["scripts/probe-sources.mjs", ".github/workflows/probe-sources.yml"]
+    paths: ["scripts/probe-sources.mjs", "scripts/fetch-companies.mjs", ".github/workflows/probe-sources.yml"]
 
 permissions:
   contents: read
@@ -18,4 +18,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/probe-sources.mjs
+      # 점검은 끝났으므로 지금은 새 수집 스크립트가 실제로 도는지만 확인한다(결과 파일은 커밋하지 않음)
+      - run: node scripts/fetch-companies.mjs
+      - run: node scripts/build-jd-keywords.mjs

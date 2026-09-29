@@ -33,6 +33,9 @@ jobs:
       - run: node scripts/fetch-official-details.mjs
       - run: node scripts/fetch-tracks.mjs
       - run: node scripts/archive-expired.mjs
+      # 스타트업·유니콘·외국계 공식 채용 시스템(그리팅·Greenhouse·Ashby·Workday 등)의 기획·PM·마케팅 공고
+      - run: node scripts/fetch-companies.mjs
+        continue-on-error: true
       # 매칭 아카이브용 JD 키워드(지원보드·레이더·주니어 공고판 본문). 위 수집 결과를 모두 쓰므로 맨 뒤에 둔다.
       - run: node scripts/build-jd-keywords.mjs
         continue-on-error: true
@@ -41,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/archive.json data/ai-companies-jobs.json data/details.json data/radar.json data/jd-keywords.json data/keyword-dict.json artifact/data.json
+          git add data/jobs.json data/archive.json data/ai-companies-jobs.json data/details.json data/radar.json data/company-jobs.json data/jd-keywords.json data/keyword-dict.json artifact/data.json
           if git diff --cached --quiet; then
             echo "No changes."
           else

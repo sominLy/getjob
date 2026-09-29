@@ -77,6 +77,18 @@ export const DICT = [
 
 const COMPILED = DICT.map(([label, src]) => [label, new RegExp(src, "i")]);
 
+const COMPILED_G = DICT.map(([label, src]) => [label, new RegExp(src, "gi")]);
+
+/** 키워드별 가중치: JD에 여러 번 나올수록 핵심 요건으로 보고 최대 3까지 */
+export function weights(text) {
+  const w = {};
+  for (const [label, re] of COMPILED_G) {
+    const n = (text.match(re) || []).length;
+    if (n) w[label] = Math.min(n, 3);
+  }
+  return w;
+}
+
 /** 텍스트에 나오는 사전 키워드 라벨 목록 */
 export function extractKeywords(text) {
   if (!text) return [];
