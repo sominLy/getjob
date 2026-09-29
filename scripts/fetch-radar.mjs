@@ -85,7 +85,9 @@ function bucket(job) {
 // DOM만 준비되면 잠깐 기다린 뒤 읽는다.
 async function open(page, url) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
-  await page.waitForTimeout(2000);
+  // 본문이 그려질 때까지(글자가 충분히 찰 때까지) 최대 15초 기다린다
+  await page.waitForFunction(() => document.body && document.body.innerText.length > 1500, null, { timeout: 15000 }).catch(() => {});
+  await page.waitForTimeout(1000);
 }
 
 async function collectToss(browser) {
@@ -93,6 +95,10 @@ async function collectToss(browser) {
   const detailUrls = new Set();
   for (const listUrl of TOSS_LISTS) {
     await open(page, listUrl);
+    // 목록은 스크립트가 그린 뒤에야 링크가 생긴다 — 고정 대기만으로는 비어 있을 때가 있어 링크가 뜰 때까지 기다린다
+    await page.waitForSelector('a[href*="job-detail?job_id="]', { timeout: 30000 }).catch(() => {});
+    await page.mouse.wheel(0, 20000).catch(() => {}); // 스크롤해야 더 불러오는 목록 대비
+    await page.waitForTimeout(1500);
     const links = await page.evaluate(() => Array.from(document.querySelectorAll('a[href*="job-detail?job_id="]')).map((a) => a.href));
     links.forEach((u) => detailUrls.add(u));
   }
