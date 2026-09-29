@@ -779,6 +779,21 @@ thead th{font-weight:600;letter-spacing:.07em}
       <p class="sub" id="mtRule"></p>
       <div class="chips sm" id="mtChips"></div>
     </div>
+    <div class="mt-me">
+      <div class="mt-me-head">
+        <b>링크드인 붙여넣기</b>
+        <span class="sub" id="liStat"></span>
+        <span class="hspace"></span>
+        <button class="ghost" id="liEditBtn">붙여넣기</button>
+        <button class="ghost" id="liClearBtn">모두 지우기</button>
+      </div>
+      <div id="liEditor" hidden>
+        <p class="sub">링크드인 채용 검색 화면을 전체 선택(⌘A)해서 복사한 뒤 그대로 붙여넣으세요. 목록의 회사·직무·지역을 모으고, 오른쪽에 열려 있던 공고 상세 본문이 있으면 그 공고는 바로 매칭합니다. 같은 공고는 한 번만 저장돼요.</p>
+        <textarea id="liText" rows="8" placeholder="링크드인 화면 붙여넣기"></textarea>
+        <div class="mt-edit-actions"><button class="primary" id="liRunBtn">가져오기</button><button class="ghost" id="liCancelBtn">닫기</button></div>
+      </div>
+      <div id="liNoJd"></div>
+    </div>
     <div class="chips sm mt-tiers" id="mtTierChips"></div>
     <div id="mtOut"></div>
     <p class="sub mt-foot" id="mtFoot"></p>
@@ -2535,8 +2550,8 @@ function initRadar(data){
    공고 쪽 키워드(data/jd-keywords.json)는 공개 데이터, 내 쪽 키워드(db.match)는 내 계정에만 있다.
    매칭률 = JD 키워드 가중치 중 내 키워드에 해당하는 비율. 가중치는 JD에 나온 횟수(최대 3). */
 const MT_TIERS = [["적극지원", 80, "tier-1"], ["적합지원", 70, "tier-2"], ["상향지원", 60, "tier-3"], ["연습지원", 50, "tier-4"]];
-const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판"};
-let matchPromise = null, mtData = null, mtDict = null, mtTier = "";
+const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판", linkedin:"링크드인"};
+let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "";
 function loadMatch(){
   if(!matchPromise){
     matchPromise = Promise.all([
@@ -2545,6 +2560,7 @@ function loadMatch(){
     ]).then(([data, dict]) => {
       mtData = data;
       mtDict = dict.map(([label, src]) => [label, new RegExp(src, "i")]);
+      mtDictG = dict.map(([label, src]) => [label, new RegExp(src, "gi")]);
     }).catch(() => { matchPromise = null; });
   }
   return matchPromise.then(renderMatch, () => {
@@ -2573,8 +2589,102 @@ function mtMine(){
   const th = mtThreshold();
   return new Set(Object.keys(m.counts).filter(k => (m.counts[k] >= th && !m.off.includes(k)) || m.on.includes(k)));
 }
+/* ---------- 링크드인 붙여넣기 ----------
+   링크드인은 자동 수집이 약관상 금지라, 내가 화면에서 복사한 글을 붙여넣으면 거기서 공고를 뽑는다.
+   목록 항목: 제목이 두 번 붙어 나오는 줄(스크린리더용 중복) → 다음 줄 회사 → 그다음 줄 지역.
+   상세 본문: "[제목](…/jobs/view/번호…)" 링크 뒤 "채용공고 정보"부터 지원자 비교·회사 소개 전까지. */
+function liParse(text){
+  const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+  const items = [];
+  const clean = t => t.replace(/\(인증 완료된 채용공고\)/g, "").trim();
+  for(let i = 0; i < lines.length - 2; i++){
+    const L = clean(lines[i]);
+    const half = L.length / 2;
+    if(L.length < 6 || L.length % 2 || L.slice(0, half) !== L.slice(half)) continue;
+    const title = L.slice(0, half).trim();
+    const company = lines[i+1], loc = lines[i+2];
+    if(/^\[|https?:/.test(company) || company.length > 60) continue;
+    items.push({title, company, loc: /서울|대한민국|성남|판교|역삼|인천|경기|korea|seoul|화성|수원|부산/i.test(loc) ? loc : ""});
+  }
+  const det = text.match(/\[([^\]]+)\]\((https:\/\/www\.linkedin\.com\/jobs\/view\/(\d+))[^)]*\)/);
+  if(det){
+    const start = text.indexOf("채용공고 정보", det.index);
+    if(start > 0){
+      const rest = text.slice(start + 6);
+      const end = rest.search(/지원을 클릭한 다른 사람과 비교하기|나 vs\. 다른 지원자|회사 소개\n|\n회사 소개/);
+      const jd = (end > 0 ? rest.slice(0, end) : rest.slice(0, 6000)).replace(/… 더보기\s*$/, "").trim();
+      const title = det[1].trim();
+      const it = items.find(x => x.title === title);
+      const co = (text.slice(Math.max(0, det.index - 300), det.index).match(/\[([^\]]+)\]\(https:\/\/www\.linkedin\.com\/company\/[^)]*\)\s*$/) || [])[1];
+      if(it){ it.jd = jd; it.url = det[2]; }
+      else items.push({title, company: co || "", loc: "", jd, url: det[2]});
+    }
+  }
+  return items;
+}
+function liYears(t){
+  const mins = [];
+  [/(\d+)\s*(?:[~\-–]\s*\d+\s*)?\+?\s*years?\s*(?:of\s*)?(?:experience|exp)/gi, /(\d+)\s*(?:[~\-–]\s*\d+\s*)?\+\s*years/gi,
+   /(?:경력|경험|실무)\s*(\d+)\s*년/g, /(\d+)\s*(?:[~\-–]\s*\d+\s*)?년\s*(?:이상|차)?\s*(?:의)?\s*(?:경력|경험|실무|이상)/g]
+    .forEach(re => { for(const m of t.matchAll(re)) mins.push(+m[1]); });
+  const v = mins.filter(n => n > 0 && n < 30);
+  return v.length ? Math.max(...v) : null;
+}
+function liWeights(t){
+  const w = {};
+  mtDictG.forEach(([l, re]) => { const n = (t.match(re) || []).length; if(n) w[l] = Math.min(n, 3); });
+  return w;
+}
+function liImport(text){
+  const got = liParse(text);
+  db.linkedin = db.linkedin || [];
+  let added = 0, withJd = 0;
+  got.forEach(g => {
+    const key = (g.company + "|" + g.title).toLowerCase();
+    let cur = db.linkedin.find(x => x.key === key);
+    if(!cur){ cur = {key, title: g.title, company: g.company, loc: g.loc, at: new Date().toISOString().slice(0, 10)}; db.linkedin.unshift(cur); added++; }
+    if(g.url) cur.url = g.url;
+    if(g.jd){ cur.years = liYears(g.jd); cur.w = liWeights(g.title + "\n" + g.jd); withJd++; }
+  });
+  db.linkedin = db.linkedin.slice(0, 500);
+  save();
+  return {found: got.length, added, withJd};
+}
+function liJobs(){
+  return (db.linkedin || []).filter(x => x.w && x.years === null && Object.keys(x.w).length >= 3)
+    .map(x => ({src: "linkedin", company: x.company, title: x.title,
+                url: x.url || "https://www.linkedin.com/jobs/search/?keywords=" + encodeURIComponent(x.company + " " + x.title), end: "", w: x.w}));
+}
+function renderLinkedin(){
+  const li = db.linkedin || [];
+  const noJd = li.filter(x => !x.w);
+  document.getElementById("liStat").textContent = li.length
+    ? "저장 " + li.length + "건 · 본문 있음 " + (li.length - noJd.length) + "건 · 연차 표시로 제외 " + li.filter(x => x.w && x.years !== null).length + "건"
+    : "링크드인 공고를 붙여넣으면 여기 모입니다";
+  document.getElementById("liClearBtn").hidden = !li.length;
+  const box = document.getElementById("liNoJd"); box.replaceChildren();
+  if(!noJd.length) return;
+  const d = document.createElement("details");
+  const sm = document.createElement("summary"); sm.className = "sub";
+  sm.textContent = "본문이 없어 매칭 못 한 공고 " + noJd.length + "건 — 링크드인에서 공고를 눌러 상세가 열린 상태로 다시 붙여넣으면 매칭됩니다";
+  d.append(sm);
+  const ul = document.createElement("ul"); ul.className = "rd-jobs";
+  noJd.forEach(x => {
+    const it = document.createElement("li"); it.className = "rd-job";
+    const co = document.createElement("div"); co.className = "rd-co"; co.textContent = x.company;
+    const main = document.createElement("div"); main.className = "rd-main";
+    const a = document.createElement("a"); a.className = "rd-t"; a.target = "_blank"; a.rel = "noopener";
+    a.href = x.url || "https://www.linkedin.com/jobs/search/?keywords=" + encodeURIComponent(x.company + " " + x.title);
+    a.textContent = x.title;
+    const meta = document.createElement("div"); meta.className = "rd-meta"; meta.textContent = [x.loc, "저장 " + x.at].filter(Boolean).join(" · ");
+    main.append(a, meta); it.append(co, main, document.createElement("span")); ul.append(it);
+  });
+  d.append(ul); box.append(d);
+}
+
 function renderMatch(){
   if(!mtData) return;
+  renderLinkedin();
   const m = db.match, mine = mtMine();
   document.getElementById("mtMeStat").textContent = m
     ? "경험 " + m.n + "개에서 뽑음 · " + m.at + " · 내 키워드 " + mine.size + "개"
@@ -2602,7 +2712,7 @@ function renderMatch(){
   }
 
   const rows = [];
-  if(m) for(const j of mtData.jobs){
+  if(m) for(const j of mtData.jobs.concat(liJobs())){
     const entries = Object.entries(j.w);
     const tot = entries.reduce((s, [, w]) => s + w, 0);
     const hit = entries.reduce((s, [k, w]) => s + (mine.has(k) ? w : 0), 0);
@@ -2655,6 +2765,20 @@ function renderMatch(){
   document.getElementById("mtFoot").textContent = "공고 키워드 기준일 " + mtData.updated +
     " · 연차가 숫자로 적힌 공고와 본문이 이미지뿐인 공고는 빠져 있습니다. 초록 칩은 겹치는 키워드, 줄 그은 칩은 내 경험에 없는 키워드예요.";
 }
+document.getElementById("liEditBtn").onclick = () => { document.getElementById("liEditor").hidden = false; document.getElementById("liText").focus(); };
+document.getElementById("liCancelBtn").onclick = () => { document.getElementById("liEditor").hidden = true; };
+document.getElementById("liClearBtn").onclick = () => {
+  if(!confirm("저장한 링크드인 공고를 모두 지울까요?")) return;
+  db.linkedin = []; save(); renderMatch();
+};
+document.getElementById("liRunBtn").onclick = () => {
+  if(!mtDictG){ toast("매칭 데이터를 아직 불러오는 중입니다"); return; }
+  const r = liImport(document.getElementById("liText").value);
+  document.getElementById("liText").value = "";
+  document.getElementById("liEditor").hidden = true;
+  renderMatch();
+  toast(r.found ? "공고 " + r.found + "건 읽음 · 새로 저장 " + r.added + "건 · 본문 " + r.withJd + "건" : "공고를 찾지 못했습니다. 검색 결과 화면 전체를 복사했는지 확인해 주세요");
+};
 document.getElementById("mtEditBtn").onclick = () => { document.getElementById("mtEditor").hidden = false; document.getElementById("mtText").focus(); };
 document.getElementById("mtCancelBtn").onclick = () => { document.getElementById("mtEditor").hidden = true; };
 document.getElementById("mtRunBtn").onclick = () => {
