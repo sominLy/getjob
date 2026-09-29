@@ -1,0 +1,23 @@
+name: Probe job sources
+
+# 수집처 후보 점검(일회성). 데이터 파일을 커밋하지 않고 결과를 실행 요약에만 남긴다.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths: ["scripts/probe-sources.mjs", "scripts/fetch-companies.mjs", ".github/workflows/probe-sources.yml"]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # 점검은 끝났으므로 지금은 새 수집 스크립트가 실제로 도는지만 확인한다(결과 파일은 커밋하지 않음)
+      - run: node scripts/fetch-companies.mjs
+      - run: node scripts/build-jd-keywords.mjs

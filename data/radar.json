@@ -1,0 +1,1539 @@
+{
+  "collectedAt": "2026-09-22T01:32:00.948Z",
+  "errors": {
+    "toss": "page.goto: Timeout 60000ms exceeded."
+  },
+  "jobs": [
+    {
+      "source": "toss",
+      "company": "토스뱅크",
+      "title": "Banking Product Owner (SOHO 여신)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7639910003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "개인사업자(SOHO) 대상 여신 상품을 다뤄본 경험이 있으신 분을 찾고 있어요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "금융 도메인"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
+      "title": "Community Operations Manager (Japan)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7977854003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "한국어와 일본어를 모두 자유롭게 쓰는 분이 필요해요. 현지 커뮤니티 콘텐츠를 읽고 뉘앙스를 판단하며 작성·감수할 수 있어야 해요.",
+      "roles": [
+        "운영"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Platform Product Owner · 공통 · Facepay · Blockchain",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6355421003&sub_position_id=6355421003&company=%ED%86%A0%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "고객의 관점에서 문제를 정의하고, 그에 맞는 해결책을 주도적으로 실행해본 경험이 있는 분",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스뱅크",
+      "title": "Platform Product Owner · 공통",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6355421003&sub_position_id=7739173003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
+      "years": null,
+      "noLimit": false,
+      "evidence": "은행 도메인에 대한 이해도가 없어도 괜찮아요. 고객 및 내부 사용자의 문제를 집요하게 정의하고, 해결까지 주도해본 경험이 있는 분을 찾고 있어요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스플레이스",
+      "title": "Platform Product Owner · 공통",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6355421003&sub_position_id=6645649003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "서비스의 속도와 안정성, 운영 효율을 본질적으로 개선할 수 있는 기반을 설계한 경험이 있는 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Platform Product Owner (Global)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7746633003",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "You have 5+ years of experience as a Product Owner or in an equivalent product role.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
+      "title": "Product Excellence Manager (Strategy & Execution)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7992206003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "컨설팅 프로젝트에서 문제 정의부터 솔루션 설계까지 주도해 본 경험이 필요해요. PM 또는 PL로 프로젝트를 리딩한 경험이면 좋아요.",
+      "roles": [
+        "전략·재무"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스뱅크",
+      "title": "Product Manager · LLM",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7611090003&sub_position_id=7611090003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
+      "years": null,
+      "noLimit": false,
+      "evidence": "AI Agent, LLM, ML 을 활용한 서비스 경험이나 강한 관심이 있는 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "AI·LLM"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스페이먼츠",
+      "title": "Product Manager · 공통",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7611090003&sub_position_id=6301568003&company=%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0",
+      "years": null,
+      "noLimit": false,
+      "evidence": "고객의 입장에서 문제를 정의하고, 해결해 본 경험이 있는 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스뱅크",
+      "title": "Product Operations Manager · Growth · Ads",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7798466003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "웹·앱 서비스의 운영 또는 기획을 담당하며 제품 생애주기 전반을 경험해본 분이 필요해요.",
+      "roles": [
+        "운영"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Product Owner · 공통",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=4071413003&sub_position_id=4071413003&company=%ED%86%A0%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "고객의 입장에서 문제를 정의하고 해결해 본 경험이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스뱅크",
+      "title": "Product Owner · 기업솔루션 · Growth",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=4071413003&sub_position_id=7774510003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
+      "years": null,
+      "noLimit": false,
+      "evidence": "기업용 SaaS 또는 B2B 제품을 0→1 또는 1→N으로 기획하고 출시·운영·고도화 해본 경험이 있으신 분을 찾고 있어요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "B2B"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스플레이스",
+      "title": "Product Owner · 공통",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=4071413003&sub_position_id=4915946003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "애자일한 프로세스로 성과를 만들거나 실패한 경험이 있으신 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스인컴",
+      "title": "Product Owner · 공통",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=4071413003&sub_position_id=7551674003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%BB%B4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "고객의 관점에서 문제를 정의하고, 그에 맞는 해결책을 주도적으로 실행해본 경험이 있는 분이면 좋아요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Product Owner (Global)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7742762003",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "You have 5+ years of experience as a Product Owner or in an equivalent product role.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
+      "title": "Product Owner (Growth)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7884093003",
+      "years": null,
+      "noLimit": true,
+      "evidence": "모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "open",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
+      "title": "Product Owner (User Journey)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7804051003",
+      "years": null,
+      "noLimit": true,
+      "evidence": "모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "open",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
+      "title": "Product Owner (Vertical)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7803925003",
+      "years": null,
+      "noLimit": true,
+      "evidence": "모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "open",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
+      "title": "Product Owner (시세 Platform)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7994019003",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "최소 5년 이상의 제품 기획·개발 경험이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
+      "title": "Product Owner (원장 Platform)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7883992003",
+      "years": 3,
+      "noLimit": false,
+      "evidence": "최소 3년 이상의 제품 기획·개발 경험이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Product Owner [Commerce] · Product Owner · Technical Product Owner",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6355822003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "사용자 경험과 비즈니스 성과를 함께 고려할 수 있는 분",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Technical Product Owner [Search]",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7668948003",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "검색·추천 시스템 분야에서의 7년 이상의 경험",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Project Staff · Product · Tech",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6537982003",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "전체 경력에서 1~3년 이상의 PO/PM 경력 또는 그에 준하는 역량 갖춘 분 (총 경력 5년 이상)",
+      "roles": [
+        "전략·재무"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Search Quality Operations Manager",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7821118003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "검색 품질 관리, 정보검색(IR), 추천, 데이터 분야에서 경력을 쌓아오신 분",
+      "roles": [
+        "운영"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Technical Product Owner · 공통 · AI",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=5452510003&company=%ED%86%A0%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "기술 기반의 웹/앱 서비스에 대한 이해도가 높은 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "AI·LLM"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스플레이스",
+      "title": "Technical Product Owner · 공통",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=6585474003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "기술 기반의 IT 서비스에 대한 이해도가 높으신 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스뱅크",
+      "title": "보훈특별채용 인재풀 등록",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7997905003&sub_position_id=7657114003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
+      "years": null,
+      "noLimit": false,
+      "evidence": "「국가유공자 등 예우 및 지원에 관한 법률」에 따른 취업지원 대상자",
+      "roles": [
+        "인재풀"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스인슈어런스",
+      "title": "보훈특별채용 인재풀 등록",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7997905003&sub_position_id=7997905003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%8A%88%EC%96%B4%EB%9F%B0%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "「국가유공자 등 예우 및 지원에 관한 법률」에 따른 취업지원 대상자",
+      "roles": [
+        "인재풀"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스뱅크",
+      "title": "외환 상품 Manager (해외송금)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7761021003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "해외송금 서비스에 대한 기획·개발·운영 경험이 있는 분이 필요해요. 특히 기업해외송금의 업무 플로우를 구조적으로 이해하고 계신 분을 찾고 있어요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "금융 도메인"
+      ],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스페이먼츠",
+      "title": "토스페이먼츠 신사업 초기멤버 인재풀 등록",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7820053003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Server Developer",
+      "roles": [
+        "인재풀"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Brand Manager (Content)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7847465003",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "탁월한 글쓰기와 인터뷰 역량을 바탕으로 길고 짧은 콘텐츠를 직접 제작·편집할 수 있는 분 (5년 이상)",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Brand Manager (Event)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7847411003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "복잡한 프로젝트의 프로세스를 관리하면서도, 퀄리티를 끌어올리기 위해 헌신하는 분",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Brand Manager (Marketing)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7893682003",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "기업의 브랜드 전략 수립과 실행을 A to Z 주도해 브랜드 임팩트를 극대화 한 경험을 가진 분(7년 이상)",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Business Content Marketing Manager",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7765759003",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "비즈니스 콘텐츠 마케팅의 기획부터 전략, 실행까지 주도적으로 이끌어 오신 5년 이상의 경험이 있는 분",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Business Marketing Manager (Field Marketer)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7864806003",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "비즈니스 마케팅 또는 오프라인 마케팅 경력이 7년 이상인 분이면 좋아요.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스플레이스",
+      "title": "Enterprise Marketing Manager",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7971642003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "주어진 마케팅 과업을 수행하는 데 그치지 않고, 고객과 비즈니스의 상황을 이해해 해결해야 할 문제부터 정의할 수 있는 분을 찾고 있어요.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [
+        "B2B"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Marketing Manager · Growth",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6258609003&sub_position_id=6258609003&company=%ED%86%A0%EC%8A%A4",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "모바일 제품 조직에서 최소 7년 이상의 마케팅 경험이 필요해요.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스페이먼츠",
+      "title": "Marketing Manager · B2B",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6258609003&sub_position_id=7581901003&company=%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0",
+      "years": null,
+      "noLimit": false,
+      "evidence": "B2B 프로덕트/서비스를 대상으로 타겟 고객을 정의하고, 이를 바탕으로 핵심 메시지(소구점)를 개발해 마케팅에 적용해 본 경험이 필요해요.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [
+        "B2B"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스인컴",
+      "title": "Marketing Manager · Growth",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6258609003&sub_position_id=6651340003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%BB%B4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "제품의 출시부터 확장까지 0 to 1의 과정에서 마케팅 경험이 있으신 분이면 좋아요.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "toss",
+      "company": "토스",
+      "title": "Marketing Team Leader (Global)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7993829003",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10년 이상 모바일 App/Web에 대한 높은 이해를 바탕으로 프로덕트 마케팅 전략 수립 경험이 있으시면 더욱 좋습니다.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101798306123784902-customer-engineer-enterprise-cloud-and-ai-google-cloud-english-korean",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Google Trade Compliance Program Manager",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774-google-trade-compliance-program-manager",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.",
+      "roles": [
+        "전략·재무"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Account Strategist (Fixed-Term Contract) (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/100077876442735302-account-strategist-fixedterm-contract-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor's degree or equivalent practical experience.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-09-22"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "AI Outcome Customer Engineer, Google Cloud",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/72569874705982150-ai-outcome-customer-engineer-google-cloud",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "7 years of experience troubleshooting technical issues for internal/external partners or customers.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Applied Solutions Architect, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/124250095192285894-applied-solutions-architect-google-cloud-korean-english",
+      "years": 6,
+      "noLimit": false,
+      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Field Sales Representative, Digital Natives, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/94302880596402886-field-sales-representative-digital-natives-google-cloud-english-korean",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "7 years of experience with quota-carrying cloud or software sales, or account management at a Business-to-Business (B2B) software company.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/94076386569790150-account-strategist-midmarket-sales-google-customer-solutions-english-korean",
+      "years": 2,
+      "noLimit": false,
+      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
+      "roles": [
+        "솔루션·컨설팅",
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Security Customer Engineer, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/92833852531057350-security-customer-engineer-google-cloud-english-korean",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience in a technical sales engineering role in security or cloud native environments.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Technical Operations Manager, Third Party Data Centers (English)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/142528337837728454-technical-operations-manager-third-party-data-centers-english",
+      "years": 9,
+      "noLimit": false,
+      "evidence": "9 years of experience in Electrical, Mechanical/HVAC, or controls experience in an industrial/commercial environment.",
+      "roles": [
+        "운영"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Field Sales Manager, Enterprise, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/127270118626337478-field-sales-manager-enterprise-google-cloud-korean-english",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience in quota-carrying cloud or software sales, or consultative account management at a Business-To-Business (B2B) software company.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/113194397327073990-customer-engineer-ai-google-cloud-english-korean",
+      "years": 6,
+      "noLimit": false,
+      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-22"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Measurement Specialist, Large Customer Sales (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/78621740250342086-measurement-specialist-large-customer-sales-english-korean",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "SQL·데이터"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-22"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Media Lead (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/98489177703621318-media-lead-english-korean",
+      "years": 6,
+      "noLimit": false,
+      "evidence": "6 years of experience managing brand and performance media campaigns at the agency or client side.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Customer Onboarding Strategist, Google Customer Solutions (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/91272208864682694-customer-onboarding-strategist-google-customer-solutions-english-korean",
+      "years": 2,
+      "noLimit": false,
+      "evidence": "2 years of experience in advertising sales, marketing, consulting or media.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Software Engineer III, Camera System Software",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/93924568065811142-software-engineer-iii-camera-system-software",
+      "years": 2,
+      "noLimit": false,
+      "evidence": "2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.",
+      "roles": [
+        "엔지니어링"
+      ],
+      "reqs": [],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Apps Solutions Expert, gTech Ads Solutions (Fixed-Term Contract)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/134460100038271686-apps-solutions-expert-gtech-ads-solutions-fixedterm-contract",
+      "years": 2,
+      "noLimit": false,
+      "evidence": "2 years of experience working with digital media or digital marketing/advertising solutions, implementing and measuring campaigns and providing client solutions.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Technical Solutions Consultant, gTech (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/139541106478981830-technical-solutions-consultant-gtech-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Practice Customer Engineer, Migrations, Infrastructure and App",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/79141233724662470-practice-customer-engineer-migrations-infrastructure-and-app",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Outcome Customer Engineer, AI, Google Cloud",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/76494915395035846-outcome-customer-engineer-ai-google-cloud",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "7 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Top Partner Manager, AI Infrastructure and Supply Chain (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122332087351943878-top-partner-manager-ai-infrastructure-and-supply-chain-korean-english",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience in business development, partnerships, strategy,",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Strategy and Operations Manager, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/87955048855675590-strategy-and-operations-manager-google-cloud-korean-english",
+      "years": 6,
+      "noLimit": false,
+      "evidence": "6 years of experience in a management consulting, sales operations, business strategy or corporate advisory role.",
+      "roles": [
+        "운영",
+        "전략·재무"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "People Consultant (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/115080752332186310-people-consultant-english-korean",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.",
+      "roles": [
+        "솔루션·컨설팅",
+        "HR"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Customer Engineer, AI, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/137925552383107782-customer-engineer-ai-google-cloud-korean-english",
+      "years": 6,
+      "noLimit": false,
+      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Technical Account Manager, Google Cloud Consulting (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/140886212926677702-technical-account-manager-google-cloud-consulting-korean-english",
+      "years": 2,
+      "noLimit": false,
+      "evidence": "2 years of experience in a customer-facing role working with stakeholders, driving customer technical implementations or transformation programs.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "B2B"
+      ],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Customer Engineer, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/109406637113909958-customer-engineer-google-cloud-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor's degree or equivalent practical experience.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Financial Accountant",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/78789902178624198-financial-accountant",
+      "years": 4,
+      "noLimit": false,
+      "evidence": "4 years of experience in accounting and taxes, compliance, or finance operations.",
+      "roles": [
+        "전략·재무"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "notion",
+      "company": "Notion",
+      "title": "Business Development Representative, Korea",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/notion/759a9c5a-cdd6-4d05-8eaf-e78eabc34293",
+      "years": null,
+      "noLimit": false,
+      "evidence": "- Fluency in Korean and business level in English",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "notion",
+      "company": "Notion",
+      "title": "Enterprise Solutions Consultant, Korea",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/notion/be119222-db73-45fb-8634-0095154fcf1d",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "- 8-15+ years of experience selling technical products to technical buyers",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "notion",
+      "company": "Notion",
+      "title": "Commercial Solutions Consultant",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/notion/d3eab521-8adb-4576-b740-905b3894a031",
+      "years": 1,
+      "noLimit": false,
+      "evidence": "- 1-3 years of Experience in selling technical products to technical buyers",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "notion",
+      "company": "Notion",
+      "title": "Mid-Market Solutions Consultant",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/notion/00960f3c-46b6-4ad5-ae6b-4175035b3cb9",
+      "years": null,
+      "noLimit": false,
+      "evidence": "- Experience in selling technical products to technical buyers in the Mid-Market segment (500-2999 employees)",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Applied AI Architect",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390735008",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5+ years of relevant experience",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Channel Partner Manager",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391257008",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Experience managing channel or reseller partner relationships in enterprise software or cloud",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "금융 도메인",
+        "B2B"
+      ],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Compute Country Lead, Korea",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385557008",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Korean national with established links into government and the energy industry strongly preferred.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Customer Success Manager",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391112008",
+      "years": 6,
+      "noLimit": false,
+      "evidence": "6+ years of experience in customer-facing roles (Customer Success, Consulting, Solutions Architect, Solutions/Functional Consultant, Success Engineer or similar)",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive - DNB",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391340008",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "8+ years of sales experience in Korea with a clear track record as a hunter: consistently winning net-new logos and generating the majority of your own pipeline through outbound prospecting",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive - FSI",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5341664008",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "8+ years of enterprise sales experience in Korea, with significant exposure to financial services",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "금융 도메인",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive - Retail/CPG",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391336008",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "8+ years of enterprise sales experience in Korea with significant exposure to retail and consumer goods accounts, driving adoption of emerging technologies with a consultative, solutions-oriented approach",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "External Affairs, South Korea",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5417967008",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "Preferred 10+ years of professional experience in government, technology, legal, and/or other policy-relevant environments",
+      "roles": [
+        "전략·재무"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Finance & Strategy, GTM - Korea",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079133008",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10+ years of experience across strategic finance, go-to-market finance, private equity, growth equity, venture capital, consulting, and investment banking",
+      "roles": [
+        "전략·재무"
+      ],
+      "reqs": [
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Revenue Strategy & Operations",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "8+ years in relevant role or experience",
+      "roles": [
+        "운영",
+        "전략·재무"
+      ],
+      "reqs": [
+        "영어",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Sales Director, Enterprise",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391344008",
+      "years": 15,
+      "noLimit": false,
+      "evidence": "15+ years of enterprise sales experience, preferably driving adoption of SaaS or emerging technologies",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-09-17"
+    }
+  ]
+}
