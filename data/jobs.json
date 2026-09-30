@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -2038,19 +2038,6 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105410",
-      "company": "NHN Cloud",
-      "type": "",
-      "roles": [],
-      "start": "2026-07-30",
-      "end": "2026-09-29",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4345782544040635308?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105440",
       "company": "페이히어",
       "type": "",
@@ -2795,21 +2782,6 @@
       "url": "https://inha-engineering.qshop.ai/",
       "hist": "",
       "endTime": "15:59"
-    },
-    {
-      "id": "jasoseol-105941",
-      "company": "현대건설",
-      "type": "대기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-09-01",
-      "end": "2026-09-29",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.hdec.co.kr/#/Recruit/2802",
-      "hist": "",
-      "endTime": "17:00"
     },
     {
       "id": "jasoseol-105974",
@@ -3588,27 +3560,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106142",
-      "company": "콜마그룹",
-      "type": "중견기업",
-      "roles": [
-        "기획/전략",
-        "영업",
-        "영업관리",
-        "마케팅",
-        "MD",
-        "리서치",
-        "HR/인사"
-      ],
-      "start": "2026-09-09",
-      "end": "2026-09-29",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kolmar.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609kolmar",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106144",
       "company": "에이피알",
       "type": "",
@@ -3658,21 +3609,6 @@
       "hist": "Applied Solutions Architect, Google Cloud (Korean, English)"
     },
     {
-      "id": "jasoseol-106170",
-      "company": "현대모비스",
-      "type": "대기업",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-09-11",
-      "end": "2026-09-29",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.mobis.com/jobs?search=%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106171",
       "company": "모두닥",
       "type": "",
@@ -3699,21 +3635,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://celimax.ninehire.site/job_posting/B2JhCDBU",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106177",
-      "company": "현대모비스",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-09-11",
-      "end": "2026-09-29",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.mobis.com/jobs?search=%EC%9E%A5%ED%95%99%EC%83%9D",
       "hist": ""
     },
     {
@@ -3761,21 +3682,6 @@
       "source": "Google 채용페이지",
       "url": "https://www.google.com/about/careers/applications/jobs/results/140886212926677702",
       "hist": "Technical Account Manager, Google Cloud Consulting (Korean, English)"
-    },
-    {
-      "id": "jasoseol-106170",
-      "company": "현대모비스",
-      "type": "대기업",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-09-11",
-      "end": "2026-09-29",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mobisrobotics-recruit.com/?utm_source=jasoseol&utm_medium=nonad&utm_campaign=careersite",
-      "hist": ""
     },
     {
       "id": "jasoseol-106196",
@@ -3962,40 +3868,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106205",
-      "company": "국토안전관리원(KALIS)",
-      "type": "공기업",
-      "roles": [
-        "영업",
-        "기획/전략",
-        "HR/인사",
-        "리서치"
-      ],
-      "start": "2026-09-14",
-      "end": "2026-09-29",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kalis.recruitlab.co.kr",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106210",
-      "company": "한국연구재단(NRF)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "영업"
-      ],
-      "start": "2026-09-13",
-      "end": "2026-09-29",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.incruit.com/nrf2026/",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106212",
       "company": "대구경북과학기술원",
       "type": "",
@@ -4038,28 +3910,6 @@
       "hist": "Strategy & Operations Lead — Korea · Business Operations"
     },
     {
-      "id": "jasoseol-106143",
-      "company": "기아",
-      "type": "대기업",
-      "roles": [
-        "기획/전략",
-        "영업",
-        "마케팅",
-        "MD",
-        "고객/CS",
-        "브랜드",
-        "PM/서비스기획",
-        "HR/인사"
-      ],
-      "start": "2026-09-15",
-      "end": "2026-09-29",
-      "endTime": "11:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kiacareer2026.com/entry/",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106156",
       "company": "멀티캠퍼스",
       "type": "대기업",
@@ -4072,23 +3922,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://bootcamp.multicampus.com/course/crsDetail?corsCd=FA01RL&corsDgrCd=10104&corsYr=2026&utm_source=jasosel&utm_medium=jasosel_personal&utm_campaign=AIM&utm_content=aim_2609&utm_term=JSSP_aim2609",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106206",
-      "company": "한국공항공사(KAC)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "PM/서비스기획"
-      ],
-      "start": "2026-09-17",
-      "end": "2026-09-29",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kac.careerlink.kr",
       "hist": ""
     },
     {
@@ -4190,21 +4023,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://celimax.ninehire.site/job_posting/EsTPhbXW",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106230",
-      "company": "국립농업박물관",
-      "type": "공기업",
-      "roles": [
-        "고객/CS"
-      ],
-      "start": "2026-09-21",
-      "end": "2026-09-29",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://namukrecruit.recruiter.co.kr/career/home",
       "hist": ""
     },
     {
@@ -4630,19 +4448,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kea.recruitlab.co.kr/",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106279",
-      "company": "SK머티리얼즈",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-09-16",
-      "end": "2026-09-29",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.sk-materials.com/",
       "hist": ""
     },
     {
@@ -5378,19 +5183,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106198",
-      "company": "무역안보관리원",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-09-14",
-      "end": "2026-09-29",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kosti.recruiter.co.kr/appsite/company/index",
-      "hist": ""
-    },
-    {
       "id": "linkareer-352295",
       "company": "어센트AI",
       "type": "",
@@ -5947,19 +5739,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106377",
-      "company": "울산알루미늄",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-09-21",
-      "end": "2026-09-29",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ulsanaluminum.com/home/recruit/recruit03_01.jsp",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106277",
       "company": "건설근로자공제회(CWMA)",
       "type": "공기업",
@@ -5972,70 +5751,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://cw.careerlink.kr/",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106296",
-      "company": "한국토지주택공사(LH)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "PM/서비스기획"
-      ],
-      "start": "2026-09-22",
-      "end": "2026-09-29",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://lh.incruit.com/main/main.asp",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106297",
-      "company": "한국토지주택공사(LH)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-09-22",
-      "end": "2026-09-29",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://lh.incruit.com/main/main.asp",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106298",
-      "company": "한국토지주택공사(LH)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-09-22",
-      "end": "2026-09-29",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://lh.incruit.com/main/main.asp",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106299",
-      "company": "한국토지주택공사(LH)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-09-22",
-      "end": "2026-09-29",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://lh.incruit.com/main/main.asp",
       "hist": ""
     },
     {
@@ -6520,19 +6235,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://korot.career.greetinghr.com/ko/o/238310",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106428",
-      "company": "중앙대학교병원",
-      "type": "",
-      "roles": [],
-      "start": "2026-09-23",
-      "end": "2026-09-29",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://caumc.recruiter.co.kr/career/jobs/129462",
       "hist": ""
     },
     {
@@ -7281,6 +6983,381 @@
       "source": "Anthropic 채용페이지",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432554008",
       "hist": "Applied AI Architects, Partner · Applied AI"
+    },
+    {
+      "id": "jasoseol-106382",
+      "company": "한전원자력연료(KNF)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-30",
+      "end": "2026-10-15",
+      "endTime": "13:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.incruit.com/knfcinsa/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106443",
+      "company": "대보그룹",
+      "type": "중견기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-11",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.daebogroup.com/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106462",
+      "company": "한국농어촌공사(KR)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-05",
+      "end": "2026-10-19",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://krc.cairos.co.kr/krc/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106467",
+      "company": "램리서치코리아",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-09-29",
+      "end": "2026-10-07",
+      "endTime": "23:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lamresearch-careers.com/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106477",
+      "company": "현대오토에버",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "금융/심사",
+        "HR/인사"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-12",
+      "endTime": "13:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.hyundai-autoever.com/2026newrecruit4q",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106491",
+      "company": "선진",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit-sj.com/?utm_source=jasoseol&utm_medium=plus&utm_campaign=202609",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106493",
+      "company": "S-OIL",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "홍보/PR",
+        "마케팅",
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-09-30",
+      "end": "2026-10-14",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://s-oil.recruiter.co.kr/career/jobs/128790",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106497",
+      "company": "딜라이트룸",
+      "type": "",
+      "roles": [
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "홍보/PR"
+      ],
+      "start": "2026-09-30",
+      "end": "2026-10-11",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://delightroom.ninehire.site/job_posting/OPH3C0lK",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106499",
+      "company": "삼양케이씨아이",
+      "type": "중견기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-30",
+      "end": "2026-10-11",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://samyang.wd3.myworkdayjobs.com/ko-KR/SAMYANG_KCI",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106500",
+      "company": "에프앤코",
+      "type": "중견기업",
+      "roles": [
+        "MD"
+      ],
+      "start": "2026-09-28",
+      "end": "2026-10-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://fnco.career.greetinghr.com/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106501",
+      "company": "SK브로드밴드",
+      "type": "대기업",
+      "roles": [
+        "마케팅",
+        "MD",
+        "영업관리",
+        "영업",
+        "PM/서비스기획",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-30",
+      "end": "2026-10-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://vo.la/KLr0Mwc",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106503",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/129854",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106504",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-29",
+      "end": "2026-10-11",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/129871",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106505",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/129875",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106506",
+      "company": "경신",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-09-29",
+      "end": "2026-10-11",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://KyungshinHR.recruiter.co.kr/career/jobs/129781",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106507",
+      "company": "토스플레이스",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-28",
+      "end": "2026-11-28",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://toss.im/career/job-detail?job_id=6615985003&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2609_ITOps(P)",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106509",
+      "company": "유한킴벌리",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-14",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.incruit.com/yuhankimberly/",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106514",
+      "company": "마이다스그룹",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-29",
+      "end": "2026-10-11",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://midas.recruiter.co.kr/career/jobs/129944",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106515",
+      "company": "마이다스그룹",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-29",
+      "end": "2026-10-11",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://midas.recruiter.co.kr/career/jobs/129945",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106516",
+      "company": "중앙대학교병원",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-30",
+      "end": "2026-10-06",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://caumc.recruiter.co.kr/career/jobs/129975",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106517",
+      "company": "와디즈",
+      "type": "",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.wadiz.io/ko/o/239041",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106522",
+      "company": "버킷플레이스(오늘의집)",
+      "type": "",
+      "roles": [
+        "MD"
+      ],
+      "start": "2026-09-27",
+      "end": "2026-10-11",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://bucketplace.career.greetinghr.com/ko/o/237906",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106523",
+      "company": "한국산업인력공단(HRDK)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "MD",
+        "홍보/PR",
+        "영업",
+        "PM/서비스기획",
+        "영업관리",
+        "고객/CS",
+        "금융/심사"
+      ],
+      "start": "2026-09-30",
+      "end": "2026-10-28",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.worldjob.or.kr/stepup/careerRestart/main.do",
+      "hist": ""
+    },
+    {
+      "id": "jasoseol-106526",
+      "company": "알파사이츠",
+      "type": "",
+      "roles": [
+        "영업관리",
+        "리서치",
+        "기획/전략",
+        "영업"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://grnh.se/ea4yvvgb1us",
+      "hist": ""
     }
   ]
 }

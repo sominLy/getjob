@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29",
+ "updated": "2026-09-30",
  "jobs": [
   {
    "src": "board",
@@ -577,6 +577,128 @@
     "금융·핀테크": 1,
     "교육": 3,
     "영어": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106491",
+   "company": "선진",
+   "title": "사료영업 신입/경력(2~4년) · 유전자영업 신입/경력(2~4년) · 식육영업 신입/경력(무관)",
+   "url": "https://recruit-sj.com/?utm_source=jasoseol&utm_medium=plus&utm_campaign=202609",
+   "end": "2026-10-13",
+   "w": {
+    "영어": 1,
+    "일본어": 1,
+    "중국어": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106497",
+   "company": "딜라이트룸",
+   "title": "미국 인플루언서 마케팅",
+   "url": "https://delightroom.ninehire.site/job_posting/OPH3C0lK",
+   "end": "2026-10-11",
+   "w": {
+    "이해관계자 조율": 2,
+    "시장·트렌드 분석": 2,
+    "마케팅 기획": 1,
+    "그로스·CRM": 1,
+    "콘텐츠 기획·제작": 2,
+    "SNS·소셜": 3,
+    "인플루언서": 3,
+    "문서화·가이드": 1,
+    "정산·계약": 2,
+    "영어": 2
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106501",
+   "company": "SK브로드밴드",
+   "title": "마케팅 · B2B 영업 · B2B Global",
+   "url": "https://vo.la/KLr0Mwc",
+   "end": "2026-10-13",
+   "w": {
+    "사업기획·전략": 1,
+    "이해관계자 조율": 1,
+    "데이터 분석": 2,
+    "지표·KPI": 2,
+    "사용자 리서치": 1,
+    "시장·트렌드 분석": 1,
+    "인사이트 도출": 1,
+    "마케팅 기획": 1,
+    "SNS·소셜": 3,
+    "행사·이벤트": 3,
+    "프로세스 개선": 1,
+    "영업·세일즈": 1,
+    "B2B": 2,
+    "B2C": 2,
+    "AI·LLM": 3,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 2,
+    "주도성": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106503",
+   "company": "중앙대학교병원",
+   "title": "계약직(신규)-피부미용사-피부관리실",
+   "url": "https://caumc.recruiter.co.kr/career/jobs/129854",
+   "end": "2026-10-05",
+   "w": {
+    "문제 정의": 1,
+    "정산·계약": 1,
+    "여행·모빌리티": 1,
+    "헬스케어": 1,
+    "글로벌·해외": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106504",
+   "company": "중앙대학교병원",
+   "title": "계약직(신규)-야간당직약사-약제팀",
+   "url": "https://caumc.recruiter.co.kr/career/jobs/129871",
+   "end": "2026-10-11",
+   "w": {
+    "문제 정의": 1,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106516",
+   "company": "중앙대학교병원",
+   "title": "계약직(신규)-시설팀(기관실)-기능사",
+   "url": "https://caumc.recruiter.co.kr/career/jobs/129975",
+   "end": "2026-10-06",
+   "w": {
+    "정산·계약": 1,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106522",
+   "company": "버킷플레이스(오늘의집)",
+   "title": "주니어 MD (계약직)",
+   "url": "https://bucketplace.career.greetinghr.com/ko/o/237906",
+   "end": "2026-10-11",
+   "w": {
+    "사업개발·제휴": 1,
+    "SQL·툴": 2,
+    "사용자 리서치": 2,
+    "시장·트렌드 분석": 1,
+    "브랜드": 1,
+    "문서화·가이드": 1,
+    "이커머스": 1,
+    "MD·상품기획": 1,
+    "AI·LLM": 1,
+    "교육": 1
    }
   },
   {
@@ -2786,6 +2908,27 @@
   {
    "src": "junior",
    "company": "하이브",
+   "title": "[Weverse Company] 플랫폼 서비스 운영 (인턴)*",
+   "url": "https://careers.hybecorp.com/ko/o/238385",
+   "end": "",
+   "w": {
+    "문제 정의": 1,
+    "신사업·0to1": 3,
+    "이해관계자 조율": 2,
+    "데이터 분석": 1,
+    "커뮤니티": 1,
+    "서비스 운영": 3,
+    "CX·고객경험": 1,
+    "문서화·가이드": 2,
+    "정산·계약": 1,
+    "플랫폼": 3,
+    "엔터·IP": 1,
+    "글로벌·해외": 2
+   }
+  },
+  {
+   "src": "junior",
+   "company": "하이브",
    "title": "[Weverse Company] 마케팅 (인턴)*",
    "url": "https://careers.hybecorp.com/ko/o/238321",
    "end": "",
@@ -3199,30 +3342,7 @@
   {
    "src": "company",
    "company": "무신사",
-   "title": "Product Manager (Core Partner)",
-   "url": "https://musinsa.career.greetinghr.com/ko/o/200589",
-   "end": "",
-   "w": {
-    "프로덕트·PO": 1,
-    "문제 정의": 3,
-    "사업기획·전략": 2,
-    "사업개발·제휴": 2,
-    "신사업·0to1": 1,
-    "이해관계자 조율": 1,
-    "사용자 리서치": 3,
-    "브랜드": 3,
-    "SNS·소셜": 1,
-    "문서화·가이드": 1,
-    "B2B": 1,
-    "플랫폼": 3,
-    "뷰티·패션": 1,
-    "글로벌·해외": 3
-   }
-  },
-  {
-   "src": "company",
-   "company": "무신사",
-   "title": "Product Manager(Core Catalog)",
+   "title": "Product Manager (Core Catalog)",
    "url": "https://musinsa.career.greetinghr.com/ko/o/226026",
    "end": "",
    "w": {
@@ -3247,6 +3367,29 @@
     "AI·LLM": 2,
     "플랫폼": 3,
     "금융·핀테크": 1,
+    "글로벌·해외": 3
+   }
+  },
+  {
+   "src": "company",
+   "company": "무신사",
+   "title": "Product Manager (Core Partner)",
+   "url": "https://musinsa.career.greetinghr.com/ko/o/200589",
+   "end": "",
+   "w": {
+    "프로덕트·PO": 1,
+    "문제 정의": 3,
+    "사업기획·전략": 2,
+    "사업개발·제휴": 2,
+    "신사업·0to1": 1,
+    "이해관계자 조율": 1,
+    "사용자 리서치": 3,
+    "브랜드": 3,
+    "SNS·소셜": 1,
+    "문서화·가이드": 1,
+    "B2B": 1,
+    "플랫폼": 3,
+    "뷰티·패션": 1,
     "글로벌·해외": 3
    }
   },
@@ -5355,35 +5498,6 @@
   },
   {
    "src": "company",
-   "company": "넛지헬스케어(캐시워크)",
-   "title": "[캐시워크] 정보보호담당 채용전환형 인턴",
-   "url": "https://cashwalk12.career.greetinghr.com/ko/o/30811",
-   "end": "",
-   "w": {
-    "요구사항 정의": 1,
-    "사업개발·제휴": 2,
-    "이해관계자 조율": 2,
-    "사용자 리서치": 2,
-    "브랜드": 2,
-    "행사·이벤트": 2,
-    "품질·검수": 1,
-    "위기·이슈 대응": 1,
-    "영업·세일즈": 1,
-    "B2C": 2,
-    "AI·LLM": 1,
-    "노코드·개발 이해": 1,
-    "플랫폼": 1,
-    "금융·핀테크": 3,
-    "교육": 1,
-    "F&B·식품": 1,
-    "여행·모빌리티": 2,
-    "헬스케어": 3,
-    "글로벌·해외": 2,
-    "일본어": 2
-   }
-  },
-  {
-   "src": "company",
    "company": "라이드플럭스",
    "title": "[화성] 자율주행 차량 SI(System Integration) 담당자 모집 (정규직, 채용연계형 인턴)",
    "url": "https://rideflux.career.greetinghr.com/ko/o/230229",
@@ -5486,6 +5600,18 @@
     "B2B": 1,
     "글로벌·해외": 3,
     "일본어": 1
+   }
+  },
+  {
+   "src": "company",
+   "company": "헥토",
+   "title": "[헥토파이낸셜] 서비스 기획 (Product&Growth)",
+   "url": "https://www.hectocareers.co.kr/ko/o/239070",
+   "end": "",
+   "w": {
+    "서비스기획": 1,
+    "그로스·CRM": 1,
+    "헬스케어": 1
    }
   },
   {
@@ -6192,27 +6318,6 @@
   {
    "src": "company",
    "company": "넷플릭스",
-   "title": "HR Business Partner - Korea",
-   "url": "https://explore.jobs.netflix.net/careers/job/790318403387",
-   "end": "",
-   "w": {
-    "문제 정의": 1,
-    "사업기획·전략": 2,
-    "사업개발·제휴": 1,
-    "이해관계자 조율": 1,
-    "SQL·툴": 1,
-    "사용자 리서치": 2,
-    "인사이트 도출": 1,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 2,
-    "글로벌·해외": 3,
-    "영어": 1,
-    "리더십·팀 리딩": 1
-   }
-  },
-  {
-   "src": "company",
-   "company": "넷플릭스",
    "title": "HR Business Partner , Eyeline - Korea",
    "url": "https://explore.jobs.netflix.net/careers/job/790314882402",
    "end": "",
@@ -6233,6 +6338,52 @@
     "글로벌·해외": 3,
     "영어": 1,
     "리더십·팀 리딩": 1
+   }
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
+   "title": "Manager, Slate & Brand Marketing - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790315562772",
+   "end": "",
+   "w": {
+    "요구사항 정의": 1,
+    "신사업·0to1": 1,
+    "이해관계자 조율": 1,
+    "인사이트 도출": 1,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 3,
+    "SNS·소셜": 1,
+    "행사·이벤트": 2,
+    "품질·검수": 1,
+    "B2C": 3,
+    "글로벌·해외": 3,
+    "영어": 1
+   }
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
+   "title": "Manager, Content Financial Planning & Analysis (FP&A) - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317865188",
+   "end": "",
+   "w": {
+    "요구사항 정의": 1,
+    "사업기획·전략": 1,
+    "이해관계자 조율": 2,
+    "SQL·툴": 2,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "콘텐츠 기획·제작": 3,
+    "위기·이슈 대응": 1,
+    "교육": 1,
+    "엔터·IP": 1,
+    "글로벌·해외": 1,
+    "영어": 1,
+    "리더십·팀 리딩": 2
    }
   }
  ],
@@ -6257,10 +6408,9 @@
   "https://career.oliveyoung.com/ko/o/211310",
   "https://career.oliveyoung.com/ko/o/211302",
   "https://career.oliveyoung.com/ko/o/211140",
-  "https://pfct.career.greetinghr.com/ko/o/223420",
-  "https://pfct.career.greetinghr.com/ko/o/236699",
-  "https://pfct.career.greetinghr.com/ko/o/236088",
   "https://pfct.career.greetinghr.com/ko/o/234605",
+  "https://pfct.career.greetinghr.com/ko/o/223420",
+  "https://pfct.career.greetinghr.com/ko/o/236088",
   "https://career.gangnamunni.com/ko/o/237371",
   "https://career.gangnamunni.com/ko/o/201327",
   "https://myrealtrip.career.greetinghr.com/ko/o/236050",
@@ -6299,12 +6449,13 @@
   "https://career.spartaclub.kr/ko/o/237098",
   "https://career.spartaclub.kr/ko/o/198183",
   "https://career.spartaclub.kr/ko/o/236386",
-  "https://careers.hybecorp.com/ko/o/238910",
   "https://careers.hybecorp.com/ko/o/238647",
   "https://careers.hybecorp.com/ko/o/235455",
   "https://careers.hybecorp.com/ko/o/217366",
   "https://careers.hybecorp.com/ko/o/216940",
   "https://careers.hybecorp.com/ko/o/208869",
+  "https://hiconsy.career.greetinghr.com/ko/o/239076",
+  "https://hiconsy.career.greetinghr.com/ko/o/239075",
   "https://hiconsy.career.greetinghr.com/ko/o/232346",
   "https://hiconsy.career.greetinghr.com/ko/o/225887",
   "https://www.hectocareers.co.kr/ko/o/236786",

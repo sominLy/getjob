@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-09-29T10:41:53.562288+00:00",
+ "collectedAt": "2026-09-30T07:49:34.132873+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -135,7 +135,7 @@
    "회사": "BAT",
    "플랫폼": "greetinghr",
    "title": "[인턴] 퍼포먼스 마케터 (정규직 전환형)",
-   "career": "신입",
+   "career": "경력무관",
    "emp": "인턴",
    "due": "상시",
    "link": "https://bat.career.greetinghr.com/ko/o/9976",
@@ -148,7 +148,7 @@
    "회사": "BAT",
    "플랫폼": "greetinghr",
    "title": "[인턴] 인플루언서 마케터 (정규직 전환형)",
-   "career": "경력무관",
+   "career": "-",
    "emp": "인턴",
    "due": "상시",
    "link": "https://bat.career.greetinghr.com/ko/o/152211",
@@ -355,6 +355,19 @@
   {
    "회사": "pfct",
    "플랫폼": "greetinghr",
+   "title": "[계약직] Lending Operations(경력 대출영업 상담사)",
+   "career": "경력 1년~3",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://pfct.career.greetinghr.com/ko/o/234605",
+   "cat": "세일즈·CX·제휴",
+   "intern": false,
+   "openDate": "2026-08-26",
+   "new": false
+  },
+  {
+   "회사": "pfct",
+   "플랫폼": "greetinghr",
    "title": "[계약직] Lending Operations(신입 대출영업 상담사)",
    "career": "신입",
    "emp": "계약직",
@@ -394,19 +407,6 @@
   {
    "회사": "pfct",
    "플랫폼": "greetinghr",
-   "title": "[체험형 인턴] HR Intern(채용 운영)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://pfct.career.greetinghr.com/ko/o/236699",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-09-29",
-   "new": false
-  },
-  {
-   "회사": "pfct",
-   "플랫폼": "greetinghr",
    "title": "[전환형 인턴] B2B AI Product Owner Intern(PO, 프로덕트 오너)",
    "career": "경력무관",
    "emp": "인턴",
@@ -428,19 +428,6 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2026-09-08",
-   "new": false
-  },
-  {
-   "회사": "pfct",
-   "플랫폼": "greetinghr",
-   "title": "[계약직] Lending Operations(경력 대출영업 상담사)",
-   "career": "경력 1년~3",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://pfct.career.greetinghr.com/ko/o/234605",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-08-26",
    "new": false
   },
   {
@@ -1785,19 +1772,6 @@
   {
    "회사": "하이브",
    "플랫폼": "greetinghr",
-   "title": "[HYBE] 보안정책(물리보안)",
-   "career": "경력 1년~7",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://careers.hybecorp.com/ko/o/238910",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-09-29",
-   "new": false
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
    "title": "[Weverse Company] 오프라인 커머스 기획/운영",
    "career": "경력무관",
    "emp": "정규직",
@@ -1820,6 +1794,19 @@
    "intern": false,
    "openDate": "2026-09-23",
    "new": false
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
+   "title": "[Weverse Company] 플랫폼 서비스 운영 (인턴)*",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/238385",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-09-23",
+   "new": true
   },
   {
    "회사": "하이브",
@@ -1963,6 +1950,32 @@
    "intern": false,
    "openDate": "2026-02-10",
    "new": false
+  },
+  {
+   "회사": "하이컨시",
+   "플랫폼": "greetinghr",
+   "title": "[시대인재 LEET] 온라인 교육 컨텐츠 기획 (경력 5~10년)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/239076",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-09-30",
+   "new": true
+  },
+  {
+   "회사": "하이컨시",
+   "플랫폼": "greetinghr",
+   "title": "[시대인재 LEET] 온라인 교육 컨텐츠 기획 (신입~경력 3년)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/239075",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-09-30",
+   "new": true
   },
   {
    "회사": "하이컨시",
