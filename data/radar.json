@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-30T07:51:47.118Z",
+  "collectedAt": "2026-10-01T08:10:31.794Z",
   "errors": {},
   "jobs": [
     {
@@ -76,7 +76,7 @@
       "url": "https://toss.im/career/job-detail?job_id=6355421003&sub_position_id=7739173003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
       "years": null,
       "noLimit": false,
-      "evidence": "은행 도메인에 대한 이해도가 없어도 괜찮아요. 고객 및 내부 사용자의 문제를 집요하게 정의하고, 해결까지 주도해본 경험이 있는 분을 찾고 있어요.",
+      "evidence": "공통 플랫폼, 백오피스, 내부 어드민, B2B SaaS 등을 0→1 또는 1→N으로 기획·개선·확장해본 경험이 있는 분을 찾고 있어요.",
       "roles": [
         "프로덕트 기획"
       ],
@@ -88,7 +88,7 @@
       "bucket": "unstated",
       "fit": true,
       "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n은행 도메인에 대한 이해도가 없어도 괜찮아요. 고객 및 내부 사용자의 문제를 집요하게 정의하고, 해결까지 주도해본 경험이 있는 분을 찾고 있어요.\n공통 플랫폼, 백오피스, 내부 어드민, B2E 시스템을 0→1 또는 1→N으로 기획·운영·개선·확장해본 경험이 있는 분이 필요해요.\n디자인·프론트·서버 챕터를 아우르며 플랫폼 설계의 트레이드오프를 제품 관점에서 판단할 수 있는 분이 필요해요.\n복수의 이해관계자와 협업하며 복잡한 문제를 명확히 정의하고, 장기 로드맵으로 정리해 실행까지 이끈 경험이 있는 분을 기대해요.\n또한 설득과 신뢰를 통해 실행을 만들어본 경험이 있으신 분이면 좋겠어요.\n만든 플랫폼이 실제로 '잘 쓰이는 상태'가 되기까지 End-to-End 오너십을 갖고 책임지는 분을 찾고 있어요.\n\n이런 경험이 있다면 더 좋아요\n\n플랫폼·백오피스·내부 어드민을 기획·운영하며 조직 전체의 생산성을 끌어올린 경험\n금융·핀테크 또는 기타 복잡도 높은 서비스의 운영 시스템 기획 경험\n디자인 시스템 또는 개발 공통 컴포넌트 거버넌스를 운영해본 경험\n빠르게 성장하는 조직에서 기술 부채와 확장 속도 사이의 균형을 관리해본 경험\nAI/LLM 기반 워크플로우 또는 어드민 자동화를 기획하거나 적용해본 경험\n\n"
+      "jd": "이런 분과 함께하고 싶어요\n\n공통 플랫폼, 백오피스, 내부 어드민, B2B SaaS 등을 0→1 또는 1→N으로 기획·개선·확장해본 경험이 있는 분을 찾고 있어요.\n시스템 구조와 기술적 제약을 이해하고, 개발자와 깊이 있게 논의하며 의사결정할 수 있는 분이 필요해요.\n복수의 이해관계자와 협업하며 복잡한 문제를 명확히 정의하고, 장기 로드맵으로 정리해 실행까지 이끈 경험이 있는 분을 기대해요.\n플랫폼을 '만드는 것'에서 끝내지 않고, 실제 사용자가 가치와 효용을 느끼고 자발적으로 찾아 쓰는 상태까지 만들어본 분이면 좋겠어요.\n설득과 신뢰를 통해 실행을 만들어본 경험이 있는 분을 찾고 있어요.\n\n이런 경험이 있다면 더 좋아요\n\n회원·계정·인증, 리스크·FDS, 정산·재무 시스템 등 공통 인프라 영역의 제품 경험\n개발자 출신이거나 Technical PO/PM으로서 아키텍처 개선, 레거시 전환을 리딩해본 경험\n금융·핀테크 등 규제와 컴플라이언스 요건을 제품 요건으로 전환해본 경험\nAI/LLM 기반 워크플로우 또는 어드민 자동화를 기획하거나 적용해본 경험\n빠르게 성장하는 조직에서 기술 부채와 확장 속도 사이의 균형을 관리해본 경험\n\n"
     },
     {
       "source": "toss",
@@ -476,32 +476,10 @@
     },
     {
       "source": "toss",
-      "company": "토스",
-      "title": "Technical Product Owner · 공통 · AI",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=5452510003&company=%ED%86%A0%EC%8A%A4",
-      "years": null,
-      "noLimit": false,
-      "evidence": "기술 기반의 웹/앱 서비스에 대한 이해도가 높은 분이 필요해요.",
-      "roles": [
-        "프로덕트 기획"
-      ],
-      "reqs": [
-        "SQL·데이터",
-        "AI·LLM",
-        "금융 도메인"
-      ],
-      "bucket": "unstated",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n기술 기반의 웹/앱 서비스에 대한 이해도가 높은 분이 필요해요.\n복잡한 기술 제품을 리딩한 경험이 있는 분이 필요해요.\n고객의 입장에서 문제를 정의하고 해결해 본 경험이 필요해요. \n데이터를 기반으로 복잡한 문제를 해결할 수 있는 분이 필요해요. \n도전적인 상황에서도 끝까지 해결책을 찾아내는 실행력을 갖춘 분이 필요해요. \n애자일한 방식으로 성과를 만들거나 실패를 경험해본 분이 필요해요. \n사업 기획, 제품 개발, 조직 운영까지 스타트업의 A to Z를 다뤄본 창업 경험이 있으면 좋아요.\n\n합류하면 담당할 수 있는 서비스를 소개해 드려요 \n\nPlatform Division: 2,900만명의 토스 사용자가 확인하는 홈 화면과 유관 서비스를 만들고 있어요. \nFoundation Division: 인증, 리스크 관리, 비즈니스 회원, 송금 등 토스 사업 도메인에 필요한 공통 기반 서비스를 만들어요. \nGrowth Division: 토스 앱 사용자 수 성장, 리텐션 강화, 수익화 등의 목표와 관련된 서비스를 만들고 있어요. 특히 데이터 기반의 고객 분석을 바탕으로 신규 서비스를 만들어요. \nPay Domain: 간편결제 ‘토스페이’를 만들고 있으며, 안정적인 결제 플랫폼과 혁신적인 결제 방식, 토스페이 유저 성장을 위한 다양한 서비스를 만들어요. \nCommerce Domain: 토스 앱 내의 ‘토스쇼핑’을 만들고 있으며, 24년 하반기에 커머스 공통 기능을 갖추고 올해부터 본격적으로 유저가 선택할 수밖에 없는 토스 커머스를 위한 다양한 서비스를 출시하고 있어요. \nFinancial Marketplace Domain: 대출, 카드, 계좌, 보험 등의 중개 서비스 및 신용데이터 사업을 담당하고 있어요. 여러 제휴사와의 협업을 통해 가장 경쟁력 있는 금융 상품을 유저에게 제공하는 것을 목표로 해요. \nAds Domain: 앱테크에서 본격적으로 광고 사업으로 성장하고 있으며, 토스 유저와 광고주 모두에게 가치를 제공하는 광고 서비스를 만들고 있어요. \n(참고) 도메인: 계열사 수준으로 독립 성장 가능한 조직, 디비전: 공통 제품을 담당하고 기반을 구축하는 제품팀 중심 조직\n\n"
-    },
-    {
-      "source": "toss",
       "company": "토스플레이스",
-      "title": "Technical Product Owner · 공통",
+      "title": "Technical Product Owner (공통)",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=6585474003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+      "url": "https://toss.im/career/job-detail?job_id=6585474003",
       "years": null,
       "noLimit": false,
       "evidence": "기술 기반의 IT 서비스에 대한 이해도가 높으신 분이 필요해요.",
@@ -513,7 +491,7 @@
       ],
       "bucket": "unstated",
       "fit": true,
-      "firstSeen": "2026-09-17",
+      "firstSeen": "2026-10-01",
       "jd": "이런 분과 함께하고 싶어요\n\n기술 기반의 IT 서비스에 대한 이해도가 높으신 분이 필요해요.\n단순 구현을 넘어서 기술적인 방향성과 구조를 함께 고민해본 경험이 필요해요.\n데이터를 기반으로 문제를 해결할 수 있는 Analytic Mindset이 있으신 분이면 좋아요.\n도전적인 상황에서도 끝까지 해결책을 찾아낸 실행 경험이 있으신 분이면 좋아요.\n여러 도메인에 걸친 복잡한 기술 문제를 조율하고 풀어본 경험이 있으신 분이면 더욱 좋아요.\n복잡한 기술 제품을 리딩해보았거나 개발팀 리더로서 기술 아젠다를 해결해보신 경험이 있다면 더욱 좋아요.\n서비스를 크게 성장시키기 위해 자원을 최적화 하고 지속적인 확장이 가능한 구조를 고민하고 만드셨던 경험이 있다면 더욱 좋아요.\n\n"
     },
     {
@@ -737,6 +715,27 @@
       "fit": true,
       "firstSeen": "2026-09-17",
       "jd": "이런 분과 함께하고 싶어요\n\n프로덕트 데이터 분석에 대한 높은 이해도를 가지고 마케팅 또는 제품을 통해 Epic Growth를 만들어 낸 경험이 있는 분\n다양한 실험으로 가설을 검증하며, 끊임없는 Iteration을 통해 최적의 CAC를 찾아낸 경험이 있는 분\nTracking 가능한 마케팅 전략을 수립하고, Performance 검증 후 과감한 의사결정과 실행이 가능하신 분\n모바일 비즈니스에 대한 높은 이해도를 바탕으로 주요 지표 개선할 수 있는 분 (User Acquisition, Activation, Resurrection, Retention, Frequency)\n단순 매니징이 아닌 실무에 대한 높은 이해도를 바탕으로 팀 전체의 역량을 이끌어내고 Player-Coach로서 Growth 전략을 도출할 수 있는 분\n\n이런 경험이 있다면 더 좋아요\n\n10년 이상 모바일 App/Web에 대한 높은 이해를 바탕으로 프로덕트 마케팅 전략 수립 경험이 있으시면 더욱 좋습니다.\nProduct Owner로서 제품을 직접 만들어 유의미한 성과를 만들어 낸 경험이 있으시면 더 좋습니다.\nSQL, Python, R, Spark 등 데이터 프로세싱을 자유롭게 다루고, 분석에 그치는 것이 아닌 실행으로 만들어낸 경험이 있으시면 더 좋습니다.\nReferral 설계를 통해 중장기적으로 유의미한 Growth를 만들어 낸 경험이 있으시면 더 좋습니다.\nCRM 마케팅에 대한 높은 이해도를 가지고 Resurrection, Retention, Frequency를 개선한 경험이 있으시면 더 좋습니다.\n글로벌 프로덕트 마케팅 경험이 있으시면 더 좋습니다.\n\n토스로의 "
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Head of YouTube Music Partnerships (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/105451889847345862-head-of-youtube-music-partnerships-english-korean",
+      "years": 15,
+      "noLimit": false,
+      "evidence": "15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-10-01",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.\nExperience in a leadership role, managing teams and working with executives in the music industry.\nExperience with commercial agreements, digital music licensing agreements, agreements and support of multi-territorial licensing entities.\nAbility to communicate fluently in English and Korean to engage with clients in the region.\n"
     },
     {
       "source": "google",
@@ -1084,28 +1083,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Top Partner Manager, AI Infrastructure and Supply Chain (Korean, English)",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122332087351943878-top-partner-manager-ai-infrastructure-and-supply-chain-korean-english",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "10 years of experience in business development, partnerships, strategy,",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience in business development, partnerships, strategy,\nsupply chain, semiconductors, or other key components management.\nExperience working with C-level executives and cross-functionally across all levels of management.\nExperience in leading cross-functional projects (e.g., strategy plan, new product launch) from inception to deployment.\nAbility to communicate in Korean and English fluently to support partner relationship management.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Strategy and Operations Manager, Google Cloud (Korean, English)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -1315,6 +1292,29 @@
       "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "SKILLS YOU'LL NEED TO BRING\n\n - Experience in selling technical products to technical buyers in the Mid-Market segment (500-2999 employees)\n\n - Technical fluency and genuine comfort building live in software—you can demo, co-design, and troubleshoot in front of a customer without a specialist in the room\n\n - Strong discovery and qualification instincts, with the ability to map customer workflows and translate them into commercial outcomes and adoption plans\n\n - Experience running complex, multi-stakeholder interactions including procurement, legal, and security review cycles\n\n - You can own the room—you operate with agency and urgency to bring new ideas and workflows to our customers and present simple ways to solve complex problems\n\n - You’re obsessed with AI, constantly building with the newest tools and learning new ways of working\n\n - Native or bilingual-level Korean fluency and business-level English proficiency\n   \n   \n\n\nNICE TO HAVES\n\n - Full-cycle B2B software sales experience or solutions engineering experience, with a consistent track record of exceeding quota across new logo acquisition and expansion motions\n   \n   - Familiarity with usage-based or consumption-based pricing models and the ability to structure credit-based commercial proposals\n\n - Prior experience selling to mid-market and enterprise accounts in productivity, collaboration, or workflow software\n\n - Experience in a shared account ownership model, partnering with a post-sale or CS team as part of an integrated customer motion\n\n\n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550. https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21\n\n\n\n#LI-Onsite\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement — when that’s the case, we'll say so explicitly in the qualifications. People who thrive here don’t treat AI as a novelty. They use it to think better, and make their work easier for others to build on.\n\n\n\n\nEQUAL OPPORTUNITY & ACCOMMODATIONS\n\nWe hire talented people from a wide range of backgrounds. If you’re excited"
+    },
+    {
+      "source": "notion",
+      "company": "Notion",
+      "title": "Forward Deployed Architect",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "- 5+ years of experience in tech services/consulting, solutions architecture, implementation, customer engineering, or a similar customer-facing role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "SQL·데이터",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-10-01",
+      "jd": "SKILLS YOU'LL NEED TO BRING:\n\n - 5+ years of experience in tech services/consulting, solutions architecture, implementation, customer engineering, or a similar customer-facing role.\n\n - Proven ability to translate ambiguous customer goals into clear workflows, implementation plans, solution architectures, and measurable success criteria.\n\n - Strong consultative discovery skills, including the ability to map current-state workflows, identify customer pain, understand operating models, surface technical constraints, and define practical future-state solutions.\n\n - Hands-on AI builder mindset, with experience using AI tools to design, prototype, automate, or improve real business workflows.\n\n - Proven track record of designing and deploying AI-powered workflows or agents in production for customers.\n\n - Hands-on technical depth in data modeling and permission design, API and integration patterns, agent design and evaluation, enterprise security and governance, and data validation with SQL or scripts. You do not need to write production code.\n\n - Strong experience delivering implementations that drive adoption, change management and long-term customer value.\n\n - Strong project and engagement management skills, including ownership of scope, timeline, deliverables, stakeholder alignment, risks, decisions, dependencies and launch readiness.\n\n - Experience scoping Services work, estimating effort and delivering within agreed commercial boundaries.\n\n - Exceptional written and verbal communication, with the ability to simplify complex technical concepts for business, technical, and executive audiences.\n\n - Strong executive presence and customer judgment, with the ability to build trust, frame tradeoffs clearly, and move ambiguous decisions forward.\n\n - Experience coaching consultants or architects, and building methods, reference architectures or packaged services that others adopt.\n\n - Bias toward action, high learning velocity, and comfort building in fast-changing AI-native product environments.\n\n - Professional fluency in Korean and English.\n\n\n\n\nNICE TO HAVES:\n\n - Experience with Notion, APIs, MCPs, Workers, coding agents or developer platform workflows.\n\n - Experience delivering for large Korean enterprises and navigating complex, multi-stakeholder decision processes.\n\n - Experience enabling or co-delivering with implementation partners.\n\n - Previous experience in a fast-paced, high-growth technology environment.\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI experti"
     },
     {
       "source": "anthropic",

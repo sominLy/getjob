@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-09-30T07:49:34.132873+00:00",
+ "collectedAt": "2026-10-01T08:08:38.531364+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -719,19 +719,6 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
-   "title": "Flight실 항공사업팀 사업기획 매니저",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/232802",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-08-11",
-   "new": false
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
    "title": "T&A실 미주·대양주 사업개발 매니저",
    "career": "-",
    "emp": "정규직",
@@ -831,19 +818,6 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2025-12-05",
-   "new": false
-  },
-  {
-   "회사": "마카롱팩토리",
-   "플랫폼": "greetinghr",
-   "title": "회계·정산 매니저 (전환형 인턴)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://mycle.career.greetinghr.com/ko/o/236240",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-09-09",
    "new": false
   },
   {
@@ -1118,6 +1092,19 @@
    "intern": false,
    "openDate": "2026-08-26",
    "new": false
+  },
+  {
+   "회사": "아우토크립트",
+   "플랫폼": "greetinghr",
+   "title": "기술기획/연구과제 기술 개발 담당자",
+   "career": "경력 0년~",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://autocrypt.career.greetinghr.com/ko/o/239139",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-01",
+   "new": true
   },
   {
    "회사": "아우토크립트",
@@ -1408,15 +1395,15 @@
   {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
-   "title": "광고 운영 담당자 (계약직)",
+   "title": "광고 운영 담당자 (인턴)",
    "career": "경력무관",
-   "emp": "계약직",
+   "emp": "인턴",
    "due": "2026-10-06",
-   "link": "https://job.wadiz.io/ko/o/236195",
+   "link": "https://job.wadiz.io/ko/o/239179",
    "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-08",
-   "new": false
+   "intern": true,
+   "openDate": "2026-10-01",
+   "new": true
   },
   {
    "회사": "와디즈",
@@ -1525,19 +1512,6 @@
   {
    "회사": "카카오페이",
    "플랫폼": "greetinghr",
-   "title": "[어시스턴트] 대출 마케팅 업무 운영 지원",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/234437",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-08-25",
-   "new": false
-  },
-  {
-   "회사": "카카오페이",
-   "플랫폼": "greetinghr",
    "title": "[어시스턴트] 오프라인 결제 마케팅 업무 지원",
    "career": "신입",
    "emp": "인턴",
@@ -1629,32 +1603,6 @@
   {
    "회사": "팀스파르타",
    "플랫폼": "greetinghr",
-   "title": "AI 교육 콘텐츠 기획자 (Curriculum Producer)",
-   "career": "경력 0년~2",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://career.spartaclub.kr/ko/o/235960",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-09-07",
-   "new": false
-  },
-  {
-   "회사": "팀스파르타",
-   "플랫폼": "greetinghr",
-   "title": "AI 교육 콘텐츠 기획자 (Curriculum Producer) 채용연계형 인턴",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.spartaclub.kr/ko/o/225008",
-   "cat": "기획·PM/PO",
-   "intern": true,
-   "openDate": "2026-09-01",
-   "new": false
-  },
-  {
-   "회사": "팀스파르타",
-   "플랫폼": "greetinghr",
    "title": "B2B AX 사업운영 담당자 (계약·정산·자산 관리)",
    "career": "경력 0년~3",
    "emp": "계약직",
@@ -1664,6 +1612,19 @@
    "intern": false,
    "openDate": "2026-07-31",
    "new": false
+  },
+  {
+   "회사": "팀스파르타",
+   "플랫폼": "greetinghr",
+   "title": "B2G 사업 운영 매니저 (미래내일 일경험 사업)",
+   "career": "경력 1년~3",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://career.spartaclub.kr/ko/o/239236",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-01",
+   "new": true
   },
   {
    "회사": "팀스파르타",
@@ -1806,7 +1767,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "회사": "하이브",
@@ -1954,32 +1915,6 @@
   {
    "회사": "하이컨시",
    "플랫폼": "greetinghr",
-   "title": "[시대인재 LEET] 온라인 교육 컨텐츠 기획 (경력 5~10년)",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://hiconsy.career.greetinghr.com/ko/o/239076",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-09-30",
-   "new": true
-  },
-  {
-   "회사": "하이컨시",
-   "플랫폼": "greetinghr",
-   "title": "[시대인재 LEET] 온라인 교육 컨텐츠 기획 (신입~경력 3년)",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://hiconsy.career.greetinghr.com/ko/o/239075",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-09-30",
-   "new": true
-  },
-  {
-   "회사": "하이컨시",
-   "플랫폼": "greetinghr",
    "title": "[시대인재 LEET] 학원 운영 담당자",
    "career": "경력무관",
    "emp": "계약직",
@@ -1988,6 +1923,32 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-08-07",
+   "new": false
+  },
+  {
+   "회사": "하이컨시",
+   "플랫폼": "greetinghr",
+   "title": "[시대인재] 신규사업 온라인 교육 컨텐츠 기획 (경력 5~10년)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/239076",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-09-30",
+   "new": false
+  },
+  {
+   "회사": "하이컨시",
+   "플랫폼": "greetinghr",
+   "title": "[시대인재] 신규사업 온라인 교육 컨텐츠 기획 (신입~경력 3년)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/239075",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-09-30",
    "new": false
   },
   {
@@ -2131,45 +2092,6 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-10",
-   "new": false
-  },
-  {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
-   "title": "[쿠팡] 운영 컴플라이언스 담당자 (신입 채용, Business Operations)",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8127505",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-08-14",
-   "new": false
-  },
-  {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
-   "title": "[쿠팡] 주니어 Data PM (신입가능)",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8210028",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-09-16",
-   "new": false
-  },
-  {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
-   "title": "[쿠팡] Junior Data PM (신입 채용, Catalog Quality Insights)",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8163586",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-08-28",
    "new": false
   },
   {
@@ -2407,6 +2329,19 @@
    "openDate": "2026-08-26"
   },
   {
+   "회사": "Notion",
+   "플랫폼": "global",
+   "title": "Forward Deployed Architect",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "openDate": "2026-10-01"
+  },
+  {
    "회사": "OpenAI",
    "플랫폼": "global",
    "title": "Applied AI Architect",
@@ -2513,6 +2448,19 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Head of YouTube Music Partnerships (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/105451889847345862",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2609,19 +2557,6 @@
    "emp": "-",
    "due": "Seoul, South Korea",
    "link": "https://www.google.com/about/careers/applications/jobs/results/139541106478981830",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "Top Partner Manager, AI Infrastructure and Supply Chain (Korean, English)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/122332087351943878",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,

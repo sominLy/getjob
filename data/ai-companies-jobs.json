@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -139,6 +139,14 @@
       "updated": "2026-08-26"
     },
     {
+      "company": "Notion",
+      "title": "Forward Deployed Architect",
+      "location": "Seoul, South Korea",
+      "department": "Sales",
+      "url": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
+      "updated": "2026-10-01"
+    },
+    {
       "company": "OpenAI",
       "title": "Applied AI Architect",
       "location": "Seoul, South Korea",
@@ -204,6 +212,14 @@
     },
     {
       "company": "Google",
+      "title": "Head of YouTube Music Partnerships (English, Korean)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/105451889847345862",
+      "updated": ""
+    },
+    {
+      "company": "Google",
       "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "department": "",
@@ -264,14 +280,6 @@
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/139541106478981830",
-      "updated": ""
-    },
-    {
-      "company": "Google",
-      "title": "Top Partner Manager, AI Infrastructure and Supply Chain (Korean, English)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122332087351943878",
       "updated": ""
     },
     {
