@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-01T08:08:38.531364+00:00",
+ "collectedAt": "2026-10-02T07:50:54.915854+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -472,7 +472,7 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
-   "title": "[신사업] 글로벌 고객 컨설턴트 - 영어 (계약직)",
+   "title": "[언니가이드] 글로벌 고객 상담사 - 영어 (계약직)",
    "career": "경력무관",
    "emp": "계약직",
    "due": "상시",
@@ -532,19 +532,6 @@
    "cat": "기획·PM/PO",
    "intern": true,
    "openDate": "2026-05-18",
-   "new": false
-  },
-  {
-   "회사": "넛지헬스케어",
-   "플랫폼": "greetinghr",
-   "title": "[캐시워크] 전략기획(헬스케어 분야) 채용전환형 인턴",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://cashwalk12.career.greetinghr.com/ko/o/118886",
-   "cat": "기획·PM/PO",
-   "intern": true,
-   "openDate": "2026-03-03",
    "new": false
   },
   {
@@ -1104,7 +1091,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-01",
-   "new": true
+   "new": false
   },
   {
    "회사": "아우토크립트",
@@ -1317,6 +1304,19 @@
   {
    "회사": "에코마케팅",
    "플랫폼": "greetinghr",
+   "title": "[2026 하반기 집중 채용] 글로벌(영어권) 퍼포먼스 마케터 신입사원 채용",
+   "career": "신입",
+   "emp": "-",
+   "due": "2026-10-19",
+   "link": "https://career.echomarketing.co.kr/ko/o/239266",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-01",
+   "new": true
+  },
+  {
+   "회사": "에코마케팅",
+   "플랫폼": "greetinghr",
    "title": "[2026 하반기 집중 채용] 글로벌(일본) 마케터 채용 (일본인 우대)",
    "career": "경력무관",
    "emp": "정규직",
@@ -1380,6 +1380,19 @@
    "new": false
   },
   {
+   "회사": "에코마케팅",
+   "플랫폼": "greetinghr",
+   "title": "마케팅 사무보조 계약직 채용",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "2026-10-11",
+   "link": "https://career.echomarketing.co.kr/ko/o/239386",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-02",
+   "new": true
+  },
+  {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
    "title": "[와디즈PD 공개채용] 마케팅 PD (MD 성장형 포지션)",
@@ -1403,7 +1416,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-01",
-   "new": true
+   "new": false
   },
   {
    "회사": "와디즈",
@@ -1512,15 +1525,41 @@
   {
    "회사": "카카오페이",
    "플랫폼": "greetinghr",
-   "title": "[어시스턴트] 오프라인 결제 마케팅 업무 지원",
+   "title": "[어시스턴트] 투데이탭 콘텐츠 운영 지원",
    "career": "신입",
    "emp": "인턴",
    "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/236333",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/239434",
    "cat": "마케팅·브랜딩",
    "intern": true,
-   "openDate": "2026-09-09",
-   "new": false
+   "openDate": "2026-10-02",
+   "new": true
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
+   "title": "[어시스턴트] 혜택/참여형 서비스 운영 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/239263",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-10-01",
+   "new": true
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
+   "title": "[어시스턴트] 인재영입 운영 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/239258",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-10-01",
+   "new": true
   },
   {
    "회사": "카카오페이",
@@ -1624,7 +1663,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-01",
-   "new": true
+   "new": false
   },
   {
    "회사": "팀스파르타",
@@ -1928,32 +1967,6 @@
   {
    "회사": "하이컨시",
    "플랫폼": "greetinghr",
-   "title": "[시대인재] 신규사업 온라인 교육 컨텐츠 기획 (경력 5~10년)",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://hiconsy.career.greetinghr.com/ko/o/239076",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-09-30",
-   "new": false
-  },
-  {
-   "회사": "하이컨시",
-   "플랫폼": "greetinghr",
-   "title": "[시대인재] 신규사업 온라인 교육 컨텐츠 기획 (신입~경력 3년)",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://hiconsy.career.greetinghr.com/ko/o/239075",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-09-30",
-   "new": false
-  },
-  {
-   "회사": "하이컨시",
-   "플랫폼": "greetinghr",
    "title": "성인교육 및 신사업 온/오프라인 기획·운영 담당자",
    "career": "경력무관",
    "emp": "정규직",
@@ -1963,6 +1976,45 @@
    "intern": false,
    "openDate": "2026-07-01",
    "new": false
+  },
+  {
+   "회사": "하이컨시",
+   "플랫폼": "greetinghr",
+   "title": "[시대인재] 성인교육 사업 부문별 신입/경력 채용 (교육 콘텐츠 제작 연구원)",
+   "career": "경력무관",
+   "emp": "-",
+   "due": "상시",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/239442",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-02",
+   "new": true
+  },
+  {
+   "회사": "하이컨시",
+   "플랫폼": "greetinghr",
+   "title": "[시대인재] 성인교육 사업 부문별 신입/경력 채용 (오프라인 학원 기획/운영)",
+   "career": "경력무관",
+   "emp": "-",
+   "due": "상시",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/239441",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-02",
+   "new": true
+  },
+  {
+   "회사": "하이컨시",
+   "플랫폼": "greetinghr",
+   "title": "[시대인재] 성인교육 사업 부문별 신입/경력 채용 (온라인 교육 사업/상품 기획)",
+   "career": "경력무관",
+   "emp": "-",
+   "due": "상시",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/239439",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-02",
+   "new": true
   },
   {
    "회사": "헥토",
@@ -2338,7 +2390,7 @@
    "link": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "openDate": "2026-10-01"
   },
   {
@@ -2422,19 +2474,6 @@
   {
    "회사": "OpenAI",
    "플랫폼": "global",
-   "title": "Partner Director, Korea",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://jobs.ashbyhq.com/openai/ea647f38-5af4-4767-8268-608059af4095",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "openDate": "2026-08-21"
-  },
-  {
-   "회사": "OpenAI",
-   "플랫폼": "global",
    "title": "Strategy & Operations Lead — Korea",
    "career": "-",
    "emp": "-",
@@ -2453,19 +2492,6 @@
    "emp": "-",
    "due": "Seoul, South Korea",
    "link": "https://www.google.com/about/careers/applications/jobs/results/105451889847345862",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": true,
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/101798306123784902",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,

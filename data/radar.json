@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-01T08:10:31.794Z",
+  "collectedAt": "2026-10-02T07:52:58.307Z",
   "errors": {},
   "jobs": [
     {
@@ -153,9 +153,9 @@
     {
       "source": "toss",
       "company": "토스뱅크",
-      "title": "Product Manager · LLM",
+      "title": "Product Manager (LLM)",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7611090003&sub_position_id=7611090003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
+      "url": "https://toss.im/career/job-detail?job_id=7611090003",
       "years": null,
       "noLimit": false,
       "evidence": "AI Agent, LLM, ML 을 활용한 서비스 경험이나 강한 관심이 있는 분이 필요해요.",
@@ -167,26 +167,8 @@
       ],
       "bucket": "unstated",
       "fit": true,
-      "firstSeen": "2026-09-17",
+      "firstSeen": "2026-10-02",
       "jd": "이런 분과 함께하고 싶어요\n\nAI Agent, LLM, ML 을 활용한 서비스 경험이나 강한 관심이 있는 분이 필요해요.\n기술적 난이도가 높거나 불확실성이 큰 과제를 끝까지 리딩한 경험이 있는 분이 필요해요.\n단순한 프로젝트 관리가 아니라, 전사 개발 프로세스나 문화를 바꾸는 데까지 관여하며 다양한 이해관계자(기획/디자인/개발/운영/제휴사 등)와 함께 더 강한 팀을 만들어 가고 싶은 분이면 좋아요.\n비즈니스 임팩트와 기술적 타당성을 함께 고려하며 단계적 성과를 만들 줄 아는 실행력을 갖춘 분이 필요해요.\n주어진 문제를 그대로 실행하기보다는, 문제를 종합적으로 사고하고 필요시 재정의하여 더 나은 방향으로 이끄는 분과 함께하고 싶어요.\n머신러닝 기반 제품 또는 시스템을 설계하고 운영해 본 실무 경험이 있다면 더욱 좋아요.\n\n"
-    },
-    {
-      "source": "toss",
-      "company": "토스페이먼츠",
-      "title": "Product Manager · 공통",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7611090003&sub_position_id=6301568003&company=%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0",
-      "years": null,
-      "noLimit": false,
-      "evidence": "고객의 입장에서 문제를 정의하고, 해결해 본 경험이 있는 분이 필요해요.",
-      "roles": [
-        "프로덕트 기획"
-      ],
-      "reqs": [],
-      "bucket": "unstated",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n고객의 입장에서 문제를 정의하고, 해결해 본 경험이 있는 분이 필요해요.\n문제 인식, 솔루션 도출, 그리고 비즈니스 임팩트까지의 연결이 논리적이고 합리적인 분이 필요해요.\n업무를 주도적으로 수행하고 요구사항을 발굴하여 비즈니스와 제품에 유의미한 성과를 만들거나 실패를 통해 러닝한 경험이 있으면 좋아요.\n다양한 요구사항과 팀의 현재 상태를 일목요연하게 정리할 수 있는 분이 필요해요. 다양한 이해 관계자들(기획/디자인/개발/CX/제휴사 등)과 원활하게 소통하며 서비스를 안정적으로 운영하거나 개선했던 경험이 있다면 좋아요.\n어려운 미션, 도전적인 목표, 힘든 순간에도 에너지와 의지를 갖추고 임팩트를 만들어 내고야 마는 분이면 좋아요.\n팀원들에게 동기를 부여하고, 함께 성장하는 팀 문화를 만들어주실 수 있는 분이 필요해요.\n\n"
     },
     {
       "source": "toss",
@@ -476,10 +458,32 @@
     },
     {
       "source": "toss",
-      "company": "토스플레이스",
-      "title": "Technical Product Owner (공통)",
+      "company": "토스",
+      "title": "Technical Product Owner · 공통 · AI",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=6585474003",
+      "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=5452510003&company=%ED%86%A0%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "기술 기반의 웹/앱 서비스에 대한 이해도가 높은 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "SQL·데이터",
+        "AI·LLM",
+        "금융 도메인"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-10-02",
+      "jd": "이런 분과 함께하고 싶어요\n\n기술 기반의 웹/앱 서비스에 대한 이해도가 높은 분이 필요해요.\n복잡한 기술 제품을 리딩한 경험이 있는 분이 필요해요.\n고객의 입장에서 문제를 정의하고 해결해 본 경험이 필요해요. \n데이터를 기반으로 복잡한 문제를 해결할 수 있는 분이 필요해요. \n도전적인 상황에서도 끝까지 해결책을 찾아내는 실행력을 갖춘 분이 필요해요. \n애자일한 방식으로 성과를 만들거나 실패를 경험해본 분이 필요해요. \n사업 기획, 제품 개발, 조직 운영까지 스타트업의 A to Z를 다뤄본 창업 경험이 있으면 좋아요.\n\n합류하면 담당할 수 있는 서비스를 소개해 드려요 \n\nPlatform Division: 2,900만명의 토스 사용자가 확인하는 홈 화면과 유관 서비스를 만들고 있어요. \nFoundation Division: 인증, 리스크 관리, 비즈니스 회원, 송금 등 토스 사업 도메인에 필요한 공통 기반 서비스를 만들어요. \nGrowth Division: 토스 앱 사용자 수 성장, 리텐션 강화, 수익화 등의 목표와 관련된 서비스를 만들고 있어요. 특히 데이터 기반의 고객 분석을 바탕으로 신규 서비스를 만들어요. \nPay Domain: 간편결제 ‘토스페이’를 만들고 있으며, 안정적인 결제 플랫폼과 혁신적인 결제 방식, 토스페이 유저 성장을 위한 다양한 서비스를 만들어요. \nCommerce Domain: 토스 앱 내의 ‘토스쇼핑’을 만들고 있으며, 24년 하반기에 커머스 공통 기능을 갖추고 올해부터 본격적으로 유저가 선택할 수밖에 없는 토스 커머스를 위한 다양한 서비스를 출시하고 있어요. \nFinancial Marketplace Domain: 대출, 카드, 계좌, 보험 등의 중개 서비스 및 신용데이터 사업을 담당하고 있어요. 여러 제휴사와의 협업을 통해 가장 경쟁력 있는 금융 상품을 유저에게 제공하는 것을 목표로 해요. \nAds Domain: 앱테크에서 본격적으로 광고 사업으로 성장하고 있으며, 토스 유저와 광고주 모두에게 가치를 제공하는 광고 서비스를 만들고 있어요. \n(참고) 도메인: 계열사 수준으로 독립 성장 가능한 조직, 디비전: 공통 제품을 담당하고 기반을 구축하는 제품팀 중심 조직\n\n"
+    },
+    {
+      "source": "toss",
+      "company": "토스플레이스",
+      "title": "Technical Product Owner · 공통",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=6585474003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
       "years": null,
       "noLimit": false,
       "evidence": "기술 기반의 IT 서비스에 대한 이해도가 높으신 분이 필요해요.",
@@ -491,7 +495,7 @@
       ],
       "bucket": "unstated",
       "fit": true,
-      "firstSeen": "2026-10-01",
+      "firstSeen": "2026-10-02",
       "jd": "이런 분과 함께하고 싶어요\n\n기술 기반의 IT 서비스에 대한 이해도가 높으신 분이 필요해요.\n단순 구현을 넘어서 기술적인 방향성과 구조를 함께 고민해본 경험이 필요해요.\n데이터를 기반으로 문제를 해결할 수 있는 Analytic Mindset이 있으신 분이면 좋아요.\n도전적인 상황에서도 끝까지 해결책을 찾아낸 실행 경험이 있으신 분이면 좋아요.\n여러 도메인에 걸친 복잡한 기술 문제를 조율하고 풀어본 경험이 있으신 분이면 더욱 좋아요.\n복잡한 기술 제품을 리딩해보았거나 개발팀 리더로서 기술 아젠다를 해결해보신 경험이 있다면 더욱 좋아요.\n서비스를 크게 성장시키기 위해 자원을 최적화 하고 지속적인 확장이 가능한 구조를 고민하고 만드셨던 경험이 있다면 더욱 좋아요.\n\n"
     },
     {
@@ -636,26 +640,6 @@
     },
     {
       "source": "toss",
-      "company": "토스페이먼츠",
-      "title": "Marketing Manager · B2B",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=6258609003&sub_position_id=7581901003&company=%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0",
-      "years": null,
-      "noLimit": false,
-      "evidence": "B2B 프로덕트/서비스를 대상으로 타겟 고객을 정의하고, 이를 바탕으로 핵심 메시지(소구점)를 개발해 마케팅에 적용해 본 경험이 필요해요.",
-      "roles": [
-        "마케팅·브랜드"
-      ],
-      "reqs": [
-        "B2B"
-      ],
-      "bucket": "unstated",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\nB2B 프로덕트/서비스를 대상으로 타겟 고객을 정의하고, 이를 바탕으로 핵심 메시지(소구점)를 개발해 마케팅에 적용해 본 경험이 필요해요.\n마케팅 캠페인을 기획 단계(타겟 설정 및 콘텐츠 기획)부터 직접 리드하여 제작·운영해 본 경험이 필요해요.\n프로젝트 단위의 업무를 주도적으로 설계하고 실행할 수 있는 역량이 필요해요.\n목표와 큰 맥락을 이해하고, 최적의 아웃풋을 도출하는 의사결정 역량을 보유한 분과 함께하고 싶어요.\n목표 달성을 위해 상황에 맞게 유연하고 창의적인 사고로 최적의 해법을 도출할 수 있는 분과 함께하고 싶어요.\n정량적인 데이터로 설득할 수 있는 논리적인 커뮤니케이션 역량이 필요해요.\n\n"
-    },
-    {
-      "source": "toss",
       "company": "토스인슈어런스",
       "title": "Marketing Manager",
       "location": "서울",
@@ -736,29 +720,6 @@
       "fit": false,
       "firstSeen": "2026-10-01",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.\nExperience in a leadership role, managing teams and working with executives in the music industry.\nExperience with commercial agreements, digital music licensing agreements, agreements and support of multi-territorial licensing entities.\nAbility to communicate fluently in English and Korean to engage with clients in the region.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Customer Engineer, Enterprise, Cloud and AI, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101798306123784902-customer-engineer-enterprise-cloud-and-ai-google-cloud-english-korean",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "10 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
     },
     {
       "source": "google",
