@@ -1324,21 +1324,6 @@
       "hist": "자소설닷컴 캘린더에서 확인한 2026년 8월 실제 공고. 모집 직무는 공고 원문에서 확인하세요"
     },
     {
-      "id": "ulsan-univ",
-      "company": "울산대학교",
-      "type": "공기업",
-      "roles": [
-        "HR/인사",
-        "기획/전략"
-      ],
-      "start": "2026-08-11",
-      "end": "2026-08-24",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "",
-      "hist": "자소설닷컴 캘린더에서 확인한 2026년 8월 실제 공고. 모집 직무는 공고 원문에서 확인하세요"
-    },
-    {
       "id": "hana-alt",
       "company": "하나대체투자자산운용",
       "type": "금융",
@@ -1437,21 +1422,6 @@
       ],
       "start": "2026-08-12",
       "end": "2026-08-30",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "",
-      "hist": "자소설닷컴 캘린더에서 확인한 2026년 8월 실제 공고. 모집 직무는 공고 원문에서 확인하세요"
-    },
-    {
-      "id": "handong",
-      "company": "한동대학교",
-      "type": "공기업",
-      "roles": [
-        "HR/인사",
-        "기획/전략"
-      ],
-      "start": "2026-08-13",
-      "end": "2026-08-19",
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "",
@@ -1912,20 +1882,6 @@
       "hist": ""
     },
     {
-      "id": "wanted-384506",
-      "company": "위메이드(WEMADE)",
-      "type": "",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "",
-      "end": "2026-10-02",
-      "confirmed": true,
-      "source": "원티드",
-      "url": "https://www.wanted.co.kr/wd/384506",
-      "hist": ""
-    },
-    {
       "id": "wanted-384482",
       "company": "뷰티셀렉션",
       "type": "",
@@ -1980,35 +1936,6 @@
       "source": "원티드",
       "url": "https://www.wanted.co.kr/wd/384467",
       "hist": "상시/수시 채용으로 추정(마감일 미표기)"
-    },
-    {
-      "id": "jasoseol-105163",
-      "company": "한국생산성본부(KPC)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-07-16",
-      "end": "2026-11-12",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607130000176",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105440",
-      "company": "페이히어",
-      "type": "",
-      "roles": [
-        "영업",
-        "고객/CS"
-      ],
-      "start": "2026-08-02",
-      "end": "2026-10-02",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.payhere.in/job_posting/ZhXMCfM9?utm_source=%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4&utm_campaign=250808%EC%98%A4%ED%94%88",
-      "hist": "",
-      "endTime": "23:59"
     },
     {
       "id": "jasoseol-105467",
@@ -2326,27 +2253,6 @@
       "endTime": "23:59"
     },
     {
-      "id": "jasoseol-105772",
-      "company": "DB그룹",
-      "type": "대기업",
-      "roles": [
-        "영업",
-        "영업관리",
-        "금융/심사",
-        "마케팅",
-        "MD",
-        "리서치",
-        "HR/인사"
-      ],
-      "start": "2026-09-01",
-      "end": "2026-10-02",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://dbgroup.recruiter.co.kr/",
-      "hist": "",
-      "endTime": "17:00"
-    },
-    {
       "id": "jasoseol-105774",
       "company": "토스플레이스",
       "type": "",
@@ -2450,19 +2356,6 @@
       "url": "https://apr-careers.com/job_posting/PgXGXMS2",
       "hist": "",
       "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105935",
-      "company": "인하대학교 미래인재개발원",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-31",
-      "end": "2026-10-06",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://inha-engineering.qshop.ai/",
-      "hist": "",
-      "endTime": "15:59"
     },
     {
       "id": "jasoseol-105974",
@@ -3628,25 +3521,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106281",
-      "company": "그랜드코리아레저",
-      "type": "공기업",
-      "roles": [
-        "마케팅",
-        "홍보/PR",
-        "고객/CS",
-        "리서치",
-        "콘텐츠"
-      ],
-      "start": "2026-09-17",
-      "end": "2026-10-02",
-      "endTime": "15:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://grandkorea.careerlink.kr/",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106288",
       "company": "인천시설공단",
       "type": "공기업",
@@ -3705,23 +3579,6 @@
       "hist": "그로스 마케터 (Influencer + Performance Hybrid) · 정규직 (수습 3개월 후 100% 전환) · 서울 강남구 테헤란로107길 6, 9층"
     },
     {
-      "id": "linkareer-351898",
-      "company": "금융결제원",
-      "type": "",
-      "roles": [
-        "기획/전략",
-        "마케팅",
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-10-02",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/351898",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106234",
       "company": "신세계그룹",
       "type": "대기업",
@@ -3741,24 +3598,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.shinsegae.com/",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106259",
-      "company": "금융결제원",
-      "type": "금융",
-      "roles": [
-        "기획/전략",
-        "마케팅",
-        "영업",
-        "PM/서비스기획"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-10-02",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kftc.careerlink.kr",
       "hist": ""
     },
     {
@@ -3887,28 +3726,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106336",
-      "company": "한국조폐공사(KOMSCO)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "PM/서비스기획",
-        "브랜드",
-        "콘텐츠",
-        "마케팅",
-        "MD",
-        "홍보/PR"
-      ],
-      "start": "2026-09-21",
-      "end": "2026-10-02",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://komsco.careerlink.kr/",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106341",
       "company": "클래스101",
       "type": "",
@@ -3946,21 +3763,6 @@
       "source": "Google 채용페이지",
       "url": "https://www.google.com/about/careers/applications/jobs/results/113194397327073990",
       "hist": "Customer Engineer, AI, Google Cloud (English, Korean)"
-    },
-    {
-      "id": "linkareer-351932",
-      "company": "두산건설",
-      "type": "",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "",
-      "end": "2026-10-02",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/351932",
-      "hist": ""
     },
     {
       "id": "jasoseol-106240",
@@ -4278,21 +4080,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106054",
-      "company": "두산건설",
-      "type": "대기업",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-09-21",
-      "end": "2026-10-02",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://doosanenc.recruiter.co.kr/career/jobs/125882",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106191",
       "company": "신협중앙회",
       "type": "공기업",
@@ -4417,35 +4204,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106323",
-      "company": "한국해양과학기술원 부설 극지연구소",
-      "type": "공기업",
-      "roles": [
-        "리서치",
-        "기획/전략"
-      ],
-      "start": "2026-09-21",
-      "end": "2026-10-06",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kopri.recruiter.co.kr/",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106324",
-      "company": "한국해양과학기술원 부설 극지연구소",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-09-21",
-      "end": "2026-10-06",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kopri.recruiter.co.kr",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106337",
       "company": "팜스코",
       "type": "대기업",
@@ -4547,21 +4305,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://dongwon-recruit.com/",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106359",
-      "company": "BNK금융그룹",
-      "type": "금융",
-      "roles": [
-        "금융/심사"
-      ],
-      "start": "2026-09-21",
-      "end": "2026-10-02",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://bnkfg.recruiter.co.kr/career/home",
       "hist": ""
     },
     {
@@ -4803,19 +4546,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106381",
-      "company": "서강대학교",
-      "type": "",
-      "roles": [],
-      "start": "2026-09-23",
-      "end": "2026-10-06",
-      "endTime": "11:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://apply.sogang.ac.kr",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106386",
       "company": "이수그룹",
       "type": "중견기업",
@@ -4890,23 +4620,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://keris.recruiter.co.kr/app/jobnotice/list?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609keris",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106400",
-      "company": "버킷플레이스(오늘의집)",
-      "type": "",
-      "roles": [
-        "영업",
-        "영업관리",
-        "고객/CS"
-      ],
-      "start": "2026-09-21",
-      "end": "2026-10-02",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://m.site.naver.com/2hcZu",
       "hist": ""
     },
     {
@@ -5072,22 +4785,6 @@
       "hist": "Outcome Customer Engineer, Google Cloud (English, Korean)"
     },
     {
-      "id": "jasoseol-106403",
-      "company": "서울대학교",
-      "type": "공기업",
-      "roles": [
-        "HR/인사",
-        "기획/전략"
-      ],
-      "start": "2026-09-28",
-      "end": "2026-10-14",
-      "endTime": "12:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://snu.incruit.com",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106404",
       "company": "동서식품",
       "type": "중견기업",
@@ -5185,36 +4882,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106425",
-      "company": "KG ICT",
-      "type": "",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-09-27",
-      "end": "2026-10-07",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfXHPos6USIC8ki5FhHbQwIRttxjRSHq6f1ZF0Fagx-OiGF1g/viewform",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106426",
-      "company": "SK쉴더스",
-      "type": "대기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-09-21",
-      "end": "2026-10-21",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://sslc.kr/",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106427",
       "company": "이카운트",
       "type": "",
@@ -5227,22 +4894,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://cloud-guavaberry-727.notion.site/3d624d324c7c80e1a5f1d177b9ae6c7e",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106429",
-      "company": "SK그룹",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획",
-        "HR/인사"
-      ],
-      "start": "2026-09-28",
-      "end": "2026-10-14",
-      "endTime": "09:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://2026pre-skala.co.kr/?utm_source=jss&utm_medium=plus&utm_campaign=plus",
       "hist": ""
     },
     {
@@ -6907,19 +6558,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://recruit.chamc.co.kr/page.ckd#/recruit/announcement/RG20268923-001",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106566",
-      "company": "인하대학교",
-      "type": "",
-      "roles": [],
-      "start": "2026-10-07",
-      "end": "2026-10-13",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2610010004171",
       "hist": ""
     },
     {

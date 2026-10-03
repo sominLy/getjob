@@ -447,33 +447,6 @@
   },
   {
    "src": "board",
-   "id": "jasoseol-106426",
-   "company": "SK쉴더스",
-   "title": "생성형 AI활용 사이버보안 전문가 양성과정",
-   "url": "https://sslc.kr/",
-   "end": "2026-10-21",
-   "w": {
-    "문서화·가이드": 1,
-    "금융·핀테크": 1,
-    "교육": 3
-   }
-  },
-  {
-   "src": "board",
-   "id": "jasoseol-106429",
-   "company": "SK그룹",
-   "title": "AI 전문가 양성 교육 프로그램",
-   "url": "https://2026pre-skala.co.kr/?utm_source=jss&utm_medium=plus&utm_campaign=plus",
-   "end": "2026-10-14",
-   "w": {
-    "문제 정의": 1,
-    "행사·이벤트": 2,
-    "AI·LLM": 3,
-    "교육": 1
-   }
-  },
-  {
-   "src": "board",
    "id": "jasoseol-106430",
    "company": "한미그룹",
    "title": "[한미약품] 제약영업 (MR) · [한미약품] 구매 · [한미약품] Pipeline Valuation (신약가치평가)",
@@ -2875,25 +2848,6 @@
     "교육": 3,
     "리더십·팀 리딩": 1,
     "주도성": 1
-   }
-  },
-  {
-   "src": "junior",
-   "company": "팀스파르타",
-   "title": "교육 운영기획 매니저 인턴 (AI 부트캠프)",
-   "url": "https://career.spartaclub.kr/ko/o/237383",
-   "end": "",
-   "w": {
-    "이해관계자 조율": 3,
-    "데이터 분석": 1,
-    "사용자 리서치": 2,
-    "커뮤니티": 1,
-    "행사·이벤트": 2,
-    "서비스 운영": 3,
-    "CX·고객경험": 1,
-    "문서화·가이드": 1,
-    "AI·LLM": 3,
-    "교육": 3
    }
   },
   {
