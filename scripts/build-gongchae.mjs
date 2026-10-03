@@ -30,7 +30,7 @@ const OUT = path.join(ROOT, "data", "gongchae.json");
 const CACHE = path.join(ROOT, "data", "gongchae-cache.json");
 const NO_NET = process.env.NO_NET === "1";
 const DART_KEY = process.env.DART_API_KEY || "";
-const MAX_OCR = Number(process.env.MAX_OCR || 40); // 하루에 새로 글자 인식할 이미지 수 상한(첫 실행이 너무 길어지지 않게)
+const MAX_OCR = Number(process.env.MAX_OCR || 60); // 하루에 새로 글자 인식할 이미지 수 상한(첫 실행이 너무 길어지지 않게)
 const SHOW = process.env.SHOW === "1";             // 점검용: 글자 인식·직무별 조각을 로그에 보여 줌
 const today = new Date().toISOString().slice(0, 10);
 const daysAgo = (d) => (Date.parse(today) - Date.parse(d)) / 864e5;
