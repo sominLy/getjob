@@ -159,6 +159,37 @@ async function main() {
     lines.push(`| ${name} | ${url} | HTTP ${r.status}${r.text ? " · " + r.text.length + "자" : ""} | ${rb.status === 200 ? robotsVerdict(rb.text) : "없음(" + rb.status + ")"} | 링크 ${jobLinks}${nextData ? " · 페이지 데이터 있음" : ""} |`);
     console.log("PAGE", name, url, r.status, r.text.length, "links", jobLinks, "next", nextData, "| title:", (r.text.match(/<title>([^<]{0,80})/i) || [])[1] || "");
   }
+  // 자체 사이트의 페이지 데이터(__NEXT_DATA__) 안에서 공고 목록처럼 보이는 배열을 찾아 구조를 남긴다
+  const NEXT_PAGES = [["쏘카", "https://www.socarcorp.kr/careers/jobs"], ["야놀자", "https://careers.yanolja.co"], ["카카오뱅크", "https://recruit.kakaobank.com"]];
+  const walk = (o, path, out) => {
+    if (Array.isArray(o)) {
+      if (o.length && typeof o[0] === "object" && o[0] && Object.keys(o[0]).some((k) => /title|name|position|subject|job/i.test(k)))
+        out.push({ path, n: o.length, keys: Object.keys(o[0]).slice(0, 25), sample: JSON.stringify(o.slice(0, 2)).slice(0, 700) });
+      o.slice(0, 3).forEach((x, i) => walk(x, `${path}[${i}]`, out));
+    } else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) walk(v, `${path}.${k}`, out);
+    return out;
+  };
+  for (const [name, url] of NEXT_PAGES) {
+    const r = await get(url);
+    const m = r.text.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+    if (!m) { console.log("NEXT", name, "no __NEXT_DATA__", r.status); continue; }
+    try {
+      const data = JSON.parse(m[1]);
+      console.log("NEXT", name, "buildId", data.buildId, "page", data.page, "query", JSON.stringify(data.query));
+      walk(data.props, "props", []).slice(0, 8).forEach((x) => console.log("NEXT", name, x.path, "n=" + x.n, "keys=" + x.keys.join(","), "\n   sample=" + x.sample));
+    } catch (e) { console.log("NEXT", name, "parse fail", e.message); }
+    console.log("NEXT", name, "scripts:", [...r.text.matchAll(/src="([^"]+\.js)"/g)].map((x) => x[1]).slice(0, 6).join(" "));
+  }
+  for (const s of ["kakaobank", "kbank", "dreamus"]) {
+    const r = await get(`https://${s}.recruiter.co.kr/`);
+    console.log("RECRUITER", s, r.status, r.text.length, "| scripts:", [...r.text.matchAll(/src="([^"]+)"/g)].map((x) => x[1]).slice(0, 8).join(" "));
+    console.log("RECRUITER", s, "html:", r.text.replace(/\s+/g, " ").slice(0, 1200));
+    for (const api of ["/app/jobnotice/list.json", "/career/jobs", "/api/recruit/list"]) {
+      const a = await get(`https://${s}.recruiter.co.kr${api}`);
+      console.log("RECRUITER", s, api, a.status, a.text.slice(0, 300).replace(/\s+/g, " "));
+    }
+  }
+
   // 원티드에 회사 페이지가 있으면 회사별 공고를 받을 수 있는지(검색·회사 API 형태 확인)
   lines.push("", "## 원티드 회사 검색", "", "| 회사 | 결과 |", "|---|---|");
   for (const name of ["쏘카", "KT M모바일", "케이티엠모바일", "컬리", "카카오모빌리티", "직방"]) {

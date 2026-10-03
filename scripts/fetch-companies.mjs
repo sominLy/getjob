@@ -36,6 +36,11 @@ const GREETING = [
   ["메가스터디교육", "https://megastudyedu.career.greetinghr.com"], ["미리디", "https://miridih.career.greetinghr.com"],
   ["아우토크립트", "https://autocrypt.career.greetinghr.com"], ["강남언니", "https://career.gangnamunni.com"],
   ["헥토", "https://www.hectocareers.co.kr"], ["하이브", "https://careers.hybecorp.com"],
+  // 2026-10-03 점검: 쏘카·KT M모바일·컬리처럼 국내 소비자 서비스 기업 중 그리팅을 쓰는 곳
+  ["카카오모빌리티", "https://kakaomobility.career.greetinghr.com"], ["카카오페이", "https://kakaopay.career.greetinghr.com"],
+  ["숨고", "https://soomgo.career.greetinghr.com"], ["직방", "https://zigbang.career.greetinghr.com"],
+  ["W컨셉", "https://wconcept.career.greetinghr.com"], ["크몽", "https://kmong.career.greetinghr.com"],
+  ["SSG닷컴", "https://ssg.career.greetinghr.com"], ["11번가", "https://11st.career.greetinghr.com"],
 ];
 const SMARTRECRUITERS = [["에이블리", "ABLYCorporation"]];
 const GREENHOUSE = [
