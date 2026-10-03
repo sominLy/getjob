@@ -92,7 +92,17 @@ p{margin:0}
 
 header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:30}
 .hbar{max-width:1200px;margin:0 auto;padding:13px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.brand{font-size:17px;font-weight:700;letter-spacing:-.02em}
+.brand{font-size:17px;font-weight:700;letter-spacing:-.02em;display:inline-flex;align-items:center;gap:8px}
+.brand .logo{display:block;border-radius:6px}
+.hb-add{padding:6px 14px;font-size:13px}
+.menu-wrap{position:relative}
+.menu{position:absolute;right:0;top:calc(100% + 6px);z-index:40;min-width:230px;background:var(--card);
+  border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);padding:6px;display:grid}
+.menu[hidden]{display:none}
+.menu button{background:none;border:0;text-align:left;padding:9px 12px;border-radius:6px;font-size:13.5px;color:var(--ink)}
+.menu button:hover,.menu button:focus-visible{background:var(--accent-soft);color:var(--accent-ink)}
+.menu button[hidden]{display:none}
+.menu hr{border:0;border-top:1px solid var(--line-2);margin:4px 2px}
 .today{font-family:var(--serif);font-size:13px;color:var(--muted)}
 .hspace{flex:1}
 .ghost{background:none;border:1px solid var(--line);border-radius:6px;padding:5px 11px;
@@ -118,6 +128,7 @@ nav.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:va
 nav.tabs button:hover{color:var(--ink)}
 nav.tabs .cnt{font-family:var(--serif);font-size:11.5px;opacity:.8;margin-left:4px}
 .view[hidden]{display:none}
+.cal-list{display:none}
 .viewhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 .sub{font-size:13px;color:var(--muted)}
 
@@ -422,6 +433,9 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .rd-tally b{font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.1}
 .rd-tally span{font-size:12px;color:var(--muted)}
 .rd-controls{display:grid;gap:9px;margin-bottom:16px}
+.rd-filter>summary{cursor:pointer;font-weight:600;font-size:14px;padding:4px 0 10px;list-style:none}
+.rd-filter>summary::before{content:"▸ ";color:var(--muted)}
+.rd-filter[open]>summary::before{content:"▾ "}
 .rd-row{display:flex;gap:10px;align-items:flex-start}
 .rd-lab{flex:0 0 64px;font-size:11.5px;color:var(--muted);padding-top:4px}
 .rd-jobs{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
@@ -455,6 +469,11 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .mt-me textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px;background:var(--paper);font-size:13px;margin-top:8px}
 .mt-edit-actions{display:flex;gap:8px;margin-top:8px}
 .mt-tiers{margin-bottom:12px}
+.mt-settings{margin-top:22px;border-top:1px solid var(--line);padding-top:14px}
+.mt-settings>summary{cursor:pointer;padding:6px 0;list-style:none}
+.mt-settings>summary::before{content:"▸ ";color:var(--muted)}
+.mt-settings[open]>summary::before{content:"▾ "}
+.mt-settings[open]>summary{margin-bottom:10px}
 .mt-grp{font-size:14px;font-weight:700;margin:18px 0 8px;display:flex;gap:8px;align-items:baseline}
 .mt-grp small{font-weight:400;color:var(--muted);font-size:12px}
 .mt-pct{font-family:var(--serif);font-size:18px;font-weight:600;line-height:1.1;text-align:right}
@@ -518,7 +537,9 @@ thead th{font-weight:600;letter-spacing:.07em}
   .hbar{gap:8px;padding-top:11px;padding-bottom:11px}
   .brand{font-size:16px}
   .today{display:none}
-  .hspace{flex-basis:100%;height:0}          /* 버튼 줄을 아래로 내립니다 */
+  .hbar{flex-wrap:nowrap}
+  .hb-add{padding:8px 12px}
+  .menu{position:fixed;left:14px;right:14px;top:58px;min-width:0}
   .ghost{padding:7px 12px;min-height:36px}   /* 손가락으로 누를 크기 */
 
   nav.tabs{position:sticky;top:0;z-index:15;background:var(--paper);
@@ -526,6 +547,17 @@ thead th{font-weight:600;letter-spacing:.07em}
     scrollbar-width:none;-webkit-overflow-scrolling:touch}
   nav.tabs::-webkit-scrollbar{display:none}
   nav.tabs button{padding:10px 13px;min-height:42px}
+  /* 옆으로 더 있다는 걸 보이게 양끝을 흐리게 */
+  nav.tabs{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent);
+    mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent)}
+
+  /* 달력은 날짜별 목록으로 */
+  .cal{display:none}
+  .cal-list{display:grid;gap:12px}
+  .cl-day{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:6px}
+  .cl-day.is-today{border-color:var(--accent)}
+  .cl-h{font-size:13.5px;font-weight:700;margin:0 0 2px}
+  .cl-day .ev{font-size:13px;padding:7px 9px;text-align:left}
 
   h2{font-size:18px}
   .viewhead{gap:9px}
@@ -562,16 +594,17 @@ thead th{font-weight:600;letter-spacing:.07em}
   table{min-width:0}
   thead{display:none}
   /* 가운데 칸을 minmax(0,1fr)로 둬야 긴 직무 목록이 행을 화면 밖으로 밀지 않는다 */
-  tbody tr{display:grid;grid-template-columns:auto minmax(0,1fr) 44px;align-items:center;
+  tbody tr{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;
     gap:3px 9px;padding:12px 2px;border-bottom:1px solid var(--line-2);
     width:100%;box-sizing:border-box}
   tbody td{padding:0;border:0}
   td.stt{grid-column:1;grid-row:1}
   td.co{grid-column:2;grid-row:1}
   /* 좁은 화면에서는 버튼 3개가 가로로 안 들어가 잘린다 — 세로로 세우고 터치 크기를 지킨다 */
-  td.act{grid-column:3;grid-row:1 / span 3;align-self:start;display:flex;
-    flex-direction:column;align-items:flex-end;gap:2px;white-space:nowrap}
-  td.act button,td.act a{padding:5px 0;font-size:12px;min-height:0;width:100%;text-align:right}
+  /* 관심·지원·공고·편집은 카드 아래 한 줄로 */
+  td.act{grid-column:1 / -1;grid-row:4;display:flex;flex-direction:row;flex-wrap:wrap;
+    justify-content:flex-start;gap:6px 18px;white-space:nowrap;padding-top:6px}
+  td.act button,td.act a{padding:6px 0;font-size:13px;min-height:34px;width:auto;text-align:left}
   td.co,td.ro,td.dt-end{min-width:0;overflow-wrap:anywhere}
   td.ro{grid-column:2;grid-row:2;max-width:none;font-size:12px}
   td.dt-end{grid-column:2;grid-row:3;font-size:12.5px}
@@ -629,19 +662,26 @@ thead th{font-weight:600;letter-spacing:.07em}
 
 <header id="appHeader" hidden>
   <div class="hbar">
-    <span class="brand">지원 보드</span>
+    <span class="brand"><img class="logo" src="/favicon.svg" alt="" width="22" height="22">지원 보드</span>
     <span class="today" id="todayLbl"></span>
     <span class="hspace"></span>
-    <button class="ghost" id="themeBtn" title="화면 모드와 테마 색">테마</button>
-    <button class="ghost" id="prefBtn">내 조건</button>
-    <button class="ghost" id="addBtn">+ 공고</button>
-    <button class="ghost" id="shareBtn" title="다른 사람에게도 보이는 공고를 올립니다">공고 제보</button>
-    <button class="ghost" id="icsBtn" title="마감·전형 일정을 휴대폰 캘린더로 보냅니다">일정 내보내기</button>
-    <button class="ghost" id="privBtn" hidden aria-pressed="true"></button>
-    <button class="ghost" id="expBtn">백업</button>
-    <button class="ghost" id="impBtn">복원</button>
+    <button class="primary hb-add" id="addBtn">+ 공고</button>
     <button class="ghost" id="meBtn" title="로그인한 계정과 내 데이터">내 계정</button>
-    <button class="ghost" id="logoutBtn">로그아웃</button>
+    <div class="menu-wrap">
+      <button class="ghost" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-controls="menuPop">⋯ 메뉴</button>
+      <div class="menu" id="menuPop" role="menu" hidden>
+        <button role="menuitem" id="prefBtn">내 조건 (관심 직무·기업 형태)</button>
+        <button role="menuitem" id="themeBtn">테마 · 화면 모드</button>
+        <button role="menuitem" id="icsBtn">일정 내보내기 (휴대폰 캘린더)</button>
+        <button role="menuitem" id="shareBtn">공고 제보 (모두에게 공유)</button>
+        <button role="menuitem" id="privBtn" hidden aria-pressed="true"></button>
+        <hr>
+        <button role="menuitem" id="expBtn">백업 파일 받기</button>
+        <button role="menuitem" id="impBtn">백업에서 복원</button>
+        <hr>
+        <button role="menuitem" id="logoutBtn">로그아웃</button>
+      </div>
+    </div>
   </div>
   <div class="rail"><div class="rail-in" id="rail"></div></div>
 </header>
@@ -716,6 +756,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       <div class="cal-dow"><div>일</div><div>월</div><div>화</div><div>수</div><div>목</div><div>금</div><div>토</div></div>
       <div class="cal-grid" id="calGrid"></div>
     </div>
+    <div class="cal-list" id="calList"></div>
     <div class="legend">
       <span><i class="sw" style="background:var(--accent-soft)"></i>접수 시작</span>
       <span><i class="sw" style="background:var(--urgent-soft)"></i>접수 마감</span>
@@ -756,6 +797,8 @@ thead th{font-weight:600;letter-spacing:.07em}
       <p class="sub" id="rdStamp"></p>
     </div>
     <div class="rd-tally" id="rdTally"></div>
+    <details class="rd-filter" id="rdFilter" open>
+    <summary>필터 <span class="sub">경력 조건 · 회사 · 직무 유형</span></summary>
     <div class="rd-controls">
       <div class="rd-row"><span class="rd-lab">경력 조건</span><div class="chips sm" id="rdBucket"></div></div>
       <div class="rd-row"><span class="rd-lab">회사</span><div class="chips sm" id="rdCompany"></div></div>
@@ -763,6 +806,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       <div class="rd-row"><span class="rd-lab">보기</span><div class="chips sm" id="rdExtra"></div></div>
       <p class="sub">‘연차 명시 없음’은 연차 숫자가 없다는 뜻이지 신입을 뽑는다는 뜻은 아니에요. 인용된 요건 문장을 보고 판단하세요.</p>
     </div>
+    </details>
     <ul class="rd-jobs" id="rdList"></ul>
     <div class="rd-foot" id="rdFoot"></div>
   </section>
@@ -773,6 +817,11 @@ thead th{font-weight:600;letter-spacing:.07em}
       <h2>매칭 아카이브</h2>
       <p class="sub">연차 표시가 없는 공고 중, JD 키워드의 50% 이상이 내 경험과 겹치는 것만 모읍니다.</p>
     </div>
+    <div class="chips sm mt-tiers" id="mtTierChips"></div>
+    <div id="mtOut"></div>
+    <p class="sub mt-foot" id="mtFoot"></p>
+    <details class="mt-settings" id="mtSettings">
+      <summary><b>설정</b> <span class="sub" id="mtSetSum">내 경험 키워드 · 링크드인 붙여넣기</span></summary>
     <div class="mt-me">
       <div class="mt-me-head">
         <b>내 경험 키워드</b>
@@ -803,9 +852,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       </div>
       <div id="liNoJd"></div>
     </div>
-    <div class="chips sm mt-tiers" id="mtTierChips"></div>
-    <div id="mtOut"></div>
-    <p class="sub mt-foot" id="mtFoot"></p>
+    </details>
   </section>
 
   <p class="note" id="footnote"></p>
@@ -1831,6 +1878,35 @@ function renderCal(){
     });
     grid.appendChild(c);
   }
+  renderCalList(ev);
+}
+/* 좁은 화면에서는 7칸 달력 대신 이번 달 일정을 날짜별 목록으로 보여 준다(오늘 이후부터) */
+function renderCalList(ev){
+  const box = document.getElementById("calList"); box.replaceChildren();
+  const y = curMonth.getFullYear(), m = curMonth.getMonth();
+  const last = new Date(y, m + 1, 0).getDate();
+  const DOW = ["일","월","화","수","목","금","토"];
+  const fromDay = (y === TODAY.getFullYear() && m === TODAY.getMonth()) ? TODAY.getDate() : 1;
+  let any = false;
+  for(let day = fromDay; day <= last; day++){
+    const d = new Date(y, m, day), list = ev[iso(d)] || [];
+    if(!list.length) continue;
+    any = true;
+    const sec = document.createElement("section"); sec.className = "cl-day" + (iso(d) === iso(TODAY) ? " is-today" : "");
+    const h = document.createElement("h3"); h.className = "cl-h";
+    h.textContent = (m + 1) + "월 " + day + "일 (" + DOW[d.getDay()] + ")" + (iso(d) === iso(TODAY) ? " · 오늘" : "");
+    sec.append(h);
+    list.forEach(function(e){
+      const b = document.createElement("button");
+      b.className = "ev ev-" + e.kind + (e.est ? " est" : "") + (e.mine ? " mine" : "");
+      const pre = document.createElement("span"); pre.className = "pre"; pre.textContent = e.label;
+      b.append(pre, document.createTextNode(e.name));
+      b.onclick = () => openJob(e.id);
+      sec.append(b);
+    });
+    box.append(sec);
+  }
+  if(!any){ const p = document.createElement("p"); p.className = "empty"; p.textContent = "이 달에 남은 일정이 없어요."; box.append(p); }
 }
 
 /* ---------- 공고 상세 ---------- */
@@ -2490,6 +2566,8 @@ function loadRadar(){
   return radarPromise;
 }
 function initRadar(data){
+  /* 휴대폰에서는 필터가 화면을 다 차지하므로 접어 둔다 */
+  if(window.matchMedia("(max-width:640px)").matches) document.getElementById("rdFilter").open = false;
   const jobs = data.jobs || [];
   const rolesOf = j => (j.roles && j.roles.length) ? j.roles : ["기타"];
   const latest = jobs.reduce((m, j) => j.firstSeen > m ? j.firstSeen : m, "");
@@ -2566,6 +2644,7 @@ function initRadar(data){
    매칭률 = JD 키워드 가중치 중 내 키워드에 해당하는 비율. 가중치는 JD에 나온 횟수(최대 3). */
 const MT_TIERS = [["적극지원", 80, "tier-1"], ["적합지원", 70, "tier-2"], ["상향지원", 60, "tier-3"], ["연습지원", 50, "tier-4"]];
 const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판", company:"기업 채용", linkedin:"링크드인"};
+let mtEditing = false;
 let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "";
 function loadMatch(){
   if(!matchPromise){
@@ -2736,7 +2815,11 @@ function renderMatch(){
   document.getElementById("mtMeStat").textContent = m
     ? "경험 " + m.n + "개에서 뽑음 · " + m.at + " · 내 키워드 " + mine.size + "개" + (m.seeded ? " · 미리 넣어 둔 경험정리 기준" : "")
     : "아직 없음 — 오른쪽 버튼으로 경험정리를 붙여넣어 주세요";
-  if(!m) document.getElementById("mtEditor").hidden = false;
+  /* 키워드가 없을 때만 입력창과 설정을 펼쳐 둔다(직접 열었으면 그대로 둔다) */
+  if(!m){ document.getElementById("mtEditor").hidden = false; document.getElementById("mtSettings").open = true; }
+  else if(!mtEditing) document.getElementById("mtEditor").hidden = true;
+  document.getElementById("mtSetSum").textContent = (m ? "내 경험 키워드 " + mine.size + "개" : "내 경험 키워드 없음") +
+    " · 링크드인 저장 " + (db.linkedin || []).length + "건";
 
   document.getElementById("mtRule").textContent = m
     ? "경험 " + mtThreshold() + "개 이상에서 나온 키워드만 ‘내 것’으로 칩니다(숫자는 나온 경험 수). 칩을 눌러 켜고 끌 수 있어요." : "";
@@ -2763,7 +2846,8 @@ function renderMatch(){
     const entries = Object.entries(j.w);
     const tot = entries.reduce((s, [, w]) => s + w, 0);
     const hit = entries.reduce((s, [k, w]) => s + (mine.has(k) ? w : 0), 0);
-    const pct = Math.round(hit / tot * 100);
+    /* 키워드가 몇 개 안 되는 짧은 JD가 쉽게 100%가 되지 않도록, 겹치지 않은 키워드 2개 분량을 기본으로 깔고 계산한다 */
+    const pct = Math.round(hit / (tot + 2) * 100);
     const tier = MT_TIERS.find(t => pct >= t[1]);
     if(tier) rows.push({j, pct, tier, got: entries.filter(([k]) => mine.has(k)).map(([k]) => k), miss: entries.filter(([k]) => !mine.has(k)).map(([k]) => k)});
   }
@@ -2810,7 +2894,7 @@ function renderMatch(){
     out.append(ul);
   });
   document.getElementById("mtFoot").textContent = "공고 키워드 기준일 " + mtData.updated +
-    " · 연차가 숫자로 적힌 공고와 본문이 이미지뿐인 공고는 빠져 있습니다. 초록 칩은 겹치는 키워드, 줄 그은 칩은 내 경험에 없는 키워드예요.";
+    " · 연차가 숫자로 적힌 공고와 본문이 이미지뿐인 공고는 빠져 있습니다. 키워드가 적은 짧은 JD는 매칭률을 조금 낮춰 계산해요. 초록 칩은 겹치는 키워드, 줄 그은 칩은 내 경험에 없는 키워드예요.";
 }
 document.getElementById("liEditBtn").onclick = () => { document.getElementById("liEditor").hidden = false; document.getElementById("liText").focus(); };
 document.getElementById("liCancelBtn").onclick = () => { document.getElementById("liEditor").hidden = true; };
@@ -2826,8 +2910,8 @@ document.getElementById("liRunBtn").onclick = () => {
   renderMatch();
   toast(r.found ? "공고 " + r.found + "건 읽음 · 새로 저장 " + r.added + "건 · 본문 " + r.withJd + "건" : "공고를 찾지 못했습니다. 검색 결과 화면 전체를 복사했는지 확인해 주세요");
 };
-document.getElementById("mtEditBtn").onclick = () => { document.getElementById("mtEditor").hidden = false; document.getElementById("mtText").focus(); };
-document.getElementById("mtCancelBtn").onclick = () => { document.getElementById("mtEditor").hidden = true; };
+document.getElementById("mtEditBtn").onclick = () => { mtEditing = true; document.getElementById("mtEditor").hidden = false; document.getElementById("mtText").focus(); };
+document.getElementById("mtCancelBtn").onclick = () => { mtEditing = false; document.getElementById("mtEditor").hidden = true; };
 document.getElementById("mtRunBtn").onclick = () => {
   if(!mtDict){ toast("매칭 데이터를 아직 불러오는 중입니다"); return; }
   const t = document.getElementById("mtText").value;
@@ -2835,6 +2919,7 @@ document.getElementById("mtRunBtn").onclick = () => {
   const saved = t.trim() ? mtArchive(t) : 0;
   mtBuild(t);
   document.getElementById("mtText").value = "";
+  mtEditing = false;
   document.getElementById("mtEditor").hidden = true;
   renderMatch(); renderArc();
   toast(saved ? "경험 " + saved + "개를 아카이브에 보관하고 키워드를 저장했습니다" : "경험 키워드를 다시 뽑았습니다");
@@ -2845,6 +2930,7 @@ document.querySelectorAll("nav.tabs button").forEach(function(b){
   b.onclick = function(){
     document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
     document.querySelectorAll(".view").forEach(v => v.hidden = (v.id !== "v-" + b.dataset.v));
+    b.scrollIntoView({block: "nearest", inline: "center", behavior: "smooth"}); /* 모바일에서 뒤쪽 탭이 화면 밖에 숨지 않게 */
     if(b.dataset.v === "radar") loadRadar();
     if(b.dataset.v === "match") loadMatch();
   };
@@ -3019,7 +3105,7 @@ function openMe(){
     ["내 지원", Object.values(db.apps || {}).filter(a => a.applied).length + "건"],
     ["아카이브 경험 카드", (db.arc.exp || []).length + "개"]];
   if(IS_OWNER){
-    rows.push(["소민 전용 기능", privOn() ? "켜짐 (헤더 버튼으로 끄고 켤 수 있어요)" : "꺼짐"]);
+    rows.push(["소민 전용 기능", privOn() ? "켜짐 (⋯ 메뉴에서 끄고 켤 수 있어요)" : "꺼짐"]);
     const m = db.match;
     rows.push(["경험 키워드", m ? mtMine().size + "개 · 경험 " + m.n + "개 기준 · " + m.at : "아직 없음"]);
     rows.push(["링크드인 저장", (db.linkedin || []).length + "건"]);
@@ -3029,6 +3115,15 @@ function openMe(){
   document.getElementById("meDlg").showModal();
 }
 document.getElementById("meBtn").onclick = openMe;
+/* ⋯ 메뉴: 버튼으로 열고, 항목을 누르거나 바깥을 누르거나 Esc면 닫는다 */
+(function(){
+  const btn = document.getElementById("menuBtn"), pop = document.getElementById("menuPop");
+  const close = () => { pop.hidden = true; btn.setAttribute("aria-expanded", "false"); };
+  btn.onclick = (e) => { e.stopPropagation(); pop.hidden = !pop.hidden; btn.setAttribute("aria-expanded", String(!pop.hidden)); };
+  pop.addEventListener("click", (e) => { if(e.target.closest("button")) close(); });
+  document.addEventListener("click", (e) => { if(!pop.hidden && !e.target.closest(".menu-wrap")) close(); });
+  document.addEventListener("keydown", (e) => { if(e.key === "Escape" && !pop.hidden){ close(); btn.focus(); } });
+})();
 document.getElementById("meClose").onclick = () => document.getElementById("meDlg").close();
 document.getElementById("meLogout").onclick = () => { document.getElementById("meDlg").close(); document.getElementById("logoutBtn").click(); };
 document.getElementById("logoutBtn").onclick = async function(){
