@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: ["claude/**"]
-    paths: ["scripts/probe-sources.mjs", "scripts/fetch-companies.mjs", "scripts/build-gongchae.mjs", "scripts/fetch-radar.mjs", ".github/workflows/probe-sources.yml"]
+    paths: ["scripts/probe-jasoseol.mjs", "scripts/probe-sources.mjs", "scripts/fetch-companies.mjs", "scripts/build-gongchae.mjs", "scripts/fetch-radar.mjs", ".github/workflows/probe-sources.yml"]
 
 permissions:
   contents: read
@@ -20,14 +20,13 @@ jobs:
           node-version: 20
       # 수집 스크립트를 고쳤을 때 main에 합치기 전에 실제로 도는지만 확인한다(결과 파일은 커밋하지 않음)
       # 공채 직무별 JD: 이미지 글자 인식·뉴스가 실제로 되는지 몇 건만(결과는 커밋하지 않음)
-      - run: sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor > /dev/null
-      - run: node scripts/build-gongchae.mjs
-        env:
-          MAX_OCR: "10"
-          SHOW: "1"
       # 수집처 후보 점검 — 결과는 실행 요약(Summary)과 로그에 남는다
       - run: node scripts/probe-sources.mjs
+        if: ${{ false }}
       - run: npm install
       - run: npx playwright install --with-deps chromium
+      # 자소설닷컴 공고문 이미지가 어디서 오는지(일회성 점검)
+      - run: node scripts/probe-jasoseol.mjs
+        continue-on-error: true
       - run: node scripts/fetch-radar.mjs
         continue-on-error: true
