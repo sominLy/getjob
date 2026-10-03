@@ -19,6 +19,10 @@ jobs:
         with:
           node-version: 20
       # 수집 스크립트를 고쳤을 때 main에 합치기 전에 실제로 도는지만 확인한다(결과 파일은 커밋하지 않음)
+      # 새로 넣은 수집처가 실제로 읽히는지(파일은 쓰지 않음)
+      - run: node scripts/fetch-companies.mjs
+        env:
+          ONLY: 쏘카,카카오모빌리티,카카오페이,숨고,직방,W컨셉,크몽,SSG닷컴,11번가
       # 수집처 후보 점검 — 결과는 실행 요약(Summary)과 로그에 남는다
       - run: node scripts/probe-sources.mjs
       - run: npm install

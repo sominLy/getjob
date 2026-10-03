@@ -147,6 +147,28 @@ async function collectSmartRecruiters(company, id) {
   return jobs;
 }
 
+/* 쏘카: 자체 채용 사이트(Next.js) 페이지 데이터에 공고 목록이 있고, 상세는 그리팅 링크다.
+   계열사(에이펙스모빌리티 등) 공고도 섞여 있어 회사 이름을 함께 남긴다. 근무지 제주(WA01)는 그대로 두고 표시만 한다. */
+async function collectSocar() {
+  const res = await fetch("https://www.socarcorp.kr/careers/jobs", { headers: { "User-Agent": UA } });
+  if (!res.ok) throw new Error(String(res.status));
+  const m = (await res.text()).match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  if (!m) throw new Error("페이지 데이터 없음");
+  const list = JSON.parse(m[1]).props?.pageProps?.jobList?.jsonResult?.data || [];
+  const jobs = [];
+  for (const j of list) {
+    const title = (j.title || "").trim();
+    if (!title || !relevant(title) || !j.notice_url) continue;
+    const company = j.company_name && j.company_name !== "쏘카" ? `쏘카(${j.company_name})` : "쏘카";
+    try {
+      const text = /greetinghr\.com/.test(j.notice_url) ? await greetingJd(j.notice_url) : "";
+      jobs.push({ company, title, url: j.notice_url, text });
+    } catch (e) { console.error("  쏘카 본문 실패", title, e.message); }
+    await sleep(250);
+  }
+  return jobs;
+}
+
 async function collectNetflix() {
   const data = await getJson("https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&location=Seoul&num=100");
   const jobs = [];
@@ -175,10 +197,13 @@ async function main() {
     ...WORKDAY.map(([c, ...w]) => [c, () => collectWorkday(c, ...w)]),
     ...SMARTRECRUITERS.map(([c, id]) => [c, () => collectSmartRecruiters(c, id)]),
     ["넷플릭스", collectNetflix],
+    ["쏘카", collectSocar],
   ];
+  // 점검용: ONLY=쏘카,숨고 처럼 주면 그 회사만 돌리고 파일은 쓰지 않는다
+  const only = (process.env.ONLY || "").split(",").map((x) => x.trim()).filter(Boolean);
   const all = [];
   const errors = {};
-  for (const [name, fn] of tasks) {
+  for (const [name, fn] of tasks.filter(([n]) => !only.length || only.includes(n))) {
     try {
       const jobs = await fn();
       all.push(...jobs);
@@ -194,6 +219,11 @@ async function main() {
     ...j, years: yearsIn(`${j.title}\n${text}`), w: weights(`${j.title}\n${text}`), short: text.length < 200,
     found: prevFound.get(j.url) || today,
   }));
+  if (only.length) {
+    jobs.forEach((j) => console.log(`  ${j.company} | ${j.title} | 연차 ${j.years} | 키워드 ${Object.keys(j.w).length} | ${j.url}`));
+    console.log(`(점검 모드: ${only.join(",")} — 파일은 쓰지 않음)`);
+    return;
+  }
   await writeFile(OUT, JSON.stringify({ updated: new Date().toISOString().slice(0, 10), errors, jobs }, null, 1) + "\n", "utf-8");
   const noYears = jobs.filter((j) => j.years === null).length;
   console.log(`총 ${jobs.length}건 (연차 표시 없음 ${noYears}건) · 실패 ${Object.keys(errors).length}곳`);
