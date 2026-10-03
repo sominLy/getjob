@@ -497,6 +497,16 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .fx-low{background:var(--urgent-soft);color:var(--urgent)}
 .fx-hint{font-size:11px;font-weight:600;padding:1px 6px;border-radius:5px;background:var(--line-2);color:var(--ink-2);white-space:nowrap}
 .tb-date .fx-hint{display:inline-block;margin:2px 0 0 6px}
+.un-chip{display:inline-block;font-size:11px;font-weight:700;padding:1px 7px;border-radius:999px;white-space:nowrap;cursor:help;background:var(--line-2);color:var(--ink-2)}
+.un-chip.un-적극{background:var(--accent-soft);color:var(--accent-ink)}
+.un-chip.un-지원{background:var(--amber-soft);color:var(--amber)}
+.un-chip.un-조건부{background:var(--line-2);color:var(--ink-2)}
+.un-chip.un-후순위{background:var(--urgent-soft);color:var(--urgent)}
+.un-chip.un-sm{margin-left:6px;font-size:10.5px;padding:0 6px}
+.pt{font-size:11px;font-weight:600;color:var(--muted);white-space:nowrap}
+.pt-new{color:var(--urgent);font-weight:700}
+.pt-old{opacity:.7}
+.pt-row{display:block;margin-top:2px;font-size:10.5px}
 .fx-today{margin:2px 0 6px;font-size:11.5px;color:var(--muted)}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
 .seg button{border:0;background:var(--card);padding:6px 14px;font-size:13px;color:var(--muted);cursor:pointer}
@@ -935,6 +945,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <div class="mt-filter">
       <label class="mt-co"><span>회사</span><select id="mtCo" aria-label="회사로 보기"></select></label>
       <div class="chips sm" id="mtRoleChips" aria-label="직무로 보기"></div>
+      <div class="chips sm" id="mtSort" aria-label="정렬" hidden></div>
     </div>
     <div class="chips sm mt-tiers" id="mtTierChips"></div>
     <div id="mtOut"></div>
@@ -1329,7 +1340,34 @@ function wireDateModeBtn(id){
 /* ---------- 전체 공고 ---------- */
 /* 처음 열었을 때 이미 끝난 공고가 위에 깔리면 쓸모가 없어서 '접수 중'부터 보여준다 */
 let filter = "open", sortKey = "end", sortDir = 1, query = "";
-const FILTERS = [["all","전체"],["open","접수 중"],["star","관심"],["soon","확정 예정"],["est","예상"],["roll","상시"],["shut","마감"]];
+/* ---------- 올라온 날 · 처음 발견한 날 ----------
+   posted: 회사·플랫폼이 밝힌 게시일(접수 시작일), found: 지원보드가 처음 발견한 날.
+   수시·상시 공고는 빨리 낼수록 유리해서 '올라온 지 며칠'을 눈에 띄게 보여 준다. */
+const NEW_DAYS = 3;
+function postedInfo(x){
+  const today = iso(TODAY);
+  const posted = x.posted || (x.start && x.start <= today ? x.start : "");
+  const found = x.found || "";
+  const since = posted || found;
+  if(!since) return null;
+  const age = -dleft(since);
+  return {posted, found, since, age, isNew: !!found && -dleft(found) < NEW_DAYS, rolling: !x.end};
+}
+const mdOf = k => { const d = parse(k); return (d.getMonth() + 1) + "/" + d.getDate(); };
+/* 짧은 표시: "NEW · 10/2 발견" / "9/18 게시 · 15일 전" — 수시는 '올라온 지 N일' */
+function postedTag(x){
+  const p = postedInfo(x); if(!p) return null;
+  const el = document.createElement("span");
+  el.className = "pt" + (p.isNew ? " pt-new" : p.rolling && p.age > 21 ? " pt-old" : "");
+  const when = p.posted ? mdOf(p.posted) + " 게시" : mdOf(p.found) + " 발견";
+  const ago = p.age <= 0 ? "오늘" : p.age + "일 전";
+  el.textContent = (p.isNew ? "NEW · " : "") + (p.rolling ? "올라온 지 " + (p.age <= 0 ? "오늘" : p.age + "일") + " · " + when : when + " · " + ago);
+  el.title = [p.posted ? "게시일 " + p.posted : "", p.found ? "지원보드가 처음 발견한 날 " + p.found : ""].filter(Boolean).join("\n") +
+    (p.rolling ? "\n수시·상시 공고는 먼저 낼수록 검토 기회가 커요" : "");
+  return el;
+}
+
+const FILTERS = [["all","전체"],["new","새로 뜸"],["open","접수 중"],["star","관심"],["soon","확정 예정"],["est","예상"],["roll","상시"],["shut","마감"]];
 function renderList(){
   const base = scoped();
   const fb = document.getElementById("filters");
@@ -1337,6 +1375,7 @@ function renderList(){
   FILTERS.forEach(function(f){
     const n = f[0]==="all" ? base.length
             : f[0]==="star" ? base.filter(j => app(j.id).starred).length
+            : f[0]==="new" ? base.filter(j => { const p = postedInfo(j); return p && p.isNew && state(j).k !== "shut"; }).length
             : base.filter(j => state(j).k===f[0]).length;
     const b = document.createElement("button");
     b.textContent = f[1] + " " + n;
@@ -1366,6 +1405,7 @@ function renderList(){
   const q = query.trim().toLowerCase();
   let rows = q || filter === "all" ? base
            : filter === "star" ? base.filter(j => app(j.id).starred)
+           : filter === "new" ? base.filter(j => { const p = postedInfo(j); return p && p.isNew && state(j).k !== "shut"; })
            : base.filter(j => state(j).k===filter);
   if(q) rows = rows.filter(j => (j.company || "").toLowerCase().includes(q));
   /* 마감만/시작만 보기: 해당 날짜가 있는 공고만 남기고 그 날짜로 정렬한다. */
@@ -1398,9 +1438,10 @@ function renderList(){
     tr.appendChild(cell(pill(j), "stt"));
     const coTd = cell(j.company, "co");
     const coB = myBadge(j.id); if(coB) coTd.appendChild(coB);
+    { const pi = postedInfo(j); if(pi && (pi.isNew || !j.end)){ const t = postedTag(j); t.classList.add("pt-row"); coTd.appendChild(t); } }
     tr.appendChild(coTd);
     tr.appendChild(cell((j.roles||[]).join(", ") || "직무 확인 필요", "ro"));
-    tr.appendChild(cell(j.start ? fmt(j.start) : "—", "dt dt-start"));
+    tr.appendChild(cell(j.start ? fmt(j.start) : j.found ? mdOf(j.found) + " 발견" : "—", "dt dt-start"));
     tr.appendChild(cell(j.end ? fmtAt(j.end, j.endTime) : "상시·수시", "dt dt-end"));
     tr.appendChild(cell(j.hist || "—", "hist"));
     tr.appendChild(cell(j.source || "—", "src", "color:var(--muted);font-size:12px"));
@@ -1540,6 +1581,88 @@ function submitHint(j){
   el.title = "D-2까지 제출 원칙 안에서 일운 통합 점수가 가장 높은 날 · 상징 지표, 합격 확률 아님";
   return el;
 }
+
+/* ---------- 운적 궁합(소민 전용, 규칙 기반) ----------
+   '공고 운세 판정 프롬프트'의 원칙을 규칙으로 옮긴 상징 지표. 합격 확률이 아니다.
+   - 업종을 오행 하나로 판정하지 않고, 실제로 하는 일을 십성 성격(식상·인성·재성·관성·비겁)으로 나눠 본다.
+   - 단순 운영보다 문제를 찾아 구조를 개선하는 직무를 높게 본다(식상·인성 중심, 관성 과다는 압박).
+   - 기업 규모는 이름이 아니라 체계·권한·Product/Data 접근성으로, 계약형태는 경험 가치로 본다.
+   직무 40% + 산업 20% + 기업 규모 20% + 계약형태 20%. */
+const UN_ROLE = [
+  ["식상", 5, "기획·구조화·문제해결·표현", /기획|설계|구조|개선|문제|가설|실험|분석|데이터|프로덕트|product|\bP[OM]\b|요구사항|화면|UX|콘텐츠|컨텐츠|content|카피|브랜딩|크리에이티브|전략|strategy/i],
+  ["인성", 3.5, "학습·문서·전문지식", /리서치|research|인사이트|insight|문서|가이드|교육|연구|트렌드|시장\s*(조사|분석)|컨설팅|consult/i],
+  ["재성", 2, "시장·고객·성과", /영업|세일즈|sales|매출|커머스|commerce|\bMD\b|상품|고객사|파트너|제휴|사업\s*개발|\bBD\b|퍼포먼스|광고|그로스|growth|CRM|정산|재무|FP&A|account/i],
+  ["관성", 0.5, "조직·책임·규율", /관리|프로젝트|PMO|품질|검수|컴플라이언스|규정|감사|총무|인사|\bHR\b|이해관계자|조율|리스크/i],
+  ["비겁", -2, "실적 경쟁·압박", /실적|할당|목표\s*달성|현장\s*영업|방문\s*영업|인바운드\s*영업/i],
+  ["반복 운영", -4, "단순·반복 운영 비중", /운영\s*지원|\bCS\b|상담|고객\s*응대|콜센터|사무\s*보조|데이터\s*입력|어시스턴트|assistant|단순/i],
+];
+const UN_IND = [
+  [2.5, "기술·플랫폼·AI", /\bAI\b|LLM|인공지능|플랫폼|platform|SaaS|클라우드|cloud|테크|tech|\bIT\b|앱\s*(서비스|기획|개발)|모바일|소프트웨어|software|데이터|업스테이지|뤼튼|스캐터랩|토스|당근|네이버|카카오|라인플러스|LINE\b|NHN|google|anthropic|openai|notion|snowflake|salesforce|세일즈포스|adobe|어도비|몰로코|42dot|크래프톤/i],
+  [1.5, "커머스·콘텐츠·라이프스타일", /커머스|commerce|콘텐츠|미디어|엔터|게임|뷰티|패션|여행|모빌리티|교육|에듀|무신사|컬리|쿠팡|에이블리|하이브|넷플릭스|올리브영|여기어때|마이리얼트립|야놀자|캐치테이블|강남언니|오늘의집|번개장터/i],
+  [1, "금융·핀테크", /금융|은행|증권|보험|카드|핀테크|fintech|결제|투자|핀다|pfct/i],
+  [-0.5, "제조·설비·전통 산업", /제조|건설|화학|철강|중공업|에너지|설비|플랜트|조선|물류/i],
+  [-0.5, "공공·준정부(관성 과다)", /공사$|공단|재단|진흥원|공공|연구원/],
+];
+const UN_SIZE = {"외국계": [8, "체계+글로벌 기준, Product/Data 접근성"], "유니콘": [8, "성장 속도와 권한, Product/Data 접근성"],
+  "대기업": [7, "체계·안정, 권한은 좁을 수 있음"], "금융": [6.5, "체계·안정, 규율 비중 큼"], "스타트업": [6.5, "권한 큼, 체계·배울 사람은 확인 필요"],
+  "중견기업": [6, "체계·권한 중간"], "공기업": [5, "규율·평가 비중 큼(관성 과다)"]};
+const UN_FOREIGN = /google|anthropic|openai|notion|netflix|넷플릭스|agoda|아고다|airbnb|에어비앤비|salesforce|세일즈포스|adobe|어도비|intel|인텔|visa|비자|snowflake|\b2k\b|몰로코|42dot/i;
+const UN_UNICORN = /토스|당근|무신사|컬리|크래프톤|야놀자|여기어때|오늘의집|리디|하이브|업스테이지|뤼튼|캐치테이블|마이리얼트립|강남언니|핀다|스캐터랩|직방|번개장터|크림|우아한|쿠팡|에이블리|CJ올리브영/;
+function unSize(company, type){
+  if(UN_SIZE[type]) return [type].concat(UN_SIZE[type]);
+  const t = UN_FOREIGN.test(company) ? "외국계" : UN_UNICORN.test(company) ? "유니콘" : "";
+  return t ? [t].concat(UN_SIZE[t]) : ["미상", 6, "기업 형태 정보 없음"];
+}
+function unContract(text){
+  if(/체험형/.test(text)) return [4, "체험형 인턴 — 경험 가치 위주"];
+  if(/전환형|채용\s*연계|정규직\s*전환|전환\s*기회/.test(text)) return [7, "전환형 — 자리 현실화 가능"];
+  if(/계약직|기간제|파견|휴직\s*대체|contract/i.test(text)) return [5, "계약직 — 핵심 경험이면 예외 검토"];
+  if(/인턴|intern/i.test(text)) return [6, "인턴"];
+  return [8, "정규직(표시 없음 포함) — 대운의 '자리·시장가치 현실화'와 맞음"];
+}
+/* job: {company, title, type, roles, kw(JD 키워드 라벨→가중치)} */
+function unScore(job){
+  if(!privOn()) return null;
+  const title = [job.title || "", (job.roles || []).join(" ")].join(" ");
+  const kw = job.kw || {};
+  const cnt = {}; let tot = 0;
+  UN_ROLE.forEach(([c, , , re]) => {
+    let n = (title.match(new RegExp(re.source, "gi")) || []).length * 2;
+    Object.entries(kw).forEach(([k, w]) => { if(re.test(k)) n += w; });
+    cnt[c] = n; tot += n;
+  });
+  let role = 5; const roleWhy = [];
+  if(tot){
+    role = 4 + UN_ROLE.reduce((sum, [c, w]) => sum + cnt[c] / tot * w, 0);
+    UN_ROLE.filter(([c]) => cnt[c]).sort((a, b) => cnt[b[0]] - cnt[a[0]]).slice(0, 3)
+      .forEach(([c, , why]) => roleWhy.push(c + "(" + why + ") " + Math.round(cnt[c] / tot * 100) + "%"));
+  } else roleWhy.push("직무 정보 부족");
+  role = Math.max(1, Math.min(10, role));
+  /* 산업은 JD 본문 키워드(플랫폼·데이터 같은 흔한 말)가 아니라 회사 이름·직무 제목·기업 형태로만 보고,
+     좋은 쪽은 가장 강한 하나만, 부담 요소는 모두 반영한다 */
+  const itext = [job.company, title, job.type || ""].join(" ");
+  let best = 0, minus = 0; const indWhy = [];
+  UN_IND.forEach(([w, why, re]) => { if(re.test(itext)){ if(w > 0){ if(w > best){ best = w; indWhy.unshift(why); } } else { minus += w; indWhy.push(why); } } });
+  let ind = 5.5 + best + minus;
+  ind = Math.max(1, Math.min(10, ind));
+  const [sizeT, size, sizeWhy] = unSize(job.company, job.type);
+  const [con, conWhy] = unContract(title);
+  const total = Math.round((role * 0.4 + ind * 0.2 + size * 0.2 + con * 0.2) * 10);
+  const v = total >= 77 ? ["🟢", "적극"] : total >= 71 ? ["🟡", "지원"] : total >= 65 ? ["🟠", "조건부"] : ["🔴", "후순위"];
+  return {total, mark: v[0], label: v[1], parts: [
+    ["직무", role, roleWhy.join(", ")], ["산업", ind, indWhy.join(", ") || "특이 요소 없음(기본)"],
+    ["기업 규모", size, sizeT + " — " + sizeWhy], ["계약형태", con, conWhy]]};
+}
+function unChip(job){
+  const u = unScore(job); if(!u) return null;
+  const el = document.createElement("span"); el.className = "un-chip un-" + u.label;
+  el.textContent = u.mark + " 운 궁합 " + u.total;
+  el.title = "운적 궁합 " + u.total + " · " + u.label + "\n" + u.parts.map(([k, n, why]) => k + " " + n.toFixed(1) + "/10 — " + why).join("\n") +
+    "\n※ 원국·대운 기준 규칙으로 계산한 상징 지표, 합격 확률 아님";
+  return el;
+}
+const unJob = j => ({company: j.company, title: [((DETAILS && DETAILS[j.id] && DETAILS[j.id].tracks) || []).map(t => t.name).join(" "), j.hist || ""].join(" "),
+  type: j.type, roles: j.roles});
 
 function myBadge(id){
   const n = MY_NOTES[id];
@@ -1792,6 +1915,8 @@ function mineTable(){
       const s = document.createElement("span"); s.textContent = j.company; cCo.append(s);
       if(j.url){ const l = document.createElement("a"); l.href = j.url; l.target = "_blank"; l.rel = "noopener"; l.textContent = "↗"; l.title = "공고 열기"; l.className = "tb-link"; cCo.append(l); }
     }
+    { const uj = unJob(j); uj.title = (a.role || "") + " " + uj.title;
+      const uc = unChip(uj); if(uc){ uc.classList.add("un-sm"); uc.textContent = uc.textContent.replace(" 운 궁합", ""); cCo.append(uc); } }
     const cRole = td("tb-role", "직무");
     const ri = document.createElement("input"); ri.value = a.role || (custom ? j.hist || "" : ""); ri.placeholder = (j.roles || []).join(", ") || "직무";
     ri.setAttribute("aria-label", j.company + " 직무");
@@ -2455,7 +2580,9 @@ function openJob(id){
   add("접수 마감", j.end ? fmtAt(j.end, j.endTime) + " (" + dday(j.end) + ")" : "");
   add("기업 형태", j.type);
   add("출처", j.source);
+  if(j.found) add("처음 발견", fmt(j.found) + " (" + (-dleft(j.found) <= 0 ? "오늘" : -dleft(j.found) + "일 전") + ")" + (!j.end ? " · 수시·상시라 먼저 낼수록 유리" : ""));
   if(!a.applied || a.doc === "대기"){ const sb = bestSubmit(j); if(sb) add("제출 추천일", sb.kind === "day" ? sb.text + " (D-2까지 중 일운 최고)" : sb.text); }
+  { const u = unScore(unJob(j)); if(u) add("운적 궁합", u.mark + " " + u.total + " " + u.label + " — " + u.parts.map(([k, n]) => k + " " + n.toFixed(1)).join(" · ")); }
   if(MY_NOTES[id] && MY_NOTES[id].fortune)
     add("운세 판정", MY_NOTES[id].fortune + (MY_NOTES[id].fortune_note ? " — " + MY_NOTES[id].fortune_note : ""));
   if(a.applied){
@@ -3053,6 +3180,7 @@ function initRadar(data){
       const a = document.createElement("a"); a.className = "rd-t"; a.href = j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = j.title;
       const meta = document.createElement("div"); meta.className = "rd-meta";
       if(isNew(j)){ const n = document.createElement("span"); n.className = "rd-new"; n.textContent = "NEW"; meta.append(n); }
+      if(j.firstSeen) meta.append(mdOf(j.firstSeen) + " 발견 · ");
       meta.append(j.location || "");
       if(j.level) meta.append(" · 레벨 " + j.level);
       const tags = document.createElement("div"); tags.className = "rd-tags";
@@ -3102,28 +3230,30 @@ function salesRows(){
     const byRole = (j.roles || []).some(r => /영업/.test(r));
     if(!byRole && !tracks.length && !SALES_RE.test(j.hist || "")) return;
     push({src: "board", id: j.id, company: j.company, title: tracks.slice(0, 3).join(" · ") || (j.roles || []).filter(r => /영업/.test(r)).join(" · ") || "영업",
-          url: j.url, end: j.end || "", years: null, junior: true});
+          url: j.url, end: j.end || "", years: null, junior: true, posted: j.start && j.start <= iso(new Date()) ? j.start : "", found: j.found || ""});
   });
   const d = slData || {};
   /* 2) 채용 레이더(외국계·AI·IT) */
   ((d.radar && d.radar.jobs) || []).forEach(j => {
     if(!SALES_RE.test(j.title) && !(j.roles || []).includes("세일즈·파트너십")) return;
-    push({src: "radar", company: j.company, title: j.title, url: j.url, end: "", years: j.years, junior: j.bucket !== "senior"});
+    push({src: "radar", company: j.company, title: j.title, url: j.url, end: "", years: j.years, junior: j.bucket !== "senior", found: j.firstSeen || ""});
   });
   /* 3) 주니어 공고판 */
   ((d.junior && d.junior.rows) || []).forEach(r => {
     if(!SALES_RE.test(r.title)) return;
     const end = /^\d{4}-/.test(r.due || "") ? r.due : "";
     if(end && end < today) return;
-    push({src: "junior", company: r["회사"], title: r.title, url: r.link, end, years: null, junior: true});
+    push({src: "junior", company: r["회사"], title: r.title, url: r.link, end, years: null, junior: true, posted: r.openDate || "", found: r.found || ""});
   });
   /* 4) 스타트업·유니콘·외국계 공식 채용 */
   ((d.comp && d.comp.jobs) || []).forEach(j => {
     if(!SALES_RE.test(j.title)) return;
-    push({src: "company", company: j.company, title: j.title, url: j.url, end: "", years: j.years, junior: j.years === null || j.years <= 2});
+    push({src: "company", company: j.company, title: j.title, url: j.url, end: "", years: j.years, junior: j.years === null || j.years <= 2, posted: j.posted || "", found: j.found || ""});
   });
   out.forEach(x => { x.kind = (SL_KIND.find(([, re]) => re.test(x.company + " " + x.title)) || ["일반 영업"])[0]; });
-  return out.sort((a, b) => (a.end || "9999").localeCompare(b.end || "9999") || a.company.localeCompare(b.company, "ko"));
+  /* 마감 있는 것은 마감 순, 수시·상시는 최근에 올라온 것부터(빨리 낼수록 유리) */
+  const since = x => (postedInfo(x) || {}).since || "";
+  return out.sort((a, b) => (a.end || "9999").localeCompare(b.end || "9999") || since(b).localeCompare(since(a)) || a.company.localeCompare(b.company, "ko"));
 }
 const SL_SRC = {board: "채용 공고", radar: "채용 레이더", junior: "주니어 공고판", company: "기업 채용"};
 function renderSales(){
@@ -3150,6 +3280,7 @@ function renderSales(){
     const a = document.createElement("a"); a.className = "rd-t"; a.target = "_blank"; a.rel = "noopener"; a.href = x.url || "#"; a.textContent = x.title;
     const meta = document.createElement("div"); meta.className = "rd-meta";
     meta.textContent = [SL_SRC[x.src], x.kind, x.end ? "마감 " + x.end.slice(5).replace("-", "/") + " (" + dday(x.end) + ")" : "상시·마감 미표기"].join(" · ");
+    { const t = postedTag(x); if(t){ meta.append(" · "); meta.append(t); } }
     main.append(a, meta);
     const side = document.createElement("div"); side.className = "sl-side";
     const p = document.createElement("span"); p.className = "rd-pill " + (x.years ? (x.junior ? "junior" : "senior") : "open");
@@ -3173,7 +3304,7 @@ document.getElementById("slJunior").onchange = renderSales;
 const MT_TIERS = [["적극지원", 80, "tier-1"], ["적합지원", 70, "tier-2"], ["상향지원", 60, "tier-3"], ["연습지원", 50, "tier-4"]];
 const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판", company:"기업 채용", linkedin:"링크드인"};
 let mtEditing = false;
-let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "", mtCo = "", mtRole = "";
+let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "", mtCo = "", mtRole = "", mtSortBy = "pct";
 /* 매칭 아카이브 직무 묶음 — 공고 제목으로 나눈다(위에서부터 먼저 맞는 것) */
 const MT_ROLES = [
   ["기획·PM", /기획|\bPM\b|\bPO\b|product|프로덕트|program\s*manag/i],
@@ -3421,6 +3552,18 @@ function renderMatch(){
     b.onclick = () => { mtRole = k; renderMatch(); };
     rc.append(b);
   });
+  /* 운적 궁합(소민 전용) — 정렬에도 쓴다 */
+  const typeOf = j => { const b = j.src === "board" && allJobs().find(x => x.id === j.id); return b ? b.type : ""; };
+  live.forEach(r => { r.type = typeOf(r.j); const u = unScore({company: r.j.company, title: r.j.title, kw: r.j.w, type: r.type}); r.un = u ? u.total : 0; });
+  const sortBox = document.getElementById("mtSort");
+  sortBox.hidden = false;
+  sortBox.replaceChildren();
+  [["pct", "매칭률순"], ["new", "새로 뜬 순"]].concat(privOn() ? [["un", "운 궁합순"]] : []).forEach(([k, l]) => {
+    const b = document.createElement("button"); b.type = "button"; b.textContent = l; b.setAttribute("aria-pressed", mtSortBy === k);
+    b.onclick = () => { mtSortBy = k; renderMatch(); }; sortBox.append(b);
+  });
+  if(mtSortBy === "un" && privOn()) live.sort((a, b) => b.un - a.un || b.pct - a.pct);
+  if(mtSortBy === "new"){ const sk = r => (postedInfo(r.j) || {}).since || ""; live.sort((a, b) => sk(b).localeCompare(sk(a)) || b.pct - a.pct); }
   rows.length = 0;
   live.filter(r => (!mtCo || r.j.company === mtCo) && (!mtRole || r.role === mtRole)).forEach(r => rows.push(r));
 
@@ -3439,13 +3582,21 @@ function renderMatch(){
     e.textContent = (mtCo || mtRole) ? "고른 회사·직무에 맞는 공고가 없어요. 위에서 ‘전체 회사’나 ‘모든 직무’로 바꿔 보세요."
       : "50% 넘게 겹치는 공고가 아직 없어요. 키워드 칩을 더 켜 보거나 경험 원문을 보강해 보세요."; out.append(e); return;
   }
-  MT_TIERS.filter(t => !mtTier || t[0] === mtTier).forEach(t => {
-    const list = rows.filter(r => r.tier[0] === t[0]);
+  /* 매칭률순은 등급별로 묶고, 새로 뜬 순·운 궁합순은 한 줄로 쭉(등급은 각 행 오른쪽에) */
+  const flat = mtSortBy !== "pct";
+  const groups = flat ? [[null, rows.filter(r => !mtTier || r.tier[0] === mtTier)]]
+    : MT_TIERS.filter(t => !mtTier || t[0] === mtTier).map(t => [t, rows.filter(r => r.tier[0] === t[0])]);
+  groups.forEach(([t, list]) => {
     if(!list.length) return;
     const h = document.createElement("h3"); h.className = "mt-grp";
-    const pill = document.createElement("span"); pill.className = "rd-pill " + t[2]; pill.textContent = t[0];
-    const sm = document.createElement("small"); sm.textContent = "매칭 " + t[1] + "% 이상 · " + list.length + "건";
-    h.append(pill, sm); out.append(h);
+    if(t){
+      const pill = document.createElement("span"); pill.className = "rd-pill " + t[2]; pill.textContent = t[0];
+      const sm = document.createElement("small"); sm.textContent = "매칭 " + t[1] + "% 이상 · " + list.length + "건";
+      h.append(pill, sm);
+    } else {
+      const sm = document.createElement("small"); sm.textContent = (mtSortBy === "new" ? "최근에 올라온 순" : "운 궁합 높은 순") + " · " + list.length + "건"; h.append(sm);
+    }
+    out.append(h);
     const ul = document.createElement("ul"); ul.className = "rd-jobs";
     list.forEach(r => {
       const li = document.createElement("li"); li.className = "rd-job";
@@ -3454,13 +3605,15 @@ function renderMatch(){
       const a = document.createElement("a"); a.className = "rd-t"; a.href = r.j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = r.j.title;
       const meta = document.createElement("div"); meta.className = "rd-meta";
       meta.append(MT_SRC[r.j.src] || r.j.src);
+      { const t = postedTag(r.j); if(t){ meta.append(" · "); meta.append(t); } }
       if(r.j.end){ meta.append(" · 마감 " + r.j.end); const h = submitHint(r.j); if(h){ meta.append(" · "); meta.append(h); } }
       const tags = document.createElement("div"); tags.className = "rd-tags";
       r.got.forEach(k => { const s = document.createElement("span"); s.className = "rd-tag role"; s.textContent = k; tags.append(s); });
       r.miss.forEach(k => { const s = document.createElement("span"); s.className = "rd-tag mt-tag-miss"; s.textContent = k; s.title = "내 경험에 없는 키워드"; tags.append(s); });
       main.append(a, meta, tags);
+      if(r.un){ const uc = unChip({company: r.j.company, title: r.j.title, kw: r.j.w, type: r.type}); if(uc){ meta.append(" · "); meta.append(uc); } }
       const pct = document.createElement("div"); pct.className = "mt-pct"; pct.textContent = r.pct + "%";
-      const sm2 = document.createElement("small"); sm2.textContent = "매칭"; pct.append(sm2);
+      const sm2 = document.createElement("small"); sm2.textContent = flat ? r.tier[0] : "매칭"; pct.append(sm2);
       li.append(co, main, pct); ul.append(li);
     });
     out.append(ul);

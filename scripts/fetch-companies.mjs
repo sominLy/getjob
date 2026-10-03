@@ -6,7 +6,7 @@
 // 회사 목록은 scripts/probe-sources.mjs 점검(2026-09-29)에서 실제로 공고가 읽힌 곳만 넣었다.
 // 공개 채용 API(Greenhouse·Ashby·Workday·SmartRecruiters·넷플릭스) 또는 서버에서 그려진 그리팅 페이지만 쓴다.
 
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { yearsIn, weights } from "./lib/jd-keywords.mjs";
@@ -88,7 +88,7 @@ async function collectGreeting(company, base) {
     const url = `${base}/ko/o/${o.openingId}`;
     try {
       const text = await greetingJd(url);
-      jobs.push({ company, title: o.title.trim(), url, text });
+      jobs.push({ company, title: o.title.trim(), url, text, posted: (o.openDate || "").slice(0, 10) });
     } catch (e) { console.error(`  ${company} 본문 실패`, o.title, e.message); }
     await sleep(250);
   }
@@ -99,14 +99,14 @@ async function collectGreenhouse(company, token) {
   const data = await getJson(`https://boards-api.greenhouse.io/v1/boards/${token}/jobs?content=true`);
   return data.jobs
     .filter((j) => SEOUL.test(j.location?.name || "") && relevant(j.title))
-    .map((j) => ({ company, title: j.title, url: j.absolute_url, text: stripHtml(j.content || "") }));
+    .map((j) => ({ company, title: j.title, url: j.absolute_url, text: stripHtml(j.content || ""), posted: (j.first_published || "").slice(0, 10) }));
 }
 
 async function collectAshby(company, org) {
   const data = await getJson(`https://api.ashbyhq.com/posting-api/job-board/${org}`);
   return data.jobs
     .filter((j) => SEOUL.test(`${j.location} ${JSON.stringify(j.secondaryLocations || [])}`) && relevant(j.title))
-    .map((j) => ({ company, title: j.title, url: j.jobUrl, text: j.descriptionPlain || stripHtml(j.descriptionHtml || "") }));
+    .map((j) => ({ company, title: j.title, url: j.jobUrl, text: j.descriptionPlain || stripHtml(j.descriptionHtml || ""), posted: (j.publishedAt || "").slice(0, 10) }));
 }
 
 async function collectWorkday(company, host, tenant, site) {
@@ -136,7 +136,7 @@ async function collectSmartRecruiters(company, id) {
     try {
       const d = await getJson(`${api}/${p.id}`);
       const secs = Object.values(d.jobAd?.sections || {}).map((x) => `${x.title || ""}\n${x.text || ""}`).join("\n");
-      jobs.push({ company, title: p.name, url: d.postingUrl || `https://jobs.smartrecruiters.com/${id}/${p.id}`, text: stripHtml(secs) });
+      jobs.push({ company, title: p.name, url: d.postingUrl || `https://jobs.smartrecruiters.com/${id}/${p.id}`, text: stripHtml(secs), posted: (p.releasedDate || "").slice(0, 10) });
     } catch (e) { console.error(`  ${company} 본문 실패`, p.name, e.message); }
   }
   return jobs;
@@ -159,6 +159,10 @@ async function collectNetflix() {
 }
 
 async function main() {
+  // 처음 발견한 날은 직전 결과에서 이어받는다(새로 보인 공고만 오늘 날짜)
+  let prevFound = new Map();
+  try { prevFound = new Map(JSON.parse(await readFile(OUT, "utf-8")).jobs.map((j) => [j.url, j.found])); } catch {}
+  const today = new Date().toISOString().slice(0, 10);
   const tasks = [
     ...GREETING.map(([c, b]) => [c, () => collectGreeting(c, b)]),
     ...GREENHOUSE.map(([c, t]) => [c, () => collectGreenhouse(c, t)]),
@@ -183,6 +187,7 @@ async function main() {
   // 해외 근무(예: Upstage Japan)·일본어/중국어 등 다른 외국어가 필요한 공고는 뺀다
   const jobs = all.filter((j) => j.url && !seen.has(j.url) && seen.add(j.url) && !needsOtherLang(j.title, j.text)).map(({ text, ...j }) => ({
     ...j, years: yearsIn(`${j.title}\n${text}`), w: weights(`${j.title}\n${text}`), short: text.length < 200,
+    found: prevFound.get(j.url) || today,
   }));
   await writeFile(OUT, JSON.stringify({ updated: new Date().toISOString().slice(0, 10), errors, jobs }, null, 1) + "\n", "utf-8");
   const noYears = jobs.filter((j) => j.years === null).length;

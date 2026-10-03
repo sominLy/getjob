@@ -153,6 +153,7 @@ async function mergeIntoBoard(items) {
       source: `${it.company} 채용페이지`,
       url: it.url,
       hist: [it.title, it.department].filter(Boolean).join(" · "),
+      found: new Date().toISOString().slice(0, 10), // 처음 발견한 날
     });
   }
   if (fresh.length === 0) return 0;

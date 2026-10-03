@@ -211,6 +211,10 @@ async function main() {
     return true;
   });
 
+  // 처음 발견한 날 — 수시·상시 공고는 언제 떴는지가 중요해서 남긴다(매일 KST 11시 실행이라 UTC 날짜 = KST 날짜)
+  const today = new Date().toISOString().slice(0, 10);
+  fresh.forEach((job) => { job.found = today; });
+
   if (fresh.length === 0) {
     console.log("새 공고 없음.");
     return;

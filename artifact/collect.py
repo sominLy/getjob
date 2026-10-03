@@ -259,13 +259,14 @@ def collect_greenhouse(name, token, url_tmpl):
 
 
 def load_prev_links():
+    """직전 결과의 링크 → 처음 발견한 날"""
     if not PREV_PATH.exists():
-        return set()
+        return {}
     try:
         prev = json.loads(PREV_PATH.read_text(encoding="utf-8"))
-        return {r["link"] for r in prev.get("rows", [])}
+        return {r["link"]: r.get("found", "") for r in prev.get("rows", [])}
     except Exception:
-        return set()
+        return {}
 
 
 def main():
@@ -283,8 +284,10 @@ def main():
         print(f"[greenhouse] {name}: {len(rows)}건")
         all_rows.extend(rows)
 
+    today = time.strftime("%Y-%m-%d", time.gmtime())  # 매일 KST 11시 실행이라 UTC 날짜 = KST 날짜
     for r in all_rows:
         r["new"] = r["link"] not in prev_links
+        r["found"] = prev_links.get(r["link"]) or today  # 처음 발견한 날
 
     ai_rows = []
     if JOBBOARD_AI_JSON.exists():
@@ -302,6 +305,7 @@ def main():
                     "cat": "외국계 AI (연차 미표기)",
                     "intern": False,
                     "new": j["url"] not in prev_links,
+                    "found": prev_links.get(j["url"]) or time.strftime("%Y-%m-%d", time.gmtime()),
                     "openDate": j.get("updated", ""),
                 }
             )
