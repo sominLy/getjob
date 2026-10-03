@@ -511,6 +511,19 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .pt-new{color:var(--urgent);font-weight:700}
 .pt-old{opacity:.7}
 .pt-row{display:block;margin-top:2px;font-size:10.5px}
+.gc-box{margin:4px 0 14px;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.gc-box>summary{cursor:pointer;list-style:none;padding:4px 0}
+.gc-box>summary::before{content:"▸ ";color:var(--muted)}
+.gc-box[open]>summary::before{content:"▾ "}
+.jd-pick{margin:12px 0;padding:12px 14px;border:1px solid var(--accent-soft);border-radius:10px;background:var(--paper)}
+.jd-pick h3{margin:0 0 4px;font-size:15px}
+.gc-list{list-style:none;padding:0;margin:8px 0 0}
+.gc-row{display:grid;grid-template-columns:24px 1fr auto;gap:4px 10px;padding:9px 0;border-top:1px solid var(--line-2);align-items:start}
+.gc-row.best .gc-n{background:var(--accent);color:#fff}
+.gc-n{width:22px;height:22px;border-radius:50%;background:var(--line-2);font-size:12px;font-weight:700;display:grid;place-items:center}
+.gc-m b{font-size:14px}
+.gc-row.off{opacity:.55}
+.gc-news{margin:4px 0 0;font-size:11.5px;color:var(--muted)}
 .fx-today{margin:2px 0 6px;font-size:11.5px;color:var(--muted)}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
 .seg button{border:0;background:var(--card);padding:6px 14px;font-size:13px;color:var(--muted);cursor:pointer}
@@ -953,6 +966,11 @@ thead th{font-weight:600;letter-spacing:.07em}
       <div class="chips sm" id="mtRoleChips" aria-label="직무로 보기"></div>
       <div class="chips sm" id="mtSort" aria-label="정렬" hidden></div>
     </div>
+    <details class="gc-box" id="gcBox" hidden>
+      <summary><b>공채·그룹 공고 — 직무 하나 고르기</b> <span class="sub" id="gcSum"></span></summary>
+      <p class="sub">여러 직무를 한꺼번에 뽑는 공고에서 어느 직무로 낼지: 내 경험 매칭 40% · 채용 규모 15% · 경쟁 10% · 회사 성장 10% · 최근 뉴스 속 직무 비중 10%<span id="gcFxNote"></span>. 자료가 없는 항목은 빼고 나머지로 계산해요.</p>
+      <ul class="rd-jobs" id="gcList"></ul>
+    </details>
     <div class="chips sm mt-tiers" id="mtTierChips"></div>
     <div id="mtOut"></div>
     <p class="sub mt-foot" id="mtFoot"></p>
@@ -1105,6 +1123,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <p class="jd-note" id="jdNote"></p>
     <img class="jd-poster" id="jdPoster" alt="공고 이미지" hidden>
     <p class="jd-hist" id="jdPosterFail" hidden>이 공고는 본문이 이미지로 되어 있고, 회사 사이트가 외부 표시를 막아두었습니다. 아래 <b>공고 열기</b>로 확인하세요.</p>
+    <div class="jd-pick" id="jdPick" hidden></div>
     <div class="jd-secs" id="jdTracks" hidden></div>
     <div class="jd-secs" id="jdSections" hidden></div>
     <pre class="jd-detail" id="jdDetail" hidden></pre>
@@ -2617,6 +2636,7 @@ function openJob(id){
   note.hidden = !a.note;
 
   showDetail(id);
+  renderPick(id);
 
   const link = document.getElementById("jdLink");
   if(j.url){ link.href = j.url; link.hidden = false; } else { link.hidden = true; }
@@ -3339,6 +3359,96 @@ function renderSales(){
 }
 document.getElementById("slJunior").onchange = renderSales;
 
+/* ---------- 공채·그룹 공고: 직무 하나 고르기 ----------
+   data/gongchae.json(매일 수집 때 scripts/build-gongchae.mjs가 만듦)의 직무별 JD 키워드·채용 규모·경쟁·뉴스·매출로
+   공고 안의 직무들을 줄 세운다. 계산은 모두 브라우저에서(내 경험 키워드는 내 계정에만 있음). */
+let GC = null, gcPromise = null;
+function loadGongchae(){
+  if(gcPromise) return gcPromise;
+  gcPromise = fetch("data/gongchae.json?t=" + Date.now()).then(r => r.ok ? r.json() : null)
+    .then(o => { GC = {}; ((o && o.items) || []).forEach(x => GC[x.id] = x); }).catch(() => { GC = {}; });
+  return gcPromise;
+}
+/* 기획·마케팅·영업·운영·경영지원 계열이 아닌 직무(개발·설계·생산·연구·전문 자격 등) — 추천에서 맨 뒤로 */
+const GC_OFF = /개발|엔지니어|engineer|SW|HW|설계|생산|공정|품질|설비|연구|R&D|회로|반도체|토목|건축|구조|기계|전기|전자|화학|배합|시설|검사|정보보안|보안|클라우드|인프라|네트워크|디자인|designer|간호|약사|조리|영양|의료|임상|운전|정비|IB\b|PF\b|트레이딩|애널리스트|퀀트|법무|변호사|세무사|회계사/i;
+function gcRank(item){
+  const mine = typeof mtMine === "function" ? mtMine() : new Set();
+  const hasMine = !!(db.match && mine.size);
+  const maxAff = Math.max(1, ...item.tracks.map(t => t.affiliateTracks || 1));
+  const anyApp = item.tracks.some(t => t.applicants > 0);
+  const maxHead = Math.max(0, ...item.tracks.map(t => t.headcount || 0));
+  return item.tracks.map(t => {
+    const f = [];   // [이름, 0~100 점수, 비중, 설명]
+    const e = Object.entries(t.w || {}), tot = e.reduce((s, [, w]) => s + w, 0), hit = e.reduce((s, [k, w]) => s + (mine.has(k) ? w : 0), 0);
+    const nm = t.name.replace(/^\s*\[[^\]]+\]/, "");
+    /* 개발자·엔지니어 직함은 무조건 다른 직군, 그 밖의 기술 단어는 기획·마케팅 같은 말이 같이 있으면 남긴다(예: 인프라 전략기획) */
+    const off = /engineer|developer|architect|개발자|엔지니어|backend|frontend|코딩|프로그래머|scientist/i.test(nm) ||
+      (GC_OFF.test(nm) && !/기획|마케팅|영업|사업|전략|서비스\s*기획|MD|PM|PO|경영/.test(nm));
+    if(hasMine) f.push(["경험", tot ? Math.round(hit / (tot + 2) * 100) : 0, 40, tot ? "내 경험과 겹치는 JD 키워드 " + Math.round(hit / (tot + 2) * 100) + "%" + (t.ownJd ? "" : " (직무 이름·공통 본문 기준)") : "JD 키워드가 없어 경험을 비교할 수 없음"]);
+    const u = privOn() ? unScore({company: t.affiliate || item.company, title: t.name, type: item.type}) : null;
+    if(u) f.push(["운", u.total, 15, "운 궁합 " + u.mark + " " + u.total]);
+    const vol = maxHead ? Math.round(30 + 70 * (t.headcount || 0) / maxHead) : Math.round(30 + 70 * (t.affiliateTracks || 1) / maxAff);
+    f.push(["채용 규모", vol, 15, maxHead && t.headcount ? "모집 " + t.headcount + "명" : (t.affiliate !== item.company ? t.affiliate + " 직무 " + t.affiliateTracks + "개" : "공고 안 직무 " + item.tracks.length + "개")]);
+    if(anyApp) f.push(["경쟁", Math.round(100 - 70 * (t.competition || 0)), 10, "자소설 지원 준비 " + (t.applicants || 0) + "명" + (t.competition >= 0.7 ? " (붐빔)" : t.competition <= 0.3 ? " (한산)" : "")]);
+    if(item.revenue && item.revenue.growth != null) f.push(["성장", Math.max(0, Math.min(100, Math.round(50 + item.revenue.growth * 2))), 10, item.revenue.year + "년 매출 " + (item.revenue.growth >= 0 ? "+" : "") + item.revenue.growth + "%"]);
+    if(t.news && t.news.n30) f.push(["뉴스", Math.min(100, 40 + t.news.role * 15), 10, "최근 30일 기사 " + t.news.n30 + "건 중 이 직무 관련 " + t.news.role + "건"]);
+    const wsum = f.reduce((s, x) => s + x[2], 0);
+    const total = Math.round(f.reduce((s, x) => s + x[1] * x[2], 0) / (wsum || 1));
+    return {t, total: off ? Math.min(total, 40) : total, f, off, noExp: !hasMine};
+  }).sort((a, b) => (a.off - b.off) || b.total - a.total);
+}
+function gcRow(r, i){
+  const li = document.createElement("li"); li.className = "gc-row" + (i === 0 ? " best" : "");
+  const n = document.createElement("div"); n.className = "gc-n"; n.textContent = (i + 1) + "";
+  const m = document.createElement("div"); m.className = "gc-m";
+  const b = document.createElement("b"); b.textContent = r.t.name; m.append(b);
+  if(r.off){ const o = document.createElement("span"); o.className = "sub"; o.textContent = "  다른 직군(개발·설계·전문직 등)"; m.append(o); li.classList.add("off"); }
+  const chips = document.createElement("div"); chips.className = "rd-tags";
+  r.f.forEach(([k, v, , why]) => { const c = document.createElement("span"); c.className = "rd-tag" + (v >= 70 ? " role" : ""); c.textContent = k + " " + v; c.title = why; chips.append(c); });
+  m.append(chips);
+  if(r.t.news && r.t.news.top && r.t.news.top.length && i < 3){ const p = document.createElement("p"); p.className = "gc-news"; p.textContent = "뉴스: " + r.t.news.top.slice(0, 2).join(" · "); m.append(p); }
+  const sc = document.createElement("div"); sc.className = "mt-pct"; sc.textContent = r.total; const sm = document.createElement("small"); sm.textContent = "종합"; sc.append(sm);
+  li.append(n, m, sc); return li;
+}
+async function renderPick(id){
+  const box = document.getElementById("jdPick"); box.hidden = true; box.replaceChildren();
+  await loadGongchae();
+  if(jdId !== id || !GC[id]) return;
+  const item = GC[id], ranked = gcRank(item);
+  const h = document.createElement("h3"); h.textContent = "이 공고에서 하나만 고른다면";
+  const sub = document.createElement("p"); sub.className = "sub";
+  sub.textContent = "공채 판단: " + item.why.join(" · ") + " · JD 출처: " + item.jdSource + (item.oneOnly ? " · ⚠ 공고에 '한 직무(계열사)만 지원' 조건이 있어요" : "") +
+    (ranked[0] && ranked[0].noExp ? " · 매칭 아카이브에 경험을 넣으면 '경험' 점수가 더해져요" : "");
+  const ul = document.createElement("ol"); ul.className = "rd-jobs gc-list";
+  ranked.slice(0, 8).forEach((r, i) => ul.append(gcRow(r, i)));
+  box.append(h, sub, ul);
+  if(ranked.length > 8){ const more = document.createElement("p"); more.className = "sub"; more.textContent = "그 밖에 " + (ranked.length - 8) + "개 직무는 점수가 더 낮아요."; box.append(more); }
+  box.hidden = false;
+}
+function renderGcBox(){
+  const box = document.getElementById("gcBox");
+  if(!GC){ loadGongchae().then(renderGcBox); return; }
+  const items = Object.values(GC).filter(x => !x.end || x.end >= iso(new Date()));
+  box.hidden = !items.length;
+  document.getElementById("gcFxNote").textContent = privOn() ? " · 운 궁합 15%(소민 전용)" : "";
+  const rows = items.map(x => ({x, r: gcRank(x).filter(y => !y.off)})).filter(o => o.r.length)
+    .sort((a, b) => b.r[0].total - a.r[0].total);
+  document.getElementById("gcSum").textContent = rows.length + "개 공고";
+  const ul = document.getElementById("gcList"); ul.replaceChildren();
+  rows.slice(0, 40).forEach(({x, r}) => {
+    const li = document.createElement("li"); li.className = "rd-job";
+    const co = document.createElement("div"); co.className = "rd-co"; co.textContent = x.company;
+    const main = document.createElement("div"); main.className = "rd-main";
+    const a = document.createElement("a"); a.className = "rd-t"; a.href = "#"; a.textContent = "추천: " + r[0].t.name;
+    a.onclick = (e) => { e.preventDefault(); openJob(x.id); };
+    const meta = document.createElement("div"); meta.className = "rd-meta";
+    meta.textContent = [x.tracks.length + "개 직무 중", r[1] ? "다음: " + r[1].t.name + " " + r[1].total : "", x.end ? "마감 " + x.end.slice(5).replace("-", "/") : "", x.oneOnly ? "한 직무만 지원" : ""].filter(Boolean).join(" · ");
+    main.append(a, meta);
+    const sc = document.createElement("div"); sc.className = "mt-pct"; sc.textContent = r[0].total; const sm = document.createElement("small"); sm.textContent = "종합"; sc.append(sm);
+    li.append(co, main, sc); ul.append(li);
+  });
+}
+
 /* ---------- 매칭 아카이브 ----------
    공고 쪽 키워드(data/jd-keywords.json)는 공개 데이터, 내 쪽 키워드(db.match)는 내 계정에만 있다.
    매칭률 = JD 키워드 가중치 중 내 키워드에 해당하는 비율. 가중치는 JD에 나온 횟수(최대 3). */
@@ -3671,6 +3781,7 @@ function renderMatch(){
     tc.append(b);
   });
 
+  renderGcBox();
   const out = document.getElementById("mtOut"); out.replaceChildren();
   if(!m){ return; }
   if(!rows.length){
