@@ -79,7 +79,7 @@ async function main() {
     const tracks = (details.items[j.id]?.tracks || []).map((t) => t.name).filter((n) => n && n !== "직무 미표기");
     const text = secs.filter((s) => JD_SECTIONS.test(s.title)).map((s) => `${s.title}\n${s.body}`).join("\n");
     const before = out.length;
-    push({ src: "board", id: j.id, company: j.company, title: tracks.slice(0, 3).join(" · ") || (j.roles || []).join(" · ") || "공고", url: j.url || `#${j.id}`, end: j.end || "" }, text);
+    push({ src: "board", id: j.id, company: j.company, title: tracks.slice(0, 3).join(" · ") || (j.roles || []).join(" · ") || "공고", url: j.url || `#${j.id}`, end: j.end || "", posted: j.start || "", found: j.found || "" }, text);
     nBoard += out.length - before;
   }
 
@@ -89,7 +89,7 @@ async function main() {
   for (const j of radar.jobs) {
     if (j.years !== null || !j.jd) continue;
     const before = out.length;
-    push({ src: "radar", company: j.company, title: j.title, url: j.url, end: "" }, `${j.title}\n${j.jd}`);
+    push({ src: "radar", company: j.company, title: j.title, url: j.url, end: "", found: j.firstSeen || "" }, `${j.title}\n${j.jd}`);
     nRadar += out.length - before;
   }
 
@@ -100,7 +100,7 @@ async function main() {
     if (seen.has(r.link)) continue;
     const cached = cache.get(r.link);
     if (cached && cached.src === "junior") {
-      seen.add(r.link); out.push(cached); nJunior++;
+      seen.add(r.link); out.push({ ...cached, posted: r.openDate || cached.posted || "", found: r.found || cached.found || "" }); nJunior++;
       continue;
     }
     if (skipped.has(r.link)) { skipOut.push(r.link); continue; }
@@ -115,7 +115,7 @@ async function main() {
       continue;
     }
     const before = out.length;
-    push({ src: "junior", company: r["회사"], title: r.title, url: r.link, end: /^\d{4}-/.test(r.due) ? r.due : "" },
+    push({ src: "junior", company: r["회사"], title: r.title, url: r.link, end: /^\d{4}-/.test(r.due) ? r.due : "", posted: r.openDate || "", found: r.found || "" },
       `${r.title}\n${text}`, careerYears(r.career));
     if (out.length === before) skipOut.push(r.link);
     nJunior += out.length - before;
@@ -128,7 +128,7 @@ async function main() {
     if (!j.url || seen.has(j.url)) continue;
     seen.add(j.url);
     if (j.years !== null || EXCLUDE_TITLE.test(j.title) || isNotJob(j.company, j.title) || needsOtherLang(j.title) || Object.keys(j.w || {}).length < MIN_KEYWORDS) continue;
-    out.push({ src: "company", company: j.company, title: j.title, url: j.url, end: "", w: j.w });
+    out.push({ src: "company", company: j.company, title: j.title, url: j.url, end: "", w: j.w, posted: j.posted || "", found: j.found || "" });
     nCompany++;
   }
 
