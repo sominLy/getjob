@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>지원 보드 — 하반기 채용 캘린더</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta name="theme-color" content="#5F8F3A">
 <meta name="description" content="채용 공고 캘린더, 전형 일정, 자소서 아카이브를 한 곳에서. 내 데이터는 내 브라우저에만 저장됩니다.">
 <style>
 /* ===== 테마 색 — 색마다 밝은 화면용(-l)과 어두운 화면용(-d)을 함께 정의 ===== */
@@ -441,6 +444,11 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .rd-pill.senior{background:var(--urgent-soft);color:var(--urgent)}
 .rd-empty{padding:28px;text-align:center;color:var(--muted)}
 
+/* 내 계정 */
+.me-dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;margin:14px 0 18px;font-size:14px}
+.me-dl dt{color:var(--muted)}
+.me-dl dd{margin:0;overflow-wrap:anywhere}
+
 /* 매칭 아카이브 */
 .mt-me{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:9px;margin-bottom:16px}
 .mt-me-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
@@ -632,6 +640,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <button class="ghost" id="privBtn" hidden aria-pressed="true"></button>
     <button class="ghost" id="expBtn">백업</button>
     <button class="ghost" id="impBtn">복원</button>
+    <button class="ghost" id="meBtn" title="로그인한 계정과 내 데이터">내 계정</button>
     <button class="ghost" id="logoutBtn">로그아웃</button>
   </div>
   <div class="rail"><div class="rail-in" id="rail"></div></div>
@@ -772,7 +781,7 @@ thead th{font-weight:600;letter-spacing:.07em}
         <button class="ghost" id="mtEditBtn">경험 원문으로 다시 뽑기</button>
       </div>
       <div id="mtEditor" hidden>
-        <p class="sub">경험정리 문서를 통째로 붙여넣으세요. ‘#’ 제목 단위(없으면 빈 줄 단위)로 경험을 나눠, 각 키워드가 몇 개 경험에서 나오는지 셉니다. 아카이브 &gt; 경험 정리에 적어 둔 경험도 함께 셉니다. 원문은 저장하지 않고 키워드와 개수만 내 계정에 남깁니다.</p>
+        <p class="sub">경험정리 문서를 통째로 붙여넣으세요. ‘#’ 제목 단위(없으면 빈 줄 단위)로 경험을 나눠 <b>아카이브 &gt; 경험 정리</b>에 카드로 보관하고(내 계정에만 저장), 각 키워드가 몇 개 경험에서 나오는지 셉니다. 다시 붙여넣으면 이전 원문 카드만 새것으로 바뀌고 직접 쓴 카드는 그대로 남아요.</p>
         <textarea id="mtText" rows="8" placeholder="경험정리 붙여넣기"></textarea>
         <div class="mt-edit-actions"><button class="primary" id="mtRunBtn">키워드 뽑기</button><button class="ghost" id="mtCancelBtn">닫기</button></div>
       </div>
@@ -836,6 +845,12 @@ thead th{font-weight:600;letter-spacing:.07em}
 </dialog>
 
 <!-- 내 조건 -->
+<dialog id="meDlg">
+  <h2>내 계정</h2>
+  <dl class="me-dl" id="meBody"></dl>
+  <div class="f-actions"><button class="ghost" id="meLogout">로그아웃</button><button class="primary" id="meClose">닫기</button></div>
+</dialog>
+
 <dialog id="prefDlg">
   <h2>내 조건</h2>
   <p class="sub" style="margin-top:6px">고른 조건에 맞는 공고만 기본으로 보여줍니다. 안 고르면 전부 보입니다.</p>
@@ -2572,9 +2587,25 @@ function mtSplit(text){
   return parts.map(p => p.trim()).filter(p => p.length > 40);
 }
 function mtExtract(text){ return mtDict.filter(([, re]) => re.test(text)).map(([l]) => l); }
+/* 붙여넣은 경험정리는 제목(#) 단위로 쪼개 아카이브 > 경험 정리에 카드로도 보관한다(내 계정에만 저장).
+   다시 붙여넣으면 이전에 붙여넣은 카드만 새것으로 바꾸고, 직접 쓴 카드는 그대로 둔다. */
+function mtArchive(text){
+  const parts = mtSplit(text);
+  const today = new Date().toISOString().slice(0, 10);
+  const cards = parts.map((p, i) => {
+    const lines = p.split("\n");
+    const title = lines[0].replace(/^#+\s*/, "").trim().slice(0, 80) || ("경험 " + (i + 1));
+    return {id: "p" + Date.now() + "-" + i, src: "paste", at: today, title, tags: "경험정리 원문", s: lines.slice(1).join("\n").trim(), t: "", a: "", r: ""};
+  });
+  db.arc.exp = (db.arc.exp || []).filter(e => e.src !== "paste").concat(cards);
+  return cards.length;
+}
 function mtBuild(text){
-  const exps = mtSplit(text || "").concat(
-    (db.arc.exp || []).map(e => [e.title, e.tags, e.s, e.t, e.a, e.r].join("\n")).filter(t => t.trim().length > 40));
+  const cardText = e => [e.title, e.tags, e.s, e.t, e.a, e.r].join("\n");
+  const cards = db.arc.exp || [];
+  // 방금 붙여넣었으면 그 원문을, 아니면 아카이브에 보관된 카드를 경험으로 센다(같은 내용을 두 번 세지 않게)
+  const pasted = text && text.trim() ? mtSplit(text) : cards.filter(e => e.src === "paste").map(cardText);
+  const exps = pasted.concat(cards.filter(e => e.src !== "paste").map(cardText).filter(t => t.trim().length > 40));
   const counts = {};
   exps.forEach(e => mtExtract(e).forEach(k => { counts[k] = (counts[k] || 0) + 1; }));
   const prev = db.match || {};
@@ -2682,12 +2713,28 @@ function renderLinkedin(){
   d.append(ul); box.append(d);
 }
 
+/* 소민 계정인데 아직 경험 키워드가 없으면, 미리 뽑아 둔 키워드 개수(data/owner-match.json)로 채운다.
+   이 파일에는 키워드 이름과 개수만 있고 경험 원문은 없다. */
+let ownerSeedTried = false;
+async function seedOwnerMatch(){
+  if(ownerSeedTried || !IS_OWNER || db.match) return;
+  ownerSeedTried = true;
+  try{
+    const r = await fetch("data/owner-match.json?t=" + Date.now());
+    if(!r.ok) return;
+    const o = await r.json();
+    db.match = {counts: o.counts, n: o.n, at: o.at, on: [], off: [], seeded: true};
+    save(); renderMatch();
+  }catch(e){}
+}
+
 function renderMatch(){
   if(!mtData) return;
+  if(!db.match && IS_OWNER){ seedOwnerMatch(); }
   renderLinkedin();
   const m = db.match, mine = mtMine();
   document.getElementById("mtMeStat").textContent = m
-    ? "경험 " + m.n + "개에서 뽑음 · " + m.at + " · 내 키워드 " + mine.size + "개"
+    ? "경험 " + m.n + "개에서 뽑음 · " + m.at + " · 내 키워드 " + mine.size + "개" + (m.seeded ? " · 미리 넣어 둔 경험정리 기준" : "")
     : "아직 없음 — 오른쪽 버튼으로 경험정리를 붙여넣어 주세요";
   if(!m) document.getElementById("mtEditor").hidden = false;
 
@@ -2785,10 +2832,12 @@ document.getElementById("mtRunBtn").onclick = () => {
   if(!mtDict){ toast("매칭 데이터를 아직 불러오는 중입니다"); return; }
   const t = document.getElementById("mtText").value;
   if(!t.trim() && !(db.arc.exp || []).length){ toast("경험정리를 붙여넣어 주세요"); return; }
+  const saved = t.trim() ? mtArchive(t) : 0;
   mtBuild(t);
   document.getElementById("mtText").value = "";
   document.getElementById("mtEditor").hidden = true;
-  renderMatch(); toast("경험 키워드를 저장했습니다");
+  renderMatch(); renderArc();
+  toast(saved ? "경험 " + saved + "개를 아카이브에 보관하고 키워드를 저장했습니다" : "경험 키워드를 다시 뽑았습니다");
 };
 
 /* ---------- 배선 ---------- */
@@ -2918,6 +2967,7 @@ function boot(){
 
 /* ---------- 인증 ---------- */
 let currentUserId = null;
+let currentEmail = "";
 const authScreen = document.getElementById("authScreen");
 const appHeader = document.getElementById("appHeader");
 const appWrap = document.getElementById("appWrap");
@@ -2964,6 +3014,23 @@ document.getElementById("authForm").onsubmit = async function(e){
   // 로그인 성공 시에는 onAuthStateChange가 처리
 };
 
+function openMe(){
+  const rows = [["로그인 아이디", currentEmail || "알 수 없음"],
+    ["내 지원", Object.values(db.apps || {}).filter(a => a.applied).length + "건"],
+    ["아카이브 경험 카드", (db.arc.exp || []).length + "개"]];
+  if(IS_OWNER){
+    rows.push(["소민 전용 기능", privOn() ? "켜짐 (헤더 버튼으로 끄고 켤 수 있어요)" : "꺼짐"]);
+    const m = db.match;
+    rows.push(["경험 키워드", m ? mtMine().size + "개 · 경험 " + m.n + "개 기준 · " + m.at : "아직 없음"]);
+    rows.push(["링크드인 저장", (db.linkedin || []).length + "건"]);
+  }
+  const dl = document.getElementById("meBody"); dl.replaceChildren();
+  rows.forEach(([k, v]) => { const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.textContent = v; dl.append(dt, dd); });
+  document.getElementById("meDlg").showModal();
+}
+document.getElementById("meBtn").onclick = openMe;
+document.getElementById("meClose").onclick = () => document.getElementById("meDlg").close();
+document.getElementById("meLogout").onclick = () => { document.getElementById("meDlg").close(); document.getElementById("logoutBtn").click(); };
 document.getElementById("logoutBtn").onclick = async function(){
   await sb.auth.signOut();
 };
@@ -2985,6 +3052,7 @@ sb.auth.onAuthStateChange(async function(event, session){
   if(session && session.user){
     if(currentUserId === session.user.id) return; // 이미 로드됨(예: 탭 포커스 시 재발화)
     currentUserId = session.user.id;
+    currentEmail = session.user.email || "";
     db = await loadUserData(currentUserId);
     IS_OWNER = await checkOwner(session.user.email);
     await loadMyNotes();
@@ -2993,6 +3061,7 @@ sb.auth.onAuthStateChange(async function(event, session){
     applyPrivate();
   } else {
     currentUserId = null;
+    currentEmail = "";
     IS_OWNER = false;
     MY_NOTES = {};
     applyPrivate();
