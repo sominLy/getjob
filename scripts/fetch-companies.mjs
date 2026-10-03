@@ -147,10 +147,12 @@ async function collectNetflix() {
   const jobs = [];
   for (const p of data.positions || []) {
     if (!SEOUL.test(p.location || "") || !relevant(p.name)) continue;
+    // 목록의 설명은 앞부분만 올 때가 있어(연차 요건이 잘림) 상세 본문을 늘 받아 긴 쪽을 쓴다
     let text = p.job_description || "";
-    if (!text) {
-      try { text = (await getJson(`https://explore.jobs.netflix.net/api/apply/v2/jobs/${p.id}?domain=netflix.com`)).job_description || ""; } catch {}
-    }
+    try {
+      const full = (await getJson(`https://explore.jobs.netflix.net/api/apply/v2/jobs/${p.id}?domain=netflix.com`)).job_description || "";
+      if (full.length > text.length) text = full;
+    } catch {}
     jobs.push({ company: "넷플릭스", title: p.name, url: p.canonicalPositionUrl || `https://explore.jobs.netflix.net/careers/job/${p.id}`, text: stripHtml(text) });
   }
   return jobs;

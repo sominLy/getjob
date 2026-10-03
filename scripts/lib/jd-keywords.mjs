@@ -104,8 +104,11 @@ export function yearsIn(text) {
   if (!text) return null;
   const mins = [];
   const patterns = [
-    /(\d+)\s*(?:[~\-–]\s*\d+\s*)?\+?\s*years?\s*(?:of\s*)?(?:experience|exp)/gi,
-    /(\d+)\s*(?:[~\-–]\s*\d+\s*)?\+\s*years/gi,
+    // "12+ years of experience", "10 years' relevant experience", "8 yrs of progressive marketing experience"
+    /(\d+)\s*(?:[~\-–]\s*\d+\s*)?\+?\s*(?:years?|yrs?)['’]?\s*(?:of\s*)?(?:[a-z&/-]+\s+){0,4}?(?:experience|exp)\b/gi,
+    /(\d+)\s*(?:[~\-–]\s*\d+\s*)?\+\s*(?:years|yrs)/gi,
+    // "minimum of 10 years", "at least 7 years in brand marketing"
+    /(?:minimum\s*(?:of\s*)?|at\s*least\s*)(\d+)\s*(?:years|yrs)/gi,
     /(?:경력|경험|실무)\s*(\d+)\s*년/g,
     /(\d+)\s*(?:[~\-–]\s*\d+\s*)?년\s*(?:이상|차)?\s*(?:의)?\s*(?:경력|경험|실무|이상)/g,
   ];
