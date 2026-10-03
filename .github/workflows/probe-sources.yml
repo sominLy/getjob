@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 20
       # 수집 스크립트를 고쳤을 때 main에 합치기 전에 실제로 도는지만 확인한다(결과 파일은 커밋하지 않음)
+      # 수집처 후보 점검 — 결과는 실행 요약(Summary)과 로그에 남는다
+      - run: node scripts/probe-sources.mjs
       - run: npm install
       - run: npx playwright install --with-deps chromium
       - run: node scripts/fetch-radar.mjs
+        continue-on-error: true

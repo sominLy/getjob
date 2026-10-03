@@ -10,44 +10,41 @@ const PM = /기획|PM\b|PO\b|product\s*(manager|owner)|프로덕트|서비스\s*
 const SEOUL = /seoul|korea|서울|한국|대한민국/i;
 
 // [회사, 시도해 볼 계정 이름들]
+// 2026-10-03: 쏘카·KT M모바일·컬리와 비슷한 국내 소비자 서비스 기업(모빌리티·통신 자회사·커머스·생활 플랫폼·핀테크·콘텐츠)
+// (9/29 점검분은 fetch-companies.mjs에 반영 완료)
 const COMPANIES = [
-  ["컬리", ["kurly", "kurlycorp"]], ["야놀자", ["yanolja"]], ["여기어때", ["gccompany", "goodchoice"]],
-  ["쏘카", ["socar"]], ["오늘의집", ["bucketplace", "ohouse"]], ["리디", ["ridi", "ridicorp"]],
-  ["뱅크샐러드", ["banksalad", "rainist"]], ["두나무", ["dunamu"]], ["크래프톤", ["krafton"]],
-  ["하이퍼커넥트", ["hyperconnect"]], ["몰로코", ["moloco"]], ["채널코퍼레이션", ["channelcorp", "channelio", "channel"]],
-  ["에이블리", ["ably", "ablycorp"]], ["카카오스타일(지그재그)", ["kakaostyle", "zigzag"]], ["브랜디", ["brandi"]],
-  ["클래스101", ["class101"]], ["리멤버", ["remember", "dramancompany", "rememberncompany"]], ["오픈서베이", ["opensurvey"]],
-  ["플렉스", ["flex", "flexteam"]], ["버드뷰(화해)", ["birdview", "hwahae"]], ["닥터나우", ["doctornow"]],
-  ["42dot", ["42dot"]], ["리벨리온", ["rebellions"]], ["퓨리오사AI", ["furiosa", "furiosaai"]],
-  ["왓챠", ["watcha"]], ["밀리의서재", ["millie", "milliebook"]], ["스푼랩스", ["spoonlabs", "spoonradio"]],
-  ["매스프레소(콴다)", ["mathpresso", "qanda"]], ["뤼이드", ["riiid"]], ["엘리스", ["elice", "elicer"]],
-  ["더핑크퐁컴퍼니", ["pinkfong", "thepinkfongcompany"]], ["로앤컴퍼니", ["lawcompany", "lawtalk"]],
-  ["자비스앤빌런즈(삼쩜삼)", ["jobis", "3o3", "jobisnvillains"]], ["핀다", ["finda"]], ["정육각", ["jeongyookgak"]],
-  ["그린랩스", ["greenlabs"]], ["크림", ["kream", "kreamcorp"]], ["번개장터", ["bunjang", "bgzt"]],
-  ["원티드랩", ["wantedlab", "wanted"]], ["와드(캐치테이블)", ["wad", "catchtable"]], ["데이원컴퍼니", ["dayone", "fastcampus"]],
-  ["트리플", ["triple", "interparktriple"]], ["당근", ["daangn"]], ["센드버드", ["sendbird"]], ["토스", ["toss", "vivarepublica"]],
-  ["무신사", ["musinsa"]], ["29CM", ["29cm"]], ["마켓보로", ["marketboro"]], ["아이디어스(백패커)", ["backpackr", "idus"]],
-  ["스타일쉐어", ["styleshare"]], ["당근페이", ["daangnpay"]], ["업비트", ["upbit"]], ["빗썸", ["bithumb"]],
-  ["코드스테이츠", ["codestates"]], ["라포랩스(퀸잇)", ["laplace", "queenit", "laplacelabs"]], ["에이슬립", ["asleep"]],
-  ["스캐터랩", ["scatterlab"]], ["뤼튼", ["wrtn"]], ["업스테이지", ["upstage"]], ["마이리얼트립", ["myrealtrip"]],
-  // 외국계 서울 오피스
-  ["에어비앤비", ["airbnb"]], ["스트라이프", ["stripe"]], ["우버", ["uber"]], ["데이터독", ["datadog"]],
-  ["스노우플레이크", ["snowflake"]], ["노션", ["notion"]], ["피그마", ["figma"]], ["캔바", ["canva"]], ["리니어", ["linear"]],
-  ["데이터브릭스", ["databricks"]], ["클라우드플레어", ["cloudflare"]], ["몽고DB", ["mongodb"]], ["트윌리오", ["twilio"]],
-  ["옥타", ["okta"]], ["로블록스", ["roblox"]], ["유니티", ["unity3d", "unity"]], ["드롭박스", ["dropbox"]],
-  ["핀터레스트", ["pinterest"]], ["레딧", ["reddit"]], ["디스코드", ["discord"]], ["듀오링고", ["duolingo"]],
-  ["그래머리", ["grammarly"]], ["코인베이스", ["coinbase"]], ["바이낸스", ["binance"]], ["깃랩", ["gitlab"]],
-  ["엘라스틱", ["elastic"]], ["허브스팟", ["hubspot"]], ["젠데스크", ["zendesk"]], ["아틀라시안", ["atlassian"]],
-  ["스포티파이", ["spotify"]], ["틱톡/바이트댄스", ["bytedance", "tiktok"]], ["쇼피", ["shopee", "sea"]],
-  ["그랩", ["grab"]], ["아고다", ["agoda"]], ["트립닷컴", ["tripcom", "trip"]], ["부킹닷컴", ["booking"]],
-  ["오픈AI", ["openai"]], ["퍼플렉시티", ["perplexity", "perplexityai"]], ["스케일AI", ["scaleai"]], ["코히어", ["cohere"]],
-  // 사용자가 링크드인에서 본 서울 공고 회사들 — 공식 채용 시스템 쪽을 찾는다
-  ["틱톡", ["tiktok", "bytedance", "lifeattiktok"]], ["타코벨", ["tacobell", "yumbrands"]], ["2K", ["2k", "2kgames", "taketwo"]],
-  ["샤크닌자", ["sharkninja"]], ["라쿠텐 심포니", ["rakutensymphony", "rakuten"]], ["얼라인 테크놀로지", ["align", "aligntech"]],
-  ["KLA", ["kla", "klacorp"]], ["르네사스", ["renesas"]], ["덴츠플라이 시로나", ["dentsplysirona"]],
-  ["스탠리블랙앤데커", ["stanleyblackdecker", "sbd"]], ["오비터스", ["orbiters"]], ["피키", ["picky"]],
-  ["익스팬드케이", ["expandk"]], ["뉴베슬", ["newvessel"]], ["웰뉴", ["wellnew"]], ["키스뷰티", ["kissbeauty", "kissusa"]],
-  ["미스트랄", ["mistral"]], ["허깅페이스", ["huggingface"]], ["일레븐랩스", ["elevenlabs"]], ["런웨이", ["runwayml", "runway"]],
+  // 모빌리티
+  ["쏘카", ["socar", "socarcorp"]], ["카카오모빌리티", ["kakaomobility"]], ["티맵모빌리티", ["tmapmobility", "tmap"]],
+  ["그린카", ["greencar"]], ["VCNC(타다)", ["vcnc", "tada"]], ["휴맥스모빌리티", ["humaxmobility"]],
+  // 통신 자회사·알뜰폰
+  ["KT M모바일", ["ktmmobile", "ktmmobilecorp"]], ["LG헬로비전", ["lghellovision", "hellovision"]], ["미디어로그", ["medialog"]],
+  ["SK텔링크", ["sktelink"]], ["스테이지파이브", ["stagefive", "stage5"]], ["KT알파", ["ktalpha"]], ["SK플래닛", ["skplanet"]],
+  // 커머스
+  ["SSG닷컴", ["ssg", "ssgcom"]], ["11번가", ["11st", "elevenst"]], ["G마켓", ["gmarket"]], ["롯데온", ["lotteon"]],
+  ["W컨셉", ["wconcept"]], ["오아시스마켓", ["oasis", "oasismarket"]], ["발란", ["balaan"]], ["트렌비", ["trenbe"]],
+  ["머스트잇", ["mustit"]], ["텐바이텐", ["10x10", "tenbyten"]], ["펫프렌즈", ["petfriends"]], ["올웨이즈", ["alwayz", "levit"]],
+  ["카카오스타일", ["kakaostyle", "zigzag"]], ["무신사", ["musinsa"]],
+  // 생활·플랫폼 서비스
+  ["우아한형제들(배민)", ["woowahan", "baemin"]], ["요기요", ["yogiyo", "wehago"]], ["직방", ["zigbang"]], ["숨고", ["soomgo", "bravemobile"]],
+  ["크몽", ["kmong"]], ["야놀자", ["yanolja"]], ["오늘의집", ["bucketplace", "ohouse"]], ["당근", ["daangn"]],
+  // 핀테크
+  ["카카오페이", ["kakaopay"]], ["카카오뱅크", ["kakaobank"]], ["케이뱅크", ["kbank"]], ["토스", ["toss", "vivarepublica"]],
+  ["뱅크샐러드", ["banksalad", "rainist"]], ["핀크", ["finnq"]],
+  // 콘텐츠·미디어
+  ["네이버웹툰", ["webtoon", "naverwebtoon"]], ["티빙", ["tving"]], ["웨이브", ["wavve"]], ["드림어스(플로)", ["dreamus", "flo"]],
+  ["지니뮤직", ["genie", "geniemusic"]], ["리디", ["ridi"]], ["밀리의서재", ["millie"]],
+];
+
+// 자체 채용 사이트 후보 — 열리는지, robots.txt가 막는지, 서버에서 공고 목록이 그려지는지(브라우저가 필요한지)를 본다
+const CAREER_PAGES = [
+  ["쏘카", "https://www.socarcorp.kr/careers/jobs"], ["쏘카", "https://socarcorp.kr/careers"],
+  ["카카오모빌리티", "https://www.kakaomobility.com/careers"], ["티맵모빌리티", "https://www.tmapmobility.com/careers"],
+  ["KT M모바일", "https://www.ktmmobile.com/company/recruit.do"], ["KT M모바일", "https://ktmmobile.recruiter.co.kr"],
+  ["우아한형제들", "https://career.woowahan.com"], ["카카오뱅크", "https://recruit.kakaobank.com"], ["카카오페이", "https://kakaopay.career.greetinghr.com"],
+  ["직방", "https://career.zigbang.com"], ["SSG닷컴", "https://www.ssgcareers.com"], ["11번가", "https://careers.11st.co.kr"],
+  ["G마켓", "https://gmarket.recruiter.co.kr"], ["롯데온", "https://lotteon.recruiter.co.kr"], ["네이버웹툰", "https://recruit.webtoonscorp.com"],
+  ["티빙", "https://tving.recruiter.co.kr"], ["야놀자", "https://careers.yanolja.co"], ["토스", "https://toss.im/career/jobs"],
+  ["카카오", "https://careers.kakao.com/jobs"], ["네이버", "https://recruit.navercorp.com"], ["LG U+", "https://careers.lg.com"],
 ];
 
 async function get(url, init = {}) {
@@ -79,6 +76,14 @@ async function probeCompany(name, slugs) {
     }
     const nh = await get(`https://${s}.ninehire.site/`);
     if (nh.status === 200 && nh.text.length > 1000) found.push({ via: `나인하이어:${s}`, total: "?", seoul: "?", pm: "?" });
+    const rc = await get(`https://${s}.recruiter.co.kr/`);
+    if (rc.status === 200 && /recruit|채용|모집/i.test(rc.text) && rc.text.length > 1000) found.push({ via: `recruiter.co.kr:${s}`, total: "?", seoul: "?", pm: "?" });
+    const wk = await get(`https://apply.workable.com/api/v1/widget/accounts/${s}`);
+    if (wk.status === 200) { try { const j = JSON.parse(wk.text).jobs || []; if (j.length) found.push({ via: `Workable:${s}`, ...countJobs(j, (x) => x.title, (x) => `${x.city} ${x.country}`) }); } catch {} }
+    const rt = await get(`https://${s}.recruitee.com/api/offers/`);
+    if (rt.status === 200) { try { const j = JSON.parse(rt.text).offers || []; if (j.length) found.push({ via: `Recruitee:${s}`, ...countJobs(j, (x) => x.title, (x) => `${x.city} ${x.country}`) }); } catch {} }
+    const tt = await get(`https://${s}.teamtailor.com/jobs`);
+    if (tt.status === 200 && /teamtailor/i.test(tt.text)) found.push({ via: `Teamtailor:${s}`, total: "?", seoul: "?", pm: "?" });
   }
   return { name, found };
 }
@@ -136,13 +141,35 @@ function robotsVerdict(txt) {
 }
 
 async function main() {
-  const lines = ["## 채용 시스템 점검 (회사)", "", "| 회사 | 찾은 곳 | 전체 | 서울 | 서울 중 기획·PM·마케팅·운영 |", "|---|---|---|---|---|"];
+  const lines = ["## 채용 시스템 점검 (회사 · 2026-10-03 국내 소비자 서비스 후보)", "", "| 회사 | 찾은 곳 | 전체 | 서울 | 서울 중 기획·PM·마케팅·운영 |", "|---|---|---|---|---|"];
   for (const [name, slugs] of COMPANIES) {
     const r = await probeCompany(name, slugs);
     if (!r.found.length) lines.push(`| ${name} | 못 찾음 | | | |`);
     for (const f of r.found) lines.push(`| ${name} | ${f.via} | ${f.total} | ${f.seoul} | ${f.pm} |`);
     console.log(name, r.found.map((f) => f.via).join(", ") || "-");
   }
+  lines.push("", "## 자체 채용 사이트", "", "| 회사 | 주소 | 상태 | robots.txt | 서버에서 그려진 공고 흔적 |", "|---|---|---|---|---|");
+  for (const [name, url] of CAREER_PAGES) {
+    const r = await get(url);
+    const origin = (() => { try { return new URL(url).origin; } catch { return url; } })();
+    const rb = await get(`${origin}/robots.txt`);
+    // 서버 HTML에 공고 제목·링크가 들어 있으면 단순 요청으로 수집 가능, 아니면 브라우저(Playwright) 필요
+    const jobLinks = (r.text.match(/(job|recruit|position|notice|공고|채용)[^"'<>]{0,40}(\/\d{3,}|[?&](id|idx|no)=\d+)/gi) || []).length;
+    const nextData = /__NEXT_DATA__|__NUXT__|window\.__INITIAL_STATE__/.test(r.text);
+    lines.push(`| ${name} | ${url} | HTTP ${r.status}${r.text ? " · " + r.text.length + "자" : ""} | ${rb.status === 200 ? robotsVerdict(rb.text) : "없음(" + rb.status + ")"} | 링크 ${jobLinks}${nextData ? " · 페이지 데이터 있음" : ""} |`);
+    console.log("PAGE", name, url, r.status, r.text.length, "links", jobLinks, "next", nextData, "| title:", (r.text.match(/<title>([^<]{0,80})/i) || [])[1] || "");
+  }
+  // 원티드에 회사 페이지가 있으면 회사별 공고를 받을 수 있는지(검색·회사 API 형태 확인)
+  lines.push("", "## 원티드 회사 검색", "", "| 회사 | 결과 |", "|---|---|");
+  for (const name of ["쏘카", "KT M모바일", "케이티엠모바일", "컬리", "카카오모빌리티", "직방"]) {
+    for (const u of [`https://www.wanted.co.kr/api/chaos/search/v1/autocomplete?keyword=${encodeURIComponent(name)}`,
+                     `https://www.wanted.co.kr/api/v4/search/summary?query=${encodeURIComponent(name)}`]) {
+      const r = await get(u);
+      lines.push(`| ${name} | ${u.split("/api/")[1].split("?")[0]} → HTTP ${r.status} ${r.text.slice(0, 160).replace(/\|/g, "/")} |`);
+      console.log("WANTED", name, u, r.status, r.text.slice(0, 400));
+    }
+  }
+
   lines.push("", "## 외국계 자체 채용 사이트", "", "| 회사 | 상태 | 서울 | 서울 중 기획·PM·마케팅·운영 |", "|---|---|---|---|");
   for (const [name, url, parse] of BIGTECH) {
     const r = await get(url);
