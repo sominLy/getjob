@@ -531,6 +531,9 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .gc-row.here b::after{content:" · 이 공고";font-size:11px;color:var(--accent-ink);font-weight:600}
 #gcList .gc-group{background:var(--accent-soft);border-radius:8px}
 .gc-news{margin:4px 0 0;font-size:11.5px;color:var(--muted)}
+.fx-row{display:flex;flex-wrap:wrap;gap:4px;margin:2px 0 6px}
+.fx-row .fx{margin-left:0}
+.fx-stage{margin:2px 0 4px;display:inline-block}
 .fx-today{margin:2px 0 6px;font-size:11.5px;color:var(--muted)}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
 .seg button{border:0;background:var(--card);padding:6px 14px;font-size:13px;color:var(--muted);cursor:pointer}
@@ -1631,7 +1634,12 @@ function loadDays(){
     .then(o => { DAYS = o && o.days; if(DAYS) renderAll(); }).catch(() => {});
   return daysPromise;
 }
-const FX_COLS = ["dp", "mp", "src", "bazi", "astro", "score", "verdict", "retro"];
+const FX_COLS = ["dp", "mp", "src", "bazi", "astro", "score", "verdict", "retro", "exam", "interview", "result"];
+/* 목적별 운: 서류 제출(통합) · 시험(인적성·코테·필기) · 면접 · 합격소식 */
+const FX_KINDS = [["score", "서류", "서류 제출"], ["exam", "시험", "시험(인적성·코테·필기)"], ["interview", "면접", "면접"], ["result", "합격", "합격소식"]];
+const fxVerdict = n => n >= 85 ? "최우수" : n >= 78 ? "좋음" : n >= 70 ? "무난" : n >= 62 ? "주의" : "신중";
+/* 전형 이름으로 어떤 운을 볼지 */
+const fxKindOf = name => /면접|PT|토론|인터뷰|interview/i.test(name) ? "interview" : /인적성|코딩|코테|필기|시험|테스트|과제|역량검사|NCS|SKCT|GSAT/i.test(name) ? "exam" : /발표|결과|합격|오퍼|최종/i.test(name) ? "result" : "score";
 function fxDay(k){
   if(!DAYS || !privOn() || !DAYS[k]) return null;
   const o = {}; FX_COLS.forEach((c, i) => o[c] = DAYS[k][i]); o.date = k; return o;
@@ -1642,11 +1650,14 @@ const fxHelp = n => n >= 85 ? "제출 후보일 — 완성된 지원서일 때�
   : n >= 70 ? "검토·수정 후 제출 가능 — 날짜보다 완성도와 마감이 우선"
   : n >= 62 ? "초안 검토·버전 정리에 쓰고, 제출하면 이중 확인"
   : "중요 제출은 여유가 있으면 피하고, 불가피하면 제3자 검토 후";
-function fxBadge(k, withVerdict){
+function fxBadge(k, withVerdict, kind){
   const x = fxDay(k); if(!x) return null;
-  const b = document.createElement("span"); b.className = "fx fx-" + fxTone(x.score);
-  b.textContent = (withVerdict ? "운 " : "") + x.score + (withVerdict ? " " + x.verdict : "");
-  b.title = k + " " + x.dp + "일 · " + x.mp + "월 · 통합 " + x.score + " " + x.verdict +
+  kind = kind || "score";
+  const v = x[kind] != null ? x[kind] : x.score, lab = FX_KINDS.find(f => f[0] === kind)[1];
+  const b = document.createElement("span"); b.className = "fx fx-" + fxTone(v);
+  /* withVerdict === "bare": 달력 칸처럼 좁은 곳은 숫자만 */
+  b.textContent = (withVerdict === "bare" ? "" : lab + " ") + v + (withVerdict && withVerdict !== "bare" ? " " + fxVerdict(v) : "");
+  b.title = k + " " + x.dp + "일 · " + x.mp + "월\n" + FX_KINDS.map(([c, , full]) => full + " " + (x[c] != null ? x[c] : "—") + (x[c] != null ? " " + fxVerdict(x[c]) : "")).join("\n") +
     (x.src != null ? " (원문 " + x.src + ")" : "") + (x.retro ? " · " + (x.retro.includes("m") ? "수성 역행 " : "") + (x.retro.includes("v") ? "금성 역행" : "") : "") +
     "\n" + fxHelp(x.score) + "\n※ 상징 지표, 합격 확률 아님";
   return b;
@@ -2220,6 +2231,7 @@ function renderMine(){
       const x = document.createElement("button"); x.className = "x"; x.textContent = "빼기";
       x.onclick = () => { a.stages.splice(i,1); save(); renderAll(); };
       el.append(n, d, res, x);
+      if(st.date){ const fb = fxBadge(st.date, true, fxKindOf(st.name)); if(fb){ fb.classList.add("fx-stage"); el.insertBefore(fb, res); } }
       track.appendChild(el);
     });
     b.appendChild(track);
@@ -2500,7 +2512,7 @@ function renderCal(){
     c.className = "cell" + (d.getMonth()!==curMonth.getMonth() ? " out" : "") +
                   (iso(d)===iso(TODAY) ? " is-today" : "");
     const n = document.createElement("div"); n.className = "dnum"; n.textContent = d.getDate();
-    const fb = fxBadge(iso(d)); if(fb) n.appendChild(fb);
+    const fb = fxBadge(iso(d), "bare"); if(fb) n.appendChild(fb);
     c.appendChild(n);
     (ev[iso(d)] || []).forEach(function(e){
       const b = document.createElement("button");
@@ -2738,8 +2750,12 @@ function renderWeek(){
     const h = document.createElement("h3");
     h.appendChild(document.createTextNode(names[i]));
     const bb = document.createElement("b"); bb.textContent = d.getDate(); h.appendChild(bb);
-    const fb = fxBadge(k, true); if(fb) h.appendChild(fb);
     day.appendChild(h);
+    if(fxDay(k)){
+      const row = document.createElement("div"); row.className = "fx-row";
+      FX_KINDS.forEach(([c]) => { const bb = fxBadge(k, false, c); if(bb) row.appendChild(bb); });
+      day.appendChild(row);
+    }
     if(k === iso(TODAY) && fxDay(k)){
       const t = document.createElement("p"); t.className = "fx-today"; t.textContent = fxHelp(fxDay(k).score); day.appendChild(t);
     }
