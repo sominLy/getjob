@@ -59,6 +59,10 @@ async function lastYearPostings() {
     const dutyNames = dutyNamesOf(it, duty);
     const text = `${it.title ?? ""} ${dutyNames.join(" ")}`;
     if (isExperiencedOnly(text) || isNotJob(company, text) || needsOtherLang(it.title ?? "")) continue;
+    // 신입·공채·인턴 성격만(경력직·전문직·현장직·교육 캠프 등은 예상 공고로 의미가 없다)
+    const title = it.title || "";
+    if (/변호사|의사|약사|간호|진료|트레이더|딜러|상담직|콜센터|현장\s*운영직|생산직|기능직|기술직|전임직|운전|경비|캠프|교육생|아카데미|연구직|연구원|디자인센터|사내\s*강사|계약직/.test(title)) continue;
+    if (!/신입|공채|공개\s*채용|채용형|채용연계|인턴|대졸|신규\s*직원|신입행원|하반기|상반기|정기/.test(title)) continue;
     const hit = classifyPosting({ title: it.title, company, dutyNames });
     // 공기업은 기획·마케팅 등 관심 직무가 잡힐 때만(기술직 공고가 많아서), 대기업·금융은 직무 미표기 공채가 많아 모두
     if (type === "공기업" && !hit) continue;

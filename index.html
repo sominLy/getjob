@@ -1360,6 +1360,8 @@ function state(j){
   const s = j.start ? dleft(j.start) : null;
   const e = j.end ? dleft(j.end) : null;
   if(e !== null && e < 0) return {k:"shut", label:"마감", cls:"p-shut"};
+  /* 예상 일정은 기간이 시작됐어도 실제 공고가 뜨기 전까지 '예상'(접수 중으로 보이지 않게) */
+  if(!j.confirmed && (s !== null || e !== null)) return {k:"est", label: s !== null && s <= 0 ? "예상 · 지금쯤" : "예상", cls:"p-est"};
   if((s === null || s <= 0) && e !== null) return {k:"open", label:"접수 중 D-"+e, cls:"p-open"};
   /* 시작은 했는데 마감일을 아직 못 확인한 공고 */
   if(s !== null && s <= 0 && e === null) return {k:"open", label:"접수 중", cls:"p-open"};
