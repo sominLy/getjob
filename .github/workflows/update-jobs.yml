@@ -33,6 +33,14 @@ jobs:
       - run: node scripts/fetch-official-details.mjs
       - run: node scripts/fetch-tracks.mjs
       - run: node scripts/archive-expired.mjs
+      # 공채·그룹 공고의 직무별 JD와 전략 신호(data/gongchae.json). 본문이 없으면 공고 이미지를 한국어 글자 인식.
+      # 이미지·뉴스·매출은 캐시(data/gongchae-cache.json)에 남겨 새 공고만 처리한다.
+      # 매출 추이는 DART 인증키가 있을 때만(Settings > Secrets > Actions에 DART_API_KEY).
+      - run: sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor > /dev/null
+      - run: node scripts/build-gongchae.mjs
+        continue-on-error: true
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
       # 스타트업·유니콘·외국계 공식 채용 시스템(그리팅·Greenhouse·Ashby·Workday 등)의 기획·PM·마케팅 공고
       - run: node scripts/fetch-companies.mjs
         continue-on-error: true
@@ -44,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/archive.json data/ai-companies-jobs.json data/details.json data/radar.json data/company-jobs.json data/jd-keywords.json data/keyword-dict.json artifact/data.json
+          git add data/jobs.json data/archive.json data/ai-companies-jobs.json data/details.json data/radar.json data/company-jobs.json data/jd-keywords.json data/keyword-dict.json data/gongchae.json data/gongchae-cache.json artifact/data.json
           if git diff --cached --quiet; then
             echo "No changes."
           else
