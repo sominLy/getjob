@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { yearsIn, weights } from "./lib/jd-keywords.mjs";
 import { stripHtml, greetingJd, UA } from "./lib/jd-text.mjs";
+import { needsOtherLang } from "./lib/not-job.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "company-jobs.json");
@@ -177,7 +178,8 @@ async function main() {
     }
   }
   const seen = new Set();
-  const jobs = all.filter((j) => j.url && !seen.has(j.url) && seen.add(j.url)).map(({ text, ...j }) => ({
+  // 해외 근무(예: Upstage Japan)·일본어/중국어 등 다른 외국어가 필요한 공고는 뺀다
+  const jobs = all.filter((j) => j.url && !seen.has(j.url) && seen.add(j.url) && !needsOtherLang(j.title, j.text)).map(({ text, ...j }) => ({
     ...j, years: yearsIn(`${j.title}\n${text}`), w: weights(`${j.title}\n${text}`), short: text.length < 200,
   }));
   await writeFile(OUT, JSON.stringify({ updated: new Date().toISOString().slice(0, 10), errors, jobs }, null, 1) + "\n", "utf-8");

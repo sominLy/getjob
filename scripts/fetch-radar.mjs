@@ -11,6 +11,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { chromium } from "playwright";
+import { needsOtherLang } from "./lib/not-job.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "radar.json");
@@ -234,6 +235,8 @@ async function main() {
 
   const jobs = Object.values(results).flat()
     .filter((j, i, arr) => arr.findIndex((x) => x.url === j.url) === i)
+    // 해외 근무·일본어/중국어 등 다른 외국어가 필요한 공고는 뺀다(영어는 남김)
+    .filter((j) => !needsOtherLang(j.title, j.reqText ?? j.jd ?? ""))
     .map((j) => {
       // 직전 결과를 그대로 유지한 항목은 reqText가 없고 라벨이 이미 붙어 있다
       if (j.reqText === undefined) return j;
