@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>지원 보드 — 하반기 채용 캘린더</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta name="theme-color" content="#5F8F3A">
 <meta name="description" content="채용 공고 캘린더, 전형 일정, 자소서 아카이브를 한 곳에서. 내 데이터는 내 브라우저에만 저장됩니다.">
 <style>
 /* ===== 테마 색 — 색마다 밝은 화면용(-l)과 어두운 화면용(-d)을 함께 정의 ===== */
@@ -89,7 +92,17 @@ p{margin:0}
 
 header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:30}
 .hbar{max-width:1200px;margin:0 auto;padding:13px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.brand{font-size:17px;font-weight:700;letter-spacing:-.02em}
+.brand{font-size:17px;font-weight:700;letter-spacing:-.02em;display:inline-flex;align-items:center;gap:8px}
+.brand .logo{display:block;border-radius:6px}
+.hb-add{padding:6px 14px;font-size:13px}
+.menu-wrap{position:relative}
+.menu{position:absolute;right:0;top:calc(100% + 6px);z-index:40;min-width:230px;background:var(--card);
+  border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);padding:6px;display:grid}
+.menu[hidden]{display:none}
+.menu button{background:none;border:0;text-align:left;padding:9px 12px;border-radius:6px;font-size:13.5px;color:var(--ink)}
+.menu button:hover,.menu button:focus-visible{background:var(--accent-soft);color:var(--accent-ink)}
+.menu button[hidden]{display:none}
+.menu hr{border:0;border-top:1px solid var(--line-2);margin:4px 2px}
 .today{font-family:var(--serif);font-size:13px;color:var(--muted)}
 .hspace{flex:1}
 .ghost{background:none;border:1px solid var(--line);border-radius:6px;padding:5px 11px;
@@ -115,6 +128,7 @@ nav.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:va
 nav.tabs button:hover{color:var(--ink)}
 nav.tabs .cnt{font-family:var(--serif);font-size:11.5px;opacity:.8;margin-left:4px}
 .view[hidden]{display:none}
+.cal-list{display:none}
 .viewhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 .sub{font-size:13px;color:var(--muted)}
 
@@ -205,6 +219,17 @@ td.act button.on{color:var(--accent);font-weight:700}
 .app-h .nm{font-size:15.5px;font-weight:700;letter-spacing:-.01em}
 .app-h .rl{font-size:12.5px;color:var(--muted)}
 .app-b{padding:14px 16px;display:flex;flex-direction:column;gap:14px}
+.app-b[hidden]{display:none}
+.app.folded{opacity:.82}
+.app.folded .app-h{padding:10px 16px}
+.st-chip{font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.st-chip.fail{background:var(--line-2);color:var(--muted)}
+.st-chip.pass{background:var(--accent-soft);color:var(--accent-ink)}
+.st-chip.next{background:var(--amber-soft);color:var(--amber)}
+.st-chip.wait{background:var(--paper);color:var(--ink-2);border:1px dashed var(--line)}
+.step select.res-sel{margin-top:6px;border:1px solid var(--line);border-radius:999px;background:var(--card);padding:3px 10px;font-size:12px;font-weight:700;cursor:pointer;width:auto}
+.app-note{margin:-4px 0 0;font-size:12px}
+.app-b>.rowline,.app-b>details.fold{border-top:1px solid var(--line-2);padding-top:12px}
 .track{display:flex;gap:0;flex-wrap:wrap;align-items:stretch}
 .step{flex:1;min-width:112px;border:1px solid var(--line);border-right:0;padding:8px 10px;
   display:flex;flex-direction:column;gap:3px;background:var(--paper)}
@@ -214,7 +239,8 @@ td.act button.on{color:var(--accent);font-weight:700}
 .step .sd{font-family:var(--serif);font-size:13px}
 .step.done{background:var(--accent-soft);border-color:var(--accent-soft)}
 .step.done .sn{color:var(--accent-ink)}
-.step.fail{background:var(--line-2);opacity:.6}
+.step.fail{background:var(--line-2)}
+.step.fail .sd{color:var(--muted)}
 .step.next{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
 .step input[type=date]{border:0;background:none;padding:0;font-family:var(--serif);font-size:13px;width:100%}
 .step button.x{background:none;border:0;color:var(--muted);font-size:11px;padding:0;text-align:left}
@@ -419,6 +445,9 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .rd-tally b{font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.1}
 .rd-tally span{font-size:12px;color:var(--muted)}
 .rd-controls{display:grid;gap:9px;margin-bottom:16px}
+.rd-filter>summary{cursor:pointer;font-weight:600;font-size:14px;padding:4px 0 10px;list-style:none}
+.rd-filter>summary::before{content:"▸ ";color:var(--muted)}
+.rd-filter[open]>summary::before{content:"▾ "}
 .rd-row{display:flex;gap:10px;align-items:flex-start}
 .rd-lab{flex:0 0 64px;font-size:11.5px;color:var(--muted);padding-top:4px}
 .rd-jobs{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
@@ -441,12 +470,37 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .rd-pill.senior{background:var(--urgent-soft);color:var(--urgent)}
 .rd-empty{padding:28px;text-align:center;color:var(--muted)}
 
+/* 지원 현황표 */
+.st-dlg{width:min(720px,94vw)}
+.st-prev{max-height:46vh;overflow:auto;margin:10px 0;font-size:13px}
+.st-prev table{min-width:0;width:100%}
+.st-prev td,.st-prev th{padding:5px 6px;border-bottom:1px solid var(--line-2);text-align:left;vertical-align:top}
+.st-prev .new{color:var(--amber)}
+.st-prev .skip{color:var(--muted)}
+
+/* 내 계정 */
+.me-dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;margin:14px 0 18px;font-size:14px}
+.me-dl dt{color:var(--muted)}
+.me-dl dd{margin:0;overflow-wrap:anywhere}
+
 /* 매칭 아카이브 */
 .mt-me{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:9px;margin-bottom:16px}
 .mt-me-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .mt-me textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px;background:var(--paper);font-size:13px;margin-top:8px}
 .mt-edit-actions{display:flex;gap:8px;margin-top:8px}
 .mt-tiers{margin-bottom:12px}
+.sl-side{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.sl-add{font-size:12px;padding:4px 10px}
+.sl-add[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink);border-color:var(--accent-soft)}
+.mt-filter{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-bottom:10px;padding:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.mt-co{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:var(--muted)}
+.mt-co select{font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:7px;background:var(--paper);color:var(--ink);max-width:220px}
+@media (max-width:640px){ .mt-co{width:100%} .mt-co select{flex:1;max-width:none} }
+.mt-settings{margin-top:22px;border-top:1px solid var(--line);padding-top:14px}
+.mt-settings>summary{cursor:pointer;padding:6px 0;list-style:none}
+.mt-settings>summary::before{content:"▸ ";color:var(--muted)}
+.mt-settings[open]>summary::before{content:"▾ "}
+.mt-settings[open]>summary{margin-bottom:10px}
 .mt-grp{font-size:14px;font-weight:700;margin:18px 0 8px;display:flex;gap:8px;align-items:baseline}
 .mt-grp small{font-weight:400;color:var(--muted);font-size:12px}
 .mt-pct{font-family:var(--serif);font-size:18px;font-weight:600;line-height:1.1;text-align:right}
@@ -510,7 +564,9 @@ thead th{font-weight:600;letter-spacing:.07em}
   .hbar{gap:8px;padding-top:11px;padding-bottom:11px}
   .brand{font-size:16px}
   .today{display:none}
-  .hspace{flex-basis:100%;height:0}          /* 버튼 줄을 아래로 내립니다 */
+  .hbar{flex-wrap:nowrap}
+  .hb-add{padding:8px 12px}
+  .menu{position:fixed;left:14px;right:14px;top:58px;min-width:0}
   .ghost{padding:7px 12px;min-height:36px}   /* 손가락으로 누를 크기 */
 
   nav.tabs{position:sticky;top:0;z-index:15;background:var(--paper);
@@ -518,6 +574,17 @@ thead th{font-weight:600;letter-spacing:.07em}
     scrollbar-width:none;-webkit-overflow-scrolling:touch}
   nav.tabs::-webkit-scrollbar{display:none}
   nav.tabs button{padding:10px 13px;min-height:42px}
+  /* 옆으로 더 있다는 걸 보이게 양끝을 흐리게 */
+  nav.tabs{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent);
+    mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent)}
+
+  /* 달력은 날짜별 목록으로 */
+  .cal{display:none}
+  .cal-list{display:grid;gap:12px}
+  .cl-day{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:6px}
+  .cl-day.is-today{border-color:var(--accent)}
+  .cl-h{font-size:13.5px;font-weight:700;margin:0 0 2px}
+  .cl-day .ev{font-size:13px;padding:7px 9px;text-align:left}
 
   h2{font-size:18px}
   .viewhead{gap:9px}
@@ -534,6 +601,13 @@ thead th{font-weight:600;letter-spacing:.07em}
 
   .week{grid-template-columns:1fr;gap:8px}
   .day{min-height:0}
+  /* 일정도 할 일도 없는 날은 한 줄로 얇게 */
+  .day.empty{flex-direction:row;align-items:center;padding:6px 10px;box-shadow:none;gap:10px}
+  .day.empty h3{flex:1;justify-content:flex-start;gap:10px}
+  .day.empty .todos{margin:0}
+  .day.empty .addtodo{border:0;padding:4px 6px}
+  /* 휴대폰에는 마우스를 올릴 수 없으니 할 일 삭제 버튼을 늘 보이게 */
+  .todo button{opacity:.6}
 
   /* 전형 트랙은 세로로 쌓습니다 */
   .track{flex-direction:column}
@@ -554,16 +628,17 @@ thead th{font-weight:600;letter-spacing:.07em}
   table{min-width:0}
   thead{display:none}
   /* 가운데 칸을 minmax(0,1fr)로 둬야 긴 직무 목록이 행을 화면 밖으로 밀지 않는다 */
-  tbody tr{display:grid;grid-template-columns:auto minmax(0,1fr) 44px;align-items:center;
+  tbody tr{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;
     gap:3px 9px;padding:12px 2px;border-bottom:1px solid var(--line-2);
     width:100%;box-sizing:border-box}
   tbody td{padding:0;border:0}
   td.stt{grid-column:1;grid-row:1}
   td.co{grid-column:2;grid-row:1}
   /* 좁은 화면에서는 버튼 3개가 가로로 안 들어가 잘린다 — 세로로 세우고 터치 크기를 지킨다 */
-  td.act{grid-column:3;grid-row:1 / span 3;align-self:start;display:flex;
-    flex-direction:column;align-items:flex-end;gap:2px;white-space:nowrap}
-  td.act button,td.act a{padding:5px 0;font-size:12px;min-height:0;width:100%;text-align:right}
+  /* 관심·지원·공고·편집은 카드 아래 한 줄로 */
+  td.act{grid-column:1 / -1;grid-row:4;display:flex;flex-direction:row;flex-wrap:wrap;
+    justify-content:flex-start;gap:6px 18px;white-space:nowrap;padding-top:6px}
+  td.act button,td.act a{padding:6px 0;font-size:13px;min-height:34px;width:auto;text-align:left}
   td.co,td.ro,td.dt-end{min-width:0;overflow-wrap:anywhere}
   td.ro{grid-column:2;grid-row:2;max-width:none;font-size:12px}
   td.dt-end{grid-column:2;grid-row:3;font-size:12.5px}
@@ -621,18 +696,27 @@ thead th{font-weight:600;letter-spacing:.07em}
 
 <header id="appHeader" hidden>
   <div class="hbar">
-    <span class="brand">지원 보드</span>
+    <span class="brand"><img class="logo" src="/favicon.svg" alt="" width="22" height="22">지원 보드</span>
     <span class="today" id="todayLbl"></span>
     <span class="hspace"></span>
-    <button class="ghost" id="themeBtn" title="화면 모드와 테마 색">테마</button>
-    <button class="ghost" id="prefBtn">내 조건</button>
-    <button class="ghost" id="addBtn">+ 공고</button>
-    <button class="ghost" id="shareBtn" title="다른 사람에게도 보이는 공고를 올립니다">공고 제보</button>
-    <button class="ghost" id="icsBtn" title="마감·전형 일정을 휴대폰 캘린더로 보냅니다">일정 내보내기</button>
-    <button class="ghost" id="privBtn" hidden aria-pressed="true"></button>
-    <button class="ghost" id="expBtn">백업</button>
-    <button class="ghost" id="impBtn">복원</button>
-    <button class="ghost" id="logoutBtn">로그아웃</button>
+    <button class="primary hb-add" id="addBtn">+ 공고</button>
+    <button class="ghost" id="meBtn" title="로그인한 계정과 내 데이터">내 계정</button>
+    <div class="menu-wrap">
+      <button class="ghost" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-controls="menuPop">⋯ 메뉴</button>
+      <div class="menu" id="menuPop" role="menu" hidden>
+        <button role="menuitem" id="prefBtn">내 조건 (관심 직무·기업 형태)</button>
+        <button role="menuitem" id="themeBtn">테마 · 화면 모드</button>
+        <button role="menuitem" id="icsBtn">일정 내보내기 (휴대폰 캘린더)</button>
+        <button role="menuitem" id="shareBtn">공고 제보 (모두에게 공유)</button>
+        <button role="menuitem" id="salesBtn" aria-pressed="false">영업·세일즈 모아보기 켜기</button>
+        <button role="menuitem" id="privBtn" hidden aria-pressed="true"></button>
+        <hr>
+        <button role="menuitem" id="expBtn">백업 파일 받기</button>
+        <button role="menuitem" id="impBtn">백업에서 복원</button>
+        <hr>
+        <button role="menuitem" id="logoutBtn">로그아웃</button>
+      </div>
+    </div>
   </div>
   <div class="rail"><div class="rail-in" id="rail"></div></div>
 </header>
@@ -645,6 +729,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <button role="tab" aria-selected="false" data-v="plan">주간 플래너</button>
     <button role="tab" aria-selected="false" data-v="arc">아카이브</button>
     <button role="tab" aria-selected="false" data-v="radar">채용 레이더</button>
+    <button role="tab" aria-selected="false" data-v="sales" hidden>영업·세일즈</button>
     <button role="tab" aria-selected="false" data-v="match" hidden>매칭 아카이브</button>
   </nav>
 
@@ -688,6 +773,8 @@ thead th{font-weight:600;letter-spacing:.07em}
     <div class="viewhead">
       <h2>내 지원</h2>
       <p class="sub">전체 공고에서 ‘지원’을 누른 것만 모입니다. 서류 결과를 합격으로 바꾸면 다음 전형을 붙일 수 있습니다.</p>
+      <span class="hspace"></span>
+      <button class="ghost" id="stBtn" title="정리해 둔 지원 현황표(마크다운 표)를 붙여넣어 한 번에 반영">지원 현황표 붙여넣기</button>
     </div>
     <div class="apps" id="apps"></div>
   </section>
@@ -707,6 +794,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       <div class="cal-dow"><div>일</div><div>월</div><div>화</div><div>수</div><div>목</div><div>금</div><div>토</div></div>
       <div class="cal-grid" id="calGrid"></div>
     </div>
+    <div class="cal-list" id="calList"></div>
     <div class="legend">
       <span><i class="sw" style="background:var(--accent-soft)"></i>접수 시작</span>
       <span><i class="sw" style="background:var(--urgent-soft)"></i>접수 마감</span>
@@ -741,12 +829,29 @@ thead th{font-weight:600;letter-spacing:.07em}
   </section>
 
   <!-- 채용 레이더 -->
+  <!-- 영업·세일즈 모아보기 (⋯ 메뉴에서 켜는 선택 기능) -->
+  <section class="view" id="v-sales" hidden>
+    <div class="viewhead">
+      <h2>영업·세일즈</h2>
+      <p class="sub">전체 공고 · 채용 레이더 · 주니어 공고판 · 기업 채용에서 영업·세일즈·어카운트 직무만 모았어요. 마감 지난 공고는 빠져요.</p>
+    </div>
+    <div class="mt-filter">
+      <div class="chips sm" id="slSrc" aria-label="출처로 보기"></div>
+      <div class="chips sm" id="slKind" aria-label="종류로 보기"></div>
+      <label class="chkline"><input type="checkbox" id="slJunior"> 신입·연차 무관만</label>
+    </div>
+    <ul class="rd-jobs" id="slList"></ul>
+    <p class="sub mt-foot" id="slFoot"></p>
+  </section>
+
   <section class="view" id="v-radar" hidden>
     <div class="viewhead">
       <h2>채용 레이더</h2>
       <p class="sub" id="rdStamp"></p>
     </div>
     <div class="rd-tally" id="rdTally"></div>
+    <details class="rd-filter" id="rdFilter" open>
+    <summary>필터 <span class="sub">경력 조건 · 회사 · 직무 유형</span></summary>
     <div class="rd-controls">
       <div class="rd-row"><span class="rd-lab">경력 조건</span><div class="chips sm" id="rdBucket"></div></div>
       <div class="rd-row"><span class="rd-lab">회사</span><div class="chips sm" id="rdCompany"></div></div>
@@ -754,6 +859,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       <div class="rd-row"><span class="rd-lab">보기</span><div class="chips sm" id="rdExtra"></div></div>
       <p class="sub">‘연차 명시 없음’은 연차 숫자가 없다는 뜻이지 신입을 뽑는다는 뜻은 아니에요. 인용된 요건 문장을 보고 판단하세요.</p>
     </div>
+    </details>
     <ul class="rd-jobs" id="rdList"></ul>
     <div class="rd-foot" id="rdFoot"></div>
   </section>
@@ -764,6 +870,15 @@ thead th{font-weight:600;letter-spacing:.07em}
       <h2>매칭 아카이브</h2>
       <p class="sub">연차 표시가 없는 공고 중, JD 키워드의 50% 이상이 내 경험과 겹치는 것만 모읍니다.</p>
     </div>
+    <div class="mt-filter">
+      <label class="mt-co"><span>회사</span><select id="mtCo" aria-label="회사로 보기"></select></label>
+      <div class="chips sm" id="mtRoleChips" aria-label="직무로 보기"></div>
+    </div>
+    <div class="chips sm mt-tiers" id="mtTierChips"></div>
+    <div id="mtOut"></div>
+    <p class="sub mt-foot" id="mtFoot"></p>
+    <details class="mt-settings" id="mtSettings">
+      <summary><b>설정</b> <span class="sub" id="mtSetSum">내 경험 키워드 · 링크드인 붙여넣기</span></summary>
     <div class="mt-me">
       <div class="mt-me-head">
         <b>내 경험 키워드</b>
@@ -772,7 +887,7 @@ thead th{font-weight:600;letter-spacing:.07em}
         <button class="ghost" id="mtEditBtn">경험 원문으로 다시 뽑기</button>
       </div>
       <div id="mtEditor" hidden>
-        <p class="sub">경험정리 문서를 통째로 붙여넣으세요. ‘#’ 제목 단위(없으면 빈 줄 단위)로 경험을 나눠, 각 키워드가 몇 개 경험에서 나오는지 셉니다. 아카이브 &gt; 경험 정리에 적어 둔 경험도 함께 셉니다. 원문은 저장하지 않고 키워드와 개수만 내 계정에 남깁니다.</p>
+        <p class="sub">경험정리 문서를 통째로 붙여넣으세요. ‘#’ 제목 단위(없으면 빈 줄 단위)로 경험을 나눠 <b>아카이브 &gt; 경험 정리</b>에 카드로 보관하고(내 계정에만 저장), 각 키워드가 몇 개 경험에서 나오는지 셉니다. 다시 붙여넣으면 이전 원문 카드만 새것으로 바뀌고 직접 쓴 카드는 그대로 남아요.</p>
         <textarea id="mtText" rows="8" placeholder="경험정리 붙여넣기"></textarea>
         <div class="mt-edit-actions"><button class="primary" id="mtRunBtn">키워드 뽑기</button><button class="ghost" id="mtCancelBtn">닫기</button></div>
       </div>
@@ -794,9 +909,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       </div>
       <div id="liNoJd"></div>
     </div>
-    <div class="chips sm mt-tiers" id="mtTierChips"></div>
-    <div id="mtOut"></div>
-    <p class="sub mt-foot" id="mtFoot"></p>
+    </details>
   </section>
 
   <p class="note" id="footnote"></p>
@@ -836,6 +949,21 @@ thead th{font-weight:600;letter-spacing:.07em}
 </dialog>
 
 <!-- 내 조건 -->
+<dialog id="meDlg">
+  <h2>내 계정</h2>
+  <dl class="me-dl" id="meBody"></dl>
+  <div class="f-actions"><button class="ghost" id="meLogout">로그아웃</button><button class="primary" id="meClose">닫기</button></div>
+</dialog>
+
+<dialog id="stDlg" class="st-dlg">
+  <h2>지원 현황표 반영</h2>
+  <p class="sub" style="margin-top:6px">‘## 1. 합격’, ‘## 2. 탈락 확정’, ‘## 3. 탈락 추정’, ‘## 4. 결과 미발표’, ‘## 5. 미지원’ 제목 아래 표(기업 | 직무 | …)를 읽습니다. 먼저 미리보기로 어떤 공고에 연결되는지 확인한 뒤 반영하세요.</p>
+  <textarea id="stText" rows="8" placeholder="지원 현황표 마크다운 붙여넣기" style="width:100%;margin-top:10px"></textarea>
+  <label class="chkline" style="margin-top:8px"><input type="checkbox" id="stOrphan" checked> <span id="stOrphanLbl">회사명 없이 ‘지원’으로만 남은 항목 정리</span></label>
+  <div id="stPreview" class="st-prev"></div>
+  <div class="f-actions"><button class="ghost" id="stClose">닫기</button><button class="ghost" id="stPrevBtn">미리보기</button><button class="primary" id="stApply" disabled>반영</button></div>
+</dialog>
+
 <dialog id="prefDlg">
   <h2>내 조건</h2>
   <p class="sub" style="margin-top:6px">고른 조건에 맞는 공고만 기본으로 보여줍니다. 안 고르면 전부 보입니다.</p>
@@ -1003,6 +1131,20 @@ function save(){
       .then(function(res){ if(res.error) console.error("sync failed:", res.error.message); });
   }, 800);
 }
+/* 내 지원 카드 머리의 진행 상태 [글자, 색] — 아직 서류 마감 전이면 D-day가 대신 보이므로 없음 */
+function appStatus(a, dl){
+  const last = a.stages[a.stages.length - 1];
+  if(a.doc === "불합격") return ["서류 불합격", "fail"];
+  if(a.doc === "합격"){
+    const failed = a.stages.find(s => s.result === "불합격");
+    if(failed) return [failed.name + " 불합격", "fail"];
+    if(last && last.result === "합격") return [last.name + " 합격", "pass"];
+    const next = a.stages.find(s => s.result !== "합격");
+    return next ? [next.name + (next.result === "완료" ? " 결과 대기" : " 준비"), "next"] : ["서류 합격", "pass"];
+  }
+  if(dl && dleft(dl) < 0) return ["결과 대기", "wait"];
+  return null;
+}
 function app(id){
   if(!db.apps[id]) db.apps[id] = {applied:false, note:"", doc:"대기", stages:[],
                                   cover:"", resume:"", folio:"", myEnd:"", at:""};
@@ -1082,9 +1224,22 @@ function fits(j){
   return true;
 }
 /* 내가 직접 넣은 공고와 이미 지원한 공고는 조건과 무관하게 항상 보입니다 */
+/* 과거 패턴으로 잡아 둔 '예상' 일정은 같은 회사의 실제 공고가 올라오면 숨긴다(관심·지원한 것은 남김) */
+const coKey = s => (s || "").replace(/\(.*?\)|㈜|주식회사|\s/g, "").toLowerCase();
+function superseded(j){
+  if(j.confirmed || db.custom.some(c => c.id === j.id)) return false;
+  const a = db.apps[j.id]; if(a && (a.applied || a.starred)) return false;
+  const k = coKey(j.company), grp = /그룹$/.test(k) ? k.replace(/그룹$/, "") : "";
+  /* '삼성그룹'처럼 그룹 단위 예상은 계열사(삼성전자 등) 공고가 올라와도 숨긴다 */
+  return SEED.concat(SHARED, ARCHIVE).some(x => {
+    if(!x.confirmed || x.deleted) return false;
+    const xk = coKey(x.company);
+    return xk === k || (grp.length >= 2 && xk.startsWith(grp));
+  });
+}
 function scoped(){
   return allJobs().filter(j =>
-    fits(j) || app(j.id).applied || db.custom.some(c => c.id === j.id));
+    (fits(j) && !superseded(j)) || app(j.id).applied || db.custom.some(c => c.id === j.id));
 }
 
 /* ---------- 시작/마감 보기 기준 ---------- */
@@ -1237,11 +1392,20 @@ function applyPrivate(){
   btn.hidden = !IS_OWNER;
   btn.textContent = "소민 전용 " + (privOn() ? "켜짐" : "꺼짐");
   btn.setAttribute("aria-pressed", privOn());
+  const sBtn = document.getElementById("salesBtn"), sOn = !!db.profile.salesOn;
+  sBtn.textContent = "영업·세일즈 모아보기 " + (sOn ? "끄기" : "켜기"); sBtn.setAttribute("aria-pressed", sOn);
+  const sTab = document.querySelector('nav.tabs button[data-v="sales"]');
+  sTab.hidden = !sOn;
+  if(!sOn && sTab.getAttribute("aria-selected") === "true") document.querySelector('nav.tabs button[data-v="list"]').click();
   const tab = document.querySelector('nav.tabs button[data-v="match"]');
   tab.hidden = !privOn();
   if(!privOn() && tab.getAttribute("aria-selected") === "true")
     document.querySelector('nav.tabs button[data-v="list"]').click();
 }
+document.getElementById("salesBtn").onclick = function(){
+  db.profile.salesOn = !db.profile.salesOn; save(); applyPrivate();
+  if(db.profile.salesOn){ document.querySelector('nav.tabs button[data-v="sales"]').click(); toast("‘영업·세일즈’ 탭을 켰어요"); }
+};
 document.getElementById("privBtn").onclick = async function(){
   db.profile.privOn = !privOn(); save();
   if(privOn()) await loadMyNotes(); else MY_NOTES = {};
@@ -1395,9 +1559,13 @@ function renderMine(){
     const h = document.createElement("div"); h.className = "app-h";
     const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = j.company;
     const nmB = myBadge(j.id); if(nmB) nm.appendChild(nmB);
-    const rl = document.createElement("span"); rl.className = "rl"; rl.textContent = (j.roles||[]).join(", ");
-    h.append(nm, pill(j));
+    const rl = document.createElement("span"); rl.className = "rl"; rl.textContent = a.role || (j.roles||[]).join(", ");
     const dl0 = deadline(j);
+    /* 지금 어디까지 왔는지 한눈에 — 접힌 카드에서도 보이게 이름 옆에 둔다 */
+    const stc = appStatus(a, dl0);
+    h.append(nm);
+    if(stc){ const c = document.createElement("span"); c.className = "st-chip " + stc[1]; c.textContent = stc[0]; h.append(c); }
+    if(!stc || state(j).k !== "shut") h.append(pill(j));
     if(dl0 && dleft(dl0) >= 0 && a.doc === "대기"){
       const dd = document.createElement("span");
       const n = dleft(dl0);
@@ -1412,11 +1580,28 @@ function renderMine(){
       l.textContent = "공고 열기"; l.style.cssText = "font-size:12.5px;color:var(--muted)"; h.appendChild(l);
     }
     const rm = document.createElement("button"); rm.className = "ghost"; rm.textContent = "지원 취소";
-    rm.onclick = () => { a.applied = false; save(); renderAll(); };
+    rm.onclick = () => {
+      if(!confirm(j.company + " 지원을 취소할까요? 적어 둔 자소서·전형 일정은 남아 있어 다시 지원하면 돌아옵니다.")) return;
+      a.applied = false; save(); renderAll();
+    };
+    /* 카드 접기: 서류에서 떨어졌거나 마감이 지나 대기 중인 공고는 기본으로 접는다. 직접 접고 편 상태는 기억한다 */
+    const ended = a.doc === "불합격" || (dl0 && dleft(dl0) < 0 && a.doc === "대기");
+    const folded = a.fold === undefined ? ended : a.fold;
+    const foldBtn = document.createElement("button"); foldBtn.className = "ghost fold-btn";
+    foldBtn.setAttribute("aria-expanded", String(!folded));
+    foldBtn.textContent = folded ? "펼치기 ▾" : "접기 ▴";
+    h.appendChild(foldBtn);
     h.appendChild(rm);
     card.appendChild(h);
 
     const b = document.createElement("div"); b.className = "app-b";
+    b.hidden = folded;
+    if(folded) card.classList.add("folded");
+    foldBtn.onclick = () => {
+      a.fold = !b.hidden; save();
+      b.hidden = a.fold; card.classList.toggle("folded", a.fold);
+      foldBtn.textContent = a.fold ? "펼치기 ▾" : "접기 ▴"; foldBtn.setAttribute("aria-expanded", String(!a.fold));
+    };
 
     /* 전형 트랙 */
     const track = document.createElement("div"); track.className = "track";
@@ -1428,7 +1613,7 @@ function renderMine(){
     if(dl && !a.myEnd){
       s0d.textContent = fmtAt(dl, deadlineTime(j)) + " (" + dday(dl) + ")";
       /* 날짜만 있고 시각을 모르면 "그날 자정까지"로 착각하기 쉬워 반드시 확인시킨다 */
-      if(!deadlineTime(j)){
+      if(!deadlineTime(j) && dleft(dl) >= 0 && a.doc === "대기"){
         const w = document.createElement("div"); w.className = "warn-row";
         const lab = document.createElement("span"); lab.className = "warn";
         lab.textContent = "⚠ 마감 시각 미확인 — 공고에서 꼭 확인하세요";
@@ -1464,8 +1649,7 @@ function renderMine(){
       const op = document.createElement("option"); op.value = o;
       op.textContent = "서류 " + o; op.selected = (a.doc===o); s0r.appendChild(op);
     });
-    s0r.style.cssText = "border:0;background:none;padding:0;font-size:12px;font-weight:700";
-    s0r.className = a.doc==="합격" ? "res-pass" : a.doc==="불합격" ? "res-fail" : "";
+    s0r.className = "res-sel" + (a.doc==="합격" ? " res-pass" : a.doc==="불합격" ? " res-fail" : "");
     s0r.onchange = () => { a.doc = s0r.value; save(); renderAll(); };
     s0.append(s0n, s0d, s0r);
 
@@ -1551,7 +1735,8 @@ function renderMine(){
       b.appendChild(add);
     } else if(a.doc === "불합격"){
       const p = document.createElement("p"); p.className = "sub";
-      p.textContent = "다음 시즌을 위해 아래에 쓴 자소서는 그대로 남겨둡니다.";
+      p.className = "sub app-note";
+      p.textContent = "쓴 자소서·이력서는 다음 시즌에 다시 쓸 수 있게 그대로 남아 있어요.";
       b.appendChild(p);
     }
 
@@ -1816,6 +2001,35 @@ function renderCal(){
     });
     grid.appendChild(c);
   }
+  renderCalList(ev);
+}
+/* 좁은 화면에서는 7칸 달력 대신 이번 달 일정을 날짜별 목록으로 보여 준다(오늘 이후부터) */
+function renderCalList(ev){
+  const box = document.getElementById("calList"); box.replaceChildren();
+  const y = curMonth.getFullYear(), m = curMonth.getMonth();
+  const last = new Date(y, m + 1, 0).getDate();
+  const DOW = ["일","월","화","수","목","금","토"];
+  const fromDay = (y === TODAY.getFullYear() && m === TODAY.getMonth()) ? TODAY.getDate() : 1;
+  let any = false;
+  for(let day = fromDay; day <= last; day++){
+    const d = new Date(y, m, day), list = ev[iso(d)] || [];
+    if(!list.length) continue;
+    any = true;
+    const sec = document.createElement("section"); sec.className = "cl-day" + (iso(d) === iso(TODAY) ? " is-today" : "");
+    const h = document.createElement("h3"); h.className = "cl-h";
+    h.textContent = (m + 1) + "월 " + day + "일 (" + DOW[d.getDay()] + ")" + (iso(d) === iso(TODAY) ? " · 오늘" : "");
+    sec.append(h);
+    list.forEach(function(e){
+      const b = document.createElement("button");
+      b.className = "ev ev-" + e.kind + (e.est ? " est" : "") + (e.mine ? " mine" : "");
+      const pre = document.createElement("span"); pre.className = "pre"; pre.textContent = e.label;
+      b.append(pre, document.createTextNode(e.name));
+      b.onclick = () => openJob(e.id);
+      sec.append(b);
+    });
+    box.append(sec);
+  }
+  if(!any){ const p = document.createElement("p"); p.className = "empty"; p.textContent = "이 달에 남은 일정이 없어요."; box.append(p); }
 }
 
 /* ---------- 공고 상세 ---------- */
@@ -1994,7 +2208,8 @@ function renderWeek(){
     const d = new Date(weekStart); d.setDate(weekStart.getDate()+i);
     const k = iso(d);
     const day = document.createElement("div");
-    day.className = "day" + (k===iso(TODAY) ? " is-today" : "");
+    day.className = "day" + (k===iso(TODAY) ? " is-today" : "") +
+      (!(ev[k] || []).length && !(db.todos[k] || []).length ? " empty" : "");
     const h = document.createElement("h3");
     h.appendChild(document.createTextNode(names[i]));
     const bb = document.createElement("b"); bb.textContent = d.getDate(); h.appendChild(bb);
@@ -2475,6 +2690,8 @@ function loadRadar(){
   return radarPromise;
 }
 function initRadar(data){
+  /* 휴대폰에서는 필터가 화면을 다 차지하므로 접어 둔다 */
+  if(window.matchMedia("(max-width:640px)").matches) document.getElementById("rdFilter").open = false;
   const jobs = data.jobs || [];
   const rolesOf = j => (j.roles && j.roles.length) ? j.roles : ["기타"];
   const latest = jobs.reduce((m, j) => j.firstSeen > m ? j.firstSeen : m, "");
@@ -2546,12 +2763,117 @@ function initRadar(data){
     .forEach(t => { const p = document.createElement("div"); p.textContent = t; foot.append(p); });
 }
 
+/* ---------- 영업·세일즈 모아보기 ----------
+   여러 출처에서 영업·세일즈·어카운트 직무만 골라 한 목록으로. 지원보드 공고는 '지원'으로 바로 담을 수 있다. */
+const SALES_RE = /영업|세일즈|sales|account\s*(executive|manager|strategist|director)|\bAE\b|\bSDR\b|\bBDR\b|key\s*account|어카운트|판매|채널\s*관리|대리점/i;
+const SL_KIND = [["B2B·기업영업", /B2B|기업|법인|enterprise|엔터프라이즈|솔루션|account|어카운트|cloud|SaaS|기술\s*영업/i],
+  ["해외영업", /해외|글로벌|global|overseas|수출|무역|international/i],
+  ["금융영업", /금융|은행|증권|보험|카드|자산|wealth|PB\b/i],
+  ["영업관리·채널", /영업\s*관리|영업지원|채널|대리점|점포|매장|리테일|retail|유통|MD/i]];
+let salesPromise = null, slData = null, slSrc = "", slKind = "";
+function loadSales(){
+  if(salesPromise) return salesPromise;
+  const get = u => fetch(u + "?t=" + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
+  salesPromise = Promise.all([get("data/radar.json"), get("artifact/data.json"), get("data/company-jobs.json"), loadDetails()])
+    .then(([radar, junior, comp]) => { slData = {radar, junior, comp}; renderSales(); });
+  return salesPromise;
+}
+function salesRows(){
+  const today = iso(new Date()), out = [], seen = new Set();
+  const push = (x) => {
+    const k = coKey(x.company) + "|" + (x.url || x.title);
+    if(seen.has(k)) return; seen.add(k); out.push(x);
+  };
+  /* 1) 지원보드 공고: 직무 분류가 영업이거나, 모집 부문 이름에 영업이 들어간 것 */
+  allJobs().forEach(j => {
+    if(state(j).k === "shut" || superseded(j)) return;
+    const tracks = ((DETAILS && DETAILS[j.id] && DETAILS[j.id].tracks) || []).map(t => t.name).filter(n => n && SALES_RE.test(n));
+    const byRole = (j.roles || []).some(r => /영업/.test(r));
+    if(!byRole && !tracks.length && !SALES_RE.test(j.hist || "")) return;
+    push({src: "board", id: j.id, company: j.company, title: tracks.slice(0, 3).join(" · ") || (j.roles || []).filter(r => /영업/.test(r)).join(" · ") || "영업",
+          url: j.url, end: j.end || "", years: null, junior: true});
+  });
+  const d = slData || {};
+  /* 2) 채용 레이더(외국계·AI·IT) */
+  ((d.radar && d.radar.jobs) || []).forEach(j => {
+    if(!SALES_RE.test(j.title) && !(j.roles || []).includes("세일즈·파트너십")) return;
+    push({src: "radar", company: j.company, title: j.title, url: j.url, end: "", years: j.years, junior: j.bucket !== "senior"});
+  });
+  /* 3) 주니어 공고판 */
+  ((d.junior && d.junior.rows) || []).forEach(r => {
+    if(!SALES_RE.test(r.title)) return;
+    const end = /^\d{4}-/.test(r.due || "") ? r.due : "";
+    if(end && end < today) return;
+    push({src: "junior", company: r["회사"], title: r.title, url: r.link, end, years: null, junior: true});
+  });
+  /* 4) 스타트업·유니콘·외국계 공식 채용 */
+  ((d.comp && d.comp.jobs) || []).forEach(j => {
+    if(!SALES_RE.test(j.title)) return;
+    push({src: "company", company: j.company, title: j.title, url: j.url, end: "", years: j.years, junior: j.years === null || j.years <= 2});
+  });
+  out.forEach(x => { x.kind = (SL_KIND.find(([, re]) => re.test(x.company + " " + x.title)) || ["일반 영업"])[0]; });
+  return out.sort((a, b) => (a.end || "9999").localeCompare(b.end || "9999") || a.company.localeCompare(b.company, "ko"));
+}
+const SL_SRC = {board: "채용 공고", radar: "채용 레이더", junior: "주니어 공고판", company: "기업 채용"};
+function renderSales(){
+  const all = salesRows(), jr = document.getElementById("slJunior").checked;
+  const base = all.filter(x => !jr || x.junior);
+  const chipRow = (id, items, cur, set) => {
+    const box = document.getElementById(id); box.replaceChildren();
+    items.forEach(([k, l, n]) => {
+      if(k && !n) return;
+      const b = document.createElement("button"); b.type = "button"; b.textContent = l + " " + n;
+      b.setAttribute("aria-pressed", cur === k); b.onclick = () => { set(k); renderSales(); }; box.append(b);
+    });
+  };
+  const bySrc = base.filter(x => !slKind || x.kind === slKind), byKind = base.filter(x => !slSrc || x.src === slSrc);
+  chipRow("slSrc", [["", "전체 출처", bySrc.length]].concat(Object.entries(SL_SRC).map(([k, l]) => [k, l, bySrc.filter(x => x.src === k).length])), slSrc, k => slSrc = k);
+  chipRow("slKind", [["", "모든 종류", byKind.length]].concat(SL_KIND.map(([k]) => k).concat(["일반 영업"]).map(k => [k, k, byKind.filter(x => x.kind === k).length])), slKind, k => slKind = k);
+  const rows = base.filter(x => (!slSrc || x.src === slSrc) && (!slKind || x.kind === slKind));
+  const ul = document.getElementById("slList"); ul.replaceChildren();
+  if(!rows.length){ const e = document.createElement("li"); e.className = "rd-empty"; e.textContent = "조건에 맞는 영업 공고가 없어요. 위 칩을 ‘전체’로 바꿔 보세요."; ul.append(e); }
+  rows.forEach(x => {
+    const li = document.createElement("li"); li.className = "rd-job";
+    const co = document.createElement("div"); co.className = "rd-co"; co.textContent = x.company;
+    const main = document.createElement("div"); main.className = "rd-main";
+    const a = document.createElement("a"); a.className = "rd-t"; a.target = "_blank"; a.rel = "noopener"; a.href = x.url || "#"; a.textContent = x.title;
+    const meta = document.createElement("div"); meta.className = "rd-meta";
+    meta.textContent = [SL_SRC[x.src], x.kind, x.end ? "마감 " + x.end.slice(5).replace("-", "/") + " (" + dday(x.end) + ")" : "상시·마감 미표기"].join(" · ");
+    main.append(a, meta);
+    const side = document.createElement("div"); side.className = "sl-side";
+    const p = document.createElement("span"); p.className = "rd-pill " + (x.years ? (x.junior ? "junior" : "senior") : "open");
+    p.textContent = x.years ? x.years + "년 이상" : "연차 표시 없음"; side.append(p);
+    if(x.id){
+      const b = document.createElement("button"); b.type = "button"; b.className = "ghost sl-add";
+      const on = () => app(x.id).applied;
+      b.textContent = on() ? "담김 ✓" : "지원 담기"; b.setAttribute("aria-pressed", on());
+      b.onclick = () => { app(x.id).applied = !on(); save(); renderAll(); renderSales(); };
+      side.append(b);
+    }
+    li.append(co, main, side); ul.append(li);
+  });
+  document.getElementById("slFoot").textContent = "총 " + all.length + "건 · 회사·제목에 영업·세일즈·Sales·Account Executive 등이 들어간 공고를 모았어요. ‘지원 담기’는 지원보드 공고만 돼요(내 지원 탭으로 들어가요).";
+}
+document.getElementById("slJunior").onchange = renderSales;
+
 /* ---------- 매칭 아카이브 ----------
    공고 쪽 키워드(data/jd-keywords.json)는 공개 데이터, 내 쪽 키워드(db.match)는 내 계정에만 있다.
    매칭률 = JD 키워드 가중치 중 내 키워드에 해당하는 비율. 가중치는 JD에 나온 횟수(최대 3). */
 const MT_TIERS = [["적극지원", 80, "tier-1"], ["적합지원", 70, "tier-2"], ["상향지원", 60, "tier-3"], ["연습지원", 50, "tier-4"]];
 const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판", company:"기업 채용", linkedin:"링크드인"};
-let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "";
+let mtEditing = false;
+let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "", mtCo = "", mtRole = "";
+/* 매칭 아카이브 직무 묶음 — 공고 제목으로 나눈다(위에서부터 먼저 맞는 것) */
+const MT_ROLES = [
+  ["기획·PM", /기획|\bPM\b|\bPO\b|product|프로덕트|program\s*manag/i],
+  ["마케팅·브랜드", /마케|marketing|브랜드|brand|그로스|growth|\bCRM\b|퍼포먼스|광고|홍보|\bPR\b|campaign/i],
+  ["콘텐츠·커뮤니티", /콘텐츠|컨텐츠|content|에디터|커뮤니티|community|크리에이터|creator/i],
+  ["영업·세일즈", /영업|세일즈|sales|account\s*(executive|manager)|어카운트|\bAE\b/i],
+  ["전략·사업개발", /전략|strategy|사업|business|\bBD\b|제휴|partnership|GTM|컨설/i],
+  ["운영·CX", /운영|operation|ops\b|\bCX\b|\bCS\b|고객|customer|상담|물류|\bSCM\b|\bMD\b|머천/i],
+  ["데이터·리서치", /데이터|data|분석|analyst|리서치|research|insight/i],
+];
+const mtRoleOf = t => (MT_ROLES.find(([, re]) => re.test(t)) || ["기타"])[0];
 function loadMatch(){
   if(!matchPromise){
     matchPromise = Promise.all([
@@ -2572,9 +2894,25 @@ function mtSplit(text){
   return parts.map(p => p.trim()).filter(p => p.length > 40);
 }
 function mtExtract(text){ return mtDict.filter(([, re]) => re.test(text)).map(([l]) => l); }
+/* 붙여넣은 경험정리는 제목(#) 단위로 쪼개 아카이브 > 경험 정리에 카드로도 보관한다(내 계정에만 저장).
+   다시 붙여넣으면 이전에 붙여넣은 카드만 새것으로 바꾸고, 직접 쓴 카드는 그대로 둔다. */
+function mtArchive(text){
+  const parts = mtSplit(text);
+  const today = new Date().toISOString().slice(0, 10);
+  const cards = parts.map((p, i) => {
+    const lines = p.split("\n");
+    const title = lines[0].replace(/^#+\s*/, "").trim().slice(0, 80) || ("경험 " + (i + 1));
+    return {id: "p" + Date.now() + "-" + i, src: "paste", at: today, title, tags: "경험정리 원문", s: lines.slice(1).join("\n").trim(), t: "", a: "", r: ""};
+  });
+  db.arc.exp = (db.arc.exp || []).filter(e => e.src !== "paste").concat(cards);
+  return cards.length;
+}
 function mtBuild(text){
-  const exps = mtSplit(text || "").concat(
-    (db.arc.exp || []).map(e => [e.title, e.tags, e.s, e.t, e.a, e.r].join("\n")).filter(t => t.trim().length > 40));
+  const cardText = e => [e.title, e.tags, e.s, e.t, e.a, e.r].join("\n");
+  const cards = db.arc.exp || [];
+  // 방금 붙여넣었으면 그 원문을, 아니면 아카이브에 보관된 카드를 경험으로 센다(같은 내용을 두 번 세지 않게)
+  const pasted = text && text.trim() ? mtSplit(text) : cards.filter(e => e.src === "paste").map(cardText);
+  const exps = pasted.concat(cards.filter(e => e.src !== "paste").map(cardText).filter(t => t.trim().length > 40));
   const counts = {};
   exps.forEach(e => mtExtract(e).forEach(k => { counts[k] = (counts[k] || 0) + 1; }));
   const prev = db.match || {};
@@ -2682,14 +3020,34 @@ function renderLinkedin(){
   d.append(ul); box.append(d);
 }
 
+/* 소민 계정인데 아직 경험 키워드가 없으면, 미리 뽑아 둔 키워드 개수(data/owner-match.json)로 채운다.
+   이 파일에는 키워드 이름과 개수만 있고 경험 원문은 없다. */
+let ownerSeedTried = false;
+async function seedOwnerMatch(){
+  if(ownerSeedTried || !IS_OWNER || db.match) return;
+  ownerSeedTried = true;
+  try{
+    const r = await fetch("data/owner-match.json?t=" + Date.now());
+    if(!r.ok) return;
+    const o = await r.json();
+    db.match = {counts: o.counts, n: o.n, at: o.at, on: [], off: [], seeded: true};
+    save(); renderMatch();
+  }catch(e){}
+}
+
 function renderMatch(){
   if(!mtData) return;
+  if(!db.match && IS_OWNER){ seedOwnerMatch(); }
   renderLinkedin();
   const m = db.match, mine = mtMine();
   document.getElementById("mtMeStat").textContent = m
-    ? "경험 " + m.n + "개에서 뽑음 · " + m.at + " · 내 키워드 " + mine.size + "개"
+    ? "경험 " + m.n + "개에서 뽑음 · " + m.at + " · 내 키워드 " + mine.size + "개" + (m.seeded ? " · 미리 넣어 둔 경험정리 기준" : "")
     : "아직 없음 — 오른쪽 버튼으로 경험정리를 붙여넣어 주세요";
-  if(!m) document.getElementById("mtEditor").hidden = false;
+  /* 키워드가 없을 때만 입력창과 설정을 펼쳐 둔다(직접 열었으면 그대로 둔다) */
+  if(!m){ document.getElementById("mtEditor").hidden = false; document.getElementById("mtSettings").open = true; }
+  else if(!mtEditing) document.getElementById("mtEditor").hidden = true;
+  document.getElementById("mtSetSum").textContent = (m ? "내 경험 키워드 " + mine.size + "개" : "내 경험 키워드 없음") +
+    " · 링크드인 저장 " + (db.linkedin || []).length + "건";
 
   document.getElementById("mtRule").textContent = m
     ? "경험 " + mtThreshold() + "개 이상에서 나온 키워드만 ‘내 것’으로 칩니다(숫자는 나온 경험 수). 칩을 눌러 켜고 끌 수 있어요." : "";
@@ -2716,11 +3074,44 @@ function renderMatch(){
     const entries = Object.entries(j.w);
     const tot = entries.reduce((s, [, w]) => s + w, 0);
     const hit = entries.reduce((s, [k, w]) => s + (mine.has(k) ? w : 0), 0);
-    const pct = Math.round(hit / tot * 100);
+    /* 키워드가 몇 개 안 되는 짧은 JD가 쉽게 100%가 되지 않도록, 겹치지 않은 키워드 2개 분량을 기본으로 깔고 계산한다 */
+    const pct = Math.round(hit / (tot + 2) * 100);
     const tier = MT_TIERS.find(t => pct >= t[1]);
     if(tier) rows.push({j, pct, tier, got: entries.filter(([k]) => mine.has(k)).map(([k]) => k), miss: entries.filter(([k]) => !mine.has(k)).map(([k]) => k)});
   }
   rows.sort((a, b) => b.pct - a.pct);
+  /* 같은 공고가 여러 경로(주니어 공고판·기업 채용 등)로 들어오면 한 번만, 마감 지난 공고는 빼고 지금 떠 있는 것만 */
+  const today = iso(new Date()), seenT = new Set();
+  const live = rows.filter(r => {
+    if(r.j.end && r.j.end < today) return false;
+    const k = coKey(r.j.company) + "|" + r.j.title.replace(/\s/g, "").toLowerCase();
+    if(seenT.has(k)) return false;
+    seenT.add(k); r.role = mtRoleOf(r.j.title); return true;
+  });
+  /* 회사·직무로 골라 보기 — 선택지는 지금 떠 있는 공고 기준 */
+  const coCount = {};
+  live.filter(r => !mtRole || r.role === mtRole).forEach(r => { coCount[r.j.company] = (coCount[r.j.company] || 0) + 1; });
+  if(mtCo && !coCount[mtCo]) mtCo = "";
+  const cs = document.getElementById("mtCo"); cs.replaceChildren();
+  const all = document.createElement("option"); all.value = ""; all.textContent = "전체 회사 (" + Object.keys(coCount).length + "곳)"; cs.append(all);
+  Object.entries(coCount).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ko")).forEach(([c, n]) => {
+    const o = document.createElement("option"); o.value = c; o.textContent = c + " · " + n; o.selected = c === mtCo; cs.append(o);
+  });
+  cs.onchange = () => { mtCo = cs.value; renderMatch(); };
+  const roleCount = {};
+  live.filter(r => !mtCo || r.j.company === mtCo).forEach(r => { roleCount[r.role] = (roleCount[r.role] || 0) + 1; });
+  if(mtRole && !roleCount[mtRole]) mtRole = "";
+  const rc = document.getElementById("mtRoleChips"); rc.replaceChildren();
+  [["", "모든 직무"]].concat(MT_ROLES.map(x => [x[0], x[0]]), [["기타", "기타"]]).forEach(([k, l]) => {
+    const n = k ? roleCount[k] || 0 : Object.values(roleCount).reduce((x, y) => x + y, 0);
+    if(k && !n) return;
+    const b = document.createElement("button"); b.type = "button"; b.textContent = l + " " + n;
+    b.setAttribute("aria-pressed", mtRole === k);
+    b.onclick = () => { mtRole = k; renderMatch(); };
+    rc.append(b);
+  });
+  rows.length = 0;
+  live.filter(r => (!mtCo || r.j.company === mtCo) && (!mtRole || r.role === mtRole)).forEach(r => rows.push(r));
 
   const tc = document.getElementById("mtTierChips"); tc.replaceChildren();
   [["", "전체", rows.length]].concat(MT_TIERS.map(t => [t[0], t[0], rows.filter(r => r.tier[0] === t[0]).length])).forEach(([k, l, n]) => {
@@ -2734,7 +3125,8 @@ function renderMatch(){
   if(!m){ return; }
   if(!rows.length){
     const e = document.createElement("p"); e.className = "rd-empty";
-    e.textContent = "50% 넘게 겹치는 공고가 아직 없어요. 키워드 칩을 더 켜 보거나 경험 원문을 보강해 보세요."; out.append(e); return;
+    e.textContent = (mtCo || mtRole) ? "고른 회사·직무에 맞는 공고가 없어요. 위에서 ‘전체 회사’나 ‘모든 직무’로 바꿔 보세요."
+      : "50% 넘게 겹치는 공고가 아직 없어요. 키워드 칩을 더 켜 보거나 경험 원문을 보강해 보세요."; out.append(e); return;
   }
   MT_TIERS.filter(t => !mtTier || t[0] === mtTier).forEach(t => {
     const list = rows.filter(r => r.tier[0] === t[0]);
@@ -2763,7 +3155,7 @@ function renderMatch(){
     out.append(ul);
   });
   document.getElementById("mtFoot").textContent = "공고 키워드 기준일 " + mtData.updated +
-    " · 연차가 숫자로 적힌 공고와 본문이 이미지뿐인 공고는 빠져 있습니다. 초록 칩은 겹치는 키워드, 줄 그은 칩은 내 경험에 없는 키워드예요.";
+    " · 연차가 숫자로 적힌 공고와 본문이 이미지뿐인 공고는 빠져 있습니다. 키워드가 적은 짧은 JD는 매칭률을 조금 낮춰 계산해요. 초록 칩은 겹치는 키워드, 줄 그은 칩은 내 경험에 없는 키워드예요.";
 }
 document.getElementById("liEditBtn").onclick = () => { document.getElementById("liEditor").hidden = false; document.getElementById("liText").focus(); };
 document.getElementById("liCancelBtn").onclick = () => { document.getElementById("liEditor").hidden = true; };
@@ -2779,16 +3171,19 @@ document.getElementById("liRunBtn").onclick = () => {
   renderMatch();
   toast(r.found ? "공고 " + r.found + "건 읽음 · 새로 저장 " + r.added + "건 · 본문 " + r.withJd + "건" : "공고를 찾지 못했습니다. 검색 결과 화면 전체를 복사했는지 확인해 주세요");
 };
-document.getElementById("mtEditBtn").onclick = () => { document.getElementById("mtEditor").hidden = false; document.getElementById("mtText").focus(); };
-document.getElementById("mtCancelBtn").onclick = () => { document.getElementById("mtEditor").hidden = true; };
+document.getElementById("mtEditBtn").onclick = () => { mtEditing = true; document.getElementById("mtEditor").hidden = false; document.getElementById("mtText").focus(); };
+document.getElementById("mtCancelBtn").onclick = () => { mtEditing = false; document.getElementById("mtEditor").hidden = true; };
 document.getElementById("mtRunBtn").onclick = () => {
   if(!mtDict){ toast("매칭 데이터를 아직 불러오는 중입니다"); return; }
   const t = document.getElementById("mtText").value;
   if(!t.trim() && !(db.arc.exp || []).length){ toast("경험정리를 붙여넣어 주세요"); return; }
+  const saved = t.trim() ? mtArchive(t) : 0;
   mtBuild(t);
   document.getElementById("mtText").value = "";
+  mtEditing = false;
   document.getElementById("mtEditor").hidden = true;
-  renderMatch(); toast("경험 키워드를 저장했습니다");
+  renderMatch(); renderArc();
+  toast(saved ? "경험 " + saved + "개를 아카이브에 보관하고 키워드를 저장했습니다" : "경험 키워드를 다시 뽑았습니다");
 };
 
 /* ---------- 배선 ---------- */
@@ -2796,8 +3191,10 @@ document.querySelectorAll("nav.tabs button").forEach(function(b){
   b.onclick = function(){
     document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
     document.querySelectorAll(".view").forEach(v => v.hidden = (v.id !== "v-" + b.dataset.v));
+    b.scrollIntoView({block: "nearest", inline: "center", behavior: "smooth"}); /* 모바일에서 뒤쪽 탭이 화면 밖에 숨지 않게 */
     if(b.dataset.v === "radar") loadRadar();
     if(b.dataset.v === "match") loadMatch();
+    if(b.dataset.v === "sales") (slData ? Promise.resolve() : loadSales()).then(renderSales);
   };
 });
 document.querySelectorAll("#arcTabs button").forEach(function(b){
@@ -2918,6 +3315,7 @@ function boot(){
 
 /* ---------- 인증 ---------- */
 let currentUserId = null;
+let currentEmail = "";
 const authScreen = document.getElementById("authScreen");
 const appHeader = document.getElementById("appHeader");
 const appWrap = document.getElementById("appWrap");
@@ -2964,6 +3362,135 @@ document.getElementById("authForm").onsubmit = async function(e){
   // 로그인 성공 시에는 onAuthStateChange가 처리
 };
 
+/* ---------- 지원 현황표 붙여넣기 ----------
+   로컬에서 정리한 '지원 현황표'(마크다운)를 읽어 내 지원 상태를 한 번에 맞춘다.
+   제목(## N. 합격/탈락 확정/탈락 추정/결과 미발표/미지원)으로 상태를 정하고, 표의 첫 칸(기업)·둘째 칸(직무)으로
+   공고를 찾는다. 못 찾으면 '직접 등록' 공고로 새로 만든다. 반영 전에 미리보기로 연결을 확인한다. */
+let stPlan = null;
+function stParse(text){
+  const rows = []; let sec = null;
+  for(const line of text.split(/\r?\n/)){
+    const h = line.match(/^#{2,3}\s*\d+\.\s*(.+)/);
+    if(h){
+      const t = h[1];
+      sec = /탈락 확정/.test(t) ? "fail" : /탈락 추정/.test(t) ? "guess" : /미발표/.test(t) ? "wait"
+          : /미지원/.test(t) ? "skip" : /합격/.test(t) ? "pass" : null;
+      continue;
+    }
+    if(/^#{1,3}\s/.test(line)){ sec = null; continue; }
+    if(!sec || !/^\s*\|/.test(line) || /^\s*\|\s*:?-/.test(line)) continue;
+    const c = line.split("|").slice(1, -1).map(x => x.replace(/\*\*|`/g, "").trim());
+    if(!c[0] || c[0] === "기업") continue;
+    rows.push({sec, company: c[0], role: c[1] && c[1] !== "—" ? c[1] : "", stage: sec === "fail" ? (c[2] || "") : ""});
+  }
+  return rows;
+}
+const stNorm = s => (s || "").toLowerCase().replace(/\(.*?\)|주식회사|㈜|[\s·\-—_]/g, "");
+function stFind(row, used){
+  const key = stNorm(row.company.split(/[·(]/)[0]);
+  if(!key) return null;
+  const rk = stNorm(row.role).slice(0, 4);
+  const cands = allJobs().filter(j => {
+    const c = stNorm(j.company);
+    /* '두산'이 '두산건설'에 붙지 않도록, 이름 뒤에 붙는 말은 그룹·자동차 같은 일반 꼬리만 허용한다 */
+    const tail = /^(그룹|계열포함|ds부문|코리아|자동차|주식회사)$/;
+    return c && !used.has(j.id) && (c === key || (c.startsWith(key) && tail.test(c.slice(key.length))) ||
+      (key.startsWith(c) && tail.test(key.slice(c.length))));
+  });
+  const score = j => (app(j.id).applied ? 4 : 0) + (stNorm(j.company) === key ? 2 : 0) +
+    (rk && stNorm((j.roles || []).join("") + (j.hist || "")).includes(rk) ? 2 : 0) + ((j.end || "") >= "2026-08-01" ? 1 : 0);
+  return cands.sort((a, b) => score(b) - score(a))[0] || null;
+}
+const ST_LABEL = {pass: "합격", fail: "탈락", guess: "탈락 추정", wait: "결과 대기", skip: "미지원"};
+async function stPreview(){
+  await loadArchive();
+  const rows = stParse(document.getElementById("stText").value);
+  const used = new Set();
+  stPlan = rows.map(r => { const j = stFind(r, used); if(j) used.add(j.id); return {r, j}; });
+  const known = new Set(allJobs().map(j => j.id));
+  const orphans = Object.keys(db.apps).filter(id => db.apps[id].applied && !known.has(id));
+  stPlan.orphans = orphans;
+  document.getElementById("stOrphanLbl").textContent = "회사명 없이 ‘지원’으로만 남은 항목 " + orphans.length + "건 정리(지원 표시만 끄고 내용은 남김)";
+  const box = document.getElementById("stPreview"); box.replaceChildren();
+  if(!rows.length){ box.textContent = "읽을 수 있는 표가 없습니다. ‘## 1. 합격 …’ 같은 제목과 표가 함께 있는지 확인해 주세요."; document.getElementById("stApply").disabled = true; return; }
+  const t = document.createElement("table");
+  t.innerHTML = "<thead><tr><th>상태</th><th>현황표</th><th>연결될 공고</th></tr></thead>";
+  const tb = document.createElement("tbody");
+  stPlan.forEach(({r, j}) => {
+    const tr = document.createElement("tr");
+    const a = document.createElement("td"); a.textContent = ST_LABEL[r.sec] + (r.stage && !/서류|미확인/.test(r.stage) ? " (" + r.stage + ")" : "");
+    const b = document.createElement("td"); b.textContent = r.company + (r.role ? " · " + r.role : "");
+    const c = document.createElement("td");
+    if(j){ c.textContent = j.company + " · " + ((j.roles || []).join(", ") || j.hist || "") + (j.end ? " (마감 " + j.end + ")" : ""); }
+    else if(r.sec === "skip"){ c.textContent = "보드에 없음 — 그대로 둠"; c.className = "skip"; }
+    else { c.textContent = "새로 추가(직접 등록)"; c.className = "new"; }
+    tr.append(a, b, c); tb.append(tr);
+  });
+  t.append(tb); box.append(t);
+  document.getElementById("stApply").disabled = false;
+}
+function stApply(){
+  if(!stPlan) return;
+  let added = 0, updated = 0, skipped = 0;
+  stPlan.forEach(({r, j}, i) => {
+    if(r.sec === "skip"){ if(j){ app(j.id).applied = false; skipped++; } return; }
+    let id = j && j.id;
+    if(!id){
+      id = "u" + Date.now() + i;
+      db.custom.push({id, company: r.company, roles: [], start: "", end: "", confirmed: true, source: "직접 등록", type: "", hist: r.role, url: ""});
+      added++;
+    } else updated++;
+    const a = app(id);
+    a.applied = true;
+    if(r.role && !a.role) a.role = r.role;
+    if(r.sec === "pass" || r.sec === "wait") a.doc = r.sec === "pass" ? "합격" : "대기";
+    else if(r.sec === "fail" && r.stage && !/서류|미확인/.test(r.stage)){
+      a.doc = "합격";
+      if(!a.stages.some(s => s.name === r.stage)) a.stages.push({name: r.stage, date: "", result: "불합격"});
+    } else {
+      a.doc = "불합격";
+      if(r.sec === "guess" && !/탈락 추정/.test(a.note || "")) a.note = ((a.note || "") + " 탈락 추정(결과 통보 없음)").trim();
+    }
+  });
+  let cleaned = 0;
+  if(document.getElementById("stOrphan").checked) (stPlan.orphans || []).forEach(id => { db.apps[id].applied = false; cleaned++; });
+  save(); renderAll();
+  document.getElementById("stDlg").close();
+  toast("반영했습니다 · 연결 " + updated + " · 새로 추가 " + added + " · 미지원 처리 " + skipped + (cleaned ? " · 정리 " + cleaned : ""));
+  stPlan = null;
+}
+document.getElementById("stBtn").onclick = () => { stPlan = null; document.getElementById("stPreview").replaceChildren(); document.getElementById("stApply").disabled = true; document.getElementById("stDlg").showModal(); };
+document.getElementById("stClose").onclick = () => document.getElementById("stDlg").close();
+document.getElementById("stPrevBtn").onclick = stPreview;
+document.getElementById("stText").oninput = () => { document.getElementById("stApply").disabled = true; };
+document.getElementById("stApply").onclick = stApply;
+
+function openMe(){
+  const rows = [["로그인 아이디", currentEmail || "알 수 없음"],
+    ["내 지원", Object.values(db.apps || {}).filter(a => a.applied).length + "건"],
+    ["아카이브 경험 카드", (db.arc.exp || []).length + "개"]];
+  if(IS_OWNER){
+    rows.push(["소민 전용 기능", privOn() ? "켜짐 (⋯ 메뉴에서 끄고 켤 수 있어요)" : "꺼짐"]);
+    const m = db.match;
+    rows.push(["경험 키워드", m ? mtMine().size + "개 · 경험 " + m.n + "개 기준 · " + m.at : "아직 없음"]);
+    rows.push(["링크드인 저장", (db.linkedin || []).length + "건"]);
+  }
+  const dl = document.getElementById("meBody"); dl.replaceChildren();
+  rows.forEach(([k, v]) => { const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.textContent = v; dl.append(dt, dd); });
+  document.getElementById("meDlg").showModal();
+}
+document.getElementById("meBtn").onclick = openMe;
+/* ⋯ 메뉴: 버튼으로 열고, 항목을 누르거나 바깥을 누르거나 Esc면 닫는다 */
+(function(){
+  const btn = document.getElementById("menuBtn"), pop = document.getElementById("menuPop");
+  const close = () => { pop.hidden = true; btn.setAttribute("aria-expanded", "false"); };
+  btn.onclick = (e) => { e.stopPropagation(); pop.hidden = !pop.hidden; btn.setAttribute("aria-expanded", String(!pop.hidden)); };
+  pop.addEventListener("click", (e) => { if(e.target.closest("button")) close(); });
+  document.addEventListener("click", (e) => { if(!pop.hidden && !e.target.closest(".menu-wrap")) close(); });
+  document.addEventListener("keydown", (e) => { if(e.key === "Escape" && !pop.hidden){ close(); btn.focus(); } });
+})();
+document.getElementById("meClose").onclick = () => document.getElementById("meDlg").close();
+document.getElementById("meLogout").onclick = () => { document.getElementById("meDlg").close(); document.getElementById("logoutBtn").click(); };
 document.getElementById("logoutBtn").onclick = async function(){
   await sb.auth.signOut();
 };
@@ -2985,14 +3512,20 @@ sb.auth.onAuthStateChange(async function(event, session){
   if(session && session.user){
     if(currentUserId === session.user.id) return; // 이미 로드됨(예: 탭 포커스 시 재발화)
     currentUserId = session.user.id;
+    currentEmail = session.user.email || "";
     db = await loadUserData(currentUserId);
     IS_OWNER = await checkOwner(session.user.email);
     await loadMyNotes();
     showApp();
     boot();
+    /* 공유 링크(?sales=1)로 들어오면 영업·세일즈 탭을 켜고 바로 연다 — 내 화면 설정만 바뀐다 */
+    const wantSales = new URLSearchParams(location.search).get("sales") === "1";
+    if(wantSales && !db.profile.salesOn){ db.profile.salesOn = true; save(); }
     applyPrivate();
+    if(wantSales) document.querySelector('nav.tabs button[data-v="sales"]').click();
   } else {
     currentUserId = null;
+    currentEmail = "";
     IS_OWNER = false;
     MY_NOTES = {};
     applyPrivate();
