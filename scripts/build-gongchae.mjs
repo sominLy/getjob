@@ -133,7 +133,10 @@ async function ocr(url) {
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length < 60_000) return ""; // 작은 그림(아이콘·로고·배너)은 공고문이 아니다
   await writeFile(tmp, buf);
-  const { stdout } = await run("tesseract", [tmp, "stdout", "-l", "kor+eng", "--psm", "4"], { maxBuffer: 1 << 24, timeout: 120000 });
+  // tesseract가 webp를 못 읽는 환경이면 png로 바꿔서 다시 읽는다
+  let input = tmp;
+  if (/\.webp(\?|$)/i.test(url)) { try { await run("convert", [tmp, tmp + ".png"]); input = tmp + ".png"; } catch {} }
+  const { stdout } = await run("tesseract", [input, "stdout", "-l", "kor+eng", "--psm", "4"], { maxBuffer: 1 << 24, timeout: 180000 });
   return stdout.replace(/[ \t]+/g, " ").replace(/\n{3,}/g, "\n\n").trim();
 }
 /** 자소설닷컴 공고 상세 JSON 안에서 이미지 주소를 모두 찾는다(필드 이름이 바뀌어도 되게 깊이 훑음) */
@@ -188,7 +191,9 @@ async function main() {
   const jobs = (await readJson(path.join(ROOT, "data", "jobs.json"), { jobs: [] })).jobs;
   const details = (await readJson(path.join(ROOT, "data", "details.json"), { items: {} })).items;
   const archive = (await readJson(path.join(ROOT, "data", "archive.json"), { jobs: [] })).jobs;
-  const cache = await readJson(CACHE, { ocr: {}, news: {}, dart: {}, jsImages: {} });
+  const cache = await readJson(CACHE, { ocr: {}, news: {}, dart: {} });
+  cache.jsContent = cache.jsContent || {};
+  delete cache.jsImages;
 
   const live = jobs.filter((j) => (!j.end || j.end >= today) && details[j.id]);
   const picked = live.map((j) => ({ j, d: details[j.id], c: classify(j, details[j.id]) })).filter((x) => x.c.gongchae);
@@ -210,19 +215,26 @@ async function main() {
 
     // 본문이 없으면 이미지 글자 인식: 공식 페이지 대표 이미지 + 자소설닷컴 공고 이미지
     if (!text && !NO_NET) {
-      // 자소설닷컴 공고 이미지를 먼저(실제 공고문), 공식 페이지 대표 이미지는 그다음(사진·배너인 경우가 많음)
+      // 자소설닷컴 공고 상세의 content(HTML): 글이면 그대로 쓰고, 공고문 이미지(content_images)면 글자 인식
       let imgs = [];
       if (j.id.startsWith("jasoseol-")) {
-        if (!cache.jsImages[j.id]) {
+        if (!cache.jsContent[j.id]) {
           try {
             const r = await fetch(`https://jasoseol.com/api/v1/employment_companies/${j.id.slice(9)}`, { headers: { "User-Agent": UA, Accept: "application/json" } });
-            cache.jsImages[j.id] = r.ok ? [...new Set(imageUrls(await r.json()))].slice(0, 4) : [];
-          } catch { cache.jsImages[j.id] = []; }
+            const html = r.ok ? (await r.json()).content || "" : "";
+            cache.jsContent[j.id] = {
+              text: html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ").replace(/<br\s*\/?>|<\/(p|div|li|tr|h\d)>/gi, "\n").replace(/<[^>]+>/g, " ")
+                .replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n").trim(),
+              imgs: [...html.matchAll(/<img[^>]+src="([^"]+)"/gi)].map((m) => m[1]).filter((u) => !IMG_SKIP.test(u)).slice(0, 4),
+            };
+          } catch { cache.jsContent[j.id] = { text: "", imgs: [] }; }
         }
-        imgs.push(...cache.jsImages[j.id]);
-        if (SHOW) console.log(`  ${j.company} 자소설 이미지 ${cache.jsImages[j.id].length}개: ${cache.jsImages[j.id].join(" ").slice(0, 300)}`);
+        const c = cache.jsContent[j.id];
+        if (c.text.length > 150) { text = c.text; source = "자소설닷컴 공고 본문"; }
+        imgs.push(...c.imgs);
+        if (SHOW) console.log(`  ${j.company}: 자소설 본문 ${c.text.length}자 · 공고문 이미지 ${c.imgs.length}개 ${c.imgs.join(" ").slice(0, 160)}`);
       }
-      if (d.image && IMG_OK.test(d.image) && !IMG_SKIP.test(d.image)) imgs.push(d.image);
+      if (!text && d.image && IMG_OK.test(d.image) && !IMG_SKIP.test(d.image)) imgs.push(d.image);
       const texts = [];
       for (const u of [...new Set(imgs)]) {
         if (!(u in cache.ocr)) {
@@ -234,12 +246,11 @@ async function main() {
         if ((t.match(/모집|자격|우대|담당|업무|지원|채용|전형|근무|직무|신입|경력|우대사항|접수/g) || []).length >= 3) texts.push(t);
         else if (SHOW && t) console.log(`  (공고문 아님, 버림) ${u.slice(0, 80)}: ${t.slice(0, 60).replace(/\n/g, " ")}`);
       }
-      text = texts.join("\n\n");
-      if (text) source = "공고 이미지 글자 인식";
+      if (texts.length) { text = [text, ...texts].filter(Boolean).join("\n\n"); source = source ? source + "+공고문 이미지 글자 인식" : "공고문 이미지 글자 인식"; }
     }
 
     const parts = splitByTrack(text, tracks);
-    if (SHOW && source === "공고 이미지 글자 인식") {
+    if (SHOW && /글자 인식|자소설닷컴 공고 본문/.test(source)) {
       console.log(`\n=== ${j.company} (${tracks.length}개 직무) 글자 ${text.length}자 ===\n${text.slice(0, 700)}`);
       console.log("직무별 조각:", tracks.map((t) => `${t.name}=${(parts[t.name] || "").length}자`).join(" / "));
     }
@@ -290,7 +301,7 @@ async function main() {
 
   // 마감이 한참 지난 공고의 자소설 이미지 목록 캐시는 정리(글자 인식 결과는 이미지 주소별로 남겨 재사용)
   const liveIds = new Set(live.map((j) => j.id));
-  for (const id of Object.keys(cache.jsImages)) if (!liveIds.has(id)) delete cache.jsImages[id];
+  for (const id of Object.keys(cache.jsContent)) if (!liveIds.has(id)) delete cache.jsContent[id];
 
   // 그룹 공채 묶음(계열사 공고 여러 개 → 하나만 지원)
   const groups = GROUPS.map((g) => ({ name: g.name, note: g.note, oneOnly: true, ids: out.filter((x) => x.group === g.name).map((x) => x.id) }))

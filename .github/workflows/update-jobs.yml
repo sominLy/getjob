@@ -36,7 +36,7 @@ jobs:
       # 공채·그룹 공고의 직무별 JD와 전략 신호(data/gongchae.json). 본문이 없으면 공고 이미지를 한국어 글자 인식.
       # 이미지·뉴스·매출은 캐시(data/gongchae-cache.json)에 남겨 새 공고만 처리한다.
       # 매출 추이는 DART 인증키가 있을 때만(Settings > Secrets > Actions에 DART_API_KEY).
-      - run: sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor > /dev/null
+      - run: sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor imagemagick > /dev/null
       - run: node scripts/build-gongchae.mjs
         continue-on-error: true
         env:
