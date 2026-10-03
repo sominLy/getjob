@@ -293,21 +293,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106277",
-      "company": "건설근로자공제회(CWMA)",
-      "type": "공기업",
-      "roles": [
-        "고객/CS"
-      ],
-      "start": "2026-09-14",
-      "end": "2026-10-01",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://cw.careerlink.kr/",
-      "hist": ""
-    },
-    {
       "id": "wanted-384649",
       "company": "아이디씨티",
       "type": "",
@@ -1320,21 +1305,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106216",
-      "company": "대한건설기계안전관리원",
-      "type": "공기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-09-16",
-      "end": "2026-09-30",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kcesi.brms.kr/posting/view?id=2102",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-105410",
       "company": "NHN Cloud",
       "type": "",
@@ -1411,21 +1381,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers.mobis.com/jobs?search=%EC%9E%A5%ED%95%99%EC%83%9D",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106170",
-      "company": "현대모비스",
-      "type": "대기업",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-09-11",
-      "end": "2026-09-29",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mobisrobotics-recruit.com/?utm_source=jasoseol&utm_medium=nonad&utm_campaign=careersite",
       "hist": ""
     },
     {
@@ -2200,24 +2155,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106166",
-      "company": "LG유플러스",
-      "type": "대기업",
-      "roles": [
-        "영업",
-        "영업관리",
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-09-11",
-      "end": "2026-09-27",
-      "endTime": "23:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.lg.com/apply/detail?id=1002196",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106185",
       "company": "디와이",
       "type": "대기업",
@@ -2868,26 +2805,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106069",
-      "company": "한국고용정보원(KEIS)",
-      "type": "공기업",
-      "roles": [
-        "PM/서비스기획",
-        "기획/전략",
-        "HR/인사",
-        "영업관리",
-        "마케팅",
-        "리서치"
-      ],
-      "start": "2026-09-08",
-      "end": "2026-09-22",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://keis.recruiter.co.kr/appsite/company/index",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106172",
       "company": "지엠테크니컬센터코리아",
       "type": "중견기업",
@@ -3517,30 +3434,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://sunmightrecruit.ninehire.site/",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106021",
-      "company": "효성그룹",
-      "type": "대기업",
-      "roles": [
-        "영업",
-        "기획/전략",
-        "PM/서비스기획",
-        "마케팅",
-        "HR/인사",
-        "고객/CS",
-        "영업관리",
-        "브랜드",
-        "콘텐츠",
-        "MD"
-      ],
-      "start": "2026-09-07",
-      "end": "2026-09-20",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://hyosung-recruit.co.kr/",
       "hist": ""
     },
     {
@@ -6008,21 +5901,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54945974&view_type=etc",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106068",
-      "company": "딜리셔스",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-09-02",
-      "end": "2026-09-13",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://yw.work24.go.kr:443/d/a/prgmDtl/1ouRpljANC",
       "hist": ""
     },
     {

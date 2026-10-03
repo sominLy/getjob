@@ -40,6 +40,11 @@ async function main() {
   const cutoff = new Date(Date.now() - KEEP_DAYS * 24 * 60 * 60 * 1000)
     .toISOString().slice(0, 10);
 
+  // 같은 id가 두 번 들어간 공고는 하나만 남긴다
+  const uniq = (arr) => { const s = new Set(); return arr.filter((j) => !s.has(j.id) && s.add(j.id)); };
+  db.jobs = uniq(db.jobs);
+  archive.jobs = uniq(archive.jobs);
+
   // 0) 채용이 아닌 교육·학위 과정, 대학 교직원·병원, 해외·다른 외국어 공고는 목록과 보관함에서 뺀다
   const jobText = (j) => [...(j.roles || []), ...(details.items?.[j.id]?.tracks || []).map((t) => t.name), j.hist || ""].join(" ");
   const nBefore = db.jobs.length + archive.jobs.length;
