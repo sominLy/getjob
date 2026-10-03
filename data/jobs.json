@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -6663,6 +6663,3205 @@
       "url": "https://www.wanted.co.kr/wd/390060",
       "hist": " · 상시/수시 채용으로 추정(마감일 미표기)",
       "found": "2026-10-02"
+    },
+    {
+      "id": "jasoseol-105467",
+      "company": "앱솔브랩",
+      "type": "",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-08-03",
+      "end": "2026-10-03",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://celimax.ninehire.site/job_posting/6aOlYODK",
+      "hist": "",
+      "found": "2026-10-03"
+    },
+    {
+      "id": "jasoseol-106082",
+      "company": "앳홈",
+      "type": "",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-09-06",
+      "end": "2026-11-26",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.athomecorp.com/job_posting/CYWhmncw",
+      "hist": "",
+      "found": "2026-10-03"
+    },
+    {
+      "id": "jasoseol-106227",
+      "company": "앱솔브랩",
+      "type": "",
+      "roles": [
+        "브랜드",
+        "마케팅"
+      ],
+      "start": "2026-09-13",
+      "end": "2026-11-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://celimax.ninehire.site/job_posting/EsTPhbXW",
+      "hist": "",
+      "found": "2026-10-03"
+    },
+    {
+      "id": "jasoseol-106488",
+      "company": "한국수출입은행",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "리서치"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-13",
+      "endTime": "10:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://koreaexim.applyin.co.kr/",
+      "hist": "",
+      "found": "2026-10-03"
+    },
+    {
+      "id": "jasoseol-106536",
+      "company": "앱솔브랩",
+      "type": "",
+      "roles": [
+        "MD",
+        "마케팅"
+      ],
+      "start": "2026-09-30",
+      "end": "2026-11-29",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://celimax.ninehire.site/job_posting/COY5oZP2",
+      "hist": "",
+      "found": "2026-10-03"
+    },
+    {
+      "id": "jasoseol-106572",
+      "company": "이지케어텍",
+      "type": "중견기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-02",
+      "end": "2026-10-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://guileless-gecko-eab20c.netlify.app/",
+      "hist": "",
+      "found": "2026-10-03"
+    },
+    {
+      "id": "jasoseol-106573",
+      "company": "삼천리",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-10-02",
+      "end": "2026-10-14",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.samchully.co.kr/reMenuAction.do",
+      "hist": "",
+      "found": "2026-10-03"
+    },
+    {
+      "id": "pred-한국남부발전-202610",
+      "company": "한국남부발전(KOSPO)",
+      "type": "공기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-10-09",
+      "end": "2026-10-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100335",
+      "hist": "작년 10/10~10/14 ‘2025년도 하반기 체험형인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국도로교통공단-202610",
+      "company": "한국도로교통공단(KoROAD)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-09",
+      "end": "2026-10-19",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100433",
+      "hist": "작년 10/10~10/20 ‘2025년도 하반기 체험형 청년인턴 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-nice신용평가-202610",
+      "company": "NICE신용평가",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-10-09",
+      "end": "2026-10-28",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100436",
+      "hist": "작년 10/10~10/29 ‘2025년 하반기 애널리스트 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-메리츠증권-202610",
+      "company": "메리츠증권",
+      "type": "금융",
+      "roles": [
+        "기획/전략",
+        "금융/심사",
+        "리서치"
+      ],
+      "start": "2026-10-11",
+      "end": "2026-10-23",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100385",
+      "hist": "작년 10/12~10/24 ‘2025년 대졸 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-gs글로벌-202610",
+      "company": "GS글로벌",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-11",
+      "end": "2026-10-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100400",
+      "hist": "작년 10/12~10/26 ‘2025년 하반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-포스코플로우-202610",
+      "company": "포스코플로우",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략"
+      ],
+      "start": "2026-10-13",
+      "end": "2026-10-26",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100513",
+      "hist": "작년 10/14~10/27 ‘2025년 하반기 신입·경력사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-케이뱅크-202610",
+      "company": "케이뱅크",
+      "type": "대기업",
+      "roles": [
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "MD",
+        "PM/서비스기획",
+        "금융/심사"
+      ],
+      "start": "2026-10-13",
+      "end": "2026-10-26",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100533",
+      "hist": "작년 10/14~10/27 ‘2026 채용연계형 인턴십’ 기준 예상"
+    },
+    {
+      "id": "pred-한국화낙-202610",
+      "company": "한국화낙",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-11-01",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100583",
+      "hist": "작년 10/16~11/02 ‘2026년도 신입사원 모집공고’ 기준 예상"
+    },
+    {
+      "id": "pred-미래에셋생명-202610",
+      "company": "미래에셋생명",
+      "type": "금융",
+      "roles": [
+        "PM/서비스기획",
+        "금융/심사"
+      ],
+      "start": "2026-10-16",
+      "end": "2026-10-30",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100581",
+      "hist": "작년 10/17~10/31 ‘2025년 하반기 신입채용’ 기준 예상"
+    },
+    {
+      "id": "pred-건설공제조합-202610",
+      "company": "건설공제조합",
+      "type": "공기업",
+      "roles": [
+        "리서치"
+      ],
+      "start": "2026-10-18",
+      "end": "2026-10-30",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100617",
+      "hist": "작년 10/19~10/31 ‘2025년 신입직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-충청에너지서비스-202610",
+      "company": "충청에너지서비스",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "기획/전략",
+        "마케팅",
+        "MD"
+      ],
+      "start": "2026-10-18",
+      "end": "2026-11-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100676",
+      "hist": "작년 10/19~11/09 ‘SK이노베이션 E&S 계열 도시가스사 대졸 신입사원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-강남제비스코-202610",
+      "company": "강남제비스코",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-10-19",
+      "end": "2026-10-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100673",
+      "hist": "작년 10/20~10/26 ‘신입 / 경력사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-피유코어-202610",
+      "company": "피유코어",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략"
+      ],
+      "start": "2026-10-20",
+      "end": "2026-11-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100694",
+      "hist": "작년 10/21~11/03 ‘2025년 하반기 대졸 신입 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국건설기술인협회-202610",
+      "company": "한국건설기술인협회",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "MD",
+        "영업",
+        "마케팅"
+      ],
+      "start": "2026-10-20",
+      "end": "2026-11-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100717",
+      "hist": "작년 10/21~11/03 ‘2026년 상반기 신입·경력사원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-신영증권-202610",
+      "company": "신영증권",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "영업",
+        "리서치",
+        "HR/인사",
+        "영업관리"
+      ],
+      "start": "2026-10-21",
+      "end": "2026-11-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100656",
+      "hist": "작년 10/22~11/10 ‘2025년 하반기 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한주-202610",
+      "company": "한주",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-10-21",
+      "end": "2026-10-30",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100671",
+      "hist": "작년 10/22~10/31 ‘2026년도 상반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-지멘스헬시니어스-202610",
+      "company": "지멘스헬시니어스",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-10-21",
+      "end": "2026-12-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100713",
+      "hist": "작년 10/22~12/23 ‘초음파사업부 포항 신입/경력직 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국전자기술연구원-202610",
+      "company": "한국전자기술연구원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-22",
+      "end": "2026-11-05",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100667",
+      "hist": "작년 10/23~11/06 ‘2025년 정규직 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-ibk신용정보-202610",
+      "company": "IBK신용정보",
+      "type": "금융",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-22",
+      "end": "2026-11-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100683",
+      "hist": "작년 10/23~11/17 ‘2026년 상반기 종합관리직 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-ibk투자증권-202610",
+      "company": "IBK투자증권",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "기획/전략",
+        "영업관리"
+      ],
+      "start": "2026-10-22",
+      "end": "2026-11-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100715",
+      "hist": "작년 10/23~11/03 ‘2025년도 신입사원 공개채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-하나자산신탁-202610",
+      "company": "하나자산신탁",
+      "type": "대기업",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-10-23",
+      "end": "2026-11-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100695",
+      "hist": "작년 10/24~11/09 ‘2025년 하반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-skax-202610",
+      "company": "SK AX",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-10-26",
+      "end": "2026-11-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100766",
+      "hist": "작년 10/27~11/17 ‘채용연계형 과정 Cloud 1기 / AI 3기 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-ns홈쇼핑-202610",
+      "company": "NS홈쇼핑",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "고객/CS",
+        "마케팅"
+      ],
+      "start": "2026-10-26",
+      "end": "2026-11-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100773",
+      "hist": "작년 10/27~11/09 ‘2025년 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-유진투자증권-202610",
+      "company": "유진투자증권",
+      "type": "금융",
+      "roles": [
+        "기획/전략",
+        "금융/심사"
+      ],
+      "start": "2026-10-28",
+      "end": "2026-11-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100814",
+      "hist": "작년 10/29~11/16 ‘2025년 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-서울특별시농수산식품공사-202610",
+      "company": "서울특별시농수산식품공사(SAFFC)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "PM/서비스기획",
+        "영업"
+      ],
+      "start": "2026-10-29",
+      "end": "2026-11-18",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100809",
+      "hist": "작년 10/30~11/19 ‘2025년도 신입사원 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-후성그룹-202610",
+      "company": "후성그룹",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업"
+      ],
+      "start": "2026-10-30",
+      "end": "2026-11-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100833",
+      "hist": "작년 10/31~11/14 ‘2026년도 대졸 신입/경력사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-gm-202610",
+      "company": "GM",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-10-30",
+      "end": "2026-11-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100863",
+      "hist": "작년 10/31~11/09 ‘2026 Technical Center Korea  기술연구소 동계인턴’ 기준 예상"
+    },
+    {
+      "id": "pred-신영자산운용-202610",
+      "company": "신영자산운용",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "마케팅",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-10-30",
+      "end": "2026-11-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100865",
+      "hist": "작년 10/31~11/09 ‘2025년 하반기 신입직원 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-대방건설-202611",
+      "company": "대방건설",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-11-01",
+      "end": "2026-11-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100862",
+      "hist": "작년 11/02~11/16 ‘2025년 신입공개채용 및 경력직 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-더블유컨셉코리아-202611",
+      "company": "더블유컨셉코리아",
+      "type": "대기업",
+      "roles": [
+        "MD"
+      ],
+      "start": "2026-11-01",
+      "end": "2026-11-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100878",
+      "hist": "작년 11/02~11/16 ‘[신세계 계열사] 2025년 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-헤리티지자산운용-202611",
+      "company": "헤리티지자산운용",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-11-02",
+      "end": "2026-11-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100860",
+      "hist": "작년 11/03~11/16 ‘2026년 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-로레알코리아-202611",
+      "company": "로레알코리아",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-02",
+      "end": "2026-11-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100873",
+      "hist": "작년 11/03~11/23 ‘2025 오퍼레이션 채용전제형 인턴십 & 오피스 초청행사 – 2025 N’ 기준 예상"
+    },
+    {
+      "id": "pred-lsmnm-202611",
+      "company": "LS MnM",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업"
+      ],
+      "start": "2026-11-02",
+      "end": "2026-11-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100888",
+      "hist": "작년 11/03~11/16 ‘2025년 4분기 신입/경력사원 수시채용’ 기준 예상"
+    },
+    {
+      "id": "pred-세메스-202611",
+      "company": "세메스",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-03",
+      "end": "2026-11-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100787",
+      "hist": "작년 11/04~11/14 ‘2025 하반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼우종합건축사사무소-202611",
+      "company": "삼우종합건축사사무소",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-11-03",
+      "end": "2026-11-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100825",
+      "hist": "작년 11/04~11/14 ‘2026년 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성생명서비스손해사정-202611",
+      "company": "삼성생명서비스손해사정",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-11-03",
+      "end": "2026-11-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100855",
+      "hist": "작년 11/04~11/18 ‘2026년 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-에스코어-202611",
+      "company": "에스코어",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-03",
+      "end": "2026-11-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100870",
+      "hist": "작년 11/04~11/14 ‘'25년 하반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성메디슨-202611",
+      "company": "삼성메디슨",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-03",
+      "end": "2026-11-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100894",
+      "hist": "작년 11/04~11/14 ‘2025년 하반기 3급 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성전자로지텍-202611",
+      "company": "삼성전자로지텍",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-11-03",
+      "end": "2026-11-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100895",
+      "hist": "작년 11/04~11/14 ‘2025년 하반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-sk이노베이션es-202611",
+      "company": "SK이노베이션 E&S",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "마케팅",
+        "MD",
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100900",
+      "hist": "작년 11/04~11/09 ‘도시가스 계열사 대졸 신입사원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-시큐아이-202611",
+      "company": "시큐아이",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-11-03",
+      "end": "2026-11-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100906",
+      "hist": "작년 11/04~11/14 ‘2025년 하반기 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-현대퓨처넷-202611",
+      "company": "현대퓨처넷",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-03",
+      "end": "2026-11-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100914",
+      "hist": "작년 11/04~11/10 ‘2025년 하반기 신입사원 수시채용(정보보안)’ 기준 예상"
+    },
+    {
+      "id": "pred-넷마블네오-202611",
+      "company": "넷마블네오",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-11-04",
+      "end": "2026-11-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100851",
+      "hist": "작년 11/05~11/18 ‘2025년 채용전환형 인턴십’ 기준 예상"
+    },
+    {
+      "id": "pred-제일사료-202611",
+      "company": "제일사료",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "고객/CS"
+      ],
+      "start": "2026-11-04",
+      "end": "2026-11-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100913",
+      "hist": "작년 11/05~11/16 ‘2025년 하반기 신입/경력 공개 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-행복나래-202611",
+      "company": "행복나래",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-05",
+      "end": "2026-11-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100912",
+      "hist": "작년 11/06~11/16 ‘각 부문별 신입/경력사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-포항시시설관리공단-202611",
+      "company": "포항시시설관리공단",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-11-05",
+      "end": "2026-11-10",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100980",
+      "hist": "작년 11/06~11/11 ‘신입직원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한양증권-202611",
+      "company": "한양증권",
+      "type": "금융",
+      "roles": [
+        "마케팅",
+        "홍보/PR"
+      ],
+      "start": "2026-11-05",
+      "end": "2026-11-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100984",
+      "hist": "작년 11/06~11/16 ‘홍보·마케팅 / 영상제작 담당(신입,경력) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-서민금융진흥원-202611",
+      "company": "서민금융진흥원",
+      "type": "공기업",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-11-06",
+      "end": "2026-11-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100998",
+      "hist": "작년 11/07~11/18 ‘2025년도 하반기 금융전문직 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-db생명-202611",
+      "company": "DB생명",
+      "type": "금융",
+      "roles": [
+        "영업관리"
+      ],
+      "start": "2026-11-06",
+      "end": "2026-11-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101043",
+      "hist": "작년 11/07~11/23 ‘2025년 하반기 지원직 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-롯데건설-202611",
+      "company": "롯데건설",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-09",
+      "end": "2026-11-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100986",
+      "hist": "작년 11/10~11/23 ‘2025년 신입사원 채용 인턴전형(채용연계형)’ 기준 예상"
+    },
+    {
+      "id": "pred-남해화학-202611",
+      "company": "남해화학",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업관리",
+        "영업"
+      ],
+      "start": "2026-11-09",
+      "end": "2026-11-18",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101041",
+      "hist": "작년 11/10~11/19 ‘신입사원 모집요강’ 기준 예상"
+    },
+    {
+      "id": "pred-이랜드그룹-202611",
+      "company": "이랜드그룹(이랜드ESI)",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "MD",
+        "마케팅"
+      ],
+      "start": "2026-11-10",
+      "end": "2026-11-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100946",
+      "hist": "작년 11/11~11/17 ‘2026 상반기 ESI 신입/전역장교 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-파주에너지서비스-202611",
+      "company": "파주에너지서비스",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-10",
+      "end": "2026-11-24",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101063",
+      "hist": "작년 11/11~11/25 ‘2025년 하반기 신입구성원(설비관리) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-코닝정밀소재-202611",
+      "company": "코닝정밀소재",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-11-11",
+      "end": "2026-12-01",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101047",
+      "hist": "작년 11/12~12/02 ‘2026년 대졸 엔지니어 및 경영지원직 정규직 신입 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국산업기술기획평가원-202611",
+      "company": "한국산업기술기획평가원(KEIT)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-11-11",
+      "end": "2026-11-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101065",
+      "hist": "작년 11/12~11/26 ‘2026년 상반기 일반직 신입직원 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-과학기술인공제회-202611",
+      "company": "과학기술인공제회(sema)",
+      "type": "공기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "금융/심사"
+      ],
+      "start": "2026-11-12",
+      "end": "2026-11-26",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101091",
+      "hist": "작년 11/13~11/27 ‘2026년 신입직원 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-흥국생명보험-202611",
+      "company": "흥국생명보험",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "영업관리",
+        "영업"
+      ],
+      "start": "2026-11-13",
+      "end": "2026-11-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101099",
+      "hist": "작년 11/14~11/23 ‘2025년 인턴사원(채용연계형) 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-한국토요타자동차-202611",
+      "company": "한국토요타자동차",
+      "type": "대기업",
+      "roles": [
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2026-11-13",
+      "end": "2026-11-20",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101101",
+      "hist": "작년 11/14~11/21 ‘2025년도 인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-현대스틸파이프-202611",
+      "company": "현대스틸파이프",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-11-13",
+      "end": "2026-11-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101194",
+      "hist": "작년 11/14~11/23 ‘'25년도 하반기 신입사원(일반직) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-롯데바이오로직스-202611",
+      "company": "롯데바이오로직스",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-16",
+      "end": "2026-12-04",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101130",
+      "hist": "작년 11/17~12/05 ‘2025년 12월  신입사원 채용 일반전형’ 기준 예상"
+    },
+    {
+      "id": "pred-db하이텍-202611",
+      "company": "DB하이텍",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-11-16",
+      "end": "2026-11-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101142",
+      "hist": "작년 11/17~11/23 ‘2025년 하반기 신입사원 모집(영업/시설관리 추가)’ 기준 예상"
+    },
+    {
+      "id": "pred-유진투자증권-202611",
+      "company": "유진투자증권",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-11-16",
+      "end": "2026-11-29",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101192",
+      "hist": "작년 11/17~11/30 ‘신입 업무직원(FITS팀, 파생솔루션팀) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-유니드비티플러스-202611",
+      "company": "유니드비티플러스",
+      "type": "대기업",
+      "roles": [
+        "콘텐츠",
+        "마케팅"
+      ],
+      "start": "2026-11-17",
+      "end": "2026-11-27",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101176",
+      "hist": "작년 11/18~11/28 ‘2025년 하반기 신입 및 경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-인크로스-202611",
+      "company": "인크로스",
+      "type": "대기업",
+      "roles": [
+        "홍보/PR",
+        "마케팅",
+        "HR/인사"
+      ],
+      "start": "2026-11-20",
+      "end": "2026-11-30",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101241",
+      "hist": "작년 11/21~12/01 ‘2026년 상반기 신입(인턴) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-도레이첨단소재-202611",
+      "company": "도레이첨단소재",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "HR/인사"
+      ],
+      "start": "2026-11-22",
+      "end": "2026-12-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101231",
+      "hist": "작년 11/23~12/10 ‘2025년 하반기 신입/경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-하나저축은행-202611",
+      "company": "하나저축은행",
+      "type": "금융",
+      "roles": [
+        "영업관리",
+        "영업",
+        "금융/심사"
+      ],
+      "start": "2026-11-24",
+      "end": "2026-12-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101270",
+      "hist": "작년 11/25~12/03 ‘2025 채용형 인턴모집’ 기준 예상"
+    },
+    {
+      "id": "pred-주택도시보증공사-202611",
+      "company": "주택도시보증공사(HUG)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "금융/심사"
+      ],
+      "start": "2026-11-25",
+      "end": "2026-12-10",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101332",
+      "hist": "작년 11/26~12/11 ‘2026년 상반기 체험형 청년인턴 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-애경케미칼-202611",
+      "company": "애경케미칼",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-11-26",
+      "end": "2026-12-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101338",
+      "hist": "작년 11/27~12/10 ‘2025년 하반기 신입/경력직 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-sk멀티유틸리티-202611",
+      "company": "SK멀티유틸리티",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-11-26",
+      "end": "2026-12-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101419",
+      "hist": "작년 11/27~12/14 ‘사업관리 담당 매니저 채용 (신입, 경력)’ 기준 예상"
+    },
+    {
+      "id": "pred-한국경제인협회-202611",
+      "company": "한국경제인협회",
+      "type": "공기업",
+      "roles": [
+        "홍보/PR",
+        "콘텐츠",
+        "마케팅",
+        "영업관리",
+        "고객/CS",
+        "영업"
+      ],
+      "start": "2026-11-27",
+      "end": "2026-12-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101360",
+      "hist": "작년 11/28~12/16 ‘2025년 하반기 수시채용 (언론홍보, 영상콘텐츠기획, 회원서비스, 부동’ 기준 예상"
+    },
+    {
+      "id": "pred-캐논코리아-202611",
+      "company": "캐논코리아",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2026-11-30",
+      "end": "2026-12-14",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101383",
+      "hist": "작년 12/01~12/15 ‘2025년 12월 신입사원 채용 인턴전형(채용연계형)’ 기준 예상"
+    },
+    {
+      "id": "pred-sbi저축은행-202612",
+      "company": "SBI저축은행",
+      "type": "금융",
+      "roles": [
+        "기획/전략",
+        "마케팅",
+        "금융/심사"
+      ],
+      "start": "2026-12-01",
+      "end": "2026-12-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101395",
+      "hist": "작년 12/02~12/16 ‘AICT 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-유진투자선물-202612",
+      "company": "유진투자선물",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "영업"
+      ],
+      "start": "2026-12-03",
+      "end": "2026-12-27",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101442",
+      "hist": "작년 12/04~12/28 ‘[신입/경력] 해외선물 영업직(글로벌비즈니스팀/국제영업팀) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-올품-202612",
+      "company": "올품",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-12-04",
+      "end": "2026-12-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101455",
+      "hist": "작년 12/05~12/09 ‘각 부문 신입/경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-oci-202612",
+      "company": "OCI",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-12-06",
+      "end": "2026-12-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101474",
+      "hist": "작년 12/07~12/22 ‘2026 상반기 채용연계형 인턴 수시채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국토지신탁-202612",
+      "company": "한국토지신탁",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "금융/심사",
+        "마케팅"
+      ],
+      "start": "2026-12-07",
+      "end": "2026-12-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101333",
+      "hist": "작년 12/08~12/22 ‘2026년 신입 및 경력직 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-넷마블-202612",
+      "company": "넷마블",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-12-07",
+      "end": "2026-12-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101411",
+      "hist": "작년 12/08~12/18 ‘2026 상. 채용전환형 인턴십’ 기준 예상"
+    },
+    {
+      "id": "pred-한국문학번역원-202612",
+      "company": "한국문학번역원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "콘텐츠",
+        "마케팅",
+        "HR/인사"
+      ],
+      "start": "2026-12-09",
+      "end": "2026-12-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101512",
+      "hist": "작년 12/10~12/26 ‘2025년도 제6차 NCS기반 (기간제 근로자 17인) 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-세종학당재단-202612",
+      "company": "세종학당재단",
+      "type": "공기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-12-11",
+      "end": "2026-12-23",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101495",
+      "hist": "작년 12/12~12/24 ‘2026년 상반기 국외 파견 한국어 교원 선발 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-하나손해보험-202612",
+      "company": "하나손해보험",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "영업관리"
+      ],
+      "start": "2026-12-14",
+      "end": "2026-12-27",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101559",
+      "hist": "작년 12/15~12/28 ‘2026년 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국기초과학지원연구원-202612",
+      "company": "한국기초과학지원연구원",
+      "type": "공기업",
+      "roles": [
+        "HR/인사",
+        "기획/전략"
+      ],
+      "start": "2026-12-14",
+      "end": "2026-12-28",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101566",
+      "hist": "작년 12/15~12/29 ‘2026년 제1차 기간제 공개채용 안내’ 기준 예상"
+    },
+    {
+      "id": "pred-서울도시가스-202612",
+      "company": "서울도시가스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업관리",
+        "영업"
+      ],
+      "start": "2026-12-15",
+      "end": "2026-12-24",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101567",
+      "hist": "작년 12/16~12/25 ‘2026년 서울도시가스 신입사원 채용(전문학사)’ 기준 예상"
+    },
+    {
+      "id": "pred-현대엘앤씨-202612",
+      "company": "현대엘앤씨",
+      "type": "대기업",
+      "roles": [
+        "브랜드",
+        "콘텐츠",
+        "영업",
+        "영업관리",
+        "마케팅",
+        "기획/전략"
+      ],
+      "start": "2026-12-15",
+      "end": "2026-12-31",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101584",
+      "hist": "작년 12/16~01/01 ‘2026년 상반기 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-lsmnm-202612",
+      "company": "LS MnM",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-12-16",
+      "end": "2026-12-30",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101630",
+      "hist": "작년 12/17~12/31 ‘신입/경력사원 수시채용 [회계, 품질관리, 안전관리, 배터리소재 온산공장’ 기준 예상"
+    },
+    {
+      "id": "pred-국방과학연구소부설국방신속획득기술연구원-202612",
+      "company": "국방과학연구소 부설 국방신속획득기술연구원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-12-18",
+      "end": "2026-12-28",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101576",
+      "hist": "작년 12/19~12/29 ‘2026년도 1차 공개채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-ns홈쇼핑-202612",
+      "company": "NS홈쇼핑",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-12-18",
+      "end": "2026-12-27",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101645",
+      "hist": "작년 12/19~12/28 ‘회계 신입사원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-이동의즐거움-202612",
+      "company": "이동의즐거움",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-12-18",
+      "end": "2027-01-06",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101656",
+      "hist": "작년 12/19~01/07 ‘[마이비]사업 기획 및 영업 담당 채용전환형 인턴 채용(부산 근무)’ 기준 예상"
+    },
+    {
+      "id": "pred-금화저축은행-202612",
+      "company": "금화저축은행",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-12-20",
+      "end": "2027-01-04",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101601",
+      "hist": "작년 12/21~01/05 ‘2026년도 신입사원 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-방위산업공제조합-202612",
+      "company": "방위산업공제조합",
+      "type": "공기업",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-12-20",
+      "end": "2027-01-03",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101687",
+      "hist": "작년 12/21~01/04 ‘신입직원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-해양수산부-202612",
+      "company": "해양수산부",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "MD"
+      ],
+      "start": "2026-12-21",
+      "end": "2027-01-01",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101627",
+      "hist": "작년 12/22~01/02 ‘신규(신입.경력)직원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-한국지능정보사회진흥원-202612",
+      "company": "한국지능정보사회진흥원(NIA)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-12-21",
+      "end": "2027-01-05",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101683",
+      "hist": "작년 12/22~01/06 ‘2026년 상반기 신입직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-셀트리온제약-202612",
+      "company": "셀트리온제약",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-12-22",
+      "end": "2027-01-04",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101746",
+      "hist": "작년 12/23~01/05 ‘인사 부문(체험형 인턴) 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-kcc실리콘-202612",
+      "company": "KCC실리콘",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-12-23",
+      "end": "2026-12-31",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101738",
+      "hist": "작년 12/24~01/01 ‘물류부문 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국능률협회-202612",
+      "company": "한국능률협회",
+      "type": "공기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-12-24",
+      "end": "2027-01-03",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101728",
+      "hist": "작년 12/25~01/04 ‘교육전문가 정규직 전환형 인턴십 챌린지’ 기준 예상"
+    },
+    {
+      "id": "pred-키움캐피탈-202612",
+      "company": "키움캐피탈",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-12-28",
+      "end": "2027-01-10",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101762",
+      "hist": "작년 12/29~01/11 ‘2026년 상반기 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국잡월드-202612",
+      "company": "한국잡월드",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "마케팅",
+        "영업"
+      ],
+      "start": "2026-12-29",
+      "end": "2027-01-31",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101779",
+      "hist": "작년 12/30~02/01 ‘인턴IN메타 8기 인턴십 모집&온라인 설명회(1.29, 7pm)’ 기준 예상"
+    },
+    {
+      "id": "pred-한국주택금융공사-202612",
+      "company": "한국주택금융공사(HF)",
+      "type": "공기업",
+      "roles": [
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2026-12-30",
+      "end": "2027-01-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101944",
+      "hist": "작년 12/31~01/16 ‘2026년도 상반기 체험형 인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국환경공단-202612",
+      "company": "한국환경공단(KECO)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-12-31",
+      "end": "2027-01-11",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101764",
+      "hist": "작년 01/01~01/12 ‘2025년도 하반기 신입/경력직원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-유니드-202701",
+      "company": "유니드",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "기획/전략",
+        "영업"
+      ],
+      "start": "2027-01-04",
+      "end": "2027-01-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101820",
+      "hist": "작년 01/05~01/14 ‘2026년 상반기 수시채용’ 기준 예상"
+    },
+    {
+      "id": "pred-롯데글로벌로지스-202701",
+      "company": "롯데글로벌로지스",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2027-01-04",
+      "end": "2027-01-13",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101857",
+      "hist": "작년 01/05~01/14 ‘각 분야 신입 채용 (JA Grade)’ 기준 예상"
+    },
+    {
+      "id": "pred-미쓰이스미토모해상화재보험한국지점-202701",
+      "company": "미쓰이스미토모해상화재보험한국지점",
+      "type": "금융",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2027-01-05",
+      "end": "2027-01-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101874",
+      "hist": "작년 01/06~01/18 ‘IT팀 신입 및 경력사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-로레알코리아-202701",
+      "company": "로레알코리아",
+      "type": "대기업",
+      "roles": [
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "MD",
+        "영업",
+        "영업관리",
+        "홍보/PR",
+        "리서치"
+      ],
+      "start": "2027-01-05",
+      "end": "2027-01-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101875",
+      "hist": "작년 01/06~01/18 ‘2026 상반기 채용전제형 인턴십’ 기준 예상"
+    },
+    {
+      "id": "pred-김앤장법률사무소-202701",
+      "company": "김앤장 법률사무소",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-01-06",
+      "end": "2027-01-18",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101884",
+      "hist": "작년 01/07~01/19 ‘송무 및 상업등기 스탭(신입) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-여주에너지서비스-202701",
+      "company": "여주에너지서비스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-01-06",
+      "end": "2027-01-20",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101916",
+      "hist": "작년 01/07~01/21 ‘경력/신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-앰코테크놀로지코리아-202701",
+      "company": "앰코테크놀로지코리아",
+      "type": "대기업",
+      "roles": [
+        "영업관리",
+        "고객/CS",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-01-06",
+      "end": "2027-01-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101942",
+      "hist": "작년 01/07~01/18 ‘2026년 신입/경력사원 공채’ 기준 예상"
+    },
+    {
+      "id": "pred-현대비앤지스틸-202701",
+      "company": "현대비앤지스틸",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
+      "start": "2027-01-06",
+      "end": "2027-01-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101984",
+      "hist": "작년 01/07~01/17 ‘대졸신입사원 및 채용형 인턴 채용(회계/경영지원)’ 기준 예상"
+    },
+    {
+      "id": "pred-건설공제조합-202701",
+      "company": "건설공제조합",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "영업관리",
+        "리서치",
+        "금융/심사",
+        "PM/서비스기획"
+      ],
+      "start": "2027-01-07",
+      "end": "2027-01-20",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101900",
+      "hist": "작년 01/08~01/21 ‘2026년 신입직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국토요타자동차-202701",
+      "company": "한국토요타자동차",
+      "type": "대기업",
+      "roles": [
+        "MD",
+        "마케팅",
+        "브랜드"
+      ],
+      "start": "2027-01-07",
+      "end": "2027-01-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101907",
+      "hist": "작년 01/08~01/16 ‘채용 연계형 인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-코스포영남파워-202701",
+      "company": "코스포영남파워",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-01-07",
+      "end": "2027-01-20",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101909",
+      "hist": "작년 01/08~01/21 ‘2026년 1차 신규직원(신입_대졸수준)공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-화승코퍼레이션-202701",
+      "company": "화승코퍼레이션",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략"
+      ],
+      "start": "2027-01-07",
+      "end": "2027-01-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101948",
+      "hist": "작년 01/08~01/26 ‘2026년 상반기 2차 신입/경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-자동차손해배상진흥원-202701",
+      "company": "자동차손해배상진흥원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "리서치"
+      ],
+      "start": "2027-01-07",
+      "end": "2027-02-03",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101962",
+      "hist": "작년 01/08~02/04 ‘2026년 신입직원 공개 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-생명보험협회-202701",
+      "company": "생명보험협회",
+      "type": "공기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2027-01-11",
+      "end": "2027-01-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101957",
+      "hist": "작년 01/12~01/23 ‘2026년도 신입 및 경력직원 모집요강’ 기준 예상"
+    },
+    {
+      "id": "pred-파주에너지서비스-202701",
+      "company": "파주에너지서비스",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-01-11",
+      "end": "2027-01-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101983",
+      "hist": "작년 01/12~01/26 ‘2026년 신입구성원(안전관리) 영입’ 기준 예상"
+    },
+    {
+      "id": "pred-미쓰이스미토모해상화재보험-202701",
+      "company": "미쓰이스미토모해상화재보험",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2027-01-12",
+      "end": "2027-01-20",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101988",
+      "hist": "작년 01/13~01/21 ‘채용연계형 인턴사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-서울교통공사-202701",
+      "company": "서울교통공사(Seoul Metro)",
+      "type": "공기업",
+      "roles": [
+        "고객/CS"
+      ],
+      "start": "2027-01-12",
+      "end": "2027-01-18",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102029",
+      "hist": "작년 01/13~01/19 ‘2025년 신입사원(채용형 인턴) 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-gs네오텍-202701",
+      "company": "GS네오텍",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "영업",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-01-12",
+      "end": "2027-01-27",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102030",
+      "hist": "작년 01/13~01/28 ‘2026년 상반기 경력.신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국가스안전공사-202701",
+      "company": "한국가스안전공사(KGS)",
+      "type": "공기업",
+      "roles": [
+        "홍보/PR",
+        "리서치",
+        "콘텐츠",
+        "마케팅"
+      ],
+      "start": "2027-01-14",
+      "end": "2027-01-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101912",
+      "hist": "작년 01/15~01/23 ‘2026년 제1차 체험형인턴 (장애, 청년) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-sk핀크스-202701",
+      "company": "SK핀크스",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-01-14",
+      "end": "2027-01-24",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102013",
+      "hist": "작년 01/15~01/25 ‘상반기 신입·경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국원자력안전기술원-202701",
+      "company": "한국원자력안전기술원(KINS)",
+      "type": "공기업",
+      "roles": [
+        "홍보/PR",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-01-14",
+      "end": "2027-01-28",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102027",
+      "hist": "작년 01/15~01/29 ‘2026년 1차 청년인턴 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국스마트그리드협회-202701",
+      "company": "한국스마트그리드협회",
+      "type": "공기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2027-01-14",
+      "end": "2027-01-24",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102047",
+      "hist": "작년 01/15~01/25 ‘신입/경력 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-한국조달연구원-202701",
+      "company": "한국조달연구원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "리서치"
+      ],
+      "start": "2027-01-15",
+      "end": "2027-01-28",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102054",
+      "hist": "작년 01/16~01/29 ‘2026년 제1차 혁신제품지원센터 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-하나생명보험-202701",
+      "company": "하나생명보험",
+      "type": "금융",
+      "roles": [
+        "영업관리",
+        "영업",
+        "고객/CS",
+        "금융/심사"
+      ],
+      "start": "2027-01-15",
+      "end": "2027-01-24",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102070",
+      "hist": "작년 01/16~01/25 ‘2026년 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-db생명-202701",
+      "company": "DB생명",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2027-01-17",
+      "end": "2027-01-27",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102018",
+      "hist": "작년 01/18~01/28 ‘방카교육팀장(서울) 신입/경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-기술보증기금-202701",
+      "company": "기술보증기금(KIBO)",
+      "type": "공기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2027-01-18",
+      "end": "2027-02-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102087",
+      "hist": "작년 01/19~02/03 ‘장애인 청년인턴 (체험형), 전문체육선수 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-신용보증기금-202701",
+      "company": "신용보증기금(KODIT)",
+      "type": "공기업",
+      "roles": [
+        "금융/심사",
+        "영업관리",
+        "영업"
+      ],
+      "start": "2027-01-18",
+      "end": "2027-02-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102115",
+      "hist": "작년 01/19~02/03 ‘2026년도 상반기 체험형 청년인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-코오롱베니트-202701",
+      "company": "코오롱베니트",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2027-01-19",
+      "end": "2027-01-31",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102073",
+      "hist": "작년 01/20~02/01 ‘2026년 상반기 채용연계형 인턴 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-mg캐피탈-202701",
+      "company": "MG캐피탈",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "기획/전략",
+        "금융/심사",
+        "HR/인사"
+      ],
+      "start": "2027-01-19",
+      "end": "2027-01-24",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102097",
+      "hist": "작년 01/20~01/25 ‘2026년 상반기 채용연계형 인턴 및 경력직 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국원자력협력재단-202701",
+      "company": "한국원자력협력재단",
+      "type": "공기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2027-01-19",
+      "end": "2027-02-11",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102118",
+      "hist": "작년 01/20~02/12 ‘2026년 상반기 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-행복나래-202701",
+      "company": "행복나래",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "MD",
+        "마케팅",
+        "기획/전략",
+        "금융/심사"
+      ],
+      "start": "2027-01-19",
+      "end": "2027-01-26",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102126",
+      "hist": "작년 01/20~01/27 ‘각 부문별 신입/경력사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-lxmma-202701",
+      "company": "LX MMA",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "기획/전략"
+      ],
+      "start": "2027-01-19",
+      "end": "2027-01-30",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102137",
+      "hist": "작년 01/20~01/31 ‘2026년 상반기 신입/경력사원 수시채용’ 기준 예상"
+    },
+    {
+      "id": "pred-저축은행중앙회-202701",
+      "company": "저축은행중앙회",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "금융/심사",
+        "PM/서비스기획"
+      ],
+      "start": "2027-01-20",
+      "end": "2027-02-19",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102084",
+      "hist": "작년 01/21~02/20 ‘2026년도 신입직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-현대리바트-202701",
+      "company": "현대리바트",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "기획/전략",
+        "고객/CS",
+        "HR/인사",
+        "PM/서비스기획"
+      ],
+      "start": "2027-01-20",
+      "end": "2027-01-27",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102162",
+      "hist": "작년 01/21~01/28 ‘2026년 상반기 신입/경력 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-aia생명-202701",
+      "company": "AIA생명",
+      "type": "금융",
+      "roles": [
+        "리서치",
+        "금융/심사",
+        "마케팅",
+        "홍보/PR",
+        "고객/CS",
+        "영업관리",
+        "HR/인사"
+      ],
+      "start": "2027-01-20",
+      "end": "2027-01-31",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102167",
+      "hist": "작년 01/21~02/01 ‘2026년 인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-다우기술-202701",
+      "company": "다우기술",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2027-01-21",
+      "end": "2027-02-01",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102176",
+      "hist": "작년 01/22~02/02 ‘신입사원 대규모 인재영입’ 기준 예상"
+    },
+    {
+      "id": "pred-한양증권-202701",
+      "company": "한양증권",
+      "type": "금융",
+      "roles": [
+        "마케팅",
+        "기획/전략",
+        "영업관리"
+      ],
+      "start": "2027-01-21",
+      "end": "2027-01-31",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102207",
+      "hist": "작년 01/22~02/01 ‘디지털마케팅 기획/운영 신입 및 경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국장애인개발원-202701",
+      "company": "한국장애인개발원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-01-22",
+      "end": "2027-02-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102123",
+      "hist": "작년 01/23~02/03 ‘2026년 제1차 직원 정기채용’ 기준 예상"
+    },
+    {
+      "id": "pred-과천도시공사-202701",
+      "company": "과천도시공사",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-01-22",
+      "end": "2027-02-01",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102194",
+      "hist": "작년 01/23~02/02 ‘2026년 상반기 과천도시공사 일반직 직원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-현대케피코-202701",
+      "company": "현대케피코",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2027-01-22",
+      "end": "2027-01-31",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102196",
+      "hist": "작년 01/23~02/01 ‘2026년 상반기 신입채용(채용연계형 인턴)’ 기준 예상"
+    },
+    {
+      "id": "pred-태광산업-202701",
+      "company": "태광산업",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2027-01-22",
+      "end": "2027-02-07",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102241",
+      "hist": "작년 01/23~02/08 ‘2026년 상반기 경력/신입 수시 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-현대글로비스-202701",
+      "company": "현대글로비스",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2027-01-25",
+      "end": "2027-02-01",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102218",
+      "hist": "작년 01/26~02/02 ‘2026 상반기 글로벌물류운영 신입채용’ 기준 예상"
+    },
+    {
+      "id": "pred-애경케미칼-202701",
+      "company": "애경케미칼",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "홍보/PR",
+        "영업"
+      ],
+      "start": "2027-01-25",
+      "end": "2027-02-04",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102235",
+      "hist": "작년 01/26~02/05 ‘각 부문 신입 및 경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-티머니-202701",
+      "company": "티머니",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "마케팅",
+        "MD",
+        "영업"
+      ],
+      "start": "2027-01-26",
+      "end": "2027-02-03",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102200",
+      "hist": "작년 01/27~02/04 ‘2026년 신입사원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-axa손해보험-202701",
+      "company": "AXA손해보험",
+      "type": "금융",
+      "roles": [],
+      "start": "2027-01-26",
+      "end": "2027-02-04",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102262",
+      "hist": "작년 01/27~02/05 ‘데이터사이언스팀 인턴사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-세아제강-202701",
+      "company": "세아제강",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "마케팅",
+        "HR/인사"
+      ],
+      "start": "2027-01-26",
+      "end": "2027-02-07",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102263",
+      "hist": "작년 01/27~02/08 ‘2026 신입/경력사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-코레일유통-202701",
+      "company": "코레일유통",
+      "type": "공기업",
+      "roles": [
+        "HR/인사",
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "MD",
+        "홍보/PR",
+        "영업",
+        "PM/서비스기획"
+      ],
+      "start": "2027-01-27",
+      "end": "2027-02-04",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102175",
+      "hist": "작년 01/28~02/05 ‘2026년 신입 및 경력사원 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-gs에너지-202701",
+      "company": "GS에너지",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-01-28",
+      "end": "2027-02-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102272",
+      "hist": "작년 01/29~02/13 ‘2026년 신입/경력 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-유안타증권-202701",
+      "company": "유안타증권",
+      "type": "금융",
+      "roles": [],
+      "start": "2027-01-28",
+      "end": "2027-02-11",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102299",
+      "hist": "작년 01/29~02/12 ‘재무전략팀 신입/경력직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-kcc실리콘-202701",
+      "company": "KCC실리콘",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2027-01-28",
+      "end": "2027-02-07",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102325",
+      "hist": "작년 01/29~02/08 ‘영업부문 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국서부발전-202701",
+      "company": "한국서부발전(wp)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-01-29",
+      "end": "2027-02-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102373",
+      "hist": "작년 01/30~02/13 ‘2026년도 상반기 4직급 대졸 및 별정직 신입사원 모집 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-한국남동발전-202701",
+      "company": "한국남동발전(KOEN)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-01-31",
+      "end": "2027-02-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102256",
+      "hist": "작년 02/01~02/10 ‘2026년 신입사원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-kt엠모바일-202701",
+      "company": "KT엠모바일",
+      "type": "대기업",
+      "roles": [
+        "홍보/PR",
+        "MD",
+        "기획/전략",
+        "마케팅",
+        "HR/인사",
+        "영업관리",
+        "영업",
+        "PM/서비스기획"
+      ],
+      "start": "2027-01-31",
+      "end": "2027-02-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102326",
+      "hist": "작년 02/01~02/18 ‘'26년 상반기 공개 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-농협경제지주-202701",
+      "company": "농협경제지주",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "PM/서비스기획"
+      ],
+      "start": "2027-01-31",
+      "end": "2027-02-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102335",
+      "hist": "작년 02/01~02/10 ‘2026년 농업경제부문 신규직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-국립농업박물관-202702",
+      "company": "국립농업박물관",
+      "type": "공기업",
+      "roles": [
+        "마케팅",
+        "MD",
+        "홍보/PR"
+      ],
+      "start": "2027-02-01",
+      "end": "2027-02-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102252",
+      "hist": "작년 02/02~02/10 ‘2026년 제1차 청년인턴(체험형인턴) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국도로공사-202702",
+      "company": "한국도로공사(ex)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-02-01",
+      "end": "2027-02-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102254",
+      "hist": "작년 02/02~02/09 ‘2026년 상반기 체험형 청년인턴 인재영입’ 기준 예상"
+    },
+    {
+      "id": "pred-신용카드사회공헌재단-202702",
+      "company": "신용카드사회공헌재단",
+      "type": "공기업",
+      "roles": [
+        "마케팅",
+        "홍보/PR",
+        "기획/전략"
+      ],
+      "start": "2027-02-01",
+      "end": "2027-02-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102313",
+      "hist": "작년 02/02~02/18 ‘대학(원)생 체험형 인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-과천도시공사-202702",
+      "company": "과천도시공사",
+      "type": "공기업",
+      "roles": [
+        "고객/CS"
+      ],
+      "start": "2027-02-01",
+      "end": "2027-02-11",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102336",
+      "hist": "작년 02/02~02/12 ‘2026년 직원(일반직 기간제, 업무직, 청년인턴) 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-세아홀딩스-202702",
+      "company": "세아홀딩스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업",
+        "MD"
+      ],
+      "start": "2027-02-01",
+      "end": "2027-02-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102339",
+      "hist": "작년 02/02~02/10 ‘통상팀 인턴 사원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-kcc-202702",
+      "company": "KCC",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "마케팅",
+        "리서치"
+      ],
+      "start": "2027-02-02",
+      "end": "2027-02-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102371",
+      "hist": "작년 02/03~02/10 ‘2026년 1분기 부문별 대졸 신입 수시채용’ 기준 예상"
+    },
+    {
+      "id": "pred-sk바이오사이언스-202702",
+      "company": "SK바이오사이언스",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-02-03",
+      "end": "2027-02-14",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102377",
+      "hist": "작년 02/04~02/15 ‘26년 2분기 신입/경력사원 수시채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국플랜트산업협회-202702",
+      "company": "한국플랜트산업협회",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "리서치"
+      ],
+      "start": "2027-02-03",
+      "end": "2027-02-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102379",
+      "hist": "작년 02/04~02/22 ‘신규 사업기획 및 국제협력(신입 또는 경력)’ 기준 예상"
+    },
+    {
+      "id": "pred-효성그룹-202702",
+      "company": "효성그룹",
+      "type": "대기업",
+      "roles": [
+        "브랜드",
+        "마케팅",
+        "영업",
+        "홍보/PR",
+        "기획/전략",
+        "리서치",
+        "HR/인사",
+        "고객/CS"
+      ],
+      "start": "2027-02-03",
+      "end": "2027-02-10",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102397",
+      "hist": "작년 02/04~02/11 ‘2026년 1분기 경력•신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국저작권위원회-202702",
+      "company": "한국저작권위원회",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-02-04",
+      "end": "2027-02-19",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102382",
+      "hist": "작년 02/05~02/20 ‘2026년 제1차 직원 및 청년인턴 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-한국수출입은행-202702",
+      "company": "한국수출입은행",
+      "type": "공기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2027-02-04",
+      "end": "2027-02-19",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102411",
+      "hist": "작년 02/05~02/20 ‘2026년 상반기 사무직원 및 업무직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-신한자산신탁-202702",
+      "company": "신한자산신탁",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2027-02-04",
+      "end": "2027-02-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102612",
+      "hist": "작년 02/05~02/22 ‘2026년 상반기 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-lg유플러스-202702",
+      "company": "LG유플러스",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2027-02-05",
+      "end": "2027-02-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102440",
+      "hist": "작년 02/06~02/18 ‘2026년 2월 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-fiti시험연구원-202702",
+      "company": "FITI시험연구원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "리서치",
+        "고객/CS",
+        "마케팅",
+        "영업"
+      ],
+      "start": "2027-02-07",
+      "end": "2027-02-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102435",
+      "hist": "작년 02/08~02/22 ‘2026년 상반기 경력 및 신입직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-여신금융협회-202702",
+      "company": "여신금융협회",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-02-08",
+      "end": "2027-02-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102423",
+      "hist": "작년 02/09~02/23 ‘2026년도 신입·경력직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-새만금개발공사-202702",
+      "company": "새만금개발공사",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업",
+        "PM/서비스기획"
+      ],
+      "start": "2027-02-08",
+      "end": "2027-02-18",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102453",
+      "hist": "작년 02/09~02/19 ‘2026년도 정기채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-서울디자인재단-202702",
+      "company": "서울디자인재단",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-02-09",
+      "end": "2027-02-23",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102461",
+      "hist": "작년 02/10~02/24 ‘2026년 상반기 직원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-한국표준협회-202702",
+      "company": "한국표준협회",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "브랜드",
+        "마케팅"
+      ],
+      "start": "2027-02-09",
+      "end": "2027-02-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102474",
+      "hist": "작년 02/10~02/26 ‘2026년 1차 기간제 근로자 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-테크젠-202702",
+      "company": "테크젠",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2027-02-09",
+      "end": "2027-02-19",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102478",
+      "hist": "작년 02/10~02/20 ‘1/4분기 정기채용’ 기준 예상"
+    },
+    {
+      "id": "pred-경기창조경제혁신센터-202702",
+      "company": "경기창조경제혁신센터",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-02-09",
+      "end": "2027-02-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102512",
+      "hist": "작년 02/10~02/23 ‘창업기업AC/경영지원(재무·회계) 경력 및 신입 직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-우리자산운용-202702",
+      "company": "우리자산운용",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "리서치"
+      ],
+      "start": "2027-02-10",
+      "end": "2027-02-20",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102473",
+      "hist": "작년 02/11~02/21 ‘2026년 상반기 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-유안타증권-202702",
+      "company": "유안타증권",
+      "type": "금융",
+      "roles": [
+        "PM/서비스기획",
+        "금융/심사"
+      ],
+      "start": "2027-02-10",
+      "end": "2027-02-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102502",
+      "hist": "작년 02/11~02/26 ‘리서치센터 IT담당 신입/경력직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국지역정보개발원-202702",
+      "company": "한국지역정보개발원",
+      "type": "공기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2027-02-10",
+      "end": "2027-02-23",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102523",
+      "hist": "작년 02/11~02/24 ‘2026년 상반기 정규직 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-롯데홈쇼핑-202702",
+      "company": "롯데홈쇼핑",
+      "type": "대기업",
+      "roles": [
+        "콘텐츠",
+        "마케팅",
+        "MD"
+      ],
+      "start": "2027-02-10",
+      "end": "2027-02-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102535",
+      "hist": "작년 02/11~02/18 ‘2026년 2월 경력 및 체험형 인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-유진투자선물-202702",
+      "company": "유진투자선물",
+      "type": "금융",
+      "roles": [],
+      "start": "2027-02-10",
+      "end": "2027-03-01",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102574",
+      "hist": "작년 02/11~03/02 ‘[야간 인턴] IT본부 파트타임 OP 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-sk이터닉스-202702",
+      "company": "SK이터닉스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-02-11",
+      "end": "2027-02-27",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102486",
+      "hist": "작년 02/12~02/28 ‘2026년 채용연계형 인턴 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-하나저축은행-202702",
+      "company": "하나저축은행",
+      "type": "금융",
+      "roles": [
+        "PM/서비스기획",
+        "금융/심사"
+      ],
+      "start": "2027-02-11",
+      "end": "2027-02-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102531",
+      "hist": "작년 02/12~02/23 ‘2026 IT 채용형 인턴직원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-aj네트웍스-202702",
+      "company": "AJ네트웍스",
+      "type": "대기업",
+      "roles": [
+        "영업관리",
+        "HR/인사",
+        "고객/CS",
+        "영업"
+      ],
+      "start": "2027-02-11",
+      "end": "2027-02-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102551",
+      "hist": "작년 02/12~02/22 ‘수시채용 (신입/경력)’ 기준 예상"
+    },
+    {
+      "id": "pred-oci-202702",
+      "company": "OCI",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-02-11",
+      "end": "2027-02-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102558",
+      "hist": "작년 02/12~02/23 ‘2026 상반기 채용연계형 인턴 수시채용’ 기준 예상"
+    },
+    {
+      "id": "pred-코카콜라음료-202702",
+      "company": "코카콜라음료",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-02-12",
+      "end": "2027-02-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102563",
+      "hist": "작년 02/13~02/23 ‘여주공장 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-아마존웹서비스-202702",
+      "company": "아마존웹서비스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "MD",
+        "홍보/PR",
+        "영업",
+        "PM/서비스기획",
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2027-02-12",
+      "end": "2027-04-11",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102572",
+      "hist": "작년 02/13~04/12 ‘Amazon 인턴/신입 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-sgi신용정보-202702",
+      "company": "SGI신용정보",
+      "type": "금융",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2027-02-17",
+      "end": "2027-03-05",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102541",
+      "hist": "작년 02/18~03/06 ‘채용형 인턴사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국기계연구원-202702",
+      "company": "한국기계연구원",
+      "type": "공기업",
+      "roles": [
+        "홍보/PR"
+      ],
+      "start": "2027-02-18",
+      "end": "2027-03-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102591",
+      "hist": "작년 02/19~03/13 ‘2026년도 제1회 신입직원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-국민건강보험공단-202702",
+      "company": "국민건강보험공단(h·well)",
+      "type": "공기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2027-02-18",
+      "end": "2027-03-04",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102630",
+      "hist": "작년 02/19~03/05 ‘2026년도 상반기 신규직원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-세아네트웍스-202702",
+      "company": "세아네트웍스",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "기획/전략",
+        "리서치"
+      ],
+      "start": "2027-02-22",
+      "end": "2027-03-03",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102611",
+      "hist": "작년 02/23~03/04 ‘2026년 상반기 채용전제형 인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-김앤장법률사무소-202702",
+      "company": "김앤장 법률사무소",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-02-22",
+      "end": "2027-03-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102629",
+      "hist": "작년 02/23~03/09 ‘송무 및 상업등기 스탭(신입) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국물가협회-202702",
+      "company": "한국물가협회",
+      "type": "공기업",
+      "roles": [
+        "리서치",
+        "영업",
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2027-02-22",
+      "end": "2027-03-14",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102642",
+      "hist": "작년 02/23~03/15 ‘경력 및 인턴사원 모집 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-새마을금고중앙회-202702",
+      "company": "새마을금고중앙회",
+      "type": "공기업",
+      "roles": [
+        "금융/심사",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-02-23",
+      "end": "2027-03-14",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102660",
+      "hist": "작년 02/24~03/15 ‘2026년 일반직 신입직원 공채’ 기준 예상"
+    },
+    {
+      "id": "pred-한국부동산원-202702",
+      "company": "한국부동산원(REB)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업",
+        "리서치"
+      ],
+      "start": "2027-02-23",
+      "end": "2027-03-10",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102663",
+      "hist": "작년 02/24~03/11 ‘2026년 상반기 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-한국수력원자력-202702",
+      "company": "한국수력원자력(KHNP)",
+      "type": "공기업",
+      "roles": [
+        "영업관리"
+      ],
+      "start": "2027-02-23",
+      "end": "2027-03-11",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102703",
+      "hist": "작년 02/24~03/12 ‘2026년도 제1차 체험형 청년인턴 선발’ 기준 예상"
+    },
+    {
+      "id": "pred-현대모비스-202702",
+      "company": "현대모비스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업관리",
+        "마케팅"
+      ],
+      "start": "2027-02-24",
+      "end": "2027-03-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102712",
+      "hist": "작년 02/25~03/13 ‘2026 상반기 신입 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-ibk기업은행-202702",
+      "company": "IBK기업은행",
+      "type": "공기업",
+      "roles": [
+        "금융/심사",
+        "영업",
+        "고객/CS",
+        "마케팅",
+        "PM/서비스기획"
+      ],
+      "start": "2027-02-25",
+      "end": "2027-03-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102708",
+      "hist": "작년 02/26~03/16 ‘2026년 상반기 신입행원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-ibk연금보험-202702",
+      "company": "IBK연금보험",
+      "type": "금융",
+      "roles": [
+        "마케팅",
+        "영업",
+        "금융/심사",
+        "기획/전략",
+        "MD"
+      ],
+      "start": "2027-02-25",
+      "end": "2027-03-11",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102715",
+      "hist": "작년 02/26~03/12 ‘2026년 주요직무 신입사원 / 경력직 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-하나은행-202702",
+      "company": "하나은행",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "금융/심사",
+        "MD",
+        "영업관리",
+        "마케팅",
+        "기획/전략"
+      ],
+      "start": "2027-02-26",
+      "end": "2027-03-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102721",
+      "hist": "작년 02/27~03/16 ‘2026년 상반기 신입행원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-하나증권-202702",
+      "company": "하나증권",
+      "type": "금융",
+      "roles": [
+        "영업관리",
+        "영업",
+        "금융/심사",
+        "PM/서비스기획",
+        "기획/전략"
+      ],
+      "start": "2027-02-26",
+      "end": "2027-03-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102729",
+      "hist": "작년 02/27~03/13 ‘2026 상반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-농협물류-202702",
+      "company": "농협물류",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-02-26",
+      "end": "2027-03-08",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102747",
+      "hist": "작년 02/27~03/09 ‘상반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-행복나래-202702",
+      "company": "행복나래",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-02-27",
+      "end": "2027-03-09",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102724",
+      "hist": "작년 02/28~03/10 ‘정보보안 경력·신입 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한화에너지-202702",
+      "company": "한화에너지",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-02-28",
+      "end": "2027-03-15",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102671",
+      "hist": "작년 03/01~03/16 ‘2026 상반기 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-lx인터내셔널-202703",
+      "company": "LX인터내셔널",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리",
+        "리서치"
+      ],
+      "start": "2027-03-01",
+      "end": "2027-03-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102727",
+      "hist": "작년 03/02~03/22 ‘2026년 상반기 신입사원 채용 (채용연계형 인턴십)’ 기준 예상"
+    },
+    {
+      "id": "pred-한화엔진-202703",
+      "company": "한화엔진",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "영업"
+      ],
+      "start": "2027-03-01",
+      "end": "2027-03-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102766",
+      "hist": "작년 03/02~03/22 ‘2026 상반기 학/석사 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-hd현대-202703",
+      "company": "HD현대",
+      "type": "대기업",
+      "roles": [
+        "고객/CS",
+        "영업",
+        "기획/전략",
+        "PM/서비스기획",
+        "HR/인사",
+        "MD",
+        "마케팅"
+      ],
+      "start": "2027-03-01",
+      "end": "2027-03-23",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102770",
+      "hist": "작년 03/02~03/24 ‘2026년 상반기 신입사원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-한국원자력연구원-202703",
+      "company": "한국원자력연구원(KAERI)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "PM/서비스기획",
+        "영업관리",
+        "HR/인사",
+        "홍보/PR",
+        "영업"
+      ],
+      "start": "2027-03-01",
+      "end": "2027-03-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102772",
+      "hist": "작년 03/02~03/18 ‘2026년도 상반기 정규직 직원채용’ 기준 예상"
     }
   ]
 }

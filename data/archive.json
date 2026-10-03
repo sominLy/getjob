@@ -1384,6 +1384,22 @@
       "found": "2026-09-21"
     },
     {
+      "id": "jasoseol-106283",
+      "company": "세아홀딩스",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-15",
+      "end": "2026-09-30",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.seah.co.kr/investors/holdings",
+      "hist": "",
+      "found": "2026-10-03"
+    },
+    {
       "id": "jasoseol-105410",
       "company": "NHN Cloud",
       "type": "",
@@ -6314,6 +6330,27 @@
       "url": "https://linkareer.com/activity/349057",
       "hist": "",
       "found": "2026-09-08"
+    },
+    {
+      "id": "jasoseol-105945",
+      "company": "제일약품",
+      "type": "중견기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "HR/인사",
+        "브랜드",
+        "마케팅",
+        "MD"
+      ],
+      "start": "2026-08-31",
+      "end": "2026-09-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jeil.recruiter.co.kr/career/jobs/126733",
+      "hist": "",
+      "found": "2026-10-03"
     },
     {
       "id": "jasoseol-105779",

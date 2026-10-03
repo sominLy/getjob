@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-02T07:50:54.915854+00:00",
+ "collectedAt": "2026-10-03T07:25:36.982077+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -12,7 +12,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-03-04",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -25,7 +26,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-07-15",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -38,7 +40,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-18",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -51,7 +54,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-08-18",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -64,7 +68,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-08-06",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -77,7 +82,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-08-14",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -90,7 +96,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-08-18",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -103,7 +110,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-05-29",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -116,7 +124,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2025-12-08",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -129,7 +138,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-07-23",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -142,7 +152,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2025-04-03",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "BAT",
@@ -155,7 +166,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-08-21",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -182,7 +194,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-16",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -195,7 +208,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-15",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -208,7 +222,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-08-14",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -221,7 +236,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-08-13",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -234,7 +250,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-08-03",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -247,7 +264,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-07-30",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -260,7 +278,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-07-30",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -273,7 +292,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-07-21",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -286,7 +306,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-06-09",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -299,7 +320,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-05-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -312,7 +334,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-04-10",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -325,7 +348,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-04-10",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "CJ올리브영",
@@ -338,7 +362,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-06-01",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "pfct",
@@ -351,7 +376,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-08-26",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "pfct",
@@ -364,7 +390,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-07-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "pfct",
@@ -377,7 +404,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-07-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "pfct",
@@ -390,7 +418,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-06-18",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "pfct",
@@ -403,7 +432,8 @@
    "cat": "기획·PM/PO",
    "intern": true,
    "openDate": "2026-05-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "pfct",
@@ -416,7 +446,22 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2026-09-08",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
+   "title": "[강남언니] 태국 소셜 마케팅 인턴 (체험형)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/235941",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-09-07",
+   "new": true,
+   "found": "2026-10-03"
   },
   {
    "회사": "강남언니",
@@ -429,7 +474,8 @@
    "cat": "전략·사업",
    "intern": true,
    "openDate": "2026-09-17",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "강남언니",
@@ -456,7 +502,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-08-27",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "넛지헬스케어",
@@ -469,7 +516,8 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2024-07-03",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "넛지헬스케어",
@@ -482,7 +530,8 @@
    "cat": "데이터·리서치",
    "intern": true,
    "openDate": "2024-11-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "넛지헬스케어",
@@ -495,7 +544,8 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2023-04-26",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "넛지헬스케어",
@@ -508,7 +558,8 @@
    "cat": "기획·PM/PO",
    "intern": true,
    "openDate": "2026-05-18",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "넛지헬스케어",
@@ -521,7 +572,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-08-26",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "넛지헬스케어",
@@ -534,7 +586,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-08-26",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "넛지헬스케어",
@@ -547,7 +600,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-06-16",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "넛지헬스케어",
@@ -560,7 +614,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-09-11",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "뤼튼",
@@ -573,7 +628,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-03-05",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "뤼튼",
@@ -586,7 +642,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-08-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "뤼튼",
@@ -599,7 +656,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-07-27",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "뤼튼",
@@ -640,7 +698,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -653,7 +712,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-08-31",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -666,7 +726,8 @@
    "cat": "전략·사업",
    "intern": false,
    "openDate": "2026-08-26",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -679,7 +740,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-08-19",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -692,7 +754,8 @@
    "cat": "전략·사업",
    "intern": false,
    "openDate": "2026-08-11",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -705,7 +768,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-07-24",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -718,7 +782,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-06-17",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -731,7 +796,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-05-04",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -744,7 +810,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2025-12-05",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마이리얼트립",
@@ -757,7 +824,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2025-12-05",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마카롱팩토리",
@@ -784,7 +852,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": true,
    "openDate": "2026-08-14",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마카롱팩토리",
@@ -797,7 +866,8 @@
    "cat": "기획·PM/PO",
    "intern": true,
    "openDate": "2026-07-20",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "마카롱팩토리",
@@ -810,7 +880,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": true,
    "openDate": "2026-07-14",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "메가스터디교육",
@@ -823,7 +894,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "메가스터디교육",
@@ -850,7 +922,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-09-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "메가스터디교육",
@@ -891,7 +964,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-09-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "메가스터디교육",
@@ -904,7 +978,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "메가스터디교육",
@@ -917,7 +992,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-09-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "메가스터디교육",
@@ -930,7 +1006,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "메가스터디교육",
@@ -957,7 +1034,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-11",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "무신사",
@@ -970,7 +1048,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-07-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "무신사",
@@ -983,7 +1062,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-10",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "스캐터랩",
@@ -996,7 +1076,8 @@
    "cat": "데이터·리서치",
    "intern": true,
    "openDate": "2026-06-10",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "스캐터랩",
@@ -1009,7 +1090,8 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2025-02-28",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "스캐터랩",
@@ -1022,7 +1104,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-08-26",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "아우토크립트",
@@ -1063,7 +1146,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-01-01",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "아우토크립트",
@@ -1076,7 +1160,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-06-05",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "아우토크립트",
@@ -1089,7 +1174,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2025-11-30",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "아우토크립트",
@@ -1102,7 +1188,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2025-11-30",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1115,7 +1202,8 @@
    "cat": "기획·PM/PO",
    "intern": true,
    "openDate": "2026-08-27",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1128,7 +1216,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2025-12-16",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1141,7 +1230,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-07-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1154,7 +1244,8 @@
    "cat": "전략·사업",
    "intern": false,
    "openDate": "2026-08-12",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1167,7 +1258,8 @@
    "cat": "전략·사업",
    "intern": true,
    "openDate": "2026-03-04",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1180,7 +1272,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2025-12-16",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1193,7 +1286,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-01",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1206,7 +1300,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-01",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "업스테이지",
@@ -1219,7 +1314,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-09-01",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "에코마케팅",
@@ -1232,7 +1328,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-01",
-   "new": true,
+   "new": false,
    "found": "2026-10-02"
   },
   {
@@ -1246,7 +1342,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "에코마케팅",
@@ -1259,7 +1356,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "에코마케팅",
@@ -1272,7 +1370,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-04",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "에코마케팅",
@@ -1285,7 +1384,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-02",
-   "new": true,
+   "new": false,
    "found": "2026-10-02"
   },
   {
@@ -1299,7 +1398,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-29",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "와디즈",
@@ -1326,7 +1426,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-09-20",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "와디즈",
@@ -1339,7 +1440,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-15",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "직방",
@@ -1352,7 +1454,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-11",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "직방",
@@ -1365,7 +1468,8 @@
    "cat": "전략·사업",
    "intern": false,
    "openDate": "2026-08-06",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "직방",
@@ -1378,7 +1482,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-07-09",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "직방",
@@ -1391,7 +1496,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-06-08",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "직방",
@@ -1404,7 +1510,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-02-24",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "직방",
@@ -1417,7 +1524,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-05-11",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "카카오페이",
@@ -1430,7 +1538,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-02",
-   "new": true,
+   "new": false,
    "found": "2026-10-02"
   },
   {
@@ -1444,7 +1552,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-10-01",
-   "new": true,
+   "new": false,
    "found": "2026-10-02"
   },
   {
@@ -1458,7 +1566,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-10-01",
-   "new": true,
+   "new": false,
    "found": "2026-10-02"
   },
   {
@@ -1472,7 +1580,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2024-04-02",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "코나아이",
@@ -1485,7 +1594,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-07-09",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "코나아이",
@@ -1498,7 +1608,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-15",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "코나아이",
@@ -1511,7 +1622,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "팀스파르타",
@@ -1524,7 +1636,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-06-26",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "팀스파르타",
@@ -1537,7 +1650,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": true,
    "openDate": "2026-09-10",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "팀스파르타",
@@ -1550,7 +1664,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-07-31",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "팀스파르타",
@@ -1577,7 +1692,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-15",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "팀스파르타",
@@ -1590,7 +1706,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": true,
    "openDate": "2026-09-15",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "팀스파르타",
@@ -1617,7 +1734,8 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-09-11",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "팀스파르타",
@@ -1630,7 +1748,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": true,
    "openDate": "2026-08-27",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "팀스파르타",
@@ -1643,7 +1762,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-09",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이브",
@@ -1712,7 +1832,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-15",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이브",
@@ -1725,7 +1846,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-02",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이브",
@@ -1738,7 +1860,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-08-14",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이브",
@@ -1751,7 +1874,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-07-30",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이브",
@@ -1764,7 +1888,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-07-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이브",
@@ -1777,7 +1902,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-05-20",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이브",
@@ -1790,7 +1916,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-07-21",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이브",
@@ -1803,7 +1930,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-02-10",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이컨시",
@@ -1816,7 +1944,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-08-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이컨시",
@@ -1829,7 +1958,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-07-01",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "하이컨시",
@@ -1842,7 +1972,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-02",
-   "new": true,
+   "new": false,
    "found": "2026-10-02"
   },
   {
@@ -1856,7 +1986,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-02",
-   "new": true,
+   "new": false,
    "found": "2026-10-02"
   },
   {
@@ -1870,7 +2000,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-02",
-   "new": true,
+   "new": false,
    "found": "2026-10-02"
   },
   {
@@ -1884,7 +2014,8 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-09-21",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "헥토",
@@ -1897,7 +2028,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-11",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "헥토",
@@ -1910,7 +2042,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-09-14",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "헥토",
@@ -1923,7 +2056,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-08-07",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "헥토",
@@ -1936,7 +2070,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-07-09",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "헥토",
@@ -1949,7 +2084,8 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-04-10",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "헥토",
@@ -1962,7 +2098,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-04-01",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "쿠팡",
@@ -1989,7 +2126,8 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-09-02",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "쿠팡",
@@ -2002,7 +2140,8 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-10",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "당근",
@@ -2015,7 +2154,8 @@
    "cat": "기획·PM/PO",
    "intern": true,
    "openDate": "2026-09-21",
-   "new": false
+   "new": false,
+   "found": "2026-10-03"
   },
   {
    "회사": "Anthropic",
@@ -2028,6 +2168,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-09-02"
   },
   {
@@ -2041,8 +2182,8 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
-   "openDate": "2026-09-29",
-   "found": "2026-09-29"
+   "found": "2026-09-29",
+   "openDate": "2026-09-29"
   },
   {
    "회사": "Anthropic",
@@ -2055,6 +2196,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-31"
   },
   {
@@ -2068,6 +2210,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-28"
   },
   {
@@ -2081,6 +2224,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-31"
   },
   {
@@ -2094,6 +2238,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-09-03"
   },
   {
@@ -2107,6 +2252,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-09-01"
   },
   {
@@ -2120,6 +2266,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-28"
   },
   {
@@ -2133,6 +2280,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-09-24"
   },
   {
@@ -2146,6 +2294,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-31"
   },
   {
@@ -2159,8 +2308,8 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
-   "openDate": "2026-09-22",
-   "found": "2026-09-29"
+   "found": "2026-09-29",
+   "openDate": "2026-09-22"
   },
   {
    "회사": "Anthropic",
@@ -2173,6 +2322,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-31"
   },
   {
@@ -2186,6 +2336,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-31"
   },
   {
@@ -2199,6 +2350,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-04-03"
   },
   {
@@ -2212,6 +2364,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-07-27"
   },
   {
@@ -2225,6 +2378,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-06"
   },
   {
@@ -2238,6 +2392,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-26"
   },
   {
@@ -2251,8 +2406,8 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
-   "openDate": "2026-10-01",
-   "found": "2026-10-01"
+   "found": "2026-10-01",
+   "openDate": "2026-10-01"
   },
   {
    "회사": "OpenAI",
@@ -2265,6 +2420,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-06-19"
   },
   {
@@ -2278,6 +2434,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-01-06"
   },
   {
@@ -2291,6 +2448,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-01-22"
   },
   {
@@ -2304,6 +2462,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-21"
   },
   {
@@ -2317,6 +2476,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-08-21"
   },
   {
@@ -2330,6 +2490,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-06-23"
   },
   {
@@ -2343,6 +2504,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": "2026-09-14"
   },
   {
@@ -2356,8 +2518,8 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
-   "openDate": "",
-   "found": "2026-10-01"
+   "found": "2026-10-01",
+   "openDate": ""
   },
   {
    "회사": "Google",
@@ -2370,6 +2532,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2383,6 +2546,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2396,6 +2560,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2409,6 +2574,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2422,6 +2588,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2435,6 +2602,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2448,6 +2616,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2461,6 +2630,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2474,6 +2644,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2487,6 +2658,7 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
+   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2500,8 +2672,8 @@
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,
-   "openDate": "",
-   "found": "2026-09-29"
+   "found": "2026-09-29",
+   "openDate": ""
   }
  ]
 }
