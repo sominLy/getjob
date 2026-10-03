@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: ["claude/**"]
-    paths: ["scripts/probe-jasoseol.mjs", "scripts/probe-sources.mjs", "scripts/fetch-companies.mjs", "scripts/build-gongchae.mjs", "scripts/fetch-radar.mjs", ".github/workflows/probe-sources.yml"]
+    paths: ["scripts/build-predictions.mjs", "scripts/probe-sources.mjs", "scripts/fetch-companies.mjs", "scripts/build-gongchae.mjs", "scripts/fetch-radar.mjs", ".github/workflows/probe-sources.yml"]
 
 permissions:
   contents: read
@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: 20
       # 수집 스크립트를 고쳤을 때 main에 합치기 전에 실제로 도는지만 확인한다(결과 파일은 커밋하지 않음)
+      # 예상 공고 만들기가 실제로 되는지(결과는 커밋하지 않음)
+      - run: node scripts/build-predictions.mjs && node -e 'const j=require("./data/jobs.json").jobs.filter(x=>x.id.startsWith("pred-"));const m={};j.forEach(x=>{const k=x.start.slice(0,7);m[k]=(m[k]||0)+1});console.log(m);j.filter(x=>/현대백화점|롯데|CJ|SK|LG|삼성|한화|GS|두산|포스코|KT|농협|은행|증권|카드/.test(x.company)).slice(0,60).forEach(x=>console.log(x.start,x.end,x.type,x.company,"|",x.hist))'
       # 공채 직무별 JD: 이미지 글자 인식·뉴스가 실제로 되는지 몇 건만(결과는 커밋하지 않음)
       # 공채 직무별 JD: 자소설닷컴 공고 본문·공고문 이미지 글자 인식이 되는지 몇 건만(결과는 커밋하지 않음)
       - run: sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor imagemagick > /dev/null
