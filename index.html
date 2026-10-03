@@ -219,6 +219,8 @@ td.act button.on{color:var(--accent);font-weight:700}
 .app-h .nm{font-size:15.5px;font-weight:700;letter-spacing:-.01em}
 .app-h .rl{font-size:12.5px;color:var(--muted)}
 .app-b{padding:14px 16px;display:flex;flex-direction:column;gap:14px}
+.app-b[hidden]{display:none}
+.app.folded{opacity:.82}
 .track{display:flex;gap:0;flex-wrap:wrap;align-items:stretch}
 .step{flex:1;min-width:112px;border:1px solid var(--line);border-right:0;padding:8px 10px;
   display:flex;flex-direction:column;gap:3px;background:var(--paper)}
@@ -574,6 +576,13 @@ thead th{font-weight:600;letter-spacing:.07em}
 
   .week{grid-template-columns:1fr;gap:8px}
   .day{min-height:0}
+  /* 일정도 할 일도 없는 날은 한 줄로 얇게 */
+  .day.empty{flex-direction:row;align-items:center;padding:6px 10px;box-shadow:none;gap:10px}
+  .day.empty h3{flex:1;justify-content:flex-start;gap:10px}
+  .day.empty .todos{margin:0}
+  .day.empty .addtodo{border:0;padding:4px 6px}
+  /* 휴대폰에는 마우스를 올릴 수 없으니 할 일 삭제 버튼을 늘 보이게 */
+  .todo button{opacity:.6}
 
   /* 전형 트랙은 세로로 쌓습니다 */
   .track{flex-direction:column}
@@ -1474,11 +1483,28 @@ function renderMine(){
       l.textContent = "공고 열기"; l.style.cssText = "font-size:12.5px;color:var(--muted)"; h.appendChild(l);
     }
     const rm = document.createElement("button"); rm.className = "ghost"; rm.textContent = "지원 취소";
-    rm.onclick = () => { a.applied = false; save(); renderAll(); };
+    rm.onclick = () => {
+      if(!confirm(j.company + " 지원을 취소할까요? 적어 둔 자소서·전형 일정은 남아 있어 다시 지원하면 돌아옵니다.")) return;
+      a.applied = false; save(); renderAll();
+    };
+    /* 카드 접기: 서류에서 떨어졌거나 마감이 지나 대기 중인 공고는 기본으로 접는다. 직접 접고 편 상태는 기억한다 */
+    const ended = a.doc === "불합격" || (dl0 && dleft(dl0) < 0 && a.doc === "대기");
+    const folded = a.fold === undefined ? ended : a.fold;
+    const foldBtn = document.createElement("button"); foldBtn.className = "ghost fold-btn";
+    foldBtn.setAttribute("aria-expanded", String(!folded));
+    foldBtn.textContent = folded ? "펼치기 ▾" : "접기 ▴";
+    h.appendChild(foldBtn);
     h.appendChild(rm);
     card.appendChild(h);
 
     const b = document.createElement("div"); b.className = "app-b";
+    b.hidden = folded;
+    if(folded) card.classList.add("folded");
+    foldBtn.onclick = () => {
+      a.fold = !b.hidden; save();
+      b.hidden = a.fold; card.classList.toggle("folded", a.fold);
+      foldBtn.textContent = a.fold ? "펼치기 ▾" : "접기 ▴"; foldBtn.setAttribute("aria-expanded", String(!a.fold));
+    };
 
     /* 전형 트랙 */
     const track = document.createElement("div"); track.className = "track";
@@ -2085,7 +2111,8 @@ function renderWeek(){
     const d = new Date(weekStart); d.setDate(weekStart.getDate()+i);
     const k = iso(d);
     const day = document.createElement("div");
-    day.className = "day" + (k===iso(TODAY) ? " is-today" : "");
+    day.className = "day" + (k===iso(TODAY) ? " is-today" : "") +
+      (!(ev[k] || []).length && !(db.todos[k] || []).length ? " empty" : "");
     const h = document.createElement("h3");
     h.appendChild(document.createTextNode(names[i]));
     const bb = document.createElement("b"); bb.textContent = d.getDate(); h.appendChild(bb);
