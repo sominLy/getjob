@@ -523,6 +523,8 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .gc-n{width:22px;height:22px;border-radius:50%;background:var(--line-2);font-size:12px;font-weight:700;display:grid;place-items:center}
 .gc-m b{font-size:14px}
 .gc-row.off{opacity:.55}
+.gc-row.here b::after{content:" · 이 공고";font-size:11px;color:var(--accent-ink);font-weight:600}
+#gcList .gc-group{background:var(--accent-soft);border-radius:8px}
 .gc-news{margin:4px 0 0;font-size:11.5px;color:var(--muted)}
 .fx-today{margin:2px 0 6px;font-size:11.5px;color:var(--muted)}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
@@ -3362,12 +3364,26 @@ document.getElementById("slJunior").onchange = renderSales;
 /* ---------- 공채·그룹 공고: 직무 하나 고르기 ----------
    data/gongchae.json(매일 수집 때 scripts/build-gongchae.mjs가 만듦)의 직무별 JD 키워드·채용 규모·경쟁·뉴스·매출로
    공고 안의 직무들을 줄 세운다. 계산은 모두 브라우저에서(내 경험 키워드는 내 계정에만 있음). */
-let GC = null, gcPromise = null;
+let GC = null, GC_GROUPS = [], gcPromise = null;
 function loadGongchae(){
   if(gcPromise) return gcPromise;
   gcPromise = fetch("data/gongchae.json?t=" + Date.now()).then(r => r.ok ? r.json() : null)
-    .then(o => { GC = {}; ((o && o.items) || []).forEach(x => GC[x.id] = x); }).catch(() => { GC = {}; });
+    .then(o => { GC = {}; ((o && o.items) || []).forEach(x => GC[x.id] = x); GC_GROUPS = (o && o.groups) || []; }).catch(() => { GC = {}; });
   return gcPromise;
+}
+/* 삼성·신세계처럼 전 계열사 중 하나만 지원하는 그룹은 계열사 공고들의 직무를 한데 모아 한 공고처럼 다룬다 */
+function gcGroupItem(g){
+  const items = g.ids.map(id => GC[id]).filter(x => x && (!x.end || x.end >= iso(new Date())));
+  if(!items.length) return null;
+  const tracks = [];
+  items.forEach(x => x.tracks.forEach(t => tracks.push(Object.assign({}, t, {
+    name: (t.affiliate !== x.company ? x.company + " " : x.company + " · ") + t.name.replace(/^\s*\[[^\]]+\]\s*/, t.affiliate !== x.company ? "[" + t.affiliate + "] " : ""),
+    affiliate: t.affiliate !== x.company ? t.affiliate : x.company, from: x.id}))));
+  const maxApp = Math.max(1, ...tracks.map(t => t.applicants || 0));
+  tracks.forEach(t => { t.competition = (t.applicants || 0) / maxApp; });
+  return {id: "group:" + g.name, company: g.name + "그룹", type: items[0].type, group: g.name, note: g.note, oneOnly: true,
+    end: items.map(x => x.end).sort()[0], why: [g.note, "공고 " + items.length + "개"], jdSource: [...new Set(items.map(x => x.jdSource))].join("·"),
+    revenue: null, ids: items.map(x => x.id), tracks};
 }
 /* 기획·마케팅·영업·운영·경영지원 계열이 아닌 직무(개발·설계·생산·연구·전문 자격 등) — 추천에서 맨 뒤로 */
 const GC_OFF = /개발|엔지니어|engineer|SW|HW|설계|생산|공정|품질|설비|연구|R&D|회로|반도체|토목|건축|구조|기계|전기|전자|화학|배합|시설|검사|정보보안|보안|클라우드|인프라|네트워크|디자인|designer|간호|약사|조리|영양|의료|임상|운전|정비|IB\b|PF\b|트레이딩|애널리스트|퀀트|법무|변호사|세무사|회계사/i;
@@ -3414,14 +3430,16 @@ async function renderPick(id){
   const box = document.getElementById("jdPick"); box.hidden = true; box.replaceChildren();
   await loadGongchae();
   if(jdId !== id || !GC[id]) return;
-  const item = GC[id], ranked = gcRank(item);
-  const h = document.createElement("h3"); h.textContent = "이 공고에서 하나만 고른다면";
+  const g = GC[id].group && GC_GROUPS.find(x => x.name === GC[id].group);
+  const item = (g && gcGroupItem(g)) || GC[id], ranked = gcRank(item);
+  const h = document.createElement("h3"); h.textContent = g ? g.name + " 공채 전체에서 하나만 고른다면" : "이 공고에서 하나만 고른다면";
   const sub = document.createElement("p"); sub.className = "sub";
   sub.textContent = "공채 판단: " + item.why.join(" · ") + " · JD 출처: " + item.jdSource + (item.oneOnly ? " · ⚠ 공고에 '한 직무(계열사)만 지원' 조건이 있어요" : "") +
     (ranked[0] && ranked[0].noExp ? " · 매칭 아카이브에 경험을 넣으면 '경험' 점수가 더해져요" : "");
   const ul = document.createElement("ol"); ul.className = "rd-jobs gc-list";
-  ranked.slice(0, 8).forEach((r, i) => ul.append(gcRow(r, i)));
+  ranked.slice(0, 8).forEach((r, i) => { const li = gcRow(r, i); if(g && r.t.from === id) li.classList.add("here"); ul.append(li); });
   box.append(h, sub, ul);
+  if(g){ const here = ranked.findIndex(r => r.t.from === id); if(here >= 8){ const p = document.createElement("p"); p.className = "sub"; p.textContent = "이 공고의 가장 높은 직무는 그룹 전체 " + ranked.length + "개 중 " + (here + 1) + "위예요(" + ranked[here].t.name + " " + ranked[here].total + "점)."; box.append(p); } }
   if(ranked.length > 8){ const more = document.createElement("p"); more.className = "sub"; more.textContent = "그 밖에 " + (ranked.length - 8) + "개 직무는 점수가 더 낮아요."; box.append(more); }
   box.hidden = false;
 }
@@ -3431,8 +3449,10 @@ function renderGcBox(){
   const items = Object.values(GC).filter(x => !x.end || x.end >= iso(new Date()));
   box.hidden = !items.length;
   document.getElementById("gcFxNote").textContent = privOn() ? " · 운 궁합 15%(소민 전용)" : "";
-  const rows = items.map(x => ({x, r: gcRank(x).filter(y => !y.off)})).filter(o => o.r.length)
-    .sort((a, b) => b.r[0].total - a.r[0].total);
+  const groupItems = GC_GROUPS.map(gcGroupItem).filter(Boolean);
+  const inGroup = new Set(groupItems.flatMap(x => x.ids));
+  const rows = groupItems.concat(items.filter(x => !inGroup.has(x.id))).map(x => ({x, r: gcRank(x).filter(y => !y.off)})).filter(o => o.r.length)
+    .sort((a, b) => (!!b.x.ids - !!a.x.ids) || b.r[0].total - a.r[0].total);  /* 그룹 공채(하나만 지원)를 맨 위에 */
   document.getElementById("gcSum").textContent = rows.length + "개 공고";
   const ul = document.getElementById("gcList"); ul.replaceChildren();
   rows.slice(0, 40).forEach(({x, r}) => {
@@ -3440,9 +3460,10 @@ function renderGcBox(){
     const co = document.createElement("div"); co.className = "rd-co"; co.textContent = x.company;
     const main = document.createElement("div"); main.className = "rd-main";
     const a = document.createElement("a"); a.className = "rd-t"; a.href = "#"; a.textContent = "추천: " + r[0].t.name;
-    a.onclick = (e) => { e.preventDefault(); openJob(x.id); };
+    a.onclick = (e) => { e.preventDefault(); openJob(x.ids ? r[0].t.from : x.id); };
+    if(x.oneOnly && x.ids) li.classList.add("gc-group");
     const meta = document.createElement("div"); meta.className = "rd-meta";
-    meta.textContent = [x.tracks.length + "개 직무 중", r[1] ? "다음: " + r[1].t.name + " " + r[1].total : "", x.end ? "마감 " + x.end.slice(5).replace("-", "/") : "", x.oneOnly ? "한 직무만 지원" : ""].filter(Boolean).join(" · ");
+    meta.textContent = [x.ids ? "계열사 공고 " + x.ids.length + "개 · 전체 " + x.tracks.length + "개 직무 중 하나만" : x.tracks.length + "개 직무 중", r[1] ? "다음: " + r[1].t.name + " " + r[1].total : "", x.end ? "마감 " + x.end.slice(5).replace("-", "/") : "", x.oneOnly ? "한 직무만 지원" : ""].filter(Boolean).join(" · ");
     main.append(a, meta);
     const sc = document.createElement("div"); sc.className = "mt-pct"; sc.textContent = r[0].total; const sm = document.createElement("small"); sm.textContent = "종합"; sc.append(sm);
     li.append(co, main, sc); ul.append(li);

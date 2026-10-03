@@ -1,6 +1,18 @@
 {
  "updated": "2026-10-03",
  "rules": "공채 판별·직무별 JD·전략 신호는 scripts/build-gongchae.mjs 참고",
+ "groups": [
+  {
+   "name": "신세계",
+   "note": "신세계 공채는 전 계열사·전 직무 중 1곳만 지원할 수 있어요",
+   "oneOnly": true,
+   "ids": [
+    "jasoseol-106234",
+    "jasoseol-106306",
+    "jasoseol-106309"
+   ]
+  }
+ ],
  "items": [
   {
    "id": "jasoseol-105484",
@@ -8,6 +20,7 @@
    "type": "",
    "end": "2026-10-05",
    "url": "https://mycle.career.greetinghr.com/ko/home",
+   "group": "",
    "why": [
     "직무 6개",
     "마감일 명시",
@@ -138,6 +151,7 @@
    "type": "중견기업",
    "end": "2026-11-29",
    "url": "https://ligdna.recruiter.co.kr/appsite/company/index",
+   "group": "",
    "why": [
     "직무 6개",
     "마감일 명시",
@@ -252,6 +266,7 @@
    "type": "",
    "end": "2026-11-01",
    "url": "https://surgicare.ninehire.site/",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -304,6 +319,7 @@
    "type": "",
    "end": "2026-11-02",
    "url": "https://litt.ly/recruit_xcena?utm_source=jasoseol&utm_medium=display&utm_campaign=xcena_2026h1",
+   "group": "",
    "why": [
     "직무 18개",
     "마감일 명시",
@@ -627,6 +643,7 @@
    "type": "",
    "end": "2026-10-19",
    "url": "https://echomarketing.career.greetinghr.com/ko/recruit",
+   "group": "",
    "why": [
     "직무 9개",
     "마감일 명시",
@@ -813,6 +830,7 @@
    "type": "대기업",
    "end": "2026-11-10",
    "url": "https://innocean.recruiter.co.kr/career/jobs/128152",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -886,6 +904,7 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://lgcnscamp.kr/?utm_source=site&utm_medium=post_ad&utm_campaign=LG7_jasoseol_ad20260914",
+   "group": "",
    "why": [
     "직무 5개",
     "마감일 명시",
@@ -998,6 +1017,7 @@
    "type": "대기업",
    "end": "2026-10-05",
    "url": "https://hmg-hint.recruiter.co.kr/career/jobs",
+   "group": "",
    "why": [
     "직무 12개",
     "마감일 명시",
@@ -1278,6 +1298,7 @@
    "type": "공기업",
    "end": "2026-11-13",
    "url": "https://gtp.career.greetinghr.com/ko/o/229417",
+   "group": "",
    "why": [
     "직무 7개",
     "마감일 명시",
@@ -1424,6 +1445,7 @@
    "type": "대기업",
    "end": "2026-10-05",
    "url": "https://bootcamp.multicampus.com/course/crsDetail?corsCd=FA01RL&corsDgrCd=10104&corsYr=2026&utm_source=jasosel&utm_medium=jasosel_personal&utm_campaign=AIM&utm_content=aim_2609&utm_term=JSSP_aim2609",
+   "group": "",
    "why": [
     "직무 3개",
     "마감일 명시",
@@ -1511,6 +1533,7 @@
    "type": "금융",
    "end": "2026-10-19",
    "url": "https://recruit.truefriend.com/",
+   "group": "",
    "why": [
     "직무 16개",
     "마감일 명시",
@@ -1815,6 +1838,7 @@
    "type": "공기업",
    "end": "2026-10-07",
    "url": "https://kotra.careerlink.kr/jobs/RC20260915034622",
+   "group": "",
    "why": [
     "직무 7개",
     "마감일 명시",
@@ -1941,6 +1965,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://insiseol.recruitlab.co.kr/",
+   "group": "",
    "why": [
     "직무 15개",
     "마감일 명시",
@@ -2185,13 +2210,10 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://job.shinsegae.com/",
+   "group": "신세계",
    "why": [
-    "직무 28개",
-    "마감일 명시",
-    "대기업",
-    "그룹 공고",
-    "제목에 직무 미표기·공채 표현",
-    "[계열사] 묶음"
+    "신세계 그룹 공채(전 계열사 중 1곳만)",
+    "직무 28개"
    ],
    "jdSource": "직무 이름만",
    "oneOnly": false,
@@ -2723,11 +2745,10 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://m.site.naver.com/2gUFD",
+   "group": "신세계",
    "why": [
-    "직무 2개",
-    "마감일 명시",
-    "대기업",
-    "제목에 직무 미표기·공채 표현"
+    "신세계 그룹 공채(전 계열사 중 1곳만)",
+    "직무 2개"
    ],
    "jdSource": "공식 본문",
    "oneOnly": false,
@@ -2788,11 +2809,10 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://m.site.naver.com/2gUH7",
+   "group": "신세계",
    "why": [
-    "직무 3개",
-    "마감일 명시",
-    "대기업",
-    "제목에 직무 미표기·공채 표현"
+    "신세계 그룹 공채(전 계열사 중 1곳만)",
+    "직무 3개"
    ],
    "jdSource": "공식 본문",
    "oneOnly": false,
@@ -2872,6 +2892,7 @@
    "type": "중견기업",
    "end": "2026-10-05",
    "url": "https://applydongasocio.career.greetinghr.com/",
+   "group": "",
    "why": [
     "직무 11개",
     "마감일 명시",
@@ -3077,6 +3098,7 @@
    "type": "대기업",
    "end": "2026-10-05",
    "url": "https://e1.recruiter.co.kr/career/home",
+   "group": "",
    "why": [
     "직무 6개",
     "마감일 명시",
@@ -3200,6 +3222,7 @@
    "type": "공기업",
    "end": "2026-10-08",
    "url": "https://gumc.brms.kr/",
+   "group": "",
    "why": [
     "직무 8개",
     "마감일 명시",
@@ -3339,6 +3362,7 @@
    "type": "대기업",
    "end": "2026-10-11",
    "url": "https://hanwha-tech-life.com/semitech",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -3398,6 +3422,7 @@
    "type": "대기업",
    "end": "2026-10-11",
    "url": "https://hanwhavision.ninehire.site/hanwha-vision26",
+   "group": "",
    "why": [
     "직무 3개",
     "마감일 명시",
@@ -3462,6 +3487,7 @@
    "type": "대기업",
    "end": "2026-10-11",
    "url": "https://hanwha-tech-life.com/hotelnresort",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -3569,6 +3595,7 @@
    "type": "대기업",
    "end": "2026-10-11",
    "url": "https://hanwha-tech-life.com/estate",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -3631,6 +3658,7 @@
    "type": "공기업",
    "end": "2026-10-07",
    "url": "https://cu2.saramin.co.kr/",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -3680,6 +3708,7 @@
    "type": "중견기업",
    "end": "2026-10-05",
    "url": "https://company.kinx.net/career/#s05",
+   "group": "",
    "why": [
     "직무 8개",
     "마감일 명시",
@@ -3917,6 +3946,7 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://careers.kait.com/ko/home",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -3970,6 +4000,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://kdn.incruit.com/main/main.asp",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -4019,6 +4050,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://kopri.recruiter.co.kr/",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -4068,6 +4100,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://kopri.recruiter.co.kr",
+   "group": "",
    "why": [
     "직무 12개",
     "마감일 명시",
@@ -4311,6 +4344,7 @@
    "type": "대기업",
    "end": "2026-10-06",
    "url": "https://harimcareers.com/harimholdings/page/user/farmsco/recruit_view?target=37702",
+   "group": "",
    "why": [
     "직무 15개",
     "마감일 명시",
@@ -4585,6 +4619,7 @@
    "type": "중견기업",
    "end": "2026-10-11",
    "url": "https://woosung.recruiter.co.kr/career/job",
+   "group": "",
    "why": [
     "직무 16개",
     "마감일 명시",
@@ -4875,6 +4910,7 @@
    "type": "중견기업",
    "end": "2026-10-11",
    "url": "https://careerhansol.com/",
+   "group": "",
    "why": [
     "직무 18개",
     "마감일 명시",
@@ -5229,6 +5265,7 @@
    "type": "",
    "end": "2026-10-04",
    "url": "https://careers.konrev.com/recruit",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -5289,6 +5326,7 @@
    "type": "공기업",
    "end": "2026-10-08",
    "url": "https://krs.recruit-zone.co.kr/",
+   "group": "",
    "why": [
     "직무 21개",
     "마감일 명시",
@@ -5640,6 +5678,7 @@
    "type": "대기업",
    "end": "2026-10-06",
    "url": "https://dongwon-recruit.com/",
+   "group": "",
    "why": [
     "직무 34개",
     "마감일 명시",
@@ -6262,6 +6301,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609210000421&handle=3A2683D8BA1583A06182F96BB68CE61AD3FAE2968C39BD80C5756F001FABE149",
+   "group": "",
    "why": [
     "직무 6개",
     "마감일 명시",
@@ -6381,6 +6421,7 @@
    "type": "중견기업",
    "end": "2026-10-06",
    "url": "https://www.orion-recruit.com/?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609orion",
+   "group": "",
    "why": [
     "직무 3개",
     "마감일 명시",
@@ -6458,6 +6499,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://kead.careerlink.kr/",
+   "group": "",
    "why": [
     "직무 46개",
     "마감일 명시",
@@ -7179,6 +7221,7 @@
    "type": "대기업",
    "end": "2026-10-11",
    "url": "https://lselectric.recruiter.co.kr/career/home",
+   "group": "",
    "why": [
     "직무 68개",
     "마감일 명시",
@@ -8398,6 +8441,7 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://wonik.recruiter.co.kr/career/recruit?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609wonik",
+   "group": "",
    "why": [
     "직무 5개",
     "마감일 명시",
@@ -8494,6 +8538,7 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://wonik.recruiter.co.kr/career/recruit?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609wonik",
+   "group": "",
    "why": [
     "직무 41개",
     "마감일 명시",
@@ -9202,6 +9247,7 @@
    "type": "중견기업",
    "end": "2026-10-13",
    "url": "https://isu-recruit.com/",
+   "group": "",
    "why": [
     "직무 33개",
     "마감일 명시",
@@ -9779,6 +9825,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://keris.recruiter.co.kr/",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -9828,6 +9875,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://keris.recruiter.co.kr/",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -9885,6 +9933,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://keris.recruiter.co.kr/app/jobnotice/list?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609keris",
+   "group": "",
    "why": [
     "직무 3개",
     "마감일 명시",
@@ -9953,6 +10002,7 @@
    "type": "공기업",
    "end": "2026-10-07",
    "url": "https://recruit.incruit.com/koreahana/job",
+   "group": "",
    "why": [
     "직무 6개",
     "마감일 명시",
@@ -10062,6 +10112,7 @@
    "type": "대기업",
    "end": "2026-10-05",
    "url": "https://hknc.recruiter.co.kr/career/jobs/129028?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609hknc",
+   "group": "",
    "why": [
     "직무 8개",
     "마감일 명시",
@@ -10213,6 +10264,7 @@
    "type": "",
    "end": "2026-10-06",
    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55101766&view_type=search",
+   "group": "",
    "why": [
     "직무 6개",
     "마감일 명시",
@@ -10321,6 +10373,7 @@
    "type": "공기업",
    "end": "2026-10-06",
    "url": "https://kisa.applyin.co.kr/",
+   "group": "",
    "why": [
     "직무 12개",
     "마감일 명시",
@@ -10525,6 +10578,7 @@
    "type": "중견기업",
    "end": "2026-10-12",
    "url": "https://dsf.recruiter.co.kr/career/jobs/128460?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609dsf",
+   "group": "",
    "why": [
     "직무 8개",
     "마감일 명시",
@@ -10671,6 +10725,7 @@
    "type": "대기업",
    "end": "2026-10-14",
    "url": "https://www.hanwhain.com/apply/recruit/detail?rtSeq=19809",
+   "group": "",
    "why": [
     "직무 7개",
     "마감일 명시",
@@ -10807,6 +10862,7 @@
    "type": "금융",
    "end": "2026-10-12",
    "url": "https://koreanre.recruiter.co.kr",
+   "group": "",
    "why": [
     "직무 3개",
     "마감일 명시",
@@ -10877,6 +10933,7 @@
    "type": "대기업",
    "end": "2026-10-11",
    "url": "https://hshyosung.recruiter.co.kr/career/home",
+   "group": "",
    "why": [
     "직무 25개",
     "마감일 명시",
@@ -11348,6 +11405,7 @@
    "type": "중견기업",
    "end": "2026-10-18",
    "url": "https://2026recruitment.hanmi.co.kr/",
+   "group": "",
    "why": [
     "직무 37개",
     "마감일 명시",
@@ -12326,6 +12384,7 @@
    "type": "대기업",
    "end": "2026-10-07",
    "url": "https://dream.kolon.com/",
+   "group": "",
    "why": [
     "직무 8개",
     "마감일 명시",
@@ -12489,6 +12548,7 @@
    "type": "",
    "end": "2026-10-12",
    "url": "https://kipot.or.kr/user/recruit/list.do",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -12539,6 +12599,7 @@
    "type": "금융",
    "end": "2026-10-07",
    "url": "https://recruit.yuantakorea.com:4433/jobinfo/jobinfo_view.asp?ID=1947",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -12588,6 +12649,7 @@
    "type": "공기업",
    "end": "2026-10-07",
    "url": "https://koreafilm.brms.kr/",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -12678,6 +12740,7 @@
    "type": "공기업",
    "end": "2026-10-13",
    "url": "https://at.recruitcenter.kr/",
+   "group": "",
    "why": [
     "직무 12개",
     "마감일 명시",
@@ -12884,6 +12947,7 @@
    "type": "공기업",
    "end": "2026-10-13",
    "url": "https://k-sec.career.co.kr/",
+   "group": "",
    "why": [
     "직무 8개",
     "마감일 명시",
@@ -13023,6 +13087,7 @@
    "type": "공기업",
    "end": "2026-10-12",
    "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609230001148",
+   "group": "",
    "why": [
     "직무 63개",
     "마감일 명시",
@@ -14018,6 +14083,7 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://appliedkorea.applyin.co.kr/jobs",
+   "group": "",
    "why": [
     "직무 3개",
     "마감일 명시",
@@ -14091,6 +14157,7 @@
    "type": "중견기업",
    "end": "2026-10-07",
    "url": "https://dohwa.recruiter.co.kr/career/recruit?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609dohwa",
+   "group": "",
    "why": [
     "직무 21개",
     "마감일 명시",
@@ -14439,6 +14506,7 @@
    "type": "공기업",
    "end": "2026-10-19",
    "url": "https://sh.ai-recruit.kr/",
+   "group": "",
    "why": [
     "직무 8개",
     "마감일 명시",
@@ -14583,6 +14651,7 @@
    "type": "",
    "end": "2026-10-12",
    "url": "https://58gmwqqv.ninehire.site/recruit",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -14642,6 +14711,7 @@
    "type": "중견기업",
    "end": "2026-10-05",
    "url": "https://ilhwa.recruiter.co.kr/career/jobs/129726",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -14722,6 +14792,7 @@
    "type": "공기업",
    "end": "2026-10-14",
    "url": "https://recruit.incruit.com/kaia/",
+   "group": "",
    "why": [
     "직무 9개",
     "마감일 명시",
@@ -14889,6 +14960,7 @@
    "type": "공기업",
    "end": "2026-10-05",
    "url": "https://www.kasto.or.kr/system/bbs/notice/detail.do?bbsSeq=8722&parentSeq=&currentMenuId=700004001",
+   "group": "",
    "why": [
     "직무 5개",
     "마감일 명시",
@@ -14993,6 +15065,7 @@
    "type": "공기업",
    "end": "2026-10-18",
    "url": "https://kfpa.careerlink.kr/jobs",
+   "group": "",
    "why": [
     "직무 9개",
     "마감일 명시",
@@ -15170,6 +15243,7 @@
    "type": "공기업",
    "end": "2026-10-15",
    "url": "https://recruit.incruit.com/knfcinsa/",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -15249,6 +15323,7 @@
    "type": "중견기업",
    "end": "2026-10-11",
    "url": "https://recruit.daebogroup.com/",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -15328,6 +15403,7 @@
    "type": "공기업",
    "end": "2026-10-19",
    "url": "https://krc.cairos.co.kr/krc/",
+   "group": "",
    "why": [
     "직무 116개",
     "마감일 명시",
@@ -17087,6 +17163,7 @@
    "type": "대기업",
    "end": "2026-10-07",
    "url": "https://lamresearch-careers.com/",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -17149,6 +17226,7 @@
    "type": "대기업",
    "end": "2026-10-12",
    "url": "https://career.hyundai-autoever.com/2026newrecruit4q",
+   "group": "",
    "why": [
     "직무 83개",
     "마감일 명시",
@@ -19057,6 +19135,7 @@
    "type": "대기업",
    "end": "2026-10-13",
    "url": "https://recruit-sj.com/?utm_source=jasoseol&utm_medium=plus&utm_campaign=202609",
+   "group": "",
    "why": [
     "직무 12개",
     "마감일 명시",
@@ -19432,6 +19511,7 @@
    "type": "대기업",
    "end": "2026-10-14",
    "url": "https://s-oil.recruiter.co.kr/career/jobs/128790",
+   "group": "",
    "why": [
     "직무 10개",
     "마감일 명시",
@@ -19638,6 +19718,7 @@
    "type": "대기업",
    "end": "2026-10-13",
    "url": "https://vo.la/KLr0Mwc",
+   "group": "",
    "why": [
     "직무 11개",
     "마감일 명시",
@@ -19990,6 +20071,7 @@
    "type": "대기업",
    "end": "2026-10-14",
    "url": "https://recruit.incruit.com/yuhankimberly/",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -20073,6 +20155,7 @@
    "type": "",
    "end": "2026-10-20",
    "url": "https://careers.suresofttech.com/",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -20157,6 +20240,7 @@
    "type": "중견기업",
    "end": "2026-10-14",
    "url": "https://litt.ly/brkpcslrecruit",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -20252,6 +20336,7 @@
    "type": "중견기업",
    "end": "2026-10-14",
    "url": "https://litt.ly/brkpcslrecruit",
+   "group": "",
    "why": [
     "직무 5개",
     "마감일 명시",
@@ -20363,6 +20448,7 @@
    "type": "중견기업",
    "end": "2026-10-14",
    "url": "https://litt.ly/brkpcslrecruit",
+   "group": "",
    "why": [
     "직무 3개",
     "마감일 명시",
@@ -20442,6 +20528,7 @@
    "type": "공기업",
    "end": "2026-10-16",
    "url": "https://www.kimco.re.kr/recruit/recruit_person/list",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -20525,6 +20612,7 @@
    "type": "대기업",
    "end": "2026-10-15",
    "url": "https://xisnd.ninehire.site/job_posting/ZZqeeq3N?utm_source=%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4",
+   "group": "",
    "why": [
     "직무 5개",
     "마감일 명시",
@@ -20623,6 +20711,7 @@
    "type": "중견기업",
    "end": "2026-10-11",
    "url": "https://jeil.recruiter.co.kr/career/jobs/129870",
+   "group": "",
    "why": [
     "직무 13개",
     "마감일 명시",
@@ -21000,6 +21089,7 @@
    "type": "",
    "end": "2026-11-04",
    "url": "https://mapgroup.recruiter.co.kr/career/jobs/129671?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609map",
+   "group": "",
    "why": [
     "직무 12개",
     "마감일 명시",
@@ -21198,6 +21288,7 @@
    "type": "중견기업",
    "end": "2026-10-18",
    "url": "https://idfn.career.greetinghr.com/ko/guide",
+   "group": "",
    "why": [
     "직무 13개",
     "마감일 명시",
@@ -21439,6 +21530,7 @@
    "type": "대기업",
    "end": "2026-10-19",
    "url": "https://ourhome.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609ourhome",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -21522,6 +21614,7 @@
    "type": "금융",
    "end": "2026-10-18",
    "url": "https://wooriam.incruit.com/hire/hirelist.asp",
+   "group": "",
    "why": [
     "직무 5개",
     "마감일 명시",
@@ -21627,6 +21720,7 @@
    "type": "중견기업",
    "end": "2026-10-08",
    "url": "https://arex.incruit.com/hire/hirelist.asp",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -21712,6 +21806,7 @@
    "type": "공기업",
    "end": "2026-10-16",
    "url": "https://kvic.incruit.com/hire/viewhire.asp?projectid=105",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -21780,6 +21875,7 @@
    "type": "중견기업",
    "end": "2026-10-15",
    "url": "https://weverse.co/jobs",
+   "group": "",
    "why": [
     "직무 5개",
     "마감일 명시",
@@ -21903,6 +21999,7 @@
    "type": "",
    "end": "2026-10-12",
    "url": "https://airportfc.recruitlab.co.kr/",
+   "group": "",
    "why": [
     "직무 22개",
     "마감일 명시",
@@ -22260,6 +22357,7 @@
    "type": "중견기업",
    "end": "2026-10-21",
    "url": "https://huonsgroup.recruiter.co.kr/career/home",
+   "group": "",
    "why": [
     "직무 7개",
     "마감일 명시",
@@ -22392,6 +22490,7 @@
    "type": "중견기업",
    "end": "2026-11-30",
    "url": "https://careers.gabia.com/",
+   "group": "",
    "why": [
     "직무 7개",
     "마감일 명시",
@@ -22543,6 +22642,7 @@
    "type": "중견기업",
    "end": "2026-10-07",
    "url": "https://psk.recruiter.co.kr/career/jobs/130158",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -22599,6 +22699,7 @@
    "type": "금융",
    "end": "2026-10-12",
    "url": "https://recruit.incruit.com/kdbc/",
+   "group": "",
    "why": [
     "직무 3개",
     "마감일 명시",
@@ -22663,6 +22764,7 @@
    "type": "",
    "end": "2026-10-16",
    "url": "https://jrs.jobkorea.co.kr/nongmin",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -22711,6 +22813,7 @@
    "type": "대기업",
    "end": "2026-11-01",
    "url": "https://edu.rapa.or.kr/recruitment/428",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -22790,6 +22893,7 @@
    "type": "중견기업",
    "end": "2026-10-11",
    "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609300003523&handle=3787F44F5A47F52FC9AF4F246FCDAC6EB357EED1BEF8D89464E5CEDCC38FF823",
+   "group": "",
    "why": [
     "직무 6개",
     "마감일 명시",
@@ -22908,6 +23012,7 @@
    "type": "중견기업",
    "end": "2026-10-11",
    "url": "https://recruit.mwc.co.kr/recruit?mode=detail&nidx=286",
+   "group": "",
    "why": [
     "직무 17개",
     "마감일 명시",
@@ -23210,6 +23315,7 @@
    "type": "중견기업",
    "end": "2026-10-19",
    "url": "https://webzen.recruiter.co.kr/career/job",
+   "group": "",
    "why": [
     "직무 13개",
     "마감일 명시",
@@ -23470,6 +23576,7 @@
    "type": "중견기업",
    "end": "2026-10-16",
    "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers?locationCountry=7a5a2aadf9d34086a2bfbfd408bc28da",
+   "group": "",
    "why": [
     "직무 4개",
     "마감일 명시",
@@ -23561,6 +23668,7 @@
    "type": "",
    "end": "2026-10-12",
    "url": "http://recruit.incruit.com/dhsc/",
+   "group": "",
    "why": [
     "직무 11개",
     "마감일 명시",
@@ -23757,6 +23865,7 @@
    "type": "중견기업",
    "end": "2026-10-15",
    "url": "https://techwing.careerlink.kr/jobs",
+   "group": "",
    "why": [
     "직무 15개",
     "마감일 명시",
@@ -24028,6 +24137,7 @@
    "type": "공기업",
    "end": "2026-10-19",
    "url": "https://koreaexim.incruit.com/hire/viewhire.asp?projectid=115",
+   "group": "",
    "why": [
     "직무 10개",
     "마감일 명시",
@@ -24197,6 +24307,7 @@
    "type": "공기업",
    "end": "2026-10-07",
    "url": "https://academy.ksia.or.kr/insights/notice/1879",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",
@@ -24246,6 +24357,7 @@
    "type": "대기업",
    "end": "2026-10-15",
    "url": "https://careers.lg.com/apply?c=SVO",
+   "group": "",
    "why": [
     "직무 2개",
     "마감일 명시",

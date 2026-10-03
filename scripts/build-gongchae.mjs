@@ -37,6 +37,17 @@ const daysAgo = (d) => (Date.parse(today) - Date.parse(d)) / 864e5;
 const readJson = async (f, fb) => { try { return JSON.parse(await readFile(f, "utf-8")); } catch { return fb; } };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/* ---------- 그룹 공채: 계열사 전체에서 한 곳만 지원 ----------
+   삼성·신세계는 공채 기간에 계열사별 공고가 따로 올라와도 전 계열사·전 직무 중 하나만 지원할 수 있다(2026-10-03 소민 확인).
+   그래서 이 그룹들은 공고 하나 안이 아니라 그룹 전체 직무를 한 줄로 세운다. 다른 그룹은 확인되면 여기에 더한다. */
+const GROUPS = [
+  { name: "삼성", re: /^삼성|제일기획|에스원|호텔신라|웰스토리/, note: "삼성 공채는 전 계열사·전 직무 중 1곳만 지원할 수 있어요" },
+  { name: "신세계", re: /신세계|이마트|SSG|스타벅스|조선호텔|센트럴시티|까사|에브리데이/, note: "신세계 공채는 전 계열사·전 직무 중 1곳만 지원할 수 있어요" },
+];
+const groupOf = (company) => GROUPS.find((g) => g.re.test(company)) || null;
+/* 직무 단위로 그때그때 뽑는 회사(쿠팡·토스처럼) — 직무가 여럿 걸려 있어도 공채로 보지 않는다 */
+const ROLE_BASED = /쿠팡|토스|당근|우아한형제들|배달의민족|무신사|컬리|야놀자|여기어때|직방|숨고|크몽|쏘카|카카오페이|카카오모빌리티|카카오뱅크|네이버|라인|하이퍼커넥트|몰로코|센드버드|리디|뱅크샐러드|오늘의집|에이블리|번개장터|크림|캐치테이블|마이리얼트립|업스테이지|뤼튼/;
+
 /* ---------- 1) 공채 판별 ----------
    공채 신호(점수 합 3 이상이면 공채):
    - 직무가 2개 이상(+2), 5개 이상(+1)
@@ -50,6 +61,10 @@ function classify(job, det) {
   const tracks = det?.tracks || [];
   const why = [];
   let s = 0;
+  if (ROLE_BASED.test(job.company) || job.source === "원티드") return { gongchae: false, score: -9, why: ["직무 단위 수시 채용 회사"] };
+  // 삼성·신세계 계열사 공고는 직무가 하나여도 그룹 공채의 일부
+  const g = groupOf(job.company);
+  if (g && tracks.length >= 1 && job.end && job.confirmed !== false) return { gongchae: true, score: 9, why: [`${g.name} 그룹 공채(전 계열사 중 1곳만)`, `직무 ${tracks.length}개`] };
   if (tracks.length >= 2) { s += 2; why.push(`직무 ${tracks.length}개`); }
   if (tracks.length >= 5) s += 1;
   if (job.end) { s += 1; why.push("마감일 명시"); }
@@ -248,7 +263,7 @@ async function main() {
 
     const maxApplicants = Math.max(1, ...tracks.map((t) => t.applicants || 0));
     out.push({
-      id: j.id, company: j.company, type: j.type || "", end: j.end || "", url: j.url,
+      id: j.id, company: j.company, type: j.type || "", end: j.end || "", url: j.url, group: groupOf(j.company)?.name || "",
       why: c.why, jdSource: source || "직무 이름만", oneOnly: ONE_ONLY.test(text),
       revenue, pastTracks: pastTracks[j.company] || 0,
       tracks: tracks.map((t) => {
@@ -272,9 +287,13 @@ async function main() {
   const liveIds = new Set(live.map((j) => j.id));
   for (const id of Object.keys(cache.jsImages)) if (!liveIds.has(id)) delete cache.jsImages[id];
 
-  await writeFile(OUT, JSON.stringify({ updated: today, rules: "공채 판별·직무별 JD·전략 신호는 scripts/build-gongchae.mjs 참고", items: out }, null, 1) + "\n", "utf-8");
+  // 그룹 공채 묶음(계열사 공고 여러 개 → 하나만 지원)
+  const groups = GROUPS.map((g) => ({ name: g.name, note: g.note, oneOnly: true, ids: out.filter((x) => x.group === g.name).map((x) => x.id) }))
+    .filter((g) => g.ids.length);
+  await writeFile(OUT, JSON.stringify({ updated: today, rules: "공채 판별·직무별 JD·전략 신호는 scripts/build-gongchae.mjs 참고", groups, items: out }, null, 1) + "\n", "utf-8");
   await writeFile(CACHE, JSON.stringify(cache) + "\n", "utf-8");
   const bySrc = out.reduce((m, x) => ((m[x.jdSource] = (m[x.jdSource] || 0) + 1), m), {});
+  groups.forEach((g) => console.log(`그룹 공채 ${g.name}: 공고 ${g.ids.length}개 · 직무 ${out.filter((x) => x.group === g.name).reduce((n, x) => n + x.tracks.length, 0)}개`));
   console.log(`공채 ${out.length}건 저장 · JD 출처 ${JSON.stringify(bySrc)} · 새로 글자 인식 ${ocrNew} · 뉴스 갱신 ${newsNew} · 매출 갱신 ${dartNew}${DART_KEY ? "" : " (DART_API_KEY 없음 — 매출 건너뜀)"}`);
 }
 
