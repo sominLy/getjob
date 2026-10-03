@@ -489,6 +489,15 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .mt-me textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px;background:var(--paper);font-size:13px;margin-top:8px}
 .mt-edit-actions{display:flex;gap:8px;margin-top:8px}
 .mt-tiers{margin-bottom:12px}
+.fx{display:inline-block;white-space:nowrap;margin-left:6px;font-family:var(--sans);font-size:10.5px;font-weight:700;line-height:1.4;padding:0 5px;border-radius:5px;vertical-align:middle;cursor:help}
+.fx-hi{background:var(--accent-soft);color:var(--accent-ink)}
+.fx-good{background:var(--accent-soft);color:var(--accent-ink);opacity:.8}
+.fx-mid{background:var(--line-2);color:var(--ink-2)}
+.fx-warn{background:var(--amber-soft);color:var(--amber)}
+.fx-low{background:var(--urgent-soft);color:var(--urgent)}
+.fx-hint{font-size:11px;font-weight:600;padding:1px 6px;border-radius:5px;background:var(--line-2);color:var(--ink-2);white-space:nowrap}
+.tb-date .fx-hint{display:inline-block;margin:2px 0 0 6px}
+.fx-today{margin:2px 0 6px;font-size:11.5px;color:var(--muted)}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
 .seg button{border:0;background:var(--card);padding:6px 14px;font-size:13px;color:var(--muted);cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink);font-weight:700}
@@ -1470,10 +1479,68 @@ document.getElementById("privBtn").onclick = async function(){
 let MY_NOTES = {};
 async function loadMyNotes(){
   if(!privOn()){ MY_NOTES = {}; return; }
+  loadDays();
   const { data, error } = await sb.from("jobboard_my_notes").select("job_id,fortune,fortune_note,checked_at");
   if(error){ console.warn("jobboard_my_notes:", error.message); MY_NOTES = {}; return; }
   MY_NOTES = Object.fromEntries((data || []).map(r => [r.job_id, r]));
 }
+/* ---------- 일별 운세 점수(소민 전용) ----------
+   data/owner-days.json: 날짜별 통합 지표(원문 앵커 60% + 명리 30% + 천문 10%, 원문 없는 날은 명리 78% + 천문 22%).
+   상징적 행동 우선순위일 뿐 합격 확률이 아니다. 출생 정보·원국·해석 근거는 파일에 없다. */
+let DAYS = null, daysPromise = null;
+function loadDays(){
+  if(daysPromise) return daysPromise;
+  daysPromise = fetch("data/owner-days.json?t=" + Date.now()).then(r => r.ok ? r.json() : null)
+    .then(o => { DAYS = o && o.days; if(DAYS) renderAll(); }).catch(() => {});
+  return daysPromise;
+}
+const FX_COLS = ["dp", "mp", "src", "bazi", "astro", "score", "verdict", "retro"];
+function fxDay(k){
+  if(!DAYS || !privOn() || !DAYS[k]) return null;
+  const o = {}; FX_COLS.forEach((c, i) => o[c] = DAYS[k][i]); o.date = k; return o;
+}
+const fxTone = n => n >= 85 ? "hi" : n >= 78 ? "good" : n >= 70 ? "mid" : n >= 62 ? "warn" : "low";
+const fxHelp = n => n >= 85 ? "제출 후보일 — 완성된 지원서일 때만, 마감과 품질이 우선"
+  : n >= 78 ? "제출에 무난 — 체크리스트를 마치면 진행"
+  : n >= 70 ? "검토·수정 후 제출 가능 — 날짜보다 완성도와 마감이 우선"
+  : n >= 62 ? "초안 검토·버전 정리에 쓰고, 제출하면 이중 확인"
+  : "중요 제출은 여유가 있으면 피하고, 불가피하면 제3자 검토 후";
+function fxBadge(k, withVerdict){
+  const x = fxDay(k); if(!x) return null;
+  const b = document.createElement("span"); b.className = "fx fx-" + fxTone(x.score);
+  b.textContent = (withVerdict ? "운 " : "") + x.score + (withVerdict ? " " + x.verdict : "");
+  b.title = k + " " + x.dp + "일 · " + x.mp + "월 · 통합 " + x.score + " " + x.verdict +
+    (x.src != null ? " (원문 " + x.src + ")" : "") + (x.retro ? " · " + (x.retro.includes("m") ? "수성 역행 " : "") + (x.retro.includes("v") ? "금성 역행" : "") : "") +
+    "\n" + fxHelp(x.score) + "\n※ 상징 지표, 합격 확률 아님";
+  return b;
+}
+/* 제출 추천일: 마감형은 오늘~D-2 중 통합 점수가 가장 높은 날(같으면 이른 날), 수시·상시는 준비되는 즉시 */
+function bestSubmit(j){
+  if(!DAYS || !privOn()) return null;
+  const end = deadline(j);
+  if(!end) return {kind: "now", text: "수시·상시 — 준비되는 즉시 제출"};
+  const n = dleft(end);
+  if(n < 0) return null;
+  if(n < 2) return {kind: "due", text: "마감 임박 — 체크리스트 후 바로 제출"};
+  let best = null;
+  for(let i = 0; i <= n - 2; i++){
+    const d = new Date(TODAY); d.setDate(TODAY.getDate() + i);
+    const x = fxDay(iso(d)); if(!x) continue;
+    if(!best || x.score > best.score) best = x;
+  }
+  if(!best) return null;
+  const DOW = ["일","월","화","수","목","금","토"], d = parse(best.date);
+  return {kind: "day", date: best.date, score: best.score,
+    text: (d.getMonth() + 1) + "/" + d.getDate() + "(" + DOW[d.getDay()] + ") " + best.score + " " + best.verdict};
+}
+function submitHint(j){
+  const b = bestSubmit(j); if(!b) return null;
+  const el = document.createElement("span"); el.className = "fx-hint" + (b.kind === "day" ? " fx-" + fxTone(b.score) : "");
+  el.textContent = (b.kind === "day" ? "제출 추천 " : "") + b.text;
+  el.title = "D-2까지 제출 원칙 안에서 일운 통합 점수가 가장 높은 날 · 상징 지표, 합격 확률 아님";
+  return el;
+}
+
 function myBadge(id){
   const n = MY_NOTES[id];
   if(!n) return null;
@@ -1743,8 +1810,9 @@ function mineTable(){
     const cEnd = td("tb-date", "마감");
     const ed = document.createElement("input"); ed.type = "date"; ed.value = deadline(j) || ""; ed.setAttribute("aria-label", j.company + " 마감일");
     if(!ed.value) cEnd.classList.add("empty");
+    if(st === "대기" || st === "확인필요"){ const h = submitHint(j); if(h && h.textContent.startsWith("제출")) cEnd.append(h); }
     ed.onchange = () => { if(custom) custom.end = ed.value; else a.myEnd = ed.value; save(); renderAll(); };
-    cEnd.append(ed);
+    cEnd.prepend(ed);
     const cNote = td("tb-note", "메모");
     const ni = document.createElement("input"); ni.value = a.note || ""; ni.placeholder = "—"; ni.setAttribute("aria-label", j.company + " 메모");
     ni.onchange = () => { a.note = ni.value; save(); };
@@ -2211,6 +2279,7 @@ function renderCal(){
     c.className = "cell" + (d.getMonth()!==curMonth.getMonth() ? " out" : "") +
                   (iso(d)===iso(TODAY) ? " is-today" : "");
     const n = document.createElement("div"); n.className = "dnum"; n.textContent = d.getDate();
+    const fb = fxBadge(iso(d)); if(fb) n.appendChild(fb);
     c.appendChild(n);
     (ev[iso(d)] || []).forEach(function(e){
       const b = document.createElement("button");
@@ -2248,6 +2317,7 @@ function renderCalList(ev){
     const sec = document.createElement("section"); sec.className = "cl-day" + (iso(d) === iso(TODAY) ? " is-today" : "");
     const h = document.createElement("h3"); h.className = "cl-h";
     h.textContent = (m + 1) + "월 " + day + "일 (" + DOW[d.getDay()] + ")" + (iso(d) === iso(TODAY) ? " · 오늘" : "");
+    const fb = fxBadge(iso(d), true); if(fb) h.append(" ", fb);
     sec.append(h);
     list.forEach(function(e){
       const b = document.createElement("button");
@@ -2385,6 +2455,7 @@ function openJob(id){
   add("접수 마감", j.end ? fmtAt(j.end, j.endTime) + " (" + dday(j.end) + ")" : "");
   add("기업 형태", j.type);
   add("출처", j.source);
+  if(!a.applied || a.doc === "대기"){ const sb = bestSubmit(j); if(sb) add("제출 추천일", sb.kind === "day" ? sb.text + " (D-2까지 중 일운 최고)" : sb.text); }
   if(MY_NOTES[id] && MY_NOTES[id].fortune)
     add("운세 판정", MY_NOTES[id].fortune + (MY_NOTES[id].fortune_note ? " — " + MY_NOTES[id].fortune_note : ""));
   if(a.applied){
@@ -2439,11 +2510,15 @@ function renderWeek(){
     const k = iso(d);
     const day = document.createElement("div");
     day.className = "day" + (k===iso(TODAY) ? " is-today" : "") +
-      (!(ev[k] || []).length && !(db.todos[k] || []).length ? " empty" : "");
+      (!(ev[k] || []).length && !(db.todos[k] || []).length && !(k === iso(TODAY) && fxDay(k)) ? " empty" : "");
     const h = document.createElement("h3");
     h.appendChild(document.createTextNode(names[i]));
     const bb = document.createElement("b"); bb.textContent = d.getDate(); h.appendChild(bb);
+    const fb = fxBadge(k, true); if(fb) h.appendChild(fb);
     day.appendChild(h);
+    if(k === iso(TODAY) && fxDay(k)){
+      const t = document.createElement("p"); t.className = "fx-today"; t.textContent = fxHelp(fxDay(k).score); day.appendChild(t);
+    }
 
     (ev[k] || []).forEach(function(e){
       const p = document.createElement("button");
@@ -3379,7 +3454,7 @@ function renderMatch(){
       const a = document.createElement("a"); a.className = "rd-t"; a.href = r.j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = r.j.title;
       const meta = document.createElement("div"); meta.className = "rd-meta";
       meta.append(MT_SRC[r.j.src] || r.j.src);
-      if(r.j.end) meta.append(" · 마감 " + r.j.end);
+      if(r.j.end){ meta.append(" · 마감 " + r.j.end); const h = submitHint(r.j); if(h){ meta.append(" · "); meta.append(h); } }
       const tags = document.createElement("div"); tags.className = "rd-tags";
       r.got.forEach(k => { const s = document.createElement("span"); s.className = "rd-tag role"; s.textContent = k; tags.append(s); });
       r.miss.forEach(k => { const s = document.createElement("span"); s.className = "rd-tag mt-tag-miss"; s.textContent = k; s.title = "내 경험에 없는 키워드"; tags.append(s); });
