@@ -40,7 +40,7 @@
   --paper:#FAFAF9; --card:#FFFFFF; --ink:#1C1D1B; --ink-2:#4B4E49; --muted:#82877E;
   --line:#E4E6E1; --line-2:#F0F1EE;
   --accent:var(--a-l); --accent-soft:var(--a-l-soft); --accent-ink:var(--a-l-ink);
-  --urgent:#C24B32; --urgent-soft:#FAE5DF;
+  --urgent:#C24B32; --urgent-soft:#FAE5DF; --violet:#5B4BA5; --violet-soft:#ECE8F8;
   --amber:#8E6A16; --amber-soft:#F8EFD8;
   --pass:var(--a-l); --fail:#909690;
   --shadow:0 1px 2px rgba(24,26,22,.05),0 8px 22px rgba(24,26,22,.05);
@@ -52,7 +52,7 @@
   --paper:#121311; --card:#1B1D19; --ink:#EDEEEA; --ink-2:#BFC2BA; --muted:#868B81;
   --line:#2E312C; --line-2:#232620;
   --accent:var(--a-d); --accent-soft:var(--a-d-soft); --accent-ink:var(--a-d-ink);
-  --urgent:#F08A6E; --urgent-soft:#3B241C;
+  --urgent:#F08A6E; --urgent-soft:#3B241C; --violet:#B7A9F0; --violet-soft:#2A2440;
   --amber:#DBB05F; --amber-soft:#332A16;
   --pass:var(--a-d); --fail:#7E837A;
   --shadow:0 1px 2px rgba(0,0,0,.34),0 8px 22px rgba(0,0,0,.28);
@@ -61,7 +61,7 @@
   --paper:#121311; --card:#1B1D19; --ink:#EDEEEA; --ink-2:#BFC2BA; --muted:#868B81;
   --line:#2E312C; --line-2:#232620;
   --accent:var(--a-d); --accent-soft:var(--a-d-soft); --accent-ink:var(--a-d-ink);
-  --urgent:#F08A6E; --urgent-soft:#3B241C;
+  --urgent:#F08A6E; --urgent-soft:#3B241C; --violet:#B7A9F0; --violet-soft:#2A2440;
   --amber:#DBB05F; --amber-soft:#332A16;
   --pass:var(--a-d); --fail:#7E837A;
   --shadow:0 1px 2px rgba(0,0,0,.34),0 8px 22px rgba(0,0,0,.28);
@@ -70,7 +70,7 @@
   --paper:#FAFAF9; --card:#FFFFFF; --ink:#1C1D1B; --ink-2:#4B4E49; --muted:#82877E;
   --line:#E4E6E1; --line-2:#F0F1EE;
   --accent:var(--a-l); --accent-soft:var(--a-l-soft); --accent-ink:var(--a-l-ink);
-  --urgent:#C24B32; --urgent-soft:#FAE5DF;
+  --urgent:#C24B32; --urgent-soft:#FAE5DF; --violet:#5B4BA5; --violet-soft:#ECE8F8;
   --amber:#8E6A16; --amber-soft:#F8EFD8;
   --pass:var(--a-l); --fail:#909690;
   --shadow:0 1px 2px rgba(24,26,22,.05),0 8px 22px rgba(24,26,22,.05);
@@ -489,6 +489,58 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .mt-me textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px;background:var(--paper);font-size:13px;margin-top:8px}
 .mt-edit-actions{display:flex;gap:8px;margin-top:8px}
 .mt-tiers{margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+.seg button{border:0;background:var(--card);padding:6px 14px;font-size:13px;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink);font-weight:700}
+.dup-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 14px;margin-bottom:12px;border:1px solid var(--amber);background:var(--amber-soft);color:var(--amber);border-radius:10px;font-size:13px;font-weight:600}
+.dup-bar span{flex:1;min-width:200px}
+.tb-tiles{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:14px}
+.tb-tile{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);cursor:pointer;text-align:left}
+.tb-tile b{font-family:var(--serif);font-size:24px;line-height:1.1}
+.tb-tile span{font-size:12px;color:var(--muted)}
+.tb-tile[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.tb-tile.s-합격 b{color:var(--accent-ink)} .tb-tile.s-대기 b{color:var(--amber)} .tb-tile.s-탈락 b{color:var(--urgent)}
+.tb-tile.s-확인필요 b{color:var(--violet)} .tb-tile.s-미지원 b{color:var(--muted)}
+.tb-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.tb-q{border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:13px;background:var(--card);color:var(--ink);min-width:170px}
+.tb{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13.5px}
+.tb th{text-align:left;font-size:11.5px;font-weight:600;color:var(--muted);padding:10px 10px;border-bottom:1px solid var(--line);background:var(--paper)}
+.tb td{padding:6px 10px;border-bottom:1px solid var(--line-2);vertical-align:middle}
+.tb tr:last-child td{border-bottom:0}
+.tb input{width:100%;border:1px solid transparent;border-radius:6px;background:none;padding:5px 6px;font:inherit;color:var(--ink)}
+.tb input:hover{border-color:var(--line)} .tb input:focus{border-color:var(--accent);outline:none;background:var(--paper)}
+.tb input[type=date]{font-family:var(--serif);font-size:13px;min-width:120px}
+.tb-co{font-weight:700;white-space:nowrap} .tb-co input{font-weight:700}
+.tb-link{margin-left:6px;font-size:12px;color:var(--muted);text-decoration:none}
+.tb-role{min-width:150px} .tb-note{width:32%;color:var(--ink-2)}
+.tb-pill{border:0;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;appearance:none;-webkit-appearance:none;text-align:center;min-width:76px}
+.tb-pill.s-합격{background:var(--accent-soft);color:var(--accent-ink)}
+.tb-pill.s-대기{background:var(--amber-soft);color:var(--amber)}
+.tb-pill.s-탈락{background:var(--urgent-soft);color:var(--urgent)}
+.tb-pill.s-확인필요{background:var(--violet-soft);color:var(--violet)}
+.tb-pill.s-미지원{background:var(--line-2);color:var(--muted)}
+tr.s-미지원 td{opacity:.6}
+.tb-del{border:0;background:none;color:var(--muted);font-size:16px;cursor:pointer;padding:2px 6px}
+.tb-del:hover{color:var(--urgent)}
+.tb-empty{text-align:center;color:var(--muted);padding:24px}
+/* 비어 있는 날짜 칸은 'mm/dd/yyyy' 대신 —로 (누르면 달력이 열린다) */
+.tb-date{position:relative}
+.tb-date.empty input:not(:focus){color:transparent}
+.tb-date.empty:not(:focus-within)::after{content:"—";position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.tb-role{min-width:190px}
+@media (max-width:820px){ .tb-tiles{grid-template-columns:repeat(3,1fr)} }
+@media (max-width:640px){
+  .tb thead{display:none}
+  .tb,.tb tbody,.tb tr,.tb td{display:block}
+  .tb tr{display:grid;grid-template-columns:1fr auto;gap:2px 8px;padding:10px 12px;border-bottom:1px solid var(--line)}
+  .tb td{border:0;padding:2px 0}
+  .tb-co{grid-column:1} .tb-st{grid-column:2;grid-row:1}
+  .tb-role,.tb-note{grid-column:1/-1;width:auto}
+  .tb-date{grid-column:auto;display:flex !important;align-items:center;gap:6px}
+  .tb-date::before{content:attr(data-label);font-size:11px;color:var(--muted);white-space:nowrap}
+  .tb-x{grid-column:2;grid-row:2;justify-self:end}
+  .tb-q{flex:1}
+}
 .sl-side{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
 .sl-add{font-size:12px;padding:4px 10px}
 .sl-add[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink);border-color:var(--accent-soft)}
@@ -774,6 +826,7 @@ thead th{font-weight:600;letter-spacing:.07em}
       <h2>내 지원</h2>
       <p class="sub">전체 공고에서 ‘지원’을 누른 것만 모입니다. 서류 결과를 합격으로 바꾸면 다음 전형을 붙일 수 있습니다.</p>
       <span class="hspace"></span>
+      <div class="seg" role="group" aria-label="보기 방식"><button type="button" id="mvTable">표</button><button type="button" id="mvCard">카드</button></div>
       <button class="ghost" id="stBtn" title="정리해 둔 지원 현황표(마크다운 표)를 붙여넣어 한 번에 반영">지원 현황표 붙여넣기</button>
     </div>
     <div class="apps" id="apps"></div>
@@ -1173,7 +1226,8 @@ function deadline(j){ const a = app(j.id); return (a.applied && a.myEnd) ? a.myE
 function deadlineTime(j){ const a = app(j.id); return a.myEndTime || (a.myEnd ? "" : (j.endTime || "")); }
 let SHARED = [];    /* 다른 사람이 올린 제보 공고 */
 let ARCHIVE = [];   /* 마감된 공고 — 무거워서 필요할 때만 불러온다 */
-function allJobs(){ return SEED.concat(SHARED, ARCHIVE, db.custom).filter(j => !j.deleted); }
+/* 같은 공고(id)가 목록·보관함에 겹쳐 들어와도 한 번만 */
+function allJobs(){ const seen = new Set(); return SEED.concat(SHARED, ARCHIVE, db.custom).filter(j => !j.deleted && !seen.has(j.id) && seen.add(j.id)); }
 
 /* 마감 공고는 당장 지원할 수 없어 첫 화면에는 없어도 된다.
    "마감" 필터를 켜거나 회사를 검색할 때만 받아 온다. */
@@ -1539,6 +1593,177 @@ function ddayBoard(list){
   box.appendChild(ul);
   return box;
 }
+/* ---------- 같은 회사 이름 맞추기 · 중복 지원 합치기 ----------
+   '한국후지필름'과 '후지필름_18시', 'SKT'와 'SK텔레콤'처럼 표기만 다른 이름을 같은 회사로 본다. */
+const CO_ALIAS = {skt: "sk텔레콤", "기아자동차": "기아", "현대차": "현대자동차", "lg엔솔": "lg에너지솔루션", "kt&g": "ktng", "케이티앤지": "ktng"};
+function canonCo(s){
+  let k = (s || "").split(/[_(\[]/)[0].toLowerCase().replace(/주식회사|㈜|[\s·\-—]/g, "");
+  k = CO_ALIAS[k] || k;
+  return k.length > 3 ? k.replace(/^한국/, "") : k;
+}
+const roleKey = (j, a) => (a.role || (j.source === "직접 등록" ? j.hist || "" : "")).toLowerCase().replace(/[\s·\-—_/()]/g, "");
+/* 내 지원 안에서 같은 회사·같은 직무로 보이는 짝 — 직무가 분명히 다르면(메가스터디 고등/유초중) 짝이 아니다 */
+function findDupes(){
+  const list = myJobs(), pairs = [], used = new Set();
+  for(let i = 0; i < list.length; i++) for(let k = i + 1; k < list.length; k++){
+    const x = list[i], y = list[k];
+    if(used.has(x.id) || used.has(y.id) || canonCo(x.company) !== canonCo(y.company)) continue;
+    const rx = roleKey(x, app(x.id)), ry = roleKey(y, app(y.id));
+    if(rx && ry && !rx.includes(ry) && !ry.includes(rx)) continue;
+    pairs.push([x, y]); used.add(x.id); used.add(y.id);
+  }
+  return pairs;
+}
+/* 남길 쪽: 지원보드 공고 > 내용이 많은 쪽. 나머지의 직무·결과·전형·메모·자소서를 옮기고 지운다 */
+function mergeDupe(x, y){
+  const isCustom = j => db.custom.some(c => c.id === j.id);
+  const weight = j => { const a = app(j.id); return (isCustom(j) ? 0 : 100) + a.stages.length * 5 + (a.essays || []).length * 3 + (a.note ? 1 : 0) + (a.doc !== "대기" ? 2 : 0); };
+  const [keep, drop] = weight(x) >= weight(y) ? [x, y] : [y, x];
+  const a = app(keep.id), b = app(drop.id);
+  if(!a.role) a.role = b.role || (isCustom(drop) ? drop.hist || "" : "");
+  if(a.doc === "대기" && b.doc !== "대기") a.doc = b.doc;
+  b.stages.forEach(st => { if(!a.stages.some(s => s.name === st.name)) a.stages.push(st); });
+  if(b.note && !(a.note || "").includes(b.note)) a.note = ((a.note || "") + " " + b.note).trim();
+  if(!(a.essays || []).length && (b.essays || []).length) a.essays = b.essays;
+  ["cover", "resume", "folio", "req", "pref", "resultAt", "myEnd"].forEach(f => { if(!a[f] && b[f]) a[f] = b[f]; });
+  if(b.check) a.check = true;
+  b.applied = false;
+  if(isCustom(drop)){ db.custom = db.custom.filter(c => c.id !== drop.id); delete db.apps[drop.id]; }
+}
+function dupBanner(){
+  const pairs = findDupes();
+  if(!pairs.length) return null;
+  const box = document.createElement("div"); box.className = "dup-bar";
+  const t = document.createElement("span");
+  t.textContent = "같은 공고로 보이는 지원 " + pairs.length + "쌍: " + pairs.slice(0, 4).map(([x, y]) => x.company + " ↔ " + y.company).join(", ") + (pairs.length > 4 ? " 외" : "");
+  const b = document.createElement("button"); b.className = "primary"; b.textContent = "하나로 합치기";
+  b.onclick = () => { pairs.forEach(([x, y]) => mergeDupe(x, y)); save(); renderAll(); toast(pairs.length + "쌍을 합쳤어요 · 직무·결과·메모는 남긴 쪽으로 옮겼어요"); };
+  box.append(t, b); return box;
+}
+
+/* ---------- 내 지원: 표로 관리 ----------
+   상태는 합격(진행 중)·대기·탈락·확인 필요·미지원 다섯 가지. 칸을 바로 고치면 저장된다. */
+const T_STATUS = ["합격", "대기", "탈락", "확인필요", "미지원"];
+const T_LABEL = {"합격": "합격·진행", "대기": "결과 대기", "탈락": "탈락", "확인필요": "확인 필요", "미지원": "미지원"};
+let tFilter = "", tQuery = "";
+function tStatus(a){
+  if(!a.applied) return a.skip ? "미지원" : null;
+  if(a.check) return "확인필요";
+  if(a.doc === "불합격" || a.stages.some(s => s.result === "불합격")) return "탈락";
+  return a.doc === "합격" ? "합격" : "대기";
+}
+function setTStatus(a, v){
+  a.check = false; a.skip = false; a.applied = true;
+  if(v === "합격"){ a.doc = "합격"; a.stages.forEach(s => { if(s.result === "불합격") s.result = "예정"; }); }
+  else if(v === "대기"){ a.doc = "대기"; }
+  else if(v === "탈락"){
+    const last = a.stages[a.stages.length - 1];
+    if(a.doc === "합격" && last) last.result = "불합격"; else a.doc = "불합격";
+  }
+  else if(v === "확인필요"){ a.check = true; }
+  else if(v === "미지원"){ a.applied = false; a.skip = true; }
+}
+function mineTable(){
+  const all = allJobs().map(j => ({j, a: db.apps[j.id]})).filter(r => r.a && tStatus(r.a));
+  all.forEach(r => r.st = tStatus(r.a));
+  const box = document.createElement("div"); box.className = "tb-wrap";
+
+  const tiles = document.createElement("div"); tiles.className = "tb-tiles";
+  [["", "지원 합계", all.filter(r => r.st !== "미지원").length]].concat(T_STATUS.map(k => [k, T_LABEL[k], all.filter(r => r.st === k).length])).forEach(([k, l, n]) => {
+    const b = document.createElement("button"); b.type = "button"; b.className = "tb-tile " + (k ? "s-" + k : "s-all");
+    b.setAttribute("aria-pressed", tFilter === k);
+    const nn = document.createElement("b"); nn.textContent = n; const ll = document.createElement("span"); ll.textContent = l;
+    b.append(nn, ll); b.onclick = () => { tFilter = tFilter === k ? "" : k; renderMine(); }; tiles.append(b);
+  });
+  box.append(tiles);
+
+  const bar = document.createElement("div"); bar.className = "tb-bar";
+  const chips = document.createElement("div"); chips.className = "chips sm";
+  [["", "전체"]].concat(T_STATUS.map(k => [k, k === "확인필요" ? "확인 필요" : k])).forEach(([k, l]) => {
+    const b = document.createElement("button"); b.type = "button"; b.textContent = l; b.setAttribute("aria-pressed", tFilter === k);
+    b.onclick = () => { tFilter = k; renderMine(); }; chips.append(b);
+  });
+  const q = document.createElement("input"); q.type = "search"; q.placeholder = "기업·직무 검색"; q.value = tQuery; q.className = "tb-q";
+  q.setAttribute("aria-label", "기업·직무 검색");
+  q.oninput = () => { tQuery = q.value; const pos = q.selectionStart; renderMine(); const nq = document.querySelector(".tb-q"); if(nq){ nq.focus(); nq.setSelectionRange(pos, pos); } };
+  const add = document.createElement("button"); add.className = "primary"; add.textContent = "+ 행 추가";
+  add.onclick = () => {
+    const c = prompt("회사 이름"); if(!c || !c.trim()) return;
+    const id = "u" + Date.now();
+    db.custom.push({id, company: c.trim(), roles: [], start: "", end: "", confirmed: true, source: "직접 등록", type: "", hist: "", url: ""});
+    app(id).applied = true; save(); renderAll();
+  };
+  const exp = document.createElement("button"); exp.className = "ghost"; exp.textContent = "내보내기";
+  exp.onclick = () => {
+    const esc = v => '"' + String(v || "").replace(/"/g, '""') + '"';
+    const lines = [["기업", "직무", "상태", "결과 확인", "마감", "메모"].join(",")].concat(all.map(r => [r.j.company, r.a.role || "", T_LABEL[r.st], r.a.resultAt || "", deadline(r.j) || "", r.a.note || ""].map(esc).join(",")));
+    const blob = new Blob(["\ufeff" + lines.join("\n")], {type: "text/csv"});
+    const l = document.createElement("a"); l.href = URL.createObjectURL(blob); l.download = "지원현황_" + iso(new Date()) + ".csv"; l.click();
+  };
+  const sp = document.createElement("span"); sp.className = "hspace";
+  bar.append(chips, sp, q, add, exp); box.append(bar);
+
+  const order = r => T_STATUS.indexOf(r.st);
+  const ql = tQuery.trim().toLowerCase();
+  const rows = all.filter(r => (!tFilter || r.st === tFilter) &&
+      (!ql || (r.j.company + " " + (r.a.role || "") + " " + (r.a.note || "")).toLowerCase().includes(ql)))
+    .sort((x, y) => order(x) - order(y) || (deadline(x.j) || "9999").localeCompare(deadline(y.j) || "9999"));
+
+  const t = document.createElement("table"); t.className = "tb";
+  t.innerHTML = "<thead><tr><th>기업</th><th>직무</th><th>상태</th><th>결과 확인</th><th>마감</th><th>메모</th><th></th></tr></thead>";
+  const tb = document.createElement("tbody");
+  if(!rows.length){ const tr = document.createElement("tr"); tr.innerHTML = '<td colspan="7" class="tb-empty">해당하는 지원이 없어요.</td>'; tb.append(tr); }
+  rows.forEach(({j, a, st}) => {
+    const tr = document.createElement("tr"); tr.className = "s-" + st;
+    const td = (cls, label) => { const c = document.createElement("td"); c.className = cls; c.dataset.label = label; tr.append(c); return c; };
+    const custom = db.custom.find(c => c.id === j.id);
+    const cCo = td("tb-co", "기업");
+    if(custom){
+      const i = document.createElement("input"); i.value = j.company; i.setAttribute("aria-label", "기업");
+      i.onchange = () => { custom.company = i.value.trim() || custom.company; save(); renderAll(); }; cCo.append(i);
+    } else {
+      const s = document.createElement("span"); s.textContent = j.company; cCo.append(s);
+      if(j.url){ const l = document.createElement("a"); l.href = j.url; l.target = "_blank"; l.rel = "noopener"; l.textContent = "↗"; l.title = "공고 열기"; l.className = "tb-link"; cCo.append(l); }
+    }
+    const cRole = td("tb-role", "직무");
+    const ri = document.createElement("input"); ri.value = a.role || (custom ? j.hist || "" : ""); ri.placeholder = (j.roles || []).join(", ") || "직무";
+    ri.setAttribute("aria-label", j.company + " 직무");
+    ri.onchange = () => { a.role = ri.value.trim(); save(); };
+    cRole.append(ri);
+    const cSt = td("tb-st", "상태");
+    const ss = document.createElement("select"); ss.className = "tb-pill s-" + st; ss.setAttribute("aria-label", j.company + " 상태");
+    T_STATUS.forEach(k => { const o = document.createElement("option"); o.value = k; o.textContent = k === "확인필요" ? "확인 필요" : k; o.selected = k === st; ss.append(o); });
+    ss.onchange = () => { setTStatus(a, ss.value); save(); renderAll(); };
+    cSt.append(ss);
+    const cRes = td("tb-date", "결과 확인");
+    const rd = document.createElement("input"); rd.type = "date"; rd.value = a.resultAt || ""; rd.setAttribute("aria-label", j.company + " 결과 확인일");
+    if(!rd.value) cRes.classList.add("empty");
+    rd.onchange = () => { a.resultAt = rd.value; save(); };
+    cRes.append(rd);
+    const cEnd = td("tb-date", "마감");
+    const ed = document.createElement("input"); ed.type = "date"; ed.value = deadline(j) || ""; ed.setAttribute("aria-label", j.company + " 마감일");
+    if(!ed.value) cEnd.classList.add("empty");
+    ed.onchange = () => { if(custom) custom.end = ed.value; else a.myEnd = ed.value; save(); renderAll(); };
+    cEnd.append(ed);
+    const cNote = td("tb-note", "메모");
+    const ni = document.createElement("input"); ni.value = a.note || ""; ni.placeholder = "—"; ni.setAttribute("aria-label", j.company + " 메모");
+    ni.onchange = () => { a.note = ni.value; save(); };
+    cNote.append(ni);
+    const cX = td("tb-x", "");
+    const x = document.createElement("button"); x.type = "button"; x.className = "tb-del"; x.textContent = "×"; x.title = "목록에서 빼기";
+    x.onclick = () => {
+      if(!confirm(j.company + "을(를) 목록에서 뺄까요? 적어 둔 내용은 남아 있어 다시 지원하면 돌아옵니다.")) return;
+      a.applied = false; a.skip = false; save(); renderAll();
+    };
+    cX.append(x);
+    tb.append(tr);
+  });
+  t.append(tb); box.append(t);
+  return box;
+}
+document.getElementById("mvTable").onclick = () => { db.profile.mineView = "table"; save(); renderMine(); };
+document.getElementById("mvCard").onclick = () => { db.profile.mineView = "card"; save(); renderMine(); };
+
 function renderMine(){
   const wrap = document.getElementById("apps");
   wrap.innerHTML = "";
@@ -1546,6 +1771,11 @@ function renderMine(){
     return (deadline(x) || "9999").localeCompare(deadline(y) || "9999");
   });
   document.getElementById("c-mine").textContent = list.length || "";
+  const view = db.profile.mineView || "table";
+  document.getElementById("mvTable").setAttribute("aria-pressed", view === "table");
+  document.getElementById("mvCard").setAttribute("aria-pressed", view === "card");
+  const dup = dupBanner(); if(dup) wrap.appendChild(dup);
+  if(view === "table"){ wrap.appendChild(mineTable()); return; }
   if(!list.length){
     wrap.innerHTML = '<div class="empty">아직 담은 공고가 없습니다.<br>전체 공고에서 <b>지원</b>을 누르면 여기 모이고, 마감일과 전형 일정을 관리할 수 있습니다.</div>';
     return;
@@ -2384,6 +2614,12 @@ function renderRail(){
   });
   mine.sort((a,b) => a.d - b.d);
   rest.sort((a,b) => a.d - b.d);
+  /* 같은 회사가 같은 날 마감하는 공고 여러 개(NHN 직무별 공고 등)는 한 칸으로 묶는다 */
+  for(let i = rest.length - 1; i > 0; i--){
+    const k = rest.findIndex(x => x.d === rest[i].d && coKey(x.name) === coKey(rest[i].name));
+    if(k < i){ rest[k].n = (rest[k].n || 1) + 1; rest.splice(i, 1); }
+  }
+  rest.forEach(x => { if(x.n) x.what += " · 공고 " + x.n + "개"; });
 
   const rail = document.getElementById("rail");
   rail.innerHTML = "";
@@ -3394,7 +3630,7 @@ function stFind(row, used){
     const c = stNorm(j.company);
     /* '두산'이 '두산건설'에 붙지 않도록, 이름 뒤에 붙는 말은 그룹·자동차 같은 일반 꼬리만 허용한다 */
     const tail = /^(그룹|계열포함|ds부문|코리아|자동차|주식회사)$/;
-    return c && !used.has(j.id) && (c === key || (c.startsWith(key) && tail.test(c.slice(key.length))) ||
+    return c && !used.has(j.id) && (c === key || canonCo(j.company) === canonCo(row.company) || (c.startsWith(key) && tail.test(c.slice(key.length))) ||
       (key.startsWith(c) && tail.test(key.slice(c.length))));
   });
   const score = j => (app(j.id).applied ? 4 : 0) + (stNorm(j.company) === key ? 2 : 0) +
@@ -3433,7 +3669,7 @@ function stApply(){
   if(!stPlan) return;
   let added = 0, updated = 0, skipped = 0;
   stPlan.forEach(({r, j}, i) => {
-    if(r.sec === "skip"){ if(j){ app(j.id).applied = false; skipped++; } return; }
+    if(r.sec === "skip"){ if(j){ app(j.id).applied = false; app(j.id).skip = true; skipped++; } return; }
     let id = j && j.id;
     if(!id){
       id = "u" + Date.now() + i;

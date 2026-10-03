@@ -95,19 +95,6 @@
   {
    "회사": "BAT",
    "플랫폼": "greetinghr",
-   "title": "글로벌 뷰티 마케터 (일본)",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://bat.career.greetinghr.com/ko/o/233924",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-08-21",
-   "new": false
-  },
-  {
-   "회사": "BAT",
-   "플랫폼": "greetinghr",
    "title": "글로벌 뷰티 그로스 마케터 (북미)",
    "career": "경력무관",
    "emp": "정규직",
@@ -433,19 +420,6 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
-   "title": "[강남언니] 태국 소셜 마케팅 인턴 (체험형)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.gangnamunni.com/ko/o/235941",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-09-07",
-   "new": false
-  },
-  {
-   "회사": "강남언니",
-   "플랫폼": "greetinghr",
    "title": "[강남언니] 미국 도메스틱 플랫폼 사업개발 인턴 (체험형)",
    "career": "신입",
    "emp": "인턴",
@@ -714,32 +688,6 @@
    "cat": "전략·사업",
    "intern": false,
    "openDate": "2026-08-11",
-   "new": false
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
-   "title": "T&A실 중화권 사업개발 매니저 (중국어 가능자 우대)",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/232625",
-   "cat": "전략·사업",
-   "intern": false,
-   "openDate": "2026-08-11",
-   "new": false
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
-   "title": "T&A실 일본 파트너 마케팅 매니저 (일본어 가능자 우대)",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/232477",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-23",
    "new": false
   },
   {
@@ -1057,19 +1005,6 @@
   {
    "회사": "스캐터랩",
    "플랫폼": "greetinghr",
-   "title": "zeta Japan CS Operation",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://www.scatterlab.co.kr/ko/o/200088",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-01-27",
-   "new": false
-  },
-  {
-   "회사": "스캐터랩",
-   "플랫폼": "greetinghr",
    "title": "zeta US Service Monitoring Manager (플롯 검수)",
    "career": "경력무관",
    "emp": "FREE_LANCER",
@@ -1156,32 +1091,6 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2025-11-30",
-   "new": false
-  },
-  {
-   "회사": "업스테이지",
-   "플랫폼": "greetinghr",
-   "title": "【Upstage Japan】 Business / Marketing Intern (ビジネス / マーケティング インターン)",
-   "career": "-",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://careers.upstage.ai/ko/o/224319",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-06-24",
-   "new": false
-  },
-  {
-   "회사": "업스테이지",
-   "플랫폼": "greetinghr",
-   "title": "【Upstage Japan】 Education Program Manager (教育プログラムマネージャー)",
-   "career": "-",
-   "emp": "-",
-   "due": "상시",
-   "link": "https://careers.upstage.ai/ko/o/194861",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2025-12-16",
    "new": false
   },
   {
@@ -1313,32 +1222,6 @@
    "intern": false,
    "openDate": "2026-10-01",
    "new": true
-  },
-  {
-   "회사": "에코마케팅",
-   "플랫폼": "greetinghr",
-   "title": "[2026 하반기 집중 채용] 글로벌(일본) 마케터 채용 (일본인 우대)",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "2026-10-19",
-   "link": "https://career.echomarketing.co.kr/ko/o/235873",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-07",
-   "new": false
-  },
-  {
-   "회사": "에코마케팅",
-   "플랫폼": "greetinghr",
-   "title": "[2026 하반기 집중 채용] 글로벌(일본) 콘텐츠 마케터 경력 채용 (일본인 우대)",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://career.echomarketing.co.kr/ko/o/236934",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-14",
-   "new": false
   },
   {
    "회사": "에코마케팅",
@@ -1759,19 +1642,6 @@
   {
    "회사": "하이브",
    "플랫폼": "greetinghr",
-   "title": "[Weverse Company]  중국 마케팅 (인턴)*",
-   "career": "신입",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://careers.hybecorp.com/ko/o/238394",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-23",
-   "new": false
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
    "title": "[Weverse Company] 플랫폼 서비스 운영 (인턴)*",
    "career": "신입",
    "emp": "계약직",
@@ -1897,19 +1767,6 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-07-21",
-   "new": false
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
-   "title": "[HYBE] 중국 사업 운영 지원(공연이벤트)",
-   "career": "경력 1년~",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://careers.hybecorp.com/ko/o/208869",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-03-27",
    "new": false
   },
   {

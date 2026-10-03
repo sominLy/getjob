@@ -11,7 +11,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import { isNotJob } from "./lib/not-job.mjs";
+import { isNotJob, requiresOtherLang, isAbroadName } from "./lib/not-job.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "data");
@@ -40,11 +40,22 @@ async function main() {
   const cutoff = new Date(Date.now() - KEEP_DAYS * 24 * 60 * 60 * 1000)
     .toISOString().slice(0, 10);
 
-  // 0) 채용이 아닌 교육·학위 과정, 대학 교직원·병원 공고는 목록과 보관함에서 뺀다
+  // 같은 id가 두 번 들어간 공고는 하나만 남긴다
+  const uniq = (arr) => { const s = new Set(); return arr.filter((j) => !s.has(j.id) && s.add(j.id)); };
+  db.jobs = uniq(db.jobs);
+  archive.jobs = uniq(archive.jobs);
+
+  // 0) 채용이 아닌 교육·학위 과정, 대학 교직원·병원, 해외·다른 외국어 공고는 목록과 보관함에서 뺀다
   const jobText = (j) => [...(j.roles || []), ...(details.items?.[j.id]?.tracks || []).map((t) => t.name), j.hist || ""].join(" ");
   const nBefore = db.jobs.length + archive.jobs.length;
-  db.jobs = db.jobs.filter((j) => !isNotJob(j.company, jobText(j)));
-  archive.jobs = archive.jobs.filter((j) => !isNotJob(j.company, jobText(j)));
+  // 해외 근무·다른 외국어(일본어·중국어 등) 필요 공고도 뺀다
+  const body = (j) => (details.items?.[j.id]?.sections || []).map((s) => `${s.title}\n${s.body}`).join("\n");
+  // 모집 부문이 여럿이면 전부 해외·외국어 부문일 때만 뺀다(한 부문만 일본이면 공고는 남김)
+  const tracks = (j) => (details.items?.[j.id]?.tracks || []).map((t) => t.name).filter(Boolean);
+  const abroad = (j) => isAbroadName(j.company) || (tracks(j).length > 0 && tracks(j).every(isAbroadName));
+  const drop = (j) => isNotJob(j.company, jobText(j)) || abroad(j) || requiresOtherLang(body(j));
+  db.jobs = db.jobs.filter((j) => !drop(j));
+  archive.jobs = archive.jobs.filter((j) => !drop(j));
   const notJobs = nBefore - db.jobs.length - archive.jobs.length;
 
   // 1) 마감된 자동 수집 공고를 보관함으로 옮긴다(내가 직접 넣은 공고는 그대로 둔다)
@@ -77,7 +88,7 @@ async function main() {
   await writeFile(ARCHIVE_PATH, JSON.stringify(archive, null, 2) + "\n", "utf-8");
   if (detailsDropped) await writeFile(DETAILS_PATH, JSON.stringify(details, null, 2) + "\n", "utf-8");
 
-  console.log(`교육과정·대학·병원 공고 제외 ${notJobs}건, 보관함으로 ${moved.length}건 이동, 오래돼서 삭제 ${dropped}건, 딸린 본문 정리 ${detailsDropped}건.`);
+  console.log(`교육과정·대학·병원·외국어 공고 제외 ${notJobs}건, 보관함으로 ${moved.length}건 이동, 오래돼서 삭제 ${dropped}건, 딸린 본문 정리 ${detailsDropped}건.`);
   console.log(`현재 목록 ${db.jobs.length}건 / 보관함 ${archive.jobs.length}건.`);
 }
 

@@ -73,7 +73,10 @@ EMP_TYPE_KO = {
 EXCLUDE_TITLE = re.compile(
     r"팀장|디렉터|Director|Head\s*of|리드\b|Lead\b|CTO|CEO|COO|CFO|이사|상무|전무|"
     r"\bVP\b|개발자|Engineer|Developer|백엔드|프론트엔드|디자이너|Designer|UX|UI\s*디자인|"
-    r"QA\b|바리스타|부트\s*캠프|bootcamp|내일배움|양성\s*과정|아카데미",
+    r"QA\b|바리스타|부트\s*캠프|bootcamp|내일배움|양성\s*과정|아카데미|"
+    # 해외 근무·한국어/영어 외 외국어가 필요한 공고
+    r"japan|일본|tokyo|도쿄|china|중국|taiwan|대만|singapore|싱가포르|vietnam|베트남|hong\s*kong|홍콩|"
+    r"japanese|mandarin|chinese|vietnamese|JLPT|[\u3040-\u30ff]",
     re.I,
 )
 

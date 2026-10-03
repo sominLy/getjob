@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { yearsIn, weights } from "./lib/jd-keywords.mjs";
 import { stripHtml, greetingJd, UA } from "./lib/jd-text.mjs";
+import { needsOtherLang } from "./lib/not-job.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "company-jobs.json");
@@ -146,10 +147,12 @@ async function collectNetflix() {
   const jobs = [];
   for (const p of data.positions || []) {
     if (!SEOUL.test(p.location || "") || !relevant(p.name)) continue;
+    // 목록의 설명은 앞부분만 올 때가 있어(연차 요건이 잘림) 상세 본문을 늘 받아 긴 쪽을 쓴다
     let text = p.job_description || "";
-    if (!text) {
-      try { text = (await getJson(`https://explore.jobs.netflix.net/api/apply/v2/jobs/${p.id}?domain=netflix.com`)).job_description || ""; } catch {}
-    }
+    try {
+      const full = (await getJson(`https://explore.jobs.netflix.net/api/apply/v2/jobs/${p.id}?domain=netflix.com`)).job_description || "";
+      if (full.length > text.length) text = full;
+    } catch {}
     jobs.push({ company: "넷플릭스", title: p.name, url: p.canonicalPositionUrl || `https://explore.jobs.netflix.net/careers/job/${p.id}`, text: stripHtml(text) });
   }
   return jobs;
@@ -177,7 +180,8 @@ async function main() {
     }
   }
   const seen = new Set();
-  const jobs = all.filter((j) => j.url && !seen.has(j.url) && seen.add(j.url)).map(({ text, ...j }) => ({
+  // 해외 근무(예: Upstage Japan)·일본어/중국어 등 다른 외국어가 필요한 공고는 뺀다
+  const jobs = all.filter((j) => j.url && !seen.has(j.url) && seen.add(j.url) && !needsOtherLang(j.title, j.text)).map(({ text, ...j }) => ({
     ...j, years: yearsIn(`${j.title}\n${text}`), w: weights(`${j.title}\n${text}`), short: text.length < 200,
   }));
   await writeFile(OUT, JSON.stringify({ updated: new Date().toISOString().slice(0, 10), errors, jobs }, null, 1) + "\n", "utf-8");

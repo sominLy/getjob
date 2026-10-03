@@ -735,26 +735,6 @@
   },
   {
    "src": "radar",
-   "company": "토스증권",
-   "title": "Community Operations Manager (Japan)",
-   "url": "https://toss.im/career/job-detail?job_id=7977854003",
-   "end": "",
-   "w": {
-    "데이터 분석": 1,
-    "인사이트 도출": 2,
-    "마케팅 기획": 1,
-    "콘텐츠 기획·제작": 3,
-    "SNS·소셜": 1,
-    "인플루언서": 1,
-    "커뮤니티": 3,
-    "행사·이벤트": 1,
-    "서비스 운영": 2,
-    "금융·핀테크": 2,
-    "일본어": 3
-   }
-  },
-  {
-   "src": "radar",
    "company": "토스",
    "title": "Platform Product Owner · 공통 · Facepay · Blockchain",
    "url": "https://toss.im/career/job-detail?job_id=6355421003&sub_position_id=6355421003&company=%ED%86%A0%EC%8A%A4",
@@ -1245,20 +1225,6 @@
   {
    "src": "junior",
    "company": "BAT",
-   "title": "글로벌 뷰티 마케터 (일본)",
-   "url": "https://bat.career.greetinghr.com/ko/o/233924",
-   "end": "",
-   "w": {
-    "콘텐츠 기획·제작": 1,
-    "교육": 2,
-    "뷰티·패션": 1,
-    "글로벌·해외": 1,
-    "일본어": 1
-   }
-  },
-  {
-   "src": "junior",
-   "company": "BAT",
    "title": "글로벌 뷰티 그로스 마케터 (북미)",
    "url": "https://bat.career.greetinghr.com/ko/o/150609",
    "end": "",
@@ -1375,31 +1341,6 @@
     "금융·핀테크": 3,
     "글로벌·해외": 3,
     "영어": 1
-   }
-  },
-  {
-   "src": "junior",
-   "company": "강남언니",
-   "title": "[강남언니] 태국 소셜 마케팅 인턴 (체험형)",
-   "url": "https://career.gangnamunni.com/ko/o/235941",
-   "end": "",
-   "w": {
-    "이해관계자 조율": 2,
-    "지표·KPI": 2,
-    "사용자 리서치": 1,
-    "시장·트렌드 분석": 3,
-    "인사이트 도출": 1,
-    "브랜드": 3,
-    "콘텐츠 기획·제작": 3,
-    "SNS·소셜": 3,
-    "커뮤니티": 1,
-    "품질·검수": 1,
-    "플랫폼": 1,
-    "뷰티·패션": 2,
-    "헬스케어": 1,
-    "글로벌·해외": 2,
-    "영어": 1,
-    "주도성": 1
    }
   },
   {
@@ -2073,34 +2014,6 @@
   {
    "src": "junior",
    "company": "스캐터랩",
-   "title": "zeta Japan CS Operation",
-   "url": "https://www.scatterlab.co.kr/ko/o/200088",
-   "end": "",
-   "w": {
-    "문제 정의": 2,
-    "신사업·0to1": 1,
-    "이해관계자 조율": 2,
-    "인사이트 도출": 1,
-    "콘텐츠 기획·제작": 3,
-    "인플루언서": 1,
-    "커뮤니티": 1,
-    "서비스 운영": 2,
-    "CX·고객경험": 3,
-    "문서화·가이드": 1,
-    "정산·계약": 2,
-    "AI·LLM": 3,
-    "플랫폼": 1,
-    "모바일 앱": 1,
-    "금융·핀테크": 2,
-    "엔터·IP": 3,
-    "글로벌·해외": 3,
-    "일본어": 3,
-    "주도성": 2
-   }
-  },
-  {
-   "src": "junior",
-   "company": "스캐터랩",
    "title": "zeta US Service Monitoring Manager (플롯 검수)",
    "url": "https://www.scatterlab.co.kr/ko/o/234638",
    "end": "",
@@ -2140,21 +2053,6 @@
     "품질·검수": 2,
     "AI·LLM": 1,
     "영어": 1
-   }
-  },
-  {
-   "src": "junior",
-   "company": "업스테이지",
-   "title": "【Upstage Japan】 Business / Marketing Intern (ビジネス / マーケティング インターン)",
-   "url": "https://careers.upstage.ai/ko/o/224319",
-   "end": "",
-   "w": {
-    "인사이트 도출": 1,
-    "마케팅 기획": 2,
-    "SNS·소셜": 3,
-    "AI·LLM": 3,
-    "노코드·개발 이해": 1,
-    "글로벌·해외": 1
    }
   },
   {
@@ -2781,29 +2679,6 @@
     "교육": 3,
     "리더십·팀 리딩": 1,
     "주도성": 1
-   }
-  },
-  {
-   "src": "junior",
-   "company": "하이브",
-   "title": "[Weverse Company]  중국 마케팅 (인턴)*",
-   "url": "https://careers.hybecorp.com/ko/o/238394",
-   "end": "",
-   "w": {
-    "이해관계자 조율": 2,
-    "시장·트렌드 분석": 2,
-    "마케팅 기획": 2,
-    "콘텐츠 기획·제작": 3,
-    "SNS·소셜": 3,
-    "커뮤니티": 1,
-    "행사·이벤트": 1,
-    "품질·검수": 2,
-    "정산·계약": 1,
-    "이커머스": 2,
-    "MD·상품기획": 1,
-    "플랫폼": 2,
-    "엔터·IP": 3,
-    "중국어": 3
    }
   },
   {
@@ -3661,28 +3536,6 @@
   {
    "src": "company",
    "company": "CJ올리브영",
-   "title": "글로벌커머스 일본 사업전략 담당자",
-   "url": "https://career.oliveyoung.com/ko/o/218428",
-   "end": "",
-   "w": {
-    "문제 정의": 1,
-    "사업기획·전략": 3,
-    "신사업·0to1": 1,
-    "프로젝트 관리": 1,
-    "이해관계자 조율": 3,
-    "데이터 분석": 2,
-    "시장·트렌드 분석": 1,
-    "인사이트 도출": 2,
-    "이커머스": 2,
-    "플랫폼": 2,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 3,
-    "일본어": 3
-   }
-  },
-  {
-   "src": "company",
-   "company": "CJ올리브영",
    "title": "글로벌 MD 통합 채용",
    "url": "https://career.oliveyoung.com/ko/o/211325",
    "end": "",
@@ -3822,52 +3675,6 @@
     "MD·상품기획": 3,
     "플랫폼": 2,
     "여행·모빌리티": 1,
-    "글로벌·해외": 1
-   }
-  },
-  {
-   "src": "company",
-   "company": "업스테이지",
-   "title": "【Upstage Japan】 Business / Marketing Intern (ビジネス / マーケティング インターン)",
-   "url": "https://upstage.career.greetinghr.com/ko/o/224319",
-   "end": "",
-   "w": {
-    "인사이트 도출": 1,
-    "마케팅 기획": 2,
-    "SNS·소셜": 3,
-    "AI·LLM": 3,
-    "노코드·개발 이해": 1,
-    "글로벌·해외": 1
-   }
-  },
-  {
-   "src": "company",
-   "company": "업스테이지",
-   "title": "【Upstage Japan】 Head of Business (事業開発責任者)",
-   "url": "https://upstage.career.greetinghr.com/ko/o/209455",
-   "end": "",
-   "w": {
-    "화면설계·UX": 1,
-    "인사이트 도출": 1,
-    "B2B": 1,
-    "AI·LLM": 3,
-    "노코드·개발 이해": 1,
-    "글로벌·해외": 1
-   }
-  },
-  {
-   "src": "company",
-   "company": "업스테이지",
-   "title": "【Upstage Japan】 Solutions Architect Intern (ソリューション アーキテクト インターン)",
-   "url": "https://upstage.career.greetinghr.com/ko/o/225628",
-   "end": "",
-   "w": {
-    "SQL·툴": 2,
-    "인사이트 도출": 1,
-    "서비스 운영": 1,
-    "CX·고객경험": 1,
-    "AI·LLM": 3,
-    "노코드·개발 이해": 1,
     "글로벌·해외": 1
    }
   },
@@ -5280,32 +5087,6 @@
   {
    "src": "company",
    "company": "강남언니",
-   "title": "Digital Marketer (Contents) - Thailand",
-   "url": "https://career.gangnamunni.com/ko/o/177080",
-   "end": "",
-   "w": {
-    "신사업·0to1": 2,
-    "데이터 분석": 1,
-    "지표·KPI": 1,
-    "A/B 테스트·실험": 1,
-    "인사이트 도출": 1,
-    "마케팅 기획": 3,
-    "그로스·CRM": 3,
-    "브랜드": 1,
-    "콘텐츠 기획·제작": 3,
-    "SNS·소셜": 3,
-    "인플루언서": 3,
-    "플랫폼": 3,
-    "모바일 앱": 3,
-    "교육": 1,
-    "뷰티·패션": 2,
-    "글로벌·해외": 3,
-    "영어": 1
-   }
-  },
-  {
-   "src": "company",
-   "company": "강남언니",
    "title": "[신사업] 글로벌 고객 컨시어지 (계약직)",
    "url": "https://career.gangnamunni.com/ko/o/195337",
    "end": "",
@@ -5380,32 +5161,6 @@
     "문서화·가이드": 1,
     "엔터·IP": 1,
     "리더십·팀 리딩": 3
-   }
-  },
-  {
-   "src": "company",
-   "company": "하이브",
-   "title": "[Weverse Company] 중국 커머스 AMD (인턴)*",
-   "url": "https://careers.hybecorp.com/ko/o/238389",
-   "end": "",
-   "w": {
-    "문제 정의": 1,
-    "사업개발·제휴": 1,
-    "프로젝트 관리": 1,
-    "이해관계자 조율": 2,
-    "데이터 분석": 1,
-    "마케팅 기획": 2,
-    "브랜드": 1,
-    "콘텐츠 기획·제작": 1,
-    "SNS·소셜": 1,
-    "행사·이벤트": 3,
-    "물류·SCM": 1,
-    "정산·계약": 1,
-    "이커머스": 3,
-    "MD·상품기획": 2,
-    "엔터·IP": 3,
-    "글로벌·해외": 2,
-    "중국어": 3
    }
   },
   {

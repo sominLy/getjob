@@ -203,9 +203,13 @@ async function main() {
     }),
   ]);
 
-  const fresh = [...linkareer, ...jasoseol, ...wanted].filter(
-    (job) => !existingUrls.has(job.url)
-  );
+  // 자소설닷컴 달력은 같은 공고를 시작일·마감일에 한 번씩 돌려줘서, 한 번에 받은 것끼리도 id·링크로 중복을 뺀다
+  const existingIds = new Set(db.jobs.map((j) => j.id));
+  const fresh = [...linkareer, ...jasoseol, ...wanted].filter((job) => {
+    if (existingUrls.has(job.url) || existingIds.has(job.id)) return false;
+    existingUrls.add(job.url); existingIds.add(job.id);
+    return true;
+  });
 
   if (fresh.length === 0) {
     console.log("새 공고 없음.");

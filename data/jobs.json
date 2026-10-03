@@ -1938,21 +1938,6 @@
       "hist": "상시/수시 채용으로 추정(마감일 미표기)"
     },
     {
-      "id": "jasoseol-105467",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-08-03",
-      "end": "2026-10-03",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/6aOlYODK",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
       "id": "jasoseol-105484",
       "company": "마카롱팩토리",
       "type": "",
@@ -2051,21 +2036,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers.nhn.com/recruits/4393119308199846458?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Corporate",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105545",
-      "company": "NHN Cloud Japan",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-08-06",
-      "end": "2026-10-06",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.nhn-japan.com/recruits/cloud/4204720346931199115?type=list",
       "hist": "",
       "endTime": "23:59"
     },
@@ -2328,19 +2298,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://toss.im/career/job-detail?job_id=6325659003&sub_position_id=6325659003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
-      "hist": "",
-      "endTime": "23:59"
-    },
-    {
-      "id": "jasoseol-105875",
-      "company": "NHN Cloud Japan",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-26",
-      "end": "2026-10-26",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4405971125983240936?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud%20Japan_Tech",
       "hist": "",
       "endTime": "23:59"
     },
@@ -3017,21 +2974,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106082",
-      "company": "앳홈",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-09-06",
-      "end": "2026-11-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.athomecorp.com/job_posting/CYWhmncw",
-      "hist": ""
-    },
-    {
       "id": "linkareer-349026",
       "company": "아정네트웍스",
       "type": "",
@@ -3357,22 +3299,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106227",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [
-        "브랜드",
-        "마케팅"
-      ],
-      "start": "2026-09-13",
-      "end": "2026-11-13",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/EsTPhbXW",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106231",
       "company": "SK플래닛",
       "type": "대기업",
@@ -3425,22 +3351,6 @@
       "source": "Google 채용페이지",
       "url": "https://www.google.com/about/careers/applications/jobs/results/134460100038271686",
       "hist": "Apps Solutions Expert, gTech Ads Solutions (Fixed-Term Contract)"
-    },
-    {
-      "id": "jasoseol-106202",
-      "company": "오가닉서라운딩",
-      "type": "",
-      "roles": [
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-14",
-      "end": "2026-11-13",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://organicsurrounding.ninehire.site/job_posting/LqIzCzen",
-      "hist": ""
     },
     {
       "id": "jasoseol-106247",
@@ -3811,54 +3721,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://mildo.ninehire.site/job_posting/H0xkvAup",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106353",
-      "company": "밀도",
-      "type": "",
-      "roles": [
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/6zes5NaP",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106354",
-      "company": "밀도",
-      "type": "",
-      "roles": [
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/ED5U6SGZ",
-      "hist": ""
-    },
-    {
-      "id": "jasoseol-106355",
-      "company": "밀도",
-      "type": "",
-      "roles": [
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/lbEsfeoB",
       "hist": ""
     },
     {
@@ -6018,22 +5880,6 @@
       "hist": ""
     },
     {
-      "id": "jasoseol-106536",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [
-        "MD",
-        "마케팅"
-      ],
-      "start": "2026-09-30",
-      "end": "2026-11-29",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/COY5oZP2",
-      "hist": ""
-    },
-    {
       "id": "jasoseol-106537",
       "company": "인천공항시설관리",
       "type": "",
@@ -6198,21 +6044,6 @@
       "confirmed": true,
       "source": "링커리어",
       "url": "https://linkareer.com/activity/354638",
-      "hist": ""
-    },
-    {
-      "id": "linkareer-354543",
-      "company": "KC파츠텍",
-      "type": "",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "",
-      "end": "2026-12-31",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/354543",
       "hist": ""
     },
     {
