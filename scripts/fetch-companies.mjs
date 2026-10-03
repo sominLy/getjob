@@ -15,8 +15,8 @@ import { stripHtml, greetingJd, UA } from "./lib/jd-text.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "company-jobs.json");
 
-// 기획·PM·마케팅·운영·사업 직무만. 개발·디자인·설비 등은 뺀다.
-const ROLE = /기획|PM\b|PO\b|product\s*(manager|owner|operations|marketing|strategist|lead)|프로덕트|program\s*manager|사업|business|전략|strategy|operations|운영|마케팅|marketing|marketer|growth|그로스|brand|브랜드|CRM|MD\b|머천다이|merchandis|콘텐츠|content|partnership|제휴|GTM|go[-\s]to[-\s]market|campaign|캠페인|community|커뮤니티|CX\b|customer\s*(experience|success)|intern|인턴/i;
+// 기획·PM·마케팅·운영·사업·영업 직무만. 개발·디자인·설비 등은 뺀다.
+const ROLE = /영업|세일즈|sales|account\s*(executive|manager|strategist)|\bAE\b|\bSDR\b|\bBDR\b|기획|PM\b|PO\b|product\s*(manager|owner|operations|marketing|strategist|lead)|프로덕트|program\s*manager|사업|business|전략|strategy|operations|운영|마케팅|marketing|marketer|growth|그로스|brand|브랜드|CRM|MD\b|머천다이|merchandis|콘텐츠|content|partnership|제휴|GTM|go[-\s]to[-\s]market|campaign|캠페인|community|커뮤니티|CX\b|customer\s*(experience|success)|intern|인턴/i;
 const EXCLUDE = /engineer|엔지니어|developer|개발자|백엔드|프론트엔드|backend|frontend|designer|디자이너|scientist|researcher|연구원|devops|\bSRE\b|security|보안|legal|법무|counsel|accountant|회계|recruit|채용담당|talent\s*acquisition/i;
 const SEOUL = /seoul|korea|서울|한국|대한민국|성남|판교/i;
 const relevant = (title) => ROLE.test(title) && !EXCLUDE.test(title);

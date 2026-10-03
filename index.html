@@ -489,6 +489,9 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .mt-me textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px;background:var(--paper);font-size:13px;margin-top:8px}
 .mt-edit-actions{display:flex;gap:8px;margin-top:8px}
 .mt-tiers{margin-bottom:12px}
+.sl-side{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.sl-add{font-size:12px;padding:4px 10px}
+.sl-add[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink);border-color:var(--accent-soft)}
 .mt-filter{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-bottom:10px;padding:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px}
 .mt-co{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:var(--muted)}
 .mt-co select{font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:7px;background:var(--paper);color:var(--ink);max-width:220px}
@@ -705,6 +708,7 @@ thead th{font-weight:600;letter-spacing:.07em}
         <button role="menuitem" id="themeBtn">테마 · 화면 모드</button>
         <button role="menuitem" id="icsBtn">일정 내보내기 (휴대폰 캘린더)</button>
         <button role="menuitem" id="shareBtn">공고 제보 (모두에게 공유)</button>
+        <button role="menuitem" id="salesBtn" aria-pressed="false">영업·세일즈 모아보기 켜기</button>
         <button role="menuitem" id="privBtn" hidden aria-pressed="true"></button>
         <hr>
         <button role="menuitem" id="expBtn">백업 파일 받기</button>
@@ -725,6 +729,7 @@ thead th{font-weight:600;letter-spacing:.07em}
     <button role="tab" aria-selected="false" data-v="plan">주간 플래너</button>
     <button role="tab" aria-selected="false" data-v="arc">아카이브</button>
     <button role="tab" aria-selected="false" data-v="radar">채용 레이더</button>
+    <button role="tab" aria-selected="false" data-v="sales" hidden>영업·세일즈</button>
     <button role="tab" aria-selected="false" data-v="match" hidden>매칭 아카이브</button>
   </nav>
 
@@ -824,6 +829,21 @@ thead th{font-weight:600;letter-spacing:.07em}
   </section>
 
   <!-- 채용 레이더 -->
+  <!-- 영업·세일즈 모아보기 (⋯ 메뉴에서 켜는 선택 기능) -->
+  <section class="view" id="v-sales" hidden>
+    <div class="viewhead">
+      <h2>영업·세일즈</h2>
+      <p class="sub">전체 공고 · 채용 레이더 · 주니어 공고판 · 기업 채용에서 영업·세일즈·어카운트 직무만 모았어요. 마감 지난 공고는 빠져요.</p>
+    </div>
+    <div class="mt-filter">
+      <div class="chips sm" id="slSrc" aria-label="출처로 보기"></div>
+      <div class="chips sm" id="slKind" aria-label="종류로 보기"></div>
+      <label class="chkline"><input type="checkbox" id="slJunior"> 신입·연차 무관만</label>
+    </div>
+    <ul class="rd-jobs" id="slList"></ul>
+    <p class="sub mt-foot" id="slFoot"></p>
+  </section>
+
   <section class="view" id="v-radar" hidden>
     <div class="viewhead">
       <h2>채용 레이더</h2>
@@ -1372,11 +1392,20 @@ function applyPrivate(){
   btn.hidden = !IS_OWNER;
   btn.textContent = "소민 전용 " + (privOn() ? "켜짐" : "꺼짐");
   btn.setAttribute("aria-pressed", privOn());
+  const sBtn = document.getElementById("salesBtn"), sOn = !!db.profile.salesOn;
+  sBtn.textContent = "영업·세일즈 모아보기 " + (sOn ? "끄기" : "켜기"); sBtn.setAttribute("aria-pressed", sOn);
+  const sTab = document.querySelector('nav.tabs button[data-v="sales"]');
+  sTab.hidden = !sOn;
+  if(!sOn && sTab.getAttribute("aria-selected") === "true") document.querySelector('nav.tabs button[data-v="list"]').click();
   const tab = document.querySelector('nav.tabs button[data-v="match"]');
   tab.hidden = !privOn();
   if(!privOn() && tab.getAttribute("aria-selected") === "true")
     document.querySelector('nav.tabs button[data-v="list"]').click();
 }
+document.getElementById("salesBtn").onclick = function(){
+  db.profile.salesOn = !db.profile.salesOn; save(); applyPrivate();
+  if(db.profile.salesOn){ document.querySelector('nav.tabs button[data-v="sales"]').click(); toast("‘영업·세일즈’ 탭을 켰어요"); }
+};
 document.getElementById("privBtn").onclick = async function(){
   db.profile.privOn = !privOn(); save();
   if(privOn()) await loadMyNotes(); else MY_NOTES = {};
@@ -2734,6 +2763,99 @@ function initRadar(data){
     .forEach(t => { const p = document.createElement("div"); p.textContent = t; foot.append(p); });
 }
 
+/* ---------- 영업·세일즈 모아보기 ----------
+   여러 출처에서 영업·세일즈·어카운트 직무만 골라 한 목록으로. 지원보드 공고는 '지원'으로 바로 담을 수 있다. */
+const SALES_RE = /영업|세일즈|sales|account\s*(executive|manager|strategist|director)|\bAE\b|\bSDR\b|\bBDR\b|key\s*account|어카운트|판매|채널\s*관리|대리점/i;
+const SL_KIND = [["B2B·기업영업", /B2B|기업|법인|enterprise|엔터프라이즈|솔루션|account|어카운트|cloud|SaaS|기술\s*영업/i],
+  ["해외영업", /해외|글로벌|global|overseas|수출|무역|international/i],
+  ["금융영업", /금융|은행|증권|보험|카드|자산|wealth|PB\b/i],
+  ["영업관리·채널", /영업\s*관리|영업지원|채널|대리점|점포|매장|리테일|retail|유통|MD/i]];
+let salesPromise = null, slData = null, slSrc = "", slKind = "";
+function loadSales(){
+  if(salesPromise) return salesPromise;
+  const get = u => fetch(u + "?t=" + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
+  salesPromise = Promise.all([get("data/radar.json"), get("artifact/data.json"), get("data/company-jobs.json"), loadDetails()])
+    .then(([radar, junior, comp]) => { slData = {radar, junior, comp}; renderSales(); });
+  return salesPromise;
+}
+function salesRows(){
+  const today = iso(new Date()), out = [], seen = new Set();
+  const push = (x) => {
+    const k = coKey(x.company) + "|" + (x.url || x.title);
+    if(seen.has(k)) return; seen.add(k); out.push(x);
+  };
+  /* 1) 지원보드 공고: 직무 분류가 영업이거나, 모집 부문 이름에 영업이 들어간 것 */
+  allJobs().forEach(j => {
+    if(state(j).k === "shut" || superseded(j)) return;
+    const tracks = ((DETAILS && DETAILS[j.id] && DETAILS[j.id].tracks) || []).map(t => t.name).filter(n => n && SALES_RE.test(n));
+    const byRole = (j.roles || []).some(r => /영업/.test(r));
+    if(!byRole && !tracks.length && !SALES_RE.test(j.hist || "")) return;
+    push({src: "board", id: j.id, company: j.company, title: tracks.slice(0, 3).join(" · ") || (j.roles || []).filter(r => /영업/.test(r)).join(" · ") || "영업",
+          url: j.url, end: j.end || "", years: null, junior: true});
+  });
+  const d = slData || {};
+  /* 2) 채용 레이더(외국계·AI·IT) */
+  ((d.radar && d.radar.jobs) || []).forEach(j => {
+    if(!SALES_RE.test(j.title) && !(j.roles || []).includes("세일즈·파트너십")) return;
+    push({src: "radar", company: j.company, title: j.title, url: j.url, end: "", years: j.years, junior: j.bucket !== "senior"});
+  });
+  /* 3) 주니어 공고판 */
+  ((d.junior && d.junior.rows) || []).forEach(r => {
+    if(!SALES_RE.test(r.title)) return;
+    const end = /^\d{4}-/.test(r.due || "") ? r.due : "";
+    if(end && end < today) return;
+    push({src: "junior", company: r["회사"], title: r.title, url: r.link, end, years: null, junior: true});
+  });
+  /* 4) 스타트업·유니콘·외국계 공식 채용 */
+  ((d.comp && d.comp.jobs) || []).forEach(j => {
+    if(!SALES_RE.test(j.title)) return;
+    push({src: "company", company: j.company, title: j.title, url: j.url, end: "", years: j.years, junior: j.years === null || j.years <= 2});
+  });
+  out.forEach(x => { x.kind = (SL_KIND.find(([, re]) => re.test(x.company + " " + x.title)) || ["일반 영업"])[0]; });
+  return out.sort((a, b) => (a.end || "9999").localeCompare(b.end || "9999") || a.company.localeCompare(b.company, "ko"));
+}
+const SL_SRC = {board: "채용 공고", radar: "채용 레이더", junior: "주니어 공고판", company: "기업 채용"};
+function renderSales(){
+  const all = salesRows(), jr = document.getElementById("slJunior").checked;
+  const base = all.filter(x => !jr || x.junior);
+  const chipRow = (id, items, cur, set) => {
+    const box = document.getElementById(id); box.replaceChildren();
+    items.forEach(([k, l, n]) => {
+      if(k && !n) return;
+      const b = document.createElement("button"); b.type = "button"; b.textContent = l + " " + n;
+      b.setAttribute("aria-pressed", cur === k); b.onclick = () => { set(k); renderSales(); }; box.append(b);
+    });
+  };
+  const bySrc = base.filter(x => !slKind || x.kind === slKind), byKind = base.filter(x => !slSrc || x.src === slSrc);
+  chipRow("slSrc", [["", "전체 출처", bySrc.length]].concat(Object.entries(SL_SRC).map(([k, l]) => [k, l, bySrc.filter(x => x.src === k).length])), slSrc, k => slSrc = k);
+  chipRow("slKind", [["", "모든 종류", byKind.length]].concat(SL_KIND.map(([k]) => k).concat(["일반 영업"]).map(k => [k, k, byKind.filter(x => x.kind === k).length])), slKind, k => slKind = k);
+  const rows = base.filter(x => (!slSrc || x.src === slSrc) && (!slKind || x.kind === slKind));
+  const ul = document.getElementById("slList"); ul.replaceChildren();
+  if(!rows.length){ const e = document.createElement("li"); e.className = "rd-empty"; e.textContent = "조건에 맞는 영업 공고가 없어요. 위 칩을 ‘전체’로 바꿔 보세요."; ul.append(e); }
+  rows.forEach(x => {
+    const li = document.createElement("li"); li.className = "rd-job";
+    const co = document.createElement("div"); co.className = "rd-co"; co.textContent = x.company;
+    const main = document.createElement("div"); main.className = "rd-main";
+    const a = document.createElement("a"); a.className = "rd-t"; a.target = "_blank"; a.rel = "noopener"; a.href = x.url || "#"; a.textContent = x.title;
+    const meta = document.createElement("div"); meta.className = "rd-meta";
+    meta.textContent = [SL_SRC[x.src], x.kind, x.end ? "마감 " + x.end.slice(5).replace("-", "/") + " (" + dday(x.end) + ")" : "상시·마감 미표기"].join(" · ");
+    main.append(a, meta);
+    const side = document.createElement("div"); side.className = "sl-side";
+    const p = document.createElement("span"); p.className = "rd-pill " + (x.years ? (x.junior ? "junior" : "senior") : "open");
+    p.textContent = x.years ? x.years + "년 이상" : "연차 표시 없음"; side.append(p);
+    if(x.id){
+      const b = document.createElement("button"); b.type = "button"; b.className = "ghost sl-add";
+      const on = () => app(x.id).applied;
+      b.textContent = on() ? "담김 ✓" : "지원 담기"; b.setAttribute("aria-pressed", on());
+      b.onclick = () => { app(x.id).applied = !on(); save(); renderAll(); renderSales(); };
+      side.append(b);
+    }
+    li.append(co, main, side); ul.append(li);
+  });
+  document.getElementById("slFoot").textContent = "총 " + all.length + "건 · 회사·제목에 영업·세일즈·Sales·Account Executive 등이 들어간 공고를 모았어요. ‘지원 담기’는 지원보드 공고만 돼요(내 지원 탭으로 들어가요).";
+}
+document.getElementById("slJunior").onchange = renderSales;
+
 /* ---------- 매칭 아카이브 ----------
    공고 쪽 키워드(data/jd-keywords.json)는 공개 데이터, 내 쪽 키워드(db.match)는 내 계정에만 있다.
    매칭률 = JD 키워드 가중치 중 내 키워드에 해당하는 비율. 가중치는 JD에 나온 횟수(최대 3). */
@@ -2746,6 +2868,7 @@ const MT_ROLES = [
   ["기획·PM", /기획|\bPM\b|\bPO\b|product|프로덕트|program\s*manag/i],
   ["마케팅·브랜드", /마케|marketing|브랜드|brand|그로스|growth|\bCRM\b|퍼포먼스|광고|홍보|\bPR\b|campaign/i],
   ["콘텐츠·커뮤니티", /콘텐츠|컨텐츠|content|에디터|커뮤니티|community|크리에이터|creator/i],
+  ["영업·세일즈", /영업|세일즈|sales|account\s*(executive|manager)|어카운트|\bAE\b/i],
   ["전략·사업개발", /전략|strategy|사업|business|\bBD\b|제휴|partnership|GTM|컨설/i],
   ["운영·CX", /운영|operation|ops\b|\bCX\b|\bCS\b|고객|customer|상담|물류|\bSCM\b|\bMD\b|머천/i],
   ["데이터·리서치", /데이터|data|분석|analyst|리서치|research|insight/i],
@@ -3071,6 +3194,7 @@ document.querySelectorAll("nav.tabs button").forEach(function(b){
     b.scrollIntoView({block: "nearest", inline: "center", behavior: "smooth"}); /* 모바일에서 뒤쪽 탭이 화면 밖에 숨지 않게 */
     if(b.dataset.v === "radar") loadRadar();
     if(b.dataset.v === "match") loadMatch();
+    if(b.dataset.v === "sales") (slData ? Promise.resolve() : loadSales()).then(renderSales);
   };
 });
 document.querySelectorAll("#arcTabs button").forEach(function(b){
@@ -3394,7 +3518,11 @@ sb.auth.onAuthStateChange(async function(event, session){
     await loadMyNotes();
     showApp();
     boot();
+    /* 공유 링크(?sales=1)로 들어오면 영업·세일즈 탭을 켜고 바로 연다 — 내 화면 설정만 바뀐다 */
+    const wantSales = new URLSearchParams(location.search).get("sales") === "1";
+    if(wantSales && !db.profile.salesOn){ db.profile.salesOn = true; save(); }
     applyPrivate();
+    if(wantSales) document.querySelector('nav.tabs button[data-v="sales"]').click();
   } else {
     currentUserId = null;
     currentEmail = "";

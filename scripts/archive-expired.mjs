@@ -40,7 +40,7 @@ async function main() {
   const cutoff = new Date(Date.now() - KEEP_DAYS * 24 * 60 * 60 * 1000)
     .toISOString().slice(0, 10);
 
-  // 0) 채용이 아닌 교육·학위 과정, 대학 교직원 공고는 목록과 보관함에서 뺀다
+  // 0) 채용이 아닌 교육·학위 과정, 대학 교직원·병원 공고는 목록과 보관함에서 뺀다
   const jobText = (j) => [...(j.roles || []), ...(details.items?.[j.id]?.tracks || []).map((t) => t.name), j.hist || ""].join(" ");
   const nBefore = db.jobs.length + archive.jobs.length;
   db.jobs = db.jobs.filter((j) => !isNotJob(j.company, jobText(j)));
@@ -77,7 +77,7 @@ async function main() {
   await writeFile(ARCHIVE_PATH, JSON.stringify(archive, null, 2) + "\n", "utf-8");
   if (detailsDropped) await writeFile(DETAILS_PATH, JSON.stringify(details, null, 2) + "\n", "utf-8");
 
-  console.log(`교육과정·대학 공고 제외 ${notJobs}건, 보관함으로 ${moved.length}건 이동, 오래돼서 삭제 ${dropped}건, 딸린 본문 정리 ${detailsDropped}건.`);
+  console.log(`교육과정·대학·병원 공고 제외 ${notJobs}건, 보관함으로 ${moved.length}건 이동, 오래돼서 삭제 ${dropped}건, 딸린 본문 정리 ${detailsDropped}건.`);
   console.log(`현재 목록 ${db.jobs.length}건 / 보관함 ${archive.jobs.length}건.`);
 }
 
