@@ -131,7 +131,7 @@ async function ocr(url) {
   const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(20000) });
   if (!res.ok) throw new Error(String(res.status));
   const buf = Buffer.from(await res.arrayBuffer());
-  if (buf.length < 30_000) return ""; // 작은 그림(아이콘·로고)은 공고문이 아니다
+  if (buf.length < 60_000) return ""; // 작은 그림(아이콘·로고·배너)은 공고문이 아니다
   await writeFile(tmp, buf);
   const { stdout } = await run("tesseract", [tmp, "stdout", "-l", "kor+eng", "--psm", "4"], { maxBuffer: 1 << 24, timeout: 120000 });
   return stdout.replace(/[ \t]+/g, " ").replace(/\n{3,}/g, "\n\n").trim();
@@ -210,8 +210,8 @@ async function main() {
 
     // 본문이 없으면 이미지 글자 인식: 공식 페이지 대표 이미지 + 자소설닷컴 공고 이미지
     if (!text && !NO_NET) {
+      // 자소설닷컴 공고 이미지를 먼저(실제 공고문), 공식 페이지 대표 이미지는 그다음(사진·배너인 경우가 많음)
       let imgs = [];
-      if (d.image && IMG_OK.test(d.image) && !IMG_SKIP.test(d.image)) imgs.push(d.image);
       if (j.id.startsWith("jasoseol-")) {
         if (!cache.jsImages[j.id]) {
           try {
@@ -220,14 +220,19 @@ async function main() {
           } catch { cache.jsImages[j.id] = []; }
         }
         imgs.push(...cache.jsImages[j.id]);
+        if (SHOW) console.log(`  ${j.company} 자소설 이미지 ${cache.jsImages[j.id].length}개: ${cache.jsImages[j.id].join(" ").slice(0, 300)}`);
       }
+      if (d.image && IMG_OK.test(d.image) && !IMG_SKIP.test(d.image)) imgs.push(d.image);
       const texts = [];
       for (const u of [...new Set(imgs)]) {
         if (!(u in cache.ocr)) {
           if (ocrNew >= MAX_OCR) continue;
           try { cache.ocr[u] = { at: today, text: await ocr(u) }; ocrNew++; } catch (e) { cache.ocr[u] = { at: today, text: "", err: e.message.slice(0, 80) }; }
         }
-        if (cache.ocr[u].text) texts.push(cache.ocr[u].text);
+        // 공고문다운 글자(모집·자격·우대·담당 업무 등)가 3개 이상 나와야 공고 이미지로 쓴다(사진·안내문 걸러냄)
+        const t = cache.ocr[u].text || "";
+        if ((t.match(/모집|자격|우대|담당|업무|지원|채용|전형|근무|직무|신입|경력|우대사항|접수/g) || []).length >= 3) texts.push(t);
+        else if (SHOW && t) console.log(`  (공고문 아님, 버림) ${u.slice(0, 80)}: ${t.slice(0, 60).replace(/\n/g, " ")}`);
       }
       text = texts.join("\n\n");
       if (text) source = "공고 이미지 글자 인식";
