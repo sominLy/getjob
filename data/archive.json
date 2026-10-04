@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "jobs": [
+    {
+      "id": "jasoseol-105467",
+      "company": "앱솔브랩",
+      "type": "",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-08-03",
+      "end": "2026-10-03",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://celimax.ninehire.site/job_posting/6aOlYODK",
+      "hist": "",
+      "found": "2026-10-03"
+    },
     {
       "id": "wanted-384506",
       "company": "위메이드(WEMADE)",
@@ -10615,177 +10631,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://sba.saramin.co.kr/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105191",
-      "company": "프리윌린",
-      "type": "",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-07-20",
-      "end": "2026-08-19",
-      "endTime": "14:15",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.freewheelin.io/ko/o/228186?utm_source=jasoseol.com&utm_medium=referral",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105364",
-      "company": "넥슨스페이스",
-      "type": "대기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-07-29",
-      "end": "2026-08-19",
-      "endTime": "23:30",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nexon.com/recruit/10106",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105372",
-      "company": "셀트리온스킨큐어",
-      "type": "대기업",
-      "roles": [
-        "MD",
-        "마케팅",
-        "영업"
-      ],
-      "start": "2026-07-30",
-      "end": "2026-08-19",
-      "endTime": "17:03",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://jasoseol.com/recruit/105372",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105481",
-      "company": "한국미쓰이물산",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-09",
-      "end": "2026-08-19",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mitsui.career.greetinghr.com/ko/introver2",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105505",
-      "company": "kt p&m",
-      "type": "대기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-08-05",
-      "end": "2026-08-19",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kt.recruiter.co.kr/career/jobs/124268",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105549",
-      "company": "포스코이앤씨",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-07",
-      "end": "2026-08-19",
-      "endTime": "15:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.posco.com/h22a01-front/H22A1000.html",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105578",
-      "company": "한국벤처캐피탈협회",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "영업관리",
-        "HR/인사"
-      ],
-      "start": "2026-08-09",
-      "end": "2026-08-19",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.incruit.com/kvca7000/job/2608050016",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105591",
-      "company": "신한라이프생명보험",
-      "type": "금융",
-      "roles": [],
-      "start": "2026-08-13",
-      "end": "2026-08-19",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://shinhan-life.recruiter.co.kr/career/recruit2027",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105623",
-      "company": "대한체육회(KSOC)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-08-10",
-      "end": "2026-08-19",
-      "endTime": "15:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://dware.intojob.co.kr/main/sports.jsp",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105629",
-      "company": "SK하이스텍",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-11",
-      "end": "2026-08-19",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.skhystec.com/recruit/info",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105632",
-      "company": "한국미쓰비시전기오토메이션",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-12",
-      "end": "2026-08-19",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://meak.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262958",
       "hist": "",
       "found": "2026-09-07"
     }
