@@ -90,7 +90,8 @@ button{cursor:pointer}
 body{word-break:keep-all;overflow-wrap:break-word}
 img,video,canvas,svg{max-width:100%}
 input,select,textarea{max-width:100%}
-@media (max-width:360px){ body{font-size:14px} .wrap{padding-left:10px;padding-right:10px} .hbar,.rail-in{padding-left:10px;padding-right:10px} }
+@media (max-width:330px){ .brand-t{display:none} }
+@media (max-width:360px){ .tb-tiles{grid-template-columns:repeat(2,1fr)} .hbar .brand{white-space:nowrap;min-width:0} body{font-size:14px} .wrap{padding-left:10px;padding-right:10px} .hbar,.rail-in{padding-left:10px;padding-right:10px} }
 h2{font-size:20px;font-weight:700;letter-spacing:-.02em;margin:0;text-wrap:balance}
 h3{margin:0}
 p{margin:0}
@@ -587,7 +588,12 @@ tr.s-미지원 td{opacity:.6}
 .tb-date.empty:not(:focus-within)::after{content:"—";position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
 .tb-role{min-width:190px}
 @media (max-width:820px){ .tb-tiles{grid-template-columns:repeat(3,1fr)} }
-@media (max-width:640px){
+/* 태블릿·폴드 펼침: 전체 공고 표에서 덜 중요한 칸(역대 오픈·출처, 더 좁으면 시작일)을 숨겨 가로 스크롤 없이 */
+@media (min-width:641px) and (max-width:1020px){ .tblwrap th:nth-child(6),.tblwrap td.hist,.tblwrap th:nth-child(7),.tblwrap td.src{display:none}
+  .tblwrap table{min-width:0} .tblwrap td.act{white-space:normal} .tblwrap td.act > *{display:block;margin:2px 0} }
+@media (min-width:641px) and (max-width:820px){ .tblwrap th:nth-child(4),.tblwrap td.dt-start{display:none} }
+@media (max-width:1020px){
+  .tb{min-width:0}
   .tb thead{display:none}
   .tb,.tb tbody,.tb tr,.tb td{display:block}
   .tb tr{display:grid;grid-template-columns:1fr auto;gap:2px 8px;padding:10px 12px;border-bottom:1px solid var(--line)}
@@ -809,7 +815,7 @@ thead th{font-weight:600;letter-spacing:.07em}
 
 <header id="appHeader" hidden>
   <div class="hbar">
-    <span class="brand"><img class="logo" src="/favicon.svg" alt="" width="22" height="22">지원 보드</span>
+    <span class="brand"><img class="logo" src="/favicon.svg" alt="" width="22" height="22"><span class="brand-t">지원 보드</span></span>
     <span class="today" id="todayLbl"></span>
     <span class="hspace"></span>
     <button class="primary hb-add" id="addBtn">+ 공고</button>
@@ -2001,10 +2007,17 @@ function setStage(a, name){
   a.applied = true; a.skip = false;
   if(name === "서류 제출"){ a.doc = "대기"; a.stages = a.stages.filter(s => s.date || s.result === "불합격" || flow.every(n => stKey(n) !== stKey(s.name))); return; }
   a.doc = "합격"; a.check = false;
-  const k = name === "최종합격" ? flow.length : name === "서류합격" ? -1 : flow.findIndex(n => stKey(n) === stKey(name));
+  if(name === "최종합격"){
+    const last = flow[flow.length - 1];
+    a.stages.forEach(s => { if(s.result !== "불합격") s.result = "합격"; });
+    if(last && !a.stages.some(s => stKey(s.name) === stKey(last))) a.stages.push({name: last, date: "", result: "합격"});
+    return;
+  }
+  const k = name === "서류합격" ? -1 : flow.findIndex(n => stKey(n) === stKey(name));
   flow.forEach((n, i) => {
     let st = a.stages.find(s => stKey(s.name) === stKey(n));
-    if(i < k || (name === "최종합격" && i <= k)){ if(!st){ st = {name: n, date: ""}; a.stages.push(st); } st.result = "합격"; }
+    /* 앞 단계는 실제로 거친 것(이미 적어 둔 것)만 합격으로 — 회사마다 없는 전형을 만들어 넣지 않는다 */
+    if(i < k){ if(st && st.result !== "불합격") st.result = "합격"; }
     else if(i === k){ if(!st){ st = {name: n, date: ""}; a.stages.push(st); } if(st.result !== "불합격") st.result = st.result === "완료" ? "완료" : "예정"; }
     else if(st && !st.date && st.result !== "불합격") a.stages.splice(a.stages.indexOf(st), 1);
   });
