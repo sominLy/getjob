@@ -2,9 +2,19 @@
 // 지원보드·매칭 아카이브는 기획·마케팅·운영 직무를 찾는 용도라 이런 공고는 섞이지 않게 한다.
 
 // 내가 '교육생'으로 들어가는 과정(부트캠프·양성과정·아카데미·대학원 과정)
-const PROGRAM = /양성\s*(과정|교육|프로그램)|전문가\s*양성|교육\s*프로그램|아카데미|academy|부트\s*캠프|bootcamp|내일배움|K-?디지털|국비|교육생|수강생|연수생|참여자\s*모집|아카데미\s*참여자|박사\s*과정|석사\s*과정|\((박사|석사|박사후)\)|박사후\s*연구원/i;
+const PROGRAM = /K-?Digital\s*Training|K-?디지털|디지털\s*트레이닝|K-?뉴딜|\bcamp\b|캠프|훈련생|훈련\s*과정|과정\s*(모집|수료)|수료\s*후|사관\s*학교|SSAFY|싸피|\bHINT\b|양성\s*(과정|교육|프로그램)|전문가\s*양성|교육\s*프로그램|아카데미|academy|부트\s*캠프|bootcamp|내일배움|K-?디지털|국비|교육생|수강생|연수생|참여자\s*모집|아카데미\s*참여자|박사\s*과정|석사\s*과정|\((박사|석사|박사후)\)|박사후\s*연구원/i;
 // 대학교 교직원·학사 행정, 병원·의료원(간호·약사·원무 등 의료기관 채용)
 const ACADEMIC = /대학교|미래인재개발원|학교법인|병원|의료원|의료재단|의료법인/;
+
+// 채용이 아니라 '나중에 연락 줄게' 식으로 이력서만 모으는 인재풀·상시 인재 등록(제목으로만 판단)
+const TALENT_POOL = /인재\s*풀|인재\s*pool|talent\s*(pool|community|network)|인재\s*(등록|DB|데이터베이스)|상시\s*인재|future\s*opportunit|general\s*application|open\s*application|expression\s*of\s*interest|자유\s*지원|오픈\s*포지션|open\s*position\s*\(|포지션\s*제안/i;
+export const isTalentPool = (title = "") => TALENT_POOL.test(title);
+
+// 공고 본문에만 드러나는 교육 과정(제목은 '○○ CAMP 7기'처럼 애매할 때). 본문의 복지 소개와 헷갈리지 않게 강한 표현만 본다.
+const PROGRAM_STRONG = /K-?Digital\s*Training|K-?디지털\s*트레이닝|K-?뉴딜\s*아카데미|훈련\s*장려금/i;
+// 약한 표현은 페이지 옆 광고나 '국비지원 사업을 운영할 사람' 같은 채용 공고에도 나오므로 서로 다른 표현이 두 개 이상일 때만
+const PROGRAM_WEAK = [/내일\s*배움\s*카드/, /교육생\s*(모집|선발)/, /훈련생/, /수강생\s*모집/, /국비\s*(지원\s*)?(무료\s*)?(교육|과정)/, /아카데미\s*교육/, /수료증/];
+export const isProgramBody = (text = "") => PROGRAM_STRONG.test(text) || PROGRAM_WEAK.filter((re) => re.test(text)).length >= 2;
 
 /** company와 직무·제목 글자를 넣으면 걸러야 할 공고인지 */
 export function isNotJob(company = "", text = "") {

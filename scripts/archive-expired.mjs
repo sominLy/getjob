@@ -11,7 +11,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import { isNotJob, requiresOtherLang, isAbroadName } from "./lib/not-job.mjs";
+import { isNotJob, isTalentPool, isProgramBody, requiresOtherLang, isAbroadName } from "./lib/not-job.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "data");
@@ -46,14 +46,14 @@ async function main() {
   archive.jobs = uniq(archive.jobs);
 
   // 0) 채용이 아닌 교육·학위 과정, 대학 교직원·병원, 해외·다른 외국어 공고는 목록과 보관함에서 뺀다
-  const jobText = (j) => [...(j.roles || []), ...(details.items?.[j.id]?.tracks || []).map((t) => t.name), j.hist || ""].join(" ");
+  const jobText = (j) => [j.title || "", j.url || "", ...(j.roles || []), ...(details.items?.[j.id]?.tracks || []).map((t) => t.name), j.hist || ""].join(" ");
   const nBefore = db.jobs.length + archive.jobs.length;
   // 해외 근무·다른 외국어(일본어·중국어 등) 필요 공고도 뺀다
   const body = (j) => (details.items?.[j.id]?.sections || []).map((s) => `${s.title}\n${s.body}`).join("\n");
   // 모집 부문이 여럿이면 전부 해외·외국어 부문일 때만 뺀다(한 부문만 일본이면 공고는 남김)
   const tracks = (j) => (details.items?.[j.id]?.tracks || []).map((t) => t.name).filter(Boolean);
   const abroad = (j) => isAbroadName(j.company) || (tracks(j).length > 0 && tracks(j).every(isAbroadName));
-  const drop = (j) => isNotJob(j.company, jobText(j)) || abroad(j) || requiresOtherLang(body(j));
+  const drop = (j) => isNotJob(j.company, jobText(j)) || isTalentPool(j.title || "") || isProgramBody(body(j)) || abroad(j) || requiresOtherLang(body(j));
   db.jobs = db.jobs.filter((j) => !drop(j));
   archive.jobs = archive.jobs.filter((j) => !drop(j));
   const notJobs = nBefore - db.jobs.length - archive.jobs.length;

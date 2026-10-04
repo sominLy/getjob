@@ -12,7 +12,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { DICT, yearsIn, weights } from "./lib/jd-keywords.mjs";
 import { stripHtml, greetingJd, fetchText } from "./lib/jd-text.mjs";
-import { isNotJob, needsOtherLang } from "./lib/not-job.mjs";
+import { isNotJob, isTalentPool, needsOtherLang } from "./lib/not-job.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -60,7 +60,7 @@ async function main() {
   const push = (item, text, extraYears = null) => {
     if (!item.url || seen.has(item.url)) return;
     seen.add(item.url);
-    if (EXCLUDE_TITLE.test(item.title) || isNotJob(item.company, item.title) || needsOtherLang(item.title, text)) return;
+    if (EXCLUDE_TITLE.test(item.title) || isTalentPool(item.title) || isNotJob(item.company, item.title) || needsOtherLang(item.title, text)) return;
     const years = extraYears ?? yearsIn(text);
     if (years !== null) return;
     const w = weights(text);
@@ -127,7 +127,7 @@ async function main() {
   for (const j of companies.jobs) {
     if (!j.url || seen.has(j.url)) continue;
     seen.add(j.url);
-    if (j.years !== null || EXCLUDE_TITLE.test(j.title) || isNotJob(j.company, j.title) || needsOtherLang(j.title) || Object.keys(j.w || {}).length < MIN_KEYWORDS) continue;
+    if (j.years !== null || EXCLUDE_TITLE.test(j.title) || isTalentPool(j.title) || isNotJob(j.company, j.title) || needsOtherLang(j.title) || Object.keys(j.w || {}).length < MIN_KEYWORDS) continue;
     out.push({ src: "company", company: j.company, title: j.title, url: j.url, end: "", w: j.w, posted: j.posted || "", found: j.found || "" });
     nCompany++;
   }
