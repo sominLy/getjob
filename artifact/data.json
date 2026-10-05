@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-05T04:56:48.578405+00:00",
+ "collectedAt": "2026-10-05T08:04:36.396613+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -2209,7 +2209,7 @@
    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5432590008",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-05",
    "openDate": "2026-10-04"
   },
@@ -2223,7 +2223,7 @@
    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5443281008",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-05",
    "openDate": "2026-10-04"
   },
