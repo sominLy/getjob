@@ -86,6 +86,12 @@ button,input,select,textarea{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
 .wrap{max-width:1200px;margin:0 auto;padding:0 20px 90px}
+/* 한글은 단어 중간에서 끊지 않고, 긴 영문·주소만 필요할 때 끊는다(폴드·작은 폰 포함) */
+body{word-break:keep-all;overflow-wrap:break-word}
+img,video,canvas,svg{max-width:100%}
+input,select,textarea{max-width:100%}
+@media (max-width:330px){ .brand-t{display:none} }
+@media (max-width:360px){ .tb-tiles{grid-template-columns:repeat(2,1fr)} .hbar .brand{white-space:nowrap;min-width:0} body{font-size:14px} .wrap{padding-left:10px;padding-right:10px} .hbar,.rail-in{padding-left:10px;padding-right:10px} }
 h2{font-size:20px;font-weight:700;letter-spacing:-.02em;margin:0;text-wrap:balance}
 h3{margin:0}
 p{margin:0}
@@ -531,6 +537,10 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .gc-row.here b::after{content:" · 이 공고";font-size:11px;color:var(--accent-ink);font-weight:600}
 #gcList .gc-group{background:var(--accent-soft);border-radius:8px}
 .gc-news{margin:4px 0 0;font-size:11.5px;color:var(--muted)}
+.gc-why{margin:5px 0 0;font-size:11.5px;line-height:1.5;display:flex;flex-wrap:wrap;gap:2px 10px;color:var(--ink-2)}
+.gc-why .w-edge{color:var(--accent-ink);font-weight:600} .gc-why .w-common{color:var(--muted)} .gc-why .w-miss{color:var(--urgent)}
+.gc-aff{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0 2px}
+.gc-more summary{cursor:pointer;font-size:13px;color:var(--muted);margin-top:8px}
 .fx-row{display:flex;flex-wrap:wrap;gap:4px;margin:2px 0 6px}
 .fx-row .fx{margin-left:0}
 .fx-stage{margin:2px 0 4px;display:inline-block}
@@ -556,7 +566,10 @@ dialog::backdrop{background:rgba(20,27,26,.5)}
 .tb input{width:100%;border:1px solid transparent;border-radius:6px;background:none;padding:5px 6px;font:inherit;color:var(--ink)}
 .tb input:hover{border-color:var(--line)} .tb input:focus{border-color:var(--accent);outline:none;background:var(--paper)}
 .tb input[type=date]{font-family:var(--serif);font-size:13px;min-width:120px}
-.tb-co{font-weight:700;white-space:nowrap} .tb-co input{font-weight:700}
+.tb-co{font-weight:700;min-width:120px;word-break:keep-all} .tb-co input{font-weight:700}
+.tb-un{margin-top:2px;line-height:1} .tb-un .un-chip.un-sm{margin-left:0}
+.tb-stage{border:1px solid var(--line);border-radius:8px;padding:4px 8px;font:inherit;font-size:12.5px;background:var(--paper);color:var(--ink);max-width:130px}
+.tb-stage.pass{border-color:var(--accent);color:var(--accent-ink);font-weight:700} .tb-stage.fail{color:var(--urgent)}
 .tb-link{margin-left:6px;font-size:12px;color:var(--muted);text-decoration:none}
 .tb-role{min-width:150px} .tb-note{width:32%;color:var(--ink-2)}
 .tb-pill{border:0;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:700;cursor:pointer;appearance:none;-webkit-appearance:none;text-align:center;min-width:76px}
@@ -575,13 +588,20 @@ tr.s-미지원 td{opacity:.6}
 .tb-date.empty:not(:focus-within)::after{content:"—";position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
 .tb-role{min-width:190px}
 @media (max-width:820px){ .tb-tiles{grid-template-columns:repeat(3,1fr)} }
-@media (max-width:640px){
+/* 태블릿·폴드 펼침: 전체 공고 표에서 덜 중요한 칸(역대 오픈·출처, 더 좁으면 시작일)을 숨겨 가로 스크롤 없이 */
+@media (min-width:641px) and (max-width:1020px){ .tblwrap th:nth-child(6),.tblwrap td.hist,.tblwrap th:nth-child(7),.tblwrap td.src{display:none}
+  .tblwrap table{min-width:0} .tblwrap td.act{white-space:normal} .tblwrap td.act > *{display:block;margin:2px 0} }
+@media (min-width:641px) and (max-width:820px){ .tblwrap th:nth-child(4),.tblwrap td.dt-start{display:none} }
+@media (max-width:1020px){
+  .tb{min-width:0}
   .tb thead{display:none}
   .tb,.tb tbody,.tb tr,.tb td{display:block}
   .tb tr{display:grid;grid-template-columns:1fr auto;gap:2px 8px;padding:10px 12px;border-bottom:1px solid var(--line)}
   .tb td{border:0;padding:2px 0}
   .tb-co{grid-column:1} .tb-st{grid-column:2;grid-row:1}
   .tb-role,.tb-note{grid-column:1/-1;width:auto}
+  .tb-stg{grid-column:1/-1;display:flex !important;align-items:center;gap:6px}
+  .tb-stg::before{content:attr(data-label);font-size:11px;color:var(--muted);white-space:nowrap}
   .tb-date{grid-column:auto;display:flex !important;align-items:center;gap:6px}
   .tb-date::before{content:attr(data-label);font-size:11px;color:var(--muted);white-space:nowrap}
   .tb-x{grid-column:2;grid-row:2;justify-self:end}
@@ -620,7 +640,8 @@ tr.s-미지원 td{opacity:.6}
 .swatches button[aria-pressed="true"]{border-color:var(--ink);color:var(--ink);font-weight:700}
 .swatches button[aria-pressed="true"] i{box-shadow:0 0 0 2px var(--card),0 0 0 4px var(--ink)}
 .note{font-size:12.5px;color:var(--muted);line-height:1.65;margin-top:26px;
-  border-top:1px solid var(--line);padding-top:14px;max-width:68ch}
+  border-top:1px solid var(--line);padding-top:14px;max-width:68ch;display:flex;flex-direction:column;gap:6px}
+.note span{display:block}
 .note b{color:var(--ink-2)}
 .toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(12px);
   background:var(--ink);color:var(--paper);padding:9px 17px;border-radius:7px;font-size:13px;
@@ -794,7 +815,7 @@ thead th{font-weight:600;letter-spacing:.07em}
 
 <header id="appHeader" hidden>
   <div class="hbar">
-    <span class="brand"><img class="logo" src="/favicon.svg" alt="" width="22" height="22">지원 보드</span>
+    <span class="brand"><img class="logo" src="/favicon.svg" alt="" width="22" height="22"><span class="brand-t">지원 보드</span></span>
     <span class="today" id="todayLbl"></span>
     <span class="hspace"></span>
     <button class="primary hb-add" id="addBtn">+ 공고</button>
@@ -1960,6 +1981,69 @@ function setTStatus(a, v){
   else if(v === "확인필요"){ a.check = true; }
   else if(v === "미지원"){ a.applied = false; a.skip = true; }
 }
+/* 직무 칸에 링크·주소가 섞여 들어온 경우(현황표의 링크 칸 등) 글자만 남긴다 */
+function cleanRole(s){
+  return String(s || "").replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/https?:\/\/\S*/gi, "").replace(/\bwww\.\S+/gi, "")
+    .replace(/\s{2,}/g, " ").replace(/^[\s,·|/-]+|[\s,·|/-]+$/g, "").trim();
+}
+/* ---------- 전형 단계: 기본 흐름 + 회사마다 고칠 수 있음(a.flow) ----------
+   단계를 고르면 그 앞 단계는 합격, 고른 단계는 진행 중(예정)으로 카드 보기의 전형 목록과 같이 맞춘다. */
+const STD_FLOW = ["서류합격", "인적성", "과제", "1차 면접", "2차 면접", "최종 면접"];
+const stKey = s => String(s || "").replace(/\s/g, "").replace(/검사$|전형$/, "").replace(/^서류발표$/, "서류합격");
+function flowOf(a){ return (a.flow && a.flow.length) ? a.flow : STD_FLOW; }
+function stageNow(a){
+  if(!a.applied) return "";
+  if(a.doc !== "합격") return a.doc === "불합격" ? "서류 탈락" : "서류 제출";
+  if(!a.stages.length) return "서류합격";
+  const fail = a.stages.find(s => s.result === "불합격");
+  if(fail) return fail.name + " 탈락";
+  const last = a.stages[a.stages.length - 1];
+  if(last.result === "합격" && /최종/.test(last.name)) return "최종합격";
+  const cur = a.stages.find(s => s.result !== "합격") || last;
+  return cur.name;
+}
+function setStage(a, name){
+  const flow = flowOf(a).filter(n => stKey(n) !== "서류합격");
+  a.applied = true; a.skip = false;
+  if(name === "서류 제출"){ a.doc = "대기"; a.stages = a.stages.filter(s => s.date || s.result === "불합격" || flow.every(n => stKey(n) !== stKey(s.name))); return; }
+  a.doc = "합격"; a.check = false;
+  if(name === "최종합격"){
+    const last = flow[flow.length - 1];
+    a.stages.forEach(s => { if(s.result !== "불합격") s.result = "합격"; });
+    if(last && !a.stages.some(s => stKey(s.name) === stKey(last))) a.stages.push({name: last, date: "", result: "합격"});
+    return;
+  }
+  const k = name === "서류합격" ? -1 : flow.findIndex(n => stKey(n) === stKey(name));
+  flow.forEach((n, i) => {
+    let st = a.stages.find(s => stKey(s.name) === stKey(n));
+    /* 앞 단계는 실제로 거친 것(이미 적어 둔 것)만 합격으로 — 회사마다 없는 전형을 만들어 넣지 않는다 */
+    if(i < k){ if(st && st.result !== "불합격") st.result = "합격"; }
+    else if(i === k){ if(!st){ st = {name: n, date: ""}; a.stages.push(st); } if(st.result !== "불합격") st.result = st.result === "완료" ? "완료" : "예정"; }
+    else if(st && !st.date && st.result !== "불합격") a.stages.splice(a.stages.indexOf(st), 1);
+  });
+  // 흐름 순서대로(직접 넣은 전형은 뒤에 그대로)
+  const ord = s => { const i = flow.findIndex(n => stKey(n) === stKey(s.name)); return i < 0 ? 99 : i; };
+  a.stages.sort((x, y) => ord(x) - ord(y));
+}
+function stageSelect(a, j){
+  const sel = document.createElement("select"); sel.className = "tb-stage"; sel.setAttribute("aria-label", j.company + " 진행 단계");
+  const now = stageNow(a);
+  const opts = ["서류 제출"].concat(flowOf(a).map(n => stKey(n) === "서류합격" ? "서류합격" : n), ["최종합격"]);
+  if(now && !opts.includes(now)) opts.push(now);
+  opts.forEach(o => { const op = document.createElement("option"); op.value = o; op.textContent = o; op.selected = o === now || stKey(o) === stKey(now); sel.append(op); });
+  const ed = document.createElement("option"); ed.value = "__edit"; ed.textContent = "단계 고치기…"; sel.append(ed);
+  if(/탈락/.test(now)) sel.classList.add("fail"); else if(now === "최종합격") sel.classList.add("pass");
+  sel.onchange = () => {
+    if(sel.value === "__edit"){
+      const v = prompt(j.company + " 전형 단계를 순서대로 적어 주세요(쉼표로 구분).\n예: 서류합격, 인적성, 1차 면접, 최종 면접", flowOf(a).join(", "));
+      if(v !== null){ const f = v.split(/[,，>→\n]+/).map(x => x.trim()).filter(Boolean); a.flow = f.length ? f : undefined; if(!a.flow) delete a.flow; save(); }
+      renderAll(); return;
+    }
+    if(/탈락$/.test(sel.value)) return;
+    setStage(a, sel.value); save(); renderAll();
+  };
+  return sel;
+}
 function mineTable(){
   const all = allJobs().map(j => ({j, a: db.apps[j.id]})).filter(r => r.a && tStatus(r.a));
   all.forEach(r => r.st = tStatus(r.a));
@@ -1993,7 +2077,7 @@ function mineTable(){
   const exp = document.createElement("button"); exp.className = "ghost"; exp.textContent = "내보내기";
   exp.onclick = () => {
     const esc = v => '"' + String(v || "").replace(/"/g, '""') + '"';
-    const lines = [["기업", "직무", "상태", "결과 확인", "마감", "메모"].join(",")].concat(all.map(r => [r.j.company, r.a.role || "", T_LABEL[r.st], r.a.resultAt || "", deadline(r.j) || "", r.a.note || ""].map(esc).join(",")));
+    const lines = [["기업", "직무", "상태", "진행 단계", "결과 확인", "마감", "메모"].join(",")].concat(all.map(r => [r.j.company, cleanRole(r.a.role), T_LABEL[r.st], stageNow(r.a), r.a.resultAt || "", deadline(r.j) || "", r.a.note || ""].map(esc).join(",")));
     const blob = new Blob(["\ufeff" + lines.join("\n")], {type: "text/csv"});
     const l = document.createElement("a"); l.href = URL.createObjectURL(blob); l.download = "지원현황_" + iso(new Date()) + ".csv"; l.click();
   };
@@ -2007,9 +2091,9 @@ function mineTable(){
     .sort((x, y) => order(x) - order(y) || (deadline(x.j) || "9999").localeCompare(deadline(y.j) || "9999"));
 
   const t = document.createElement("table"); t.className = "tb";
-  t.innerHTML = "<thead><tr><th>기업</th><th>직무</th><th>상태</th><th>결과 확인</th><th>마감</th><th>메모</th><th></th></tr></thead>";
+  t.innerHTML = "<thead><tr><th>기업</th><th>직무</th><th>상태</th><th>진행 단계</th><th>결과 확인</th><th>마감</th><th>메모</th><th></th></tr></thead>";
   const tb = document.createElement("tbody");
-  if(!rows.length){ const tr = document.createElement("tr"); tr.innerHTML = '<td colspan="7" class="tb-empty">해당하는 지원이 없어요.</td>'; tb.append(tr); }
+  if(!rows.length){ const tr = document.createElement("tr"); tr.innerHTML = '<td colspan="8" class="tb-empty">해당하는 지원이 없어요.</td>'; tb.append(tr); }
   rows.forEach(({j, a, st}) => {
     const tr = document.createElement("tr"); tr.className = "s-" + st;
     const td = (cls, label) => { const c = document.createElement("td"); c.className = cls; c.dataset.label = label; tr.append(c); return c; };
@@ -2022,10 +2106,11 @@ function mineTable(){
       const s = document.createElement("span"); s.textContent = j.company; cCo.append(s);
       if(j.url){ const l = document.createElement("a"); l.href = j.url; l.target = "_blank"; l.rel = "noopener"; l.textContent = "↗"; l.title = "공고 열기"; l.className = "tb-link"; cCo.append(l); }
     }
-    { const uj = unJob(j); uj.title = (a.role || "") + " " + uj.title;
-      const uc = unChip(uj); if(uc){ uc.classList.add("un-sm"); uc.textContent = uc.textContent.replace(" 운 궁합", ""); cCo.append(uc); } }
+    { const uj = unJob(j); uj.title = cleanRole(a.role) + " " + uj.title;
+      const uc = unChip(uj); if(uc){ uc.classList.add("un-sm"); uc.textContent = uc.textContent.replace(" 운 궁합", ""); const w = document.createElement("div"); w.className = "tb-un"; w.append(uc); cCo.append(w); } }
     const cRole = td("tb-role", "직무");
-    const ri = document.createElement("input"); ri.value = a.role || (custom ? j.hist || "" : ""); ri.placeholder = (j.roles || []).join(", ") || "직무";
+    if(a.role && a.role !== cleanRole(a.role)){ a.role = cleanRole(a.role); save(); }
+    const ri = document.createElement("input"); ri.value = a.role || (custom ? cleanRole(j.hist) : ""); ri.placeholder = (j.roles || []).join(", ") || "직무";
     ri.setAttribute("aria-label", j.company + " 직무");
     ri.onchange = () => { a.role = ri.value.trim(); save(); };
     cRole.append(ri);
@@ -2034,6 +2119,8 @@ function mineTable(){
     T_STATUS.forEach(k => { const o = document.createElement("option"); o.value = k; o.textContent = k === "확인필요" ? "확인 필요" : k; o.selected = k === st; ss.append(o); });
     ss.onchange = () => { setTStatus(a, ss.value); save(); renderAll(); };
     cSt.append(ss);
+    const cStg = td("tb-stg", "단계");
+    cStg.append(stageSelect(a, j));
     const cRes = td("tb-date", "결과 확인");
     const rd = document.createElement("input"); rd.type = "date"; rd.value = a.resultAt || ""; rd.setAttribute("aria-label", j.company + " 결과 확인일");
     if(!rd.value) cRes.classList.add("empty");
@@ -3348,15 +3435,20 @@ function loadSales(){
     .then(([radar, junior, comp]) => { slData = {radar, junior, comp}; renderSales(); });
   return salesPromise;
 }
+const TALENT_RE = /인재\s*풀|인재\s*pool|talent\s*(pool|community|network)|인재\s*(등록|DB)|상시\s*인재|future\s*opportunit|general\s*application|open\s*application|자유\s*지원/i;
+const isProgramName = s => /부트\s*캠프|bootcamp|\bcamp\b|캠프|K-?Digital|K-?디지털|K-?뉴딜|아카데미|academy|교육생|훈련생|내일배움|양성\s*과정/i.test(s || "");
 function salesRows(){
   const today = iso(new Date()), out = [], seen = new Set();
+  /* 지금 실제로 접수 중인 공고만: 인재풀·이력서 등록, 예상 일정, 마감·시작 전 공고, 오래된 상시 글은 뺀다 */
+  const old = d => d && Date.parse(d) < Date.now() - 45 * 864e5;
   const push = (x) => {
+    if(TALENT_RE.test(x.title || "") || isProgramName(x.company + " " + (x.title || ""))) return;
     const k = coKey(x.company) + "|" + (x.url || x.title);
     if(seen.has(k)) return; seen.add(k); out.push(x);
   };
   /* 1) 지원보드 공고: 직무 분류가 영업이거나, 모집 부문 이름에 영업이 들어간 것 */
   allJobs().forEach(j => {
-    if(state(j).k === "shut" || superseded(j)) return;
+    if(!j.confirmed || state(j).k !== "open" || superseded(j)) return;
     const M = SL_MODES[slMode];
     const tracks = ((DETAILS && DETAILS[j.id] && DETAILS[j.id].tracks) || []).map(t => t.name).filter(n => n && M.re.test(n));
     const byRole = (j.roles || []).some(r => M.board.test(r));
@@ -3375,6 +3467,7 @@ function salesRows(){
     if(!SL_MODES[slMode].re.test(r.title)) return;
     const end = /^\d{4}-/.test(r.due || "") ? r.due : "";
     if(end && end < today) return;
+    if(!end && old(r.openDate || r.found)) return;
     push({src: "junior", company: r["회사"], title: r.title, url: r.link, end, years: null, junior: true, posted: r.openDate || "", found: r.found || ""});
   });
   /* 4) 스타트업·유니콘·외국계 공식 채용 */
@@ -3459,32 +3552,87 @@ function gcGroupItem(g){
     revenue: null, ids: items.map(x => x.id), tracks};
 }
 /* 기획·마케팅·영업·운영·경영지원 계열이 아닌 직무(개발·설계·생산·연구·전문 자격 등) — 추천에서 맨 뒤로 */
-const GC_OFF = /개발|엔지니어|engineer|SW|HW|설계|생산|공정|품질|설비|연구|R&D|회로|반도체|토목|건축|구조|기계|전기|전자|화학|배합|시설|검사|정보보안|보안|클라우드|인프라|네트워크|디자인|designer|간호|약사|조리|영양|의료|임상|운전|정비|IB\b|PF\b|트레이딩|애널리스트|퀀트|법무|변호사|세무사|회계사/i;
+const GC_OFF = /개발|엔지니어|engineer|SW|HW|설계|생산|제조|공정|품질|설비|연구|R&D|회로|반도체|토목|건축|구조|기계|전기|전자|화학|배합|시설|검사|정보보안|보안|클라우드|인프라|네트워크|디자인|designer|간호|약사|조리|영양|의료|임상|운전|정비|IB\b|PF\b|트레이딩|애널리스트|퀀트|법무|변호사|세무사|회계사/i;
+/* 직무 이름 → 직무 계열(ROLES와 같은 이름 + 경영지원). 위에서부터 먼저 맞는 것 하나만 */
+const GC_FAM = [
+  ["PM/서비스기획", /서비스\s*기획|\bP[MO]\b|프로덕트|product|AI\s*기획|플랫폼\s*기획|UX\s*기획/i],
+  ["MD", /\bMD\b|머천|바이어|상품\s*기획|매입|이커머스|커머스|리테일\s*기획/i],
+  ["마케팅", /마케팅|marketing|그로스|CRM|광고|퍼포먼스/i],
+  ["브랜드", /브랜드|브랜딩/],
+  ["콘텐츠", /콘텐츠|컨텐츠|\bPD\b|에디터|크리에이티브|방송/i],
+  ["사업개발", /사업\s*개발|신사업|제휴|\bBD\b/i],
+  ["기획/전략", /기획|전략|리징|공간|컨설팅|AX|DX/i],
+  ["영업관리", /영업\s*관리|점포|매장|스토어|지점/],
+  ["영업", /영업|세일즈|sales|수주/i],
+  ["홍보/PR", /홍보|\bPR\b|대외|커뮤니케이션/i],
+  ["고객/CS", /\bCS\b|\bCX\b|고객/i],
+  ["리서치", /리서치|조사|research/i],
+  ["HR/인사", /인사|\bHR\b|채용|조직\s*문화|교육\s*담당/i],
+  ["금융/심사", /재무|회계|자금|세무|\bIR\b|심사|여신|금융/i],
+  ["경영지원", /경영\s*지원|총무|구매|법무|SCM|물류|제조|생산|관리\s*직|사무/i],
+];
+/* 소민님처럼 기획·마케팅 쪽을 노리는 사람의 기본 관심 직무(설정에서 고른 직무가 있으면 그걸 쓴다) */
+const GC_CORE = ["PM/서비스기획","기획/전략","사업개발","마케팅","브랜드","콘텐츠","MD"];
+/* 누구나 이력서에 쓰는 말 — 경쟁자도 다 갖고 있어 강점이 되기 어렵다 */
+const GC_GENERIC = /이해관계자|문서화|커뮤니케이션|협업|프로세스\s*개선|리더십|엑셀|오피스|글로벌|해외|일정\s*관리/;
+const gcFam = name => (GC_FAM.find(([, re]) => re.test(name)) || [""])[0];
+function gcFit(name){
+  const fam = gcFam(name);
+  const mineRoles = (db.profile.roles && db.profile.roles.length) ? db.profile.roles : GC_CORE;
+  if(!fam) return [50, "", "직무 계열을 이름으로 알 수 없음"];
+  if(mineRoles.includes(fam)) return [100, fam, fam + " — 내 관심 직무"];
+  if(fam === "경영지원" || fam === "금융/심사" || fam === "HR/인사") return [15, fam, fam + " — 관심 직무와 거리가 멀어 강점을 보이기 어려움"];
+  if(GC_CORE.includes(fam) || fam === "영업" || fam === "홍보/PR" || fam === "리서치") return [65, fam, fam + " — 관심 직무와 가까움"];
+  return [40, fam, fam + " — 관심 직무 밖"];
+}
 function gcRank(item){
   const mine = typeof mtMine === "function" ? mtMine() : new Set();
   const hasMine = !!(db.match && mine.size);
+  const cnt = (db.match && db.match.counts) || {};
+  const maxCnt = Math.max(1, ...Object.values(cnt));
   const maxAff = Math.max(1, ...item.tracks.map(t => t.affiliateTracks || 1));
   const anyApp = item.tracks.some(t => t.applicants > 0);
   const maxHead = Math.max(0, ...item.tracks.map(t => t.headcount || 0));
+  /* 이 공고(그룹) 안에서 키워드가 얼마나 흔한지 — 모든 직무에 다 붙는 회사 소개 말은 차이를 만들지 못한다 */
+  const N = item.tracks.length, df = {};
+  item.tracks.forEach(t => Object.keys(t.w || {}).forEach(k => df[k] = (df[k] || 0) + 1));
+  const idf = k => Math.log((N + 1) / ((df[k] || 0) + 0.5)) / Math.log(N + 1 + 1e-9) * (GC_GENERIC.test(k) ? 0.3 : 1);
   return item.tracks.map(t => {
     const f = [];   // [이름, 0~100 점수, 비중, 설명]
-    const e = Object.entries(t.w || {}), tot = e.reduce((s, [, w]) => s + w, 0), hit = e.reduce((s, [k, w]) => s + (mine.has(k) ? w : 0), 0);
     const nm = t.name.replace(/^\s*\[[^\]]+\]/, "");
     /* 개발자·엔지니어 직함은 무조건 다른 직군, 그 밖의 기술 단어는 기획·마케팅 같은 말이 같이 있으면 남긴다(예: 인프라 전략기획) */
     const off = /engineer|developer|architect|개발자|엔지니어|backend|frontend|코딩|프로그래머|scientist/i.test(nm) ||
       (GC_OFF.test(nm) && !/기획|마케팅|영업|사업|전략|서비스\s*기획|MD|PM|PO|경영/.test(nm));
-    if(hasMine) f.push(["경험", tot ? Math.round(hit / (tot + 2) * 100) : 0, 40, tot ? "내 경험과 겹치는 JD 키워드 " + Math.round(hit / (tot + 2) * 100) + "%" + (t.ownJd ? "" : " (직무 이름·공통 본문 기준)") : "JD 키워드가 없어 경험을 비교할 수 없음"]);
+    const [fit, fam, fitWhy] = gcFit(nm);
+    f.push(["직무 적합", fit, 30, fitWhy]);
+    const why = {fam, edge: [], common: [], miss: []};
+    if(hasMine){
+      /* 경쟁자 대비 강점: 이 직무에서만 두드러지는 키워드를 내가 '깊게'(경험 여러 번) 갖고 있을수록 높다 */
+      let num = 0, den = 0;
+      Object.entries(t.w || {}).forEach(([k, w]) => {
+        const v = w * idf(k); den += v;
+        if(mine.has(k)){
+          const depth = 0.5 + 0.5 * Math.min(1, (cnt[k] || 0) / (maxCnt * 0.5));
+          num += v * depth;
+          (idf(k) >= 0.35 ? why.edge : why.common).push(k);
+        } else if(idf(k) >= 0.35 && w >= 2) why.miss.push(k);
+      });
+      const edge = den ? Math.round(num / (den + 0.5) * 100) : 0;
+      f.push(["강점", edge, 35, den ? "이 직무에서 두드러지는 JD 키워드 중 내 경험이 깊은 것 " + edge + "%" + (t.ownJd ? "" : " (직무 이름·공통 본문 기준)") : "JD 키워드가 없어 비교할 수 없음"]);
+    }
     const u = privOn() ? unScore({company: t.affiliate || item.company, title: t.name, type: item.type}) : null;
-    if(u) f.push(["운", u.total, 15, "운 궁합 " + u.mark + " " + u.total]);
+    if(u) f.push(["운", u.total, 10, "운 궁합 " + u.mark + " " + u.total]);
     const vol = maxHead ? Math.round(30 + 70 * (t.headcount || 0) / maxHead) : Math.round(30 + 70 * (t.affiliateTracks || 1) / maxAff);
-    f.push(["채용 규모", vol, 15, maxHead && t.headcount ? "모집 " + t.headcount + "명" : (t.affiliate !== item.company ? t.affiliate + " 직무 " + t.affiliateTracks + "개" : "공고 안 직무 " + item.tracks.length + "개")]);
-    if(anyApp) f.push(["경쟁", Math.round(100 - 70 * (t.competition || 0)), 10, "자소설 지원 준비 " + (t.applicants || 0) + "명" + (t.competition >= 0.7 ? " (붐빔)" : t.competition <= 0.3 ? " (한산)" : "")]);
-    if(item.revenue && item.revenue.growth != null) f.push(["성장", Math.max(0, Math.min(100, Math.round(50 + item.revenue.growth * 2))), 10, item.revenue.year + "년 매출 " + (item.revenue.growth >= 0 ? "+" : "") + item.revenue.growth + "%"]);
-    if(t.news && t.news.n30) f.push(["뉴스", Math.min(100, 40 + t.news.role * 15), 10, "최근 30일 기사 " + t.news.n30 + "건 중 이 직무 관련 " + t.news.role + "건"]);
+    f.push(["채용 규모", vol, 10, maxHead && t.headcount ? "모집 " + t.headcount + "명" : (t.affiliate !== item.company ? t.affiliate + " 직무 " + t.affiliateTracks + "개" : "공고 안 직무 " + item.tracks.length + "개")]);
+    if(anyApp) f.push(["경쟁", Math.round(100 - 70 * (t.competition || 0)), 10, "자소설 지원 준비 " + (t.applicants || 0) + "명" + (t.headcount ? "(모집 " + t.headcount + "명)" : "") + (t.competition >= 0.7 ? " (붐빔)" : t.competition <= 0.3 ? " (한산)" : "")]);
+    if(item.revenue && item.revenue.growth != null) f.push(["성장", Math.max(0, Math.min(100, Math.round(50 + item.revenue.growth * 2))), 5, item.revenue.year + "년 매출 " + (item.revenue.growth >= 0 ? "+" : "") + item.revenue.growth + "%"]);
+    if(t.news && t.news.n30) f.push(["뉴스", Math.min(100, 40 + t.news.role * 15), 5, "최근 30일 기사 " + t.news.n30 + "건 중 이 직무 관련 " + t.news.role + "건"]);
     const wsum = f.reduce((s, x) => s + x[2], 0);
-    const total = Math.round(f.reduce((s, x) => s + x[1] * x[2], 0) / (wsum || 1));
-    return {t, total: off ? Math.min(total, 40) : total, f, off, noExp: !hasMine};
-  }).sort((a, b) => (a.off - b.off) || b.total - a.total);
+    let total = Math.round(f.reduce((s, x) => s + x[1] * x[2], 0) / (wsum || 1));
+    /* 관심 직무 밖인데 키워드만 많이 겹치는 경우(예: 총무·경영지원)는 위로 올라오지 않게 */
+    if(fit <= 15) total = Math.min(total, 55);
+    return {t, total: off ? Math.min(total, 40) : total, f, off, fit, why, noExp: !hasMine};
+  }).sort((a, b) => (a.off - b.off) || b.total - a.total || b.fit - a.fit);
 }
 function gcRow(r, i){
   const li = document.createElement("li"); li.className = "gc-row" + (i === 0 ? " best" : "");
@@ -3495,6 +3643,15 @@ function gcRow(r, i){
   const chips = document.createElement("div"); chips.className = "rd-tags";
   r.f.forEach(([k, v, , why]) => { const c = document.createElement("span"); c.className = "rd-tag" + (v >= 70 ? " role" : ""); c.textContent = k + " " + v; c.title = why; chips.append(c); });
   m.append(chips);
+  /* 왜 이 순위인지: 직무 계열 + 내 강점 키워드 / 누구나 겹치는 키워드 / 부족한 키워드 */
+  const w = document.createElement("p"); w.className = "gc-why";
+  const add = (label, arr, cls) => { if(!arr.length) return; const s = document.createElement("span"); s.className = cls; s.textContent = label + " " + arr.slice(0, 5).join(", "); w.append(s); };
+  add("직무", [r.f[0][3]], "w-fit");
+  add("✓ 강점 키워드", r.why.edge, "w-edge");
+  add("△ 흔한 겹침", r.why.common, "w-common");
+  add("✗ 부족", r.why.miss, "w-miss");
+  if(r.noExp){ const s = document.createElement("span"); s.className = "w-common"; s.textContent = "JD 키워드 " + Object.keys(r.t.w || {}).slice(0, 5).join(", "); w.append(s); }
+  m.append(w);
   if(r.t.news && r.t.news.top && r.t.news.top.length && i < 3){ const p = document.createElement("p"); p.className = "gc-news"; p.textContent = "뉴스: " + r.t.news.top.slice(0, 2).join(" · "); m.append(p); }
   const sc = document.createElement("div"); sc.className = "mt-pct"; sc.textContent = r.total; const sm = document.createElement("small"); sm.textContent = "종합"; sc.append(sm);
   li.append(n, m, sc); return li;
@@ -3509,11 +3666,29 @@ async function renderPick(id){
   const sub = document.createElement("p"); sub.className = "sub";
   sub.textContent = "공채 판단: " + item.why.join(" · ") + " · JD 출처: " + item.jdSource + (item.oneOnly ? " · ⚠ 공고에 '한 직무(계열사)만 지원' 조건이 있어요" : "") +
     (ranked[0] && ranked[0].noExp ? " · 매칭 아카이브에 경험을 넣으면 '경험' 점수가 더해져요" : "");
+  const how = document.createElement("p"); how.className = "sub";
+  how.textContent = "순위 기준: 직무 적합 30(내 관심 직무인지) · 강점 35(그 직무에서만 두드러지는 JD 키워드를 내가 깊게 갖고 있는지 — 누구나 쓰는 ‘이해관계자 조율·문서화’ 같은 말은 적게 침) · 채용 규모·경쟁 각 10" + (privOn() ? " · 운 10" : "") + ". 관심 직무 밖(경영지원·총무·재무 등)은 키워드가 겹쳐도 55점을 넘지 않아요.";
+  box.append(h, sub, how);
+  /* 그룹이면 계열사마다 가장 나은 직무 하나씩 — 계열사가 순위 밖으로 밀려 안 보이는 일이 없게 */
+  if(g){
+    const best = new Map();
+    ranked.filter(r => !r.off).forEach(r => { const k = r.t.affiliate || r.t.from; if(!best.has(k)) best.set(k, r); });
+    const p = document.createElement("div"); p.className = "gc-aff";
+    const l = document.createElement("span"); l.className = "sub"; l.textContent = "계열사별 1위"; p.append(l);
+    [...best.values()].forEach(r => { const c = document.createElement("span"); c.className = "rd-tag" + (r === ranked[0] ? " role" : ""); c.textContent = r.t.name.replace(/\s*·\s*/, " ") + " " + r.total; p.append(c); });
+    box.append(p);
+  }
   const ul = document.createElement("ol"); ul.className = "rd-jobs gc-list";
   ranked.slice(0, 8).forEach((r, i) => { const li = gcRow(r, i); if(g && r.t.from === id) li.classList.add("here"); ul.append(li); });
-  box.append(h, sub, ul);
+  box.append(ul);
   if(g){ const here = ranked.findIndex(r => r.t.from === id); if(here >= 8){ const p = document.createElement("p"); p.className = "sub"; p.textContent = "이 공고의 가장 높은 직무는 그룹 전체 " + ranked.length + "개 중 " + (here + 1) + "위예요(" + ranked[here].t.name + " " + ranked[here].total + "점)."; box.append(p); } }
-  if(ranked.length > 8){ const more = document.createElement("p"); more.className = "sub"; more.textContent = "그 밖에 " + (ranked.length - 8) + "개 직무는 점수가 더 낮아요."; box.append(more); }
+  if(ranked.length > 8){
+    const more = document.createElement("details"); more.className = "gc-more";
+    const sm = document.createElement("summary"); sm.textContent = "나머지 " + (ranked.length - 8) + "개 직무도 보기"; more.append(sm);
+    const ul2 = document.createElement("ol"); ul2.className = "rd-jobs gc-list"; ul2.start = 9;
+    ranked.slice(8).forEach((r, i) => { const li = gcRow(r, i + 8); if(g && r.t.from === id) li.classList.add("here"); ul2.append(li); });
+    more.append(ul2); box.append(more);
+  }
   box.hidden = false;
 }
 function renderGcBox(){
@@ -4086,17 +4261,16 @@ function boot(){
     .then(function(d){
       SEED = d.jobs || [];
       if(d.stages && d.stages.length) STAGES = d.stages;
+      if(!STAGES.includes("과제")){ const i = STAGES.indexOf("1차 면접"); STAGES.splice(i < 0 ? STAGES.length : i, 0, "과제"); }
       /* 내가 고쳐둔 공용 공고는 내 값으로 되돌립니다 */
       SEED.forEach(function(s){
         const o = db.apps[s.id] && db.apps[s.id].ovr;
         if(o) Object.assign(s, o);
       });
       document.getElementById("footnote").innerHTML =
-        '<b>공고 데이터 갱신</b> — ' + (d.updated || "—") + ' 기준. 공고 목록은 자동으로 갱신되지만, ' +
-        '<b>내 데이터는 로그인 계정 기준으로 저장</b>되어 어느 기기에서 열어도 같은 내용이 보입니다. ' +
-        '다른 사람에게는 보이지 않습니다. 그래도 가끔 <b>백업</b>으로 파일을 내려받아 두세요.<br>' +
-        '<b>예상과 확정</b> — 점선 ‘예상’은 과거 3년 접수 패턴으로 추정한 날짜입니다. ' +
-        '실제 공고가 뜨면 확정 날짜로 바뀝니다. 직접 고칠 수도 있습니다.';
+        '<span><b>공고 데이터 갱신</b> ' + (d.updated || "—") + ' 기준 · 매일 자동 갱신</span>' +
+        '<span><b>내 데이터</b>는 로그인 계정에 저장돼 어느 기기에서나 같고, 다른 사람에게는 보이지 않아요. 가끔 <b>백업</b> 파일도 받아 두세요.</span>' +
+        '<span><b>예상과 확정</b> 점선 ‘예상’은 지난 공고 패턴으로 추정한 날짜예요. 실제 공고가 뜨면 확정으로 바뀌고, 직접 고칠 수도 있어요.</span>';
       renderAll();
       if(!db.profile.onboarded) openPref();
     })
@@ -4175,7 +4349,7 @@ function stParse(text){
     if(!sec || !/^\s*\|/.test(line) || /^\s*\|\s*:?-/.test(line)) continue;
     const c = line.split("|").slice(1, -1).map(x => x.replace(/\*\*|`/g, "").trim());
     if(!c[0] || c[0] === "기업") continue;
-    rows.push({sec, company: c[0], role: c[1] && c[1] !== "—" ? c[1] : "", stage: sec === "fail" ? (c[2] || "") : ""});
+    rows.push({sec, company: c[0], role: c[1] && c[1] !== "—" ? cleanRole(c[1]) : "", stage: sec === "fail" ? (c[2] || "") : ""});
   }
   if(rows.length) return rows;
   /* 표가 없으면 한 줄씩: "회사 [직무] [단계] 상태" — 상태 말은 줄 끝에 */
@@ -4194,7 +4368,7 @@ function stParse(text){
     if(st) before = before.slice(0, -stage.length).trim();
     const [company, ...roleParts] = before.split(/\s+/);
     if(!company) continue;
-    rows.push({sec: hit.sec, company, role: roleParts.join(" "), stage: hit.sec === "fail" ? stage : ""});
+    rows.push({sec: hit.sec, company, role: cleanRole(roleParts.join(" ")), stage: hit.sec === "fail" ? stage : ""});
   }
   return rows;
 }

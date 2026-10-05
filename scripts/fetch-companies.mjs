@@ -11,7 +11,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { yearsIn, weights } from "./lib/jd-keywords.mjs";
 import { stripHtml, greetingJd, UA } from "./lib/jd-text.mjs";
-import { needsOtherLang } from "./lib/not-job.mjs";
+import { isTalentPool, needsOtherLang } from "./lib/not-job.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "company-jobs.json");
@@ -20,7 +20,7 @@ const OUT = path.join(__dirname, "..", "data", "company-jobs.json");
 const ROLE = /영업|세일즈|sales|account\s*(executive|manager|strategist)|\bAE\b|\bSDR\b|\bBDR\b|기획|PM\b|PO\b|product\s*(manager|owner|operations|marketing|strategist|lead)|프로덕트|program\s*manager|사업|business|전략|strategy|operations|운영|마케팅|marketing|marketer|growth|그로스|brand|브랜드|CRM|MD\b|머천다이|merchandis|콘텐츠|content|partnership|제휴|GTM|go[-\s]to[-\s]market|campaign|캠페인|community|커뮤니티|CX\b|customer\s*(experience|success)|intern|인턴/i;
 const EXCLUDE = /engineer|엔지니어|developer|개발자|백엔드|프론트엔드|backend|frontend|designer|디자이너|scientist|researcher|연구원|devops|\bSRE\b|security|보안|legal|법무|counsel|accountant|회계|recruit|채용담당|talent\s*acquisition/i;
 const SEOUL = /seoul|korea|서울|한국|대한민국|성남|판교/i;
-const relevant = (title) => ROLE.test(title) && !EXCLUDE.test(title);
+const relevant = (title) => ROLE.test(title) && !EXCLUDE.test(title) && !isTalentPool(title);
 
 const GREETING = [
   ["무신사", "https://musinsa.career.greetinghr.com"], ["CJ올리브영", "https://career.oliveyoung.com"],
@@ -53,6 +53,8 @@ const WORKDAY = [
   ["어도비", "adobe.wd5", "adobe", "external_experienced"],
   ["인텔", "intel.wd1", "intel", "External"],
   ["비자", "visa.wd5", "visa", "Visa"],
+  // 텐센트: 서울 근무지 필터(locations)로 받는다 — 한국 공고가 적어 인턴(리서치 인턴 포함)까지 모두 둔다
+  ["텐센트", "tencent.wd1", "tencent", "Tencent_Careers", { locations: ["b3d4dad114e4100177c233d159a40000"] }],
 ];
 
 async function getJson(url, init = {}) {
@@ -114,15 +116,15 @@ async function collectAshby(company, org) {
     .map((j) => ({ company, title: j.title, url: j.jobUrl, text: j.descriptionPlain || stripHtml(j.descriptionHtml || ""), posted: (j.publishedAt || "").slice(0, 10) }));
 }
 
-async function collectWorkday(company, host, tenant, site) {
+async function collectWorkday(company, host, tenant, site, facets) {
   const api = `https://${host}.myworkdayjobs.com/wday/cxs/${tenant}/${site}`;
   const list = await getJson(`${api}/jobs`, {
     method: "POST", headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ appliedFacets: {}, limit: 20, offset: 0, searchText: "Seoul" }),
+    body: JSON.stringify({ appliedFacets: facets || {}, limit: 20, offset: 0, searchText: facets ? "" : "Seoul" }),
   });
   const jobs = [];
   for (const p of list.jobPostings || []) {
-    if (!SEOUL.test(p.locationsText || "") || !relevant(p.title)) continue;
+    if ((!facets && !SEOUL.test(p.locationsText || "")) || !relevant(p.title)) continue;
     try {
       const d = await getJson(`${api}${p.externalPath}`);
       jobs.push({ company, title: p.title, url: d.jobPostingInfo?.externalUrl || `https://${host}.myworkdayjobs.com/${site}${p.externalPath}`,
