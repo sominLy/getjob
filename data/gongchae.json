@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04",
+ "updated": "2026-10-05",
  "rules": "공채 판별·직무별 JD·전략 신호는 scripts/build-gongchae.mjs 참고",
  "groups": [
   {
@@ -1123,558 +1123,6 @@
    ]
   },
   {
-   "id": "jasoseol-106181",
-   "company": "이노션",
-   "type": "대기업",
-   "end": "2026-11-10",
-   "url": "https://innocean.recruiter.co.kr/career/jobs/128152",
-   "group": "",
-   "why": [
-    "직무 2개",
-    "마감일 명시",
-    "대기업",
-    "제목에 직무 미표기·공채 표현"
-   ],
-   "jdSource": "공식 본문",
-   "oneOnly": false,
-   "revenue": null,
-   "pastTracks": 14,
-   "tracks": [
-    {
-     "name": "UI/UX 디자인",
-     "affiliate": "이노션",
-     "w": {
-      "서비스기획": 1,
-      "요구사항 정의": 3,
-      "화면설계·UX": 3,
-      "이해관계자 조율": 3,
-      "브랜드": 3,
-      "문서화·가이드": 3,
-      "품질·검수": 3,
-      "정산·계약": 2,
-      "모바일 앱": 3,
-      "글로벌·해외": 3,
-      "영어": 2
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 24,
-      "role": 0,
-      "top": [
-       "이노션에스, 온오프라인 통합 고객경험 사업 강화",
-       "이노션에스, 온오프라인 통합 고객경험 사업 강화",
-       "이노션에스, 온·오프라인 통합 고객경험 비즈니스 본격화"
-      ]
-     }
-    },
-    {
-     "name": "UI/UX 디자인",
-     "affiliate": "이노션",
-     "w": {
-      "서비스기획": 1,
-      "요구사항 정의": 3,
-      "화면설계·UX": 3,
-      "이해관계자 조율": 3,
-      "브랜드": 3,
-      "문서화·가이드": 3,
-      "품질·검수": 3,
-      "정산·계약": 2,
-      "모바일 앱": 3,
-      "글로벌·해외": 3,
-      "영어": 2
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 24,
-      "role": 0,
-      "top": [
-       "이노션에스, 온오프라인 통합 고객경험 사업 강화",
-       "이노션에스, 온오프라인 통합 고객경험 사업 강화",
-       "이노션에스, 온·오프라인 통합 고객경험 비즈니스 본격화"
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "id": "jasoseol-106104",
-   "company": "LG CNS",
-   "type": "대기업",
-   "end": "2026-10-12",
-   "url": "https://lgcnscamp.kr/?utm_source=site&utm_medium=post_ad&utm_campaign=LG7_jasoseol_ad20260914",
-   "group": "",
-   "why": [
-    "직무 5개",
-    "마감일 명시",
-    "대기업",
-    "제목에 직무 미표기·공채 표현"
-   ],
-   "jdSource": "공고문 이미지 글자 인식",
-   "oneOnly": false,
-   "revenue": null,
-   "pastTracks": 14,
-   "tracks": [
-    {
-     "name": "Frontend/Backend 엔지니어",
-     "affiliate": "LG CNS",
-     "w": {
-      "서비스기획": 1
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 5,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[유미's 픽] 구광모 美 출장 동행한 현신균…LG CNS, 그룹 AI 사업 핵심축 됐다",
-       "[AI픽] LG CNS, 사전제작 모듈형 데이터센터로 AI팩토리 시장 공략",
-       "LG CNS, ’모듈형 데이터센터’로 AI 팩토리 시장 공략"
-      ]
-     }
-    },
-    {
-     "name": "AI 엔지니어",
-     "affiliate": "LG CNS",
-     "w": {
-      "서비스기획": 1,
-      "데이터 분석": 1,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "프로세스 개선": 2,
-      "AI·LLM": 3,
-      "교육": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 5,
-     "news": {
-      "n30": 40,
-      "role": 33,
-      "top": [
-       "[유미's 픽] 구광모 美 출장 동행한 현신균…LG CNS, 그룹 AI 사업 핵심축 됐다",
-       "[AI픽] LG CNS, 사전제작 모듈형 데이터센터로 AI팩토리 시장 공략",
-       "LG CNS, ’모듈형 데이터센터’로 AI 팩토리 시장 공략"
-      ]
-     }
-    },
-    {
-     "name": "AI 서비스 기획자",
-     "affiliate": "LG CNS",
-     "w": {
-      "서비스기획": 3,
-      "요구사항 정의": 1,
-      "화면설계·UX": 1,
-      "사업기획·전략": 2,
-      "프로젝트 관리": 1,
-      "데이터 분석": 3,
-      "지표·KPI": 2,
-      "SQL·툴": 1,
-      "시장·트렌드 분석": 1,
-      "프로세스 개선": 2,
-      "AI·LLM": 3,
-      "교육": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 5,
-     "news": {
-      "n30": 40,
-      "role": 2,
-      "top": [
-       "[유미's 픽] 구광모 美 출장 동행한 현신균…LG CNS, 그룹 AI 사업 핵심축 됐다",
-       "[AI픽] LG CNS, 사전제작 모듈형 데이터센터로 AI팩토리 시장 공략",
-       "LG CNS, ’모듈형 데이터센터’로 AI 팩토리 시장 공략"
-      ]
-     }
-    },
-    {
-     "name": "클라우드 서비스 엔지니어",
-     "affiliate": "LG CNS",
-     "w": {},
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 5,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[유미's 픽] 구광모 美 출장 동행한 현신균…LG CNS, 그룹 AI 사업 핵심축 됐다",
-       "[AI픽] LG CNS, 사전제작 모듈형 데이터센터로 AI팩토리 시장 공략",
-       "LG CNS, ’모듈형 데이터센터’로 AI 팩토리 시장 공략"
-      ]
-     }
-    },
-    {
-     "name": "DevOps 엔지니어",
-     "affiliate": "LG CNS",
-     "w": {
-      "AI·LLM": 1,
-      "교육": 3
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 5,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[유미's 픽] 구광모 美 출장 동행한 현신균…LG CNS, 그룹 AI 사업 핵심축 됐다",
-       "[AI픽] LG CNS, 사전제작 모듈형 데이터센터로 AI팩토리 시장 공략",
-       "LG CNS, ’모듈형 데이터센터’로 AI 팩토리 시장 공략"
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "id": "jasoseol-106173",
-   "company": "현대자동차그룹",
-   "type": "대기업",
-   "end": "2026-10-05",
-   "url": "https://hmg-hint.recruiter.co.kr/career/jobs",
-   "group": "",
-   "why": [
-    "직무 12개",
-    "마감일 명시",
-    "대기업",
-    "그룹 공고",
-    "제목에 직무 미표기·공채 표현"
-   ],
-   "jdSource": "공식 본문",
-   "oneOnly": false,
-   "revenue": null,
-   "pastTracks": 12,
-   "tracks": [
-    {
-     "name": "서울-모빌리티 AI",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "데이터 분석": 1,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "프로세스 개선": 2,
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 13,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "서울-제조지능화",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "광주-모빌리티 AI",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "데이터 분석": 1,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "프로세스 개선": 2,
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 13,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "광주-제조지능화",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "대전-모빌리티 AI",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "데이터 분석": 1,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "프로세스 개선": 2,
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 13,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "대전-제조지능화",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "청주-제조지능화",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "대구-모빌리티 AI",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "데이터 분석": 1,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "프로세스 개선": 2,
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 13,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "대구-제조지능화",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "부산-모빌리티 AI",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "데이터 분석": 1,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "프로세스 개선": 2,
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 13,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "부산-제조지능화",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    },
-    {
-     "name": "울산-제조지능화",
-     "affiliate": "현대자동차그룹",
-     "w": {
-      "품질·검수": 1,
-      "AI·LLM": 3,
-      "교육": 3,
-      "여행·모빌리티": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 12,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] 車 만들던 현대차가 왜?…'2028년' 앞두고 인재 싹쓸이",
-       "현대차, 디 올 뉴 투싼 최초 공개 | 뉴스 | 현대자동차그룹",
-       "현대차그룹, 실리콘밸리서 '테크 인재 포럼' 성료…총 380명 참가"
-      ]
-     }
-    }
-   ]
-  },
-  {
    "id": "jasoseol-106204",
    "company": "경기테크노파크",
    "type": "공기업",
@@ -1690,7 +1138,7 @@
    "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
-   "pastTracks": 9,
+   "pastTracks": 8,
    "tracks": [
     {
      "name": "생산관리",
@@ -1871,114 +1319,6 @@
        "경기테크노파크, 창립 기념일을 'ESG 실천의 날'로…대부도 환경정화",
        "경기도시장상권진흥원-경기테크노파크, 소상공인 온라인 판로 확대 협약 체결",
        "경기테크노파크 지원기업 ‘명진인더스트리㈜’, 2026년 3분기 경기도 중소기업 유공 표창 수상 영예"
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "id": "jasoseol-106156",
-   "company": "멀티캠퍼스",
-   "type": "대기업",
-   "end": "2026-10-05",
-   "url": "https://bootcamp.multicampus.com/course/crsDetail?corsCd=FA01RL&corsDgrCd=10104&corsYr=2026&utm_source=jasosel&utm_medium=jasosel_personal&utm_campaign=AIM&utm_content=aim_2609&utm_term=JSSP_aim2609",
-   "group": "",
-   "why": [
-    "직무 3개",
-    "마감일 명시",
-    "대기업",
-    "제목에 직무 미표기·공채 표현"
-   ],
-   "jdSource": "공고문 이미지 글자 인식",
-   "oneOnly": false,
-   "revenue": null,
-   "pastTracks": 3,
-   "tracks": [
-    {
-     "name": "AI 엔지니어",
-     "affiliate": "멀티캠퍼스",
-     "w": {
-      "프로덕트·PO": 1,
-      "데이터 분석": 2,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "사용자 리서치": 3,
-      "프로세스 개선": 2,
-      "AI·LLM": 2,
-      "교육": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 3,
-     "news": {
-      "n30": 40,
-      "role": 16,
-      "top": [
-       "멀티캠퍼스, AI 교육 실무 적용 돕는 'AX 해커톤' 출시",
-       "멀티캠퍼스, AI 교육을 실무 성과로 잇는 ‘AX 해커톤’ 출시",
-       "AI와 역할극하며 직무훈련…멀티캠퍼스, 고용부 장관상"
-      ]
-     }
-    },
-    {
-     "name": "AI 데이터분석",
-     "affiliate": "멀티캠퍼스",
-     "w": {
-      "프로덕트·PO": 1,
-      "데이터 분석": 3,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "사용자 리서치": 3,
-      "프로세스 개선": 2,
-      "AI·LLM": 2,
-      "교육": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 3,
-     "news": {
-      "n30": 40,
-      "role": 16,
-      "top": [
-       "멀티캠퍼스, AI 교육 실무 적용 돕는 'AX 해커톤' 출시",
-       "멀티캠퍼스, AI 교육을 실무 성과로 잇는 ‘AX 해커톤’ 출시",
-       "AI와 역할극하며 직무훈련…멀티캠퍼스, 고용부 장관상"
-      ]
-     }
-    },
-    {
-     "name": "AI 프로덕트 매니저",
-     "affiliate": "멀티캠퍼스",
-     "w": {
-      "서비스기획": 1,
-      "프로덕트·PO": 2,
-      "요구사항 정의": 1,
-      "화면설계·UX": 1,
-      "프로젝트 관리": 1,
-      "데이터 분석": 3,
-      "지표·KPI": 1,
-      "SQL·툴": 1,
-      "사용자 리서치": 3,
-      "프로세스 개선": 2,
-      "AI·LLM": 2,
-      "교육": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 3,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "멀티캠퍼스, AI 교육 실무 적용 돕는 'AX 해커톤' 출시",
-       "멀티캠퍼스, AI 교육을 실무 성과로 잇는 ‘AX 해커톤’ 출시",
-       "AI와 역할극하며 직무훈련…멀티캠퍼스, 고용부 장관상"
       ]
      }
     }
@@ -7566,72 +6906,6 @@
    ]
   },
   {
-   "id": "jasoseol-106345",
-   "company": "콘레브",
-   "type": "",
-   "end": "2026-10-04",
-   "url": "https://careers.konrev.com/recruit",
-   "group": "",
-   "why": [
-    "직무 2개",
-    "마감일 명시",
-    "제목에 직무 미표기·공채 표현"
-   ],
-   "jdSource": "공고문 이미지 글자 인식",
-   "oneOnly": false,
-   "revenue": null,
-   "pastTracks": 2,
-   "tracks": [
-    {
-     "name": "AI 챗봇 콘텐츠 제작 스탭",
-     "affiliate": "콘레브",
-     "w": {
-      "데이터 분석": 1,
-      "지표·KPI": 2,
-      "SQL·툴": 1,
-      "사용자 리서치": 1,
-      "콘텐츠 기획·제작": 3,
-      "프로세스 개선": 2,
-      "품질·검수": 1,
-      "AI·LLM": 3
-     },
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 1,
-     "competition": 1,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 0,
-      "role": 0,
-      "top": []
-     }
-    },
-    {
-     "name": "광고 콘텐츠 마케팅 인턴",
-     "affiliate": "콘레브",
-     "w": {
-      "데이터 분석": 1,
-      "지표·KPI": 1,
-      "사용자 리서치": 1,
-      "마케팅 기획": 2,
-      "브랜드": 1,
-      "콘텐츠 기획·제작": 3,
-      "품질·검수": 1
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 1,
-     "competition": 1,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 0,
-      "role": 0,
-      "top": []
-     }
-    }
-   ]
-  },
-  {
    "id": "jasoseol-106348",
    "company": "한국선급",
    "type": "공기업",
@@ -12456,139 +11730,6 @@
    ]
   },
   {
-   "id": "jasoseol-106387",
-   "company": "원익그룹",
-   "type": "대기업",
-   "end": "2026-10-12",
-   "url": "https://wonik.recruiter.co.kr/career/recruit?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609wonik",
-   "group": "",
-   "why": [
-    "직무 5개",
-    "마감일 명시",
-    "대기업",
-    "그룹 공고",
-    "제목에 직무 미표기·공채 표현",
-    "[계열사] 묶음"
-   ],
-   "jdSource": "공고문 이미지 글자 인식",
-   "oneOnly": false,
-   "revenue": null,
-   "pastTracks": 46,
-   "tracks": [
-    {
-     "name": "[원익아이피에스] 플라즈마",
-     "affiliate": "원익아이피에스",
-     "w": {},
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] \"투자처 물색\"…'월가 큰손' 드러켄밀러, 원익IPS 방문",
-       "원익IPS, 올해 매출 1.2조 예상…\"메모리 투자 수혜 기대\"-NH - 머니투데이",
-       "'월가 전설' 드러켄밀러, 대기업 제치고 원익IPS 만났다…K-반도체 소부장 재평가 신호탄"
-      ]
-     }
-    },
-    {
-     "name": "[원익아이피에스] 시뮬레이션",
-     "affiliate": "원익아이피에스",
-     "w": {
-      "SQL·툴": 1,
-      "AI·LLM": 1
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "[단독] \"투자처 물색\"…'월가 큰손' 드러켄밀러, 원익IPS 방문",
-       "원익IPS, 올해 매출 1.2조 예상…\"메모리 투자 수혜 기대\"-NH - 머니투데이",
-       "'월가 전설' 드러켄밀러, 대기업 제치고 원익IPS 만났다…K-반도체 소부장 재평가 신호탄"
-      ]
-     }
-    },
-    {
-     "name": "[원익큐엔씨] 코팅개발",
-     "affiliate": "원익큐엔씨",
-     "w": {
-      "정산·계약": 1,
-      "영어": 1,
-      "일본어": 1
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 9,
-      "role": 0,
-      "top": [
-       "국민연금공단 등, 원익QnC 지분 5.39%로 축소",
-       "원익큐엔씨, 주주 국민연금공단 측 주식등 보유 비율 1.08%p 감소",
-       "원익QnC 투자분석 2026. 09. 25"
-      ]
-     }
-    },
-    {
-     "name": "[원익큐엔씨] 표면처리",
-     "affiliate": "원익큐엔씨",
-     "w": {
-      "CX·고객경험": 1,
-      "정산·계약": 1,
-      "AI·LLM": 1,
-      "영어": 1,
-      "일본어": 1
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 1,
-     "competition": 1,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 9,
-      "role": 0,
-      "top": [
-       "국민연금공단 등, 원익QnC 지분 5.39%로 축소",
-       "원익큐엔씨, 주주 국민연금공단 측 주식등 보유 비율 1.08%p 감소",
-       "원익QnC 투자분석 2026. 09. 25"
-      ]
-     }
-    },
-    {
-     "name": "[원익머트리얼즈] 수소공정",
-     "affiliate": "원익머트리얼즈",
-     "w": {
-      "영어": 1,
-      "일본어": 1
-     },
-     "ownJd": true,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 1,
-     "news": {
-      "n30": 10,
-      "role": 0,
-      "top": [
-       "[리포트 브리핑]원익머트리얼즈, '저평가를 해소할 시점' 목표가 59,000원 - 상상인증권",
-       "국민연금공단 등, 원익머트리얼즈 지분 8.76%로 축소",
-       "원익머트리얼즈 투자분석 2026. 09. 24"
-      ]
-     }
-    }
-   ]
-  },
-  {
    "id": "jasoseol-106388",
    "company": "원익그룹",
    "type": "대기업",
@@ -12606,7 +11747,7 @@
    "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
-   "pastTracks": 46,
+   "pastTracks": 41,
    "tracks": [
     {
      "name": "[원익아이피에스] 소재개발",
@@ -32361,7 +31502,7 @@
     "대기업",
     "제목에 직무 미표기·공채 표현"
    ],
-   "jdSource": "직무 이름만",
+   "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
    "pastTracks": 87,
@@ -32370,7 +31511,7 @@
      "name": "스마트팩토리",
      "affiliate": "현대오토에버",
      "w": {},
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -32388,7 +31529,11 @@
     {
      "name": "IT보안",
      "affiliate": "현대오토에버",
-     "w": {},
+     "w": {
+      "교육": 3,
+      "여행·모빌리티": 3,
+      "글로벌·해외": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 1,
@@ -32407,7 +31552,11 @@
     {
      "name": "웹/앱",
      "affiliate": "현대오토에버",
-     "w": {},
+     "w": {
+      "교육": 3,
+      "여행·모빌리티": 3,
+      "글로벌·해외": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -32426,8 +31575,12 @@
     {
      "name": "클라우드",
      "affiliate": "현대오토에버",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "교육": 3,
+      "여행·모빌리티": 3,
+      "글로벌·해외": 1
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -32599,7 +31752,7 @@
     "마감일 명시",
     "제목에 직무 미표기·공채 표현"
    ],
-   "jdSource": "직무 이름만",
+   "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
    "pastTracks": 17,
@@ -32607,7 +31760,19 @@
     {
      "name": "연구개발 - 전자재료 소재 개발 (잉크테크 안산사업장)",
      "affiliate": "미원상사 및 관계사",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 1,
+      "프로세스 개선": 3,
+      "품질·검수": 3,
+      "물류·SCM": 1,
+      "정산·계약": 1,
+      "영업·세일즈": 3,
+      "뷰티·패션": 2,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 1,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 15,
@@ -32622,7 +31787,19 @@
     {
      "name": "연구개발 - 잉크젯 제품 개발 (잉크테크 안산사업장)",
      "affiliate": "미원상사 및 관계사",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 1,
+      "프로세스 개선": 3,
+      "품질·검수": 3,
+      "물류·SCM": 1,
+      "정산·계약": 1,
+      "영업·세일즈": 3,
+      "뷰티·패션": 2,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 1,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 2,
@@ -32637,7 +31814,19 @@
     {
      "name": "연구개발 - 정밀화학제품 개발 (비드테크 반월연구소)",
      "affiliate": "미원상사 및 관계사",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 1,
+      "프로세스 개선": 3,
+      "품질·검수": 3,
+      "물류·SCM": 1,
+      "정산·계약": 1,
+      "영업·세일즈": 3,
+      "뷰티·패션": 2,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 1,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -32652,7 +31841,19 @@
     {
      "name": "생산기술 (미원상사 익산공장)",
      "affiliate": "미원상사 및 관계사",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 1,
+      "프로세스 개선": 3,
+      "품질·검수": 3,
+      "물류·SCM": 1,
+      "정산·계약": 1,
+      "영업·세일즈": 3,
+      "뷰티·패션": 2,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 1,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -32667,7 +31868,19 @@
     {
      "name": "생산기술 (미원스페셜티케미칼 충주공장)",
      "affiliate": "미원상사 및 관계사",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 1,
+      "프로세스 개선": 3,
+      "품질·검수": 3,
+      "물류·SCM": 1,
+      "정산·계약": 1,
+      "영업·세일즈": 3,
+      "뷰티·패션": 2,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 1,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 7,
@@ -32683,7 +31896,7 @@
      "name": "생산기술 (동남합성 탄천공장)",
      "affiliate": "미원상사 및 관계사",
      "w": {},
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 3,
      "competition": 0.2,
@@ -32698,9 +31911,9 @@
      "name": "자동화 시스템 엔지니어 (미원상사 익산공장)",
      "affiliate": "미원상사 및 관계사",
      "w": {
-      "프로세스 개선": 1
+      "프로세스 개선": 2
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -32715,9 +31928,9 @@
      "name": "품질보증 (미원상사 전주2공장)",
      "affiliate": "미원상사 및 관계사",
      "w": {
-      "품질·검수": 1
+      "품질·검수": 2
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -32732,9 +31945,9 @@
      "name": "품질관리 (미원상사 전주/익산공장)",
      "affiliate": "미원상사 및 관계사",
      "w": {
-      "품질·검수": 1
+      "품질·검수": 2
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 3,
      "competition": 0.2,
@@ -32749,7 +31962,7 @@
      "name": "안전환경 (동남합성 대산1공장)",
      "affiliate": "미원상사 및 관계사",
      "w": {},
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 6,
      "competition": 0.4,
@@ -32764,9 +31977,18 @@
      "name": "국내영업 (미원상사 안양사무소)",
      "affiliate": "미원상사 및 관계사",
      "w": {
-      "이해관계자 조율": 2,
+      "이해관계자 조율": 3,
+      "프로세스 개선": 3,
+      "품질·검수": 3,
+      "물류·SCM": 1,
+      "정산·계약": 1,
       "영업·세일즈": 3,
-      "B2B": 1
+      "B2B": 1,
+      "뷰티·패션": 2,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 1,
+      "중국어": 3
      },
      "ownJd": false,
      "headcount": null,
@@ -32789,7 +32011,7 @@
       "글로벌·해외": 3,
       "영어": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 2,
      "competition": 0.13,
@@ -32810,7 +32032,7 @@
       "글로벌·해외": 3,
       "영어": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 2,
      "competition": 0.13,
@@ -32825,7 +32047,7 @@
      "name": "구매 (미원상사 안양사무소)",
      "affiliate": "미원상사 및 관계사",
      "w": {},
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 11,
      "competition": 0.73,
@@ -32840,9 +32062,9 @@
      "name": "구매물류 (아시아첨가제 평택사업장)",
      "affiliate": "미원상사 및 관계사",
      "w": {
-      "물류·SCM": 1
+      "물류·SCM": 2
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 1,
      "competition": 0.07,
@@ -32856,8 +32078,22 @@
     {
      "name": "공장관리 (미원화학 탄천공장)",
      "affiliate": "미원상사 및 관계사",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "프로세스 개선": 2,
+      "품질·검수": 3,
+      "물류·SCM": 3,
+      "정산·계약": 1,
+      "영업·세일즈": 3,
+      "모바일 앱": 1,
+      "교육": 3,
+      "뷰티·패션": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 1,
+      "중국어": 3
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -32877,7 +32113,7 @@
       "문서화·가이드": 1,
       "정산·계약": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 4,
      "competition": 0.27,
@@ -32903,7 +32139,7 @@
     "제목에 직무 미표기·공채 표현",
     "[계열사] 묶음"
    ],
-   "jdSource": "직무 이름만",
+   "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
    "pastTracks": 13,
@@ -32918,8 +32154,13 @@
       "화면설계·UX": 1,
       "프로젝트 관리": 1,
       "데이터 분석": 1,
+      "SQL·툴": 1,
+      "금융·핀테크": 1,
+      "엔터·IP": 1,
+      "여행·모빌리티": 1,
       "글로벌·해외": 3,
-      "영어": 2
+      "영어": 3,
+      "중국어": 1
      },
      "ownJd": false,
      "headcount": null,
@@ -32946,9 +32187,13 @@
       "화면설계·UX": 1,
       "프로젝트 관리": 1,
       "데이터 분석": 1,
+      "SQL·툴": 1,
+      "금융·핀테크": 1,
+      "엔터·IP": 1,
+      "여행·모빌리티": 1,
       "글로벌·해외": 3,
-      "영어": 1,
-      "중국어": 1
+      "영어": 2,
+      "중국어": 2
      },
      "ownJd": false,
      "headcount": null,
@@ -32975,8 +32220,13 @@
       "화면설계·UX": 1,
       "프로젝트 관리": 1,
       "데이터 분석": 1,
+      "SQL·툴": 1,
+      "금융·핀테크": 1,
+      "엔터·IP": 1,
+      "여행·모빌리티": 1,
       "글로벌·해외": 3,
-      "영어": 1
+      "영어": 2,
+      "중국어": 1
      },
      "ownJd": false,
      "headcount": null,
@@ -33002,7 +32252,14 @@
       "요구사항 정의": 1,
       "화면설계·UX": 1,
       "프로젝트 관리": 1,
-      "데이터 분석": 1
+      "데이터 분석": 1,
+      "SQL·툴": 1,
+      "금융·핀테크": 1,
+      "엔터·IP": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 1,
+      "중국어": 1
      },
      "ownJd": false,
      "headcount": null,
@@ -33023,7 +32280,7 @@
      "name": "[웹젠] 사업분석",
      "affiliate": "웹젠",
      "w": {},
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -33047,7 +32304,7 @@
       "브랜드": 1,
       "콘텐츠 기획·제작": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 3,
      "competition": 0.75,
@@ -33066,7 +32323,7 @@
      "name": "[웹젠] 광고디자인",
      "affiliate": "웹젠",
      "w": {},
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -33084,7 +32341,15 @@
     {
      "name": "[웹젠] DBA",
      "affiliate": "웹젠",
-     "w": {},
+     "w": {
+      "SQL·툴": 1,
+      "금융·핀테크": 1,
+      "엔터·IP": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 1,
+      "중국어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 1,
@@ -33104,7 +32369,7 @@
      "name": "[웹젠] 시스템엔지니어",
      "affiliate": "웹젠",
      "w": {},
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 4,
      "competition": 1,
@@ -33122,7 +32387,15 @@
     {
      "name": "[웹젠] 네트워크엔지니어",
      "affiliate": "웹젠",
-     "w": {},
+     "w": {
+      "SQL·툴": 1,
+      "금융·핀테크": 1,
+      "엔터·IP": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 1,
+      "중국어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 3,
@@ -33146,7 +32419,7 @@
       "프로세스 개선": 1,
       "품질·검수": 2
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -33164,7 +32437,15 @@
     {
      "name": "[웹젠] 정보보안",
      "affiliate": "웹젠",
-     "w": {},
+     "w": {
+      "SQL·툴": 1,
+      "금융·핀테크": 1,
+      "엔터·IP": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 1,
+      "중국어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 2,
@@ -33184,9 +32465,12 @@
      "name": "[웹젠] 게임보안",
      "affiliate": "웹젠",
      "w": {
-      "엔터·IP": 1
+      "금융·핀테크": 1,
+      "엔터·IP": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -33215,7 +32499,7 @@
     "마감일 명시",
     "제목에 직무 미표기·공채 표현"
    ],
-   "jdSource": "직무 이름만",
+   "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
    "pastTracks": 4,
@@ -33224,7 +32508,7 @@
      "name": "Pharmacovigilance & Safety 의약품 안전성 정보 관리부 인턴",
      "affiliate": "사노피아벤티스코리아",
      "w": {},
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 2,
      "competition": 0.4,
@@ -33249,7 +32533,7 @@
       "프로세스 개선": 2,
       "AI·LLM": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 5,
      "competition": 1,
@@ -33268,9 +32552,10 @@
      "name": "Quality 품질부 인턴",
      "affiliate": "사노피아벤티스코리아",
      "w": {
-      "품질·검수": 2
+      "마케팅 기획": 1,
+      "품질·검수": 3
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 1,
      "competition": 0.2,
@@ -33292,7 +32577,11 @@
       "데이터 분석": 1,
       "마케팅 기획": 3,
       "브랜드": 1,
-      "콘텐츠 기획·제작": 1
+      "콘텐츠 기획·제작": 1,
+      "품질·검수": 2,
+      "교육": 1,
+      "헬스케어": 2,
+      "글로벌·해외": 3
      },
      "ownJd": false,
      "headcount": null,
@@ -33323,7 +32612,7 @@
     "마감일 명시",
     "제목에 직무 미표기·공채 표현"
    ],
-   "jdSource": "직무 이름만",
+   "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
    "pastTracks": 11,
@@ -33333,9 +32622,14 @@
      "affiliate": "지역난방안전",
      "w": {
       "사업기획·전략": 2,
-      "데이터 분석": 1,
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "데이터 분석": 2,
       "지표·KPI": 1,
-      "시장·트렌드 분석": 1
+      "시장·트렌드 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
      },
      "ownJd": false,
      "headcount": null,
@@ -33355,7 +32649,14 @@
     {
      "name": "열수송직(점검·진단)_본사(사업관리부)",
      "affiliate": "지역난방안전",
-     "w": {},
+     "w": {
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -33375,8 +32676,12 @@
      "name": "열수송직(점검·진단)_본사(신사업개발TF팀)",
      "affiliate": "지역난방안전",
      "w": {
-      "사업개발·제휴": 1,
-      "신사업·0to1": 1
+      "사업개발·제휴": 2,
+      "신사업·0to1": 2,
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
      },
      "ownJd": false,
      "headcount": null,
@@ -33396,7 +32701,14 @@
     {
      "name": "열수송직(점검·진단)_북부사업소(고양·파주)",
      "affiliate": "지역난방안전",
-     "w": {},
+     "w": {
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -33415,7 +32727,14 @@
     {
      "name": "열수송직(점검·진단)_중앙사업소(중앙·삼송)",
      "affiliate": "지역난방안전",
-     "w": {},
+     "w": {
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -33434,7 +32753,14 @@
     {
      "name": "열수송직(점검·진단)_강남사업소(강남)",
      "affiliate": "지역난방안전",
-     "w": {},
+     "w": {
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -33453,7 +32779,14 @@
     {
      "name": "열수송직(점검·진단)_분당사업소(분당·판교)",
      "affiliate": "지역난방안전",
-     "w": {},
+     "w": {
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -33473,10 +32806,15 @@
      "name": "열수송직(점검·진단)_용인사업소(용인·광교)",
      "affiliate": "지역난방안전",
      "w": {
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
       "이해관계자 조율": 2,
-      "프로세스 개선": 1,
+      "데이터 분석": 1,
+      "프로세스 개선": 2,
       "문서화·가이드": 1,
-      "정산·계약": 1
+      "정산·계약": 1,
+      "교육": 3,
+      "헬스케어": 1
      },
      "ownJd": false,
      "headcount": null,
@@ -33496,7 +32834,14 @@
     {
      "name": "열수송직(점검·진단)_남부사업소(수원·화성·동탄·평택)",
      "affiliate": "지역난방안전",
-     "w": {},
+     "w": {
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 2,
@@ -33515,7 +32860,14 @@
     {
      "name": "열수송직(점검·진단)_영남사업소(대구·김해·양산)",
      "affiliate": "지역난방안전",
-     "w": {},
+     "w": {
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3,
+      "헬스케어": 1
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 2,
@@ -33534,8 +32886,12 @@
     {
      "name": "열수송직(감시시스템)_분당사업소(분당·판교)",
      "affiliate": "지역난방안전",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "데이터 분석": 1,
+      "프로세스 개선": 1,
+      "교육": 3
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 2,
      "competition": 0.13,
@@ -33564,7 +32920,7 @@
     "마감일 명시",
     "제목에 직무 미표기·공채 표현"
    ],
-   "jdSource": "직무 이름만",
+   "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
    "pastTracks": 15,
@@ -33577,9 +32933,10 @@
       "영업·세일즈": 3,
       "B2B": 1,
       "글로벌·해외": 3,
-      "영어": 1
+      "영어": 1,
+      "중국어": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 9,
      "competition": 0.6,
@@ -33597,7 +32954,22 @@
     {
      "name": "기구설계 (아산)",
      "affiliate": "테크윙",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 3,
+      "SQL·툴": 1,
+      "프로세스 개선": 2,
+      "CX·고객경험": 3,
+      "영업·세일즈": 3,
+      "AI·LLM": 1,
+      "모바일 앱": 1,
+      "교육": 1,
+      "엔터·IP": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 3,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 3,
@@ -33616,8 +32988,16 @@
     {
      "name": "기구설계 (동탄)",
      "affiliate": "테크윙",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "프로세스 개선": 2,
+      "AI·LLM": 1,
+      "모바일 앱": 1,
+      "엔터·IP": 2,
+      "영어": 3,
+      "일본어": 2,
+      "중국어": 3
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 7,
      "competition": 0.47,
@@ -33635,7 +33015,22 @@
     {
      "name": "SW개발 (아산)",
      "affiliate": "테크윙",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 3,
+      "SQL·툴": 1,
+      "프로세스 개선": 2,
+      "CX·고객경험": 3,
+      "영업·세일즈": 3,
+      "AI·LLM": 1,
+      "모바일 앱": 1,
+      "교육": 1,
+      "엔터·IP": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 3,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 2,
@@ -33654,7 +33049,22 @@
     {
      "name": "SW개발 (동탄)",
      "affiliate": "테크윙",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 3,
+      "SQL·툴": 1,
+      "프로세스 개선": 2,
+      "CX·고객경험": 3,
+      "영업·세일즈": 3,
+      "AI·LLM": 1,
+      "모바일 앱": 1,
+      "교육": 1,
+      "엔터·IP": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 3,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 9,
@@ -33673,8 +33083,10 @@
     {
      "name": "제조기술",
      "affiliate": "테크윙",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "글로벌·해외": 1
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -33692,8 +33104,13 @@
     {
      "name": "구매",
      "affiliate": "테크윙",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "이해관계자 조율": 2,
+      "SQL·툴": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 1
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 3,
      "competition": 0.2,
@@ -33712,11 +33129,12 @@
      "name": "국내영업",
      "affiliate": "테크윙",
      "w": {
-      "이해관계자 조율": 2,
+      "이해관계자 조율": 3,
       "영업·세일즈": 3,
-      "B2B": 1
+      "B2B": 1,
+      "교육": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 3,
      "competition": 0.2,
@@ -33735,9 +33153,21 @@
      "name": "고객만족(CS) - 각 고객사",
      "affiliate": "테크윙",
      "w": {
+      "이해관계자 조율": 3,
+      "SQL·툴": 1,
       "서비스 운영": 1,
-      "프로세스 개선": 1,
-      "CX·고객경험": 3
+      "프로세스 개선": 3,
+      "CX·고객경험": 3,
+      "영업·세일즈": 3,
+      "AI·LLM": 1,
+      "모바일 앱": 1,
+      "교육": 1,
+      "엔터·IP": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 3,
+      "중국어": 3
      },
      "ownJd": false,
      "headcount": null,
@@ -33758,9 +33188,21 @@
      "name": "고객만족(싱가폴 현지 CS)",
      "affiliate": "테크윙",
      "w": {
+      "이해관계자 조율": 3,
+      "SQL·툴": 1,
       "서비스 운영": 1,
-      "프로세스 개선": 1,
-      "CX·고객경험": 3
+      "프로세스 개선": 3,
+      "CX·고객경험": 3,
+      "영업·세일즈": 3,
+      "AI·LLM": 1,
+      "모바일 앱": 1,
+      "교육": 1,
+      "엔터·IP": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 3,
+      "중국어": 3
      },
      "ownJd": false,
      "headcount": null,
@@ -33783,9 +33225,10 @@
      "w": {
       "서비스 운영": 1,
       "프로세스 개선": 1,
-      "CX·고객경험": 3
+      "CX·고객경험": 3,
+      "글로벌·해외": 1
      },
-     "ownJd": false,
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -33803,8 +33246,16 @@
     {
      "name": "Vision SW",
      "affiliate": "테크윙",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "SQL·툴": 2,
+      "AI·LLM": 3,
+      "노코드·개발 이해": 1,
+      "글로벌·해외": 1,
+      "영어": 2,
+      "중국어": 2,
+      "주도성": 1
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 4,
      "competition": 0.27,
@@ -33823,11 +33274,22 @@
      "name": "AI",
      "affiliate": "테크윙",
      "w": {
+      "이해관계자 조율": 3,
       "데이터 분석": 1,
       "지표·KPI": 1,
-      "SQL·툴": 1,
-      "프로세스 개선": 2,
-      "AI·LLM": 2
+      "SQL·툴": 2,
+      "프로세스 개선": 3,
+      "CX·고객경험": 3,
+      "영업·세일즈": 3,
+      "AI·LLM": 3,
+      "모바일 앱": 1,
+      "교육": 1,
+      "엔터·IP": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 3,
+      "중국어": 3
      },
      "ownJd": false,
      "headcount": null,
@@ -33847,8 +33309,15 @@
     {
      "name": "광학기술",
      "affiliate": "테크윙",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "이해관계자 조율": 1,
+      "SQL·툴": 2,
+      "금융·핀테크": 1,
+      "교육": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 1
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 0,
      "competition": 0,
@@ -33866,7 +33335,22 @@
     {
      "name": "IT",
      "affiliate": "테크윙",
-     "w": {},
+     "w": {
+      "이해관계자 조율": 3,
+      "SQL·툴": 1,
+      "프로세스 개선": 2,
+      "CX·고객경험": 3,
+      "영업·세일즈": 3,
+      "AI·LLM": 1,
+      "모바일 앱": 1,
+      "교육": 1,
+      "엔터·IP": 2,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 3,
+      "영어": 3,
+      "일본어": 3,
+      "중국어": 3
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 1,
@@ -33897,15 +33381,17 @@
     "공기업",
     "제목에 직무 미표기·공채 표현"
    ],
-   "jdSource": "직무 이름만",
-   "oneOnly": false,
+   "jdSource": "공고문 이미지 글자 인식",
+   "oneOnly": true,
    "revenue": null,
    "pastTracks": 11,
    "tracks": [
     {
      "name": "일반 - 경영",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 50,
@@ -33924,7 +33410,9 @@
     {
      "name": "일반 - 경제",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 10,
@@ -33943,7 +33431,9 @@
     {
      "name": "일반 - 전기·전자",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 2,
@@ -33962,9 +33452,11 @@
     {
      "name": "IT",
      "affiliate": "한국수출입은행",
-     "w": {},
-     "ownJd": false,
-     "headcount": null,
+     "w": {
+      "금융·핀테크": 1
+     },
+     "ownJd": true,
+     "headcount": 5,
      "applicants": 34,
      "competition": 0.68,
      "affiliateTracks": 10,
@@ -33981,7 +33473,9 @@
     {
      "name": "EDCF - 경영",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 1,
@@ -34000,7 +33494,9 @@
     {
      "name": "EDCF - 경제",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -34019,7 +33515,9 @@
     {
      "name": "지역전문가 - 경영",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 3,
@@ -34038,7 +33536,9 @@
     {
      "name": "지역전문가 - 경제",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 2,
@@ -34057,7 +33557,9 @@
     {
      "name": "보훈 - 경영",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 0,
@@ -34076,7 +33578,9 @@
     {
      "name": "보훈 - 경제",
      "affiliate": "한국수출입은행",
-     "w": {},
+     "w": {
+      "금융·핀테크": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 1,
@@ -34095,64 +33599,6 @@
    ]
   },
   {
-   "id": "jasoseol-106557",
-   "company": "한국반도체산업협회",
-   "type": "공기업",
-   "end": "2026-10-07",
-   "url": "https://academy.ksia.or.kr/insights/notice/1879",
-   "group": "",
-   "why": [
-    "직무 2개",
-    "마감일 명시",
-    "공기업",
-    "제목에 직무 미표기·공채 표현"
-   ],
-   "jdSource": "직무 이름만",
-   "oneOnly": false,
-   "revenue": null,
-   "pastTracks": 2,
-   "tracks": [
-    {
-     "name": "설계 개론 Verilog HDL",
-     "affiliate": "한국반도체산업협회",
-     "w": {},
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "안기현 반도체협회 전무 “반도체 역전되면 재역전 못 하고 상상 못 할 국가적 피해” [산업스파이법, 왜 필요한가]",
-       "美, 반도체 수출통제 기업→국가 단위 확대…EAR 대비해야",
-       "韓 첨단 패키징 주도권 쥐려면 “공공 팹 투자·활용 극대화 전략 시급”"
-      ]
-     }
-    },
-    {
-     "name": "RTL Design FPGA/SoC 구현 프로젝트",
-     "affiliate": "한국반도체산업협회",
-     "w": {},
-     "ownJd": false,
-     "headcount": null,
-     "applicants": 0,
-     "competition": 0,
-     "affiliateTracks": 2,
-     "news": {
-      "n30": 40,
-      "role": 0,
-      "top": [
-       "안기현 반도체협회 전무 “반도체 역전되면 재역전 못 하고 상상 못 할 국가적 피해” [산업스파이법, 왜 필요한가]",
-       "美, 반도체 수출통제 기업→국가 단위 확대…EAR 대비해야",
-       "韓 첨단 패키징 주도권 쥐려면 “공공 팹 투자·활용 극대화 전략 시급”"
-      ]
-     }
-    }
-   ]
-  },
-  {
    "id": "jasoseol-106571",
    "company": "디앤오",
    "type": "대기업",
@@ -34165,7 +33611,7 @@
     "대기업",
     "제목에 직무 미표기·공채 표현"
    ],
-   "jdSource": "직무 이름만",
+   "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
    "pastTracks": 2,
@@ -34175,9 +33621,16 @@
      "affiliate": "디앤오",
      "w": {
       "사업기획·전략": 2,
+      "신사업·0to1": 1,
+      "이해관계자 조율": 1,
       "데이터 분석": 1,
       "지표·KPI": 1,
-      "시장·트렌드 분석": 1
+      "사용자 리서치": 2,
+      "시장·트렌드 분석": 1,
+      "SNS·소셜": 1,
+      "교육": 3,
+      "부동산·프롭테크": 1,
+      "주도성": 1
      },
      "ownJd": false,
      "headcount": null,
@@ -34197,8 +33650,14 @@
     {
      "name": "세무",
      "affiliate": "디앤오",
-     "w": {},
-     "ownJd": false,
+     "w": {
+      "이해관계자 조율": 1,
+      "사용자 리서치": 2,
+      "SNS·소셜": 1,
+      "교육": 3,
+      "주도성": 1
+     },
+     "ownJd": true,
      "headcount": null,
      "applicants": 1,
      "competition": 1,
@@ -34228,7 +33687,7 @@
     "대기업",
     "제목에 직무 미표기·공채 표현"
    ],
-   "jdSource": "직무 이름만",
+   "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
    "pastTracks": 3,
@@ -34236,7 +33695,11 @@
     {
      "name": "R&D_기술개발",
      "affiliate": "삼천리",
-     "w": {},
+     "w": {
+      "지표·KPI": 1,
+      "여행·모빌리티": 2,
+      "글로벌·해외": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 37,
@@ -34257,9 +33720,12 @@
      "affiliate": "삼천리",
      "w": {
       "이해관계자 조율": 2,
+      "지표·KPI": 1,
       "프로세스 개선": 1,
       "문서화·가이드": 1,
-      "정산·계약": 1
+      "정산·계약": 1,
+      "여행·모빌리티": 2,
+      "글로벌·해외": 2
      },
      "ownJd": false,
      "headcount": null,
@@ -34279,7 +33745,11 @@
     {
      "name": "도시가스_안전관리",
      "affiliate": "삼천리",
-     "w": {},
+     "w": {
+      "지표·KPI": 1,
+      "여행·모빌리티": 2,
+      "글로벌·해외": 2
+     },
      "ownJd": false,
      "headcount": null,
      "applicants": 13,

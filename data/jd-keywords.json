@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04",
+ "updated": "2026-10-05",
  "jobs": [
   {
    "src": "board",
@@ -190,22 +190,6 @@
     "SQL·툴": 1,
     "물류·SCM": 1,
     "뷰티·패션": 3
-   }
-  },
-  {
-   "src": "board",
-   "id": "jasoseol-106173",
-   "company": "현대자동차그룹",
-   "title": "서울-모빌리티 AI · 서울-제조지능화 · 광주-모빌리티 AI",
-   "url": "https://hmg-hint.recruiter.co.kr/career/jobs",
-   "end": "2026-10-05",
-   "posted": "2026-09-13",
-   "found": "2026-09-14",
-   "w": {
-    "품질·검수": 1,
-    "AI·LLM": 3,
-    "교육": 1,
-    "여행·모빌리티": 2
    }
   },
   {
@@ -5854,7 +5838,7 @@
   {
    "src": "company",
    "company": "세일즈포스",
-   "title": "Strategic Account Manager - Data Foundation (MuleSoft & Informatica)",
+   "title": "Sr. Strategic Account Manager - Data Foundation (MuleSoft & Informatica)",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Strategic-Account-Manager_JR360163-1",
    "end": "",
    "w": {
@@ -5862,16 +5846,19 @@
     "이해관계자 조율": 3,
     "마케팅 기획": 3,
     "그로스·CRM": 3,
-    "행사·이벤트": 1,
+    "행사·이벤트": 2,
+    "문서화·가이드": 1,
     "품질·검수": 3,
     "영업·세일즈": 3,
     "B2B": 3,
     "AI·LLM": 3,
     "노코드·개발 이해": 3,
     "플랫폼": 3,
+    "모바일 앱": 1,
     "교육": 2,
-    "글로벌·해외": 1,
-    "영어": 1
+    "글로벌·해외": 2,
+    "영어": 1,
+    "리더십·팀 리딩": 3
    },
    "posted": "",
    "found": "2026-10-03"
@@ -6158,6 +6145,47 @@
   },
   {
    "src": "company",
+   "company": "텐센트",
+   "title": "NLP Research Intern",
+   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/NLP-Research-Intern_R108056",
+   "end": "",
+   "w": {
+    "SQL·툴": 1,
+    "커뮤니티": 1,
+    "서비스 운영": 1,
+    "품질·검수": 2,
+    "AI·LLM": 3
+   },
+   "posted": "",
+   "found": "2026-10-05"
+  },
+  {
+   "src": "company",
+   "company": "텐센트",
+   "title": "Senior Strategic Sales Executive｜腾讯云韩国销售经理",
+   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/Senior-Strategic-Sales-Executive-_R107873-3",
+   "end": "",
+   "w": {
+    "사업기획·전략": 1,
+    "사업개발·제휴": 1,
+    "이해관계자 조율": 2,
+    "데이터 분석": 1,
+    "SQL·툴": 1,
+    "사용자 리서치": 1,
+    "시장·트렌드 분석": 1,
+    "인사이트 도출": 1,
+    "커뮤니티": 1,
+    "영업·세일즈": 3,
+    "B2B": 3,
+    "AI·LLM": 3,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 1
+   },
+   "posted": "",
+   "found": "2026-10-05"
+  },
+  {
+   "src": "company",
    "company": "넷플릭스",
    "title": "Ads Partnership Manager - Korea",
    "url": "https://explore.jobs.netflix.net/careers/job/790315824083",
@@ -6185,6 +6213,61 @@
   {
    "src": "company",
    "company": "넷플릭스",
+   "title": "Manager, Slate & Brand Marketing - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790315562772",
+   "end": "",
+   "w": {
+    "요구사항 정의": 1,
+    "신사업·0to1": 1,
+    "이해관계자 조율": 1,
+    "인사이트 도출": 1,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 3,
+    "SNS·소셜": 1,
+    "행사·이벤트": 2,
+    "품질·검수": 1,
+    "B2C": 3,
+    "글로벌·해외": 3,
+    "영어": 1
+   },
+   "posted": "",
+   "found": "2026-10-05"
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
+   "title": "Senior Account Manager",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318738586",
+   "end": "",
+   "w": {
+    "사업개발·제휴": 1,
+    "이해관계자 조율": 3,
+    "데이터 분석": 1,
+    "SQL·툴": 2,
+    "사용자 리서치": 1,
+    "인사이트 도출": 3,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 1,
+    "서비스 운영": 2,
+    "문서화·가이드": 1,
+    "품질·검수": 3,
+    "위기·이슈 대응": 1,
+    "영업·세일즈": 3,
+    "B2B": 1,
+    "영어": 1
+   },
+   "posted": "",
+   "found": "2026-10-05"
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
    "title": "Korea Finance Director - Strategy, Planning, and Studio Finance",
    "url": "https://explore.jobs.netflix.net/careers/job/790317631095",
    "end": "",
@@ -6204,32 +6287,6 @@
     "글로벌·해외": 3,
     "영어": 1,
     "리더십·팀 리딩": 3
-   },
-   "posted": "",
-   "found": "2026-10-04"
-  },
-  {
-   "src": "company",
-   "company": "넷플릭스",
-   "title": "Senior Ads Sales Partner - Export",
-   "url": "https://explore.jobs.netflix.net/careers/job/790318350853",
-   "end": "",
-   "w": {
-    "문제 정의": 1,
-    "사업개발·제휴": 3,
-    "이해관계자 조율": 3,
-    "지표·KPI": 1,
-    "SQL·툴": 1,
-    "마케팅 기획": 1,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 2,
-    "브랜드": 1,
-    "콘텐츠 기획·제작": 1,
-    "CX·고객경험": 2,
-    "영업·세일즈": 3,
-    "글로벌·해외": 3,
-    "영어": 2,
-    "리더십·팀 리딩": 2
    },
    "posted": "",
    "found": "2026-10-04"

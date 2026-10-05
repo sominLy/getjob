@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -57,6 +57,22 @@
       "department": "Sales",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5341664008",
       "updated": "2026-09-01"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive - Healthcare & Life Science",
+      "location": "Seoul, South Korea",
+      "department": "Sales",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432590008",
+      "updated": "2026-10-04"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive - Manufacturing",
+      "location": "Seoul, South Korea",
+      "department": "Sales",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443281008",
+      "updated": "2026-10-04"
     },
     {
       "company": "Anthropic",

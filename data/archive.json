@@ -1,6 +1,120 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "jobs": [
+    {
+      "id": "wanted-384521",
+      "company": "밀버스",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "2026-10-04",
+      "confirmed": true,
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/wd/384521",
+      "hist": "",
+      "found": "2026-09-06"
+    },
+    {
+      "id": "jasoseol-105494",
+      "company": "NHN",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-08-04",
+      "end": "2026-10-04",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4301079317268163889?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Corporate",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "노무"
+    },
+    {
+      "id": "jasoseol-105508",
+      "company": "NHN",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-08-04",
+      "end": "2026-10-04",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4148113903310673616?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Corporate",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "개인정보보호"
+    },
+    {
+      "id": "jasoseol-105509",
+      "company": "NHN",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-08-04",
+      "end": "2026-10-04",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4370711607830110861?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Tech",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "LLM 기술 개발 (LLM / Agent)"
+    },
+    {
+      "id": "jasoseol-105515",
+      "company": "NHN Dooray",
+      "type": "",
+      "roles": [],
+      "start": "2026-08-04",
+      "end": "2026-10-04",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4355427437363474243?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Dooray_Tech",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "협업 서비스 프론트엔드 개발"
+    },
+    {
+      "id": "jasoseol-105524",
+      "company": "NHN Dooray",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "PM/서비스기획"
+      ],
+      "start": "2026-08-04",
+      "end": "2026-10-04",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4368278317848221368?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Dooray_Tech",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "ERP 기획 및 운영"
+    },
+    {
+      "id": "jasoseol-106345",
+      "company": "콘레브",
+      "type": "",
+      "roles": [
+        "콘텐츠",
+        "마케팅",
+        "홍보/PR"
+      ],
+      "start": "2026-09-20",
+      "end": "2026-10-04",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.konrev.com/recruit",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026 인턴/스탭 채용 공고"
+    },
     {
       "id": "jasoseol-105467",
       "company": "앱솔브랩",
@@ -2835,6 +2949,25 @@
       "found": "2026-09-19"
     },
     {
+      "id": "jasoseol-106161",
+      "company": "한국미쓰이물산",
+      "title": "2026년 채용연계형 인턴사원 채용",
+      "type": "",
+      "roles": [
+        "영업",
+        "마케팅",
+        "기획/전략"
+      ],
+      "start": "2026-09-13",
+      "end": "2026-09-23",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://mitsui.career.greetinghr.com/ko/introver2",
+      "hist": "",
+      "found": "2026-10-05"
+    },
+    {
       "id": "jasoseol-105244",
       "company": "NHN Cloud",
       "type": "",
@@ -5298,6 +5431,24 @@
       "url": "https://www.samsungcareers.com/hr/?no=23126",
       "hist": "",
       "found": "2026-09-10"
+    },
+    {
+      "id": "jasoseol-105741",
+      "company": "다쏘시스템코리아",
+      "title": "카티아(CATIA) 첨단로봇제조스쿨 6기 모집 - 2026 CATIA Basic · Advanced Class",
+      "type": "중견기업",
+      "roles": [
+        "PM/서비스기획",
+        "HR/인사"
+      ],
+      "start": "2026-08-20",
+      "end": "2026-09-15",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://bit.ly/4vTfclt",
+      "hist": "",
+      "found": "2026-10-05"
     },
     {
       "id": "jasoseol-105678",
@@ -10363,185 +10514,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://career.kia.com/apply/applyView.kc?recuYy=2026&recuType=N4&recuCls=6",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105085",
-      "company": "금융권 공동채용 박람회",
-      "type": "금융",
-      "roles": [
-        "금융/심사"
-      ],
-      "start": "2026-07-10",
-      "end": "2026-08-20",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://financejobfair.co.kr/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105403",
-      "company": "한국주택금융공사(HF)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-07-31",
-      "end": "2026-08-20",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://hf.recruitlab.co.kr/app/recruitment-announcement/list",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105406",
-      "company": "서울특별시",
-      "type": "",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "고객/CS",
-        "마케팅",
-        "영업"
-      ],
-      "start": "2026-08-13",
-      "end": "2026-08-20",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://seoul.saramin.co.kr/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105409",
-      "company": "서울문화재단(SFAC)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-08-13",
-      "end": "2026-08-20",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://jobiss.co.kr/sfac/main.php",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105461",
-      "company": "한국철도기술연구원(KRRI)",
-      "type": "공기업",
-      "roles": [
-        "홍보/PR",
-        "기획/전략",
-        "리서치"
-      ],
-      "start": "2026-08-05",
-      "end": "2026-08-20",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://krri.fairy.im/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105469",
-      "company": "한국나노기술원",
-      "type": "공기업",
-      "roles": [
-        "홍보/PR",
-        "기획/전략"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-08-20",
-      "endTime": "11:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.incruit.com/kanc/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105523",
-      "company": "어플라이드 머티어리얼즈 코리아",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-06",
-      "end": "2026-08-20",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://appliedkorea.applyin.co.kr/jobs/22894/applications/create",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105533",
-      "company": "광주과학기술원",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-08-06",
-      "end": "2026-08-20",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://gist.recruiter.co.kr/appsite/company/index",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105558",
-      "company": "케이씨텍",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-08-06",
-      "end": "2026-08-20",
-      "endTime": "23:55",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kc-group.recruiter.co.kr/career/jobs/124468",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105602",
-      "company": "SK에코프라임",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-11",
-      "end": "2026-08-20",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=54702824&view_type=etc&ref=recruit_manage",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105615",
-      "company": "서울경제진흥원",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "영업관리"
-      ],
-      "start": "2026-08-12",
-      "end": "2026-08-20",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://sba.saramin.co.kr/",
       "hist": "",
       "found": "2026-09-07"
     }

@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-04T07:40:03.005762+00:00",
+ "collectedAt": "2026-10-05T04:56:48.578405+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -2198,6 +2198,34 @@
    "new": false,
    "found": "2026-10-03",
    "openDate": "2026-09-01"
+  },
+  {
+   "회사": "Anthropic",
+   "플랫폼": "global",
+   "title": "Enterprise Account Executive - Healthcare & Life Science",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5432590008",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-05",
+   "openDate": "2026-10-04"
+  },
+  {
+   "회사": "Anthropic",
+   "플랫폼": "global",
+   "title": "Enterprise Account Executive - Manufacturing",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5443281008",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-05",
+   "openDate": "2026-10-04"
   },
   {
    "회사": "Anthropic",
