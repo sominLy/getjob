@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-06T04:49:39.137775+00:00",
+ "collectedAt": "2026-10-06T08:25:49.483514+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -620,6 +620,20 @@
   {
    "회사": "뤼튼",
    "플랫폼": "greetinghr",
+   "title": "Service Operations Manager (OOC)",
+   "career": "경력무관",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://career.wrtn.io/ko/o/239534",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-06",
+   "new": true,
+   "found": "2026-10-06"
+  },
+  {
+   "회사": "뤼튼",
+   "플랫폼": "greetinghr",
    "title": "Service Operations Manager",
    "career": "경력무관",
    "emp": "정규직",
@@ -711,7 +725,7 @@
    "link": "https://myrealtrip.career.greetinghr.com/ko/o/234639",
    "cat": "전략·사업",
    "intern": false,
-   "openDate": "2026-08-26",
+   "openDate": "2026-10-06",
    "new": false,
    "found": "2026-10-03"
   },
