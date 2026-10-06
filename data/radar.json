@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-05T08:06:35.297Z",
+  "collectedAt": "2026-10-06T04:51:36.838Z",
   "errors": {},
   "jobs": [
     {
@@ -49,7 +49,7 @@
     {
       "source": "toss",
       "company": "토스뱅크",
-      "title": "Platform Product Owner · 공통 · 기업솔루션",
+      "title": "Platform Product Owner · 공통 · 기업솔루션 · Data",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=6355421003&sub_position_id=7739173003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
       "years": null,
@@ -959,28 +959,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Strategy and Operations Manager, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/87955048855675590-strategy-and-operations-manager-google-cloud-korean-english",
-      "years": 6,
-      "noLimit": false,
-      "evidence": "6 years of experience in a management consulting, sales operations, business strategy or corporate advisory role.",
-      "roles": [
-        "운영",
-        "전략·재무"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience in a management consulting, sales operations, business strategy or corporate advisory role.\nAbility to communicate in English and Korean fluently to support client relationship management in the region.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "People Consultant (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -999,28 +977,6 @@
       "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.\n\nExperience of managing multiple stakeholders.\n\nAbility to communicate in English and Korean fluently to manage the client relationships in the area.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Technical Account Manager, Google Cloud Consulting (Korean, English)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/140886212926677702-technical-account-manager-google-cloud-consulting-korean-english",
-      "years": 2,
-      "noLimit": false,
-      "evidence": "2 years of experience in a customer-facing role working with stakeholders, driving customer technical implementations or transformation programs.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "B2B"
-      ],
-      "bucket": "junior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor’s degree in Computer Science, Engineering, related technical field, or equivalent practical experience.\n2 years of experience in a customer-facing role working with stakeholders, driving customer technical implementations or transformation programs.\nExperience building, supporting, or migrating public cloud workloads in the enterprise space.\nAbility to communicate in English and Korean fluently.\n\n"
     },
     {
       "source": "google",

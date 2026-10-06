@@ -1,6 +1,248 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "jobs": [
+    {
+      "id": "wanted-384520",
+      "company": "포스타입",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "2026-10-05",
+      "confirmed": true,
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/wd/384520",
+      "hist": "",
+      "found": "2026-09-06"
+    },
+    {
+      "id": "jasoseol-105484",
+      "company": "마카롱팩토리",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "MD",
+        "마케팅",
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2026-08-05",
+      "end": "2026-10-05",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://mycle.career.greetinghr.com/ko/home",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "채용전환형 인턴 수시 채용"
+    },
+    {
+      "id": "jasoseol-105540",
+      "company": "NHN Cloud",
+      "type": "",
+      "roles": [],
+      "start": "2026-08-05",
+      "end": "2026-10-05",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4393119308199846458?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Corporate",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "법무"
+    },
+    {
+      "id": "jasoseol-106247",
+      "company": "고위드",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리",
+        "리서치"
+      ],
+      "start": "2026-09-16",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://gowid.career.greetinghr.com/o/229699",
+      "hist": "",
+      "found": "2026-09-16",
+      "title": "[전환형 트랙] Business Development/Research (사업개발)"
+    },
+    {
+      "id": "jasoseol-106317",
+      "company": "용마로지스",
+      "type": "중견기업",
+      "roles": [
+        "HR/인사",
+        "영업",
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2026-09-17",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://applydongasocio.career.greetinghr.com/",
+      "hist": "",
+      "found": "2026-09-18",
+      "title": "2026년 9월 각 부문별 신입 및 경력 채용"
+    },
+    {
+      "id": "jasoseol-106326",
+      "company": "E1",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업",
+        "MD",
+        "영업관리",
+        "고객/CS",
+        "금융/심사",
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "홍보/PR"
+      ],
+      "start": "2026-09-18",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://e1.recruiter.co.kr/career/home",
+      "hist": "",
+      "found": "2026-09-18",
+      "title": "2026년 대졸 신입사원 채용"
+    },
+    {
+      "id": "jasoseol-106302",
+      "company": "KINX",
+      "type": "중견기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "기획/전략",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-20",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://company.kinx.net/career/#s05",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026 채용 전환형 인턴 / 경력직 수시 채용"
+    },
+    {
+      "id": "jasoseol-106390",
+      "company": "다우데이타",
+      "type": "중견기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-09-17",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://daoudata.career.greetinghr.com/ko/o/237624",
+      "hist": "",
+      "found": "2026-09-22",
+      "title": "2026년 3분기 IT솔루션 영업 담당자(인턴십) 채용"
+    },
+    {
+      "id": "jasoseol-106406",
+      "company": "한국앤컴퍼니",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://hknc.recruiter.co.kr/career/jobs/129028?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609hknc",
+      "hist": "",
+      "found": "2026-09-23",
+      "title": "2026년 하반기 Proactive Leaders 공개 채용"
+    },
+    {
+      "id": "jasoseol-106411",
+      "company": "AXA손해보험",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://axa.career.greetinghr.com/ko/o/238265",
+      "hist": "",
+      "found": "2026-09-23",
+      "title": "장기일반계약팀 언더라이터(Underwriter) 계약직 채용"
+    },
+    {
+      "id": "jasoseol-106466",
+      "company": "일화",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-09-28",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://ilhwa.recruiter.co.kr/career/jobs/129726",
+      "hist": "",
+      "found": "2026-09-29",
+      "title": "2026년 신입 및 경력 채용(7)"
+    },
+    {
+      "id": "jasoseol-106487",
+      "company": "한국계량측정협회",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-28",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.kasto.or.kr/system/bbs/notice/detail.do?bbsSeq=8722&parentSeq=&currentMenuId=700004001",
+      "hist": "",
+      "found": "2026-09-29",
+      "title": "2026 미래내일 일경험 사업 인턴형 참여청년 모집"
+    },
+    {
+      "id": "jasoseol-106517",
+      "company": "와디즈",
+      "type": "",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.wadiz.io/ko/o/239041",
+      "hist": "",
+      "found": "2026-09-30",
+      "title": "채용 담당자 채용연계형 인턴 모집"
+    },
     {
       "id": "wanted-384521",
       "company": "밀버스",
@@ -10325,195 +10567,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://career.wrtn.io/ko/o/231416",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105151",
-      "company": "인애이블퓨전",
-      "type": "",
-      "roles": [
-        "영업",
-        "PM/서비스기획",
-        "영업관리",
-        "HR/인사"
-      ],
-      "start": "2026-07-15",
-      "end": "2026-08-21",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.enablefusion.com/recruit/view/id/45#u",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105261",
-      "company": "아이샵케어",
-      "type": "",
-      "roles": [
-        "영업관리",
-        "고객/CS",
-        "영업",
-        "기획/전략"
-      ],
-      "start": "2026-07-26",
-      "end": "2026-08-21",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.ishopcare.co.kr/recruit",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105471",
-      "company": "뤼튼테크놀로지스",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-08-21",
-      "endTime": "14:42",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.wrtn.io/ko/o/223324",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105510",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-04",
-      "end": "2026-08-21",
-      "endTime": "09:32",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4368298144886556484?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Corporate",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105541",
-      "company": "케이씨텍",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-08-05",
-      "end": "2026-08-21",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kc-group.recruiter.co.kr/career/jobs/124325",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105548",
-      "company": "서라벌도시가스",
-      "type": "중견기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-08-09",
-      "end": "2026-08-21",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.srbgas.co.kr/company/good-people",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105553",
-      "company": "과학기술정책연구원(STEPI)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-08-05",
-      "end": "2026-08-21",
-      "endTime": "11:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://stepi.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=261599",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105564",
-      "company": "현대씨앤알",
-      "type": "중견기업",
-      "roles": [
-        "HR/인사",
-        "영업"
-      ],
-      "start": "2026-08-10",
-      "end": "2026-08-21",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.hdcnr.co.kr/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105594",
-      "company": "해원티앤디",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-08-10",
-      "end": "2026-08-21",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=54486086&recommend_ids=eJxtzLERw2AIg9Fp0gsQCOoM8u%2B%2FRQobn4uU76T70tWhyYOPvhnZquaNZnjajXG56rUwLtA8emxBl7AwsbABgrmBCRDPzYHgIjNqUe1VfQZ%2BcdTIhwKt5w8Pf6ViLrU%3D&view_type=search&searchword=해원티앤디&searchType=search&gz=1&t_ref_content=generic&t_ref=search&relayNonce=5c59b0541df0488bd537&paid_fl=n&search_uuid=fa01cc84-7970-4c56-be57-98b31ecf5885&immediately_apply_layer_open=n#seq=0",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105614",
-      "company": "한국철도공사",
-      "type": "공기업",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-08-18",
-      "end": "2026-08-21",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://korail.findeet.co.kr/recruitment/detail/?id=6a5f50468debab25193b2873",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105624",
-      "company": "깨끗한나라",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-08-12",
-      "end": "2026-08-21",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kleannara.career.greetinghr.com/ko/o/231347",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105706",
-      "company": "기아",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-19",
-      "end": "2026-08-21",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.kia.com/apply/applyView.kc?recuYy=2026&recuType=N4&recuCls=6",
       "hist": "",
       "found": "2026-09-07"
     }

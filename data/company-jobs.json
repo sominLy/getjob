@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "errors": {},
  "jobs": [
   {
@@ -2443,7 +2443,7 @@
   },
   {
    "company": "CJ올리브영",
-   "title": "Product Manager - PIS(파트너 인텔리전스 시스템)",
+   "title": "Product Manager - 셀러 대상 데이터 서비스",
    "url": "https://career.oliveyoung.com/ko/o/233964",
    "posted": "2026-08-21",
    "years": 5,
@@ -2972,33 +2972,6 @@
     "여행·모빌리티": 1,
     "헬스케어": 2,
     "글로벌·해외": 3
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "CJ올리브영",
-   "title": "제휴 프로모션 운영 및 사업지원 담당자 (계약직)",
-   "url": "https://career.oliveyoung.com/ko/o/229012",
-   "posted": "2026-07-21",
-   "years": null,
-   "w": {
-    "사업개발·제휴": 3,
-    "이해관계자 조율": 3,
-    "시장·트렌드 분석": 2,
-    "마케팅 기획": 3,
-    "브랜드": 3,
-    "콘텐츠 기획·제작": 2,
-    "행사·이벤트": 2,
-    "서비스 운영": 1,
-    "프로세스 개선": 1,
-    "품질·검수": 2,
-    "정산·계약": 3,
-    "모바일 앱": 1,
-    "금융·핀테크": 1,
-    "교육": 1,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 2
    },
    "short": false,
    "found": "2026-10-03"
@@ -4954,41 +4927,6 @@
     "이커머스": 1,
     "영업·세일즈": 1,
     "B2B": 1,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 1,
-    "주도성": 1
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "컬리",
-   "title": "오프라인 스토어 영업기획 담당자",
-   "url": "https://kurly.career.greetinghr.com/ko/o/226475",
-   "posted": "2026-08-20",
-   "years": 3,
-   "w": {
-    "요구사항 정의": 1,
-    "사업개발·제휴": 1,
-    "이해관계자 조율": 3,
-    "데이터 분석": 2,
-    "지표·KPI": 3,
-    "SQL·툴": 3,
-    "사용자 리서치": 2,
-    "마케팅 기획": 1,
-    "브랜드": 2,
-    "콘텐츠 기획·제작": 2,
-    "커뮤니티": 1,
-    "행사·이벤트": 1,
-    "서비스 운영": 1,
-    "CX·고객경험": 3,
-    "문서화·가이드": 2,
-    "품질·검수": 3,
-    "물류·SCM": 3,
-    "MD·상품기획": 3,
-    "영업·세일즈": 3,
-    "금융·핀테크": 3,
-    "F&B·식품": 3,
     "여행·모빌리티": 1,
     "글로벌·해외": 1,
     "주도성": 1
@@ -7719,42 +7657,6 @@
   },
   {
    "company": "뤼튼",
-   "title": "CRM Marketer 인턴",
-   "url": "https://wrtn.career.greetinghr.com/ko/o/233858",
-   "posted": "2026-08-20",
-   "years": null,
-   "w": {
-    "문제 정의": 3,
-    "신사업·0to1": 3,
-    "이해관계자 조율": 3,
-    "데이터 분석": 3,
-    "지표·KPI": 3,
-    "SQL·툴": 2,
-    "A/B 테스트·실험": 3,
-    "사용자 리서치": 1,
-    "인사이트 도출": 1,
-    "마케팅 기획": 1,
-    "퍼포먼스 마케팅": 2,
-    "그로스·CRM": 3,
-    "브랜드": 2,
-    "콘텐츠 기획·제작": 3,
-    "문서화·가이드": 1,
-    "품질·검수": 1,
-    "정산·계약": 1,
-    "B2B": 2,
-    "AI·LLM": 3,
-    "플랫폼": 1,
-    "모바일 앱": 2,
-    "교육": 1,
-    "엔터·IP": 3,
-    "글로벌·해외": 2,
-    "일본어": 1
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "뤼튼",
    "title": "Content Translator (캬라푸)",
    "url": "https://wrtn.career.greetinghr.com/ko/o/238229",
    "posted": "2026-09-22",
@@ -9602,7 +9504,7 @@
    "company": "메가스터디교육",
    "title": "[고등] 온라인 교육 콘텐츠 기획(과학) 채용",
    "url": "https://megastudyedu.career.greetinghr.com/ko/o/238606",
-   "posted": "2026-09-28",
+   "posted": "2026-10-06",
    "years": null,
    "w": {
     "브랜드": 1,
@@ -9615,67 +9517,12 @@
   },
   {
    "company": "메가스터디교육",
-   "title": "[고등] 온라인 입시 서비스 기획 채용",
-   "url": "https://megastudyedu.career.greetinghr.com/ko/o/233562",
-   "posted": "2026-09-28",
-   "years": null,
-   "w": {
-    "서비스기획": 3,
-    "브랜드": 1,
-    "교육": 3
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "메가스터디교육",
    "title": "[러셀] 러셀대구학원 교무기획 채용",
    "url": "https://megastudyedu.career.greetinghr.com/ko/o/238409",
-   "posted": "2026-09-23",
+   "posted": "2026-10-06",
    "years": null,
    "w": {
     "브랜드": 1,
-    "교육": 2
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "메가스터디교육",
-   "title": "[러셀] 러셀대치학원 내신 기획 담당자 채용",
-   "url": "https://megastudyedu.career.greetinghr.com/ko/o/235774",
-   "posted": "2026-09-28",
-   "years": null,
-   "w": {
-    "브랜드": 1,
-    "정산·계약": 2,
-    "교육": 3
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "메가스터디교육",
-   "title": "[유초중] 중등 학습관리(교육/기획)",
-   "url": "https://megastudyedu.career.greetinghr.com/ko/o/231551",
-   "posted": "2026-09-28",
-   "years": null,
-   "w": {
-    "브랜드": 1,
-    "교육": 3
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "메가스터디교육",
-   "title": "[학원] 성북 메가스터디학원 교무기획 채용",
-   "url": "https://megastudyedu.career.greetinghr.com/ko/o/229385",
-   "posted": "2026-09-28",
-   "years": null,
-   "w": {
-    "브랜드": 1,
-    "정산·계약": 2,
     "교육": 2
    },
    "short": false,
@@ -10297,37 +10144,6 @@
    "w": {
     "영업·세일즈": 1,
     "헬스케어": 1
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "헥토",
-   "title": "[헥토이노베이션] 그로스 마케팅 (경력)",
-   "url": "https://www.hectocareers.co.kr/ko/o/236459",
-   "posted": "2026-09-14",
-   "years": 5,
-   "w": {
-    "문제 정의": 1,
-    "사업개발·제휴": 2,
-    "이해관계자 조율": 2,
-    "지표·KPI": 1,
-    "SQL·툴": 1,
-    "사용자 리서치": 2,
-    "그로스·CRM": 3,
-    "콘텐츠 기획·제작": 3,
-    "커뮤니티": 2,
-    "행사·이벤트": 3,
-    "위기·이슈 대응": 1,
-    "물류·SCM": 1,
-    "B2B": 2,
-    "노코드·개발 이해": 3,
-    "플랫폼": 3,
-    "금융·핀테크": 3,
-    "엔터·IP": 1,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 3,
-    "영어": 3
    },
    "short": false,
    "found": "2026-10-03"
@@ -13714,6 +13530,7 @@
    "posted": "2026-04-20",
    "years": 4,
    "w": {
+    "문제 정의": 2,
     "사업개발·제휴": 3,
     "이해관계자 조율": 3,
     "SQL·툴": 1,
@@ -13722,7 +13539,6 @@
     "마케팅 기획": 3,
     "그로스·CRM": 3,
     "콘텐츠 기획·제작": 2,
-    "SNS·소셜": 1,
     "문서화·가이드": 1,
     "품질·검수": 1,
     "위기·이슈 대응": 1,
@@ -13746,6 +13562,7 @@
    "posted": "2026-08-04",
    "years": 12,
    "w": {
+    "문제 정의": 2,
     "사업개발·제휴": 3,
     "신사업·0to1": 1,
     "이해관계자 조율": 3,
@@ -13754,7 +13571,6 @@
     "인사이트 도출": 1,
     "그로스·CRM": 3,
     "콘텐츠 기획·제작": 2,
-    "SNS·소셜": 1,
     "서비스 운영": 1,
     "CX·고객경험": 1,
     "위기·이슈 대응": 3,
@@ -13762,7 +13578,7 @@
     "영업·세일즈": 2,
     "B2B": 2,
     "AI·LLM": 3,
-    "플랫폼": 2,
+    "플랫폼": 3,
     "모바일 앱": 1,
     "글로벌·해외": 2,
     "영어": 1,
@@ -13787,9 +13603,8 @@
     "이해관계자 조율": 3,
     "SQL·툴": 1,
     "A/B 테스트·실험": 1,
-    "그로스·CRM": 3,
+    "그로스·CRM": 1,
     "콘텐츠 기획·제작": 2,
-    "SNS·소셜": 1,
     "서비스 운영": 1,
     "품질·검수": 1,
     "위기·이슈 대응": 3,
@@ -14787,23 +14602,6 @@
    "found": "2026-10-03"
   },
   {
-   "company": "어도비",
-   "title": "Inside Sales Representative",
-   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seoul/Inside-Sales-Representative_R171378",
-   "years": null,
-   "w": {
-    "SQL·툴": 2,
-    "그로스·CRM": 2,
-    "커뮤니티": 1,
-    "CX·고객경험": 1,
-    "영업·세일즈": 3,
-    "AI·LLM": 3,
-    "플랫폼": 2
-   },
-   "short": false,
-   "found": "2026-10-04"
-  },
-  {
    "company": "인텔",
    "title": "Undergrad Intern Sales and Marketing",
    "url": "https://intel.wd1.myworkdayjobs.com/External/job/South-Korea-Seoul/Undergrad-Intern-Sales-and-Marketing_JR0287304",
@@ -14982,75 +14780,122 @@
   },
   {
    "company": "넷플릭스",
-   "title": "Ads Partnership Manager - Korea",
-   "url": "https://explore.jobs.netflix.net/careers/job/790315824083",
+   "title": "Manager, Slate & Brand Marketing - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790315562772",
    "years": null,
    "w": {
-    "사업기획·전략": 2,
+    "요구사항 정의": 1,
+    "신사업·0to1": 1,
+    "이해관계자 조율": 1,
+    "인사이트 도출": 1,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 3,
+    "SNS·소셜": 1,
+    "행사·이벤트": 2,
+    "품질·검수": 1,
+    "B2C": 3,
+    "글로벌·해외": 3,
+    "영어": 1
+   },
+   "short": false,
+   "found": "2026-10-06"
+  },
+  {
+   "company": "넷플릭스",
+   "title": "Korea Finance Director - Strategy, Planning, and Studio Finance",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317631095",
+   "years": null,
+   "w": {
+    "문제 정의": 1,
+    "사업기획·전략": 1,
     "사업개발·제휴": 3,
     "이해관계자 조율": 3,
-    "지표·KPI": 1,
     "시장·트렌드 분석": 1,
     "인사이트 도출": 3,
-    "마케팅 기획": 1,
+    "마케팅 기획": 2,
     "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "콘텐츠 기획·제작": 3,
     "서비스 운영": 3,
-    "문서화·가이드": 2,
-    "영업·세일즈": 3,
-    "플랫폼": 3,
-    "교육": 1,
-    "글로벌·해외": 3,
-    "리더십·팀 리딩": 1
-   },
-   "short": false,
-   "found": "2026-10-04"
-  },
-  {
-   "company": "넷플릭스",
-   "title": "Senior Ads Sales Partner - Export",
-   "url": "https://explore.jobs.netflix.net/careers/job/790318350853",
-   "years": null,
-   "w": {
-    "문제 정의": 1,
-    "사업개발·제휴": 3,
-    "이해관계자 조율": 3,
-    "지표·KPI": 1,
-    "SQL·툴": 1,
-    "마케팅 기획": 1,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 2,
-    "브랜드": 1,
-    "콘텐츠 기획·제작": 1,
-    "CX·고객경험": 2,
-    "영업·세일즈": 3,
-    "글로벌·해외": 3,
-    "영어": 2,
-    "리더십·팀 리딩": 2
-   },
-   "short": false,
-   "found": "2026-10-05"
-  },
-  {
-   "company": "넷플릭스",
-   "title": "HR Business Partner - Korea",
-   "url": "https://explore.jobs.netflix.net/careers/job/790318403387",
-   "years": 10,
-   "w": {
-    "문제 정의": 1,
-    "사업기획·전략": 2,
-    "사업개발·제휴": 1,
-    "이해관계자 조율": 1,
-    "SQL·툴": 1,
-    "사용자 리서치": 2,
-    "인사이트 도출": 1,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 2,
+    "위기·이슈 대응": 2,
     "글로벌·해외": 3,
     "영어": 1,
-    "리더십·팀 리딩": 1
+    "리더십·팀 리딩": 3
    },
    "short": false,
-   "found": "2026-10-05"
+   "found": "2026-10-06"
+  },
+  {
+   "company": "넷플릭스",
+   "title": "Coordinator, Creative Strategy - APAC (ex-India)",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317639495",
+   "years": 4,
+   "w": {
+    "사업개발·제휴": 1,
+    "이해관계자 조율": 3,
+    "SQL·툴": 1,
+    "퍼포먼스 마케팅": 1,
+    "콘텐츠 기획·제작": 3,
+    "서비스 운영": 2,
+    "교육": 1,
+    "여행·모빌리티": 2,
+    "글로벌·해외": 3,
+    "영어": 1,
+    "일본어": 1
+   },
+   "short": false,
+   "found": "2026-10-06"
+  },
+  {
+   "company": "넷플릭스",
+   "title": "Senior Manager, Marketing Partnerships - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317761805",
+   "years": 15,
+   "w": {
+    "사업기획·전략": 2,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "지표·KPI": 2,
+    "SQL·툴": 1,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "브랜드": 2,
+    "이커머스": 1,
+    "영업·세일즈": 1,
+    "B2C": 3,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 1,
+    "영어": 1,
+    "주도성": 1
+   },
+   "short": false,
+   "found": "2026-10-06"
+  },
+  {
+   "company": "쏘카",
+   "title": "[계약직] 차량 운영 지원 매니저",
+   "url": "https://socar.career.greetinghr.com/ko/o/239522",
+   "years": null,
+   "w": {
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 2,
+    "지표·KPI": 1,
+    "사용자 리서치": 2,
+    "서비스 운영": 3,
+    "프로세스 개선": 3,
+    "문서화·가이드": 1,
+    "품질·검수": 1,
+    "정산·계약": 3,
+    "B2B": 1,
+    "금융·핀테크": 1,
+    "주도성": 1
+   },
+   "short": false,
+   "found": "2026-10-06"
   },
   {
    "company": "쏘카(에이펙스모빌리티)",
