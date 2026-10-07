@@ -1,6 +1,302 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "jobs": [
+    {
+      "id": "jasoseol-106288",
+      "company": "인천시설공단",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-06",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://insiseol.recruitlab.co.kr/",
+      "hist": "",
+      "found": "2026-09-17",
+      "title": "2026년 제2회 직원 채용계획 공고"
+    },
+    {
+      "id": "jasoseol-106240",
+      "company": "와디즈",
+      "type": "",
+      "roles": [
+        "콘텐츠",
+        "마케팅",
+        "홍보/PR",
+        "MD"
+      ],
+      "start": "2026-09-15",
+      "end": "2026-10-06",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.wadiz.io/ko/wadizpdhiring",
+      "hist": "",
+      "found": "2026-09-19",
+      "title": "마케팅 PD 신입채용 (MD 성장형 포지션)"
+    },
+    {
+      "id": "jasoseol-106318",
+      "company": "한전KDN",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-09-23",
+      "end": "2026-10-06",
+      "endTime": "11:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kdn.incruit.com/main/main.asp",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026년 하반기 별정직 채용"
+    },
+    {
+      "id": "jasoseol-106320",
+      "company": "한국해양과학기술원 부설 극지연구소",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "홍보/PR"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-06",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kopri.recruiter.co.kr/",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026년 하반기(2차) 육아휴직대체인력(행정·기술) 공개채용"
+    },
+    {
+      "id": "jasoseol-106321",
+      "company": "한국해양과학기술원 부설 극지연구소",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-06",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kopri.recruiter.co.kr/",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026년 하반기 무기계약직(행정직) 채용 공고"
+    },
+    {
+      "id": "jasoseol-106322",
+      "company": "한국해양과학기술원 부설 극지연구소",
+      "type": "공기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-06",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kopri.recruiter.co.kr",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026년 하반기 기간제계약직 채용 공고"
+    },
+    {
+      "id": "jasoseol-106337",
+      "company": "팜스코",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략"
+      ],
+      "start": "2026-09-20",
+      "end": "2026-10-06",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://harimcareers.com/harimholdings/page/user/farmsco/recruit_view?target=37702",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026년 신입/경력 공개채용"
+    },
+    {
+      "id": "jasoseol-106350",
+      "company": "동원그룹",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "마케팅",
+        "브랜드",
+        "MD",
+        "영업"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-06",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://dongwon-recruit.com/",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026년 하반기 신입사원 채용"
+    },
+    {
+      "id": "jasoseol-106373",
+      "company": "농업정책보험금융원(APFS)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-06",
+      "endTime": "16:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609210000421&handle=3A2683D8BA1583A06182F96BB68CE61AD3FAE2968C39BD80C5756F001FABE149",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026년 신입/경력/인턴 공개채용"
+    },
+    {
+      "id": "jasoseol-106374",
+      "company": "오리온",
+      "type": "중견기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-21",
+      "end": "2026-10-06",
+      "endTime": "13:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.orion-recruit.com/?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609orion",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026 하반기 신입사원 채용"
+    },
+    {
+      "id": "jasoseol-106349",
+      "company": "한국장애인고용공단(KEAD)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "고객/CS"
+      ],
+      "start": "2026-09-28",
+      "end": "2026-10-06",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kead.careerlink.kr/",
+      "hist": "",
+      "found": "2026-09-22",
+      "title": "2026년 제2차 직원 채용"
+    },
+    {
+      "id": "jasoseol-106391",
+      "company": "한국교육학술정보원(KERIS)",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-09-22",
+      "end": "2026-10-06",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://keris.recruiter.co.kr/",
+      "hist": "",
+      "found": "2026-09-23",
+      "title": "청년인턴 채용 (행정지원)"
+    },
+    {
+      "id": "jasoseol-106392",
+      "company": "한국교육학술정보원(KERIS)",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-09-22",
+      "end": "2026-10-06",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://keris.recruiter.co.kr/",
+      "hist": "",
+      "found": "2026-09-23",
+      "title": "무기계약직(운영직) 채용"
+    },
+    {
+      "id": "jasoseol-106399",
+      "company": "한국교육학술정보원(KERIS)",
+      "type": "공기업",
+      "roles": [
+        "HR/인사",
+        "PM/서비스기획",
+        "콘텐츠",
+        "마케팅"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-10-06",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://keris.recruiter.co.kr/app/jobnotice/list?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609keris",
+      "hist": "",
+      "found": "2026-09-23",
+      "title": "정규직 채용"
+    },
+    {
+      "id": "jasoseol-106410",
+      "company": "서울시메트로9호선",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-22",
+      "end": "2026-10-06",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55101766&view_type=search",
+      "hist": "",
+      "found": "2026-09-23",
+      "title": "2026년 하반기 정규직 신입사원 채용공고"
+    },
+    {
+      "id": "jasoseol-106431",
+      "company": "한국인터넷진흥원",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-10-06",
+      "endTime": "10:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kisa.applyin.co.kr/",
+      "hist": "",
+      "found": "2026-09-23",
+      "title": "2026년 하반기 직원 채용"
+    },
+    {
+      "id": "jasoseol-106441",
+      "company": "케이씨텍",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-09-27",
+      "end": "2026-10-06",
+      "endTime": "23:55",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kc-group.recruiter.co.kr/career/jobs/129632",
+      "hist": "",
+      "found": "2026-09-28",
+      "title": "[신입] 반도체 장비 출고담당자 계약직 모집(안성)"
+    },
     {
       "id": "wanted-384520",
       "company": "포스타입",
@@ -10537,36 +10833,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://echomarketing.career.greetinghr.com/ko/o/232616ㅍ",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-104737",
-      "company": "어플라이드 머티어리얼즈 코리아",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-06-23",
-      "end": "2026-08-22",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://bit.ly/4elti8I",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105462",
-      "company": "뤼튼테크놀로지스",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-08-22",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.wrtn.io/ko/o/231416",
       "hist": "",
       "found": "2026-09-07"
     }

@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-06T08:25:49.483514+00:00",
+ "collectedAt": "2026-10-07T08:02:23.618769+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -628,7 +628,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-06",
-   "new": true,
+   "new": false,
    "found": "2026-10-06"
   },
   {
@@ -718,20 +718,6 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
-   "title": "T&A실 유럽팀 사업개발 매니저",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/234639",
-   "cat": "전략·사업",
-   "intern": false,
-   "openDate": "2026-10-06",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
    "title": "T&A실 글로벌 파트너 마케팅 매니저",
    "career": "-",
    "emp": "정규직",
@@ -740,34 +726,6 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-08-19",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
-   "title": "T&A실 미주·대양주 사업개발 매니저",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/232692",
-   "cat": "전략·사업",
-   "intern": false,
-   "openDate": "2026-08-11",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
-   "title": "웰니스실 뷰티웰니스팀 B2B 제휴 영업 매니저",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/229995",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-07-24",
    "new": false,
    "found": "2026-10-03"
   },
@@ -1292,34 +1250,6 @@
   {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
-   "title": "[와디즈PD 공개채용] 마케팅 PD (MD 성장형 포지션)",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "2026-10-06",
-   "link": "https://job.wadiz.io/ko/o/238062",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-29",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "와디즈",
-   "플랫폼": "greetinghr",
-   "title": "광고 운영 담당자 (인턴)",
-   "career": "경력무관",
-   "emp": "인턴",
-   "due": "2026-10-06",
-   "link": "https://job.wadiz.io/ko/o/239179",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-10-01",
-   "new": false,
-   "found": "2026-10-01"
-  },
-  {
-   "회사": "와디즈",
-   "플랫폼": "greetinghr",
    "title": "펀딩 프로모션 마케팅 운영 담당자 (인턴)",
    "career": "-",
    "emp": "인턴",
@@ -1330,6 +1260,20 @@
    "openDate": "2026-09-20",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "와디즈",
+   "플랫폼": "greetinghr",
+   "title": "광고 운영 담당자 (인턴)",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "2026-10-26",
+   "link": "https://job.wadiz.io/ko/o/239179",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-07",
+   "new": false,
+   "found": "2026-10-01"
   },
   {
    "회사": "와디즈",
@@ -1852,20 +1796,6 @@
   {
    "회사": "헥토",
    "플랫폼": "greetinghr",
-   "title": "[헥토이노베이션] 휘슬 서비스 운영 (인턴)",
-   "career": "경력무관",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://www.hectocareers.co.kr/ko/o/237518",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-09-21",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "헥토",
-   "플랫폼": "greetinghr",
    "title": "[헥토파이낸셜] Account Manager",
    "career": "경력무관",
    "emp": "정규직",
@@ -1986,20 +1916,6 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-10",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "당근",
-   "플랫폼": "greenhouse",
-   "title": "Product Manager (인턴) - Chatting",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "SEOUL",
-   "link": "https://about.daangn.com?gh_jid=7997430003",
-   "cat": "기획·PM/PO",
-   "intern": true,
-   "openDate": "2026-09-21",
    "new": false,
    "found": "2026-10-03"
   },
