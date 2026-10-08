@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-07T08:02:23.618769+00:00",
+ "collectedAt": "2026-10-08T08:16:17.713813+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -480,6 +480,20 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
+   "title": "[언니가이드] 글로벌 고객 리셉션 컨시어지 - 영어 (계약직)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/195337",
+   "cat": "세일즈·CX·제휴",
+   "intern": false,
+   "openDate": "2026-09-15",
+   "new": true,
+   "found": "2026-10-08"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
    "title": "[언니가이드] 글로벌 고객 상담사 - 영어 (계약직)",
    "career": "경력무관",
    "emp": "계약직",
@@ -732,20 +746,6 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
-   "title": "웰니스실 메디컬팀 B2B 제휴 영업 매니저",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/223232",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-06-17",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
    "title": "국내숙박실 국내사업 Account Manager",
    "career": "-",
    "emp": "정규직",
@@ -816,7 +816,7 @@
   {
    "회사": "메가스터디교육",
    "플랫폼": "greetinghr",
-   "title": "[MEXX] MEXX학원 회계/행정/고객 채용",
+   "title": "[MEXX] MEXX학원 고객 지원/회계/행정 채용",
    "career": "경력무관",
    "emp": "계약직",
    "due": "2026-10-11",
@@ -1362,6 +1362,20 @@
   {
    "회사": "카카오페이",
    "플랫폼": "greetinghr",
+   "title": "[어시스턴트] 인사운영 및 보상/복지제도 운영 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/239751",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-10-07",
+   "new": true,
+   "found": "2026-10-08"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
    "title": "[어시스턴트] 투데이탭 콘텐츠 운영 지원",
    "career": "신입",
    "emp": "인턴",
@@ -1568,6 +1582,20 @@
    "openDate": "2026-09-09",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
+   "title": "[Weverse Company] 팬이벤트 운영 지원*",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/239760",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-07",
+   "new": true,
+   "found": "2026-10-08"
   },
   {
    "회사": "하이브",
@@ -1792,6 +1820,20 @@
    "openDate": "2026-10-02",
    "new": false,
    "found": "2026-10-02"
+  },
+  {
+   "회사": "헥토",
+   "플랫폼": "greetinghr",
+   "title": "[헥토데이터] 커머스 운영 지원 CX(CS) 담당자 경력직  채용",
+   "career": "경력 1년~3",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://www.hectocareers.co.kr/ko/o/239801",
+   "cat": "세일즈·CX·제휴",
+   "intern": false,
+   "openDate": "2026-10-08",
+   "new": true,
+   "found": "2026-10-08"
   },
   {
    "회사": "헥토",
@@ -2085,7 +2127,7 @@
    "intern": false,
    "new": false,
    "found": "2026-10-03",
-   "openDate": "2026-08-31"
+   "openDate": "2026-10-07"
   },
   {
    "회사": "Anthropic",
@@ -2314,15 +2356,15 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Google Trade Compliance Program Manager",
+   "title": "Growth Manager, App Sales (English, Korean)",
    "career": "-",
    "emp": "-",
    "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/132951558273802950",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": false,
-   "found": "2026-10-03",
+   "new": true,
+   "found": "2026-10-08",
    "openDate": ""
   },
   {

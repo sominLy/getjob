@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-08",
  "jobs": [
   {
    "src": "board",
@@ -229,26 +229,6 @@
     "MD·상품기획": 3,
     "교육": 1,
     "뷰티·패션": 2
-   }
-  },
-  {
-   "src": "board",
-   "id": "jasoseol-106295",
-   "company": "고이장례연구소",
-   "title": "세일즈 매니저",
-   "url": "https://team-goifuneral.career.greetinghr.com/ko/o/237243",
-   "end": "2026-10-07",
-   "posted": "2026-09-17",
-   "found": "2026-09-18",
-   "w": {
-    "지표·KPI": 3,
-    "그로스·CRM": 2,
-    "품질·검수": 1,
-    "정산·계약": 3,
-    "영업·세일즈": 3,
-    "금융·핀테크": 1,
-    "부동산·프롭테크": 1,
-    "헬스케어": 1
    }
   },
   {
@@ -679,6 +659,55 @@
     "그로스·CRM": 1,
     "서비스 운영": 1,
     "CX·고객경험": 2
+   }
+  },
+  {
+   "src": "board",
+   "id": "linkareer-355719",
+   "company": "부산도시가스",
+   "title": "PM/서비스기획 · 기획/전략",
+   "url": "https://linkareer.com/activity/355719",
+   "end": "2026-10-21",
+   "posted": "",
+   "found": "2026-10-08",
+   "w": {
+    "문제 정의": 2,
+    "이해관계자 조율": 1,
+    "데이터 분석": 2,
+    "그로스·CRM": 1,
+    "커뮤니티": 3,
+    "프로세스 개선": 1,
+    "정산·계약": 1,
+    "영업·세일즈": 1,
+    "AI·LLM": 3,
+    "금융·핀테크": 3,
+    "교육": 3,
+    "F&B·식품": 1,
+    "여행·모빌리티": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106611",
+   "company": "우아한청년들",
+   "title": "FDO 커리어프로그램 1기 모집(채용연계형)",
+   "url": "https://career.woowayouths.com/static/fdo/index.html",
+   "end": "2026-10-28",
+   "posted": "2026-10-07",
+   "found": "2026-10-08",
+   "w": {
+    "문제 정의": 3,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "데이터 분석": 2,
+    "지표·KPI": 3,
+    "SQL·툴": 2,
+    "설문·조사 설계": 1,
+    "문서화·가이드": 3,
+    "품질·검수": 1,
+    "영업·세일즈": 2,
+    "AI·LLM": 3,
+    "교육": 3
    }
   },
   {
@@ -1294,6 +1323,31 @@
    },
    "found": "2026-10-03",
    "posted": "2026-05-07"
+  },
+  {
+   "src": "junior",
+   "company": "강남언니",
+   "title": "[언니가이드] 글로벌 고객 리셉션 컨시어지 - 영어 (계약직)",
+   "url": "https://career.gangnamunni.com/ko/o/195337",
+   "end": "",
+   "posted": "2026-09-15",
+   "found": "2026-10-08",
+   "w": {
+    "이해관계자 조율": 2,
+    "사용자 리서치": 3,
+    "SNS·소셜": 1,
+    "CX·고객경험": 3,
+    "문서화·가이드": 2,
+    "정산·계약": 3,
+    "노코드·개발 이해": 1,
+    "플랫폼": 1,
+    "교육": 1,
+    "뷰티·패션": 3,
+    "여행·모빌리티": 1,
+    "헬스케어": 2,
+    "글로벌·해외": 2,
+    "영어": 3
+   }
   },
   {
    "src": "junior",
@@ -2319,6 +2373,29 @@
   {
    "src": "junior",
    "company": "카카오페이",
+   "title": "[어시스턴트] 인사운영 및 보상/복지제도 운영 지원",
+   "url": "https://kakaopay.career.greetinghr.com/ko/o/239751",
+   "end": "",
+   "posted": "2026-10-07",
+   "found": "2026-10-08",
+   "w": {
+    "이해관계자 조율": 3,
+    "SQL·툴": 2,
+    "사용자 리서치": 1,
+    "행사·이벤트": 1,
+    "서비스 운영": 3,
+    "프로세스 개선": 1,
+    "정산·계약": 1,
+    "AI·LLM": 2,
+    "금융·핀테크": 3,
+    "교육": 1,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 1
+   }
+  },
+  {
+   "src": "junior",
+   "company": "카카오페이",
    "title": "[어시스턴트] 투데이탭 콘텐츠 운영 지원",
    "url": "https://kakaopay.career.greetinghr.com/ko/o/239434",
    "end": "",
@@ -2582,6 +2659,33 @@
    },
    "found": "2026-10-03",
    "posted": "2026-08-27"
+  },
+  {
+   "src": "junior",
+   "company": "하이브",
+   "title": "[Weverse Company] 팬이벤트 운영 지원*",
+   "url": "https://careers.hybecorp.com/ko/o/239760",
+   "end": "",
+   "posted": "2026-10-07",
+   "found": "2026-10-08",
+   "w": {
+    "이해관계자 조율": 3,
+    "마케팅 기획": 1,
+    "커뮤니티": 3,
+    "행사·이벤트": 3,
+    "서비스 운영": 1,
+    "프로세스 개선": 1,
+    "문서화·가이드": 1,
+    "품질·검수": 2,
+    "정산·계약": 3,
+    "이커머스": 3,
+    "플랫폼": 3,
+    "엔터·IP": 3,
+    "글로벌·해외": 2,
+    "일본어": 1,
+    "중국어": 1,
+    "주도성": 1
+   }
   },
   {
    "src": "junior",
@@ -2971,35 +3075,6 @@
     "글로벌·해외": 3
    },
    "posted": "2026-01-30",
-   "found": "2026-10-03"
-  },
-  {
-   "src": "company",
-   "company": "무신사",
-   "title": "뷰티 바잉 AMD",
-   "url": "https://musinsa.career.greetinghr.com/ko/o/238837",
-   "end": "",
-   "w": {
-    "문제 정의": 2,
-    "이해관계자 조율": 3,
-    "지표·KPI": 3,
-    "SQL·툴": 2,
-    "사용자 리서치": 2,
-    "시장·트렌드 분석": 2,
-    "마케팅 기획": 2,
-    "브랜드": 1,
-    "콘텐츠 기획·제작": 1,
-    "품질·검수": 1,
-    "물류·SCM": 3,
-    "정산·계약": 1,
-    "이커머스": 3,
-    "MD·상품기획": 3,
-    "영업·세일즈": 1,
-    "플랫폼": 1,
-    "교육": 1,
-    "뷰티·패션": 3
-   },
-   "posted": "2026-09-29",
    "found": "2026-10-03"
   },
   {
@@ -4932,22 +5007,6 @@
   },
   {
    "src": "company",
-   "company": "강남언니",
-   "title": "[신사업] 글로벌 고객 컨시어지 (계약직)",
-   "url": "https://career.gangnamunni.com/ko/o/195337",
-   "end": "",
-   "w": {
-    "신사업·0to1": 1,
-    "정산·계약": 1,
-    "B2B": 1,
-    "글로벌·해외": 3,
-    "일본어": 1
-   },
-   "posted": "2026-09-15",
-   "found": "2026-10-03"
-  },
-  {
-   "src": "company",
    "company": "헥토",
    "title": "[헥토파이낸셜] 서비스 기획 (Product&Growth)",
    "url": "https://www.hectocareers.co.kr/ko/o/239070",
@@ -5606,6 +5665,32 @@
   {
    "src": "company",
    "company": "세일즈포스",
+   "title": "Cloud Account Executive - Agentforce (SKR)",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Cloud-Account-Executive---Agentforce--SKR-_JR362277",
+   "end": "",
+   "w": {
+    "문제 정의": 2,
+    "이해관계자 조율": 1,
+    "데이터 분석": 1,
+    "마케팅 기획": 3,
+    "그로스·CRM": 3,
+    "프로세스 개선": 1,
+    "품질·검수": 2,
+    "이커머스": 1,
+    "영업·세일즈": 3,
+    "B2B": 3,
+    "B2C": 1,
+    "AI·LLM": 3,
+    "노코드·개발 이해": 1,
+    "플랫폼": 3,
+    "교육": 2
+   },
+   "posted": "",
+   "found": "2026-10-08"
+  },
+  {
+   "src": "company",
+   "company": "세일즈포스",
    "title": "Sr. Account Executive, Data Cloud Specialist",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Account-Executive--Data-Cloud-Specialist_JR349531",
    "end": "",
@@ -5942,6 +6027,32 @@
   {
    "src": "company",
    "company": "넷플릭스",
+   "title": "Ads Partnership Manager - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790315824083",
+   "end": "",
+   "w": {
+    "사업기획·전략": 2,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "지표·KPI": 1,
+    "시장·트렌드 분석": 1,
+    "인사이트 도출": 3,
+    "마케팅 기획": 1,
+    "퍼포먼스 마케팅": 1,
+    "서비스 운영": 3,
+    "문서화·가이드": 2,
+    "영업·세일즈": 3,
+    "플랫폼": 3,
+    "교육": 1,
+    "글로벌·해외": 3,
+    "리더십·팀 리딩": 1
+   },
+   "posted": "",
+   "found": "2026-10-06"
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
    "title": "Senior Account Manager",
    "url": "https://explore.jobs.netflix.net/careers/job/790318738586",
    "end": "",
@@ -5971,54 +6082,61 @@
   {
    "src": "company",
    "company": "넷플릭스",
-   "title": "Ads Partnership Manager - Korea",
-   "url": "https://explore.jobs.netflix.net/careers/job/790315824083",
+   "title": "Marketing Partnerships Creative Manager - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318793899",
    "end": "",
    "w": {
-    "사업기획·전략": 2,
+    "문제 정의": 1,
     "사업개발·제휴": 3,
+    "신사업·0to1": 2,
+    "프로젝트 관리": 1,
     "이해관계자 조율": 3,
-    "지표·KPI": 1,
-    "시장·트렌드 분석": 1,
-    "인사이트 도출": 3,
-    "마케팅 기획": 1,
-    "퍼포먼스 마케팅": 1,
-    "서비스 운영": 3,
-    "문서화·가이드": 2,
-    "영업·세일즈": 3,
-    "플랫폼": 3,
-    "교육": 1,
-    "글로벌·해외": 3,
-    "리더십·팀 리딩": 1
-   },
-   "posted": "",
-   "found": "2026-10-06"
-  },
-  {
-   "src": "company",
-   "company": "넷플릭스",
-   "title": "Manager, Slate & Brand Marketing - Korea",
-   "url": "https://explore.jobs.netflix.net/careers/job/790315562772",
-   "end": "",
-   "w": {
-    "요구사항 정의": 1,
-    "신사업·0to1": 1,
-    "이해관계자 조율": 1,
-    "인사이트 도출": 1,
+    "SQL·툴": 1,
+    "사용자 리서치": 1,
+    "인사이트 도출": 2,
     "마케팅 기획": 3,
     "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 1,
     "브랜드": 3,
     "콘텐츠 기획·제작": 3,
     "SNS·소셜": 1,
     "행사·이벤트": 2,
-    "품질·검수": 1,
+    "서비스 운영": 1,
+    "영업·세일즈": 3,
+    "B2B": 1,
     "B2C": 3,
-    "글로벌·해외": 3,
-    "영어": 1
+    "엔터·IP": 1,
+    "글로벌·해외": 1,
+    "영어": 2,
+    "주도성": 1
    },
    "posted": "",
-   "found": "2026-10-06"
+   "found": "2026-10-08"
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
+   "title": "Korea Finance Director - Strategy, Planning, and Studio Finance",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317631095",
+   "end": "",
+   "w": {
+    "문제 정의": 1,
+    "사업기획·전략": 1,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "시장·트렌드 분석": 1,
+    "인사이트 도출": 3,
+    "마케팅 기획": 2,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "콘텐츠 기획·제작": 3,
+    "서비스 운영": 3,
+    "위기·이슈 대응": 2,
+    "글로벌·해외": 3,
+    "영어": 1,
+    "리더십·팀 리딩": 3
+   },
+   "posted": "",
+   "found": "2026-10-08"
   },
   {
    "src": "company",
@@ -6175,7 +6293,6 @@
   "https://myrealtrip.career.greetinghr.com/ko/o/236050",
   "https://myrealtrip.career.greetinghr.com/ko/o/235036",
   "https://myrealtrip.career.greetinghr.com/ko/o/233692",
-  "https://myrealtrip.career.greetinghr.com/ko/o/223232",
   "https://myrealtrip.career.greetinghr.com/ko/o/215156",
   "https://myrealtrip.career.greetinghr.com/ko/o/191470",
   "https://myrealtrip.career.greetinghr.com/ko/o/191458",
@@ -6209,6 +6326,7 @@
   "https://hiconsy.career.greetinghr.com/ko/o/239442",
   "https://hiconsy.career.greetinghr.com/ko/o/239441",
   "https://hiconsy.career.greetinghr.com/ko/o/239439",
+  "https://www.hectocareers.co.kr/ko/o/239801",
   "https://www.hectocareers.co.kr/ko/o/236786",
   "https://www.hectocareers.co.kr/ko/o/233758",
   "https://www.hectocareers.co.kr/ko/o/211430",

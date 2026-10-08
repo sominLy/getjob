@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-07T08:04:17.116Z",
+  "collectedAt": "2026-10-08T08:18:36.750Z",
   "errors": {},
   "jobs": [
     {
@@ -639,21 +639,23 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Google Trade Compliance Program Manager",
+      "title": "Growth Manager, App Sales (English, Korean)",
       "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122344332303704774-google-trade-compliance-program-manager",
-      "years": 5,
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/132951558273802950-growth-manager-app-sales-english-korean",
+      "years": 2,
       "noLimit": false,
-      "evidence": "5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.",
+      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
       "roles": [
-        "전략·재무"
+        "세일즈·파트너십"
       ],
-      "reqs": [],
-      "bucket": "senior",
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "junior",
       "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.\nExperience with South Korea regulations and country-specific import and export trade requirements.\n"
+      "firstSeen": "2026-10-08",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently to communicate in this customer-facing business role.\n"
     },
     {
       "source": "google",
@@ -742,28 +744,6 @@
       "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n7 years of experience with quota-carrying cloud or software sales, or account management at a Business-to-Business (B2B) software company.\nExperience in, or supporting the digital native or gaming industry.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/94076386569790150-account-strategist-midmarket-sales-google-customer-solutions-english-korean",
-      "years": 2,
-      "noLimit": false,
-      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
-      "roles": [
-        "솔루션·컨설팅",
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "junior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\nAbility to travel up to 20% of the time as required.\n"
     },
     {
       "source": "google",
