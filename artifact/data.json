@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-08T08:16:17.713813+00:00",
+ "collectedAt": "2026-10-09T03:30:00.315707+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -488,7 +488,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-15",
-   "new": true,
+   "new": false,
    "found": "2026-10-08"
   },
   {
@@ -1370,7 +1370,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-10-07",
-   "new": true,
+   "new": false,
    "found": "2026-10-08"
   },
   {
@@ -1594,7 +1594,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-07",
-   "new": true,
+   "new": false,
    "found": "2026-10-08"
   },
   {
@@ -1832,7 +1832,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-08",
-   "new": true,
+   "new": false,
    "found": "2026-10-08"
   },
   {
@@ -2356,6 +2356,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/121941418200441542",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-09",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Growth Manager, App Sales (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2363,7 +2377,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/132951558273802950",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-08",
    "openDate": ""
   },
@@ -2398,6 +2412,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/133842532059488966",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-09",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Field Sales Manager, Enterprise, Google Cloud (Korean, English)",
    "career": "-",
    "emp": "-",
@@ -2426,39 +2454,11 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Apps Solutions Expert, gTech Ads Solutions (Fixed-Term Contract)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/134460100038271686",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
    "title": "Technical Solutions Consultant, gTech (English, Korean)",
    "career": "-",
    "emp": "-",
    "due": "Seoul, South Korea",
    "link": "https://www.google.com/about/careers/applications/jobs/results/139541106478981830",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "People Consultant (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/115080752332186310",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,

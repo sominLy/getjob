@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-08T08:18:36.750Z",
+  "collectedAt": "2026-10-09T03:31:47.165Z",
   "errors": {},
   "jobs": [
     {
@@ -639,6 +639,28 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/121941418200441542-account-strategist-midmarket-sales-google-customer-solutions-english-korean",
+      "years": 2,
+      "noLimit": false,
+      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
+      "roles": [
+        "솔루션·컨설팅",
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-10-09",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\nAbility to travel up to 20% of the time as required.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Growth Manager, App Sales (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -744,6 +766,27 @@
       "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n7 years of experience with quota-carrying cloud or software sales, or account management at a Business-to-Business (B2B) software company.\nExperience in, or supporting the digital native or gaming industry.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/133842532059488966-strategic-partner-manager-fixedterm-contract-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor's degree or equivalent practical experience.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-10-09",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n1 year of experience in business development, partnerships, management consulting, or investment banking.\nExperience in the consumer electronics, auto, OEMs, telecom, e-Commerce/retail, apps, ads, gaming, or technology industries.\nExperience working with C-level executives and cross-functionally across all levels of management.\n\nExperience managing agreements or partnerships.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\n"
     },
     {
       "source": "google",
@@ -854,27 +897,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Apps Solutions Expert, gTech Ads Solutions (Fixed-Term Contract)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/134460100038271686-apps-solutions-expert-gtech-ads-solutions-fixedterm-contract",
-      "years": 2,
-      "noLimit": false,
-      "evidence": "2 years of experience working with digital media or digital marketing/advertising solutions, implementing and measuring campaigns and providing client solutions.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "junior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience working with digital media or digital marketing/advertising solutions, implementing and measuring campaigns and providing client solutions.\n\n1 year of experience working in customer relationship development, account management, media consulting, or a similar role.\n\nAbility to communicate in English and Korean fluently to collaborate with stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Technical Solutions Consultant, gTech (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -935,28 +957,6 @@
       "fit": true,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor’s degree or equivalent practical experience.\n7 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with technical delivery strategies and interfacing with product or engineering organizations.\nExperience reading or debugging code in a general purpose coding language (e.g., Java, Python, JavaScript).\nExperience in system design or orchestration frameworks (e.g., LangGraph, AutoGen, CrewAI).\nExperience with enterprise integrations (APIs, enterprise content management (ECMs), identity), cloud infrastructure, or AI/ML model deployments.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "People Consultant (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/115080752332186310-people-consultant-english-korean",
-      "years": 7,
-      "noLimit": false,
-      "evidence": "7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.",
-      "roles": [
-        "솔루션·컨설팅",
-        "HR"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.\n\nExperience of managing multiple stakeholders.\n\nAbility to communicate in English and Korean fluently to manage the client relationships in the area.\n"
     },
     {
       "source": "google",

@@ -1,6 +1,109 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "jobs": [
+    {
+      "id": "jasoseol-106341",
+      "company": "클래스101",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-18",
+      "end": "2026-10-08",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jobs.class101.net",
+      "hist": "",
+      "found": "2026-09-18",
+      "title": "[채용연계형인턴] 비즈니스 빌더[BD]"
+    },
+    {
+      "id": "jasoseol-106267",
+      "company": "광주도시관리공사",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-23",
+      "end": "2026-10-08",
+      "endTime": "16:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://gumc.brms.kr/",
+      "hist": "",
+      "found": "2026-09-19",
+      "title": "2026년 하반기 정규직 직원채용 공고"
+    },
+    {
+      "id": "jasoseol-106348",
+      "company": "한국선급",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "PM/서비스기획"
+      ],
+      "start": "2026-09-24",
+      "end": "2026-10-08",
+      "endTime": "15:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://krs.recruit-zone.co.kr/",
+      "hist": "",
+      "found": "2026-09-21",
+      "title": "2026년도 직원 채용 공고 (제2차)"
+    },
+    {
+      "id": "jasoseol-106445",
+      "company": "한국사학진흥재단(KASFO)",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-09-30",
+      "end": "2026-10-08",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kasfo.scout.co.kr",
+      "hist": "",
+      "found": "2026-09-28",
+      "title": "2026년 3차 체험형 청년인턴 채용 (장애인제한경쟁)"
+    },
+    {
+      "id": "jasoseol-106448",
+      "company": "NH농협캐피탈",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-09-29",
+      "end": "2026-10-08",
+      "endTime": "10:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "http://nhcapital.saramin.co.kr",
+      "hist": "",
+      "found": "2026-09-29",
+      "title": "2026년 신규직원 채용"
+    },
+    {
+      "id": "jasoseol-106528",
+      "company": "공항철도",
+      "type": "중견기업",
+      "roles": [
+        "영업관리"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-08",
+      "endTime": "11:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://arex.incruit.com/hire/hirelist.asp",
+      "hist": "",
+      "found": "2026-10-01",
+      "title": "2026년 하반기 채용 공고"
+    },
     {
       "id": "jasoseol-106232",
       "company": "대한무역투자진흥공사(KOTRA)",
@@ -10581,204 +10684,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://ilhwa.recruiter.co.kr/career/careers?utm_source=jasoseol&utm_medium=banner&utm_campaign=2608ilhwa",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105439",
-      "company": "페이히어",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-02",
-      "end": "2026-08-24",
-      "endTime": "17:16",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.payhere.in/job_posting/P39Coqms?utm_source=%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105473",
-      "company": "뤼튼테크놀로지스",
-      "type": "",
-      "roles": [
-        "브랜드",
-        "마케팅"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-08-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.wrtn.io/ko/o/218408",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105474",
-      "company": "뤼튼테크놀로지스",
-      "type": "",
-      "roles": [
-        "브랜드",
-        "마케팅"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-08-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.wrtn.io/ko/o/227428",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105475",
-      "company": "뤼튼테크놀로지스",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-08-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.wrtn.io/ko/o/176782",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105521",
-      "company": "한국산업안전보건공단(KOSHA)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-08-12",
-      "end": "2026-08-24",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kosha.career.co.kr/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105528",
-      "company": "다우데이타",
-      "type": "중견기업",
-      "roles": [
-        "영업",
-        "영업관리",
-        "기획/전략",
-        "PM/서비스기획"
-      ],
-      "start": "2026-08-09",
-      "end": "2026-08-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://daoudata.career.greetinghr.com/ko/history",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105537",
-      "company": "동아미디어그룹 ",
-      "type": "중견기업",
-      "roles": [
-        "콘텐츠",
-        "PM/서비스기획",
-        "마케팅"
-      ],
-      "start": "2026-08-10",
-      "end": "2026-08-24",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://damg.recruiter.co.kr/career/home",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105539",
-      "company": "HJ중공업",
-      "type": "대기업",
-      "roles": [
-        "기획/전략",
-        "영업",
-        "홍보/PR",
-        "영업관리",
-        "HR/인사"
-      ],
-      "start": "2026-08-11",
-      "end": "2026-08-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.hjsc.co.kr/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105574",
-      "company": "넥슨스페이스",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-10",
-      "end": "2026-08-24",
-      "endTime": "23:30",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nexon.com/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105597",
-      "company": "하나대체투자자산운용",
-      "type": "금융",
-      "roles": [
-        "기획/전략",
-        "금융/심사"
-      ],
-      "start": "2026-08-10",
-      "end": "2026-08-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://hana-aamc.applyin.co.kr/jobs/22935",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105642",
-      "company": "에어리퀴드코리아",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-13",
-      "end": "2026-08-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://incruit.dig-airgas.com",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105674",
-      "company": "케이씨텍",
-      "type": "중견기업",
-      "roles": [
-        "영업관리"
-      ],
-      "start": "2026-08-11",
-      "end": "2026-08-24",
-      "endTime": "23:55",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kc-group.recruiter.co.kr/career/jobs/124811",
       "hist": "",
       "found": "2026-09-07"
     }

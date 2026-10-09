@@ -11324,7 +11324,157 @@
    "preds": 267,
    "compTotal": 551,
    "backfilled": true
+  },
+  {
+   "date": "2026-10-09",
+   "added": [
+    {
+     "id": "linkareer-355756",
+     "company": "핀슬러코리아",
+     "title": "",
+     "roles": [
+      "콘텐츠"
+     ],
+     "end": "2026-11-07",
+     "url": "https://linkareer.com/activity/355756"
+    },
+    {
+     "id": "jasoseol-106620",
+     "company": "행복나래",
+     "title": "2026년 하반기 신입/경력 채용",
+     "roles": [
+      "영업",
+      "영업관리"
+     ],
+     "end": "2026-10-18",
+     "url": "https://happynarae.saramin.co.kr/main/index"
+    },
+    {
+     "id": "jasoseol-106638",
+     "company": "kt ds",
+     "title": "2026년 신입사원 공개채용",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-10-22",
+     "url": "https://kt.recruiter.co.kr/career/jobs/129809"
+    },
+    {
+     "id": "jasoseol-106642",
+     "company": "엘티정밀",
+     "title": "미국 VMI 창고 운영인원 신입 및 경력사원 모집",
+     "roles": [],
+     "end": "2026-10-15",
+     "url": "https://ltpr.careerlink.kr/jobs/RC20261008037146"
+    },
+    {
+     "id": "jasoseol-106649",
+     "company": "SK이노베이션 E&S",
+     "title": "도시가스사 대졸 신입사원(G3) 모집",
+     "roles": [
+      "HR/인사",
+      "마케팅",
+      "영업",
+      "고객/CS"
+     ],
+     "end": "2026-10-21",
+     "url": "https://www.skcareers.com/"
+    },
+    {
+     "id": "jasoseol-106655",
+     "company": "파수에이아이",
+     "title": "2026년 3차 신입 공개채용",
+     "roles": [
+      "영업",
+      "기획/전략",
+      "마케팅",
+      "영업관리"
+     ],
+     "end": "2026-10-25",
+     "url": "https://recruit.fasoo.com/apply/299"
+    },
+    {
+     "id": "global-google-121941418200441542",
+     "company": "Google",
+     "title": "Account Strategist, Mid-Market Sales, Google Customer Soluti",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/121941418200441542"
+    },
+    {
+     "id": "global-google-133842532059488966",
+     "company": "Google",
+     "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Ko",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/133842532059488966"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106341",
+     "company": "클래스101",
+     "end": "2026-10-08"
+    },
+    {
+     "id": "jasoseol-106267",
+     "company": "광주도시관리공사",
+     "end": "2026-10-08"
+    },
+    {
+     "id": "jasoseol-106348",
+     "company": "한국선급",
+     "end": "2026-10-08"
+    },
+    {
+     "id": "jasoseol-106445",
+     "company": "한국사학진흥재단(KASFO)",
+     "end": "2026-10-08"
+    },
+    {
+     "id": "jasoseol-106448",
+     "company": "NH농협캐피탈",
+     "end": "2026-10-08"
+    },
+    {
+     "id": "jasoseol-106528",
+     "company": "공항철도",
+     "end": "2026-10-08"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "세일즈포스",
+     "title": "Enterprise Account Executive - Slack (Korea)",
+     "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Enterprise-Account-Executive---Slack--Korea-_JR362532-2"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Slate & Brand Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315562772"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Title Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790316092017"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Senior Ads Sales Partner - Export",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318350853"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "HR Business Partner - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318403387"
+    }
+   ],
+   "total": 348,
+   "archiveTotal": 628,
+   "preds": 272,
+   "compTotal": 547
   }
  ],
- "updated": "2026-10-06"
+ "updated": "2026-10-09"
 }
