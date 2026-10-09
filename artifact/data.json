@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-09T03:30:00.315707+00:00",
+ "collectedAt": "2026-10-09T08:17:23.702351+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -2363,7 +2363,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/121941418200441542",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-09",
    "openDate": ""
   },
@@ -2419,7 +2419,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/133842532059488966",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-09",
    "openDate": ""
   },
