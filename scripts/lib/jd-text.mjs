@@ -25,13 +25,32 @@ export async function fetchText(url) {
 // 가장 긴 문자열이 공고 본문이라, 메뉴·다른 공고 제목이 섞이지 않게 그것만 쓴다.
 export async function greetingJd(url) {
   const html = await fetchText(url);
+  // 그리팅은 '경력사항: 경력 5년 이상'을 본문이 아닌 옆 칸(jobPositionCareer)에 따로 둔다 — 본문 앞에 붙여 연차 판정에 쓰이게 한다
+  const career = greetingCareer(html);
   const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
   if (m) {
     try {
       const body = stripHtml(longestString(JSON.parse(m[1])));
-      if (body.length > 200) return body;
+      if (body.length > 200) return career + body;
     } catch {}
   }
   const main = html.match(/<main[\s\S]*?<\/main>/i);
-  return stripHtml(main ? main[0] : html);
+  return career + stripHtml(main ? main[0] : html);
+}
+
+/** 그리팅 페이지 데이터의 경력 조건 → "경력 5년 이상\n" / "신입\n" / "" */
+export function greetingCareer(html) {
+  const mins = [];
+  let newcomer = false;
+  for (const m of html.matchAll(/"careerType"\s*:\s*"(\w+)"[^{}]*?/g)) {
+    // careerType이 있는 객체 하나(중괄호 안)를 잘라 careerFrom을 찾는다
+    const start = html.lastIndexOf("{", m.index), end = html.indexOf("}", m.index);
+    const obj = html.slice(start, end + 1);
+    if (m[1] === "EXPERIENCED") {
+      const f = obj.match(/"careerFrom"\s*:\s*(\d+)/);
+      if (f && Number(f[1]) > 0) mins.push(Number(f[1]));
+    } else if (m[1] === "NEW_COMER") newcomer = true;
+  }
+  if (mins.length) return `경력 ${Math.min(...mins)}년 이상\n`;
+  return newcomer ? "신입\n" : "";
 }

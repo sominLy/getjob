@@ -54,17 +54,21 @@ async function main() {
   const log = (await readJson("data/update-log.json")) || { note: "매일 공고 업데이트 기록(scripts/log-update.mjs). 지우지 않고 쌓는다.", entries: [] };
   const snap = (rev) => ({ jobs: showJson(rev, "data/jobs.json"), archive: showJson(rev, "data/archive.json"), comp: showJson(rev, "data/company-jobs.json") });
 
-  if (process.argv.includes("--backfill")) {
+  // --backfill이면 처음부터, 평소에는 기록에 빠진 날짜(이 단계가 없던 날·실패한 날)만 저장소 기록에서 채운다
+  const full = process.argv.includes("--backfill");
+  {
+    const have = new Set(log.entries.map((e) => e.date));
     const commits = git("log", "--reverse", "--format=%H %s", "HEAD", "--grep", "공고 자동 업데이트 20").trim().split("\n").filter(Boolean);
     for (const line of commits) {
       const [hash, ...rest] = line.split(" ");
       const date = rest.join(" ").match(/\d{4}-\d{2}-\d{2}/)?.[0];
-      if (!date) continue;
+      if (!date || (!full && have.has(date))) continue;
       const after = snap(hash), before = snap(`${hash}~1`);
       if (!after.jobs || !before.jobs) continue;
       merge(log, { ...diff(date, before, after), backfilled: true });
     }
-  } else {
+  }
+  if (!full) {
     const date = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);   // KST 날짜
     const after = { jobs: await readJson("data/jobs.json"), archive: await readJson("data/archive.json"), comp: await readJson("data/company-jobs.json") };
     merge(log, diff(date, snap("HEAD"), after));

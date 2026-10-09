@@ -620,6 +620,7 @@ tr.s-미지원 td{opacity:.6}
 .sl-add{font-size:12px;padding:4px 10px}
 .sl-add[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink);border-color:var(--accent-soft)}
 .mt-filter{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-bottom:10px;padding:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.mt-yr{font-weight:600;color:var(--accent-ink)} .mt-yr.sr{color:var(--amber)}
 .mt-co{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:var(--muted)}
 .mt-co select{font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:7px;background:var(--paper);color:var(--ink);max-width:220px}
 @media (max-width:640px){ .mt-co{width:100%} .mt-co select{flex:1;max-width:none} }
@@ -1000,9 +1001,11 @@ thead th{font-weight:600;letter-spacing:.07em}
   <section class="view" id="v-match" hidden>
     <div class="viewhead">
       <h2>매칭 아카이브</h2>
-      <p class="sub">연차 표시가 없는 공고 중, JD 키워드의 50% 이상이 내 경험과 겹치는 것만 모읍니다.</p>
+      <p class="sub">JD 키워드의 50% 이상이 내 경험과 겹치는 공고를 모읍니다. 연차·회사 묶음으로 골라 보세요.</p>
     </div>
     <div class="mt-filter">
+      <div class="chips sm" id="mtYrChips" aria-label="연차로 보기"></div>
+      <div class="chips sm" id="mtGrpChips" aria-label="회사 묶음으로 보기"></div>
       <label class="mt-co"><span>회사</span><select id="mtCo" aria-label="회사로 보기"></select></label>
       <div class="chips sm" id="mtRoleChips" aria-label="직무로 보기"></div>
       <div class="chips sm" id="mtSort" aria-label="정렬" hidden></div>
@@ -3741,7 +3744,26 @@ function renderGcBox(){
 const MT_TIERS = [["적극지원", 80, "tier-1"], ["적합지원", 70, "tier-2"], ["상향지원", 60, "tier-3"], ["연습지원", 50, "tier-4"]];
 const MT_SRC = {board:"지원보드", radar:"채용 레이더", junior:"주니어 공고판", company:"기업 채용", linkedin:"링크드인"};
 let mtEditing = false;
-let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "", mtCo = "", mtRole = "", mtSortBy = "pct";
+let matchPromise = null, mtData = null, mtDict = null, mtDictG = null, mtTier = "", mtCo = "", mtRole = "", mtSortBy = "pct", mtYr = "jr", mtGrp = "";
+/* 연차 묶음 — years: null(표시 없음·무관) 또는 최소 연차 숫자 */
+const MT_YRS = [["jr", "신입·~2년", y => y === null || y <= 2], ["mid", "3~4년", y => y !== null && y >= 3 && y <= 4], ["sr", "5년+", y => y !== null && y >= 5], ["", "연차 전체", () => true]];
+const mtYrLabel = y => y === null || y === undefined ? "연차 무관·미표기" : y <= 0 ? "신입" : "경력 " + y + "년+";
+/* 회사 묶음 — 위에서부터 먼저 맞는 것 하나 */
+const MT_GRPS = [
+  ["네카라쿠배당토", /네이버|naver|카카오|kakao|라인|\bLINE\b|쿠팡|coupang|우아한|배달의민족|배민|당근|토스|비바리퍼블리카/i],
+  ["야놀두센", /야놀자|놀유니버스|\bNOL\b|두나무|업비트|센드버드|sendbird/i],
+  ["외국계", new RegExp(UN_FOREIGN.source + "|텐센트|tencent|구글|노션|앤트로픽|오픈AI|스노우플레이크|아마존|amazon|microsoft|마이크로소프트|meta|애플|apple|bat\\b|사노피|로레알|p&g", "i")],
+  ["대기업·금융·공기업", null],
+  ["유니콘·스케일업", UN_UNICORN],
+  ["스타트업·기타", null],
+];
+function mtGrpOf(j, type){
+  for(const [g, re] of MT_GRPS){ if(re && re.test(j.company)) return g; }
+  if(/대기업|금융|공기업/.test(type || "")) return "대기업·금융·공기업";
+  if(/외국계/.test(type || "")) return "외국계";
+  if(/유니콘/.test(type || "")) return "유니콘·스케일업";
+  return "스타트업·기타";
+}
 /* 매칭 아카이브 직무 묶음 — 공고 제목으로 나눈다(위에서부터 먼저 맞는 것) */
 const MT_ROLES = [
   ["기획·PM", /기획|\bPM\b|\bPO\b|product|프로덕트|program\s*manag/i],
@@ -4022,6 +4044,20 @@ function renderMatch(){
     if(seenT.has(k)) return false;
     seenT.add(k); r.role = mtRoleOf(r.j.title); return true;
   });
+  /* 연차·회사 묶음으로 먼저 거른다(아래 회사·직무 선택지는 거른 결과 기준) */
+  const typeOf0 = j => j.type || ((j.src === "board" && (allJobs().find(x => x.id === j.id) || {}).type) || "");
+  live.forEach(r => { r.yr = r.j.years === undefined ? null : r.j.years; r.grp = mtGrpOf(r.j, typeOf0(r.j)); });
+  const yrTest = (MT_YRS.find(x => x[0] === mtYr) || MT_YRS[3])[2];
+  { const yc = document.getElementById("mtYrChips"); yc.replaceChildren();
+    MT_YRS.forEach(([k, l, t]) => { const b = document.createElement("button"); b.type = "button"; b.textContent = l + " " + live.filter(r => t(r.yr)).length;
+      b.setAttribute("aria-pressed", mtYr === k); b.onclick = () => { mtYr = k; renderMatch(); }; yc.append(b); }); }
+  const byYr = live.filter(r => yrTest(r.yr));
+  { const gc = document.getElementById("mtGrpChips"); gc.replaceChildren();
+    [["", "모든 회사"]].concat(MT_GRPS.map(g => [g[0], g[0]])).forEach(([k, l]) => {
+      const n = byYr.filter(r => !k || r.grp === k).length;   // 0건이어도 묶음은 늘 보이게(예: 야놀두센 공고가 아직 없을 때)
+      const b = document.createElement("button"); b.type = "button"; b.textContent = l + " " + n;
+      b.setAttribute("aria-pressed", mtGrp === k); b.onclick = () => { mtGrp = k; mtCo = ""; renderMatch(); }; gc.append(b); }); }
+  live.splice(0, live.length, ...byYr.filter(r => !mtGrp || r.grp === mtGrp));
   /* 회사·직무로 골라 보기 — 선택지는 지금 떠 있는 공고 기준 */
   const coCount = {};
   live.filter(r => !mtRole || r.role === mtRole).forEach(r => { coCount[r.j.company] = (coCount[r.j.company] || 0) + 1; });
@@ -4072,7 +4108,7 @@ function renderMatch(){
   if(!m){ return; }
   if(!rows.length){
     const e = document.createElement("p"); e.className = "rd-empty";
-    e.textContent = (mtCo || mtRole) ? "고른 회사·직무에 맞는 공고가 없어요. 위에서 ‘전체 회사’나 ‘모든 직무’로 바꿔 보세요."
+    e.textContent = (mtCo || mtRole || mtGrp || mtYr) ? "고른 연차·회사·직무에 맞는 공고가 없어요. 위에서 ‘연차 전체’나 ‘모든 회사’로 바꿔 보세요."
       : "50% 넘게 겹치는 공고가 아직 없어요. 키워드 칩을 더 켜 보거나 경험 원문을 보강해 보세요."; out.append(e); return;
   }
   /* 매칭률순은 등급별로 묶고, 새로 뜬 순·운 궁합순은 한 줄로 쭉(등급은 각 행 오른쪽에) */
@@ -4098,6 +4134,7 @@ function renderMatch(){
       const a = document.createElement("a"); a.className = "rd-t"; a.href = r.j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = r.j.title;
       const meta = document.createElement("div"); meta.className = "rd-meta";
       meta.append(MT_SRC[r.j.src] || r.j.src);
+      { const y = document.createElement("span"); y.className = "mt-yr" + (r.yr !== null && r.yr >= 3 ? " sr" : ""); y.textContent = mtYrLabel(r.yr); meta.append(" · "); meta.append(y); }
       { const t = postedTag(r.j); if(t){ meta.append(" · "); meta.append(t); } }
       if(r.j.end){ meta.append(" · 마감 " + r.j.end); const h = submitHint(r.j); if(h){ meta.append(" · "); meta.append(h); } }
       const tags = document.createElement("div"); tags.className = "rd-tags";
@@ -4112,7 +4149,7 @@ function renderMatch(){
     out.append(ul);
   });
   document.getElementById("mtFoot").textContent = "공고 키워드 기준일 " + mtData.updated +
-    " · 연차가 숫자로 적힌 공고와 본문이 이미지뿐인 공고는 빠져 있습니다. 키워드가 적은 짧은 JD는 매칭률을 조금 낮춰 계산해요. 초록 칩은 겹치는 키워드, 줄 그은 칩은 내 경험에 없는 키워드예요.";
+    " · 연차는 공고 본문·채용 사이트의 경력 조건에서 읽었어요(표시 없으면 ‘무관·미표기’). 본문이 이미지뿐인 공고는 빠져 있습니다. 키워드가 적은 짧은 JD는 매칭률을 조금 낮춰 계산해요. 초록 칩은 겹치는 키워드, 줄 그은 칩은 내 경험에 없는 키워드예요.";
 }
 document.getElementById("liEditBtn").onclick = () => { document.getElementById("liEditor").hidden = false; document.getElementById("liText").focus(); };
 document.getElementById("liCancelBtn").onclick = () => { document.getElementById("liEditor").hidden = true; };
