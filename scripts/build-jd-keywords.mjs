@@ -53,7 +53,7 @@ async function main() {
   const prev = await readJson(OUT, { jobs: [] });
   const cache = new Map(prev.jobs.map((j) => [j.url, j]));
   // 본문을 받아 봤지만 연차가 있거나 키워드가 적어 뺀 주니어 공고 — 다음 날 다시 받지 않는다
-  const skipped = new Set(prev.skip || []);
+  const skipped = new Set(prev.skipKw || []);   // 키워드가 너무 적어 뺀 것만(연차로 빼던 예전 목록 skip은 쓰지 않음)
   const skipOut = [];
   const out = [];
   const seen = new Set();
@@ -61,11 +61,11 @@ async function main() {
     if (!item.url || seen.has(item.url)) return;
     seen.add(item.url);
     if (EXCLUDE_TITLE.test(item.title) || isTalentPool(item.title) || isNotJob(item.company, item.title) || needsOtherLang(item.title, text)) return;
+    // 연차는 거르지 않고 함께 남긴다(화면에서 '신입·~2년 / 3년+' 등으로 골라 봄). null = 표시 없음·무관
     const years = extraYears ?? yearsIn(text);
-    if (years !== null) return;
     const w = weights(text);
     if (Object.keys(w).length < MIN_KEYWORDS) return;
-    out.push({ ...item, w });
+    out.push({ ...item, years, w });
   };
 
   // 1) 지원보드 전체 공고 — fetch-official-details.mjs가 모아 둔 본문(details.json)
@@ -79,7 +79,7 @@ async function main() {
     const tracks = (details.items[j.id]?.tracks || []).map((t) => t.name).filter((n) => n && n !== "직무 미표기");
     const text = secs.filter((s) => JD_SECTIONS.test(s.title)).map((s) => `${s.title}\n${s.body}`).join("\n");
     const before = out.length;
-    push({ src: "board", id: j.id, company: j.company, title: tracks.slice(0, 3).join(" · ") || (j.roles || []).join(" · ") || "공고", url: j.url || `#${j.id}`, end: j.end || "", posted: j.start || "", found: j.found || "" }, text);
+    push({ src: "board", id: j.id, company: j.company, type: j.type || "", title: tracks.slice(0, 3).join(" · ") || (j.roles || []).join(" · ") || "공고", url: j.url || `#${j.id}`, end: j.end || "", posted: j.start || "", found: j.found || "" }, text, 0);  // 지원보드는 신입·인턴 공고만 모으므로 0(신입) — 본문의 '경력 3년 우대' 같은 말로 경력직처럼 보이지 않게
     nBoard += out.length - before;
   }
 
@@ -87,9 +87,9 @@ async function main() {
   const radar = await readJson(path.join(ROOT, "data", "radar.json"), { jobs: [] });
   let nRadar = 0;
   for (const j of radar.jobs) {
-    if (j.years !== null || !j.jd) continue;
+    if (!j.jd) continue;
     const before = out.length;
-    push({ src: "radar", company: j.company, title: j.title, url: j.url, end: "", found: j.firstSeen || "" }, `${j.title}\n${j.jd}`);
+    push({ src: "radar", company: j.company, title: j.title, url: j.url, end: "", found: j.firstSeen || "" }, `${j.title}\n${j.jd}`, j.years);
     nRadar += out.length - before;
   }
 
@@ -127,12 +127,12 @@ async function main() {
   for (const j of companies.jobs) {
     if (!j.url || seen.has(j.url)) continue;
     seen.add(j.url);
-    if (j.years !== null || EXCLUDE_TITLE.test(j.title) || isTalentPool(j.title) || isNotJob(j.company, j.title) || needsOtherLang(j.title) || Object.keys(j.w || {}).length < MIN_KEYWORDS) continue;
-    out.push({ src: "company", company: j.company, title: j.title, url: j.url, end: "", w: j.w, posted: j.posted || "", found: j.found || "" });
+    if (EXCLUDE_TITLE.test(j.title) || isTalentPool(j.title) || isNotJob(j.company, j.title) || needsOtherLang(j.title) || Object.keys(j.w || {}).length < MIN_KEYWORDS) continue;
+    out.push({ src: "company", company: j.company, title: j.title, url: j.url, end: "", years: j.years ?? null, w: j.w, posted: j.posted || "", found: j.found || "" });
     nCompany++;
   }
 
-  await writeFile(OUT, JSON.stringify({ updated: today, jobs: out, skip: skipOut }, null, 1) + "\n", "utf-8");
+  await writeFile(OUT, JSON.stringify({ updated: today, jobs: out, skipKw: skipOut }, null, 1) + "\n", "utf-8");
   await writeFile(DICT_OUT, JSON.stringify(DICT) + "\n", "utf-8");
   console.log(`매칭 대상 ${out.length}건 (지원보드 ${nBoard} · 레이더 ${nRadar} · 주니어 ${nJunior} · 기업 채용 ${nCompany}) · 본문 새로 받음 ${fetched} · 실패 ${failed}`);
 }
