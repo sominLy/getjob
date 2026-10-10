@@ -11489,7 +11489,99 @@
    "archiveTotal": 628,
    "preds": 272,
    "compTotal": 545
+  },
+  {
+   "date": "2026-10-10",
+   "added": [
+    {
+     "id": "global-openai-76084eee-9186-4897-ae12-",
+     "company": "OpenAI",
+     "title": "Account Director, Mid-Market | Korea · Go To Market",
+     "roles": [],
+     "end": "",
+     "url": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-105573",
+     "company": "NHN Cloud",
+     "end": "2026-10-09"
+    },
+    {
+     "id": "jasoseol-106265",
+     "company": "한국타이어앤테크놀로지",
+     "end": "2026-10-09"
+    },
+    {
+     "id": "jasoseol-106360",
+     "company": "세아홀딩스",
+     "end": "2026-10-09"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "CJ올리브영",
+     "title": "글로벌B2B MD (헬스)",
+     "url": "https://career.oliveyoung.com/ko/o/239948"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD (맨즈케어)",
+     "url": "https://career.oliveyoung.com/ko/o/239947"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD (취미-음반)",
+     "url": "https://career.oliveyoung.com/ko/o/239946"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD (취미-문구/IP)",
+     "url": "https://career.oliveyoung.com/ko/o/239945"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD (패션용품)",
+     "url": "https://career.oliveyoung.com/ko/o/239944"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD (건강, 위생용품)",
+     "url": "https://career.oliveyoung.com/ko/o/239943"
+    },
+    {
+     "company": "미리디",
+     "title": "[미리캔버스] 프로덕트 매니저(Product Manager)",
+     "url": "https://miridih.career.greetinghr.com/ko/o/150531"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Slate & Brand Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315562772"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Marketing Partnerships Creative Manager - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318793899"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Title Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790316092017"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Korea Finance Director - Strategy, Planning, and Studio Fina",
+     "url": "https://explore.jobs.netflix.net/careers/job/790317631095"
+    }
+   ],
+   "total": 346,
+   "archiveTotal": 615,
+   "preds": 272,
+   "compTotal": 551
   }
  ],
- "updated": "2026-10-09"
+ "updated": "2026-10-10"
 }

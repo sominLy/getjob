@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -1977,21 +1977,6 @@
       "found": "2026-09-06"
     },
     {
-      "id": "jasoseol-105573",
-      "company": "NHN Cloud",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-09",
-      "end": "2026-10-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4352281135641284384?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06",
-      "title": "컨테이너 인프라 서비스 개발"
-    },
-    {
       "id": "jasoseol-105604",
       "company": "LIG D&A",
       "type": "중견기업",
@@ -3321,21 +3306,6 @@
       "found": "2026-09-15"
     },
     {
-      "id": "jasoseol-106265",
-      "company": "한국타이어앤테크놀로지",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-09-15",
-      "end": "2026-10-09",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://hankooktire.recruiter.co.kr/career/home",
-      "hist": "",
-      "found": "2026-09-16",
-      "title": "2026년 하반기 디자인 채용연계형 인턴 채용"
-    },
-    {
       "id": "linkareer-351546",
       "company": "클래스101",
       "type": "",
@@ -3573,25 +3543,6 @@
       "hist": "",
       "found": "2026-09-19",
       "title": "제품 기획"
-    },
-    {
-      "id": "jasoseol-106360",
-      "company": "세아홀딩스",
-      "type": "대기업",
-      "roles": [
-        "홍보/PR",
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-10-09",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.seah.co.kr/index",
-      "hist": "",
-      "found": "2026-09-19",
-      "title": "커뮤니케이션팀 채용 연계형 인턴사원 모집"
     },
     {
       "id": "linkareer-352295",
@@ -10347,6 +10298,19 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/102845",
       "hist": "작년 03/09~03/30 ‘FY2026 상반기 업무직원 공채 (신입사원 6급)’ 기준 예상"
+    },
+    {
+      "id": "global-openai-76084eee-9186-4897-ae12-",
+      "company": "OpenAI",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "OpenAI 채용페이지",
+      "url": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
+      "hist": "Account Director, Mid-Market | Korea · Go To Market",
+      "found": "2026-10-10"
     }
   ]
 }

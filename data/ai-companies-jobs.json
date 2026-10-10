@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -219,6 +219,14 @@
       "updated": "2026-09-14"
     },
     {
+      "company": "OpenAI",
+      "title": "Account Director, Mid-Market | Korea",
+      "location": "Seoul, South Korea",
+      "department": "Go To Market",
+      "url": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
+      "updated": "2026-10-09"
+    },
+    {
       "company": "Google",
       "title": "Head of YouTube Music Partnerships (English, Korean)",
       "location": "Seoul, South Korea",
@@ -248,14 +256,6 @@
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/100077876442735302",
-      "updated": ""
-    },
-    {
-      "company": "Google",
-      "title": "Applied Solutions Architect, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/124250095192285894",
       "updated": ""
     },
     {

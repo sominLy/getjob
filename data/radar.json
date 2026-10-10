@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-09T08:19:07.722Z",
+  "collectedAt": "2026-10-10T08:00:46.147Z",
   "errors": {},
   "jobs": [
     {
@@ -618,6 +618,25 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Google Trade Compliance Program Manager",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/72641756352389830-google-trade-compliance-program-manager",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.",
+      "roles": [
+        "전략·재무"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-10-10",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.\nExperience with South Korea regulations and country-specific import and export trade requirements.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Head of YouTube Music Partnerships (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Advanced",
@@ -721,29 +740,6 @@
       "fit": true,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n7 years of experience troubleshooting technical issues for internal/external partners or customers.\nExperience reading or debugging code in a general purpose coding language (e.g., Java, Python, JavaScript, etc).\nExperience in system design or orchestration frameworks.\nExperience with enterprise integrations (e.g., Application Programming Interfaces (APIs), Enterprise Content Management (ECMs), identity, cloud infrastructure, or AI/ML model deployments.\nExperience leading technical delivery strategies, debugging systems, and interfacing directly with core product/engineering organizations.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Applied Solutions Architect, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/124250095192285894-applied-solutions-architect-google-cloud-korean-english",
-      "years": 6,
-      "noLimit": false,
-      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree in a technical field or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience architecting AI systems on cloud platforms.\nExperience building full-stack solutions that interface with enterprise systems.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
