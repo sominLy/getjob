@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-11",
  "rules": "공채 판별·직무별 JD·전략 신호는 scripts/build-gongchae.mjs 참고",
  "groups": [
   {
@@ -30669,6 +30669,176 @@
        "파수 AI, 국정원 'CSK 2026'에서 AI 보안 전략 공개",
        "파수 AI, 'CSK 2026' 참가…AI 사용 중 데이터 유출 문제 조명 - 머니투데이"
       ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jasoseol-106471",
+   "company": "아이엠아이크리티컬엔지니어링코리아",
+   "type": "중견기업",
+   "end": "2026-10-18",
+   "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=QmtrM0RnTWl1WkorMnFHWjM1UG9lQT09",
+   "group": "",
+   "why": [
+    "직무 6개",
+    "마감일 명시",
+    "제목에 직무 미표기·공채 표현"
+   ],
+   "jdSource": "공고문 이미지 글자 인식",
+   "oneOnly": false,
+   "revenue": null,
+   "pastTracks": 6,
+   "tracks": [
+    {
+     "name": "OSM Engineer(외주가공팀)",
+     "affiliate": "아이엠아이크리티컬엔지니어링코리아",
+     "w": {
+      "요구사항 정의": 2,
+      "프로젝트 관리": 3,
+      "위기·이슈 대응": 1,
+      "교육": 1
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 9,
+     "competition": 0.53,
+     "affiliateTracks": 6,
+     "news": {
+      "n30": 0,
+      "role": 0,
+      "top": []
+     }
+    },
+    {
+     "name": "Project Manager(프로젝트관리팀)",
+     "affiliate": "아이엠아이크리티컬엔지니어링코리아",
+     "w": {
+      "프로덕트·PO": 1,
+      "요구사항 정의": 3,
+      "프로젝트 관리": 3,
+      "이해관계자 조율": 2,
+      "SQL·툴": 1,
+      "콘텐츠 기획·제작": 1,
+      "PR·홍보": 3,
+      "프로세스 개선": 2,
+      "품질·검수": 3,
+      "위기·이슈 대응": 1,
+      "물류·SCM": 1,
+      "정산·계약": 2,
+      "교육": 2,
+      "영어": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 17,
+     "competition": 1,
+     "affiliateTracks": 6,
+     "news": {
+      "n30": 0,
+      "role": 0,
+      "top": []
+     }
+    },
+    {
+     "name": "Design Engineer(설계 1팀)",
+     "affiliate": "아이엠아이크리티컬엔지니어링코리아",
+     "w": {
+      "요구사항 정의": 1,
+      "이해관계자 조율": 1,
+      "품질·검수": 2,
+      "정산·계약": 1
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 12,
+     "competition": 0.71,
+     "affiliateTracks": 6,
+     "news": {
+      "n30": 0,
+      "role": 0,
+      "top": []
+     }
+    },
+    {
+     "name": "Field Service Engineer(고객지원팀)",
+     "affiliate": "아이엠아이크리티컬엔지니어링코리아",
+     "w": {
+      "프로덕트·PO": 1,
+      "요구사항 정의": 3,
+      "프로젝트 관리": 3,
+      "이해관계자 조율": 1,
+      "SQL·툴": 1,
+      "서비스 운영": 1,
+      "프로세스 개선": 3,
+      "CX·고객경험": 2,
+      "품질·검수": 3,
+      "위기·이슈 대응": 1,
+      "물류·SCM": 1,
+      "정산·계약": 2,
+      "교육": 2,
+      "영어": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 10,
+     "competition": 0.59,
+     "affiliateTracks": 6,
+     "news": {
+      "n30": 0,
+      "role": 0,
+      "top": []
+     }
+    },
+    {
+     "name": "QA Engineer(계약직)",
+     "affiliate": "아이엠아이크리티컬엔지니어링코리아",
+     "w": {
+      "SQL·툴": 1,
+      "프로세스 개선": 2,
+      "품질·검수": 3,
+      "물류·SCM": 1,
+      "정산·계약": 2,
+      "교육": 1,
+      "영어": 1
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 9,
+     "competition": 0.53,
+     "affiliateTracks": 6,
+     "news": {
+      "n30": 0,
+      "role": 0,
+      "top": []
+     }
+    },
+    {
+     "name": "Material Handler(자재팀)",
+     "affiliate": "아이엠아이크리티컬엔지니어링코리아",
+     "w": {
+      "프로덕트·PO": 1,
+      "요구사항 정의": 3,
+      "프로젝트 관리": 3,
+      "이해관계자 조율": 1,
+      "SQL·툴": 1,
+      "프로세스 개선": 2,
+      "품질·검수": 3,
+      "위기·이슈 대응": 1,
+      "물류·SCM": 1,
+      "정산·계약": 2,
+      "교육": 2,
+      "영어": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 1,
+     "competition": 0.06,
+     "affiliateTracks": 6,
+     "news": {
+      "n30": 0,
+      "role": 0,
+      "top": []
      }
     }
    ]

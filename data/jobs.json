@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -1992,39 +1992,6 @@
       "endTime": "23:59",
       "found": "2026-09-06",
       "title": "AI/SW/사이버보안 신입/경력채용"
-    },
-    {
-      "id": "jasoseol-105605",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-10",
-      "end": "2026-10-10",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4361972844060503572?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06",
-      "title": "데이터센터 구축(전기)"
-    },
-    {
-      "id": "jasoseol-105609",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [
-        "MD",
-        "마케팅"
-      ],
-      "start": "2026-08-10",
-      "end": "2026-10-10",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/9Bm0bslg",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06",
-      "title": "BM(상품기획) 인턴 채용"
     },
     {
       "id": "jasoseol-105618",
@@ -6810,46 +6777,37 @@
       "found": "2026-10-09"
     },
     {
-      "id": "pred-한국남부발전-202610",
-      "company": "한국남부발전(KOSPO)",
-      "type": "공기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-10-09",
-      "end": "2026-10-13",
-      "confirmed": false,
-      "source": "예상(작년 자소설닷컴 기록)",
-      "url": "https://jasoseol.com/recruit/100335",
-      "hist": "작년 10/10~10/14 ‘2025년도 하반기 체험형인턴 채용’ 기준 예상"
+      "id": "global-openai-76084eee-9186-4897-ae12-",
+      "company": "OpenAI",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "OpenAI 채용페이지",
+      "url": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
+      "hist": "Account Director, Mid-Market | Korea · Go To Market",
+      "found": "2026-10-10"
     },
     {
-      "id": "pred-한국도로교통공단-202610",
-      "company": "한국도로교통공단(KoROAD)",
-      "type": "공기업",
+      "id": "jasoseol-106471",
+      "company": "아이엠아이크리티컬엔지니어링코리아",
+      "title": "신입/경력 채용(초봉 3900만원)",
+      "type": "중견기업",
       "roles": [
-        "기획/전략"
+        "기획/전략",
+        "영업관리",
+        "영업",
+        "고객/CS"
       ],
-      "start": "2026-10-09",
-      "end": "2026-10-19",
-      "confirmed": false,
-      "source": "예상(작년 자소설닷컴 기록)",
-      "url": "https://jasoseol.com/recruit/100433",
-      "hist": "작년 10/10~10/20 ‘2025년도 하반기 체험형 청년인턴 채용공고’ 기준 예상"
-    },
-    {
-      "id": "pred-nice신용평가-202610",
-      "company": "NICE신용평가",
-      "type": "금융",
-      "roles": [
-        "금융/심사"
-      ],
-      "start": "2026-10-09",
-      "end": "2026-10-28",
-      "confirmed": false,
-      "source": "예상(작년 자소설닷컴 기록)",
-      "url": "https://jasoseol.com/recruit/100436",
-      "hist": "작년 10/10~10/29 ‘2025년 하반기 애널리스트 채용 공고’ 기준 예상"
+      "start": "2026-09-29",
+      "end": "2026-10-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=QmtrM0RnTWl1WkorMnFHWjM1UG9lQT09",
+      "hist": "",
+      "found": "2026-10-11"
     },
     {
       "id": "pred-메리츠증권-202610",
@@ -7283,6 +7241,20 @@
       "hist": "작년 11/03~11/16 ‘2025년 4분기 신입/경력사원 수시채용’ 기준 예상"
     },
     {
+      "id": "pred-현대차증권-202611",
+      "company": "현대차증권",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-11-02",
+      "end": "2026-11-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/100921",
+      "hist": "작년 11/03~11/18 ‘2025년 4분기 신입 수시채용’ 기준 예상"
+    },
+    {
       "id": "pred-세메스-202611",
       "company": "세메스",
       "type": "대기업",
@@ -7534,6 +7506,21 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/100946",
       "hist": "작년 11/11~11/17 ‘2026 상반기 ESI 신입/전역장교 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-kcc실리콘-202611",
+      "company": "KCC실리콘",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-11-10",
+      "end": "2026-11-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101050",
+      "hist": "작년 11/11~11/18 ‘R&D/영업부문 신입사원 채용’ 기준 예상"
     },
     {
       "id": "pred-파주에너지서비스-202611",
@@ -10059,7 +10046,9 @@
       "company": "이노션",
       "type": "대기업",
       "roles": [
-        "홍보/PR"
+        "홍보/PR",
+        "콘텐츠",
+        "마케팅"
       ],
       "start": "2027-03-04",
       "end": "2027-03-09",
@@ -10164,7 +10153,8 @@
       "company": "유안타증권",
       "type": "금융",
       "roles": [
-        "금융/심사"
+        "금융/심사",
+        "고객/CS"
       ],
       "start": "2027-03-05",
       "end": "2027-03-22",
@@ -10265,6 +10255,55 @@
       "hist": "작년 03/08~03/22 ‘리조트부문 L-CREW(체험형인턴) 채용(부여,속초,김해)’ 기준 예상"
     },
     {
+      "id": "pred-경기신용보증재단-202703",
+      "company": "경기신용보증재단(GCGF)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업",
+        "금융/심사",
+        "PM/서비스기획"
+      ],
+      "start": "2027-03-08",
+      "end": "2027-03-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102592",
+      "hist": "작년 03/09~03/13 ‘2026년 제1차 신입직원(5급) 통합채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국전력기술-202703",
+      "company": "한국전력기술(KEPCO-ENC)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-03-08",
+      "end": "2027-03-17",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102769",
+      "hist": "작년 03/09~03/18 ‘2026년도 상반기 정규직 (대졸수준) 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-gs건설-202703",
+      "company": "GS건설",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업관리",
+        "영업"
+      ],
+      "start": "2027-03-08",
+      "end": "2027-03-21",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102817",
+      "hist": "작년 03/09~03/22 ‘2026년 상반기 신입사원 채용’ 기준 예상"
+    },
+    {
       "id": "pred-kb라이프생명-202703",
       "company": "KB라이프생명",
       "type": "금융",
@@ -10281,6 +10320,22 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/102834",
       "hist": "작년 03/09~03/20 ‘2026 채용연계형 인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-신한캐피탈-202703",
+      "company": "신한캐피탈",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "기획/전략",
+        "PM/서비스기획"
+      ],
+      "start": "2027-03-08",
+      "end": "2027-03-19",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102844",
+      "hist": "작년 03/09~03/20 ‘2026년 상반기 수시채용’ 기준 예상"
     },
     {
       "id": "pred-한국투자증권-202703",
@@ -10300,17 +10355,373 @@
       "hist": "작년 03/09~03/30 ‘FY2026 상반기 업무직원 공채 (신입사원 6급)’ 기준 예상"
     },
     {
-      "id": "global-openai-76084eee-9186-4897-ae12-",
-      "company": "OpenAI",
-      "type": "외국계",
+      "id": "pred-한국에이이오진흥협회-202703",
+      "company": "한국에이이오진흥협회",
+      "type": "공기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2027-03-08",
+      "end": "2027-03-26",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102879",
+      "hist": "작년 03/09~03/27 ‘2026년 상반기 신규채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-한국벤처투자-202703",
+      "company": "한국벤처투자(KVIC)",
+      "type": "공기업",
+      "roles": [
+        "금융/심사",
+        "기획/전략"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-23",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102883",
+      "hist": "작년 03/10~03/24 ‘2026년 상반기 정규직(신입, 경력) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성웰스토리-202703",
+      "company": "삼성웰스토리",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업관리",
+        "영업"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102890",
+      "hist": "작년 03/10~03/17 ‘2026년도 상반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성물산-202703",
+      "company": "삼성물산(건설)",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "HR/인사",
+        "영업",
+        "마케팅",
+        "MD",
+        "영업관리"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102909",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성생명-202703",
+      "company": "삼성생명",
+      "type": "금융",
+      "roles": [
+        "영업관리",
+        "영업",
+        "금융/심사",
+        "기획/전략",
+        "PM/서비스기획",
+        "고객/CS"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102910",
+      "hist": "작년 03/10~03/17 ‘2026 상반기 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성증권-202703",
+      "company": "삼성증권",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "금융/심사",
+        "기획/전략",
+        "리서치",
+        "마케팅",
+        "PM/서비스기획",
+        "영업관리",
+        "HR/인사"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102912",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성전자ds부문-202703",
+      "company": "삼성전자 DS부문",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102913",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성디스플레이-202703",
+      "company": "삼성디스플레이",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "마케팅",
+        "영업",
+        "영업관리"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102914",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성ea-202703",
+      "company": "삼성E&A",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102917",
+      "hist": "작년 03/10~03/17 ‘2026 상반기 3급 신입사원 채용 및 대학생 인턴 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성자산운용-202703",
+      "company": "삼성자산운용",
+      "type": "금융",
+      "roles": [
+        "금융/심사",
+        "기획/전략",
+        "HR/인사",
+        "MD",
+        "영업관리",
+        "마케팅"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102918",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성에스원-202703",
+      "company": "삼성에스원",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략",
+        "HR/인사",
+        "영업관리"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102919",
+      "hist": "작년 03/10~03/17 ‘2026 상반기 3급 신입사원/인턴 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성전자dx부문-202703",
+      "company": "삼성전자 DX부문",
+      "type": "대기업",
+      "roles": [
+        "마케팅",
+        "MD",
+        "영업",
+        "브랜드",
+        "영업관리"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102920",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성바이오로직스-202703",
+      "company": "삼성바이오로직스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102922",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성글로벌리서치-202703",
+      "company": "삼성글로벌리서치",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "PM/서비스기획"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102929",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-제일기획-202703",
+      "company": "제일기획",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "마케팅",
+        "홍보/PR",
+        "브랜드",
+        "MD",
+        "PM/서비스기획",
+        "콘텐츠",
+        "HR/인사"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102939",
+      "hist": "작년 03/10~03/17 ‘2026년 대학생 인턴 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성중공업-202703",
+      "company": "삼성중공업",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리",
+        "HR/인사"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102943",
+      "hist": "작년 03/10~03/17 ‘2026년 대학생 인턴 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성화재-202703",
+      "company": "삼성화재",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "금융/심사",
+        "기획/전략",
+        "MD",
+        "마케팅",
+        "PM/서비스기획"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102946",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성바이오에피스-202703",
+      "company": "삼성바이오에피스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102948",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성sdi-202703",
+      "company": "삼성SDI",
+      "type": "대기업",
       "roles": [],
-      "start": "",
-      "end": "",
-      "confirmed": true,
-      "source": "OpenAI 채용페이지",
-      "url": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
-      "hist": "Account Director, Mid-Market | Korea · Go To Market",
-      "found": "2026-10-10"
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102949",
+      "hist": "작년 03/10~03/17 ‘2026년 상반기 3급 신입사원 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-삼성전기-202703",
+      "company": "삼성전기",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "마케팅",
+        "영업"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-16",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102950",
+      "hist": "작년 03/10~03/17 ‘2026년 대학생 인턴 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-제주항공-202703",
+      "company": "제주항공",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "영업관리",
+        "고객/CS"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-18",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103044",
+      "hist": "작년 03/10~03/19 ‘2026년 상반기 일반직 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-sk하이닉스-202703",
+      "company": "SK하이닉스",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업",
+        "마케팅",
+        "MD"
+      ],
+      "start": "2027-03-09",
+      "end": "2027-03-22",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103075",
+      "hist": "작년 03/10~03/23 ‘['26년 상반기] Talent hy-way 신입 (이천/분당/서울)’ 기준 예상"
     }
   ]
 }

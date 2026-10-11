@@ -1,6 +1,39 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "jobs": [
+    {
+      "id": "jasoseol-105605",
+      "company": "NHN",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-08-10",
+      "end": "2026-10-10",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4361972844060503572?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "데이터센터 구축(전기)"
+    },
+    {
+      "id": "jasoseol-105609",
+      "company": "앱솔브랩",
+      "type": "",
+      "roles": [
+        "MD",
+        "마케팅"
+      ],
+      "start": "2026-08-10",
+      "end": "2026-10-10",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://celimax.ninehire.site/job_posting/9Bm0bslg",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "BM(상품기획) 인턴 채용"
+    },
     {
       "id": "jasoseol-105573",
       "company": "NHN Cloud",
@@ -10188,293 +10221,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kc-group.recruiter.co.kr/career/jobs/125342",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-104234",
-      "company": "에이피알",
-      "type": "",
-      "roles": [],
-      "start": "2026-07-01",
-      "end": "2026-08-26",
-      "endTime": "15:42",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://apr-careers.com/job_posting/wNzHgogZ",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105096",
-      "company": "서울현대교육재단",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "영업관리"
-      ],
-      "start": "2026-07-12",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.worldjob.or.kr/advnc/strnLink.do?joCrtfcNo=T20260106003&joCrtfcDsp=1&joCrtfcDspSn=1",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105234",
-      "company": "솔트룩스",
-      "type": "",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-19",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://sesac.seoul.kr/sesac/course/offline/courseDetail.do?crsSn=1210",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105464",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-08-03",
-      "end": "2026-08-26",
-      "endTime": "18:43",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/VLlpbbmO",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105506",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-08-26",
-      "endTime": "14:41",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4314615906182885798?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Game",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105569",
-      "company": "한국표준협회",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-08-09",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/popupjobpost.asp?job=2608060001845",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105601",
-      "company": "한국사회적기업진흥원(KoSEA)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-08-11",
-      "end": "2026-08-26",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://socialenterprise.brms.kr/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105643",
-      "company": "한국수자원조사기술원",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-08-12",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608120002387",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105683",
-      "company": "신용보증재단중앙회(KOREG)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-08-12",
-      "end": "2026-08-26",
-      "endTime": "15:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://koreg.recruiter.co.kr/appsite/company/index",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105688",
-      "company": "동국제약",
-      "type": "중견기업",
-      "roles": [
-        "영업",
-        "MD",
-        "브랜드",
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-08-17",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://dkpharm.recruiter.co.kr/career/jobs/125281",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105691",
-      "company": "손해보험협회",
-      "type": "공기업",
-      "roles": [
-        "고객/CS"
-      ],
-      "start": "2026-08-18",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608180001159",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105699",
-      "company": "동국제약",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-08-17",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://dkpharm.recruiter.co.kr/career/jobs/125341",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105701",
-      "company": "동국제약",
-      "type": "중견기업",
-      "roles": [
-        "영업",
-        "고객/CS",
-        "마케팅",
-        "MD",
-        "영업관리"
-      ],
-      "start": "2026-08-17",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://dkpharm.recruiter.co.kr/career/jobs/125350",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105715",
-      "company": "유한양행",
-      "type": "중견기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-08-19",
-      "end": "2026-08-26",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://yuhan.recruiter.co.kr/career/jobs/124893",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105730",
-      "company": "KCC실리콘",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-19",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.kccworld.co.kr/recruit/recruitMain.do?SiteType=C",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105733",
-      "company": "에코마케팅",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-19",
-      "end": "2026-08-26",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://echomarketing.career.greetinghr.com/ko/o/233704",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105766",
-      "company": "SK하이닉스",
-      "type": "대기업",
-      "roles": [
-        "영업",
-        "마케팅",
-        "MD",
-        "기획/전략"
-      ],
-      "start": "2026-08-19",
-      "end": "2026-08-26",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.skcareers.com/Recruit/Detail/R261762",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-105767",
-      "company": "토스플레이스",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-08-21",
-      "end": "2026-08-26",
-      "endTime": "16:02",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://toss.im/career/job-detail?job_id=7601721003",
       "hist": "",
       "found": "2026-09-07"
     }

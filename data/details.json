@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "items": {
     "kakaobank-263159": {
       "at": "2026-09-06",
@@ -110267,6 +110267,78 @@
         }
       ],
       "applicants": 15
+    },
+    "jasoseol-106471": {
+      "at": "2026-10-11",
+      "tracks": [
+        {
+          "name": "OSM Engineer(외주가공팀)",
+          "questions": [
+            {
+              "q": "자유양식 입니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 9
+        },
+        {
+          "name": "Project Manager(프로젝트관리팀)",
+          "questions": [
+            {
+              "q": "자유양식 입니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 17
+        },
+        {
+          "name": "Design Engineer(설계 1팀)",
+          "questions": [
+            {
+              "q": "자유양식 입니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 12
+        },
+        {
+          "name": "Field Service Engineer(고객지원팀)",
+          "questions": [
+            {
+              "q": "자유양식 입니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 10
+        },
+        {
+          "name": "QA Engineer(계약직)",
+          "questions": [
+            {
+              "q": "자유양식 입니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 9
+        },
+        {
+          "name": "Material Handler(자재팀)",
+          "questions": [
+            {
+              "q": "자유양식 입니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        }
+      ],
+      "applicants": 58
     }
   }
 }

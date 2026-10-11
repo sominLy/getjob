@@ -11581,7 +11581,49 @@
    "archiveTotal": 615,
    "preds": 272,
    "compTotal": 551
+  },
+  {
+   "date": "2026-10-11",
+   "added": [
+    {
+     "id": "jasoseol-106471",
+     "company": "아이엠아이크리티컬엔지니어링코리아",
+     "title": "신입/경력 채용(초봉 3900만원)",
+     "roles": [
+      "기획/전략",
+      "영업관리",
+      "영업",
+      "고객/CS"
+     ],
+     "end": "2026-10-18",
+     "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=QmtrM0RnTWl1WkorMnFHWjM1UG9lQT09"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-105605",
+     "company": "NHN",
+     "end": "2026-10-10"
+    },
+    {
+     "id": "jasoseol-105609",
+     "company": "앱솔브랩",
+     "end": "2026-10-10"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "넷플릭스",
+     "title": "Senior Ads Sales Partner - Export",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318350853"
+    }
+   ],
+   "total": 345,
+   "archiveTotal": 599,
+   "preds": 297,
+   "compTotal": 550
   }
  ],
- "updated": "2026-10-10"
+ "updated": "2026-10-11"
 }

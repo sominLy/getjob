@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-10T07:58:47.406887+00:00",
+ "collectedAt": "2026-10-11T08:07:21.998885+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -2349,7 +2349,7 @@
    "link": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-10",
    "openDate": "2026-10-09"
   },
