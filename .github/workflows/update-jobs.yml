@@ -70,6 +70,8 @@ jobs:
             echo "No changes."
           else
             git commit -m "공고 자동 업데이트 $(date -u +%F)"
+            # 도는 사이 main에 코드 변경이 합쳐졌으면 그 위로 올려서 저장(겹치는 데이터 파일은 이 실행 것이 최신)
+            git pull --rebase -X theirs origin main
             git push
           fi
 
