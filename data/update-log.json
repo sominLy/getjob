@@ -12040,7 +12040,56 @@
    "archiveTotal": 628,
    "preds": 299,
    "compTotal": 547
+  },
+  {
+   "date": "2026-10-13",
+   "added": [
+    {
+     "id": "jasoseol-106640",
+     "company": "SK이터닉스",
+     "title": "2027년 채용연계형 인턴 공개채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-10-26",
+     "url": "https://www.skcareers.com/Recruit/Detail/R262141"
+    },
+    {
+     "id": "jasoseol-106673",
+     "company": "한국수력원자력(KHNP)",
+     "title": "2026년도 제2차 체험형 청년인턴 선발",
+     "roles": [
+      "PM/서비스기획",
+      "HR/인사"
+     ],
+     "end": "2026-10-21",
+     "url": "https://www.khnp.co.kr/recruit/main/index.do"
+    }
+   ],
+   "archived": [],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "로앤컴퍼니",
+     "title": "HR Operations Manager",
+     "url": "https://lawcompany.career.greetinghr.com/ko/o/240109"
+    },
+    {
+     "company": "하이브",
+     "title": "[HYBE] T&D 운영",
+     "url": "https://careers.hybecorp.com/ko/o/145742"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Title Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790316092017"
+    }
+   ],
+   "total": 329,
+   "archiveTotal": 628,
+   "preds": 299,
+   "compTotal": 547
   }
  ],
- "updated": "2026-10-12"
+ "updated": "2026-10-13"
 }

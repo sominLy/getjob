@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-12T08:24:25.698441+00:00",
+ "collectedAt": "2026-10-12T22:33:37.407848+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -852,7 +852,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-12",
-   "new": true,
+   "new": false,
    "found": "2026-10-12"
   },
   {
@@ -1244,20 +1244,6 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-09-04",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "와디즈",
-   "플랫폼": "greetinghr",
-   "title": "펀딩 프로모션 마케팅 운영 담당자 (인턴)",
-   "career": "-",
-   "emp": "인턴",
-   "due": "2026-10-12",
-   "link": "https://job.wadiz.io/ko/o/234747",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-09-20",
    "new": false,
    "found": "2026-10-03"
   },

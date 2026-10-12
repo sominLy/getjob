@@ -6506,6 +6506,41 @@
       "found": "2026-10-12"
     },
     {
+      "id": "jasoseol-106640",
+      "company": "SK이터닉스",
+      "title": "2027년 채용연계형 인턴 공개채용",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-12",
+      "end": "2026-10-26",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.skcareers.com/Recruit/Detail/R262141",
+      "hist": "",
+      "found": "2026-10-12"
+    },
+    {
+      "id": "jasoseol-106673",
+      "company": "한국수력원자력(KHNP)",
+      "title": "2026년도 제2차 체험형 청년인턴 선발",
+      "type": "공기업",
+      "roles": [
+        "PM/서비스기획",
+        "HR/인사"
+      ],
+      "start": "2026-10-12",
+      "end": "2026-10-21",
+      "endTime": "15:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.khnp.co.kr/recruit/main/index.do",
+      "hist": "",
+      "found": "2026-10-12"
+    },
+    {
       "id": "pred-포스코플로우-202610",
       "company": "포스코플로우",
       "type": "대기업",
