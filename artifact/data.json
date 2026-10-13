@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-12T22:33:37.407848+00:00",
+ "collectedAt": "2026-10-13T19:56:10.117014+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -704,6 +704,20 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
+   "title": "패키지실 사업개발(신사업) 매니저",
+   "career": "-",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://myrealtrip.career.greetinghr.com/ko/o/240173",
+   "cat": "전략·사업",
+   "intern": false,
+   "openDate": "2026-10-13",
+   "new": true,
+   "found": "2026-10-13"
+  },
+  {
+   "회사": "마이리얼트립",
+   "플랫폼": "greetinghr",
    "title": "Growth실 Ad Sales & Account Manager",
    "career": "-",
    "emp": "정규직",
@@ -854,6 +868,20 @@
    "openDate": "2026-10-12",
    "new": false,
    "found": "2026-10-12"
+  },
+  {
+   "회사": "메가스터디교육",
+   "플랫폼": "greetinghr",
+   "title": "[고등] 입시 서비스 데이터 분석 및 개발 채용",
+   "career": "경력무관",
+   "emp": "정규직",
+   "due": "2026-10-25",
+   "link": "https://megastudyedu.career.greetinghr.com/ko/o/240193",
+   "cat": "데이터·리서치",
+   "intern": false,
+   "openDate": "2026-10-13",
+   "new": true,
+   "found": "2026-10-13"
   },
   {
    "회사": "메가스터디교육",
@@ -1260,6 +1288,20 @@
    "openDate": "2026-10-07",
    "new": false,
    "found": "2026-10-01"
+  },
+  {
+   "회사": "와디즈",
+   "플랫폼": "greetinghr",
+   "title": "펀딩 프로모션 마케팅 운영 담당자 (인턴)",
+   "career": "-",
+   "emp": "인턴",
+   "due": "2026-10-26",
+   "link": "https://job.wadiz.io/ko/o/234747",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-13",
+   "new": true,
+   "found": "2026-10-13"
   },
   {
    "회사": "와디즈",
@@ -1810,6 +1852,20 @@
   {
    "회사": "헥토",
    "플랫폼": "greetinghr",
+   "title": "[헥토] AI 상품기획 및 PM (신입/경력)",
+   "career": "경력 0년~10",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://www.hectocareers.co.kr/ko/o/240254",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-13",
+   "new": true,
+   "found": "2026-10-13"
+  },
+  {
+   "회사": "헥토",
+   "플랫폼": "greetinghr",
    "title": "[헥토데이터] 커머스 운영 지원 CX(CS) 담당자 경력직  채용",
    "career": "경력 1년~3",
    "emp": "정규직",
@@ -1936,16 +1992,30 @@
   {
    "회사": "쿠팡",
    "플랫폼": "greenhouse",
+   "title": "[쿠팡로지스틱스서비스] 로켓설치 협력사 운영 및 관리 담당자 (신입)",
+   "career": "주니어(제목 기준)",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8248631",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-12",
+   "new": true,
+   "found": "2026-10-13"
+  },
+  {
+   "회사": "쿠팡",
+   "플랫폼": "greenhouse",
    "title": "[쿠팡로지스틱스서비스] 로켓설치 A/S 기술/운영 담당자 (신입)",
    "career": "주니어(제목 기준)",
    "emp": "-",
    "due": "South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8172476",
+   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8184184",
    "cat": "운영·오퍼레이션",
    "intern": false,
-   "openDate": "2026-09-10",
-   "new": false,
-   "found": "2026-10-03"
+   "openDate": "2026-10-13",
+   "new": true,
+   "found": "2026-10-13"
   },
   {
    "회사": "Anthropic",
@@ -2277,20 +2347,6 @@
    "emp": "-",
    "due": "Seoul, South Korea",
    "link": "https://jobs.ashbyhq.com/openai/52263a22-1621-4dbb-9a11-ae4490f2acc8",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": "2026-08-21"
-  },
-  {
-   "회사": "OpenAI",
-   "플랫폼": "global",
-   "title": "Consumer Marketing Lead, Korea",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://jobs.ashbyhq.com/openai/2e035bad-8691-4efc-839e-a21b41b7e6fc",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,

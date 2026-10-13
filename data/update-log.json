@@ -12089,7 +12089,287 @@
    "archiveTotal": 628,
    "preds": 299,
    "compTotal": 547
+  },
+  {
+   "date": "2026-10-14",
+   "added": [
+    {
+     "id": "linkareer-356590",
+     "company": "(주)안다르",
+     "title": "",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-10-25",
+     "url": "https://linkareer.com/activity/356590"
+    },
+    {
+     "id": "linkareer-355480",
+     "company": "오뚜기",
+     "title": "",
+     "roles": [
+      "마케팅",
+      "영업"
+     ],
+     "end": "2026-10-15",
+     "url": "https://linkareer.com/activity/355480"
+    },
+    {
+     "id": "jasoseol-106628",
+     "company": "크래프톤",
+     "title": "2027 채용연계형 인턴십",
+     "roles": [
+      "기획/전략",
+      "PM/서비스기획",
+      "마케팅",
+      "HR/인사"
+     ],
+     "end": "2026-10-23",
+     "url": "http://recruit.krafton.com/"
+    },
+    {
+     "id": "jasoseol-106664",
+     "company": "코엑스",
+     "title": "2027년도 신입사원 채용공고",
+     "roles": [
+      "기획/전략",
+      "마케팅",
+      "홍보/PR",
+      "영업관리"
+     ],
+     "end": "2026-10-25",
+     "url": "https://coex.recruiter.co.kr/career/jobs/130437?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610coex"
+    },
+    {
+     "id": "jasoseol-106670",
+     "company": "피유코어",
+     "title": "2026년 하반기 대졸 신입 공개채용",
+     "roles": [
+      "영업",
+      "기획/전략"
+     ],
+     "end": "2026-11-01",
+     "url": "https://pucore.recruiter.co.kr/career/resume?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610pucore"
+    },
+    {
+     "id": "jasoseol-106674",
+     "company": "LS MnM",
+     "title": "경력사원 수시채용",
+     "roles": [
+      "기획/전략",
+      "영업",
+      "HR/인사"
+     ],
+     "end": "2026-10-25",
+     "url": "https://lsmnm.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=268747"
+    },
+    {
+     "id": "jasoseol-106675",
+     "company": "한국지역정보개발원",
+     "title": "2026년 하반기 정규직 채용",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-10-27",
+     "url": "https://klid.incruit.com/"
+    },
+    {
+     "id": "jasoseol-106683",
+     "company": "한국폴리아세탈",
+     "title": "2026년 하반기 신입사원 공개채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-10-27",
+     "url": "https://www.gpac-kpac.com/recruit/agree.php"
+    },
+    {
+     "id": "jasoseol-106689",
+     "company": "비테스코테크놀로지스코리아",
+     "title": "셰플러코리아 이천사업장 10월 신입 및 경력직 채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-10-20",
+     "url": "https://jobs.schaeffler.com/?locale=en_US&currentPage=1&pageSize=30"
+    },
+    {
+     "id": "jasoseol-106695",
+     "company": "이크레더블",
+     "title": "준법감시 부문 경력사원 수시채용",
+     "roles": [],
+     "end": "2026-11-01",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50158746?Oem_Code=C1"
+    },
+    {
+     "id": "jasoseol-106696",
+     "company": "한국플랜트산업협회",
+     "title": "국제협력팀 일반행정 사무업무 등 채용 (신입/경력)",
+     "roles": [],
+     "end": "2026-10-25",
+     "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=55274579&view_type=etc&ref=recruit_manage"
+    },
+    {
+     "id": "jasoseol-106699",
+     "company": "삼양그룹",
+     "title": "인사/노무관리 부문 신입사원 채용",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-10-19",
+     "url": "https://samyang.wd3.myworkdayjobs.com/ko-KR/Samyang"
+    },
+    {
+     "id": "jasoseol-106700",
+     "company": "애경케미칼",
+     "title": "각 부문 신입/경력 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-10-26",
+     "url": "https://aekyungchemical.applyin.co.kr/jobs/"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106234",
+     "company": "신세계그룹",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106306",
+     "company": "이마트",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106309",
+     "company": "신세계푸드",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106314",
+     "company": "한국자산신탁",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106388",
+     "company": "원익그룹",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106404",
+     "company": "동서식품",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106417",
+     "company": "코리안리재보험",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106434",
+     "company": "과학치안진흥센터",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106456",
+     "company": "한국장애인개발원",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106449",
+     "company": "어플라이드 머티어리얼즈 코리아",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106465",
+     "company": "필로메디",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106477",
+     "company": "현대오토에버",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106531",
+     "company": "데일리앤코",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106537",
+     "company": "인천공항시설관리",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106555",
+     "company": "신원",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106558",
+     "company": "산은캐피탈",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106548",
+     "company": "지역난방안전",
+     "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-106564",
+     "company": "에스케이하이스텍",
+     "end": "2026-10-12"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "CJ올리브영",
+     "title": "전략지원 대관 담당자",
+     "url": "https://career.oliveyoung.com/ko/o/217091"
+    },
+    {
+     "company": "마이리얼트립",
+     "title": "패키지실 사업개발(신사업) 매니저",
+     "url": "https://myrealtrip.career.greetinghr.com/ko/o/240173"
+    },
+    {
+     "company": "여기어때",
+     "title": "AD Sales Manager [서울•경기•인천지역]",
+     "url": "https://gccompany.career.greetinghr.com/ko/o/240145"
+    },
+    {
+     "company": "뤼튼",
+     "title": "Product Manager",
+     "url": "https://wrtn.career.greetinghr.com/ko/o/240274"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토] AI 상품기획 및 PM (신입/경력)",
+     "url": "https://www.hectocareers.co.kr/ko/o/240254"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토헬스케어] 신제품 기획 담당자",
+     "url": "https://www.hectocareers.co.kr/ko/o/240159"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토이노베이션] PG 기획 (경력)",
+     "url": "https://www.hectocareers.co.kr/ko/o/239621"
+    },
+    {
+     "company": "42dot",
+     "title": "Product Manager (Autonomous Driving) (계약직)",
+     "url": "https://jobs.ashbyhq.com/42dot/9527b990-720f-45ea-9e18-055e0fbbf454"
+    }
+   ],
+   "total": 324,
+   "archiveTotal": 629,
+   "preds": 296,
+   "compTotal": 538
   }
  ],
- "updated": "2026-10-13"
+ "updated": "2026-10-14"
 }
