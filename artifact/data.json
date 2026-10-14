@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-13T19:56:10.117014+00:00",
+ "collectedAt": "2026-10-14T07:53:33.431520+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -712,7 +712,7 @@
    "cat": "전략·사업",
    "intern": false,
    "openDate": "2026-10-13",
-   "new": true,
+   "new": false,
    "found": "2026-10-13"
   },
   {
@@ -880,7 +880,7 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2026-10-13",
-   "new": true,
+   "new": false,
    "found": "2026-10-13"
   },
   {
@@ -968,20 +968,6 @@
    "found": "2026-10-03"
   },
   {
-   "회사": "무신사",
-   "플랫폼": "greetinghr",
-   "title": "Operations Assistant (리테일 상품 운영)",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://www.musinsacareers.com/ko/o/236674",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-09-10",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
    "회사": "스캐터랩",
    "플랫폼": "greetinghr",
    "title": "ML Research Intern",
@@ -1026,10 +1012,24 @@
   {
    "회사": "아우토크립트",
    "플랫폼": "greetinghr",
+   "title": "[용인] 자율주행 운영 서비스 서포터 [파견직]",
+   "career": "경력무관",
+   "emp": "-",
+   "due": "2026-11-30",
+   "link": "https://autocrypt.career.greetinghr.com/ko/o/240288",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-13",
+   "new": true,
+   "found": "2026-10-14"
+  },
+  {
+   "회사": "아우토크립트",
+   "플랫폼": "greetinghr",
    "title": "기술기획/연구과제 기술 개발 담당자",
    "career": "경력 0년~",
    "emp": "정규직",
-   "due": "상시",
+   "due": "2026-11-30",
    "link": "https://autocrypt.career.greetinghr.com/ko/o/239139",
    "cat": "기획·PM/PO",
    "intern": false,
@@ -1043,7 +1043,7 @@
    "title": "자동차 사이버보안 테스트 엔지니어 [병특 전문연 가능]",
    "career": "경력무관",
    "emp": "정규직",
-   "due": "상시",
+   "due": "2026-11-30",
    "link": "https://autocrypt.career.greetinghr.com/ko/o/238154",
    "cat": "운영·오퍼레이션",
    "intern": false,
@@ -1057,7 +1057,7 @@
    "title": "In-Vehicle 보안 솔루션 개발 [경력]",
    "career": "경력 0년~10",
    "emp": "정규직",
-   "due": "상시",
+   "due": "2026-11-30",
    "link": "https://autocrypt.career.greetinghr.com/ko/o/187204",
    "cat": "운영·오퍼레이션",
    "intern": false,
@@ -1069,9 +1069,9 @@
    "회사": "아우토크립트",
    "플랫폼": "greetinghr",
    "title": "자동차 보안 솔루션 프로젝트 관리 [신입/경력]",
-   "career": "경력 1년~",
+   "career": "경력무관",
    "emp": "정규직",
-   "due": "상시",
+   "due": "2026-11-30",
    "link": "https://autocrypt.career.greetinghr.com/ko/o/171687",
    "cat": "운영·오퍼레이션",
    "intern": false,
@@ -1085,7 +1085,7 @@
    "title": "자동차(On/Off-road) 사이버보안 컨설턴트 [경력무관]",
    "career": "경력무관",
    "emp": "정규직",
-   "due": "상시",
+   "due": "2026-11-30",
    "link": "https://autocrypt.career.greetinghr.com/ko/o/138445",
    "cat": "세일즈·CX·제휴",
    "intern": false,
@@ -1276,6 +1276,20 @@
    "found": "2026-10-03"
   },
   {
+   "회사": "에코마케팅",
+   "플랫폼": "greetinghr",
+   "title": "FP&A(재무/경영기획) 경력 채용",
+   "career": "경력무관",
+   "emp": "-",
+   "due": "상시",
+   "link": "https://career.echomarketing.co.kr/ko/o/240154",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-13",
+   "new": true,
+   "found": "2026-10-14"
+  },
+  {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
    "title": "광고 운영 담당자 (인턴)",
@@ -1300,7 +1314,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-13",
-   "new": true,
+   "new": false,
    "found": "2026-10-13"
   },
   {
@@ -1386,6 +1400,20 @@
    "openDate": "2026-05-11",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
+   "title": "[어시스턴트] 대출 마케팅 업무 운영 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/240375",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-14",
+   "new": true,
+   "found": "2026-10-14"
   },
   {
    "회사": "카카오페이",
@@ -1545,7 +1573,7 @@
    "회사": "팀스파르타",
    "플랫폼": "greetinghr",
    "title": "CX 매니저 채용연계형 인턴",
-   "career": "경력무관",
+   "career": "신입",
    "emp": "인턴",
    "due": "상시",
    "link": "https://career.spartaclub.kr/ko/o/228388",
@@ -1573,7 +1601,7 @@
    "회사": "팀스파르타",
    "플랫폼": "greetinghr",
    "title": "PR 담당자 채용연계형 인턴",
-   "career": "경력무관",
+   "career": "신입",
    "emp": "인턴",
    "due": "상시",
    "link": "https://career.spartaclub.kr/ko/o/236744",
@@ -1782,16 +1810,16 @@
   {
    "회사": "하이컨시",
    "플랫폼": "greetinghr",
-   "title": "[시대인재 LEET] 학원 운영 담당자",
+   "title": "[하이컨시북스] 사이트 운영/관리 및 마케팅 담당자",
    "career": "경력무관",
-   "emp": "계약직",
+   "emp": "정규직",
    "due": "상시",
-   "link": "https://hiconsy.career.greetinghr.com/ko/o/232346",
-   "cat": "운영·오퍼레이션",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/240378",
+   "cat": "마케팅·브랜딩",
    "intern": false,
-   "openDate": "2026-08-07",
-   "new": false,
-   "found": "2026-10-03"
+   "openDate": "2026-10-14",
+   "new": true,
+   "found": "2026-10-14"
   },
   {
    "회사": "하이컨시",
@@ -1860,7 +1888,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-13",
-   "new": true,
+   "new": false,
    "found": "2026-10-13"
   },
   {
@@ -2000,7 +2028,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-12",
-   "new": true,
+   "new": false,
    "found": "2026-10-13"
   },
   {
@@ -2014,7 +2042,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-13",
-   "new": true,
+   "new": false,
    "found": "2026-10-13"
   },
   {
@@ -2394,6 +2422,20 @@
    "new": false,
    "found": "2026-10-10",
    "openDate": "2026-10-09"
+  },
+  {
+   "회사": "OpenAI",
+   "플랫폼": "global",
+   "title": "Enablement Lead, Knowledge Work",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/openai/8842f4d5-dabb-4b15-a339-36ab13a6db11",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-14",
+   "openDate": "2026-10-14"
   },
   {
    "회사": "Google",

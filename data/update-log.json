@@ -12228,6 +12228,24 @@
      ],
      "end": "2026-10-26",
      "url": "https://aekyungchemical.applyin.co.kr/jobs/"
+    },
+    {
+     "id": "linkareer-356843",
+     "company": "그린웹서비스",
+     "title": "",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2027-01-12",
+     "url": "https://linkareer.com/activity/356843"
+    },
+    {
+     "id": "global-openai-8842f4d5-dabb-4b15-a339-",
+     "company": "OpenAI",
+     "title": "Enablement Lead, Knowledge Work · Go To Market",
+     "roles": [],
+     "end": "",
+     "url": "https://jobs.ashbyhq.com/openai/8842f4d5-dabb-4b15-a339-36ab13a6db11"
     }
    ],
    "archived": [
@@ -12320,6 +12338,66 @@
      "id": "jasoseol-106564",
      "company": "에스케이하이스텍",
      "end": "2026-10-12"
+    },
+    {
+     "id": "jasoseol-105649",
+     "company": "앱솔브랩",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-105654",
+     "company": "NHN Cloud",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106386",
+     "company": "이수그룹",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106444",
+     "company": "재단법인 충청북도창조경제혁신센터",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106446",
+     "company": "한국농수산식품유통공사(aT)",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106455",
+     "company": "스포츠윤리센터",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106496",
+     "company": "유안타증권",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106491",
+     "company": "선진",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106501",
+     "company": "SK브로드밴드",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106488",
+     "company": "한국수출입은행",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106572",
+     "company": "이지케어텍",
+     "end": "2026-10-13"
+    },
+    {
+     "id": "jasoseol-106588",
+     "company": "2026 대전 일자리 박람회",
+     "end": "2026-10-13"
     }
    ],
    "removed": [],
@@ -12363,12 +12441,92 @@
      "company": "42dot",
      "title": "Product Manager (Autonomous Driving) (계약직)",
      "url": "https://jobs.ashbyhq.com/42dot/9527b990-720f-45ea-9e18-055e0fbbf454"
+    },
+    {
+     "company": "무신사",
+     "title": "Program Manager (글로벌 커머스)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/238434"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "전략 투자 담당자 (M&A, 소수지분, 사후관리)",
+     "url": "https://career.oliveyoung.com/ko/o/240306"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "BM 팀장 (기초사업부)",
+     "url": "https://career.oliveyoung.com/ko/o/240294"
+    },
+    {
+     "company": "스푼랩스",
+     "title": "[Spoon] Marketing Design Lead (8년 이상)",
+     "url": "https://spoonradio.career.greetinghr.com/ko/o/240341"
+    },
+    {
+     "company": "하이컨시",
+     "title": "[하이컨시북스] 사이트 운영/관리 및 마케팅 담당자",
+     "url": "https://hiconsy.career.greetinghr.com/ko/o/240378"
+    },
+    {
+     "company": "아우토크립트",
+     "title": "[용인] 자율주행 운영 서비스 서포터 [파견직]",
+     "url": "https://autocrypt.career.greetinghr.com/ko/o/240288"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토이노베이션] 카드사 제휴 영업 (경력)",
+     "url": "https://www.hectocareers.co.kr/ko/o/240136"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토이노베이션] 이통사 제휴 영업 (경력)",
+     "url": "https://www.hectocareers.co.kr/ko/o/240135"
+    },
+    {
+     "company": "카카오페이",
+     "title": "[어시스턴트] 대출 마케팅 업무 운영 지원",
+     "url": "https://kakaopay.career.greetinghr.com/ko/o/240375"
+    },
+    {
+     "company": "세일즈포스",
+     "title": "Success Architect, Marketing Cloud (Korea)",
+     "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Success-Architect--Marketing-Cloud--Korea-_JR363286"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Slate & Brand Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315562772"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Ads Partnership Manager - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315824083"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Senior Manager, Marketing Partnerships - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790317761805"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Korea Finance Director - Strategy, Planning, and Studio Fina",
+     "url": "https://explore.jobs.netflix.net/careers/job/790317631095"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Marketing Partnerships Creative Manager - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318793899"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Senior Account Manager",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318738586"
     }
    ],
-   "total": 324,
-   "archiveTotal": 629,
-   "preds": 296,
-   "compTotal": 538
+   "total": 314,
+   "archiveTotal": 639,
+   "preds": 299,
+   "compTotal": 547
   }
  ],
  "updated": "2026-10-14"
