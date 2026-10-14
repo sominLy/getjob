@@ -5,6 +5,9 @@
   "engines": {
     "node": ">=20"
   },
+  "scripts": {
+    "test:e2e": "node --test --test-concurrency=1 \"tests/e2e/*.test.mjs\""
+  },
   "devDependencies": {
     "playwright": "^1.47.0"
   }

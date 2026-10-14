@@ -2,3 +2,11 @@
 node_modules
 .env.local
 .DS_Store
+
+# 개인 지원 기록이 들어간 Airtable 내보내기 — 이 레포는 공개라 올리지 않는다
+data/airtable
+# OMC 세션 상태(로컬 경로 포함)
+.omc
+
+# 외부 세션이 만든 모킹 회귀 스위트(저장소에 넣지 않음)
+qa-review

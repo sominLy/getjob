@@ -1,0 +1,19 @@
+# Vercel CLI 배포에서 올리지 않는 것 — 화면이 쓰는 파일(index.html, favicon.svg, data/*.json, artifact/data.json)만 올린다.
+.git
+.github
+.omc
+.vercel
+node_modules
+.env.local
+.DS_Store
+# 개인 지원 기록 내보내기 — 절대 공개 금지
+data/airtable
+# 수집 스크립트·테스트·문서·경력직 공고판은 화면에서 쓰지 않는다
+scripts
+tests
+docs
+pm-experienced
+supabase
+artifact/build.py
+artifact/collect.py
+artifact/template.html
