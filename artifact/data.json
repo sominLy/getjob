@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-14T07:53:33.431520+00:00",
+ "collectedAt": "2026-10-14T18:06:03.877039+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -1020,7 +1020,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-13",
-   "new": true,
+   "new": false,
    "found": "2026-10-14"
   },
   {
@@ -1286,7 +1286,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-13",
-   "new": true,
+   "new": false,
    "found": "2026-10-14"
   },
   {
@@ -1412,7 +1412,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-14",
-   "new": true,
+   "new": false,
    "found": "2026-10-14"
   },
   {
@@ -1642,6 +1642,20 @@
   {
    "회사": "하이브",
    "플랫폼": "greetinghr",
+   "title": "[HYBE] ITSM/CS*",
+   "career": "경력 1년~",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/240417",
+   "cat": "세일즈·CX·제휴",
+   "intern": false,
+   "openDate": "2026-10-14",
+   "new": true,
+   "found": "2026-10-14"
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
    "title": "[Weverse Company] 팬이벤트 운영 지원*",
    "career": "경력무관",
    "emp": "계약직",
@@ -1673,7 +1687,7 @@
    "title": "[Weverse Company] 플랫폼 서비스 운영 (인턴)*",
    "career": "신입",
    "emp": "계약직",
-   "due": "상시",
+   "due": "2026-10-15",
    "link": "https://careers.hybecorp.com/ko/o/238385",
    "cat": "운영·오퍼레이션",
    "intern": false,
@@ -1687,7 +1701,7 @@
    "title": "[Weverse Company] 마케팅 (인턴)*",
    "career": "신입",
    "emp": "계약직",
-   "due": "상시",
+   "due": "2026-10-15",
    "link": "https://careers.hybecorp.com/ko/o/238321",
    "cat": "마케팅·브랜딩",
    "intern": false,
@@ -1818,7 +1832,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-14",
-   "new": true,
+   "new": false,
    "found": "2026-10-14"
   },
   {
@@ -2433,7 +2447,7 @@
    "link": "https://jobs.ashbyhq.com/openai/8842f4d5-dabb-4b15-a339-36ab13a6db11",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-14",
    "openDate": "2026-10-14"
   },
@@ -2533,6 +2547,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-03",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Customer Onboarding Strategist, Google Customer Solutions (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/104173546518782662",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-14",
    "openDate": ""
   },
   {

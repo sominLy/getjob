@@ -12527,7 +12527,188 @@
    "archiveTotal": 639,
    "preds": 299,
    "compTotal": 547
+  },
+  {
+   "date": "2026-10-15",
+   "added": [
+    {
+     "id": "jasoseol-106665",
+     "company": "무림그룹",
+     "title": "2026년 하반기 신입·경력 채용공고",
+     "roles": [
+      "기획/전략",
+      "HR/인사",
+      "금융/심사"
+     ],
+     "end": "2026-10-28",
+     "url": "https://recruit.moorim.co.kr"
+    },
+    {
+     "id": "jasoseol-106692",
+     "company": "대봉엘에스",
+     "title": "2026년 신입 채용 (화장품소재정보부 기술영업)",
+     "roles": [
+      "영업",
+      "MD",
+      "마케팅"
+     ],
+     "end": "2026-12-31",
+     "url": "https://daebongls.recruiter.co.kr/career/jobs/117399"
+    },
+    {
+     "id": "jasoseol-106703",
+     "company": "한국전기공사협회",
+     "title": "2026년 신규 직원 채용공고 (사무행정/교수)",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-10-30",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2610130000343&handle=97967F9B881F7FD65FD96EE7A869E72B469EE5C76EB52335251658A3138A4AC5&rf=1"
+    },
+    {
+     "id": "jasoseol-106704",
+     "company": "동국제약",
+     "title": "[동국제약] 신입/경력 채용(관리/마케팅/영업/연구 등 모집) ~ 10/21",
+     "roles": [],
+     "end": "2026-10-21",
+     "url": "https://dkpharm.recruiter.co.kr/career/jobs/131088"
+    },
+    {
+     "id": "jasoseol-106707",
+     "company": "신영자산운용",
+     "title": "2026년 하반기 대졸 신입사원 채용(주식운용, 채권운용, 지원부문)",
+     "roles": [
+      "금융/심사",
+      "기획/전략"
+     ],
+     "end": "2026-11-08",
+     "url": "https://www.syfund.co.kr/board/notice/view/8064?categorySeq=&keyword=&page=0"
+    },
+    {
+     "id": "jasoseol-106708",
+     "company": "모두닥",
+     "title": "[채용전환형/월500만원] Problem Solver (Engineering Focused) 인턴",
+     "roles": [],
+     "end": "2026-11-30",
+     "url": "https://modoodoc.career.greetinghr.com/ko/o/159507"
+    },
+    {
+     "id": "jasoseol-106709",
+     "company": "모두닥",
+     "title": "[채용전환형/월500만원] Problem Solver (Sales Focused) 인턴",
+     "roles": [
+      "기획/전략",
+      "영업"
+     ],
+     "end": "2026-11-30",
+     "url": "https://modoodoc.career.greetinghr.com/ko/o/190537"
+    },
+    {
+     "id": "jasoseol-106710",
+     "company": "아이지넷",
+     "title": "각 부문별 신입·경력사원 채용",
+     "roles": [
+      "영업",
+      "고객/CS"
+     ],
+     "end": "2026-12-12",
+     "url": "https://recruit.bodoc.co.kr/recruit"
+    },
+    {
+     "id": "jasoseol-106714",
+     "company": "일화",
+     "title": "신입/경력 사원 모집",
+     "roles": [
+      "영업관리"
+     ],
+     "end": "2026-10-21",
+     "url": "https://ilhwa.recruiter.co.kr/career/careers?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610ilhwa"
+    },
+    {
+     "id": "jasoseol-106716",
+     "company": "NHN Enterprise",
+     "title": "IDC 운영자 (판교)",
+     "roles": [],
+     "end": "2026-12-13",
+     "url": "https://careers.nhn.com/recruits/4442959527668758638?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Enterprise_Tech"
+    },
+    {
+     "id": "jasoseol-106720",
+     "company": "NHN Cloud",
+     "title": "국방 프리세일즈(클라우드 및 AX)",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-10-31",
+     "url": "https://careers.nhn.com/recruits/4443061609033416712?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Business"
+    },
+    {
+     "id": "jasoseol-106721",
+     "company": "토스플레이스",
+     "title": "Data Analyst",
+     "roles": [],
+     "end": "2026-10-31",
+     "url": "https://toss.im/career/job-detail?job_id=5425435003&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2610_DA(P)"
+    },
+    {
+     "id": "jasoseol-106722",
+     "company": "신세계인터내셔날",
+     "title": "국내/해외 영업 인턴 모집",
+     "roles": [
+      "영업",
+      "마케팅",
+      "리서치",
+      "MD"
+     ],
+     "end": "2026-10-23",
+     "url": "https://linkareer.com/activity/356581"
+    },
+    {
+     "id": "jasoseol-106724",
+     "company": "토스플레이스",
+     "title": "토스플레이스 전 직군 대규모 채용 (-10/31)",
+     "roles": [
+      "영업관리",
+      "영업",
+      "고객/CS",
+      "HR/인사"
+     ],
+     "end": "2026-10-31",
+     "url": "https://tossplace.com/recruit"
+    },
+    {
+     "id": "global-google-104173546518782662",
+     "company": "Google",
+     "title": "Customer Onboarding Strategist, Google Customer Solutions (E",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/104173546518782662"
+    }
+   ],
+   "archived": [],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "하이브",
+     "title": "[HYBE] 자산관리 (사옥 시설 운영 및 관리)",
+     "url": "https://careers.hybecorp.com/ko/o/240431"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Senior Ads Sales Partner - Export",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318350853"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "HR Business Partner - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318403387"
+    }
+   ],
+   "total": 329,
+   "archiveTotal": 639,
+   "preds": 298,
+   "compTotal": 545
   }
  ],
- "updated": "2026-10-14"
+ "updated": "2026-10-15"
 }
