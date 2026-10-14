@@ -586,6 +586,11 @@ dialog::backdrop{background:var(--scrim,rgba(20,27,26,.5))}
 .un-chip.un-지원{background:var(--amber-soft);color:var(--amber)}
 .un-chip.un-조건부{background:var(--line-2);color:var(--ink-2)}
 .un-chip.un-후순위{background:var(--urgent-soft);color:var(--urgent)}
+/* 소민 전용 종합 등급(매칭률 + 운 궁합) — 상 세이지 · 중 샌드 · 하 스톤, 기존 토큰만 */
+.mt-blend{display:inline-block;font-size:11px;font-weight:700;padding:1px 7px;border-radius:999px;white-space:nowrap;cursor:help}
+.mt-blend.g-상{background:var(--st-pass-soft);color:var(--st-pass)}
+.mt-blend.g-중{background:var(--st-wait-soft);color:var(--st-wait)}
+.mt-blend.g-하{background:var(--line-2);color:var(--muted)}
 .un-chip.un-sm{margin-left:6px;font-size:10.5px;padding:0 6px}
 .pt{font-size:11px;font-weight:600;color:var(--muted);white-space:nowrap}
 .pt-new{color:var(--urgent);font-weight:700}

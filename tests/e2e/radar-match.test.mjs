@@ -104,3 +104,15 @@ test("키워드 칩을 누르면 내 키워드에서 빼고, 다시 누르면 �
   await p.locator("#mtChips button", { hasText: new RegExp("^" + label + " \\d+$") }).click();
   await p.waitForFunction(k => !db.match.off.includes(k), label);
 }));
+
+test("소민 계정이 아니면 매칭 결과에 종합 등급 칩(.mt-blend)과 '종합순' 정렬이 없다", { timeout: 30000 }, g(async () => {
+  const p = S.page;
+  await closeAll(p); await tab(p, "match");
+  await p.waitForFunction(() => mtData !== null && db.match, null, { timeout: 30000 });
+  assert.equal(await p.evaluate(() => IS_OWNER), false, "테스트 계정은 소민 계정이 아니어야 한다");
+  const sorts = await p.$$eval("#mtSort button", bs => bs.map(b => b.textContent));
+  assert.ok(sorts.includes("매칭률순"), "정렬 버튼: " + sorts.join(","));
+  assert.equal(sorts.includes("종합순") || sorts.includes("운 궁합순"), false, "소민 전용 정렬이 보임: " + sorts.join(","));
+  assert.equal(await p.locator("#mtOut .mt-blend").count(), 0);
+  assert.equal(await p.evaluate(() => ownerBlend({pct: 90, un: 80})), null, "privOn()이 아니면 계산도 하지 않는다");
+}));

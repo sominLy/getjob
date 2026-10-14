@@ -3303,21 +3303,38 @@ function renderLinkedin(){
 /* 소민 계정인데 아직 경험 키워드가 없으면, 미리 뽑아 둔 키워드 개수(data/owner-match.json)로 채운다.
    이 파일에는 키워드 이름과 개수만 있고 경험 원문은 없다. */
 let ownerSeedTried = false;
+/* 미리 뽑아 둔 키워드로 채운 기록(seeded)이면, 파일이 더 새것일 때 counts·n·at만 바꾼다(켜고 끈 칩 on/off는 그대로).
+   직접 붙여넣어 만든 기록(seeded가 아님)은 건드리지 않는다 */
 async function seedOwnerMatch(){
-  if(ownerSeedTried || !IS_OWNER || db.match) return;
+  if(ownerSeedTried || !IS_OWNER || (db.match && db.match.seeded !== true)) return;
   ownerSeedTried = true;
   try{
     const r = await fetch("data/owner-match.json?t=" + Date.now());
     if(!r.ok) return;
     const o = await r.json();
-    db.match = {counts: o.counts, n: o.n, at: o.at, on: [], off: [], seeded: true};
+    if(!o || !o.counts) return;
+    if(!db.match){
+      db.match = {counts: o.counts, n: o.n, at: o.at, on: [], off: [], seeded: true};
+    } else if(o.at && (!db.match.at || o.at > db.match.at)){
+      Object.assign(db.match, {counts: o.counts, n: o.n, at: o.at});
+      toast("경험 키워드를 " + o.at + " 경험정리로 바꿨어요");
+    } else return;
     save(); renderMatch();
   }catch(e){}
+}
+/* 소민 전용 종합 등급: 매칭률과 운 궁합을 섞은 '상징 지표'이고 합격 확률이 아니다.
+   점수 = 매칭률 × pct + 운 궁합 × un, 등급은 grades의 기준(이상)으로 위에서부터 */
+const OWNER_BLEND = {pct: 0.65, un: 0.35, grades: [["상", 75], ["중", 62], ["하", -Infinity]]};
+function ownerBlend(r){
+  if(!privOn() || !r.un) return null;
+  const score = Math.round(r.pct * OWNER_BLEND.pct + r.un * OWNER_BLEND.un);
+  const grade = OWNER_BLEND.grades.find(([, min]) => score >= min)[0];
+  return {score, grade, title: "매칭 " + r.pct + "% × " + OWNER_BLEND.pct + " + 운 " + Math.round(r.un) + " × " + OWNER_BLEND.un + " = " + score + " · " + grade};
 }
 
 function renderMatch(){
   if(!mtData) return;
-  if(!db.match && IS_OWNER){ seedOwnerMatch(); }
+  if(IS_OWNER && (!db.match || db.match.seeded === true)){ seedOwnerMatch(); }
   renderLinkedin();
   const m = db.match, mine = mtMine();
   document.getElementById("mtMeStat").textContent = m
@@ -3410,15 +3427,17 @@ function renderMatch(){
   });
   /* 운적 궁합(소민 전용) — 정렬에도 쓴다 */
   const typeOf = j => { const b = j.src === "board" && allJobs().find(x => x.id === j.id); return b ? b.type : ""; };
-  live.forEach(r => { r.type = typeOf(r.j); const u = unScore({company: r.j.company, title: r.j.title, kw: r.j.w, type: r.type}); r.un = u ? u.total : 0; });
+  live.forEach(r => { r.type = typeOf(r.j); const u = unScore({company: r.j.company, title: r.j.title, kw: r.j.w, type: r.type}); r.un = u ? u.total : 0; r.blend = ownerBlend(r); });
+  if(!privOn() && (mtSortBy === "un" || mtSortBy === "blend")) mtSortBy = "pct";   /* 소민 전용 정렬은 꺼지면 기본으로 */
   const sortBox = document.getElementById("mtSort");
   sortBox.hidden = false;
   sortBox.replaceChildren();
-  [["pct", "매칭률순"], ["new", "새로 뜬 순"]].concat(privOn() ? [["un", "운 궁합순"]] : []).forEach(([k, l]) => {
+  [["pct", "매칭률순"], ["new", "새로 뜬 순"]].concat(privOn() ? [["un", "운 궁합순"], ["blend", "종합순"]] : []).forEach(([k, l]) => {
     const b = document.createElement("button"); b.type = "button"; b.textContent = l; b.setAttribute("aria-pressed", mtSortBy === k);
     b.onclick = () => { mtSortBy = k; renderMatch(); }; sortBox.append(b);
   });
   if(mtSortBy === "un" && privOn()) live.sort((a, b) => b.un - a.un || b.pct - a.pct);
+  if(mtSortBy === "blend" && privOn()) live.sort((a, b) => ((b.blend || {}).score || 0) - ((a.blend || {}).score || 0) || b.pct - a.pct);
   if(mtSortBy === "new"){ const sk = r => (postedInfo(r.j) || {}).since || ""; live.sort((a, b) => sk(b).localeCompare(sk(a)) || b.pct - a.pct); }
   rows.length = 0;
   live.filter(r => (!mtCo || r.j.company === mtCo) && (!mtRole || r.role === mtRole)).forEach(r => rows.push(r));
@@ -3451,7 +3470,7 @@ function renderMatch(){
       const sm = document.createElement("small"); sm.textContent = "매칭 " + t[1] + "% 이상 · " + list.length + "건";
       h.append(pill, sm);
     } else {
-      const sm = document.createElement("small"); sm.textContent = (mtSortBy === "new" ? "최근에 올라온 순" : "운 궁합 높은 순") + " · " + list.length + "건"; h.append(sm);
+      const sm = document.createElement("small"); sm.textContent = (mtSortBy === "new" ? "최근에 올라온 순" : mtSortBy === "blend" ? "종합 등급 높은 순" : "운 궁합 높은 순") + " · " + list.length + "건"; h.append(sm);
     }
     out.append(h);
     const ul = document.createElement("ul"); ul.className = "rd-jobs";
@@ -3470,6 +3489,8 @@ function renderMatch(){
       r.miss.forEach(k => { const s = document.createElement("span"); s.className = "rd-tag mt-tag-miss"; s.textContent = k; s.title = "내 경험에 없는 키워드"; tags.append(s); });
       main.append(a, meta, tags);
       if(r.un){ const uc = unChip({company: r.j.company, title: r.j.title, kw: r.j.w, type: r.type}); if(uc){ meta.append(" · "); meta.append(uc); } }
+      /* 종합 등급 칩(소민 전용 — ownerBlend가 privOn()이 아니면 null) */
+      if(r.blend && privOn()){ const bc = document.createElement("span"); bc.className = "mt-blend g-" + r.blend.grade; bc.textContent = "종합 " + r.blend.grade; bc.title = r.blend.title; meta.append(" "); meta.append(bc); }
       const pct = document.createElement("div"); pct.className = "mt-pct"; pct.textContent = r.pct + "%";
       const sm2 = document.createElement("small"); sm2.textContent = flat ? r.tier[0] : "매칭"; pct.append(sm2);
       li.append(co, main, pct); ul.append(li);
