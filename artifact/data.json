@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-14T18:06:03.877039+00:00",
+ "collectedAt": "2026-10-15T03:38:05.353387+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -1309,7 +1309,7 @@
    "title": "펀딩 프로모션 마케팅 운영 담당자 (인턴)",
    "career": "-",
    "emp": "인턴",
-   "due": "2026-10-26",
+   "due": "2026-10-18",
    "link": "https://job.wadiz.io/ko/o/234747",
    "cat": "마케팅·브랜딩",
    "intern": true,
@@ -1642,6 +1642,20 @@
   {
    "회사": "하이브",
    "플랫폼": "greetinghr",
+   "title": "[Weverse Company] 물류 운영*",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/240480",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-15",
+   "new": true,
+   "found": "2026-10-15"
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
    "title": "[HYBE] ITSM/CS*",
    "career": "경력 1년~",
    "emp": "정규직",
@@ -1650,7 +1664,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-14",
-   "new": true,
+   "new": false,
    "found": "2026-10-14"
   },
   {
@@ -2058,6 +2072,20 @@
    "openDate": "2026-10-13",
    "new": false,
    "found": "2026-10-13"
+  },
+  {
+   "회사": "쿠팡",
+   "플랫폼": "greenhouse",
+   "title": "데이터 관리 및 운영지원 담당자 (신입가능) (Instant Commerce KAM1)",
+   "career": "주니어(제목 기준)",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8280291",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-14",
+   "new": true,
+   "found": "2026-10-15"
   },
   {
    "회사": "Anthropic",
@@ -2524,20 +2552,6 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Field Sales Manager, Enterprise, Google Cloud (Korean, English)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/127270118626337478",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
    "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2559,7 +2573,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/104173546518782662",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-14",
    "openDate": ""
   },

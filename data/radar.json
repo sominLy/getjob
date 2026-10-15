@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-14T18:08:00.107Z",
+  "collectedAt": "2026-10-15T03:40:03.672Z",
   "errors": {},
   "jobs": [
     {
@@ -847,28 +847,6 @@
       "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n10 years of experience in a technical sales engineering role in security or cloud native environments.\n\nExperience in cybersecurity (e.g., network security, SoC platform, threat detection, malware intelligence, cloud security posture management, or identity and access management systems).\n\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Field Sales Manager, Enterprise, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/127270118626337478-field-sales-manager-enterprise-google-cloud-korean-english",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "10 years of experience in quota-carrying cloud or software sales, or consultative account management at a Business-To-Business (B2B) software company.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience in quota-carrying cloud or software sales, or consultative account management at a Business-To-Business (B2B) software company.\nExperience with leadership (e.g., people management, team lead, mentorship, coaching).\nExperience managing the full sales cycle (e.g., pipeline management, forecasting, reporting) and managing commercial negotiations and agreements.\nExperience engaging and building relationships with a wide range of internal teams and customer stakeholders.\nAbility to communicate in English and Korean fluently in order to interact with local stakeholders.\n"
     },
     {
       "source": "google",

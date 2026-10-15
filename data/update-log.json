@@ -12683,9 +12683,75 @@
      "roles": [],
      "end": "",
      "url": "https://www.google.com/about/careers/applications/jobs/results/104173546518782662"
+    },
+    {
+     "id": "linkareer-357078",
+     "company": "EY한영",
+     "title": "",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-10-29",
+     "url": "https://linkareer.com/activity/357078"
     }
    ],
-   "archived": [],
+   "archived": [
+    {
+     "id": "jasoseol-106395",
+     "company": "드림라인",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106408",
+     "company": "한화솔루션/케미칼",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106427",
+     "company": "이카운트",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106472",
+     "company": "국토교통과학기술진흥원",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106493",
+     "company": "S-OIL",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106509",
+     "company": "유한킴벌리",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106481",
+     "company": "비알코리아",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106482",
+     "company": "파리크라상",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106483",
+     "company": "삼립",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106573",
+     "company": "삼천리",
+     "end": "2026-10-14"
+    },
+    {
+     "id": "jasoseol-106590",
+     "company": "PKC",
+     "end": "2026-10-14"
+    }
+   ],
    "removed": [],
    "compNew": [
     {
@@ -12702,12 +12768,72 @@
      "company": "넷플릭스",
      "title": "HR Business Partner - Korea",
      "url": "https://explore.jobs.netflix.net/careers/job/790318403387"
+    },
+    {
+     "company": "무신사",
+     "title": "키즈 온라인 MD (무신사 스탠다드)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/240468"
+    },
+    {
+     "company": "컬리",
+     "title": "라이브커머스 기획/운영 담당자",
+     "url": "https://kurly.career.greetinghr.com/ko/o/240474"
+    },
+    {
+     "company": "하이브",
+     "title": "[HYBE IPX] 응원봉 솔루션 서버 개발 PM",
+     "url": "https://careers.hybecorp.com/ko/o/240481"
+    },
+    {
+     "company": "하이브",
+     "title": "[Weverse Company] 물류 운영*",
+     "url": "https://careers.hybecorp.com/ko/o/240480"
+    },
+    {
+     "company": "숨고",
+     "title": "Business Analyst",
+     "url": "https://soomgo.career.greetinghr.com/ko/o/240469"
+    },
+    {
+     "company": "숨고",
+     "title": "Sr.Service Marketer",
+     "url": "https://soomgo.career.greetinghr.com/ko/o/240377"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[Space & Property Center] 성수 캠퍼스 스마트빌딩 구축 프로젝트 Assistant PM ",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8613056002"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Content Financial Planning & Analysis (FP&A) - Kore",
+     "url": "https://explore.jobs.netflix.net/careers/job/790317865188"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Title Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790316092017"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Slate & Brand Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315562772"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Ads Partnership Manager - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315824083"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Senior Account Manager",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318738586"
     }
    ],
-   "total": 329,
-   "archiveTotal": 639,
-   "preds": 298,
-   "compTotal": 545
+   "total": 319,
+   "archiveTotal": 630,
+   "preds": 299,
+   "compTotal": 553
   }
  ],
  "updated": "2026-10-15"
