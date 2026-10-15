@@ -6325,6 +6325,286 @@
       "found": "2026-10-15"
     },
     {
+      "id": "linkareer-357260",
+      "company": "비나우",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "",
+      "end": "2027-01-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/357260",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106567",
+      "company": "국순당",
+      "title": "신입/경력 각부문 인재채용",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-10-06",
+      "end": "2026-10-19",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "http://recruit.ksdb.co.kr/company/recruit.asp",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106705",
+      "company": "GS글로벌",
+      "title": "2026년 하반기 신입사원 채용",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략",
+        "리서치",
+        "금융/심사",
+        "HR/인사"
+      ],
+      "start": "2026-10-18",
+      "end": "2026-11-01",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://gsgcorp.recruiter.co.kr/career/jobs/130527",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106730",
+      "company": "토스플레이스",
+      "title": "Research Assistant",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "리서치"
+      ],
+      "start": "2026-10-13",
+      "end": "2026-10-31",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://toss.im/career/job-detail?job_id=6620590003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2610_ra",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106731",
+      "company": "토스플레이스",
+      "title": "Brand Design Assistant",
+      "type": "",
+      "roles": [],
+      "start": "2026-10-14",
+      "end": "2026-10-31",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://toss.im/career/job-detail?job_id=6269297003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106732",
+      "company": "토스플레이스",
+      "title": "Design Assistant",
+      "type": "",
+      "roles": [],
+      "start": "2026-10-14",
+      "end": "2026-10-31",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://toss.im/career/job-detail?job_id=5589072003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=display&utm_campaign=2610_da",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106733",
+      "company": "경동제약",
+      "title": "2026년 3차 공개채용 신입/경력",
+      "type": "중견기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-26",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kdpharma.co.kr/recruit/",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106734",
+      "company": "SK바이오사이언스",
+      "title": "26년 10월 경력사원 수시채용",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "HR/인사"
+      ],
+      "start": "2026-10-12",
+      "end": "2026-10-26",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lrl.kr/Zz0p",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106735",
+      "company": "포항소재산업진흥원",
+      "title": "인력 채용 공고",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-28",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://pomia.or.kr/sub/board_detail_hire.html?no=569&page=1&search=&keyword=&scate=",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106737",
+      "company": "NH투자증권",
+      "title": "2026년 하반기 PB직무 체험형 인턴 채용",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "금융/심사"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-23",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://m.site.naver.com/2iCNq",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106738",
+      "company": "코원에너지서비스",
+      "title": "안전관리 직무 채용",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-10-11",
+      "end": "2026-10-26",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.skcareers.com/Recruit/Detail/R262184",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106740",
+      "company": "마이다스그룹",
+      "title": "급여(Payroll) 담당자 채용(계약직)",
+      "type": "",
+      "roles": [],
+      "start": "2026-10-15",
+      "end": "2026-10-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://midas.recruiter.co.kr/career/jobs/131306",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106749",
+      "company": "한국산업기술시험원(KTL)",
+      "title": "2026년 4분기 분야별 공개모집",
+      "type": "공기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "고객/CS",
+        "홍보/PR",
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-30",
+      "endTime": "11:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://ktl.careerlink.kr/",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106750",
+      "company": "KT is",
+      "title": "2026년 신입사원 공개채용",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "기획/전략",
+        "고객/CS",
+        "마케팅",
+        "MD",
+        "영업",
+        "영업관리",
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-25",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kt.recruiter.co.kr/career/jobs/131221",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106752",
+      "company": "이노션",
+      "title": "글로벌 앱 기획 및 운영 계약직 (육아휴직 대체)",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-14",
+      "end": "2026-11-01",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://innocean.recruiter.co.kr/career/jobs/131395",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106753",
+      "company": "이노션",
+      "title": "글로벌 웹 기획 및 운영 채용 (계약직/인턴)",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-14",
+      "end": "2026-11-01",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://innocean.recruiter.co.kr/career/jobs/131401",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
       "id": "pred-한국화낙-202610",
       "company": "한국화낙",
       "type": "대기업",
@@ -8460,18 +8740,6 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/102371",
       "hist": "작년 02/03~02/10 ‘2026년 1분기 부문별 대졸 신입 수시채용’ 기준 예상"
-    },
-    {
-      "id": "pred-sk바이오사이언스-202702",
-      "company": "SK바이오사이언스",
-      "type": "대기업",
-      "roles": [],
-      "start": "2027-02-03",
-      "end": "2027-02-14",
-      "confirmed": false,
-      "source": "예상(작년 자소설닷컴 기록)",
-      "url": "https://jasoseol.com/recruit/102377",
-      "hist": "작년 02/04~02/15 ‘26년 2분기 신입/경력사원 수시채용’ 기준 예상"
     },
     {
       "id": "pred-한국플랜트산업협회-202702",

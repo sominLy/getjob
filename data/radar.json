@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-15T03:40:03.672Z",
+  "collectedAt": "2026-10-15T17:52:40.451Z",
   "errors": {},
   "jobs": [
     {
@@ -1037,6 +1037,28 @@
       "fit": false,
       "firstSeen": "2026-09-29",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience in deployment planning, orchestration, or change management.\nExperience in programming languages, debugging, or systems design.\nExperience engaging with, presenting to, or influencing technical stakeholders or executive leaders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "People Consultant (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/91826511975195334-people-consultant-english-korean",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.",
+      "roles": [
+        "솔루션·컨설팅",
+        "HR"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-10-15",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.\n\nExperience of managing multiple stakeholders.\n\nAbility to communicate in English and Korean fluently to manage the client relationships in the area.\n"
     },
     {
       "source": "notion",

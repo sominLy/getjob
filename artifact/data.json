@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-15T03:38:05.353387+00:00",
+ "collectedAt": "2026-10-15T17:50:40.595231+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -130,7 +130,7 @@
   {
    "회사": "BAT",
    "플랫폼": "greetinghr",
-   "title": "[인턴] 퍼포먼스 마케터 (정규직 전환형)",
+   "title": "[인턴] 퍼포먼스 마케터 (AE) (정규직 전환형)",
    "career": "경력무관",
    "emp": "인턴",
    "due": "상시",
@@ -452,6 +452,20 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
+   "title": "[강남언니] 태국 콘텐츠 마케터 인턴 (체험형)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/240491",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-15",
+   "new": true,
+   "found": "2026-10-15"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
    "title": "[강남언니] 미국 도메스틱 플랫폼 사업개발 인턴 (체험형)",
    "career": "신입",
    "emp": "인턴",
@@ -662,20 +676,6 @@
   {
    "회사": "뤼튼",
    "플랫폼": "greetinghr",
-   "title": "JP Brand Marketer 인턴",
-   "career": "-",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.wrtn.io/ko/o/227428",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-07-27",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "뤼튼",
-   "플랫폼": "greetinghr",
    "title": "Content Translator (캬라푸)",
    "career": "경력무관",
    "emp": "계약직",
@@ -828,6 +828,20 @@
    "found": "2026-10-03"
   },
   {
+   "회사": "마카롱팩토리",
+   "플랫폼": "greetinghr",
+   "title": "파트너 영업관리 (인턴)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://mycle.career.greetinghr.com/ko/o/240552",
+   "cat": "세일즈·CX·제휴",
+   "intern": true,
+   "openDate": "2026-10-15",
+   "new": true,
+   "found": "2026-10-15"
+  },
+  {
    "회사": "메가스터디교육",
    "플랫폼": "greetinghr",
    "title": "[MEXX] MEXX학원 고객 지원/회계/행정 채용",
@@ -952,6 +966,20 @@
    "openDate": "2026-09-11",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "무신사",
+   "플랫폼": "greetinghr",
+   "title": "Category Marketing Assistant (29CM)",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://www.musinsacareers.com/ko/o/240605",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-15",
+   "new": true,
+   "found": "2026-10-15"
   },
   {
    "회사": "무신사",
@@ -1290,6 +1318,20 @@
    "found": "2026-10-14"
   },
   {
+   "회사": "에코마케팅",
+   "플랫폼": "greetinghr",
+   "title": "마케팅 어시스턴트 계약직 채용",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "2026-10-25",
+   "link": "https://career.echomarketing.co.kr/ko/o/240599",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-15",
+   "new": true,
+   "found": "2026-10-15"
+  },
+  {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
    "title": "광고 운영 담당자 (인턴)",
@@ -1400,6 +1442,20 @@
    "openDate": "2026-05-11",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
+   "title": "[어시스턴트] 유저리서치 업무 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/240498",
+   "cat": "데이터·리서치",
+   "intern": true,
+   "openDate": "2026-10-15",
+   "new": true,
+   "found": "2026-10-15"
   },
   {
    "회사": "카카오페이",
@@ -1586,20 +1642,6 @@
   {
    "회사": "팀스파르타",
    "플랫폼": "greetinghr",
-   "title": "HR 운영 담당 인턴 (Partner Relationship Manager)",
-   "career": "경력 0년~1",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.spartaclub.kr/ko/o/237180",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-09-15",
-   "new": false,
-   "found": "2026-09-29"
-  },
-  {
-   "회사": "팀스파르타",
-   "플랫폼": "greetinghr",
    "title": "PR 담당자 채용연계형 인턴",
    "career": "신입",
    "emp": "인턴",
@@ -1650,7 +1692,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-15",
-   "new": true,
+   "new": false,
    "found": "2026-10-15"
   },
   {
@@ -1692,34 +1734,6 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-09-28",
-   "new": false,
-   "found": "2026-09-29"
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
-   "title": "[Weverse Company] 플랫폼 서비스 운영 (인턴)*",
-   "career": "신입",
-   "emp": "계약직",
-   "due": "2026-10-15",
-   "link": "https://careers.hybecorp.com/ko/o/238385",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-09-23",
-   "new": false,
-   "found": "2026-09-30"
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
-   "title": "[Weverse Company] 마케팅 (인턴)*",
-   "career": "신입",
-   "emp": "계약직",
-   "due": "2026-10-15",
-   "link": "https://careers.hybecorp.com/ko/o/238321",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-23",
    "new": false,
    "found": "2026-09-29"
   },
@@ -2084,7 +2098,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-14",
-   "new": true,
+   "new": false,
    "found": "2026-10-15"
   },
   {

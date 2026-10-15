@@ -12834,7 +12834,247 @@
    "archiveTotal": 630,
    "preds": 299,
    "compTotal": 553
+  },
+  {
+   "date": "2026-10-16",
+   "added": [
+    {
+     "id": "linkareer-357260",
+     "company": "비나우",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2027-01-13",
+     "url": "https://linkareer.com/activity/357260"
+    },
+    {
+     "id": "jasoseol-106567",
+     "company": "국순당",
+     "title": "신입/경력 각부문 인재채용",
+     "roles": [],
+     "end": "2026-10-19",
+     "url": "http://recruit.ksdb.co.kr/company/recruit.asp"
+    },
+    {
+     "id": "jasoseol-106705",
+     "company": "GS글로벌",
+     "title": "2026년 하반기 신입사원 채용",
+     "roles": [
+      "영업",
+      "기획/전략",
+      "리서치",
+      "금융/심사"
+     ],
+     "end": "2026-11-01",
+     "url": "https://gsgcorp.recruiter.co.kr/career/jobs/130527"
+    },
+    {
+     "id": "jasoseol-106730",
+     "company": "토스플레이스",
+     "title": "Research Assistant",
+     "roles": [
+      "기획/전략",
+      "리서치"
+     ],
+     "end": "2026-10-31",
+     "url": "https://toss.im/career/job-detail?job_id=6620590003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2610_ra"
+    },
+    {
+     "id": "jasoseol-106731",
+     "company": "토스플레이스",
+     "title": "Brand Design Assistant",
+     "roles": [],
+     "end": "2026-10-31",
+     "url": "https://toss.im/career/job-detail?job_id=6269297003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+    },
+    {
+     "id": "jasoseol-106732",
+     "company": "토스플레이스",
+     "title": "Design Assistant",
+     "roles": [],
+     "end": "2026-10-31",
+     "url": "https://toss.im/career/job-detail?job_id=5589072003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=display&utm_campaign=2610_da"
+    },
+    {
+     "id": "jasoseol-106733",
+     "company": "경동제약",
+     "title": "2026년 3차 공개채용 신입/경력",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-10-26",
+     "url": "https://kdpharma.co.kr/recruit/"
+    },
+    {
+     "id": "jasoseol-106734",
+     "company": "SK바이오사이언스",
+     "title": "26년 10월 경력사원 수시채용",
+     "roles": [
+      "영업",
+      "HR/인사"
+     ],
+     "end": "2026-10-26",
+     "url": "https://lrl.kr/Zz0p"
+    },
+    {
+     "id": "jasoseol-106735",
+     "company": "포항소재산업진흥원",
+     "title": "인력 채용 공고",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-10-28",
+     "url": "https://pomia.or.kr/sub/board_detail_hire.html?no=569&page=1&search=&keyword=&scate="
+    },
+    {
+     "id": "jasoseol-106737",
+     "company": "NH투자증권",
+     "title": "2026년 하반기 PB직무 체험형 인턴 채용",
+     "roles": [
+      "영업",
+      "금융/심사"
+     ],
+     "end": "2026-10-23",
+     "url": "https://m.site.naver.com/2iCNq"
+    },
+    {
+     "id": "jasoseol-106738",
+     "company": "코원에너지서비스",
+     "title": "안전관리 직무 채용",
+     "roles": [],
+     "end": "2026-10-26",
+     "url": "https://www.skcareers.com/Recruit/Detail/R262184"
+    },
+    {
+     "id": "jasoseol-106740",
+     "company": "마이다스그룹",
+     "title": "급여(Payroll) 담당자 채용(계약직)",
+     "roles": [],
+     "end": "2026-10-18",
+     "url": "https://midas.recruiter.co.kr/career/jobs/131306"
+    },
+    {
+     "id": "jasoseol-106749",
+     "company": "한국산업기술시험원(KTL)",
+     "title": "2026년 4분기 분야별 공개모집",
+     "roles": [
+      "영업",
+      "영업관리",
+      "고객/CS",
+      "홍보/PR"
+     ],
+     "end": "2026-10-30",
+     "url": "https://ktl.careerlink.kr/"
+    },
+    {
+     "id": "jasoseol-106750",
+     "company": "KT is",
+     "title": "2026년 신입사원 공개채용",
+     "roles": [
+      "HR/인사",
+      "기획/전략",
+      "고객/CS",
+      "마케팅"
+     ],
+     "end": "2026-10-25",
+     "url": "https://kt.recruiter.co.kr/career/jobs/131221"
+    },
+    {
+     "id": "jasoseol-106752",
+     "company": "이노션",
+     "title": "글로벌 앱 기획 및 운영 계약직 (육아휴직 대체)",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-01",
+     "url": "https://innocean.recruiter.co.kr/career/jobs/131395"
+    },
+    {
+     "id": "jasoseol-106753",
+     "company": "이노션",
+     "title": "글로벌 웹 기획 및 운영 채용 (계약직/인턴)",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-01",
+     "url": "https://innocean.recruiter.co.kr/career/jobs/131401"
+    }
+   ],
+   "archived": [],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Product Manager (Logistics)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/240574"
+    },
+    {
+     "company": "무신사",
+     "title": "Category Marketing Assistant (29CM)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/240605"
+    },
+    {
+     "company": "무신사",
+     "title": "글로벌 MD (29CM)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/240396"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "Product Manager - Product Detail Page (상품상세)",
+     "url": "https://career.oliveyoung.com/ko/o/240540"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD (PB 운영/식품)",
+     "url": "https://career.oliveyoung.com/ko/o/240496"
+    },
+    {
+     "company": "컬리",
+     "title": "해외사업 수출 행정 담당자",
+     "url": "https://kurly.career.greetinghr.com/ko/o/239404"
+    },
+    {
+     "company": "여기어때",
+     "title": "Marketing Strategy PM",
+     "url": "https://gccompany.career.greetinghr.com/ko/o/240587"
+    },
+    {
+     "company": "하이브",
+     "title": "[NEWEPICBASE] 버추얼 IP 콘텐츠 마케팅",
+     "url": "https://careers.hybecorp.com/ko/o/240563"
+    },
+    {
+     "company": "세일즈포스",
+     "title": "Enterprise Account Executive",
+     "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Enterprise-Account-Executive_JR362071"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Marketing Partnerships Creative Manager - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318793899"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Senior Ads Sales Partner - Export",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318350853"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "HR Business Partner - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318403387"
+    },
+    {
+     "company": "쏘카(나인투원)",
+     "title": "[쏘카일레클] 사업기획 팀장",
+     "url": "https://socar.career.greetinghr.com/o/240561"
+    }
+   ],
+   "total": 335,
+   "archiveTotal": 630,
+   "preds": 298,
+   "compTotal": 555
   }
  ],
- "updated": "2026-10-15"
+ "updated": "2026-10-16"
 }
