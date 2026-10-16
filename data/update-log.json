@@ -13165,7 +13165,193 @@
    "archiveTotal": 616,
    "preds": 299,
    "compTotal": 556
+  },
+  {
+   "date": "2026-10-17",
+   "added": [
+    {
+     "id": "jasoseol-106629",
+     "company": "KG ICT",
+     "title": "피지컬 AI 제조AX 캠퍼스 4기",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-10-18",
+     "url": "https://docs.google.com/forms/d/e/1FAIpQLSc33rsZk5YAYX4eZqeJQXY2aNDpEFFmtLO9gYMkIyKETVDvMg/viewform"
+    },
+    {
+     "id": "jasoseol-106736",
+     "company": "보령LNG터미널",
+     "title": "[GS계열] 2026 하반기 신입/경력 공개채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-10-25",
+     "url": "https://boryeonglng.career.greetinghr.com/ko/main"
+    },
+    {
+     "id": "jasoseol-106755",
+     "company": "에코마케팅",
+     "title": "마케팅 사무보조 계약직 채용",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-10-25",
+     "url": "https://career.echomarketing.co.kr/ko/o/240599"
+    },
+    {
+     "id": "jasoseol-106756",
+     "company": "윗유",
+     "title": "[전환형 인턴십] 글로벌 틱톡샵 어필리에이트 마케터 (수료 축하금 100만원 지급)",
+     "roles": [
+      "브랜드",
+      "콘텐츠",
+      "마케팅"
+     ],
+     "end": "2026-12-16",
+     "url": "https://witu.co.kr/careers"
+    },
+    {
+     "id": "jasoseol-106757",
+     "company": "한국리서치",
+     "title": "마케팅조사 사업본부 인턴 연구원 채용",
+     "roles": [
+      "브랜드",
+      "콘텐츠",
+      "마케팅",
+      "MD"
+     ],
+     "end": "2026-10-25",
+     "url": "https://hrc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=269395"
+    },
+    {
+     "id": "jasoseol-106758",
+     "company": "유니스트기술지주",
+     "title": "2026년 3차 정규직원 채용(투자심사역, 신입)",
+     "roles": [
+      "금융/심사",
+      "기획/전략"
+     ],
+     "end": "2026-10-26",
+     "url": "https://unistholdings.com/news/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174636494&t=board"
+    },
+    {
+     "id": "jasoseol-106759",
+     "company": "삼진제약",
+     "title": "2026년 하반기 신입/경력 채용",
+     "roles": [
+      "영업",
+      "마케팅",
+      "브랜드",
+      "기획/전략"
+     ],
+     "end": "2026-10-26",
+     "url": "https://samjinpharm.recruiter.co.kr/career/jobs/131383?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610samjinpharm"
+    },
+    {
+     "id": "jasoseol-106765",
+     "company": "교원그룹",
+     "title": "10월 수시채용",
+     "roles": [],
+     "end": "2026-10-25",
+     "url": "https://kyowon.ninehire.site/recruit"
+    },
+    {
+     "id": "jasoseol-106771",
+     "company": "금호익스프레스",
+     "title": "2027년 신입사원 모집",
+     "roles": [
+      "HR/인사",
+      "기획/전략"
+     ],
+     "end": "2026-11-06",
+     "url": "https://www.kumhobuslines.co.kr/fr/recruit/job_view/15?csrfToken=ecfcd79e-5e0b-41c4-85ec-3cb5f5695784&offset=0&limit=20&searchProgress=FRONT_ING&searchCompanyNo="
+    },
+    {
+     "id": "jasoseol-106772",
+     "company": "유안타증권",
+     "title": "IT인프라운영팀 신입/경력직원 채용",
+     "roles": [],
+     "end": "2026-10-29",
+     "url": "https://recruit.yuantakorea.com:4433/jobinfo/jobinfo_view.asp?ID=1951"
+    },
+    {
+     "id": "jasoseol-106773",
+     "company": "유안타증권",
+     "title": "온라인시스템팀 신입직원 채용",
+     "roles": [],
+     "end": "2026-10-29",
+     "url": "https://recruit.yuantakorea.com:4433/jobinfo/jobinfo_view.asp?ID=1952"
+    },
+    {
+     "id": "jasoseol-106780",
+     "company": "코카콜라음료",
+     "title": "여주공장 안전관리자 신입 채용",
+     "roles": [],
+     "end": "2026-10-28",
+     "url": "https://careers.lg.com"
+    },
+    {
+     "id": "global-google-132325631214920390",
+     "company": "Google",
+     "title": "AI Customer Engineer, Retail, Commerce, Manufacturing, Googl",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/132325631214920390"
+    },
+    {
+     "id": "global-google-100844689166344902",
+     "company": "Google",
+     "title": "Strategic Partnerships Manager, YouTube Product Partnerships",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/100844689166344902"
+    }
+   ],
+   "archived": [],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Program Manager (Trust & Safety)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/240705"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD 재고 운영지원 담당자 (계약직)",
+     "url": "https://career.oliveyoung.com/ko/o/240790"
+    },
+    {
+     "company": "라이드플럭스",
+     "title": "[화성] 자율주행 차량 SI(System Integration) 담당자 모집 (채용연계형 인턴, 신입~경력 ",
+     "url": "https://rideflux.career.greetinghr.com/ko/o/240785"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토파이낸셜] 서비스 기획",
+     "url": "https://www.hectocareers.co.kr/ko/o/240707"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토이노베이션] 휘슬 그로스 마케팅 (경력)",
+     "url": "https://www.hectocareers.co.kr/ko/o/240622"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토이노베이션] 휘슬 콘텐츠 마케팅 (인턴)",
+     "url": "https://www.hectocareers.co.kr/ko/o/240619"
+    },
+    {
+     "company": "카카오모빌리티",
+     "title": "[Assistant] T충전사업파트 업무 보조",
+     "url": "https://kakaomobility.career.greetinghr.com/ko/o/240708"
+    }
+   ],
+   "total": 339,
+   "archiveTotal": 617,
+   "preds": 298,
+   "compTotal": 549
   }
  ],
- "updated": "2026-10-16"
+ "updated": "2026-10-17"
 }

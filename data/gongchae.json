@@ -715,7 +715,7 @@
    "jdSource": "공고문 이미지 글자 인식",
    "oneOnly": false,
    "revenue": null,
-   "pastTracks": 16,
+   "pastTracks": 17,
    "tracks": [
     {
      "name": "퍼포먼스 마케터",
@@ -21330,6 +21330,726 @@
        "이노션에스, 온오프라인 통합 고객경험 사업 강화",
        "현대vs한화 우주 경쟁 치열한데… 한화 마케팅하는 이노션, 왜?",
        "'제2의 밤낚시' 만든다…이노션, 시네마바이브랜드 플랫폼 공개"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jasoseol-106736",
+   "company": "보령LNG터미널",
+   "type": "대기업",
+   "end": "2026-10-25",
+   "url": "https://boryeonglng.career.greetinghr.com/ko/main",
+   "group": "",
+   "why": [
+    "직무 3개",
+    "마감일 명시",
+    "대기업",
+    "제목에 직무 미표기·공채 표현"
+   ],
+   "jdSource": "공고문 이미지 글자 인식",
+   "oneOnly": false,
+   "revenue": null,
+   "pastTracks": 3,
+   "tracks": [
+    {
+     "name": "터미널현장(신입)",
+     "affiliate": "보령LNG터미널",
+     "w": {
+      "사업기획·전략": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 12,
+     "competition": 0.18,
+     "affiliateTracks": 3,
+     "news": {
+      "n30": 5,
+      "role": 0,
+      "top": [
+       "엄승용 보령시장, 지역 에너지시설과 협력방안 논의",
+       "보령시, 에너지시설 현장 찾아 미래 에너지산업 전환 해법 모색",
+       "호주 다윈서 충남 보령까지… SK, 14년 집념으로 구축한 ‘LNG 밸류체인’"
+      ]
+     }
+    },
+    {
+     "name": "경영기획(신입)",
+     "affiliate": "보령LNG터미널",
+     "w": {
+      "사업기획·전략": 3,
+      "데이터 분석": 1,
+      "지표·KPI": 1,
+      "시장·트렌드 분석": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 65,
+     "competition": 1,
+     "affiliateTracks": 3,
+     "news": {
+      "n30": 5,
+      "role": 2,
+      "top": [
+       "엄승용 보령시장, 지역 에너지시설과 협력방안 논의",
+       "보령시, 에너지시설 현장 찾아 미래 에너지산업 전환 해법 모색",
+       "호주 다윈서 충남 보령까지… SK, 14년 집념으로 구축한 ‘LNG 밸류체인’"
+      ]
+     }
+    },
+    {
+     "name": "경영기획(경력)",
+     "affiliate": "보령LNG터미널",
+     "w": {
+      "사업기획·전략": 2,
+      "데이터 분석": 1,
+      "지표·KPI": 1,
+      "시장·트렌드 분석": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 1
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 2,
+     "competition": 0.03,
+     "affiliateTracks": 3,
+     "news": {
+      "n30": 5,
+      "role": 2,
+      "top": [
+       "엄승용 보령시장, 지역 에너지시설과 협력방안 논의",
+       "보령시, 에너지시설 현장 찾아 미래 에너지산업 전환 해법 모색",
+       "호주 다윈서 충남 보령까지… SK, 14년 집념으로 구축한 ‘LNG 밸류체인’"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jasoseol-106758",
+   "company": "유니스트기술지주",
+   "type": "",
+   "end": "2026-10-26",
+   "url": "https://unistholdings.com/news/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174636494&t=board",
+   "group": "",
+   "why": [
+    "직무 2개",
+    "마감일 명시",
+    "제목에 직무 미표기·공채 표현"
+   ],
+   "jdSource": "자소설닷컴 공고 본문",
+   "oneOnly": false,
+   "revenue": null,
+   "pastTracks": 2,
+   "tracks": [
+    {
+     "name": "투자심사역",
+     "affiliate": "유니스트기술지주",
+     "w": {
+      "금융·핀테크": 2
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 3,
+     "competition": 0.17,
+     "affiliateTracks": 2,
+     "news": {
+      "n30": 7,
+      "role": 0,
+      "top": [
+       "유니스트기술지주, 올해 팁스 추천 7곳 '전원 선정'…딥테크 2곳 포함 - 머니투데이",
+       "초기 투자서 후속 연구까지… UNIST기술지주, 팁스 추천 7곳 모두 선정",
+       "유니스트기술지주 추천 7개 기업, 팁스에 모두 선정"
+      ]
+     }
+    },
+    {
+     "name": "신입",
+     "affiliate": "유니스트기술지주",
+     "w": {
+      "영업·세일즈": 1,
+      "금융·핀테크": 3
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 18,
+     "competition": 1,
+     "affiliateTracks": 2,
+     "news": {
+      "n30": 7,
+      "role": 0,
+      "top": [
+       "유니스트기술지주, 올해 팁스 추천 7곳 '전원 선정'…딥테크 2곳 포함 - 머니투데이",
+       "초기 투자서 후속 연구까지… UNIST기술지주, 팁스 추천 7곳 모두 선정",
+       "유니스트기술지주 추천 7개 기업, 팁스에 모두 선정"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jasoseol-106759",
+   "company": "삼진제약",
+   "type": "중견기업",
+   "end": "2026-10-26",
+   "url": "https://samjinpharm.recruiter.co.kr/career/jobs/131383?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610samjinpharm",
+   "group": "",
+   "why": [
+    "직무 13개",
+    "마감일 명시",
+    "제목에 직무 미표기·공채 표현"
+   ],
+   "jdSource": "공식 본문",
+   "oneOnly": false,
+   "revenue": null,
+   "pastTracks": 13,
+   "tracks": [
+    {
+     "name": "사무지원",
+     "affiliate": "삼진제약",
+     "w": {},
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 6,
+     "competition": 0.19,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "ETC영업",
+     "affiliate": "삼진제약",
+     "w": {
+      "이해관계자 조율": 2,
+      "영업·세일즈": 3,
+      "B2B": 1
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 0,
+     "competition": 0,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "ETC마케팅",
+     "affiliate": "삼진제약",
+     "w": {
+      "데이터 분석": 1,
+      "마케팅 기획": 2,
+      "브랜드": 1,
+      "콘텐츠 기획·제작": 1
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 0,
+     "competition": 0,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "Technical Product Specialist",
+     "affiliate": "삼진제약",
+     "w": {
+      "이해관계자 조율": 1,
+      "콘텐츠 기획·제작": 1,
+      "PR·홍보": 3
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 0,
+     "competition": 0,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "재무",
+     "affiliate": "삼진제약",
+     "w": {
+      "데이터 분석": 1,
+      "SQL·툴": 1,
+      "정산·계약": 2
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 32,
+     "competition": 1,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 1,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "ADC ",
+     "affiliate": "삼진제약",
+     "w": {},
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 1,
+     "competition": 0.03,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 5,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "약리 ",
+     "affiliate": "삼진제약",
+     "w": {},
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 2,
+     "competition": 0.06,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "개발 ",
+     "affiliate": "삼진제약",
+     "w": {},
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 0,
+     "competition": 0,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 5,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "RA ",
+     "affiliate": "삼진제약",
+     "w": {},
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 1,
+     "competition": 0.03,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "원자재 (향남공장)",
+     "affiliate": "삼진제약",
+     "w": {},
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 0,
+     "competition": 0,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "공무 (오송공장)",
+     "affiliate": "삼진제약",
+     "w": {
+      "프로덕트·PO": 1,
+      "사업기획·전략": 3,
+      "사업개발·제휴": 1,
+      "신사업·0to1": 1,
+      "이해관계자 조율": 3,
+      "데이터 분석": 1,
+      "마케팅 기획": 3,
+      "인플루언서": 1,
+      "품질·검수": 1,
+      "정산·계약": 2,
+      "영업·세일즈": 3,
+      "B2B": 2,
+      "금융·핀테크": 2,
+      "교육": 2,
+      "헬스케어": 3
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 1,
+     "competition": 0.03,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "품질관리(환경) (오송공장)",
+     "affiliate": "삼진제약",
+     "w": {
+      "프로덕트·PO": 2,
+      "사업기획·전략": 3,
+      "사업개발·제휴": 2,
+      "신사업·0to1": 2,
+      "이해관계자 조율": 3,
+      "데이터 분석": 1,
+      "마케팅 기획": 3,
+      "인플루언서": 1,
+      "품질·검수": 2,
+      "물류·SCM": 1,
+      "정산·계약": 2,
+      "영업·세일즈": 3,
+      "B2B": 2,
+      "금융·핀테크": 2,
+      "교육": 2,
+      "헬스케어": 3,
+      "영어": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 6,
+     "competition": 0.19,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    },
+    {
+     "name": "품질관리(미생물) (오송공장)",
+     "affiliate": "삼진제약",
+     "w": {
+      "프로덕트·PO": 2,
+      "사업기획·전략": 3,
+      "사업개발·제휴": 2,
+      "신사업·0to1": 2,
+      "이해관계자 조율": 3,
+      "데이터 분석": 1,
+      "마케팅 기획": 3,
+      "인플루언서": 1,
+      "품질·검수": 2,
+      "물류·SCM": 1,
+      "정산·계약": 2,
+      "영업·세일즈": 3,
+      "B2B": 2,
+      "금융·핀테크": 2,
+      "교육": 2,
+      "헬스케어": 3,
+      "영어": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 7,
+     "competition": 0.22,
+     "affiliateTracks": 13,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "삼진제약 ‘월드클래스 플러스’ 선정…최대 4년 R&amp;D 지원",
+       "강연하는 이수민 삼진제약 연구센터장",
+       "삼진제약, ‘2026 월드클래스 플러스 프로젝트’ 선정"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jasoseol-106765",
+   "company": "교원그룹",
+   "type": "중견기업",
+   "end": "2026-10-25",
+   "url": "https://kyowon.ninehire.site/recruit",
+   "group": "",
+   "why": [
+    "직무 5개",
+    "마감일 명시",
+    "그룹 공고",
+    "제목에 직무 미표기·공채 표현"
+   ],
+   "jdSource": "공고문 이미지 글자 인식",
+   "oneOnly": false,
+   "revenue": null,
+   "pastTracks": 11,
+   "tracks": [
+    {
+     "name": "가전제품 기구설계",
+     "affiliate": "교원그룹",
+     "w": {},
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 11,
+     "competition": 0.39,
+     "affiliateTracks": 5,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "교원그룹 키녹, '프리미엄 조식'등 식음료 서비스 강화",
+       "교원그룹, 업무 전반에 AI 도입…“AX 가속화”",
+       "장평순 교원그룹 회장, AI 전환 속도…교육 혁신·조직 역량 강화"
+      ]
+     }
+    },
+    {
+     "name": "스마트구몬 백엔드 개발",
+     "affiliate": "교원그룹",
+     "w": {
+      "SNS·소셜": 1,
+      "플랫폼": 2,
+      "금융·핀테크": 1,
+      "교육": 1
+     },
+     "ownJd": true,
+     "headcount": null,
+     "applicants": 1,
+     "competition": 0.04,
+     "affiliateTracks": 5,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "교원그룹 키녹, '프리미엄 조식'등 식음료 서비스 강화",
+       "교원그룹, 업무 전반에 AI 도입…“AX 가속화”",
+       "장평순 교원그룹 회장, AI 전환 속도…교육 혁신·조직 역량 강화"
+      ]
+     }
+    },
+    {
+     "name": "법무",
+     "affiliate": "교원그룹",
+     "w": {
+      "SNS·소셜": 1,
+      "플랫폼": 2,
+      "금융·핀테크": 1,
+      "교육": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 5,
+     "competition": 0.18,
+     "affiliateTracks": 5,
+     "news": {
+      "n30": 40,
+      "role": 0,
+      "top": [
+       "교원그룹 키녹, '프리미엄 조식'등 식음료 서비스 강화",
+       "교원그룹, 업무 전반에 AI 도입…“AX 가속화”",
+       "장평순 교원그룹 회장, AI 전환 속도…교육 혁신·조직 역량 강화"
+      ]
+     }
+    },
+    {
+     "name": "AI 플랫폼 개발 (신입)",
+     "affiliate": "교원그룹",
+     "w": {
+      "서비스기획": 1,
+      "요구사항 정의": 1,
+      "화면설계·UX": 1,
+      "프로젝트 관리": 1,
+      "데이터 분석": 2,
+      "지표·KPI": 1,
+      "SQL·툴": 1,
+      "SNS·소셜": 1,
+      "프로세스 개선": 2,
+      "AI·LLM": 2,
+      "플랫폼": 3,
+      "금융·핀테크": 1,
+      "교육": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 28,
+     "competition": 1,
+     "affiliateTracks": 5,
+     "news": {
+      "n30": 40,
+      "role": 3,
+      "top": [
+       "교원그룹 키녹, '프리미엄 조식'등 식음료 서비스 강화",
+       "교원그룹, 업무 전반에 AI 도입…“AX 가속화”",
+       "장평순 교원그룹 회장, AI 전환 속도…교육 혁신·조직 역량 강화"
+      ]
+     }
+    },
+    {
+     "name": "AI 플랫폼 개발 (경력)",
+     "affiliate": "교원그룹",
+     "w": {
+      "서비스기획": 1,
+      "요구사항 정의": 1,
+      "화면설계·UX": 1,
+      "프로젝트 관리": 1,
+      "데이터 분석": 2,
+      "지표·KPI": 1,
+      "SQL·툴": 1,
+      "SNS·소셜": 1,
+      "프로세스 개선": 2,
+      "AI·LLM": 2,
+      "플랫폼": 3,
+      "금융·핀테크": 1,
+      "교육": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 1,
+     "competition": 0.04,
+     "affiliateTracks": 5,
+     "news": {
+      "n30": 40,
+      "role": 3,
+      "top": [
+       "교원그룹 키녹, '프리미엄 조식'등 식음료 서비스 강화",
+       "교원그룹, 업무 전반에 AI 도입…“AX 가속화”",
+       "장평순 교원그룹 회장, AI 전환 속도…교육 혁신·조직 역량 강화"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "jasoseol-106771",
+   "company": "금호익스프레스",
+   "type": "",
+   "end": "2026-11-06",
+   "url": "https://www.kumhobuslines.co.kr/fr/recruit/job_view/15?csrfToken=ecfcd79e-5e0b-41c4-85ec-3cb5f5695784&offset=0&limit=20&searchProgress=FRONT_ING&searchCompanyNo=",
+   "group": "",
+   "why": [
+    "직무 2개",
+    "마감일 명시",
+    "제목에 직무 미표기·공채 표현"
+   ],
+   "jdSource": "공식 본문",
+   "oneOnly": false,
+   "revenue": null,
+   "pastTracks": 2,
+   "tracks": [
+    {
+     "name": "경영지원(서울)",
+     "affiliate": "금호익스프레스",
+     "w": {
+      "이해관계자 조율": 2,
+      "데이터 분석": 1,
+      "SNS·소셜": 2,
+      "프로세스 개선": 1,
+      "문서화·가이드": 1,
+      "정산·계약": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 41,
+     "competition": 1,
+     "affiliateTracks": 2,
+     "news": {
+      "n30": 11,
+      "role": 0,
+      "top": [
+       "[부고] 이계영(금호고속 금호익스프레스 사장)씨 장인상",
+       "[부고] 이계영 씨(금호고속·금호익스프레스 사장) 장인상",
+       "[부고] 이계영(금호고속 금호익스프레스 사장)씨 장인상"
+      ]
+     }
+    },
+    {
+     "name": "경영지원(광주)",
+     "affiliate": "금호익스프레스",
+     "w": {
+      "이해관계자 조율": 2,
+      "데이터 분석": 1,
+      "SNS·소셜": 2,
+      "프로세스 개선": 1,
+      "문서화·가이드": 1,
+      "정산·계약": 1,
+      "여행·모빌리티": 1,
+      "글로벌·해외": 1
+     },
+     "ownJd": false,
+     "headcount": null,
+     "applicants": 6,
+     "competition": 0.15,
+     "affiliateTracks": 2,
+     "news": {
+      "n30": 11,
+      "role": 0,
+      "top": [
+       "[부고] 이계영(금호고속 금호익스프레스 사장)씨 장인상",
+       "[부고] 이계영 씨(금호고속·금호익스프레스 사장) 장인상",
+       "[부고] 이계영(금호고속 금호익스프레스 사장)씨 장인상"
       ]
      }
     }

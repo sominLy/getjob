@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-16T04:11:27.895584+00:00",
+ "collectedAt": "2026-10-16T17:33:38.328096+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -168,6 +168,20 @@
    "openDate": "2026-08-21",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "MD 재고 운영지원 담당자 (계약직)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/240790",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-16",
+   "new": true,
+   "found": "2026-10-16"
   },
   {
    "회사": "CJ올리브영",
@@ -466,7 +480,7 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
-   "title": "[강남언니] 미국 도메스틱 플랫폼 사업개발 인턴 (체험형)",
+   "title": "[강남언니] 미국 사업개발 인턴 (체험형)",
    "career": "신입",
    "emp": "인턴",
    "due": "상시",
@@ -830,16 +844,30 @@
   {
    "회사": "마카롱팩토리",
    "플랫폼": "greetinghr",
-   "title": "파트너 영업관리 (인턴)",
+   "title": "그로스 매니저 - 마케팅 파트",
+   "career": "경력 1년~4",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://mycle.career.greetinghr.com/ko/o/240792",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-16",
+   "new": true,
+   "found": "2026-10-16"
+  },
+  {
+   "회사": "마카롱팩토리",
+   "플랫폼": "greetinghr",
+   "title": "그로스 매니저 - 마케팅 파트 (전환형 인턴)",
    "career": "신입",
    "emp": "인턴",
    "due": "상시",
-   "link": "https://mycle.career.greetinghr.com/ko/o/240552",
-   "cat": "세일즈·CX·제휴",
+   "link": "https://mycle.career.greetinghr.com/ko/o/240798",
+   "cat": "마케팅·브랜딩",
    "intern": true,
-   "openDate": "2026-10-15",
-   "new": false,
-   "found": "2026-10-15"
+   "openDate": "2026-10-16",
+   "new": true,
+   "found": "2026-10-16"
   },
   {
    "회사": "메가스터디교육",
@@ -936,7 +964,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-16",
-   "new": true,
+   "new": false,
    "found": "2026-10-16"
   },
   {
@@ -1468,7 +1496,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-16",
-   "new": true,
+   "new": false,
    "found": "2026-10-16"
   },
   {
@@ -1524,20 +1552,6 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-02",
-   "new": false,
-   "found": "2026-10-02"
-  },
-  {
-   "회사": "카카오페이",
-   "플랫폼": "greetinghr",
-   "title": "[어시스턴트] 혜택/참여형 서비스 운영 지원",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/239263",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-10-01",
    "new": false,
    "found": "2026-10-02"
   },
@@ -1720,7 +1734,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-16",
-   "new": true,
+   "new": false,
    "found": "2026-10-16"
   },
   {
@@ -1964,6 +1978,20 @@
   {
    "회사": "헥토",
    "플랫폼": "greetinghr",
+   "title": "[헥토이노베이션] 휘슬 콘텐츠 마케팅 (인턴)",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://www.hectocareers.co.kr/ko/o/240619",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-16",
+   "new": true,
+   "found": "2026-10-16"
+  },
+  {
+   "회사": "헥토",
+   "플랫폼": "greetinghr",
    "title": "[헥토] AI 상품기획 및 PM (신입/경력)",
    "career": "경력 0년~10",
    "emp": "정규직",
@@ -2072,20 +2100,6 @@
    "openDate": "2026-04-01",
    "new": false,
    "found": "2026-10-03"
-  },
-  {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
-   "title": "[쿠팡]이츠 광고사업부 영업(기본급 보장, 신입 가능, 전환가능)",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8202986",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-27",
-   "new": false,
-   "found": "2026-09-29"
   },
   {
    "회사": "쿠팡",
@@ -2566,20 +2580,6 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Growth Manager, App Sales (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/132951558273802950",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-08",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
    "title": "Account Strategist (Fixed-Term Contract) (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2589,6 +2589,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-03",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Growth Manager, App Sales (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/132951558273802950",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": false,
+   "found": "2026-10-08",
    "openDate": ""
   },
   {
@@ -2645,6 +2659,34 @@
    "intern": false,
    "new": false,
    "found": "2026-10-03",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "AI Customer Engineer, Retail, Commerce, Manufacturing, Google Cloud (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/132325631214920390",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-16",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Strategic Partnerships Manager, YouTube Product Partnerships (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/100844689166344902",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-16",
    "openDate": ""
   },
   {
