@@ -5,7 +5,10 @@ export const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/5
 export const stripHtml = (h) => h
   .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ")
   .replace(/<\/(li|p|h\d|div|br)>|<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, " ")
-  .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&")
+  .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ")
+  // 숫자 엔티티(넷플릭스는 '12+ years'를 '12&#43; years'로 적는다 — 그대로 두면 연차를 못 읽음)
+  .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+  .replace(/&amp;/g, "&")
   .replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n").trim();
 
 /** JSON 안에서 가장 긴 문자열 값(대개 공고 본문 HTML)을 찾는다 */

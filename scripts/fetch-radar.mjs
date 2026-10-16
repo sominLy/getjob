@@ -26,7 +26,9 @@ const ANTHROPIC_SEOUL_OFFICE = 4043781008;
 const FIT_WORDS = /product|PO\b|PM\b|기획|operations|운영|growth|그로스|marketing|마케팅|\bAI\b|LLM|data|데이터|CRM|program manager|strategy|전략|business development/i;
 
 const decode = (h) => h
-  .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&")
+  .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ")
+  .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+  .replace(/&amp;/g, "&")
   .replace(/<\/(li|p|h\d|div)>|<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, " ")
   .replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n").trim();
 
