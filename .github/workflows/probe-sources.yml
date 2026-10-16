@@ -19,5 +19,9 @@ jobs:
         with:
           node-version: 20
       # 수집 스크립트를 고쳤을 때 main에 합치기 전에 실제로 도는지만 확인한다(결과 파일은 커밋하지 않음)
-      # 그리팅 '경력 N년 이상'(옆 칸 정보)이 연차로 잡히는지 — 쏘카·컬리
-      - run: ONLY=쏘카,컬리 node scripts/fetch-companies.mjs
+      # 넷플릭스 공고 본문에서 연차 문장이 어떻게 적혀 있는지(연차를 못 읽은 공고)
+      - run: |
+          for id in 790318793899 790318350853 790317631095; do
+            echo "=== $id"
+            curl -s "https://explore.jobs.netflix.net/api/apply/v2/jobs/$id?domain=netflix.com" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);const t=(j.job_description||"");console.log("len",t.length);for(const m of t.matchAll(/.{0,80}(year|yrs|experience|경력).{0,80}/gi))console.log(JSON.stringify(m[0]))})'
+          done
