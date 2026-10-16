@@ -102,6 +102,7 @@ export function extractKeywords(text) {
  */
 export function yearsIn(text) {
   if (!text) return null;
+  text = text.replace(/&#43;|&#x2b;|&plus;/gi, "+");   // 엔티티가 남은 본문 대비('12&#43; years')
   const mins = [];
   const patterns = [
     // "12+ years of experience", "10 years' relevant experience", "8 yrs of progressive marketing experience"
