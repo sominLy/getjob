@@ -12999,9 +12999,75 @@
      ],
      "end": "2026-11-01",
      "url": "https://innocean.recruiter.co.kr/career/jobs/131401"
+    },
+    {
+     "id": "linkareer-357420",
+     "company": "CJ프레시웨이",
+     "title": "",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-10-30",
+     "url": "https://linkareer.com/activity/357420"
     }
    ],
-   "archived": [],
+   "archived": [
+    {
+     "id": "jasoseol-106382",
+     "company": "한전원자력연료(KNF)",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106495",
+     "company": "자이에스앤디",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106532",
+     "company": "위버스컴퍼니",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106549",
+     "company": "테크윙",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106571",
+     "company": "디앤오",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106547",
+     "company": "유신",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106582",
+     "company": "한국벤처캐피탈협회",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106624",
+     "company": "오뚜기",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106632",
+     "company": "유안타증권",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "jasoseol-106642",
+     "company": "엘티정밀",
+     "end": "2026-10-15"
+    },
+    {
+     "id": "linkareer-355480",
+     "company": "오뚜기",
+     "end": "2026-10-15"
+    }
+   ],
    "removed": [],
    "compNew": [
     {
@@ -13068,12 +13134,37 @@
      "company": "쏘카(나인투원)",
      "title": "[쏘카일레클] 사업기획 팀장",
      "url": "https://socar.career.greetinghr.com/o/240561"
+    },
+    {
+     "company": "메가스터디교육",
+     "title": "[러셀] 러셀전주학원 교무기획 채용",
+     "url": "https://megastudyedu.career.greetinghr.com/ko/o/240641"
+    },
+    {
+     "company": "하이브",
+     "title": "[BELIFT LAB] 콘텐츠 외주관리/제작 행정 담당자*",
+     "url": "https://careers.hybecorp.com/ko/o/240668"
+    },
+    {
+     "company": "카카오페이",
+     "title": "[계약직] 사업 담당자 - 가맹점 운영",
+     "url": "https://kakaopay.career.greetinghr.com/ko/o/240505"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Slate & Brand Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315562772"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Ads Partnership Manager - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315824083"
     }
    ],
-   "total": 335,
-   "archiveTotal": 630,
-   "preds": 298,
-   "compTotal": 555
+   "total": 325,
+   "archiveTotal": 616,
+   "preds": 299,
+   "compTotal": 556
   }
  ],
  "updated": "2026-10-16"

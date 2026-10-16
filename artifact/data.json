@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-15T17:50:40.595231+00:00",
+ "collectedAt": "2026-10-16T04:11:27.895584+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -460,7 +460,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-15",
-   "new": true,
+   "new": false,
    "found": "2026-10-15"
   },
   {
@@ -838,7 +838,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": true,
    "openDate": "2026-10-15",
-   "new": true,
+   "new": false,
    "found": "2026-10-15"
   },
   {
@@ -928,6 +928,20 @@
   {
    "회사": "메가스터디교육",
    "플랫폼": "greetinghr",
+   "title": "[러셀] 러셀전주학원 교무기획 채용",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "2026-10-25",
+   "link": "https://megastudyedu.career.greetinghr.com/ko/o/240641",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-16",
+   "new": true,
+   "found": "2026-10-16"
+  },
+  {
+   "회사": "메가스터디교육",
+   "플랫폼": "greetinghr",
    "title": "[유초중] 고객센터 기술 상담사 채용",
    "career": "경력 1년~",
    "emp": "계약직",
@@ -978,7 +992,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-15",
-   "new": true,
+   "new": false,
    "found": "2026-10-15"
   },
   {
@@ -1328,7 +1342,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-15",
-   "new": true,
+   "new": false,
    "found": "2026-10-15"
   },
   {
@@ -1446,6 +1460,20 @@
   {
    "회사": "카카오페이",
    "플랫폼": "greetinghr",
+   "title": "[계약직] 사업 담당자 - 가맹점 운영",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/240505",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-16",
+   "new": true,
+   "found": "2026-10-16"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
    "title": "[어시스턴트] 유저리서치 업무 지원",
    "career": "신입",
    "emp": "인턴",
@@ -1454,7 +1482,7 @@
    "cat": "데이터·리서치",
    "intern": true,
    "openDate": "2026-10-15",
-   "new": true,
+   "new": false,
    "found": "2026-10-15"
   },
   {
@@ -1680,6 +1708,20 @@
    "openDate": "2026-09-09",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
+   "title": "[BELIFT LAB] 콘텐츠 외주관리/제작 행정 담당자*",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/240668",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-16",
+   "new": true,
+   "found": "2026-10-16"
   },
   {
    "회사": "하이브",
