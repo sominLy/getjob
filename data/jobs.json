@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -3507,25 +3507,6 @@
       "found": "2026-09-22"
     },
     {
-      "id": "linkareer-352850",
-      "company": "주식회사 더파운더즈",
-      "type": "",
-      "roles": [
-        "기획/전략",
-        "마케팅",
-        "브랜드",
-        "콘텐츠"
-      ],
-      "start": "",
-      "end": "2026-10-16",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/352850",
-      "hist": "",
-      "found": "2026-09-23"
-    },
-    {
       "id": "jasoseol-106423",
       "company": "코르트",
       "type": "",
@@ -3554,25 +3535,6 @@
       "url": "https://www.google.com/about/careers/applications/jobs/results/105359333302117062",
       "hist": "Outcome Customer Engineer, Google Cloud (English, Korean)",
       "found": "2026-09-23"
-    },
-    {
-      "id": "jasoseol-106412",
-      "company": "굿네이버스 인터내셔날",
-      "type": "공기업",
-      "roles": [
-        "콘텐츠",
-        "마케팅",
-        "홍보/PR"
-      ],
-      "start": "2026-09-28",
-      "end": "2026-10-16",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://goodneighbors.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=267325",
-      "hist": "",
-      "found": "2026-09-28",
-      "title": "2027년 상반기 신입직원 공개채용"
     },
     {
       "id": "jasoseol-106415",
@@ -3928,21 +3890,6 @@
       "title": "2027 신입사원 채용"
     },
     {
-      "id": "jasoseol-106489",
-      "company": "한국소재융합연구원(KIMCO)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-10-01",
-      "end": "2026-10-16",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.kimco.re.kr/recruit/recruit_person/list",
-      "hist": "",
-      "found": "2026-10-01",
-      "title": "2026년도 제8차 공개채용(정규직)"
-    },
-    {
       "id": "jasoseol-106518",
       "company": "엠에이피건축종합건축사사무소",
       "type": "",
@@ -4031,41 +3978,6 @@
       "hist": "",
       "found": "2026-10-01",
       "title": "2026년 하반기 신입사원 공개채용"
-    },
-    {
-      "id": "jasoseol-106529",
-      "company": "한국벤처투자(KVIC)",
-      "type": "공기업",
-      "roles": [
-        "금융/심사"
-      ],
-      "start": "2026-10-02",
-      "end": "2026-10-16",
-      "endTime": "15:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kvic.incruit.com/hire/viewhire.asp?projectid=106",
-      "hist": "",
-      "found": "2026-10-01",
-      "title": "2026년 3차 일반 전문계약직(지역펀드운용) 채용공고"
-    },
-    {
-      "id": "jasoseol-106530",
-      "company": "한국벤처투자(KVIC)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "금융/심사"
-      ],
-      "start": "2026-10-02",
-      "end": "2026-10-16",
-      "endTime": "15:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kvic.incruit.com/hire/viewhire.asp?projectid=105",
-      "hist": "",
-      "found": "2026-10-01",
-      "title": "2026년 3차 신입(NCS)·경력 채용공고"
     },
     {
       "id": "jasoseol-106541",
@@ -4184,26 +4096,6 @@
       "found": "2026-10-02"
     },
     {
-      "id": "jasoseol-106454",
-      "company": "농민신문사",
-      "type": "",
-      "roles": [
-        "기획/전략",
-        "마케팅",
-        "영업",
-        "영업관리"
-      ],
-      "start": "2026-10-02",
-      "end": "2026-10-16",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://jrs.jobkorea.co.kr/nongmin",
-      "hist": "",
-      "found": "2026-10-02",
-      "title": "신규직원채용"
-    },
-    {
       "id": "jasoseol-106513",
       "company": "현대오토에버",
       "type": "대기업",
@@ -4256,24 +4148,6 @@
       "hist": "",
       "found": "2026-10-02",
       "title": "2026년 하반기 채용연계형 인턴십"
-    },
-    {
-      "id": "jasoseol-106546",
-      "company": "사노피아벤티스코리아",
-      "type": "중견기업",
-      "roles": [
-        "마케팅",
-        "브랜드"
-      ],
-      "start": "2026-10-02",
-      "end": "2026-10-16",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers?locationCountry=7a5a2aadf9d34086a2bfbfd408bc28da",
-      "hist": "",
-      "found": "2026-10-02",
-      "title": "2027년 Internship Program 모집"
     },
     {
       "id": "jasoseol-106553",
@@ -4495,21 +4369,6 @@
       "found": "2026-10-06"
     },
     {
-      "id": "jasoseol-106563",
-      "company": "KPX케미칼",
-      "title": "2026년 각 부문별 채용",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-10-05",
-      "end": "2026-10-16",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kpxchemical.recruiter.im/recruit?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610kpx",
-      "hist": "",
-      "found": "2026-10-06"
-    },
-    {
       "id": "jasoseol-106578",
       "company": "코오롱인더스트리 제조부문",
       "title": "채용전환형 인턴 모집",
@@ -4562,23 +4421,6 @@
       "found": "2026-10-06"
     },
     {
-      "id": "jasoseol-106587",
-      "company": "BNK저축은행",
-      "title": "2026년 신입행원 채용",
-      "type": "금융",
-      "roles": [
-        "금융/심사"
-      ],
-      "start": "2026-10-04",
-      "end": "2026-10-16",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://bnksb.incruit.com/hire/viewhire.asp?projectid=102",
-      "hist": "",
-      "found": "2026-10-06"
-    },
-    {
       "id": "linkareer-355402",
       "company": "동광제약",
       "type": "",
@@ -4607,28 +4449,6 @@
       "confirmed": true,
       "source": "링커리어",
       "url": "https://linkareer.com/activity/355381",
-      "hist": "",
-      "found": "2026-10-07"
-    },
-    {
-      "id": "jasoseol-106561",
-      "company": "신한라이프생명보험",
-      "title": "2026 신입채용",
-      "type": "금융",
-      "roles": [
-        "영업관리",
-        "영업",
-        "기획/전략",
-        "MD",
-        "마케팅",
-        "금융/심사"
-      ],
-      "start": "2026-10-07",
-      "end": "2026-10-16",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://shinhan-life.recruiter.co.kr/career/recruit2026",
       "hist": "",
       "found": "2026-10-07"
     },
@@ -5088,24 +4908,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://celimax.ninehire.site/job_posting/qFKxY021",
-      "hist": "",
-      "found": "2026-10-08"
-    },
-    {
-      "id": "jasoseol-106647",
-      "company": "더파운더즈",
-      "title": "[ANUA] 글로벌 콘텐츠 마케팅 채용전환형 인턴",
-      "type": "",
-      "roles": [
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-22",
-      "end": "2026-10-16",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://thefounders.careers/job_posting/X9gML0SS?utm_source=jasosul",
       "hist": "",
       "found": "2026-10-08"
     },
@@ -6657,19 +6459,20 @@
       "found": "2026-10-16"
     },
     {
-      "id": "pred-미래에셋생명-202610",
-      "company": "미래에셋생명",
-      "type": "금융",
+      "id": "linkareer-356625",
+      "company": "크래프톤",
+      "type": "",
       "roles": [
-        "PM/서비스기획",
-        "금융/심사"
+        "기획/전략"
       ],
-      "start": "2026-10-16",
-      "end": "2026-10-30",
-      "confirmed": false,
-      "source": "예상(작년 자소설닷컴 기록)",
-      "url": "https://jasoseol.com/recruit/100581",
-      "hist": "작년 10/17~10/31 ‘2025년 하반기 신입채용’ 기준 예상"
+      "start": "",
+      "end": "2026-10-23",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/356625",
+      "hist": "",
+      "found": "2026-10-17"
     },
     {
       "id": "pred-충청에너지서비스-202610",
@@ -10587,7 +10390,10 @@
       "type": "대기업",
       "roles": [
         "기획/전략",
-        "HR/인사"
+        "HR/인사",
+        "PM/서비스기획",
+        "영업",
+        "영업관리"
       ],
       "start": "2027-03-14",
       "end": "2027-03-29",
@@ -10595,6 +10401,50 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/102982",
       "hist": "작년 03/15~03/30 ‘2026 상반기 대규모 신입사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국에너지공단-202703",
+      "company": "한국에너지공단",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-03-15",
+      "end": "2027-03-24",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/102981",
+      "hist": "작년 03/16~03/25 ‘신입직원(채용형 인턴) 채용 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-ktg-202703",
+      "company": "KT&G",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "금융/심사"
+      ],
+      "start": "2027-03-15",
+      "end": "2027-04-05",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103108",
+      "hist": "작년 03/16~04/06 ‘2026년 상반기 신입/경력사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-현대아산-202703",
+      "company": "현대아산",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "HR/인사"
+      ],
+      "start": "2027-03-15",
+      "end": "2027-03-25",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103119",
+      "hist": "작년 03/16~03/26 ‘2026 상반기 채용연계형 인턴 모집’ 기준 예상"
     }
   ]
 }

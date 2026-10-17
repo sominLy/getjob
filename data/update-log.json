@@ -13351,7 +13351,111 @@
    "archiveTotal": 617,
    "preds": 298,
    "compTotal": 549
+  },
+  {
+   "date": "2026-10-18",
+   "added": [
+    {
+     "id": "linkareer-356625",
+     "company": "크래프톤",
+     "title": "",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-10-23",
+     "url": "https://linkareer.com/activity/356625"
+    }
+   ],
+   "archived": [
+    {
+     "id": "linkareer-352850",
+     "company": "주식회사 더파운더즈",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106412",
+     "company": "굿네이버스 인터내셔날",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106489",
+     "company": "한국소재융합연구원(KIMCO)",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106529",
+     "company": "한국벤처투자(KVIC)",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106530",
+     "company": "한국벤처투자(KVIC)",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106454",
+     "company": "농민신문사",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106546",
+     "company": "사노피아벤티스코리아",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106563",
+     "company": "KPX케미칼",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106587",
+     "company": "BNK저축은행",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106561",
+     "company": "신한라이프생명보험",
+     "end": "2026-10-16"
+    },
+    {
+     "id": "jasoseol-106647",
+     "company": "더파운더즈",
+     "end": "2026-10-16"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Title Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790316092017"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Slate & Brand Marketing - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315562772"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Ads Partnership Manager - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790315824083"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Senior Account Manager",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318738586"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Marketing Partnerships Creative Manager - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790318793899"
+    }
+   ],
+   "total": 329,
+   "archiveTotal": 618,
+   "preds": 300,
+   "compTotal": 554
   }
  ],
- "updated": "2026-10-17"
+ "updated": "2026-10-18"
 }

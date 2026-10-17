@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-16T17:33:38.328096+00:00",
+ "collectedAt": "2026-10-17T16:32:46.714675+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -180,7 +180,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-16",
-   "new": true,
+   "new": false,
    "found": "2026-10-16"
   },
   {
@@ -852,7 +852,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-16",
-   "new": true,
+   "new": false,
    "found": "2026-10-16"
   },
   {
@@ -866,7 +866,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-16",
-   "new": true,
+   "new": false,
    "found": "2026-10-16"
   },
   {
@@ -1986,7 +1986,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-16",
-   "new": true,
+   "new": false,
    "found": "2026-10-16"
   },
   {
@@ -2671,7 +2671,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/132325631214920390",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-16",
    "openDate": ""
   },
@@ -2685,22 +2685,8 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/100844689166344902",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
-   "found": "2026-10-16",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "Customer Engineer, Google Cloud (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/109406637113909958",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
    "new": false,
-   "found": "2026-10-03",
+   "found": "2026-10-16",
    "openDate": ""
   },
   {
