@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -6475,6 +6475,112 @@
       "found": "2026-10-17"
     },
     {
+      "id": "jasoseol-106145",
+      "company": "NHN waplat",
+      "title": "[NHN waplat] 와플랫 사업 기획",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-09-08",
+      "end": "2026-11-08",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4385818313472503442?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20waplat_Business",
+      "hist": "",
+      "found": "2026-10-18"
+    },
+    {
+      "id": "jasoseol-106751",
+      "company": "다이닝브랜즈그룹",
+      "title": "대졸 신입사원 채용",
+      "type": "중견기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "HR/인사",
+        "브랜드",
+        "마케팅"
+      ],
+      "start": "2026-10-18",
+      "end": "2026-11-01",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://diningbrands.career.greetinghr.com/ko/intro",
+      "hist": "",
+      "found": "2026-10-18"
+    },
+    {
+      "id": "jasoseol-106760",
+      "company": "로지스올",
+      "title": "2027년 신입사원 채용공고",
+      "type": "중견기업",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-10-18",
+      "end": "2026-11-01",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://logisall.recruiter.co.kr/career/apply",
+      "hist": "",
+      "found": "2026-10-18"
+    },
+    {
+      "id": "jasoseol-106774",
+      "company": "KSM",
+      "title": "2026년 반도체 장비부품 신입/경력 채용",
+      "type": "",
+      "roles": [
+        "영업",
+        "HR/인사"
+      ],
+      "start": "2026-10-18",
+      "end": "2026-10-25",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://ksm.ninehire.site/",
+      "hist": "",
+      "found": "2026-10-18"
+    },
+    {
+      "id": "wanted-392824",
+      "company": "크레토비(CREATOBI)",
+      "type": "",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "",
+      "end": "",
+      "endTime": "",
+      "confirmed": true,
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/wd/392824",
+      "hist": " · 상시/수시 채용으로 추정(마감일 미표기)",
+      "found": "2026-10-18"
+    },
+    {
+      "id": "wanted-392700",
+      "company": "넵튠(Neptune)",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "",
+      "endTime": "",
+      "confirmed": true,
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/wd/392700",
+      "hist": " · 상시/수시 채용으로 추정(마감일 미표기)",
+      "found": "2026-10-18"
+    },
+    {
       "id": "pred-충청에너지서비스-202610",
       "company": "충청에너지서비스",
       "type": "대기업",
@@ -10445,6 +10551,51 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/103119",
       "hist": "작년 03/16~03/26 ‘2026 상반기 채용연계형 인턴 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-kb국민은행-202703",
+      "company": "KB국민은행",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "영업관리",
+        "금융/심사"
+      ],
+      "start": "2027-03-16",
+      "end": "2027-03-24",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103145",
+      "hist": "작년 03/17~03/25 ‘2026년 상반기 신입행원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-아모레퍼시픽-202703",
+      "company": "아모레퍼시픽",
+      "type": "대기업",
+      "roles": [],
+      "start": "2027-03-16",
+      "end": "2027-04-07",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103170",
+      "hist": "작년 03/17~04/08 ‘2026 상반기 신입사원 수시채용’ 기준 예상"
+    },
+    {
+      "id": "pred-gs칼텍스-202703",
+      "company": "GS칼텍스",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "마케팅",
+        "영업관리",
+        "HR/인사"
+      ],
+      "start": "2027-03-17",
+      "end": "2027-03-30",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103002",
+      "hist": "작년 03/18~03/31 ‘2026년 상반기 신입/경력사원 채용’ 기준 예상"
     }
   ]
 }

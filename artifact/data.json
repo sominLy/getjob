@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-17T16:32:46.714675+00:00",
+ "collectedAt": "2026-10-18T16:38:04.064570+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -816,6 +816,20 @@
   {
    "회사": "마카롱팩토리",
    "플랫폼": "greetinghr",
+   "title": "그로스 매니저 - 마케팅 파트",
+   "career": "경력 1년~4",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://mycle.career.greetinghr.com/ko/o/240792",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-16",
+   "new": false,
+   "found": "2026-10-16"
+  },
+  {
+   "회사": "마카롱팩토리",
+   "플랫폼": "greetinghr",
    "title": "CS 매니저 (전환형 인턴)",
    "career": "신입",
    "emp": "인턴",
@@ -844,20 +858,6 @@
   {
    "회사": "마카롱팩토리",
    "플랫폼": "greetinghr",
-   "title": "그로스 매니저 - 마케팅 파트",
-   "career": "경력 1년~4",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://mycle.career.greetinghr.com/ko/o/240792",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-10-16",
-   "new": false,
-   "found": "2026-10-16"
-  },
-  {
-   "회사": "마카롱팩토리",
-   "플랫폼": "greetinghr",
    "title": "그로스 매니저 - 마케팅 파트 (전환형 인턴)",
    "career": "신입",
    "emp": "인턴",
@@ -868,48 +868,6 @@
    "openDate": "2026-10-16",
    "new": false,
    "found": "2026-10-16"
-  },
-  {
-   "회사": "메가스터디교육",
-   "플랫폼": "greetinghr",
-   "title": "[MEXX] MEXX학원 고객 지원/회계/행정 채용",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "2026-10-18",
-   "link": "https://megastudyedu.career.greetinghr.com/ko/o/212705",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-10-12",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "메가스터디교육",
-   "플랫폼": "greetinghr",
-   "title": "[고등] 온라인 교육 콘텐츠 기획(과학) 채용",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "2026-10-18",
-   "link": "https://megastudyedu.career.greetinghr.com/ko/o/238606",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-10-12",
-   "new": false,
-   "found": "2026-09-29"
-  },
-  {
-   "회사": "메가스터디교육",
-   "플랫폼": "greetinghr",
-   "title": "[고등] 온라인 입시 서비스 기획 채용",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "2026-10-18",
-   "link": "https://megastudyedu.career.greetinghr.com/ko/o/233562",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-10-12",
-   "new": false,
-   "found": "2026-10-12"
   },
   {
    "회사": "메가스터디교육",
@@ -928,34 +886,6 @@
   {
    "회사": "메가스터디교육",
    "플랫폼": "greetinghr",
-   "title": "[러셀] 러셀기숙학원(여전문관) 회계/상담 채용",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "2026-10-18",
-   "link": "https://megastudyedu.career.greetinghr.com/ko/o/238616",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-10-12",
-   "new": false,
-   "found": "2026-09-29"
-  },
-  {
-   "회사": "메가스터디교육",
-   "플랫폼": "greetinghr",
-   "title": "[러셀] 러셀대구학원 교무기획 채용",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "2026-10-18",
-   "link": "https://megastudyedu.career.greetinghr.com/ko/o/238409",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-10-12",
-   "new": false,
-   "found": "2026-09-29"
-  },
-  {
-   "회사": "메가스터디교육",
-   "플랫폼": "greetinghr",
    "title": "[러셀] 러셀전주학원 교무기획 채용",
    "career": "경력무관",
    "emp": "계약직",
@@ -966,34 +896,6 @@
    "openDate": "2026-10-16",
    "new": false,
    "found": "2026-10-16"
-  },
-  {
-   "회사": "메가스터디교육",
-   "플랫폼": "greetinghr",
-   "title": "[유초중] 고객센터 기술 상담사 채용",
-   "career": "경력 1년~",
-   "emp": "계약직",
-   "due": "2026-10-18",
-   "link": "https://megastudyedu.career.greetinghr.com/ko/o/205728",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-10-12",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "메가스터디교육",
-   "플랫폼": "greetinghr",
-   "title": "[유초중] 초중등 입시 컨설턴트 채용",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "2026-10-18",
-   "link": "https://megastudyedu.career.greetinghr.com/ko/o/74528",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-10-12",
-   "new": false,
-   "found": "2026-10-03"
   },
   {
    "회사": "무신사",
@@ -1386,20 +1288,6 @@
    "openDate": "2026-10-07",
    "new": false,
    "found": "2026-10-01"
-  },
-  {
-   "회사": "와디즈",
-   "플랫폼": "greetinghr",
-   "title": "펀딩 프로모션 마케팅 운영 담당자 (인턴)",
-   "career": "-",
-   "emp": "인턴",
-   "due": "2026-10-18",
-   "link": "https://job.wadiz.io/ko/o/234747",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-10-13",
-   "new": false,
-   "found": "2026-10-13"
   },
   {
    "회사": "와디즈",
@@ -2338,20 +2226,6 @@
    "new": false,
    "found": "2026-09-29",
    "openDate": "2026-09-22"
-  },
-  {
-   "회사": "Anthropic",
-   "플랫폼": "global",
-   "title": "Revenue Strategy & Operations",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": "2026-08-31"
   },
   {
    "회사": "Anthropic",

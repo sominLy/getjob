@@ -13455,7 +13455,100 @@
    "archiveTotal": 618,
    "preds": 300,
    "compTotal": 554
+  },
+  {
+   "date": "2026-10-19",
+   "added": [
+    {
+     "id": "jasoseol-106145",
+     "company": "NHN waplat",
+     "title": "[NHN waplat] 와플랫 사업 기획",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-08",
+     "url": "https://careers.nhn.com/recruits/4385818313472503442?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20waplat_Business"
+    },
+    {
+     "id": "jasoseol-106751",
+     "company": "다이닝브랜즈그룹",
+     "title": "대졸 신입사원 채용",
+     "roles": [
+      "영업",
+      "영업관리",
+      "HR/인사",
+      "브랜드"
+     ],
+     "end": "2026-11-01",
+     "url": "https://diningbrands.career.greetinghr.com/ko/intro"
+    },
+    {
+     "id": "jasoseol-106760",
+     "company": "로지스올",
+     "title": "2027년 신입사원 채용공고",
+     "roles": [
+      "영업",
+      "영업관리"
+     ],
+     "end": "2026-11-01",
+     "url": "https://logisall.recruiter.co.kr/career/apply"
+    },
+    {
+     "id": "jasoseol-106774",
+     "company": "KSM",
+     "title": "2026년 반도체 장비부품 신입/경력 채용",
+     "roles": [
+      "영업",
+      "HR/인사"
+     ],
+     "end": "2026-10-25",
+     "url": "https://ksm.ninehire.site/"
+    },
+    {
+     "id": "wanted-392824",
+     "company": "크레토비(CREATOBI)",
+     "title": " · 상시/수시 채용으로 추정(마감일 미표기)",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "",
+     "url": "https://www.wanted.co.kr/wd/392824"
+    },
+    {
+     "id": "wanted-392700",
+     "company": "넵튠(Neptune)",
+     "title": " · 상시/수시 채용으로 추정(마감일 미표기)",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "",
+     "url": "https://www.wanted.co.kr/wd/392700"
+    }
+   ],
+   "archived": [],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "넷플릭스",
+     "title": "Korea Finance Director - Strategy, Planning, and Studio Fina",
+     "url": "https://explore.jobs.netflix.net/careers/job/790317631095"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Senior Manager, Marketing Partnerships - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790317761805"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Manager, Content Financial Planning & Analysis (FP&A) - Kore",
+     "url": "https://explore.jobs.netflix.net/careers/job/790317865188"
+    }
+   ],
+   "total": 335,
+   "archiveTotal": 609,
+   "preds": 303,
+   "compTotal": 550
   }
  ],
- "updated": "2026-10-18"
+ "updated": "2026-10-19"
 }
