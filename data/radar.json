@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-18T16:40:02.975Z",
+  "collectedAt": "2026-10-19T19:26:30.370Z",
   "errors": {},
   "jobs": [
     {
@@ -680,27 +680,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Account Strategist (Fixed-Term Contract) (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/100077876442735302-account-strategist-fixedterm-contract-english-korean",
-      "years": null,
-      "noLimit": false,
-      "evidence": "Bachelor's degree or equivalent practical experience.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "open",
-      "fit": false,
-      "firstSeen": "2026-09-22",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\nExperience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nExperience in Google Workspace applications, including Docs, Slides, Sheets, and Forms.\nAbility to communicate in English and Korean fluently to collaborate with colleagues and complete tasks and projects.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Growth Manager, App Sales (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -804,6 +783,48 @@
       "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n10 years of experience in a technical sales engineering role in security or cloud native environments.\n\nExperience in cybersecurity (e.g., network security, SoC platform, threat detection, malware intelligence, cloud security posture management, or identity and access management systems).\n\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Agency Business Development Manager, DV360 (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/123877215795323590-agency-business-development-manager-dv360-english-korean",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5 years of industry experience in digital advertising, consultative sales, business development, or digital marketing.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-10-19",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of industry experience in digital advertising, consultative sales, business development, or digital marketing.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Customer Engineer, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/110340509670482630-customer-engineer-google-cloud-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor's degree or equivalent practical experience.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-10-19",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n1 year of experience with cloud native architecture and development methodologies in a customer-facing or support role.\nExperience with one or more programming languages.\nExperience in delivering technical presentations.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
     },
     {
       "source": "google",
