@@ -57,12 +57,20 @@ const WORKDAY = [
   ["텐센트", "tencent.wd1", "tencent", "Tencent_Careers", { locations: ["b3d4dad114e4100177c233d159a40000"] }],
 ];
 
-async function getJson(url, init = {}) {
-  const res = await fetch(url, { ...init, headers: { "User-Agent": UA, Accept: "application/json", ...(init.headers || {}) } });
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.json();
-}
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+/** 429(요청 과다)·5xx는 잠깐 쉬었다가 최대 3번 다시 받는다(넷플릭스·세일즈포스가 가끔 429를 줘서 그날 공고가 통째로 빠졌음) */
+async function getJson(url, init = {}) {
+  for (let i = 0; ; i++) {
+    const res = await fetch(url, { ...init, headers: { "User-Agent": UA, Accept: "application/json", ...(init.headers || {}) } });
+    if (res.ok) return res.json();
+    if (i < 3 && (res.status === 429 || res.status >= 500)) {
+      const wait = Math.min(60, Number(res.headers.get("retry-after")) || [5, 15, 30][i]);
+      await sleep(wait * 1000);
+      continue;
+    }
+    throw new Error(`${res.status} ${url}`);
+  }
+}
 
 /** 그리팅 목록 페이지에 박힌 {"deploy":…} 공고 객체들을 괄호 짝을 맞춰 꺼낸다 */
 function greetingOpenings(html) {
@@ -172,9 +180,18 @@ async function collectSocar() {
 }
 
 async function collectNetflix() {
-  const data = await getJson("https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&location=Seoul&num=100");
+  // 목록은 한 번에 일부만 돌려줄 때가 있어(날마다 다른 공고가 빠졌다 들어옴) start로 끝까지 넘겨 받는다
+  const positions = [];
+  for (let start = 0; start < 300; ) {
+    const data = await getJson(`https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&location=Seoul&num=100&start=${start}`);
+    const page = data.positions || [];
+    for (const p of page) if (!positions.some((x) => x.id === p.id)) positions.push(p);
+    start += page.length;
+    if (!page.length || start >= (data.count || 0)) break;
+    await sleep(500);
+  }
   const jobs = [];
-  for (const p of data.positions || []) {
+  for (const p of positions) {
     if (!SEOUL.test(p.location || "") || !relevant(p.name)) continue;
     // 목록의 설명은 앞부분만 올 때가 있어(연차 요건이 잘림) 상세 본문을 늘 받아 긴 쪽을 쓴다
     let text = p.job_description || "";
@@ -189,9 +206,11 @@ async function collectNetflix() {
 
 async function main() {
   // 처음 발견한 날은 직전 결과에서 이어받는다(새로 보인 공고만 오늘 날짜)
-  let prevFound = new Map();
-  try { prevFound = new Map(JSON.parse(await readFile(OUT, "utf-8")).jobs.map((j) => [j.url, j.found])); } catch {}
-  const today = new Date().toISOString().slice(0, 10);
+  // 하루 빠졌다 다시 보인 공고가 '새 공고'로 잡히지 않게, 한 번 본 공고의 발견일(seen)을 120일 동안 기억한다
+  let prev = { jobs: [], seen: {} };
+  try { prev = JSON.parse(await readFile(OUT, "utf-8")); } catch {}
+  const prevFound = new Map([...Object.entries(prev.seen || {}), ...(prev.jobs || []).map((j) => [j.url, j.found])]);
+  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);   // 한국 날짜(새벽에 돌아서 UTC면 하루 전으로 찍힘)
   const tasks = [
     ...GREETING.map(([c, b]) => [c, () => collectGreeting(c, b)]),
     ...GREENHOUSE.map(([c, t]) => [c, () => collectGreenhouse(c, t)]),
@@ -205,6 +224,7 @@ async function main() {
   const only = (process.env.ONLY || "").split(",").map((x) => x.trim()).filter(Boolean);
   const all = [];
   const errors = {};
+  const carried = [];
   for (const [name, fn] of tasks.filter(([n]) => !only.length || only.includes(n))) {
     try {
       const jobs = await fn();
@@ -213,6 +233,10 @@ async function main() {
     } catch (e) {
       errors[name] = e.message.split("\n")[0];
       console.error(`${name} 실패:`, errors[name]);
+      // 받지 못한 회사는 직전 공고를 그대로 둔다(하루 실패로 공고가 사라졌다 다시 '새 공고'로 뜨지 않게)
+      const keep = (prev.jobs || []).filter((j) => j.company === name || j.company.startsWith(`${name}(`));
+      carried.push(...keep);
+      if (keep.length) console.error(`  ${name}: 직전 공고 ${keep.length}건 유지`);
     }
   }
   const seen = new Set();
@@ -221,12 +245,15 @@ async function main() {
     ...j, years: yearsIn(`${j.title}\n${text}`), w: weights(`${j.title}\n${text}`), short: text.length < 200,
     found: prevFound.get(j.url) || today,
   }));
+  for (const j of carried) if (!seen.has(j.url)) { seen.add(j.url); jobs.push(j); }
   if (only.length) {
     jobs.forEach((j) => console.log(`  ${j.company} | ${j.title} | 연차 ${j.years} | 키워드 ${Object.keys(j.w).length} | ${j.url}`));
     console.log(`(점검 모드: ${only.join(",")} — 파일은 쓰지 않음)`);
     return;
   }
-  await writeFile(OUT, JSON.stringify({ updated: new Date().toISOString().slice(0, 10), errors, jobs }, null, 1) + "\n", "utf-8");
+  const cutoff = new Date(Date.now() - 120 * 864e5).toISOString().slice(0, 10);
+  const seenOut = Object.fromEntries([...prevFound, ...jobs.map((j) => [j.url, j.found])].filter(([, d]) => d && d >= cutoff));
+  await writeFile(OUT, JSON.stringify({ updated: new Date().toISOString().slice(0, 10), errors, jobs, seen: seenOut }, null, 1) + "\n", "utf-8");
   const noYears = jobs.filter((j) => j.years === null).length;
   console.log(`총 ${jobs.length}건 (연차 표시 없음 ${noYears}건) · 실패 ${Object.keys(errors).length}곳`);
 }

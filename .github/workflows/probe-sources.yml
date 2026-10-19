@@ -20,4 +20,5 @@ jobs:
           node-version: 20
       # 수집 스크립트를 고쳤을 때 main에 합치기 전에 실제로 도는지만 확인한다(결과 파일은 커밋하지 않음)
       # 넷플릭스 '12&#43; years'(숫자 엔티티)가 연차로 잡히는지
-      - run: ONLY=넷플릭스 node scripts/fetch-companies.mjs
+      # 넷플릭스 페이지 넘김·429 재시도가 도는지
+      - run: ONLY=넷플릭스,세일즈포스 node scripts/fetch-companies.mjs

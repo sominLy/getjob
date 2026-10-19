@@ -30,7 +30,8 @@ function diff(date, before, after) {
   const gone = [...bJobs.values()].filter((j) => !aJobs.has(j.id));
   const archived = gone.filter((j) => aArch.has(j.id)).map((j) => ({ id: j.id, company: j.company, end: j.end || "" }));
   const removed = gone.filter((j) => !aArch.has(j.id)).map((j) => ({ id: j.id, company: j.company, title: (j.title || "").slice(0, 40) }));
-  const bComp = new Set((before.comp?.jobs || []).map((j) => j.url));
+  // 직전 커밋에 없었더라도 예전에 본 공고(하루 빠졌다 돌아온 것)는 새 공고가 아니다 — fetch-companies의 seen(발견일)로 거른다
+  const bComp = new Set([...(before.comp?.jobs || []).map((j) => j.url), ...Object.keys(before.comp?.seen || {})]);
   const compNew = (after.comp?.jobs || []).filter((j) => !bComp.has(j.url)).map((j) => ({ company: j.company, title: j.title.slice(0, 60), url: j.url }));
   const preds = (after.jobs?.jobs || []).filter((j) => j.confirmed === false && !j.doneBy).length;
   return {
