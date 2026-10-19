@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-19T19:26:30.370Z",
+  "collectedAt": "2026-10-19T23:04:29.978Z",
   "errors": {},
   "jobs": [
     {
@@ -808,27 +808,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Customer Engineer, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/110340509670482630-customer-engineer-google-cloud-english-korean",
-      "years": null,
-      "noLimit": false,
-      "evidence": "Bachelor's degree or equivalent practical experience.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "open",
-      "fit": false,
-      "firstSeen": "2026-10-19",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n1 year of experience with cloud native architecture and development methodologies in a customer-facing or support role.\nExperience with one or more programming languages.\nExperience in delivering technical presentations.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -847,6 +826,27 @@
       "fit": true,
       "firstSeen": "2026-09-22",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Customer Engineer, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/110340509670482630-customer-engineer-google-cloud-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor's degree or equivalent practical experience.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-10-19",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n1 year of experience with cloud native architecture and development methodologies in a customer-facing or support role.\nExperience with one or more programming languages.\nExperience in delivering technical presentations.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
     },
     {
       "source": "google",

@@ -358,23 +358,6 @@
       "found": "2026-10-15"
     },
     {
-      "id": "jasoseol-106629",
-      "company": "KG ICT",
-      "title": "피지컬 AI 제조AX 캠퍼스 4기",
-      "type": "",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-10-11",
-      "end": "2026-10-18",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc33rsZk5YAYX4eZqeJQXY2aNDpEFFmtLO9gYMkIyKETVDvMg/viewform",
-      "hist": "",
-      "found": "2026-10-16"
-    },
-    {
       "id": "linkareer-352850",
       "company": "주식회사 더파운더즈",
       "type": "",
@@ -7077,6 +7060,21 @@
       "found": "2026-09-28"
     },
     {
+      "id": "jasoseol-106162",
+      "company": "울산알루미늄",
+      "title": "생산기능직 채용 (계약직-6개월)",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-09-10",
+      "end": "2026-09-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://ulsanaluminum.com/home/",
+      "hist": "",
+      "found": "2026-10-19"
+    },
+    {
       "id": "jasoseol-105205",
       "company": "NHN",
       "type": "대기업",
@@ -10403,22 +10401,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://seahsp.career.greetinghr.com/ko/home",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105536",
-      "company": "KG ICT",
-      "type": "",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-08-26",
-      "end": "2026-09-06",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSftsM29qo_KUM3l7PvNpYeTsO9sHv-p4BwGNKJKDhMWJ7EZ4g/viewform",
       "hist": "",
       "endTime": "23:59",
       "found": "2026-09-06"

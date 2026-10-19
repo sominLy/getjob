@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-19T19:24:38.622248+00:00",
+ "collectedAt": "2026-10-19T23:02:40.470542+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -40,7 +40,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -180,7 +180,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -838,7 +838,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -852,7 +852,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -866,7 +866,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -894,7 +894,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -908,7 +908,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -936,7 +936,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -950,7 +950,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -1006,7 +1006,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-16",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -1874,7 +1874,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-19",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -2070,7 +2070,7 @@
    "cat": "기획·PM/PO",
    "intern": true,
    "openDate": "2026-04-15",
-   "new": true,
+   "new": false,
    "found": "2026-10-19"
   },
   {
@@ -2517,21 +2517,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/123877215795323590",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
-   "found": "2026-10-19",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "Customer Engineer, Google Cloud (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/110340509670482630",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-19",
    "openDate": ""
   },
@@ -2547,6 +2533,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-03",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Customer Engineer, Google Cloud (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/110340509670482630",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": false,
+   "found": "2026-10-19",
    "openDate": ""
   },
   {
