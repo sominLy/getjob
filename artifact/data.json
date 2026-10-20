@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-19T23:02:40.470542+00:00",
+ "collectedAt": "2026-10-20T18:03:32.842819+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -156,18 +156,18 @@
    "found": "2026-10-03"
   },
   {
-   "회사": "BAT",
+   "회사": "CJ올리브영",
    "플랫폼": "greetinghr",
-   "title": "[인턴] 마케팅 AE (정규직 전환형)",
+   "title": "도심물류매장 NanoFC 운영(무기계약직) - 성북점",
    "career": "신입",
-   "emp": "인턴",
+   "emp": "계약직",
    "due": "상시",
-   "link": "https://bat.career.greetinghr.com/ko/o/186493",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-08-21",
-   "new": false,
-   "found": "2026-10-03"
+   "link": "https://career.oliveyoung.com/ko/o/241146",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-20",
+   "new": true,
+   "found": "2026-10-20"
   },
   {
    "회사": "CJ올리브영",
@@ -373,20 +373,6 @@
    "emp": "계약직",
    "due": "상시",
    "link": "https://pfct.career.greetinghr.com/ko/o/230228",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-07-28",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "pfct",
-   "플랫폼": "greetinghr",
-   "title": "Corporate Sales(법인영업 담당자)",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://pfct.career.greetinghr.com/ko/o/230227",
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-07-28",
@@ -775,7 +761,7 @@
    "회사": "마카롱팩토리",
    "플랫폼": "greetinghr",
    "title": "그로스 매니저 - 마케팅 파트",
-   "career": "경력 1년~4",
+   "career": "경력 1년~",
    "emp": "정규직",
    "due": "상시",
    "link": "https://mycle.career.greetinghr.com/ko/o/240792",
@@ -798,20 +784,6 @@
    "openDate": "2026-10-16",
    "new": false,
    "found": "2026-10-16"
-  },
-  {
-   "회사": "마카롱팩토리",
-   "플랫폼": "greetinghr",
-   "title": "CS 매니저 (전환형 인턴)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://mycle.career.greetinghr.com/ko/o/233167",
-   "cat": "세일즈·CX·제휴",
-   "intern": true,
-   "openDate": "2026-08-14",
-   "new": false,
-   "found": "2026-10-03"
   },
   {
    "회사": "마카롱팩토리",
@@ -1418,34 +1390,6 @@
   {
    "회사": "카카오페이",
    "플랫폼": "greetinghr",
-   "title": "[어시스턴트] 대출 마케팅 업무 운영 지원",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/240375",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-10-14",
-   "new": false,
-   "found": "2026-10-14"
-  },
-  {
-   "회사": "카카오페이",
-   "플랫폼": "greetinghr",
-   "title": "[어시스턴트] 인사운영 및 보상/복지제도 운영 지원",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/239751",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-10-07",
-   "new": false,
-   "found": "2026-10-08"
-  },
-  {
-   "회사": "카카오페이",
-   "플랫폼": "greetinghr",
    "title": "[어시스턴트] 투데이탭 콘텐츠 운영 지원",
    "career": "신입",
    "emp": "인턴",
@@ -1454,20 +1398,6 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-02",
-   "new": false,
-   "found": "2026-10-02"
-  },
-  {
-   "회사": "카카오페이",
-   "플랫폼": "greetinghr",
-   "title": "[어시스턴트] 인재영입 운영 지원",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/239258",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-10-01",
    "new": false,
    "found": "2026-10-02"
   },

@@ -13932,7 +13932,337 @@
    "archiveTotal": 623,
    "preds": 308,
    "compTotal": 528
+  },
+  {
+   "date": "2026-10-21",
+   "added": [
+    {
+     "id": "linkareer-358371",
+     "company": "오가닉서라운딩",
+     "title": "",
+     "roles": [
+      "콘텐츠"
+     ],
+     "end": "2026-11-20",
+     "url": "https://linkareer.com/activity/358371"
+    },
+    {
+     "id": "linkareer-358370",
+     "company": "위마케팅",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-04",
+     "url": "https://linkareer.com/activity/358370"
+    },
+    {
+     "id": "linkareer-358346",
+     "company": "메가마트",
+     "title": "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략"
+     ],
+     "end": "2026-10-29",
+     "url": "https://linkareer.com/activity/358346"
+    },
+    {
+     "id": "jasoseol-106690",
+     "company": "국가독성과학연구소",
+     "title": "제2026-2차 정규직 채용공고",
+     "roles": [
+      "HR/인사",
+      "기획/전략"
+     ],
+     "end": "2026-11-04",
+     "url": "https://kit.fairy.im/announcement/detail/17"
+    },
+    {
+     "id": "jasoseol-106796",
+     "company": "여수광양항만공사",
+     "title": "2026년 직원 채용 공고",
+     "roles": [
+      "기획/전략",
+      "HR/인사"
+     ],
+     "end": "2026-11-04",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2610190000935&handle=84CC309F614CFF4113397859F73FDCD3F953A734F38EA003108569522684F54D"
+    },
+    {
+     "id": "jasoseol-106797",
+     "company": "한국건강증진개발원",
+     "title": "2026년 하반기 직원(일반직) 채용",
+     "roles": [
+      "기획/전략",
+      "HR/인사",
+      "리서치",
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-02",
+     "url": "https://khepi-hr.jobnlab.co.kr/"
+    },
+    {
+     "id": "jasoseol-106798",
+     "company": "BGF로지스",
+     "title": "2026년 4분기 채용연계형 인턴 채용",
+     "roles": [],
+     "end": "2026-11-03",
+     "url": "https://bgflogis.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610bgflogis"
+    },
+    {
+     "id": "jasoseol-106799",
+     "company": "서울에너지공사",
+     "title": "2026년도 하반기 신규직원 채용",
+     "roles": [
+      "기획/전략",
+      "HR/인사"
+     ],
+     "end": "2026-10-28",
+     "url": "https://recruit.incruit.com/i-se"
+    },
+    {
+     "id": "jasoseol-106801",
+     "company": "동국제약",
+     "title": "구매팀 채용 ~ 10/28",
+     "roles": [],
+     "end": "2026-10-28",
+     "url": "https://dkpharm.recruiter.co.kr/career/jobs/131746"
+    },
+    {
+     "id": "jasoseol-106802",
+     "company": "녹십자웰빙",
+     "title": "병의원영업(MR) 수도권 신입/경력 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-01",
+     "url": "https://careers.gcbiopharma.com/job/%EB%85%B9%EC%8B%AD%EC%9E%90%EC%9B%B0%EB%B9%99-%EB%B3%91%EC%9D%98%EC%9B%90%EC%98%81%EC%97%85%28MR%29_%EC%88%98%EB%8F%84%EA%B6%8C%28%EC%8B%A0%EC%9E%85%EA%B2%BD%EB%A0%A5%29/4565950/"
+    },
+    {
+     "id": "jasoseol-106803",
+     "company": "카카오뱅크",
+     "title": "금융거래정보제공 업무 담당자 (채용연계형 인턴) 채용",
+     "roles": [
+      "금융/심사"
+     ],
+     "end": "2026-11-02",
+     "url": "https://recruit.kakaobank.com/jobs/269299"
+    },
+    {
+     "id": "jasoseol-106804",
+     "company": "카카오뱅크",
+     "title": "인증 플랫폼 기획 담당자 (채용연계형 인턴) 채용",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략"
+     ],
+     "end": "2026-11-02",
+     "url": "https://recruit.kakaobank.com/jobs/269180"
+    },
+    {
+     "id": "jasoseol-106805",
+     "company": "손해보험협회",
+     "title": "통합민원지원센터 전문 상담역 채용",
+     "roles": [
+      "고객/CS"
+     ],
+     "end": "2026-10-26",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2610200002248"
+    },
+    {
+     "id": "jasoseol-106806",
+     "company": "울산알루미늄",
+     "title": "기계 엔지니어 정규직 (신입) 채용",
+     "roles": [],
+     "end": "2026-11-01",
+     "url": "https://ulsanaluminum.com/home/recruit/recruit03_01.jsp?ulaRcMode=view&rcId=ULARC000000000000200&retUrl=&pageIndex=1&searchCondition=&searchKeyword="
+    },
+    {
+     "id": "jasoseol-106807",
+     "company": "삼립",
+     "title": "연구(제품개발) 직무 신입·경력 모집",
+     "roles": [],
+     "end": "2026-10-25",
+     "url": "https://careers.sangmidang.co.kr/o/241157"
+    },
+    {
+     "id": "jasoseol-106808",
+     "company": "밀도",
+     "title": "온라인 AMD",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-10-30",
+     "url": "https://mildo.ninehire.site/job_posting/V88RmqxM"
+    },
+    {
+     "id": "jasoseol-106810",
+     "company": "한온시스템",
+     "title": "2026년 하반기 채용연계형 인턴십",
+     "roles": [
+      "기획/전략",
+      "HR/인사"
+     ],
+     "end": "2026-11-01",
+     "url": "https://hanonsystems.recruiter.co.kr/career/home"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106060",
+     "company": "에코마케팅",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106211",
+     "company": "한국투자증권",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106368",
+     "company": "밀버스",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106464",
+     "company": "서울주택도시개발공사",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106462",
+     "company": "한국농어촌공사(KR)",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106519",
+     "company": "얼티밋커리어그룹",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106524",
+     "company": "아워홈",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106556",
+     "company": "플립온코리아",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106539",
+     "company": "웹젠",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106553",
+     "company": "한국수출입은행",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106578",
+     "company": "코오롱인더스트리 제조부문",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106597",
+     "company": "에코마케팅",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106600",
+     "company": "원테크스탑",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106569",
+     "company": "청라에너지",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "linkareer-350972",
+     "company": "한국투자증권",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106639",
+     "company": "대한유화",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106699",
+     "company": "삼양그룹",
+     "end": "2026-10-19"
+    },
+    {
+     "id": "jasoseol-106567",
+     "company": "국순당",
+     "end": "2026-10-19"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "CJ올리브영",
+     "title": "도심물류매장 NanoFC 운영(무기계약직) - 성북점",
+     "url": "https://career.oliveyoung.com/ko/o/241146"
+    },
+    {
+     "company": "캐치테이블",
+     "title": "캐치테이블페이_정산 운영",
+     "url": "https://catchtable.career.greetinghr.com/ko/o/241140"
+    },
+    {
+     "company": "여기어때",
+     "title": "Hotel Sales Coordinator [Sales Support/계약직 1년]",
+     "url": "https://gccompany.career.greetinghr.com/ko/o/241115"
+    },
+    {
+     "company": "여기어때",
+     "title": "Product Owner [파트너서비스]",
+     "url": "https://gccompany.career.greetinghr.com/ko/o/241216"
+    },
+    {
+     "company": "아이디어스",
+     "title": "[텐바이텐] 온라인 MD (라이프스타일)",
+     "url": "https://idus.career.greetinghr.com/ko/o/241218"
+    },
+    {
+     "company": "스푼랩스",
+     "title": "[Vigloo] 북미 파트너십 매니저 (숏드라마 콘텐츠)",
+     "url": "https://spoonradio.career.greetinghr.com/ko/o/240924"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토이노베이션] 그로스 마케팅 (경력)",
+     "url": "https://www.hectocareers.co.kr/ko/o/240624"
+    },
+    {
+     "company": "하이브",
+     "title": "[HYBE IPX] 생산MD(Softline) Sr.",
+     "url": "https://careers.hybecorp.com/ko/o/241179"
+    },
+    {
+     "company": "직방",
+     "title": "[직방] Growth Marketing Lead",
+     "url": "https://zigbang.career.greetinghr.com/ko/o/241202"
+    },
+    {
+     "company": "11번가",
+     "title": "[11번가] CRM 운영·모니터링 담당자 (계약직)",
+     "url": "https://11st.career.greetinghr.com/ko/o/232121"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Marketing Specialist, Consumer Products - Korea (FTC)",
+     "url": "https://explore.jobs.netflix.net/careers/job/790319023304"
+    }
+   ],
+   "total": 324,
+   "archiveTotal": 635,
+   "preds": 311,
+   "compTotal": 549
   }
  ],
- "updated": "2026-10-20"
+ "updated": "2026-10-21"
 }
