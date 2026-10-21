@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "items": {
     "kakaobank-263159": {
       "at": "2026-09-06",
@@ -121774,6 +121774,766 @@
           "applicants": 0
         }
       ]
+    },
+    "jasoseol-106766": {
+      "image": "https://infra1-static.recruiter.co.kr/builder/2026/09/30/a166bd12-a29d-4b2c-ac39-76bb005447c5.png",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "영업",
+          "questions": [],
+          "applicants": 1
+        },
+        {
+          "name": "생산",
+          "questions": [],
+          "applicants": 1
+        },
+        {
+          "name": "연구",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "개발",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "경영지원",
+          "questions": [],
+          "applicants": 2
+        }
+      ],
+      "applicants": 4
+    },
+    "jasoseol-106775": {
+      "sections": [
+        {
+          "title": "담당 업무",
+          "body": "신용평가 ​부문은 신용평가 ​대상에 따라 기업/금융/SF평가 본부 등으로 구성되어 있으며, 입사자는 해당 본부의 애널리스트 업무를 담당하게 됩니다.\n신용평가 부문 애널리스트는 담당 산업 및 기업 또는 유동화자산의 신용위험을 분석하여 평가보고서를 작성하고, 동향을 점검하여 전문가적 전망을 제시하고 적정한 신용등급이 부여될 수 있도록 사후 관리하는 등의 업무를 수행합니다."
+        },
+        {
+          "title": "자격 요건",
+          "body": "대졸 이상(2027년 2월 졸업 예정자 포함)\n자본시장과 금융투자업에 관한 법률상의 채용 결격 사유가 없는 분\n병역필 또는 면제자로서 해외여행 결격사유가 없는 분"
+        },
+        {
+          "title": "우대 사항",
+          "body": "상경계열을 전공하신 분\n영어능력이 우수하신 분\n공인회계사(경력 2년 이내)또는 금융투자분석사 자격을 보유하신 분\n장애인 및 「국가유공자 등 예우 및 지원에 관한 법률」에 의거한 국가보훈대상자에 해당하는 분\n[채용 일정]\n원서접수(온라인 접수만 가능) : 2026.10.21(수) 10:00 ~ 2026.11.09(월) 자정까지                                                            ※ 대학(대학원 포함) 성적 증명서 제출 필수(과목별 평점/이수 학점 등 기재된 양식)\n서류전형 합격자 발표: 2026.11.17(화) 예정\n필기전형 : 2026.11.21(토) 09:30 예정 (현장 실시, 장소는 개별 안내)                                                                                                                                 ※ 인성검사 및 직무능력검사(80분), 논술(90분)\n1차 면접(실무진 면접) : 2026년 12월 초순 예정\n2차 면접(임원진 면접) : 2026년 12월 하순 예정\n신체검사 및 최종합격자 발표 : 2027년 1월 중순 예정\n입사 예정일 : 2027.01.25(월) 예정\n[문의처]\nNICE 신용평가 경영관리실(recruit@nicerating.com)"
+        },
+        {
+          "title": "근무 조건",
+          "body": "정규직\nNICE\n서울특별시 영등포구 은행로 17, 나이스1사옥\nNICE그룹"
+        },
+        {
+          "title": "유의 사항",
+          "body": "필요 시 전형 프로세스가 변경될 수 있으며, 변경 시 당사 채용 홈페이지 또는 개별 공지를 통해 안내할 예정입니다.\n채용 일정 및 입사 예정 시기는 당사 사정에 따라 변경될 수 있습니다.\n금번 채용은 신입 직원을 모집 대상으로 하는 채용입니다. 경력 보유자가 합격한 경우 당사의 경력 산정 및 인정 기준 등 내규에 따라 해당 경력은 입사 시 호봉으로 반영될 수 있습니다.\nKICPA 또는 금융투자분석사 자격이 없는 경우에도 지원 가능하나, 입사 후 1년 이내에 해당 자격증을 취득해야 합니다.\n자격 요건의 2027년 2월 졸업 예정자는 2027년 3월 1일 시점 기졸업자를 의미합니다.\n온라인을 통해 제출된 채용과 관련된 서류는 일체 반환되지 않으며 본 채용 목적 이외에는 사용하지 않습니다.\n지원서 작성 내용에 대해서 증빙 서류 제출을 요구하여 사실 여부를 확인할 수 있고, 위조 또는 허위 기재 사실이 있는 경우 합격 및 입사가 취소됩니다.\n어학 성적은 접수 마감일 기준 2년 이내 성적만 유효합니다.\n청탁 등 부정행위로 인해 합격된 사실이 확인될 경우, 합격 및 채용이 취소됨은 물론 향후 5년간 채용 응시를 제한합니다.\n구분\nNICE신용평가\n마감기한\n2026년 11월 09일, 14:59\nD-18\n직군\n평가\n경력사항\n신입"
+        }
+      ],
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "신용평가부문 (Analyst)",
+          "questions": [
+            {
+              "q": "자유롭게 자기소개를 작성하여 주시기 바랍니다. (800자 이내)",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "회사 및 직무에 대한 지원동기를 작성하여 주시기 바랍니다. (800자 이내)",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 포부에 대하여 작성하여 주시기 바랍니다. (800자 이내)",
+              "limit": 800,
+              "space": true
+            }
+          ],
+          "applicants": 50
+        }
+      ],
+      "applicants": 50
+    },
+    "jasoseol-106811": {
+      "image": "https://lsmnm.recruiter.co.kr/upload/88196/image/202610/da1a5df3-102d-4239-9386-3c83f9b4a3cc.png",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "자금",
+          "questions": [
+            {
+              "q": "지원 직무를 수행하는 데 필요한 핵심 역량은 무엇이라고 생각하십니까? 해당 역량을 갖추기 위해 어떤 노력을 해왔는지 구체적인 경험을 바탕으로 기술하여 주십시오.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "AI를 활용하여 과제를 해결하거나 생산성을 향상시킨 경험을 구체적으로 기술하여 주십시오.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "LS MnM의 조직문화 지향점(기본가치, 관계가치, 사업가치) 중 본인을 잘 나타내는 가치를 한 가지 이상 선택하고, 이를 실천한 경험을 본인의 행동과 결과 중심으로 기술하여 주십시오. \nLS MnM '조직문화 지향점'은 당사 채용 홈페이지에서 확인 가능합니다. (http://www.lsmnm.com/recruit/value)",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "LS MnM에 지원한 이유와 입사 후 이루고 싶은 목표를 기술하여 주십시오.",
+              "limit": 400,
+              "space": true
+            }
+          ],
+          "applicants": 42
+        }
+      ],
+      "applicants": 42
+    },
+    "jasoseol-106789": {
+      "image": "http://recruit-hnladvanced.com/assets/img/cheMain_visual_img.png",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "기획",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "인사",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "재무·회계",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "영업",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "생산관리·화공",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "생산관리·설비(기계)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "생산관리·설비(전기·전자)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "안전·환경",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "생산·화공(전문직)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "생산·설비(기계)(전문직)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "생산·설비(전기·전자)(전문직)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "안전·환경(전문직)",
+          "questions": [],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106820": {
+      "image": "https://midas.recruiter.co.kr/upload/1/image/202608/b816098e-d53b-4b76-bc5b-aec5a4e58fd4.png",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "경력-디자인-영상 디자이너-판교본사",
+          "questions": [
+            {
+              "q": "자소설닷컴에 등록된 문항이 없어요.\n- 채용 사이트에서 문항을 확인해 입력하면 자기소개서를 작성할 수 있어요.\n- 자기소개서를 받지 않는 공고일 수도 있어요.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106815": {
+      "image": "https://kawf.recruiter.co.kr/upload/286872/image/202610/b44aae9d-7747-49b0-a473-ee16af6922a3.png",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "정규직 5급 - 일반행정(문화예술행정)",
+          "questions": [
+            {
+              "q": "상대방을 만족시키기 위해 노력하여 실제로 좋은 결과를 얻었던 경험에 대하여, 상대방의 니즈를 파악하고 이를 충족시키기 위해 노력한 과정을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "집단에서 다양한 차이를 받아들임으로써 보다 긍정적으로 변화되었던 경험에 대하여, 차이를 이해하기 위한 노력과 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무와 관련하여 스스로 프로의식을 갖추고 행동했다고 느꼈던 경험에 대하여, 프로의식을 갖추기 위한 노력과 프로의식이 필요했던 상황을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "조직 구성원들과 다양한 공유활동을 통해 조직 목표를 성공적으로 달성했던 경험에 대하여, 조직의 목표와 공유활동을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "업무 절차에서 하지 않고 넘어갈 수 있던 일도 정직하게 처리했던 경험에 대하여, 업무 절차와 정직하게 처리한 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            }
+          ],
+          "applicants": 22
+        },
+        {
+          "name": "정규직 4급 - 일반행정(문화예술행정)",
+          "questions": [
+            {
+              "q": "상대방을 만족시키기 위해 노력하여 실제로 좋은 결과를 얻었던 경험에 대하여, 상대방의 니즈를 파악하고 이를 충족시키기 위해 노력한 과정을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "집단에서 다양한 차이를 받아들임으로써 보다 긍정적으로 변화되었던 경험에 대하여, 차이를 이해하기 위한 노력과 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무와 관련하여 스스로 프로의식을 갖추고 행동했다고 느꼈던 경험에 대하여, 프로의식을 갖추기 위한 노력과 프로의식이 필요했던 상황을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "조직 구성원들과 다양한 공유활동을 통해 조직 목표를 성공적으로 달성했던 경험에 대하여, 조직의 목표와 공유활동을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "업무 절차에서 하지 않고 넘어갈 수 있던 일도 정직하게 처리했던 경험에 대하여, 업무 절차와 정직하게 처리한 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            }
+          ],
+          "applicants": 4
+        },
+        {
+          "name": "정규직 4급 - 일반행정(법무감사)",
+          "questions": [
+            {
+              "q": "상대방을 만족시키기 위해 노력하여 실제로 좋은 결과를 얻었던 경험에 대하여, 상대방의 니즈를 파악하고 이를 충족시키기 위해 노력한 과정을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "집단에서 다양한 차이를 받아들임으로써 보다 긍정적으로 변화되었던 경험에 대하여, 차이를 이해하기 위한 노력과 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무와 관련하여 스스로 프로의식을 갖추고 행동했다고 느꼈던 경험에 대하여, 프로의식을 갖추기 위한 노력과 프로의식이 필요했던 상황을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "조직 구성원들과 다양한 공유활동을 통해 조직 목표를 성공적으로 달성했던 경험에 대하여, 조직의 목표와 공유활동을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "업무 절차에서 하지 않고 넘어갈 수 있던 일도 정직하게 처리했던 경험에 대하여, 업무 절차와 정직하게 처리한 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "일반계약직(5급 상당) - 일반행정(문화예술행정)",
+          "questions": [
+            {
+              "q": "상대방을 만족시키기 위해 노력하여 실제로 좋은 결과를 얻었던 경험에 대하여, 상대방의 니즈를 파악하고 이를 충족시키기 위해 노력한 과정을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "집단에서 다양한 차이를 받아들임으로써 보다 긍정적으로 변화되었던 경험에 대하여, 차이를 이해하기 위한 노력과 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무와 관련하여 스스로 프로의식을 갖추고 행동했다고 느꼈던 경험에 대하여, 프로의식을 갖추기 위한 노력과 프로의식이 필요했던 상황을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "조직 구성원들과 다양한 공유활동을 통해 조직 목표를 성공적으로 달성했던 경험에 대하여, 조직의 목표와 공유활동을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "업무 절차에서 하지 않고 넘어갈 수 있던 일도 정직하게 처리했던 경험에 대하여, 업무 절차와 정직하게 처리한 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            }
+          ],
+          "applicants": 4
+        },
+        {
+          "name": "일반계약직(5급 상당) - 일반행정(정보화담당)",
+          "questions": [
+            {
+              "q": "상대방을 만족시키기 위해 노력하여 실제로 좋은 결과를 얻었던 경험에 대하여, 상대방의 니즈를 파악하고 이를 충족시키기 위해 노력한 과정을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "집단에서 다양한 차이를 받아들임으로써 보다 긍정적으로 변화되었던 경험에 대하여, 차이를 이해하기 위한 노력과 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무와 관련하여 스스로 프로의식을 갖추고 행동했다고 느꼈던 경험에 대하여, 프로의식을 갖추기 위한 노력과 프로의식이 필요했던 상황을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "조직 구성원들과 다양한 공유활동을 통해 조직 목표를 성공적으로 달성했던 경험에 대하여, 조직의 목표와 공유활동을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "업무 절차에서 하지 않고 넘어갈 수 있던 일도 정직하게 처리했던 경험에 대하여, 업무 절차와 정직하게 처리한 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            }
+          ],
+          "applicants": 4
+        },
+        {
+          "name": "일반계약직(4급 상당) - 일반행정(법무감사)",
+          "questions": [
+            {
+              "q": "상대방을 만족시키기 위해 노력하여 실제로 좋은 결과를 얻었던 경험에 대하여, 상대방의 니즈를 파악하고 이를 충족시키기 위해 노력한 과정을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "집단에서 다양한 차이를 받아들임으로써 보다 긍정적으로 변화되었던 경험에 대하여, 차이를 이해하기 위한 노력과 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무와 관련하여 스스로 프로의식을 갖추고 행동했다고 느꼈던 경험에 대하여, 프로의식을 갖추기 위한 노력과 프로의식이 필요했던 상황을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "조직 구성원들과 다양한 공유활동을 통해 조직 목표를 성공적으로 달성했던 경험에 대하여, 조직의 목표와 공유활동을 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "업무 절차에서 하지 않고 넘어갈 수 있던 일도 정직하게 처리했던 경험에 대하여, 업무 절차와 정직하게 처리한 이유를 포함하여 구체적으로 기술해 주시기 바랍니다.",
+              "limit": 800,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ],
+      "applicants": 34
+    },
+    "jasoseol-106825": {
+      "image": "https://midas.recruiter.co.kr/upload/1/image/202610/52b5dc75-38ae-437d-9f93-0e7d42e09229.png",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "계약직-경영분야-급여관리-판교본사",
+          "questions": [
+            {
+              "q": "자소설닷컴에 등록된 문항이 없어요.\n- 채용 사이트에서 문항을 확인해 입력하면 자기소개서를 작성할 수 있어요.\n- 자기소개서를 받지 않는 공고일 수도 있어요.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106826": {
+      "image": "https://search-careers.gm.com/media/0oqob31y/purchasing_and_supply_chain_hero_image.jpg?anchor=center&mode=crop&width=900&height=770&mode=crop&quality=75",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "AI Tool Lead",
+          "questions": [
+            {
+              "q": "Why GM/ Why this Role본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요. 관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.Please describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity. Also, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "Own the Outcome & Lead as One Team어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요. 그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.Describe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "Innovate and Embrace Change실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.Describe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience? Please also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 18
+        },
+        {
+          "name": "Machine Learning/Deep Learning Expert",
+          "questions": [
+            {
+              "q": "Why GM/ Why this Role본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요. 관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.Please describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity. Also, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "Own the Outcome & Lead as One Team어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요. 그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.Describe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "Innovate and Embrace Change실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.Describe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience? Please also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 10
+        },
+        {
+          "name": "Automation Specialist",
+          "questions": [
+            {
+              "q": "Why GM/ Why this Role본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요. 관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.Please describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity. Also, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "Own the Outcome & Lead as One Team어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요. 그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.Describe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "Innovate and Embrace Change실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.Describe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience? Please also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 11
+        }
+      ],
+      "applicants": 39
+    },
+    "jasoseol-106823": {
+      "image": "https://static.toss.im/career-resource/busines_article_bank.jpg",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "[토스뱅크] Savings Operations Specialist",
+          "questions": [
+            {
+              "q": "자유양식 입니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 4
+        }
+      ],
+      "applicants": 4
+    },
+    "jasoseol-106828": {
+      "image": "https://career.aju.co.kr/recfile/AP00/kms/20261020/3bb42cc8-1079-4630-9ebd-45601d8de4f7.png",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "레미콘 품질관리",
+          "questions": [
+            {
+              "q": "도전적으로 변화를 추구해본 경험 및 성과에 대해 서술해주세요.",
+              "limit": 600,
+              "space": true
+            },
+            {
+              "q": "공통의 목표를 달성하기 위해 소통하고 협력한 경험에 대해 서술해주세요.",
+              "limit": 600,
+              "space": true
+            },
+            {
+              "q": "지원분야 또는 특정분야의 전문성을 키우기 위해 학습하고 있는 것에 대해 서술해주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "지원자님의 장점과 전문성(역량)에 대해 자유롭게 서술해주세요.",
+              "limit": 600,
+              "space": true
+            }
+          ],
+          "applicants": 2
+        }
+      ],
+      "applicants": 2
+    },
+    "jasoseol-106829": {
+      "image": "https://www.namuk.or.kr/CrossEditor/binary/images/000011/20261020171456167_I6RNBUFR.jpg",
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "학예 (4급, 정규직)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "학예 (5급, 정규직)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "방호 (일반운영직, 정규직)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "교육 (일반직 5급 상당, 기간제)",
+          "questions": [],
+          "applicants": 0
+        },
+        {
+          "name": "전시운영 (일반운영직 상당, 기간제)",
+          "questions": [],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106813": {
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "CX 담당자",
+          "questions": [
+            {
+              "q": "자기소개서 문항이 존재하지 않습니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106824": {
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "회계·지원",
+          "questions": [
+            {
+              "q": "지원분야와 관련 업무를 수행한 경력 또는 관련 활동을 수행한 경험 중 대표적인 것에 대해 기술하십시오.(본인의 역할 / 수행내용 / 주요성과 드러나게 작성)",
+              "limit": 700,
+              "space": true
+            },
+            {
+              "q": "귀하가 최근 3년 이내에 귀하가 속한 조직(회사, 팀, 동아리 등)을 위해 헌신적인 노력을 다한 경험과 그 경험을 통해 귀하가 얻은 것이 있다면 구체적으로 기술하여 주십시오.",
+              "limit": 700,
+              "space": true
+            }
+          ],
+          "applicants": 2
+        },
+        {
+          "name": "기획분야",
+          "questions": [
+            {
+              "q": "지원분야와 관련 업무를 수행한 경력 또는 관련 활동을 수행한 경험 중 대표적인 것에 대해 기술하십시오.(본인의 역할 / 수행내용 / 주요성과 드러나게 작성)",
+              "limit": 700,
+              "space": true
+            },
+            {
+              "q": "귀하가 최근 3년 이내에 귀하가 속한 조직(회사, 팀, 동아리 등)을 위해 헌신적인 노력을 다한 경험과 그 경험을 통해 귀하가 얻은 것이 있다면 구체적으로 기술하여 주십시오.",
+              "limit": 700,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        },
+        {
+          "name": "사업분야",
+          "questions": [
+            {
+              "q": "지원분야와 관련 업무를 수행한 경력 또는 관련 활동을 수행한 경험 중 대표적인 것에 대해 기술하십시오.(본인의 역할 / 수행내용 / 주요성과 드러나게 작성)",
+              "limit": 700,
+              "space": true
+            },
+            {
+              "q": "귀하가 최근 3년 이내에 귀하가 속한 조직(회사, 팀, 동아리 등)을 위해 헌신적인 노력을 다한 경험과 그 경험을 통해 귀하가 얻은 것이 있다면 구체적으로 기술하여 주십시오.",
+              "limit": 700,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ],
+      "applicants": 3
+    },
+    "jasoseol-106833": {
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "메디큐브 미국 온라인 MD",
+          "questions": [
+            {
+              "q": "1. 본인이 해당 직무에 적합하다고 판단하는 이유와 근거를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. 에이피알이 지향하는 4가지 인재상(Make it, Grow up, Work Together, Customer Success) 중에서 하나를 선택하고, 해당 핵심가치와 부합하는 경험 또는 성과를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3. 에이피알에 지원한 동기와 입사 후 이루고자 하는 목표 및 포부를 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106834": {
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "메디큐브 이탈리아 인플루언서 마케팅(PR)",
+          "questions": [
+            {
+              "q": "1. 본인이 해당 직무에 적합하다고 판단하는 이유와 근거를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. 에이피알이 지향하는 4가지 인재상(Make it, Grow up, Work Together, Customer Success) 중에서 하나를 선택하고, 해당 핵심가치와 부합하는 경험 또는 성과를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3. 에이피알에 지원한 동기와 입사 후 이루고자 하는 목표 및 포부를 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106832": {
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "메디큐브 미국·유럽 인플루언서 마케팅(PR)",
+          "questions": [
+            {
+              "q": "1. 본인이 해당 직무에 적합하다고 판단하는 이유와 근거를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. 에이피알이 지향하는 4가지 인재상(Make it, Grow up, Work Together, Customer Success) 중에서 하나를 선택하고, 해당 핵심가치와 부합하는 경험 또는 성과를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3. 에이피알에 지원한 동기와 입사 후 이루고자 하는 목표 및 포부를 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106835": {
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "메디큐브 유럽 틱톡샵 어필리에이트 마케팅 (스페인/이탈리아)",
+          "questions": [
+            {
+              "q": "1. 본인이 해당 직무에 적합하다고 판단하는 이유와 근거를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. 에이피알이 지향하는 4가지 인재상(Make it, Grow up, Work Together, Customer Success) 중에서 하나를 선택하고, 해당 핵심가치와 부합하는 경험 또는 성과를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3. 에이피알에 지원한 동기와 입사 후 이루고자 하는 목표 및 포부를 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-106837": {
+      "at": "2026-10-21",
+      "tracks": [
+        {
+          "name": "에이프릴스킨 온라인 마케팅",
+          "questions": [
+            {
+              "q": "1. 본인이 해당 직무에 적합하다고 판단하는 이유와 근거를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. 에이피알이 지향하는 4가지 인재상(Make it, Grow up, Work Together, Customer Success) 중에서 하나를 선택하고, 해당 핵심가치와 부합하는 경험 또는 성과를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3. 에이피알에 지원한 동기와 입사 후 이루고자 하는 목표 및 포부를 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 3
+        }
+      ],
+      "applicants": 3
     }
   }
 }

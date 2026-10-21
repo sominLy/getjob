@@ -1,6 +1,135 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "jobs": [
+    {
+      "id": "jasoseol-105751",
+      "company": "화신",
+      "type": "",
+      "roles": [],
+      "start": "2026-08-20",
+      "end": "2026-10-20",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://hwashins.com",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "품질관리팀 신입사원 모집"
+    },
+    {
+      "id": "jasoseol-105770",
+      "company": "NHN",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-08-20",
+      "end": "2026-10-20",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4403955050458315720?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "Database Administrator (DBA)"
+    },
+    {
+      "id": "jasoseol-105774",
+      "company": "토스플레이스",
+      "type": "",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-08-21",
+      "end": "2026-10-20",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://toss.im/career/job-detail?job_id=7922770003&&utm_source=jasoseol&utm_medium=post&utm_campaign=2608_market",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "Business Marketing Specialist"
+    },
+    {
+      "id": "jasoseol-106475",
+      "company": "슈어소프트테크",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-30",
+      "end": "2026-10-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.suresofttech.com/",
+      "hist": "",
+      "found": "2026-10-01",
+      "title": "2027 신입사원 공개채용"
+    },
+    {
+      "id": "jasoseol-106476",
+      "company": "에이앤디신용정보",
+      "title": "2026년 채용연계형 신입사원 공개 채용",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-10-05",
+      "end": "2026-10-20",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.incruit.com/andamc",
+      "hist": "",
+      "found": "2026-10-06"
+    },
+    {
+      "id": "jasoseol-106594",
+      "company": "한국언론진흥재단(KPF)",
+      "title": "2026년 2차 정규직 신입사원 채용",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-10-06",
+      "end": "2026-10-20",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kpf.plusrecruit.co.kr/",
+      "hist": "",
+      "found": "2026-10-07"
+    },
+    {
+      "id": "jasoseol-106604",
+      "company": "LT메탈",
+      "title": "신입/경력사원 수시채용",
+      "type": "중견기업",
+      "roles": [
+        "영업",
+        "HR/인사"
+      ],
+      "start": "2026-10-06",
+      "end": "2026-10-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://ltmetal.careerlink.kr/",
+      "hist": "",
+      "found": "2026-10-07"
+    },
+    {
+      "id": "jasoseol-106689",
+      "company": "비테스코테크놀로지스코리아",
+      "title": "셰플러코리아 이천사업장 10월 신입 및 경력직 채용",
+      "type": "대기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-13",
+      "end": "2026-10-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jobs.schaeffler.com/?locale=en_US&currentPage=1&pageSize=30",
+      "hist": "",
+      "found": "2026-10-13"
+    },
     {
       "id": "jasoseol-106060",
       "company": "에코마케팅",
@@ -11019,24 +11148,6 @@
       "hist": "",
       "endTime": "23:59",
       "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105563",
-      "company": "세스코",
-      "type": "중견기업",
-      "roles": [
-        "영업",
-        "영업관리",
-        "고객/CS"
-      ],
-      "start": "2026-08-09",
-      "end": "2026-09-05",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://cesco.career.greetinghr.com/ko/o/177766",
-      "hist": "",
-      "found": "2026-09-07"
     }
   ]
 }

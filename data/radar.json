@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-20T18:05:25.928Z",
+  "collectedAt": "2026-10-21T18:11:46.209Z",
   "errors": {},
   "jobs": [
     {
@@ -479,7 +479,7 @@
     {
       "source": "toss",
       "company": "토스",
-      "title": "Brand Manager · Content · Event · Marketing",
+      "title": "Brand Manager · Content · Event",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=7847465003",
       "years": 5,
@@ -490,7 +490,7 @@
       ],
       "reqs": [],
       "bucket": "senior",
-      "fit": true,
+      "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "이런 분과 함께하고 싶어요\n\n훌륭한 콘텐츠의 힘을 알며, 언제나 최고의 퀄리티로 완성하기 위해 헌신하는 분\n탁월한 글쓰기와 인터뷰 역량을 바탕으로 길고 짧은 콘텐츠를 직접 제작·편집할 수 있는 분 (5년 이상)\n다양한 매체와 콘텐츠 트렌드에 대한 이해를 기반으로 시의적절한 콘텐츠를 기획·제작할 수 있는 분\n개별 콘텐츠를 넘어 채널 성장을 위한 콘텐츠 전략을 실행할 수 있는 분\n마케터와 영상 PD, 외부 필진 등 사내외 이해관계자와 원활하게 소통하며 결과물을 만들어 낼 수 있는 분\n\n이런 경험이 있다면 더 좋아요\n\n다양한 채널을 활용해 콘텐츠를 확산시켜본 경험\n콘텐츠 플랫폼의 성장 전략을 구체화하고 성공 시킨 경험\n핀테크/IT 기업에 대한 이해, 개발 및 디자인 조직과의 협업 경험\n\n"
     },
@@ -1344,28 +1344,6 @@
       "fit": false,
       "firstSeen": "2026-10-05",
       "jd": "requirements, trade secret and IP safeguards, export control considerations, and strict information security review\n Work across group structures, including holding companies, affiliates, and group IT service companies that shape technology procurement and deployment\n Work with internal teams (Product, Engineering, Applied AI, Partnerships, Legal) to tailor solutions that meet manufacturing-sector security and IP protection standards\n Stay informed on trends shaping Korean manufacturing, including AI in engineering and design, smart factory and autonomous manufacturing initiatives, and supply chain resilience\n Preferred qualifications\n 8+ years of enterprise sales experience in Korea, with significant exposure to manufacturing\n A genuine understanding of how Korean manufacturers make technology decisions, including the role of group-level governance, IT affiliates, information security functions, and R&amp;D leadership\n Direct experience navigating security and IP protection reviews in manufacturing environments, including requirements tied to protected industrial technology and restricted data environments\n A track record of managing complex, multi-stakeholder sales cycles typical of large manufacturers, including group-wide rollouts and rigorous security review\n Proven experience exceeding revenue targets within manufacturing accounts\n Excellent communication skills in both Korean and English\n A passion for AI built and deployed safely\n What We Offer\n Competitive base salary and commission\n Equity participation\n Comprehensive benefits\n Hybrid work model\n Access to cutting-edge AI technology and world-class research team\n "
-    },
-    {
-      "source": "anthropic",
-      "company": "Anthropic",
-      "title": "Enterprise Account Executive - Retail/CPG",
-      "location": "Seoul, South Korea",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391336008",
-      "years": 8,
-      "noLimit": false,
-      "evidence": "8+ years of enterprise sales experience in Korea with significant exposure to retail and consumer goods accounts, driving adoption of emerging technologies with a consultative, solutions-oriented approach",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "requirements under PIPA\n You may be a good fit if you have:\n 8+ years of enterprise sales experience in Korea with significant exposure to retail and consumer goods accounts, driving adoption of emerging technologies with a consultative, solutions-oriented approach\n A track record of managing complex sales processes and securing strategic deals with large-scale retailers and CPG companies by understanding the operational and technology challenges unique to Korea's retail landscape\n Demonstrated ability to navigate retail and CPG stakeholder ecosystems, building alignment across merchandising, supply chain, digital, brand marketing, and customer experience teams with multiple budget authorities and approval layers\n Proven experience exceeding revenue targets by effectively managing pipeline across seasonal retail cycles and the rapid decision-making cadence of consumer-facing businesses\n A knack for bringing order to chaos and an enthusiastic \"roll up your sleeves\" mentality. You are a true team player who thrives in ambiguous, startup-like environments\n A strategic, analytical approach to identifying opportunities within Korea's retail and CPG sector combined with patient, relationship-focused execution\n A passion for and/or experience with advanced AI systems. You feel strongly about ensuring frontier AI systems are developed safely and responsibly for broad benefit\n Excellent communication skills in both Korean and English\n "
     },
     {
       "source": "anthropic",

@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-20T18:03:32.842819+00:00",
+ "collectedAt": "2026-10-21T18:09:55.728497+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -166,7 +166,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-20",
-   "new": true,
+   "new": false,
    "found": "2026-10-20"
   },
   {
@@ -2128,20 +2128,6 @@
    "new": false,
    "found": "2026-10-05",
    "openDate": "2026-10-04"
-  },
-  {
-   "회사": "Anthropic",
-   "플랫폼": "global",
-   "title": "Enterprise Account Executive - Retail/CPG",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5391336008",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": "2026-08-28"
   },
   {
    "회사": "Anthropic",
