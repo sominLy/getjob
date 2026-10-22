@@ -14565,7 +14565,378 @@
    "archiveTotal": 642,
    "preds": 314,
    "compTotal": 553
+  },
+  {
+   "date": "2026-10-23",
+   "added": [
+    {
+     "id": "jasoseol-106272",
+     "company": "세스코",
+     "title": "2026년 하반기 전문영업직 신입 대규모 채용 (전국)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-14",
+     "url": "https://cesco.career.greetinghr.com/ko/o/177766"
+    },
+    {
+     "id": "jasoseol-106784",
+     "company": "한국전자기술연구원",
+     "title": "2026년 정규직 공개채용",
+     "roles": [
+      "콘텐츠",
+      "마케팅",
+      "기획/전략",
+      "HR/인사"
+     ],
+     "end": "2026-11-05",
+     "url": "https://jrs.jobkorea.co.kr/keti/keti262"
+    },
+    {
+     "id": "jasoseol-106816",
+     "company": "수협중앙회",
+     "title": "2026년 하반기 신입직원 채용",
+     "roles": [
+      "기획/전략",
+      "MD",
+      "마케팅",
+      "금융/심사"
+     ],
+     "end": "2026-11-06",
+     "url": "https://suhyup.incruit.com/"
+    },
+    {
+     "id": "jasoseol-106840",
+     "company": "현대제철",
+     "title": "2026 하반기 신규채용",
+     "roles": [],
+     "end": "2026-11-09",
+     "url": "https://start-your-move-hyundai-steel.talentmanagement.chatgpt.site/"
+    },
+    {
+     "id": "jasoseol-106841",
+     "company": "화신정공",
+     "title": "품질관리 사원모집(자동차부품 가공업체)",
+     "roles": [],
+     "end": "2026-10-22",
+     "url": "https://jasoseol.com/recruit/106841"
+    },
+    {
+     "id": "jasoseol-106842",
+     "company": "공무원연금공단(GEPS)",
+     "title": "2026년 하반기 신입직원 채용",
+     "roles": [],
+     "end": "2026-11-05",
+     "url": "https://geps.recruitcenter.kr/"
+    },
+    {
+     "id": "jasoseol-106843",
+     "company": "AXA손해보험",
+     "title": "재무계리팀 일반보험 결산 담당자 채용 (계약직)",
+     "roles": [
+      "금융/심사"
+     ],
+     "end": "2026-11-04",
+     "url": "https://axa.career.greetinghr.com/ko/o/241483"
+    },
+    {
+     "id": "jasoseol-106844",
+     "company": "화신정공",
+     "title": "설비보전팀 사원 모집 (자동차부품 CNC / MCT업체)",
+     "roles": [],
+     "end": "2026-10-22",
+     "url": "https://jasoseol.com/recruit/106844"
+    },
+    {
+     "id": "jasoseol-106845",
+     "company": "이카운트",
+     "title": "서비스본부 신입 공개채용",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-08",
+     "url": "https://cloud-guavaberry-727.notion.site/3fa24d324c7c80b3ae16ef8d4786b222"
+    },
+    {
+     "id": "jasoseol-106846",
+     "company": "피에스케이",
+     "title": "PSK America 신입 및 경력 사원 채용",
+     "roles": [],
+     "end": "2026-10-31",
+     "url": "https://psk.recruiter.co.kr/career/jobs/132023"
+    },
+    {
+     "id": "jasoseol-106847",
+     "company": "KB손해보험",
+     "title": "2026 하반기 4급 신입사원 공개채용",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략",
+      "마케팅",
+      "영업관리"
+     ],
+     "end": "2026-11-01",
+     "url": "https://kbinsure.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=270052"
+    },
+    {
+     "id": "jasoseol-106849",
+     "company": "한국산업기술진흥원(KIAT)",
+     "title": "2026년 하반기 전문분야 신규직원 공개채용",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-06",
+     "url": "https://kiat.careerlink.kr/"
+    },
+    {
+     "id": "jasoseol-106852",
+     "company": "에코마케팅",
+     "title": "기획하는 광고 디자이너(뷰티) 신입/경력 채용",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-11-01",
+     "url": "https://career.echomarketing.co.kr/ko/o/241441"
+    },
+    {
+     "id": "jasoseol-106853",
+     "company": "울산항만공사",
+     "title": "신입직원 (채용형 인턴) 및 체험형 청년인턴 채용",
+     "roles": [
+      "기획/전략",
+      "영업관리",
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-05",
+     "url": "https://upa.incruit.com/main/main.asp"
+    },
+    {
+     "id": "jasoseol-106857",
+     "company": "NHN Enterprise",
+     "title": "MSP/DevOps Engineer",
+     "roles": [],
+     "end": "2026-12-21",
+     "url": "https://careers.nhn.com/recruits/4448884278818848527?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Enterprise_Tech"
+    },
+    {
+     "id": "global-openai-25c2d971-56b4-43c2-8d17-",
+     "company": "OpenAI",
+     "title": "Growth Partnerships Manager, Korea · Partnerships",
+     "roles": [],
+     "end": "",
+     "url": "https://jobs.ashbyhq.com/openai/25c2d971-56b4-43c2-8d17-8e168d45add5"
+    },
+    {
+     "id": "global-google-123072596622090950",
+     "company": "Google",
+     "title": "Agentic Data Cloud Sales Specialist II, Google Cloud (Korean",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/123072596622090950"
+    },
+    {
+     "id": "global-google-128586509996434118",
+     "company": "Google",
+     "title": "Measurement Specialist, Large Customer Sales (English, Korea",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/128586509996434118"
+    },
+    {
+     "id": "global-google-127001151668134598",
+     "company": "Google",
+     "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korea",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/127001151668134598"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106484",
+     "company": "한진",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106541",
+     "company": "휴온스메디텍",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106527",
+     "company": "경기테크노파크",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106595",
+     "company": "부산항만공사",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106614",
+     "company": "코원에너지서비스",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "linkareer-355719",
+     "company": "부산도시가스",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106615",
+     "company": "후성코퍼레이션",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106621",
+     "company": "DN솔루션즈",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106625",
+     "company": "SK바이오사이언스",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106635",
+     "company": "전남도시가스",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106636",
+     "company": "케이더블유이코리아",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106649",
+     "company": "SK이노베이션 E&S",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106626",
+     "company": "기계설비건설공제조합",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106673",
+     "company": "한국수력원자력(KHNP)",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106704",
+     "company": "동국제약",
+     "end": "2026-10-21"
+    },
+    {
+     "id": "jasoseol-106714",
+     "company": "일화",
+     "end": "2026-10-21"
+    }
+   ],
+   "removed": [
+    {
+     "id": "jasoseol-106598",
+     "company": "한화에어로스페이스",
+     "title": "생성형 AI 서비스 개발자 과정"
+    }
+   ],
+   "compNew": [
+    {
+     "company": "CJ올리브영",
+     "title": "마케팅 프로모션 운영지원 (계약직)",
+     "url": "https://career.oliveyoung.com/ko/o/241583"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "Product Manager - Catalog & Listing (상품)",
+     "url": "https://career.oliveyoung.com/ko/o/241446"
+    },
+    {
+     "company": "컬리",
+     "title": "VIP 마케팅 담당자 (5년 이상)",
+     "url": "https://kurly.career.greetinghr.com/ko/o/241498"
+    },
+    {
+     "company": "캐치테이블",
+     "title": "AI-Native Product Owner (Social Service)",
+     "url": "https://catchtable.career.greetinghr.com/ko/o/241609"
+    },
+    {
+     "company": "캐치테이블",
+     "title": "AI-Native Product Manager (Social Service)",
+     "url": "https://catchtable.career.greetinghr.com/ko/o/241613"
+    },
+    {
+     "company": "캐치테이블",
+     "title": "성과형 광고(CPA) 영업 인턴 (AD Sales_Performance AD, 6개월/정규직 전환 기회)",
+     "url": "https://catchtable.career.greetinghr.com/ko/o/241564"
+    },
+    {
+     "company": "뤼튼",
+     "title": "Global Brand Marketer 인턴",
+     "url": "https://wrtn.career.greetinghr.com/ko/o/218408"
+    },
+    {
+     "company": "뤼튼",
+     "title": "Brand Marketer 인턴",
+     "url": "https://wrtn.career.greetinghr.com/ko/o/229316"
+    },
+    {
+     "company": "피에프씨테크놀로지스",
+     "title": "[체험형 인턴] Growth Strategy Team Intern(성장전략팀 인턴)",
+     "url": "https://pfct.career.greetinghr.com/ko/o/241487"
+    },
+    {
+     "company": "강남언니",
+     "title": "[강남언니] Product Owner (파트너/정산)",
+     "url": "https://career.gangnamunni.com/ko/o/241602"
+    },
+    {
+     "company": "하이브",
+     "title": "[BIGHIT MUSIC] 아티스트콘텐츠 제작(영상) (TXT 담당)",
+     "url": "https://careers.hybecorp.com/ko/o/241491"
+    },
+    {
+     "company": "크몽",
+     "title": "Sales Manager",
+     "url": "https://kmong.career.greetinghr.com/ko/o/240860"
+    },
+    {
+     "company": "아고다",
+     "title": "Customer Experience Team Manager - Korean Team (Based in Seo",
+     "url": "https://job-boards.greenhouse.io/agoda/jobs/8302730"
+    },
+    {
+     "company": "OpenAI",
+     "title": "Growth Partnerships Manager, Korea",
+     "url": "https://jobs.ashbyhq.com/openai/25c2d971-56b4-43c2-8d17-8e168d45add5"
+    },
+    {
+     "company": "세일즈포스",
+     "title": "Account Executive, Tableau (DNB Industry)",
+     "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Account-Executive--Tableau--DNB-Industry-_JR364794-1"
+    },
+    {
+     "company": "세일즈포스",
+     "title": "Account Executive, Tableau (Growth Market)",
+     "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Account-Executive--Tableau--Growth-Market-_JR364792"
+    },
+    {
+     "company": "쏘카",
+     "title": "공항사업 운영 팀장",
+     "url": "https://socar.career.greetinghr.com/ko/o/241585"
+    },
+    {
+     "company": "쏘카",
+     "title": "공항사업 운영 매니저",
+     "url": "https://socar.career.greetinghr.com/ko/o/241581"
+    }
+   ],
+   "total": 336,
+   "archiveTotal": 640,
+   "preds": 308,
+   "compTotal": 563
   }
  ],
- "updated": "2026-10-22"
+ "updated": "2026-10-23"
 }

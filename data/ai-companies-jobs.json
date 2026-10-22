@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -211,6 +211,14 @@
       "updated": "2026-10-14"
     },
     {
+      "company": "OpenAI",
+      "title": "Growth Partnerships Manager, Korea",
+      "location": "Seoul, South Korea",
+      "department": "Partnerships",
+      "url": "https://jobs.ashbyhq.com/openai/25c2d971-56b4-43c2-8d17-8e168d45add5",
+      "updated": "2026-10-22"
+    },
+    {
       "company": "Google",
       "title": "Head of YouTube Music Partnerships (English, Korean)",
       "location": "Seoul, South Korea",
@@ -220,18 +228,18 @@
     },
     {
       "company": "Google",
-      "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions (English, Korean)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/121941418200441542",
-      "updated": ""
-    },
-    {
-      "company": "Google",
       "title": "Growth Manager, App Sales (English, Korean)",
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/132951558273802950",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "Agentic Data Cloud Sales Specialist II, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/123072596622090950",
       "updated": ""
     },
     {
@@ -296,6 +304,22 @@
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/100844689166344902",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "Measurement Specialist, Large Customer Sales (English, Korean)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/128586509996434118",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/127001151668134598",
       "updated": ""
     },
     {

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-21T18:11:46.209Z",
+  "collectedAt": "2026-10-22T18:06:46.028Z",
   "errors": {},
   "jobs": [
     {
@@ -481,7 +481,7 @@
       "company": "토스",
       "title": "Brand Manager · Content · Event",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7847465003",
+      "url": "https://toss.im/career/job-detail?job_id=7847465003&sub_position_id=7847465003&company=%ED%86%A0%EC%8A%A4",
       "years": 5,
       "noLimit": false,
       "evidence": "탁월한 글쓰기와 인터뷰 역량을 바탕으로 길고 짧은 콘텐츠를 직접 제작·편집할 수 있는 분 (5년 이상)",
@@ -491,8 +491,29 @@
       "reqs": [],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17",
+      "firstSeen": "2026-10-22",
       "jd": "이런 분과 함께하고 싶어요\n\n훌륭한 콘텐츠의 힘을 알며, 언제나 최고의 퀄리티로 완성하기 위해 헌신하는 분\n탁월한 글쓰기와 인터뷰 역량을 바탕으로 길고 짧은 콘텐츠를 직접 제작·편집할 수 있는 분 (5년 이상)\n다양한 매체와 콘텐츠 트렌드에 대한 이해를 기반으로 시의적절한 콘텐츠를 기획·제작할 수 있는 분\n개별 콘텐츠를 넘어 채널 성장을 위한 콘텐츠 전략을 실행할 수 있는 분\n마케터와 영상 PD, 외부 필진 등 사내외 이해관계자와 원활하게 소통하며 결과물을 만들어 낼 수 있는 분\n\n이런 경험이 있다면 더 좋아요\n\n다양한 채널을 활용해 콘텐츠를 확산시켜본 경험\n콘텐츠 플랫폼의 성장 전략을 구체화하고 성공 시킨 경험\n핀테크/IT 기업에 대한 이해, 개발 및 디자인 조직과의 협업 경험\n\n"
+    },
+    {
+      "source": "toss",
+      "company": "토스플레이스",
+      "title": "Brand Manager",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=7847465003&sub_position_id=6508297003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+      "years": null,
+      "noLimit": false,
+      "evidence": "브랜드 캠페인을 전략 수립부터 실행, 결과 분석까지 A to Z를 주도적으로 이끌어 본 분이 필요해요.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [
+        "SQL·데이터",
+        "금융 도메인"
+      ],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-10-22",
+      "jd": "이런 분과 함께하고 싶어요\n\n브랜드 캠페인을 전략 수립부터 실행, 결과 분석까지 A to Z를 주도적으로 이끌어 본 분이 필요해요.\n채널 운영의 전략적 방향을 제시하고, 콘텐츠를 통해 뚜렷한 성장 모멘텀을 만들어 낸 경험이 필요해요.\n복잡한 정보를 큐레이션하여 타겟이 이해하기 쉬운 콘텐츠로 풀어낼 수 있는 미디어 리터러시 역량이 뛰어난 분이 필요해요.\n데이터 기반의 의사결정을 통해 성과 지표(KPI)를 달성하고, Why와 Lesson-learn을 도출해 개선한 경험이 있는 분이 필요해요.\n오프라인 이벤트 및 캠페인 기획/운영을 통해 타겟 고객과의 접점을 만들고, 차별화된 참여 프로그램으로 임팩트를 만든 경험이 있는 분이면 좋아요.\n오프라인 결제 산업이나 자영업 시장에 대한 높은 이해도가 있다면 더욱 좋아요.\n\n"
     },
     {
       "source": "toss",
@@ -637,28 +658,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/121941418200441542-account-strategist-midmarket-sales-google-customer-solutions-english-korean",
-      "years": 2,
-      "noLimit": false,
-      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
-      "roles": [
-        "솔루션·컨설팅",
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "junior",
-      "fit": false,
-      "firstSeen": "2026-10-09",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\nAbility to travel up to 20% of the time as required.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Growth Manager, App Sales (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -702,24 +701,25 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Account Strategist, Google Customer Solutions (English, Korean)",
+      "title": "Agentic Data Cloud Sales Specialist II, Google Cloud (Korean, English)",
       "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/85619459598754502-account-strategist-google-customer-solutions-english-korean",
-      "years": 2,
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/123072596622090950-agentic-data-cloud-sales-specialist-ii-google-cloud-korean-english",
+      "years": 7,
       "noLimit": false,
-      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
+      "evidence": "7 years of experience in quota-carrying enterprise sales.",
       "roles": [
-        "솔루션·컨설팅",
         "세일즈·파트너십"
       ],
       "reqs": [
-        "영어"
+        "영어",
+        "AI·LLM",
+        "B2B"
       ],
-      "bucket": "junior",
-      "fit": false,
-      "firstSeen": "2026-10-14",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently in order to interact in this customer-facing role.\n"
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-10-22",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n7 years of experience in quota-carrying enterprise sales.\nExperience building business cases through workshops or product demos to business executives.\n\nExperience developing partnerships with technical stakeholders (e.g., Enterprise Architects, Data Engineers, Data Scientists).\n\nExperience positioning and selling technical solutions in data management, analytics, infrastructure, or AI/ML.\n\nAbility to communicate in Korean and English fluently to manage stakeholder relationships.\n"
     },
     {
       "source": "google",
@@ -826,47 +826,6 @@
       "fit": false,
       "firstSeen": "2026-10-19",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n1 year of experience with cloud native architecture and development methodologies in a customer-facing or support role.\nExperience with one or more programming languages.\nExperience in delivering technical presentations.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Measurement Specialist, Large Customer Sales (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/78621740250342086-measurement-specialist-large-customer-sales-english-korean",
-      "years": 5,
-      "noLimit": false,
-      "evidence": "5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "SQL·데이터"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-22",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.\n\nExperience in SQL, databases, and automation techniques (e.g., dashboards, automating custom reports, materializing tables).\nAbility to communicate fluently in English and Korean in order to interact with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Software Engineer III, Camera System Software",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/93924568065811142-software-engineer-iii-camera-system-software",
-      "years": 2,
-      "noLimit": false,
-      "evidence": "2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.",
-      "roles": [
-        "엔지니어링"
-      ],
-      "reqs": [],
-      "bucket": "junior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor’s degree or equivalent practical experience.\n2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.\n1 year of experience with programming in C++.\n"
     },
     {
       "source": "google",
@@ -995,6 +954,51 @@
       "fit": true,
       "firstSeen": "2026-10-16",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n7 years of experience in business development, partnerships, sales or management consulting.\nExperience negotiating and managing the implementation and execution of term sheets and signed agreements with partners, and managing partner/internal stakeholders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Measurement Specialist, Large Customer Sales (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/128586509996434118-measurement-specialist-large-customer-sales-english-korean",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "SQL·데이터"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-10-22",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.\n\nExperience in SQL, databases, and automation techniques (e.g., dashboards, automating custom reports, materializing tables).\nAbility to communicate fluently in English and Korean in order to interact with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/127001151668134598-agentic-data-cloud-sales-specialist-iii-google-cloud-korean-english",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience in quota-carrying enterprise sales.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-10-22",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience in quota-carrying enterprise sales.\nExperience building business cases through workshops or product demos to business executives.\n\nExperience developing partnerships with technical stakeholders (e.g., Enterprise Architects, Data Engineers, Data Scientists).\n\nExperience positioning and selling technical solutions in data management, analytics, infrastructure, or AI/ML.\n\nAbility to communicate in Korean and English fluently to manage stakeholder relationships.\n"
     },
     {
       "source": "google",

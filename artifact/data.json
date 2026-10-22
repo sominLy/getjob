@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-21T18:09:55.728497+00:00",
+ "collectedAt": "2026-10-22T18:04:44.631913+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -154,6 +154,20 @@
    "openDate": "2025-04-03",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "마케팅 프로모션 운영지원 (계약직)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/241583",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-22",
+   "new": true,
+   "found": "2026-10-22"
   },
   {
    "회사": "CJ올리브영",
@@ -396,6 +410,20 @@
   {
    "회사": "pfct",
    "플랫폼": "greetinghr",
+   "title": "[체험형 인턴] Growth Strategy Team Intern(성장전략팀 인턴)",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://pfct.career.greetinghr.com/ko/o/241487",
+   "cat": "전략·사업",
+   "intern": true,
+   "openDate": "2026-10-22",
+   "new": true,
+   "found": "2026-10-22"
+  },
+  {
+   "회사": "pfct",
+   "플랫폼": "greetinghr",
    "title": "[전환형 인턴] B2B AI Product Owner Intern(PO, 프로덕트 오너)",
    "career": "경력무관",
    "emp": "인턴",
@@ -550,20 +578,6 @@
   {
    "회사": "넛지헬스케어",
    "플랫폼": "greetinghr",
-   "title": "[캐시워크] 서비스기획 채용전환형 인턴",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://cashwalk12.career.greetinghr.com/ko/o/30704",
-   "cat": "기획·PM/PO",
-   "intern": true,
-   "openDate": "2026-05-18",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "넛지헬스케어",
-   "플랫폼": "greetinghr",
    "title": "[캐시워크] 콘텐츠/CRM마케팅 채용전환형 인턴",
    "career": "신입",
    "emp": "인턴",
@@ -648,6 +662,34 @@
   {
    "회사": "뤼튼",
    "플랫폼": "greetinghr",
+   "title": "JP Brand Marketer 인턴",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.wrtn.io/ko/o/227428",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-22",
+   "new": true,
+   "found": "2026-10-22"
+  },
+  {
+   "회사": "뤼튼",
+   "플랫폼": "greetinghr",
+   "title": "Global Brand Marketer 인턴",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.wrtn.io/ko/o/218408",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-22",
+   "new": true,
+   "found": "2026-10-22"
+  },
+  {
+   "회사": "뤼튼",
+   "플랫폼": "greetinghr",
    "title": "Content Translator (캬라푸)",
    "career": "경력무관",
    "emp": "계약직",
@@ -658,6 +700,20 @@
    "openDate": "2026-09-22",
    "new": false,
    "found": "2026-09-29"
+  },
+  {
+   "회사": "뤼튼",
+   "플랫폼": "greetinghr",
+   "title": "Brand Marketer 인턴",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.wrtn.io/ko/o/229316",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-22",
+   "new": true,
+   "found": "2026-10-22"
   },
   {
    "회사": "마이리얼트립",
@@ -924,20 +980,6 @@
    "openDate": "2026-10-19",
    "new": false,
    "found": "2026-10-19"
-  },
-  {
-   "회사": "무신사",
-   "플랫폼": "greetinghr",
-   "title": "Brand Marketing Assistant",
-   "career": "경력 1년~",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://www.musinsacareers.com/ko/o/236801",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-09-11",
-   "new": false,
-   "found": "2026-10-03"
   },
   {
    "회사": "무신사",
@@ -1510,20 +1552,6 @@
    "cat": "세일즈·CX·제휴",
    "intern": true,
    "openDate": "2026-09-15",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "팀스파르타",
-   "플랫폼": "greetinghr",
-   "title": "PR 담당자 채용연계형 인턴",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.spartaclub.kr/ko/o/236744",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-09-11",
    "new": false,
    "found": "2026-10-03"
   },
@@ -2368,6 +2396,20 @@
    "openDate": "2026-10-14"
   },
   {
+   "회사": "OpenAI",
+   "플랫폼": "global",
+   "title": "Growth Partnerships Manager, Korea",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/openai/25c2d971-56b4-43c2-8d17-8e168d45add5",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-22",
+   "openDate": "2026-10-22"
+  },
+  {
    "회사": "Google",
    "플랫폼": "global",
    "title": "Head of YouTube Music Partnerships (English, Korean)",
@@ -2384,20 +2426,6 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/121941418200441542",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-09",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
    "title": "Growth Manager, App Sales (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2407,6 +2435,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-08",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Agentic Data Cloud Sales Specialist II, Google Cloud (Korean, English)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/123072596622090950",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-22",
    "openDate": ""
   },
   {
@@ -2519,6 +2561,34 @@
    "intern": false,
    "new": false,
    "found": "2026-10-16",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Measurement Specialist, Large Customer Sales (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/128586509996434118",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-22",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/127001151668134598",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-22",
    "openDate": ""
   },
   {
