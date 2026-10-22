@@ -1104,6 +1104,24 @@
       "found": "2026-10-15"
     },
     {
+      "id": "jasoseol-106559",
+      "company": "트루엔",
+      "title": "2026 하반기 신입 채용 (ISP화질튜닝/기술지원/IoT서버개발/해외영업/국내영업)",
+      "type": "",
+      "roles": [
+        "고객/CS",
+        "영업"
+      ],
+      "start": "2026-10-01",
+      "end": "2026-10-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://truen.ninehire.site/",
+      "hist": "",
+      "found": "2026-10-22"
+    },
+    {
       "id": "linkareer-352850",
       "company": "주식회사 더파운더즈",
       "type": "",
@@ -2876,6 +2894,32 @@
       "found": "2026-10-16"
     },
     {
+      "id": "jasoseol-106405",
+      "company": "호반그룹",
+      "title": "2027 신입사원 채용",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "홍보/PR",
+        "영업관리",
+        "영업",
+        "고객/CS",
+        "브랜드",
+        "콘텐츠",
+        "마케팅",
+        "MD"
+      ],
+      "start": "2026-09-23",
+      "end": "2026-10-11",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.hobanrecruit.com/?utm_source=jasoseol&utm_medium=banner&utm_campaign=2608hoban",
+      "hist": "",
+      "found": "2026-10-22"
+    },
+    {
       "id": "jasoseol-105605",
       "company": "NHN",
       "type": "대기업",
@@ -3565,6 +3609,25 @@
       "hist": "",
       "found": "2026-09-28",
       "title": "[신입] 반도체 장비 출고담당자 계약직 모집(안성)"
+    },
+    {
+      "id": "jasoseol-106470",
+      "company": "경기창조경제혁신센터",
+      "title": "계약직 글로벌 액셀러레이터·창업기업 액셀러레이터·투자·인사/채용 채용",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "금융/심사",
+        "HR/인사"
+      ],
+      "start": "2026-09-22",
+      "end": "2026-10-06",
+      "endTime": "21:05",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://gccei.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=244269",
+      "hist": "",
+      "found": "2026-10-22"
     },
     {
       "id": "wanted-384520",

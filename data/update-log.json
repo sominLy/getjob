@@ -14749,6 +14749,14 @@
      "roles": [],
      "end": "",
      "url": "https://www.google.com/about/careers/applications/jobs/results/127001151668134598"
+    },
+    {
+     "id": "global-anthropic-5460519008",
+     "company": "Anthropic",
+     "title": "Regional Research Economist, Economic Research · Public Bene",
+     "roles": [],
+     "end": "",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460519008"
     }
    ],
    "archived": [
@@ -14932,10 +14940,10 @@
      "url": "https://socar.career.greetinghr.com/ko/o/241581"
     }
    ],
-   "total": 336,
-   "archiveTotal": 640,
+   "total": 337,
+   "archiveTotal": 643,
    "preds": 308,
-   "compTotal": 563
+   "compTotal": 562
   }
  ],
  "updated": "2026-10-23"

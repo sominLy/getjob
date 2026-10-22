@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-22T18:06:46.028Z",
+  "collectedAt": "2026-10-22T23:41:40.359Z",
   "errors": {},
   "jobs": [
     {
@@ -1411,6 +1411,26 @@
       "fit": true,
       "firstSeen": "2026-09-29",
       "jd": "requirements and translate them into technical solutions, ensuring alignment between business objectives and technical implementation\n Serve as the primary technical advisor to enterprise customers in Korea throughout their Claude adoption journey, from discovery to initial evaluation through deployment. You will need to coordinate internally across multiple teams and stakeholders, including global teams across time zones, to drive customer success\n Support customers building with both the Claude API and Claude for Work\n Create and deliver compelling technical content tailored to different audiences. You will need to be able to span the gamut from technical deep dives for engineering and development teams up to business value focused conversations with executives\n Guide technical architecture decisions and help customers integrate Claude effectively into their existing technology stack\n Help customers develop evaluation frameworks to measure Claude's performance for their specific use cases, including Korean language use cases\n Identify common integration patterns and contribute insights back to our Product and Engineering teams\n Travel occasionally to customer sites for workshops, technical deep dives, and relationship building\n Maintain strong knowledge of the latest developments in LLM capabilities and implementation patterns\n &nbsp;\n You may be a good fit if you have: \n 5+ years of experience in people management for the technical sales roles.\n Experience working with enterprise customers, navigating complex buying cycles involving multiple stakeholders\n Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders, including C-suite executives, engineering and IT teams, and more\n Strong technical communication skills with the ability to translate customer requirements between technical and business stakeholders\n Experience designing scalable cloud architectures and integrating with enterprise systems\n Familiarity with common LLM frameworks and tools or a background in machine learning or data science\n Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n A love of teaching, mentoring, and helping others succeed\n Excellent communication and interpersonal skills, able to convey complicated topics in easily understandable terms to a diverse set of external and internal stakeholders\n Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems\n Fluency in Korean and English\n "
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Regional Research Economist, Economic Research",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460519008",
+      "years": null,
+      "noLimit": false,
+      "evidence": "PhD in Economics",
+      "roles": [],
+      "reqs": [
+        "SQL·데이터",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-10-22",
+      "jd": "Minimum qualifications \n PhD in Economics\n Strong track record of empirical research, particularly studies combining novel data sources and economic theory or implementing frontier methods in causal inference and machine learning\n Demonstrated experience working in, and relevant relationships across, the region\n Proficiency in Python, R, SQL, or similar tools for large-scale data analysis\n Demonstrated ability to lead complex research projects from conception to publication\n Demonstrated ability to communicate technical findings to diverse audiences\n Demonstrated ability to build relationships across academic, policy, and industry communities\n Preferred qualifications \n Experience relevant to the study of AI’s impact on the economy, such as labor market analysis and occupational change; task-based approaches to technological transformation; large-scale data analysis and econometric methods; large language models for social science research; policy-relevant economic research; experimental and quasi-experimental methods for causal inference; macroeconomic modeling and time series forecasting; or agent-based modeling and large-scale simulation\n Experience working with novel datasets and measurement systems\n Comfort learning new technical tools and frameworks\n Strong interest in ensuring AI development benefits humanity\n Comfort working with AI systems and ability to think critically about their capabilities and limitations\n Representative projects \n How Australia Uses Claude: Findings from the Anthropic Economic Index \n Anthropic Economic Index Report: Economic Primitives \n Anthropic Economic Index Report: Uneven Geographic and Enterprise AI Adoption \n Estimating AI productivity gains from Claude conversations \n The Anthropic Economic Index \n "
     },
     {
       "source": "anthropic",

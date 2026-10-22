@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-22T18:04:44.631913+00:00",
+ "collectedAt": "2026-10-22T23:39:38.203815+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -166,7 +166,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-22",
-   "new": true,
+   "new": false,
    "found": "2026-10-22"
   },
   {
@@ -418,7 +418,7 @@
    "cat": "전략·사업",
    "intern": true,
    "openDate": "2026-10-22",
-   "new": true,
+   "new": false,
    "found": "2026-10-22"
   },
   {
@@ -670,7 +670,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-22",
-   "new": true,
+   "new": false,
    "found": "2026-10-22"
   },
   {
@@ -684,7 +684,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-22",
-   "new": true,
+   "new": false,
    "found": "2026-10-22"
   },
   {
@@ -712,7 +712,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-10-22",
-   "new": true,
+   "new": false,
    "found": "2026-10-22"
   },
   {
@@ -2202,6 +2202,20 @@
   {
    "회사": "Anthropic",
    "플랫폼": "global",
+   "title": "Regional Research Economist, Economic Research",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5460519008",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-22",
+   "openDate": "2026-10-22"
+  },
+  {
+   "회사": "Anthropic",
+   "플랫폼": "global",
    "title": "Sales Director, Enterprise",
    "career": "-",
    "emp": "-",
@@ -2405,7 +2419,7 @@
    "link": "https://jobs.ashbyhq.com/openai/25c2d971-56b4-43c2-8d17-8e168d45add5",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-22",
    "openDate": "2026-10-22"
   },
@@ -2447,7 +2461,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/123072596622090950",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-22",
    "openDate": ""
   },
@@ -2573,7 +2587,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/128586509996434118",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-22",
    "openDate": ""
   },
@@ -2587,7 +2601,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/127001151668134598",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-22",
    "openDate": ""
   },

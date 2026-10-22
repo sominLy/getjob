@@ -6538,6 +6538,19 @@
       "found": "2026-10-22"
     },
     {
+      "id": "global-anthropic-5460519008",
+      "company": "Anthropic",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "Anthropic 채용페이지",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460519008",
+      "hist": "Regional Research Economist, Economic Research · Public Benefit",
+      "found": "2026-10-22"
+    },
+    {
       "id": "pred-ibk신용정보-202610",
       "company": "IBK신용정보",
       "type": "금융",
