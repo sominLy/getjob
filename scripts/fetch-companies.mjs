@@ -20,7 +20,9 @@ const OUT = path.join(__dirname, "..", "data", "company-jobs.json");
 const ROLE = /영업|세일즈|sales|account\s*(executive|manager|strategist)|\bAE\b|\bSDR\b|\bBDR\b|기획|PM\b|PO\b|product\s*(manager|owner|operations|marketing|strategist|lead)|프로덕트|program\s*manager|사업|business|전략|strategy|operations|운영|마케팅|marketing|marketer|growth|그로스|brand|브랜드|CRM|MD\b|머천다이|merchandis|콘텐츠|content|partnership|제휴|GTM|go[-\s]to[-\s]market|campaign|캠페인|community|커뮤니티|CX\b|customer\s*(experience|success)|intern|인턴/i;
 const EXCLUDE = /engineer|엔지니어|developer|개발자|백엔드|프론트엔드|backend|frontend|designer|디자이너|scientist|researcher|연구원|devops|\bSRE\b|security|보안|legal|법무|counsel|accountant|회계|recruit|채용담당|talent\s*acquisition/i;
 const SEOUL = /seoul|korea|서울|한국|대한민국|성남|판교/i;
-const relevant = (title) => ROLE.test(title) && !EXCLUDE.test(title) && !isTalentPool(title);
+// 앱·웹 개발 직무(예: 'iOS 개발 인턴'). 단 PM·PO·기획이 붙은 개발 직무(예: '게임 개발 PM')는 남긴다
+const DEV = /\biOS\b|android|안드로이드|(프론트|백엔드|앱|웹|서버|게임|SW|소프트웨어)\s*개발/i;
+const relevant = (title) => ROLE.test(title) && !EXCLUDE.test(title) && !isTalentPool(title) && !(DEV.test(title) && !/\bP[MO]\b|기획|product/i.test(title));
 
 const GREETING = [
   ["무신사", "https://musinsa.career.greetinghr.com"], ["CJ올리브영", "https://career.oliveyoung.com"],
