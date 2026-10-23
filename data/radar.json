@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-22T23:41:40.359Z",
+  "collectedAt": "2026-10-23T17:57:39.195Z",
   "errors": {},
   "jobs": [
     {
@@ -458,6 +458,26 @@
     {
       "source": "toss",
       "company": "토스뱅크",
+      "title": "Technical Product Owner (AI)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=8042384003",
+      "years": null,
+      "noLimit": false,
+      "evidence": "머신러닝 기반의 제품 또는 시스템을 설계하고 운영해 본 실무 경험이 있는 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "AI·LLM"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-10-23",
+      "jd": "이런 분과 함께하고 싶어요\n\n머신러닝 기반의 제품 또는 시스템을 설계하고 운영해 본 실무 경험이 있는 분이 필요해요.\nAI 에이전트, 보이스 에이전트(Voice Agent), 음성 인식·합성(STT/TTS), 문서 인식(OCR) 등 다양한 ML 응용 분야에 대한 경험 또는 강한 관심이 있는 분이 필요해요.\n기술적 난이도가 높거나 불확실성이 큰 과제를 끝까지 리딩한 경험이 있는 분이 필요해요.\n비즈니스 임팩트와 기술적 타당성을 함께 고려하며 단계적 성과를 만들 줄 아는 실행력을 갖춘 분이 필요해요.\n\n"
+    },
+    {
+      "source": "toss",
+      "company": "토스뱅크",
       "title": "외환 상품 Manager (해외송금)",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=7761021003",
@@ -847,27 +867,6 @@
       "fit": false,
       "firstSeen": "2026-10-14",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in advertising sales, marketing, consulting or media.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Technical Solutions Consultant, gTech (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/139541106478981830-technical-solutions-consultant-gtech-english-korean",
-      "years": null,
-      "noLimit": false,
-      "evidence": "Bachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "open",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.\nExperience in product implementations, technical solutions consulting, or technical sales.\nExperience troubleshooting technical issues for internal/external partners or customers.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",

@@ -1,6 +1,70 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "jobs": [
+    {
+      "id": "jasoseol-106540",
+      "company": "한샘",
+      "title": "2026년 하반기 영업직 신입(TR) 공개 채용",
+      "type": "중견기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-10-04",
+      "end": "2026-10-22",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.hanssem.com/job_posting/uVCaolkW?utm_source=JASO",
+      "hist": "",
+      "found": "2026-10-05"
+    },
+    {
+      "id": "jasoseol-106638",
+      "company": "kt ds",
+      "title": "2026년 신입사원 공개채용",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-09",
+      "end": "2026-10-22",
+      "endTime": "16:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kt.recruiter.co.kr/career/jobs/129809",
+      "hist": "",
+      "found": "2026-10-09"
+    },
+    {
+      "id": "jasoseol-106841",
+      "company": "화신정공",
+      "title": "품질관리 사원모집(자동차부품 가공업체)",
+      "type": "",
+      "roles": [],
+      "start": "2026-10-21",
+      "end": "2026-10-22",
+      "endTime": "16:33",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jasoseol.com/recruit/106841",
+      "hist": "",
+      "found": "2026-10-22"
+    },
+    {
+      "id": "jasoseol-106844",
+      "company": "화신정공",
+      "title": "설비보전팀 사원 모집 (자동차부품 CNC / MCT업체)",
+      "type": "",
+      "roles": [],
+      "start": "2026-10-21",
+      "end": "2026-10-22",
+      "endTime": "13:17",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://jasoseol.com/recruit/106844",
+      "hist": "",
+      "found": "2026-10-22"
+    },
     {
       "id": "jasoseol-106484",
       "company": "한진",
@@ -11037,181 +11101,6 @@
       "url": "https://hanaw-hr.recruiter.co.kr/career/jobs/126902?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609hana",
       "hist": "",
       "endTime": "14:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105776",
-      "company": "KT",
-      "type": "대기업",
-      "roles": [
-        "영업",
-        "영업관리",
-        "기획/전략",
-        "마케팅",
-        "MD"
-      ],
-      "start": "2026-08-25",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.kt.com/careers/263897",
-      "hist": "",
-      "endTime": "16:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105034",
-      "company": "토스뱅크",
-      "type": "",
-      "roles": [],
-      "start": "2026-07-08",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://toss.im/career/job-detail?job_id=7569850003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105722",
-      "company": "대한상공회의소 충남인력개발원",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-20",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://cn.korchamhrd.net/education/professionalSkillEduDetail.do?rootMenuId=3716&menuId=3722&gaebalwon_cd=07000&gwajeong_no=M2026024",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105728",
-      "company": "서해철도",
-      "type": "공기업",
-      "roles": [
-        "고객/CS"
-      ],
-      "start": "2026-08-28",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://shrail.scout.co.kr",
-      "hist": "",
-      "endTime": "17:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105787",
-      "company": "한국보건산업진흥원",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "영업",
-        "MD",
-        "PM/서비스기획"
-      ],
-      "start": "2026-08-25",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://khidi.recruitlab.co.kr/",
-      "hist": "",
-      "endTime": "18:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105793",
-      "company": "넥슨컴퍼니",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-08-25",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.nexon-tutorial.com/?utm_campaign=2026nexon-tutorial&utm_source=jasoseol&utm_medium=display&utm_content=post",
-      "hist": "",
-      "endTime": "16:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105836",
-      "company": "한국보건산업진흥원",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-08-25",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://khidi.recruitlab.co.kr/",
-      "hist": "",
-      "endTime": "18:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105838",
-      "company": "한국과학기술원 부설 고등과학원",
-      "type": "공기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-08-23",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kias.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263834",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105867",
-      "company": "과천도시공사",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-08-27",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://dware.intojob.co.kr/main/gcuc.jsp",
-      "hist": "",
-      "endTime": "18:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105894",
-      "company": "서울교통공사(Seoul Metro)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-09-01",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608280001021",
-      "hist": "",
-      "endTime": "17:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105916",
-      "company": "세아특수강",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-31",
-      "end": "2026-09-07",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://seahsp.career.greetinghr.com/ko/home",
-      "hist": "",
-      "endTime": "23:59",
       "found": "2026-09-06"
     }
   ]

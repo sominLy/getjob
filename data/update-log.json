@@ -14944,7 +14944,271 @@
    "archiveTotal": 643,
    "preds": 308,
    "compTotal": 562
+  },
+  {
+   "date": "2026-10-24",
+   "added": [
+    {
+     "id": "linkareer-359333",
+     "company": "농심",
+     "title": "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략"
+     ],
+     "end": "2026-11-09",
+     "url": "https://linkareer.com/activity/359333"
+    },
+    {
+     "id": "linkareer-359329",
+     "company": "농심",
+     "title": "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략"
+     ],
+     "end": "2026-11-09",
+     "url": "https://linkareer.com/activity/359329"
+    },
+    {
+     "id": "linkareer-356276",
+     "company": "현대그린푸드",
+     "title": "",
+     "roles": [
+      "기획/전략",
+      "PM/서비스기획",
+      "마케팅",
+      "영업"
+     ],
+     "end": "2026-10-25",
+     "url": "https://linkareer.com/activity/356276"
+    },
+    {
+     "id": "jasoseol-106838",
+     "company": "한국거래소",
+     "title": "시장분석전문가 채용",
+     "roles": [
+      "금융/심사",
+      "기획/전략",
+      "리서치"
+     ],
+     "end": "2026-11-03",
+     "url": "https://krx.saramin.co.kr/service/krx/4013/applicant/apply/recruit_default.asp"
+    },
+    {
+     "id": "jasoseol-106839",
+     "company": "한국거래소",
+     "title": "증권·파생상품연구인력 채용",
+     "roles": [
+      "금융/심사",
+      "기획/전략",
+      "리서치"
+     ],
+     "end": "2026-11-10",
+     "url": "https://krx.saramin.co.kr/service/krx/4014/applicant/apply/recruit_default.asp"
+    },
+    {
+     "id": "jasoseol-106859",
+     "company": "케이뱅크",
+     "title": "2027 채용연계형 인턴십",
+     "roles": [
+      "기획/전략",
+      "브랜드",
+      "콘텐츠",
+      "마케팅"
+     ],
+     "end": "2026-10-26",
+     "url": "https://kbank.recruiter.co.kr"
+    },
+    {
+     "id": "jasoseol-106866",
+     "company": "KIS정보통신",
+     "title": "2026년 하반기 신입/경력 수시 채용",
+     "roles": [],
+     "end": "2026-11-01",
+     "url": "https://nice.career.greetinghr.com/ko/o/241654"
+    },
+    {
+     "id": "jasoseol-106869",
+     "company": "한국화낙",
+     "title": "2027년도 정규직 신입사원 모집",
+     "roles": [
+      "영업",
+      "PM/서비스기획",
+      "HR/인사"
+     ],
+     "end": "2026-11-08",
+     "url": "https://fkc.recruiter.co.kr/career/jobs/131996?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610fkc"
+    },
+    {
+     "id": "jasoseol-106874",
+     "company": "PKC",
+     "title": "신입사원 모집",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-04",
+     "url": "https://job.scout.co.kr/jobinfo/jobinfo_view.aspx?id=2101"
+    },
+    {
+     "id": "jasoseol-106880",
+     "company": "토스뱅크",
+     "title": "Data Engineering Specialist 계약직 채용",
+     "roles": [],
+     "end": "2026-12-22",
+     "url": "https://toss.im/career/job-detail?job_id=8039958003"
+    },
+    {
+     "id": "jasoseol-106881",
+     "company": "토스플레이스",
+     "title": "Community Specialist",
+     "roles": [],
+     "end": "2026-10-31",
+     "url": "https://toss.im/career/job-detail?job_id=5885438003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+    },
+    {
+     "id": "jasoseol-106882",
+     "company": "현대엘앤씨",
+     "title": "하반기 신입사원 공개채용(디자인)",
+     "roles": [],
+     "end": "2026-11-08",
+     "url": "https://recruit.ehyundai.com/recruit-info/announcement/view.nhd?hireId=2026618&regCoCd=HDLNC"
+    },
+    {
+     "id": "jasoseol-106884",
+     "company": "대한산업안전협회",
+     "title": "2026년 정규직 채용(제한경쟁)",
+     "roles": [
+      "HR/인사",
+      "기획/전략"
+     ],
+     "end": "2026-11-04",
+     "url": "https://safety.career.co.kr/"
+    },
+    {
+     "id": "global-google-141741411513836230",
+     "company": "Google",
+     "title": "Senior Technical Solutions Consultant, Auto Partner Engineer",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/141741411513836230"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106540",
+     "company": "한샘",
+     "end": "2026-10-22"
+    },
+    {
+     "id": "jasoseol-106638",
+     "company": "kt ds",
+     "end": "2026-10-22"
+    },
+    {
+     "id": "jasoseol-106841",
+     "company": "화신정공",
+     "end": "2026-10-22"
+    },
+    {
+     "id": "jasoseol-106844",
+     "company": "화신정공",
+     "end": "2026-10-22"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Operations Assistant (인플루언서사업)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/241682"
+    },
+    {
+     "company": "무신사",
+     "title": "Retail Media Growth Manager",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/231092"
+    },
+    {
+     "company": "무신사",
+     "title": "전략소싱 담당자 (통합소싱)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/241110"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "SCM 사업 기획 및 운영 분석 담당자",
+     "url": "https://career.oliveyoung.com/ko/o/241754"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "Product Manager - Beauty Experience (Omnichannel)",
+     "url": "https://career.oliveyoung.com/ko/o/241750"
+    },
+    {
+     "company": "캐치테이블",
+     "title": "광고 세일즈 (6개월 인턴, 부산 근무)",
+     "url": "https://catchtable.career.greetinghr.com/ko/o/241761"
+    },
+    {
+     "company": "캐치테이블",
+     "title": "브랜드 제휴 마케터 (1년 계약직)",
+     "url": "https://catchtable.career.greetinghr.com/ko/o/241752"
+    },
+    {
+     "company": "여기어때",
+     "title": "Sales Strategy & Planning Manager",
+     "url": "https://gccompany.career.greetinghr.com/ko/o/241655"
+    },
+    {
+     "company": "더핑크퐁컴퍼니",
+     "title": "아마존 재고·정산 운영 담당자",
+     "url": "https://thepinkfongcompany.career.greetinghr.com/ko/o/237868"
+    },
+    {
+     "company": "강남언니",
+     "title": "[강남언니] iOS 개발 인턴 (체험형)",
+     "url": "https://career.gangnamunni.com/ko/o/241712"
+    },
+    {
+     "company": "강남언니",
+     "title": "[강남언니] 영미권 콘텐츠 마케팅 인턴 (체험형)",
+     "url": "https://career.gangnamunni.com/ko/o/241737"
+    },
+    {
+     "company": "강남언니",
+     "title": "[강남언니] 콘텐츠 운영 정책 매니저",
+     "url": "https://career.gangnamunni.com/ko/o/241674"
+    },
+    {
+     "company": "하이브",
+     "title": "[HYBE Global Label Services] 사업관리",
+     "url": "https://careers.hybecorp.com/ko/o/241723"
+    },
+    {
+     "company": "하이브",
+     "title": "Marketing - Brand Manager",
+     "url": "https://careers.hybecorp.com/ko/o/241675"
+    },
+    {
+     "company": "하이브",
+     "title": "[BIGHIT MUSIC] 영상콘텐츠편집 (TXT 담당)*",
+     "url": "https://careers.hybecorp.com/ko/o/241668"
+    },
+    {
+     "company": "하이브",
+     "title": "[KOZ Entertainment] 아티스트 마케팅 담당",
+     "url": "https://careers.hybecorp.com/ko/o/241663"
+    },
+    {
+     "company": "쏘카",
+     "title": "경영전략 매니저(IR)",
+     "url": "https://socar.career.greetinghr.com/ko/o/241739"
+    }
+   ],
+   "total": 347,
+   "archiveTotal": 636,
+   "preds": 311,
+   "compTotal": 570
   }
  ],
- "updated": "2026-10-23"
+ "updated": "2026-10-24"
 }

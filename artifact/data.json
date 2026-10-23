@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-22T23:39:38.203815+00:00",
+ "collectedAt": "2026-10-23T17:55:44.571414+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -452,6 +452,20 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
+   "title": "[강남언니] 영미권 콘텐츠 마케팅 인턴 (체험형)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/241737",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-23",
+   "new": true,
+   "found": "2026-10-23"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
    "title": "[강남언니] 태국 소셜 마케팅 인턴 (체험형)",
    "career": "신입",
    "emp": "인턴",
@@ -718,6 +732,20 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
+   "title": "서비스정책실 PR 매니저",
+   "career": "-",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://myrealtrip.career.greetinghr.com/ko/o/241786",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-23",
+   "new": true,
+   "found": "2026-10-23"
+  },
+  {
+   "회사": "마이리얼트립",
+   "플랫폼": "greetinghr",
    "title": "패키지실 사업개발(신사업) 매니저",
    "career": "-",
    "emp": "정규직",
@@ -768,20 +796,6 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-08-19",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
-   "title": "국내숙박실 국내사업 Account Manager",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/215156",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-05-04",
    "new": false,
    "found": "2026-10-03"
   },
@@ -858,7 +872,7 @@
   {
    "회사": "메가스터디교육",
    "플랫폼": "greetinghr",
-   "title": "[MEXX] MEXX학원 고객 지원/회계/행정 채용",
+   "title": "[MEXX] MEXX학원 고객지원/행정지원 채용",
    "career": "경력무관",
    "emp": "계약직",
    "due": "2026-10-25",
@@ -994,20 +1008,6 @@
    "openDate": "2026-10-15",
    "new": false,
    "found": "2026-10-15"
-  },
-  {
-   "회사": "무신사",
-   "플랫폼": "greetinghr",
-   "title": "Commerce PM Assistant",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://www.musinsacareers.com/ko/o/187946",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-07-28",
-   "new": false,
-   "found": "2026-10-03"
   },
   {
    "회사": "무신사",
@@ -1306,6 +1306,20 @@
   {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
+   "title": "마케팅 PD (MD 성장형 포지션)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "2026-11-09",
+   "link": "https://job.wadiz.io/ko/o/241772",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-23",
+   "new": true,
+   "found": "2026-10-23"
+  },
+  {
+   "회사": "와디즈",
+   "플랫폼": "greetinghr",
    "title": "광고 운영 담당자 (인턴)",
    "career": "경력무관",
    "emp": "인턴",
@@ -1316,6 +1330,20 @@
    "openDate": "2026-10-07",
    "new": false,
    "found": "2026-10-01"
+  },
+  {
+   "회사": "와디즈",
+   "플랫폼": "greetinghr",
+   "title": "펀딩 프로모션 마케팅 운영 담당자 (인턴)",
+   "career": "-",
+   "emp": "인턴",
+   "due": "2026-11-09",
+   "link": "https://job.wadiz.io/ko/o/234747",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-10-23",
+   "new": true,
+   "found": "2026-10-23"
   },
   {
    "회사": "와디즈",
@@ -1586,6 +1614,20 @@
   {
    "회사": "하이브",
    "플랫폼": "greetinghr",
+   "title": "[BIGHIT MUSIC] 영상콘텐츠편집 (TXT 담당)*",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/241668",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-10-23",
+   "new": true,
+   "found": "2026-10-23"
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
    "title": "[BELIFT LAB] 콘텐츠 외주관리/제작 행정 담당자*",
    "career": "경력무관",
    "emp": "계약직",
@@ -1616,7 +1658,7 @@
    "플랫폼": "greetinghr",
    "title": "[HYBE] ITSM/CS*",
    "career": "경력 1년~",
-   "emp": "정규직",
+   "emp": "계약직",
    "due": "상시",
    "link": "https://careers.hybecorp.com/ko/o/240417",
    "cat": "세일즈·CX·제휴",
@@ -1978,6 +2020,20 @@
   {
    "회사": "쿠팡",
    "플랫폼": "greenhouse",
+   "title": "[쿠팡로지스틱스서비스] 물류 데이터 분석 담당자 (신입 가능)",
+   "career": "주니어(제목 기준)",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8316768",
+   "cat": "데이터·리서치",
+   "intern": false,
+   "openDate": "2026-10-23",
+   "new": true,
+   "found": "2026-10-23"
+  },
+  {
+   "회사": "쿠팡",
+   "플랫폼": "greenhouse",
    "title": "[쿠팡로지스틱스서비스] 로켓설치 협력사 운영 및 관리 담당자 (신입)",
    "career": "주니어(제목 기준)",
    "emp": "-",
@@ -2209,7 +2265,7 @@
    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5460519008",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-22",
    "openDate": "2026-10-22"
   },
@@ -2524,6 +2580,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Senior Technical Solutions Consultant, Auto Partner Engineering (Korean, English, Chinese)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/141741411513836230",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-23",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Customer Onboarding Strategist, Google Customer Solutions (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2533,20 +2603,6 @@
    "intern": false,
    "new": false,
    "found": "2026-10-14",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "Technical Solutions Consultant, gTech (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/139541106478981830",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
    "openDate": ""
   },
   {
