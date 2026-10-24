@@ -15208,7 +15208,64 @@
    "archiveTotal": 636,
    "preds": 311,
    "compTotal": 570
+  },
+  {
+   "date": "2026-10-25",
+   "added": [],
+   "archived": [
+    {
+     "id": "jasoseol-105788",
+     "company": "채널코퍼레이션",
+     "end": "2026-10-23"
+    },
+    {
+     "id": "jasoseol-106592",
+     "company": "경기테크노파크",
+     "end": "2026-10-23"
+    },
+    {
+     "id": "jasoseol-106593",
+     "company": "경기테크노파크",
+     "end": "2026-10-23"
+    },
+    {
+     "id": "jasoseol-106616",
+     "company": "푸른저축은행",
+     "end": "2026-10-23"
+    },
+    {
+     "id": "jasoseol-106627",
+     "company": "한국토지주택공사(LH)",
+     "end": "2026-10-23"
+    },
+    {
+     "id": "jasoseol-106628",
+     "company": "크래프톤",
+     "end": "2026-10-23"
+    },
+    {
+     "id": "jasoseol-106722",
+     "company": "신세계인터내셔날",
+     "end": "2026-10-23"
+    },
+    {
+     "id": "jasoseol-106737",
+     "company": "NH투자증권",
+     "end": "2026-10-23"
+    },
+    {
+     "id": "linkareer-356625",
+     "company": "크래프톤",
+     "end": "2026-10-23"
+    }
+   ],
+   "removed": [],
+   "compNew": [],
+   "total": 338,
+   "archiveTotal": 634,
+   "preds": 318,
+   "compTotal": 568
   }
  ],
- "updated": "2026-10-24"
+ "updated": "2026-10-25"
 }

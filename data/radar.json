@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-23T17:57:39.195Z",
+  "collectedAt": "2026-10-24T16:46:21.352Z",
   "errors": {},
   "jobs": [
     {
@@ -761,27 +761,6 @@
       "fit": false,
       "firstSeen": "2026-10-09",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n1 year of experience in business development, partnerships, management consulting, or investment banking.\nExperience in the consumer electronics, auto, OEMs, telecom, e-Commerce/retail, apps, ads, gaming, or technology industries.\nExperience working with C-level executives and cross-functionally across all levels of management.\n\nExperience managing agreements or partnerships.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Security Customer Engineer, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/92833852531057350-security-customer-engineer-google-cloud-english-korean",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "10 years of experience in a technical sales engineering role in security or cloud native environments.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n10 years of experience in a technical sales engineering role in security or cloud native environments.\n\nExperience in cybersecurity (e.g., network security, SoC platform, threat detection, malware intelligence, cloud security posture management, or identity and access management systems).\n\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
     },
     {
       "source": "google",
