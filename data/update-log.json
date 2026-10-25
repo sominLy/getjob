@@ -15265,7 +15265,127 @@
    "archiveTotal": 634,
    "preds": 318,
    "compTotal": 568
+  },
+  {
+   "date": "2026-10-26",
+   "added": [
+    {
+     "id": "jasoseol-106163",
+     "company": "NHN Cloud",
+     "title": "프레임워크 개발",
+     "roles": [],
+     "end": "2026-11-09",
+     "url": "https://careers.nhn.com/recruits/4372715143150233773?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech"
+    },
+    {
+     "id": "jasoseol-106583",
+     "company": "앤비젼",
+     "title": "2026년 하반기 공개채용",
+     "roles": [
+      "영업",
+      "영업관리"
+     ],
+     "end": "2026-11-08",
+     "url": "https://envision.recruiter.co.kr/"
+    },
+    {
+     "id": "jasoseol-106697",
+     "company": "STX엔진",
+     "title": "신입/경력 수시채용",
+     "roles": [],
+     "end": "2026-10-27",
+     "url": "https://recruit.stxengine.co.kr/"
+    },
+    {
+     "id": "jasoseol-106762",
+     "company": "비전바이오켐",
+     "title": "2026년 하반기 신입·경력사원 채용",
+     "roles": [
+      "영업",
+      "MD",
+      "마케팅"
+     ],
+     "end": "2026-10-25",
+     "url": "https://bision.recruiter.co.kr/appsite/company/index"
+    },
+    {
+     "id": "jasoseol-106800",
+     "company": "유라코퍼레이션",
+     "title": "해외법인 한국인관리자 채용 (신입/경력)",
+     "roles": [
+      "기획/전략",
+      "HR/인사",
+      "영업"
+     ],
+     "end": "2026-11-08",
+     "url": "https://yura.recruiter.co.kr/career/jobs/131625?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610yura"
+    },
+    {
+     "id": "jasoseol-106867",
+     "company": "디팜스테크",
+     "title": "각 부문 신입/경력 채용",
+     "roles": [
+      "기획/전략",
+      "HR/인사",
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://www.dpamstech.co.kr"
+    },
+    {
+     "id": "jasoseol-106868",
+     "company": "고위드",
+     "title": "[핀테크/금융권] 전략·법인영업 신입사원 집중채용 (-11/8)",
+     "roles": [
+      "영업",
+      "기획/전략"
+     ],
+     "end": "2026-11-08",
+     "url": "https://rookie.gowid.com/"
+    },
+    {
+     "id": "jasoseol-106870",
+     "company": "CR홀딩스/조선내화",
+     "title": "2026년 하반기 신입/경력 공개 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-08",
+     "url": "https://litt.ly/recruit_chosunref"
+    },
+    {
+     "id": "jasoseol-106871",
+     "company": "자화전자",
+     "title": "2026년 하반기 신입 및 경력 채용",
+     "roles": [
+      "영업",
+      "고객/CS",
+      "HR/인사",
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-01",
+     "url": "https://jahwa.career.greetinghr.com/ko/recruit"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-105803",
+     "company": "앱솔브랩",
+     "end": "2026-10-24"
+    },
+    {
+     "id": "jasoseol-105824",
+     "company": "리멤버앤컴퍼니",
+     "end": "2026-10-24"
+    }
+   ],
+   "removed": [],
+   "compNew": [],
+   "total": 346,
+   "archiveTotal": 624,
+   "preds": 322,
+   "compTotal": 564
   }
  ],
- "updated": "2026-10-25"
+ "updated": "2026-10-26"
 }

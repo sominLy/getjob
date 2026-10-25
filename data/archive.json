@@ -1,6 +1,44 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "jobs": [
+    {
+      "id": "jasoseol-105803",
+      "company": "앱솔브랩",
+      "type": "",
+      "roles": [
+        "브랜드",
+        "콘텐츠",
+        "마케팅"
+      ],
+      "start": "2026-08-24",
+      "end": "2026-10-24",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://celimax.ninehire.site/job_posting/9Vua8yHY",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "[셀리맥스] 유럽 마케팅 인턴 채용"
+    },
+    {
+      "id": "jasoseol-105824",
+      "company": "리멤버앤컴퍼니",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "고객/CS",
+        "HR/인사"
+      ],
+      "start": "2026-08-25",
+      "end": "2026-10-24",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://hello.remember.co.kr/recruit",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "교육 기획 및 운영 담당자(계약직)"
+    },
     {
       "id": "jasoseol-105788",
       "company": "채널코퍼레이션",
@@ -10853,210 +10891,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kumhotire.recruiter.co.kr/career/home",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105707",
-      "company": "현대엔지비",
-      "type": "대기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-08-19",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.hyundai-ngv.com/board/read.jsp?id=16916&",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105764",
-      "company": "뤼튼테크놀로지스",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-08-21",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://career.wrtn.io/ko/o/233858",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105800",
-      "company": "유안타증권",
-      "type": "금융",
-      "roles": [
-        "금융/심사"
-      ],
-      "start": "2026-08-24",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.yuantakorea.com:4433/jobinfo/",
-      "hist": "",
-      "endTime": "23:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105828",
-      "company": "대구경북첨단의료산업진흥재단",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "홍보/PR",
-        "마케팅",
-        "HR/인사"
-      ],
-      "start": "2026-08-25",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kmedihub.recruiter.co.kr/career/resume",
-      "hist": "",
-      "endTime": "17:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105856",
-      "company": "어플라이드 머티어리얼즈 코리아",
-      "type": "대기업",
-      "roles": [
-        "영업",
-        "영업관리",
-        "기획/전략"
-      ],
-      "start": "2026-08-27",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://appliedkorea.applyin.co.kr/jobs/",
-      "hist": "",
-      "endTime": "17:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105899",
-      "company": "현대엔지니어링",
-      "type": "대기업",
-      "roles": [
-        "영업",
-        "기획/전략",
-        "브랜드",
-        "마케팅",
-        "홍보/PR",
-        "HR/인사"
-      ],
-      "start": "2026-08-27",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://hec.recruiter.co.kr/career/jobs/123862",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105937",
-      "company": "녹십자웰빙",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-08-31",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.gcbiopharma.com/job/GC%EB%85%B9%EC%8B%AD%EC%9E%90%EC%9B%B0%EB%B9%99-%EC%9E%90%EA%B8%88-%28%EC%8B%A0%EC%9E%85%EA%B2%BD%EB%A0%A5%29/4426450/",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105943",
-      "company": "KB국민은행",
-      "type": "금융",
-      "roles": [
-        "영업",
-        "영업관리",
-        "PM/서비스기획",
-        "고객/CS"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kbstar.careerlink.kr/",
-      "hist": "",
-      "endTime": "18:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105949",
-      "company": "연합인포맥스",
-      "type": "중견기업",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.einfomax.co.kr/#/board/notice",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105977",
-      "company": "서울창조경제혁신센터",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-08-26",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://sccei.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2608sccei",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105991",
-      "company": "AXA손해보험",
-      "type": "금융",
-      "roles": [
-        "고객/CS"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://axa.career.greetinghr.com/ko/o/235337",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-106065",
-      "company": "세아제강",
-      "type": "대기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-09-03",
-      "end": "2026-09-09",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://seahsteel.recruiter.co.kr/career/jobs/127303",
       "hist": "",
       "endTime": "23:59",
       "found": "2026-09-06"

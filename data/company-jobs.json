@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "errors": {},
  "jobs": [
   {
@@ -9235,62 +9235,6 @@
    "found": "2026-10-03"
   },
   {
-   "company": "메가스터디교육",
-   "title": "[고등] 온라인 교육 콘텐츠 기획(과학) 채용",
-   "url": "https://megastudyedu.career.greetinghr.com/ko/o/238606",
-   "posted": "2026-10-19",
-   "years": null,
-   "w": {
-    "브랜드": 1,
-    "콘텐츠 기획·제작": 3,
-    "정산·계약": 2,
-    "교육": 3
-   },
-   "short": false,
-   "found": "2026-10-19"
-  },
-  {
-   "company": "메가스터디교육",
-   "title": "[고등] 온라인 입시 서비스 기획 채용",
-   "url": "https://megastudyedu.career.greetinghr.com/ko/o/233562",
-   "posted": "2026-10-19",
-   "years": null,
-   "w": {
-    "서비스기획": 3,
-    "브랜드": 1,
-    "교육": 3
-   },
-   "short": false,
-   "found": "2026-10-19"
-  },
-  {
-   "company": "메가스터디교육",
-   "title": "[러셀] 러셀대구학원 교무기획 채용",
-   "url": "https://megastudyedu.career.greetinghr.com/ko/o/238409",
-   "posted": "2026-10-19",
-   "years": null,
-   "w": {
-    "브랜드": 1,
-    "교육": 2
-   },
-   "short": false,
-   "found": "2026-10-19"
-  },
-  {
-   "company": "메가스터디교육",
-   "title": "[러셀] 러셀전주학원 교무기획 채용",
-   "url": "https://megastudyedu.career.greetinghr.com/ko/o/240641",
-   "posted": "2026-10-16",
-   "years": null,
-   "w": {
-    "브랜드": 1,
-    "정산·계약": 2,
-    "교육": 2
-   },
-   "short": false,
-   "found": "2026-10-16"
-  },
-  {
    "company": "미리디",
    "title": "[MiriCanvas] Global Growth Owner, US (글로벌 그로스 오너, 미국 시장)",
    "url": "https://miridih.career.greetinghr.com/ko/o/233556",
@@ -15179,40 +15123,6 @@
   },
   {
    "company": "넷플릭스",
-   "title": "Marketing Specialist, Consumer Products - Korea (FTC)",
-   "url": "https://explore.jobs.netflix.net/careers/job/790319023304",
-   "years": 7,
-   "w": {
-    "문제 정의": 1,
-    "사업개발·제휴": 2,
-    "신사업·0to1": 2,
-    "프로젝트 관리": 1,
-    "이해관계자 조율": 3,
-    "사용자 리서치": 1,
-    "시장·트렌드 분석": 2,
-    "인사이트 도출": 3,
-    "마케팅 기획": 3,
-    "퍼포먼스 마케팅": 1,
-    "브랜드": 3,
-    "콘텐츠 기획·제작": 3,
-    "SNS·소셜": 3,
-    "인플루언서": 3,
-    "PR·홍보": 3,
-    "서비스 운영": 1,
-    "이커머스": 2,
-    "B2C": 3,
-    "플랫폼": 2,
-    "엔터·IP": 3,
-    "글로벌·해외": 3,
-    "영어": 1,
-    "리더십·팀 리딩": 1,
-    "주도성": 1
-   },
-   "short": false,
-   "found": "2026-10-21"
-  },
-  {
-   "company": "넷플릭스",
    "title": "Senior Account Manager",
    "url": "https://explore.jobs.netflix.net/careers/job/790318738586",
    "years": 8,
@@ -15273,6 +15183,40 @@
   },
   {
    "company": "넷플릭스",
+   "title": "Marketing Specialist, Consumer Products - Korea (FTC)",
+   "url": "https://explore.jobs.netflix.net/careers/job/790319023304",
+   "years": 7,
+   "w": {
+    "문제 정의": 1,
+    "사업개발·제휴": 2,
+    "신사업·0to1": 2,
+    "프로젝트 관리": 1,
+    "이해관계자 조율": 3,
+    "사용자 리서치": 1,
+    "시장·트렌드 분석": 2,
+    "인사이트 도출": 3,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 3,
+    "SNS·소셜": 3,
+    "인플루언서": 3,
+    "PR·홍보": 3,
+    "서비스 운영": 1,
+    "이커머스": 2,
+    "B2C": 3,
+    "플랫폼": 2,
+    "엔터·IP": 3,
+    "글로벌·해외": 3,
+    "영어": 1,
+    "리더십·팀 리딩": 1,
+    "주도성": 1
+   },
+   "short": false,
+   "found": "2026-10-21"
+  },
+  {
+   "company": "넷플릭스",
    "title": "HR Business Partner - Korea",
    "url": "https://explore.jobs.netflix.net/careers/job/790318403387",
    "years": 10,
@@ -15289,6 +15233,31 @@
     "글로벌·해외": 3,
     "영어": 1,
     "리더십·팀 리딩": 1
+   },
+   "short": false,
+   "found": "2026-10-19"
+  },
+  {
+   "company": "넷플릭스",
+   "title": "Senior Ads Sales Partner - Export",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318350853",
+   "years": 15,
+   "w": {
+    "문제 정의": 1,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "지표·KPI": 1,
+    "SQL·툴": 1,
+    "마케팅 기획": 1,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 2,
+    "브랜드": 1,
+    "콘텐츠 기획·제작": 1,
+    "CX·고객경험": 2,
+    "영업·세일즈": 3,
+    "글로벌·해외": 3,
+    "영어": 2,
+    "리더십·팀 리딩": 2
    },
    "short": false,
    "found": "2026-10-19"
@@ -15343,31 +15312,6 @@
    },
    "short": false,
    "found": "2026-10-18"
-  },
-  {
-   "company": "넷플릭스",
-   "title": "Senior Ads Sales Partner - Export",
-   "url": "https://explore.jobs.netflix.net/careers/job/790318350853",
-   "years": 15,
-   "w": {
-    "문제 정의": 1,
-    "사업개발·제휴": 3,
-    "이해관계자 조율": 3,
-    "지표·KPI": 1,
-    "SQL·툴": 1,
-    "마케팅 기획": 1,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 2,
-    "브랜드": 1,
-    "콘텐츠 기획·제작": 1,
-    "CX·고객경험": 2,
-    "영업·세일즈": 3,
-    "글로벌·해외": 3,
-    "영어": 2,
-    "리더십·팀 리딩": 2
-   },
-   "short": false,
-   "found": "2026-10-19"
   },
   {
    "company": "쏘카",
