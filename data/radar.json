@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-25T17:09:43.378Z",
+  "collectedAt": "2026-10-26T19:27:52.454Z",
   "errors": {},
   "jobs": [
     {
@@ -101,6 +101,8 @@
         "프로덕트 기획"
       ],
       "reqs": [
+        "SQL·데이터",
+        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -147,26 +149,6 @@
       "fit": true,
       "firstSeen": "2026-10-02",
       "jd": "이런 분과 함께하고 싶어요\n\nAI Agent, LLM, ML 을 활용한 서비스 경험이나 강한 관심이 있는 분이 필요해요.\n기술적 난이도가 높거나 불확실성이 큰 과제를 끝까지 리딩한 경험이 있는 분이 필요해요.\n단순한 프로젝트 관리가 아니라, 전사 개발 프로세스나 문화를 바꾸는 데까지 관여하며 다양한 이해관계자(기획/디자인/개발/운영/제휴사 등)와 함께 더 강한 팀을 만들어 가고 싶은 분이면 좋아요.\n비즈니스 임팩트와 기술적 타당성을 함께 고려하며 단계적 성과를 만들 줄 아는 실행력을 갖춘 분이 필요해요.\n주어진 문제를 그대로 실행하기보다는, 문제를 종합적으로 사고하고 필요시 재정의하여 더 나은 방향으로 이끄는 분과 함께하고 싶어요.\n머신러닝 기반 제품 또는 시스템을 설계하고 운영해 본 실무 경험이 있다면 더욱 좋아요.\n\n"
-    },
-    {
-      "source": "toss",
-      "company": "토스뱅크",
-      "title": "Product Operations Manager (Ads)",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7972062003",
-      "years": null,
-      "noLimit": false,
-      "evidence": "웹·앱 서비스에서 운영 또는 사업개발을 경험해보신 분을 선호해요.",
-      "roles": [
-        "운영"
-      ],
-      "reqs": [
-        "SQL·데이터"
-      ],
-      "bucket": "unstated",
-      "fit": true,
-      "firstSeen": "2026-10-20",
-      "jd": "이런 분과 함께하고 싶어요\n\n웹·앱 서비스에서 운영 또는 사업개발을 경험해보신 분을 선호해요.\n매체·플랫폼에서 광고 인벤토리를 운영해 본 경험이 있거나, 광고 지표(CTR·CPC·CPM·eCPM 등)에 익숙하다면 좋아요.\n광고 심의, 약관 등 컴플라이언스 절차를 다뤄본 경험이 있다면 더욱 좋아요.\n반복되는 문제의 구조적 원인을 찾아 프로세스 개선·자동화·어드민 도입으로 해결해 본 분이 필요해요.\n개발·디자인·데이터·준법 등 여러 이해관계자 사이에서 의견을 조율하고, 의사결정을 끝까지 완결해 본 분이 필요해요.\n\n"
     },
     {
       "source": "toss",
@@ -477,27 +459,6 @@
     },
     {
       "source": "toss",
-      "company": "토스뱅크",
-      "title": "외환 상품 Manager (해외송금)",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7761021003",
-      "years": null,
-      "noLimit": false,
-      "evidence": "해외송금 서비스에 대한 기획·개발·운영 경험이 있는 분이 필요해요. 특히 기업해외송금의 업무 플로우를 구조적으로 이해하고 계신 분을 찾고 있어요.",
-      "roles": [
-        "프로덕트 기획"
-      ],
-      "reqs": [
-        "금융 도메인",
-        "B2B"
-      ],
-      "bucket": "unstated",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n해외송금 서비스에 대한 기획·개발·운영 경험이 있는 분이 필요해요. 특히 기업해외송금의 업무 플로우를 구조적으로 이해하고 계신 분을 찾고 있어요.\nSWIFT 뿐만 아니라 API 기반 해외송금 구조에 대한 이해도를 갖추고 계신 분을 기대해요.\nAML, Sanctions Screening, KYB 등 기업 외환 서비스에 적용되는 컴플라이언스 요건을 제품에 녹여본 경험이 있는 분이 필요해요.\n모바일·비대면 환경에서 외환 서비스를 구축하거나 운영해본 경험이 있는 분이면 좋아요.\n개발자와 밀착하여 요건을 함께 정의하고 구현까지 이끌어본 경험이 있는 분을 찾고 있어요.\n기업 고객 세그먼트에 대한 이해를 바탕으로 서비스 및 마케팅 전략을 고민해본 경험이 있다면 더욱 좋아요.\n\n"
-    },
-    {
-      "source": "toss",
       "company": "토스",
       "title": "Brand Manager · Content · Event",
       "location": "서울",
@@ -674,6 +635,27 @@
       "fit": false,
       "firstSeen": "2026-10-01",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.\nExperience in a leadership role, managing teams and working with executives in the music industry.\nExperience with commercial agreements, digital music licensing agreements, agreements and support of multi-territorial licensing entities.\nAbility to communicate fluently in English and Korean to engage with clients in the region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Technical Solutions Consultant, gTech (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/98185512509940422-technical-solutions-consultant-gtech-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-10-26",
+      "jd": "Minimum qualifications\nBachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.\nExperience in product implementations, technical solutions consulting, or technical sales.\nExperience troubleshooting technical issues for internal/external partners or customers.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
@@ -871,10 +853,10 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "AI Customer Engineer, Retail, Commerce, Manufacturing, Google Cloud (English, Korean)",
+      "title": "AI Customer Engineer, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/132325631214920390-ai-customer-engineer-retail-commerce-manufacturing-google-cloud-english-korean",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/132325631214920390-ai-customer-engineer-google-cloud-english-korean",
       "years": 6,
       "noLimit": false,
       "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
@@ -887,7 +869,7 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-10-16",
+      "firstSeen": "2026-10-26",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
     },
     {
