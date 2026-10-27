@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-26T19:26:00.273619+00:00",
+ "collectedAt": "2026-10-27T18:47:26.685079+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -172,14 +172,14 @@
   {
    "회사": "CJ올리브영",
    "플랫폼": "greetinghr",
-   "title": "도심물류매장 NanoFC 운영(무기계약직) - 성북점",
+   "title": "도심물류매장 MFC 운영(무기계약직) - 성북점",
    "career": "신입",
    "emp": "계약직",
    "due": "상시",
    "link": "https://career.oliveyoung.com/ko/o/241146",
    "cat": "운영·오퍼레이션",
    "intern": false,
-   "openDate": "2026-10-20",
+   "openDate": "2026-10-27",
    "new": false,
    "found": "2026-10-20"
   },
@@ -319,7 +319,7 @@
    "link": "https://career.oliveyoung.com/ko/o/215483",
    "cat": "운영·오퍼레이션",
    "intern": false,
-   "openDate": "2026-05-07",
+   "openDate": "2026-10-27",
    "new": false,
    "found": "2026-10-03"
   },
@@ -504,6 +504,20 @@
    "openDate": "2026-09-17",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
+   "title": "[신사업] 사업개발 인턴 (체험형)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/242029",
+   "cat": "전략·사업",
+   "intern": true,
+   "openDate": "2026-10-27",
+   "new": true,
+   "found": "2026-10-27"
   },
   {
    "회사": "강남언니",
@@ -858,6 +872,20 @@
   {
    "회사": "메가스터디교육",
    "플랫폼": "greetinghr",
+   "title": "[E-BOOK] 서비스 운영 및 기획 채용",
+   "career": "경력무관",
+   "emp": "정규직",
+   "due": "2026-11-08",
+   "link": "https://megastudyedu.career.greetinghr.com/ko/o/242062",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-27",
+   "new": true,
+   "found": "2026-10-27"
+  },
+  {
+   "회사": "메가스터디교육",
+   "플랫폼": "greetinghr",
    "title": "[MEXX] MEXX학원 고객지원/행정지원 채용",
    "career": "경력무관",
    "emp": "계약직",
@@ -866,7 +894,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -880,7 +908,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -894,7 +922,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -908,7 +936,7 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -922,7 +950,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -936,7 +964,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -950,7 +978,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -964,7 +992,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -978,7 +1006,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -992,8 +1020,22 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
+  },
+  {
+   "회사": "메가스터디교육",
+   "플랫폼": "greetinghr",
+   "title": "[학원] 성북 메가스터디학원 교무기획 채용",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "2026-11-08",
+   "link": "https://megastudyedu.career.greetinghr.com/ko/o/229385",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-27",
+   "new": true,
+   "found": "2026-10-27"
   },
   {
    "회사": "무신사",
@@ -1166,6 +1208,20 @@
   {
    "회사": "업스테이지",
    "플랫폼": "greetinghr",
+   "title": "Public AI Project Operation (계약직)",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://careers.upstage.ai/ko/o/242164",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-27",
+   "new": true,
+   "found": "2026-10-27"
+  },
+  {
+   "회사": "업스테이지",
+   "플랫폼": "greetinghr",
    "title": "Sales Marketing Internship (정규직 전환형)",
    "career": "경력무관",
    "emp": "인턴",
@@ -1334,6 +1390,20 @@
   {
    "회사": "직방",
    "플랫폼": "greetinghr",
+   "title": "[직방] 단기임대 운영 매니저 (계약직)",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://zigbang.career.greetinghr.com/ko/o/242143",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-27",
+   "new": true,
+   "found": "2026-10-27"
+  },
+  {
+   "회사": "직방",
+   "플랫폼": "greetinghr",
    "title": "[직방] 중개사무소(APT) 광고 영업매니저 (계약직)_지역무관",
    "career": "경력무관",
    "emp": "계약직",
@@ -1362,7 +1432,7 @@
   {
    "회사": "직방",
    "플랫폼": "greetinghr",
-   "title": "[직방] 중개사무소(APT) 광고 영업매니저 (계약직) - 부산·울산/대구 지역별",
+   "title": "[직방] 중개사무소(APT) 광고 영업매니저 (계약직) - 부산·울산·대구",
    "career": "경력무관",
    "emp": "계약직",
    "due": "상시",
@@ -1824,6 +1894,20 @@
   {
    "회사": "헥토",
    "플랫폼": "greetinghr",
+   "title": "[헥토] Chairman Staff (커뮤니케이션 및 사업전략·글로벌) (경력)",
+   "career": "경력 1년~7",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://www.hectocareers.co.kr/ko/o/242006",
+   "cat": "전략·사업",
+   "intern": false,
+   "openDate": "2026-10-27",
+   "new": true,
+   "found": "2026-10-27"
+  },
+  {
+   "회사": "헥토",
+   "플랫폼": "greetinghr",
    "title": "[헥토이노베이션] 휘슬 서비스 운영 (인턴)",
    "career": "경력무관",
    "emp": "인턴",
@@ -1832,7 +1916,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-10-26",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -2014,7 +2098,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-25",
-   "new": true,
+   "new": false,
    "found": "2026-10-26"
   },
   {
@@ -2468,20 +2552,6 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Agentic Data Cloud Sales Specialist II, Google Cloud (Korean, English)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/123072596622090950",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-22",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
    "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2552,6 +2622,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Strategy and Operations Lead, Greater China and Korea GTM (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/137587576843182790",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-27",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Customer Onboarding Strategist, Google Customer Solutions (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2599,20 +2683,6 @@
    "emp": "-",
    "due": "Seoul, South Korea",
    "link": "https://www.google.com/about/careers/applications/jobs/results/128586509996434118",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-22",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/127001151668134598",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
    "new": false,

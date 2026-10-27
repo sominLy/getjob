@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-26T19:27:52.454Z",
+  "collectedAt": "2026-10-27T18:49:16.338Z",
   "errors": {},
   "jobs": [
     {
@@ -101,8 +101,6 @@
         "프로덕트 기획"
       ],
       "reqs": [
-        "SQL·데이터",
-        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -703,29 +701,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Agentic Data Cloud Sales Specialist II, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/123072596622090950-agentic-data-cloud-sales-specialist-ii-google-cloud-korean-english",
-      "years": 7,
-      "noLimit": false,
-      "evidence": "7 years of experience in quota-carrying enterprise sales.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-10-22",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n7 years of experience in quota-carrying enterprise sales.\nExperience building business cases through workshops or product demos to business executives.\n\nExperience developing partnerships with technical stakeholders (e.g., Enterprise Architects, Data Engineers, Data Scientists).\n\nExperience positioning and selling technical solutions in data management, analytics, infrastructure, or AI/ML.\n\nAbility to communicate in Korean and English fluently to manage stakeholder relationships.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -936,29 +911,6 @@
       "fit": false,
       "firstSeen": "2026-10-22",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.\n\nExperience in SQL, databases, and automation techniques (e.g., dashboards, automating custom reports, materializing tables).\nAbility to communicate fluently in English and Korean in order to interact with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/127001151668134598-agentic-data-cloud-sales-specialist-iii-google-cloud-korean-english",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "10 years of experience in quota-carrying enterprise sales.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-10-22",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience in quota-carrying enterprise sales.\nExperience building business cases through workshops or product demos to business executives.\n\nExperience developing partnerships with technical stakeholders (e.g., Enterprise Architects, Data Engineers, Data Scientists).\n\nExperience positioning and selling technical solutions in data management, analytics, infrastructure, or AI/ML.\n\nAbility to communicate in Korean and English fluently to manage stakeholder relationships.\n"
     },
     {
       "source": "google",
