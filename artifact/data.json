@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-27T18:47:26.685079+00:00",
+ "collectedAt": "2026-10-28T18:57:54.493905+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -12,20 +12,6 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-03-04",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "BAT",
-   "플랫폼": "greetinghr",
-   "title": "콘텐츠 마케터",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://bat.career.greetinghr.com/ko/o/227961",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-07-15",
    "new": false,
    "found": "2026-10-03"
   },
@@ -516,7 +502,7 @@
    "cat": "전략·사업",
    "intern": true,
    "openDate": "2026-10-27",
-   "new": true,
+   "new": false,
    "found": "2026-10-27"
   },
   {
@@ -630,6 +616,20 @@
    "openDate": "2026-06-16",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "넛지헬스케어",
+   "플랫폼": "greetinghr",
+   "title": "[캐시워크애즈] 데이터분석가 산업기능요원 모집",
+   "career": "경력무관",
+   "emp": "MILITARY_SERVICE_EXCEPTION",
+   "due": "상시",
+   "link": "https://cashwalk12.career.greetinghr.com/ko/o/242323",
+   "cat": "데이터·리서치",
+   "intern": false,
+   "openDate": "2026-10-28",
+   "new": true,
+   "found": "2026-10-28"
   },
   {
    "회사": "뤼튼",
@@ -774,7 +774,7 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
-   "title": "T&A실 글로벌 파트너 전략 매니저 (Global Partnership Strategy Manager)",
+   "title": "T&A실 글로벌 파트너십 전략 매니저 (Global Partnership Strategy Manager)",
    "career": "-",
    "emp": "정규직",
    "due": "상시",
@@ -788,7 +788,7 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
-   "title": "T&A실 글로벌 파트너 마케팅 매니저",
+   "title": "T&A실 글로벌 파트너 마케팅 전략 매니저 (Global Partner Marketing Strategy Manager)",
    "career": "-",
    "emp": "정규직",
    "due": "상시",
@@ -880,7 +880,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-27",
-   "new": true,
+   "new": false,
    "found": "2026-10-27"
   },
   {
@@ -1034,7 +1034,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-10-27",
-   "new": true,
+   "new": false,
    "found": "2026-10-27"
   },
   {
@@ -1064,6 +1064,20 @@
    "openDate": "2026-10-16",
    "new": false,
    "found": "2026-10-19"
+  },
+  {
+   "회사": "무신사",
+   "플랫폼": "greetinghr",
+   "title": "인플루언서 사업 정산/운영 Assistant",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://www.musinsacareers.com/ko/o/241682",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-23",
+   "new": true,
+   "found": "2026-10-28"
   },
   {
    "회사": "스캐터랩",
@@ -1216,7 +1230,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-27",
-   "new": true,
+   "new": false,
    "found": "2026-10-27"
   },
   {
@@ -1398,7 +1412,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-27",
-   "new": true,
+   "new": false,
    "found": "2026-10-27"
   },
   {
@@ -1895,14 +1909,14 @@
    "회사": "헥토",
    "플랫폼": "greetinghr",
    "title": "[헥토] Chairman Staff (커뮤니케이션 및 사업전략·글로벌) (경력)",
-   "career": "경력 1년~7",
+   "career": "경력무관",
    "emp": "정규직",
    "due": "상시",
    "link": "https://www.hectocareers.co.kr/ko/o/242006",
    "cat": "전략·사업",
    "intern": false,
    "openDate": "2026-10-27",
-   "new": true,
+   "new": false,
    "found": "2026-10-27"
   },
   {
@@ -2552,6 +2566,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Strategic Partnerships Manager, Sellside Monetization (Fixed-Term Contract) (English and Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/125177182942044870",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-28",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2561,6 +2589,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-09",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/108530052911506118",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-28",
    "openDate": ""
   },
   {
@@ -2629,7 +2671,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/137587576843182790",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-27",
    "openDate": ""
   },
@@ -2659,6 +2701,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-16",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Account Strategist (Fixed-Term Contract) (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/137028019913925318",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-28",
    "openDate": ""
   },
   {

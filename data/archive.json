@@ -1,6 +1,102 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "jobs": [
+    {
+      "id": "jasoseol-106576",
+      "company": "인천시설공단",
+      "title": "2026년 제2회 공무직 채용 (환경미화원)",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-10-21",
+      "end": "2026-10-27",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://insiseol.recruitlab.co.kr",
+      "hist": "",
+      "found": "2026-10-07"
+    },
+    {
+      "id": "linkareer-355741",
+      "company": "셀로라바이",
+      "type": "",
+      "roles": [
+        "콘텐츠"
+      ],
+      "start": "",
+      "end": "2026-10-27",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/355741",
+      "hist": "",
+      "found": "2026-10-08"
+    },
+    {
+      "id": "linkareer-355736",
+      "company": "셀로라바이",
+      "type": "",
+      "roles": [
+        "콘텐츠"
+      ],
+      "start": "",
+      "end": "2026-10-27",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/355736",
+      "hist": "",
+      "found": "2026-10-08"
+    },
+    {
+      "id": "jasoseol-106675",
+      "company": "한국지역정보개발원",
+      "title": "2026년 하반기 정규직 채용",
+      "type": "공기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-13",
+      "end": "2026-10-27",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://klid.incruit.com/",
+      "hist": "",
+      "found": "2026-10-13"
+    },
+    {
+      "id": "jasoseol-106683",
+      "company": "한국폴리아세탈",
+      "title": "2026년 하반기 신입사원 공개채용",
+      "type": "중견기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-10-13",
+      "end": "2026-10-27",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.gpac-kpac.com/recruit/agree.php",
+      "hist": "",
+      "found": "2026-10-13"
+    },
+    {
+      "id": "jasoseol-106697",
+      "company": "STX엔진",
+      "title": "신입/경력 수시채용",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-10-14",
+      "end": "2026-10-27",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.stxengine.co.kr/",
+      "hist": "",
+      "found": "2026-10-25"
+    },
     {
       "id": "jasoseol-105851",
       "company": "토스플레이스",

@@ -16103,7 +16103,201 @@
    "archiveTotal": 647,
    "preds": 321,
    "compTotal": 582
+  },
+  {
+   "date": "2026-10-29",
+   "added": [
+    {
+     "id": "linkareer-360487",
+     "company": "유한킴벌리",
+     "title": "",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-11-11",
+     "url": "https://linkareer.com/activity/360487"
+    },
+    {
+     "id": "jasoseol-106876",
+     "company": "창비",
+     "title": "편집 직무(인문교양) 사원을 모집합니다.",
+     "roles": [],
+     "end": "2026-11-16",
+     "url": "https://apply.changbi.com/recruit/5"
+    },
+    {
+     "id": "jasoseol-106919",
+     "company": "한국에이버리데니슨",
+     "title": "2026 Q4 수시채용_MarComm 계약직(16개월, 휴직대체), QA Engineer",
+     "roles": [
+      "마케팅",
+      "홍보/PR"
+     ],
+     "end": "2026-11-15",
+     "url": "https://www.peoplenjob.com/jobs?company=64lXSNhqhfgVtMsw"
+    },
+    {
+     "id": "jasoseol-106920",
+     "company": "한국기계연구원",
+     "title": "2026년도 제3회 신입직원 공개채용 공고",
+     "roles": [],
+     "end": "2026-11-18",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2610270002237&handle=85C442B277D3144420B4E46B9959F4E3BD7A2ACE3B29AD8A8A1D9BEACE30F23D&rf=1"
+    },
+    {
+     "id": "jasoseol-106931",
+     "company": "앱솔브랩",
+     "title": "글로벌 B2B 영업 담당자 대규모 채용(~11/11)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-11",
+     "url": "https://celimax.ninehire.site/job_posting/kn7SLQ7v"
+    },
+    {
+     "id": "jasoseol-106932",
+     "company": "에어리퀴드코리아",
+     "title": "생산엔지니어/품질/오퍼레이터 신입채용",
+     "roles": [],
+     "end": "2026-11-08",
+     "url": "https://docs.google.com/forms/d/1v_io6gpPF-CAHmY3qyEmAGg0oKMEIPfv_OdqViocsOQ/preview"
+    },
+    {
+     "id": "jasoseol-106933",
+     "company": "인천종합에너지",
+     "title": "2027년 신입사원 채용",
+     "roles": [
+      "기획/전략",
+      "영업관리",
+      "HR/인사"
+     ],
+     "end": "2026-11-08",
+     "url": "https://e-inteco.recruiter.co.kr/career/jobs/132152"
+    },
+    {
+     "id": "jasoseol-106934",
+     "company": "한국교통안전공단(KOTSA)",
+     "title": "직원(실무직) 공개채용",
+     "roles": [
+      "고객/CS"
+     ],
+     "end": "2026-11-12",
+     "url": "https://kotsa.career.co.kr/"
+    },
+    {
+     "id": "jasoseol-106940",
+     "company": "NHN waplat",
+     "title": "와플랫 서비스 백엔드 개발",
+     "roles": [],
+     "end": "2026-12-26",
+     "url": "https://careers.nhn.com/recruits/4453065977503631726?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20waplat_Tech"
+    },
+    {
+     "id": "jasoseol-106941",
+     "company": "채널코퍼레이션",
+     "title": "[채널톡] Sales Operation Specialist",
+     "roles": [
+      "영업관리"
+     ],
+     "end": "2026-12-26",
+     "url": "https://channel.io/kr/careers/3221a145-7b2d-4acb-b11e-8bf62490275a"
+    },
+    {
+     "id": "global-google-125177182942044870",
+     "company": "Google",
+     "title": "Strategic Partnerships Manager, Sellside Monetization (Fixed",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/125177182942044870"
+    },
+    {
+     "id": "global-google-108530052911506118",
+     "company": "Google",
+     "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korea",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/108530052911506118"
+    },
+    {
+     "id": "global-google-137028019913925318",
+     "company": "Google",
+     "title": "Account Strategist (Fixed-Term Contract) (English, Korean)",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/137028019913925318"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106576",
+     "company": "인천시설공단",
+     "end": "2026-10-27"
+    },
+    {
+     "id": "linkareer-355741",
+     "company": "셀로라바이",
+     "end": "2026-10-27"
+    },
+    {
+     "id": "linkareer-355736",
+     "company": "셀로라바이",
+     "end": "2026-10-27"
+    },
+    {
+     "id": "jasoseol-106675",
+     "company": "한국지역정보개발원",
+     "end": "2026-10-27"
+    },
+    {
+     "id": "jasoseol-106683",
+     "company": "한국폴리아세탈",
+     "end": "2026-10-27"
+    },
+    {
+     "id": "jasoseol-106697",
+     "company": "STX엔진",
+     "end": "2026-10-27"
+    }
+   ],
+   "removed": [
+    {
+     "id": "jasoseol-106900",
+     "company": "신한라이프생명보험",
+     "title": "2026 FC 위촉직 채용공고"
+    }
+   ],
+   "compNew": [
+    {
+     "company": "크몽",
+     "title": "라이브 강의 운영매니저 (6개월 계약직)",
+     "url": "https://kmong.career.greetinghr.com/ko/o/242277"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[KRAFTON JUNGLE] 정글 과정 마케팅 실행 및 운영 지원 (3~5년 / 계약직)",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8921058002"
+    },
+    {
+     "company": "아고다",
+     "title": "Lead Manager, Korea Financial Institution Partnerships (Seou",
+     "url": "https://job-boards.greenhouse.io/agoda/jobs/8330853"
+    },
+    {
+     "company": "아고다",
+     "title": "Lead Manager, Strategic Alliances – Korea Partnerships (Seou",
+     "url": "https://job-boards.greenhouse.io/agoda/jobs/8330855"
+    },
+    {
+     "company": "42dot",
+     "title": "Senior Program Manager (Vehicle Regulatory & Safety Requirem",
+     "url": "https://jobs.ashbyhq.com/42dot/674d45d4-d64c-474e-b88a-49f9d449daca"
+    }
+   ],
+   "total": 347,
+   "archiveTotal": 653,
+   "preds": 319,
+   "compTotal": 579
   }
  ],
- "updated": "2026-10-28"
+ "updated": "2026-10-29"
 }
