@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-10-28T18:57:54.493905+00:00",
+ "collectedAt": "2026-10-29T19:01:53.221834+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -140,6 +140,62 @@
    "openDate": "2025-04-03",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "도심물류매장 MFC 운영(무기계약직) - 서대문점",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/242402",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-29",
+   "new": true,
+   "found": "2026-10-29"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "도심물류매장 MFC 운영(무기계약직) - 부산점",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/242401",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-29",
+   "new": true,
+   "found": "2026-10-29"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "도심물류매장 MFC 운영(무기계약직) - 안양점",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/242400",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-29",
+   "new": true,
+   "found": "2026-10-29"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "도심물류매장 MFC 운영(무기계약직) - 동탄점",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/242398",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-29",
+   "new": true,
+   "found": "2026-10-29"
   },
   {
    "회사": "CJ올리브영",
@@ -396,16 +452,16 @@
   {
    "회사": "pfct",
    "플랫폼": "greetinghr",
-   "title": "[체험형 인턴] Growth Strategy Team Intern(성장전략팀 인턴)",
+   "title": "[전환형 인턴] Growth Strategy Team Intern(성장전략팀 인턴)",
    "career": "경력무관",
    "emp": "인턴",
    "due": "상시",
-   "link": "https://pfct.career.greetinghr.com/ko/o/241487",
+   "link": "https://pfct.career.greetinghr.com/ko/o/242404",
    "cat": "전략·사업",
    "intern": true,
-   "openDate": "2026-10-22",
-   "new": false,
-   "found": "2026-10-22"
+   "openDate": "2026-10-29",
+   "new": true,
+   "found": "2026-10-29"
   },
   {
    "회사": "pfct",
@@ -628,7 +684,7 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2026-10-28",
-   "new": true,
+   "new": false,
    "found": "2026-10-28"
   },
   {
@@ -858,6 +914,20 @@
   {
    "회사": "마카롱팩토리",
    "플랫폼": "greetinghr",
+   "title": "채용·인사 운영 담당자 - People팀 (전환형 인턴)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://mycle.career.greetinghr.com/ko/o/242469",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-10-29",
+   "new": true,
+   "found": "2026-10-29"
+  },
+  {
+   "회사": "마카롱팩토리",
+   "플랫폼": "greetinghr",
    "title": "파트너 영업지원 담당자 (전환형 인턴)",
    "career": "신입",
    "emp": "인턴",
@@ -952,6 +1022,20 @@
    "openDate": "2026-10-26",
    "new": false,
    "found": "2026-10-26"
+  },
+  {
+   "회사": "메가스터디교육",
+   "플랫폼": "greetinghr",
+   "title": "[러셀] 러셀대구학원 교무기획 (육아휴직 대체) 채용",
+   "career": "경력무관",
+   "emp": "정규직",
+   "due": "2026-11-08",
+   "link": "https://megastudyedu.career.greetinghr.com/ko/o/242410",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-10-29",
+   "new": true,
+   "found": "2026-10-29"
   },
   {
    "회사": "메가스터디교육",
@@ -1076,7 +1160,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-23",
-   "new": true,
+   "new": false,
    "found": "2026-10-28"
   },
   {
@@ -1180,7 +1264,7 @@
   {
    "회사": "아우토크립트",
    "플랫폼": "greetinghr",
-   "title": "자동차 보안 솔루션 프로젝트 관리 [신입/경력]",
+   "title": "자동차 보안 솔루션 프로젝트 관리 [경력 무관]",
    "career": "경력무관",
    "emp": "정규직",
    "due": "2026-11-30",
@@ -1344,20 +1428,6 @@
    "openDate": "2026-09-01",
    "new": false,
    "found": "2026-10-03"
-  },
-  {
-   "회사": "에코마케팅",
-   "플랫폼": "greetinghr",
-   "title": "FP&A(재무/경영기획) 경력 채용",
-   "career": "경력무관",
-   "emp": "-",
-   "due": "2026-10-29",
-   "link": "https://career.echomarketing.co.kr/ko/o/240154",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-10-13",
-   "new": false,
-   "found": "2026-10-14"
   },
   {
    "회사": "와디즈",
@@ -1852,7 +1922,7 @@
   {
    "회사": "하이컨시",
    "플랫폼": "greetinghr",
-   "title": "성인교육 및 신사업 온/오프라인 기획·운영 담당자",
+   "title": "[하이컨시] 성인교육 및 신사업 온/오프라인 기획·운영 담당자",
    "career": "경력무관",
    "emp": "정규직",
    "due": "상시",
@@ -2566,6 +2636,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Account Strategist, Google Customer Solutions (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/130206031299912390",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-10-29",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Strategic Partnerships Manager, Sellside Monetization (Fixed-Term Contract) (English and Korean)",
    "career": "-",
    "emp": "-",
@@ -2573,7 +2657,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/125177182942044870",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-28",
    "openDate": ""
   },
@@ -2601,7 +2685,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/108530052911506118",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-28",
    "openDate": ""
   },
@@ -2713,7 +2797,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/137028019913925318",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-10-28",
    "openDate": ""
   },

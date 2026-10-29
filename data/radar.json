@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-28T18:59:43.095Z",
+  "collectedAt": "2026-10-29T19:03:45.464Z",
   "errors": {},
   "jobs": [
     {
@@ -675,6 +675,28 @@
       "fit": true,
       "firstSeen": "2026-10-08",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently to communicate in this customer-facing business role.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Account Strategist, Google Customer Solutions (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/130206031299912390-account-strategist-google-customer-solutions-english-korean",
+      "years": 2,
+      "noLimit": false,
+      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
+      "roles": [
+        "솔루션·컨설팅",
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-10-29",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently in order to interact in this customer-facing role.\n"
     },
     {
       "source": "google",
