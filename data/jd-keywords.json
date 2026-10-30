@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "jobs": [
   {
    "src": "board",
@@ -1137,27 +1137,6 @@
   },
   {
    "src": "board",
-   "id": "linkareer-357078",
-   "company": "EY한영",
-   "type": "",
-   "title": "기획/전략",
-   "url": "https://linkareer.com/activity/357078",
-   "end": "2026-10-29",
-   "posted": "",
-   "found": "2026-10-15",
-   "years": 0,
-   "w": {
-    "서비스기획": 3,
-    "사업기획·전략": 3,
-    "사업개발·제휴": 1,
-    "신사업·0to1": 2,
-    "프로젝트 관리": 1,
-    "플랫폼": 3,
-    "금융·핀테크": 3
-   }
-  },
-  {
-   "src": "board",
    "id": "jasoseol-106752",
    "company": "이노션",
    "type": "대기업",
@@ -1387,26 +1366,6 @@
     "뷰티·패션": 2,
     "글로벌·해외": 3,
     "영어": 1
-   }
-  },
-  {
-   "src": "board",
-   "id": "linkareer-358346",
-   "company": "메가마트",
-   "type": "",
-   "title": "PM/서비스기획 · 기획/전략",
-   "url": "https://linkareer.com/activity/358346",
-   "end": "2026-10-29",
-   "posted": "",
-   "found": "2026-10-20",
-   "years": 0,
-   "w": {
-    "CX·고객경험": 2,
-    "물류·SCM": 2,
-    "MD·상품기획": 2,
-    "영업·세일즈": 3,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 1
    }
   },
   {
@@ -1774,6 +1733,120 @@
     "여행·모빌리티": 1,
     "글로벌·해외": 1,
     "주도성": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "linkareer-361083",
+   "company": "(주)프랙티컬스트래티지",
+   "type": "",
+   "title": "마케팅",
+   "url": "https://linkareer.com/activity/361083",
+   "end": "2026-11-15",
+   "posted": "",
+   "found": "2026-10-30",
+   "years": 0,
+   "w": {
+    "사업기획·전략": 1,
+    "이해관계자 조율": 2,
+    "마케팅 기획": 2,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 2,
+    "SNS·소셜": 1,
+    "인플루언서": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "linkareer-361081",
+   "company": "신영그룹",
+   "type": "",
+   "title": "영업",
+   "url": "https://linkareer.com/activity/361081",
+   "end": "2026-11-09",
+   "posted": "",
+   "found": "2026-10-30",
+   "years": 0,
+   "w": {
+    "CX·고객경험": 1,
+    "물류·SCM": 2,
+    "영업·세일즈": 1,
+    "금융·핀테크": 1,
+    "부동산·프롭테크": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "linkareer-361080",
+   "company": "후성그룹",
+   "type": "",
+   "title": "기획/전략 · 영업",
+   "url": "https://linkareer.com/activity/361080",
+   "end": "2026-11-11",
+   "posted": "",
+   "found": "2026-10-30",
+   "years": 0,
+   "w": {
+    "사업개발·제휴": 2,
+    "신사업·0to1": 1,
+    "CX·고객경험": 1,
+    "품질·검수": 1,
+    "물류·SCM": 2,
+    "영업·세일즈": 3,
+    "여행·모빌리티": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106947",
+   "company": "현대백화점그룹",
+   "type": "대기업",
+   "title": "[현대백화점] 영업관리_일반전형 · [현대백화점] 영업관리_오픈PR전형 · [현대백화점] 마케팅_일반전형",
+   "url": "https://ehyundai-recruit.com/?utm_source=jasoseol&utm_medium=referral&utm_campaign=26h_recruit",
+   "end": "2026-11-12",
+   "posted": "2026-10-30",
+   "found": "2026-10-30",
+   "years": 0,
+   "w": {
+    "사용자 리서치": 3,
+    "브랜드": 1,
+    "행사·이벤트": 2,
+    "정산·계약": 1,
+    "영업·세일즈": 3,
+    "플랫폼": 1,
+    "교육": 1,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 3,
+    "영어": 1,
+    "일본어": 1,
+    "중국어": 1
+   }
+  },
+  {
+   "src": "board",
+   "id": "jasoseol-106976",
+   "company": "NHN Cloud",
+   "type": "",
+   "title": "DaaS 사업 기획",
+   "url": "https://careers.nhn.com/recruits/4453946731323009479?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Business",
+   "end": "2026-12-28",
+   "posted": "2026-10-29",
+   "found": "2026-10-30",
+   "years": 0,
+   "w": {
+    "사업기획·전략": 3,
+    "사업개발·제휴": 1,
+    "신사업·0to1": 1,
+    "이해관계자 조율": 1,
+    "사용자 리서치": 2,
+    "시장·트렌드 분석": 1,
+    "문서화·가이드": 2,
+    "위기·이슈 대응": 1,
+    "MD·상품기획": 1,
+    "영업·세일즈": 1,
+    "플랫폼": 1,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 1
    }
   },
   {
@@ -2147,6 +2220,23 @@
   },
   {
    "src": "radar",
+   "company": "토스뱅크",
+   "title": "Technical Product Owner · 공통 · AI",
+   "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=8097990003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
+   "end": "",
+   "found": "2026-10-30",
+   "years": null,
+   "w": {
+    "프로덕트·PO": 1,
+    "문제 정의": 1,
+    "사업기획·전략": 1,
+    "데이터 분석": 1,
+    "AI·LLM": 1,
+    "모바일 앱": 1
+   }
+  },
+  {
+   "src": "radar",
    "company": "토스플레이스",
    "title": "Technical Product Owner · 공통",
    "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=6585474003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
@@ -2294,23 +2384,6 @@
     "그로스·CRM": 3,
     "모바일 앱": 3,
     "글로벌·해외": 2
-   }
-  },
-  {
-   "src": "radar",
-   "company": "Google",
-   "title": "Head of YouTube Music Partnerships (English, Korean)",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/105451889847345862-head-of-youtube-music-partnerships-english-korean",
-   "end": "",
-   "found": "2026-10-01",
-   "years": 15,
-   "w": {
-    "사업개발·제휴": 3,
-    "콘텐츠 기획·제작": 1,
-    "SNS·소셜": 1,
-    "엔터·IP": 2,
-    "영어": 2,
-    "리더십·팀 리딩": 1
    }
   },
   {
@@ -2471,6 +2544,22 @@
     "문서화·가이드": 1,
     "영업·세일즈": 1,
     "영어": 3
+   }
+  },
+  {
+   "src": "radar",
+   "company": "Google",
+   "title": "Manager, AI and Infrastructure, Strategic Initiatives (Korean, English)",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/72572552349655750-manager-ai-and-infrastructure-strategic-initiatives-korean-english",
+   "end": "",
+   "found": "2026-10-30",
+   "years": 11,
+   "w": {
+    "사업개발·제휴": 2,
+    "이해관계자 조율": 1,
+    "서비스 운영": 1,
+    "AI·LLM": 1,
+    "영어": 2
    }
   },
   {
@@ -2772,53 +2861,6 @@
     "B2B": 2,
     "AI·LLM": 3,
     "영어": 1
-   }
-  },
-  {
-   "src": "radar",
-   "company": "Anthropic",
-   "title": "Enterprise Account Executive - Healthcare & Life Science",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432590008",
-   "end": "",
-   "found": "2026-10-05",
-   "years": 8,
-   "w": {
-    "요구사항 정의": 2,
-    "사업기획·전략": 1,
-    "이해관계자 조율": 2,
-    "SQL·툴": 1,
-    "사용자 리서치": 1,
-    "인사이트 도출": 1,
-    "프로세스 개선": 1,
-    "CX·고객경험": 1,
-    "품질·검수": 1,
-    "영업·세일즈": 3,
-    "B2B": 2,
-    "AI·LLM": 3,
-    "헬스케어": 2,
-    "영어": 1
-   }
-  },
-  {
-   "src": "radar",
-   "company": "Anthropic",
-   "title": "Enterprise Account Executive - Manufacturing",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443281008",
-   "end": "",
-   "found": "2026-10-05",
-   "years": 8,
-   "w": {
-    "요구사항 정의": 2,
-    "사업개발·제휴": 1,
-    "이해관계자 조율": 1,
-    "SQL·툴": 1,
-    "시장·트렌드 분석": 1,
-    "영업·세일즈": 3,
-    "B2B": 2,
-    "AI·LLM": 3,
-    "엔터·IP": 3,
-    "영어": 1,
-    "리더십·팀 리딩": 1
    }
   },
   {
@@ -4222,6 +4264,27 @@
   {
    "src": "junior",
    "company": "마카롱팩토리",
+   "title": "CS 매니저 (전환형 인턴)",
+   "url": "https://mycle.career.greetinghr.com/ko/o/233167",
+   "end": "",
+   "posted": "2026-10-30",
+   "found": "2026-10-30",
+   "years": null,
+   "w": {
+    "이해관계자 조율": 3,
+    "SQL·툴": 1,
+    "사용자 리서치": 3,
+    "프로세스 개선": 1,
+    "CX·고객경험": 3,
+    "품질·검수": 1,
+    "AI·LLM": 2,
+    "플랫폼": 1,
+    "주도성": 1
+   }
+  },
+  {
+   "src": "junior",
+   "company": "마카롱팩토리",
    "title": "그로스 매니저 - 마케팅 파트 (전환형 인턴)",
    "url": "https://mycle.career.greetinghr.com/ko/o/240798",
    "end": "",
@@ -4354,6 +4417,21 @@
   {
    "src": "junior",
    "company": "메가스터디교육",
+   "title": "[러셀] 러셀강남학원 입시담임/교무기획 채용",
+   "url": "https://megastudyedu.career.greetinghr.com/ko/o/242741",
+   "end": "2026-11-08",
+   "posted": "2026-10-30",
+   "found": "2026-10-30",
+   "years": null,
+   "w": {
+    "브랜드": 1,
+    "정산·계약": 2,
+    "교육": 2
+   }
+  },
+  {
+   "src": "junior",
+   "company": "메가스터디교육",
    "title": "[러셀] 러셀기숙학원(여전문관) 회계/상담 채용",
    "url": "https://megastudyedu.career.greetinghr.com/ko/o/238616",
    "end": "2026-11-01",
@@ -4473,6 +4551,34 @@
     "AI·LLM": 2,
     "플랫폼": 2,
     "주도성": 1
+   }
+  },
+  {
+   "src": "junior",
+   "company": "무신사",
+   "title": "Content Editor Assistant (29CM)",
+   "url": "https://www.musinsacareers.com/ko/o/242543",
+   "end": "",
+   "posted": "2026-10-30",
+   "found": "2026-10-30",
+   "years": 1,
+   "w": {
+    "프로젝트 관리": 1,
+    "이해관계자 조율": 3,
+    "데이터 분석": 1,
+    "사용자 리서치": 3,
+    "시장·트렌드 분석": 3,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 3,
+    "SNS·소셜": 3,
+    "행사·이벤트": 1,
+    "품질·검수": 1,
+    "정산·계약": 1,
+    "이커머스": 1,
+    "MD·상품기획": 1,
+    "AI·LLM": 1,
+    "플랫폼": 2,
+    "뷰티·패션": 3
    }
   },
   {
@@ -4946,6 +5052,21 @@
     "플랫폼": 1,
     "교육": 3,
     "주도성": 1
+   }
+  },
+  {
+   "src": "junior",
+   "company": "에코마케팅",
+   "title": "마케팅 어시스턴트 계약직 채용",
+   "url": "https://career.echomarketing.co.kr/ko/o/242770",
+   "end": "",
+   "posted": "2026-10-30",
+   "found": "2026-10-30",
+   "years": null,
+   "w": {
+    "SQL·툴": 1,
+    "마케팅 기획": 2,
+    "정산·계약": 3
    }
   },
   {
@@ -5933,40 +6054,6 @@
   {
    "src": "junior",
    "company": "헥토",
-   "title": "[헥토이노베이션] 휘슬 콘텐츠 마케팅 (인턴)",
-   "url": "https://www.hectocareers.co.kr/ko/o/240619",
-   "end": "",
-   "posted": "2026-10-16",
-   "found": "2026-10-16",
-   "years": null,
-   "w": {
-    "문제 정의": 1,
-    "신사업·0to1": 1,
-    "이해관계자 조율": 3,
-    "데이터 분석": 1,
-    "지표·KPI": 3,
-    "SQL·툴": 3,
-    "A/B 테스트·실험": 3,
-    "사용자 리서치": 1,
-    "마케팅 기획": 3,
-    "그로스·CRM": 3,
-    "콘텐츠 기획·제작": 3,
-    "SNS·소셜": 1,
-    "커뮤니티": 2,
-    "서비스 운영": 1,
-    "프로세스 개선": 2,
-    "품질·검수": 1,
-    "위기·이슈 대응": 1,
-    "AI·LLM": 3,
-    "플랫폼": 1,
-    "금융·핀테크": 1,
-    "여행·모빌리티": 2,
-    "글로벌·해외": 1
-   }
-  },
-  {
-   "src": "junior",
-   "company": "헥토",
    "title": "[헥토] AI 상품기획 및 PM (신입/경력)",
    "url": "https://www.hectocareers.co.kr/ko/o/240254",
    "end": "",
@@ -6263,35 +6350,6 @@
   {
    "src": "company",
    "company": "무신사",
-   "title": "Product Manager (Logistics)",
-   "url": "https://musinsa.career.greetinghr.com/ko/o/240574",
-   "end": "",
-   "years": 7,
-   "w": {
-    "프로덕트·PO": 3,
-    "화면설계·UX": 1,
-    "문제 정의": 2,
-    "이해관계자 조율": 1,
-    "사용자 리서치": 3,
-    "브랜드": 2,
-    "SNS·소셜": 1,
-    "커뮤니티": 1,
-    "프로세스 개선": 3,
-    "CX·고객경험": 1,
-    "품질·검수": 1,
-    "물류·SCM": 3,
-    "이커머스": 3,
-    "플랫폼": 2,
-    "글로벌·해외": 3,
-    "일본어": 1,
-    "주도성": 1
-   },
-   "posted": "2026-10-15",
-   "found": "2026-10-15"
-  },
-  {
-   "src": "company",
-   "company": "무신사",
    "title": "Affiliate & Creator Partnership Specialist (인플루언서사업)",
    "url": "https://musinsa.career.greetinghr.com/ko/o/240962",
    "end": "",
@@ -6451,33 +6509,30 @@
   {
    "src": "company",
    "company": "무신사",
-   "title": "CX Program Manager",
-   "url": "https://musinsa.career.greetinghr.com/ko/o/231204",
+   "title": "Content Editor Assistant (29CM)",
+   "url": "https://musinsa.career.greetinghr.com/ko/o/242543",
    "end": "",
-   "years": 5,
+   "years": 1,
    "w": {
-    "문제 정의": 1,
-    "사업기획·전략": 1,
-    "신사업·0to1": 2,
     "프로젝트 관리": 1,
     "이해관계자 조율": 3,
-    "데이터 분석": 2,
-    "지표·KPI": 1,
-    "사용자 리서치": 2,
-    "마케팅 기획": 1,
-    "그로스·CRM": 1,
-    "행사·이벤트": 2,
-    "서비스 운영": 3,
-    "프로세스 개선": 2,
-    "CX·고객경험": 3,
-    "품질·검수": 3,
-    "위기·이슈 대응": 2,
+    "데이터 분석": 1,
+    "사용자 리서치": 3,
+    "시장·트렌드 분석": 3,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 3,
+    "SNS·소셜": 3,
+    "행사·이벤트": 1,
+    "품질·검수": 1,
+    "정산·계약": 1,
     "이커머스": 1,
-    "영업·세일즈": 1,
-    "플랫폼": 3
+    "MD·상품기획": 1,
+    "AI·LLM": 1,
+    "플랫폼": 2,
+    "뷰티·패션": 3
    },
-   "posted": "2026-07-30",
-   "found": "2026-10-03"
+   "posted": "2026-10-30",
+   "found": "2026-10-31"
   },
   {
    "src": "company",
@@ -6485,7 +6540,7 @@
    "title": "Data Operations AI Part Lead",
    "url": "https://musinsa.career.greetinghr.com/ko/o/240047",
    "end": "",
-   "years": 5,
+   "years": 3,
    "w": {
     "프로덕트·PO": 2,
     "신사업·0to1": 2,
@@ -6931,6 +6986,35 @@
   {
    "src": "company",
    "company": "무신사",
+   "title": "Product Manager (Logistics)",
+   "url": "https://musinsa.career.greetinghr.com/ko/o/240574",
+   "end": "",
+   "years": 7,
+   "w": {
+    "프로덕트·PO": 3,
+    "화면설계·UX": 1,
+    "문제 정의": 2,
+    "이해관계자 조율": 1,
+    "사용자 리서치": 3,
+    "브랜드": 2,
+    "SNS·소셜": 1,
+    "커뮤니티": 1,
+    "프로세스 개선": 3,
+    "CX·고객경험": 1,
+    "품질·검수": 1,
+    "물류·SCM": 3,
+    "이커머스": 3,
+    "플랫폼": 2,
+    "글로벌·해외": 3,
+    "일본어": 1,
+    "주도성": 1
+   },
+   "posted": "2026-10-15",
+   "found": "2026-10-15"
+  },
+  {
+   "src": "company",
+   "company": "무신사",
    "title": "Product Manager (PDP/캠페인/콘텐츠)",
    "url": "https://musinsa.career.greetinghr.com/ko/o/226226",
    "end": "",
@@ -7335,6 +7419,34 @@
    },
    "posted": "2026-10-14",
    "found": "2026-10-15"
+  },
+  {
+   "src": "company",
+   "company": "무신사",
+   "title": "디지털/가전 AMD (29CM)",
+   "url": "https://musinsa.career.greetinghr.com/ko/o/242544",
+   "end": "",
+   "years": 2,
+   "w": {
+    "문제 정의": 2,
+    "신사업·0to1": 2,
+    "이해관계자 조율": 3,
+    "사용자 리서치": 2,
+    "시장·트렌드 분석": 1,
+    "마케팅 기획": 3,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 3,
+    "품질·검수": 1,
+    "정산·계약": 1,
+    "이커머스": 1,
+    "MD·상품기획": 3,
+    "영업·세일즈": 2,
+    "F&B·식품": 2,
+    "글로벌·해외": 1,
+    "주도성": 1
+   },
+   "posted": "2026-10-30",
+   "found": "2026-10-31"
   },
   {
    "src": "company",
@@ -7836,6 +7948,39 @@
    },
    "posted": "2026-09-22",
    "found": "2026-10-03"
+  },
+  {
+   "src": "company",
+   "company": "CJ올리브영",
+   "title": "Product Manager - Post-Purchase (포스트오더)",
+   "url": "https://career.oliveyoung.com/ko/o/242737",
+   "end": "",
+   "years": 4,
+   "w": {
+    "서비스기획": 3,
+    "프로덕트·PO": 3,
+    "요구사항 정의": 1,
+    "사업개발·제휴": 1,
+    "이해관계자 조율": 3,
+    "데이터 분석": 2,
+    "지표·KPI": 3,
+    "SQL·툴": 1,
+    "A/B 테스트·실험": 1,
+    "CX·고객경험": 2,
+    "품질·검수": 2,
+    "위기·이슈 대응": 3,
+    "물류·SCM": 3,
+    "정산·계약": 3,
+    "이커머스": 3,
+    "AI·LLM": 3,
+    "노코드·개발 이해": 2,
+    "플랫폼": 1,
+    "금융·핀테크": 1,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 2
+   },
+   "posted": "2026-10-30",
+   "found": "2026-10-31"
   },
   {
    "src": "company",
@@ -10270,41 +10415,6 @@
   {
    "src": "company",
    "company": "CJ올리브영",
-   "title": "Product Manager - Omnichannel",
-   "url": "https://career.oliveyoung.com/ko/o/211240",
-   "end": "",
-   "years": 10,
-   "w": {
-    "서비스기획": 3,
-    "프로덕트·PO": 3,
-    "요구사항 정의": 1,
-    "문제 정의": 2,
-    "사업기획·전략": 3,
-    "신사업·0to1": 3,
-    "이해관계자 조율": 3,
-    "데이터 분석": 3,
-    "지표·KPI": 1,
-    "SQL·툴": 3,
-    "A/B 테스트·실험": 1,
-    "시장·트렌드 분석": 1,
-    "인사이트 도출": 1,
-    "CX·고객경험": 1,
-    "이커머스": 1,
-    "B2B": 2,
-    "AI·LLM": 1,
-    "플랫폼": 1,
-    "뷰티·패션": 3,
-    "여행·모빌리티": 1,
-    "헬스케어": 1,
-    "글로벌·해외": 3,
-    "주도성": 3
-   },
-   "posted": "2026-10-23",
-   "found": "2026-10-03"
-  },
-  {
-   "src": "company",
-   "company": "CJ올리브영",
    "title": "Product Manager - Merchant Platform (파트너플랫폼)",
    "url": "https://career.oliveyoung.com/ko/o/211236",
    "end": "",
@@ -10755,67 +10865,6 @@
     "리더십·팀 리딩": 1
    },
    "posted": "2026-08-27",
-   "found": "2026-10-03"
-  },
-  {
-   "src": "company",
-   "company": "컬리",
-   "title": "광고 영업 담당자 (중대형 광고주 세일즈)",
-   "url": "https://kurly.career.greetinghr.com/ko/o/156654",
-   "end": "",
-   "years": 5,
-   "w": {
-    "프로덕트·PO": 1,
-    "사업기획·전략": 3,
-    "사업개발·제휴": 2,
-    "이해관계자 조율": 2,
-    "데이터 분석": 1,
-    "지표·KPI": 3,
-    "사용자 리서치": 3,
-    "마케팅 기획": 1,
-    "퍼포먼스 마케팅": 2,
-    "행사·이벤트": 1,
-    "서비스 운영": 1,
-    "CX·고객경험": 1,
-    "이커머스": 1,
-    "MD·상품기획": 1,
-    "영업·세일즈": 3,
-    "플랫폼": 2,
-    "F&B·식품": 2,
-    "뷰티·패션": 2,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 1
-   },
-   "posted": "2026-05-13",
-   "found": "2026-10-03"
-  },
-  {
-   "src": "company",
-   "company": "컬리",
-   "title": "뷰티 PB상품기획 담당자",
-   "url": "https://kurly.career.greetinghr.com/ko/o/196952",
-   "end": "",
-   "years": 8,
-   "w": {
-    "사업기획·전략": 2,
-    "사업개발·제휴": 2,
-    "신사업·0to1": 3,
-    "프로젝트 관리": 1,
-    "이해관계자 조율": 3,
-    "지표·KPI": 1,
-    "사용자 리서치": 2,
-    "브랜드": 3,
-    "CX·고객경험": 1,
-    "품질·검수": 1,
-    "정산·계약": 1,
-    "MD·상품기획": 3,
-    "AI·LLM": 1,
-    "뷰티·패션": 3,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 1,
-    "주도성": 1
-   },
-   "posted": "2026-08-03",
    "found": "2026-10-03"
   },
   {
@@ -12828,6 +12877,26 @@
   {
    "src": "company",
    "company": "여기어때",
+   "title": "Pension Sales Manager [경기 담당/서울 근무]",
+   "url": "https://gccompany.career.greetinghr.com/ko/o/234869",
+   "end": "",
+   "years": 1,
+   "w": {
+    "사업개발·제휴": 1,
+    "이해관계자 조율": 1,
+    "지표·KPI": 1,
+    "SQL·툴": 1,
+    "위기·이슈 대응": 1,
+    "영업·세일즈": 3,
+    "플랫폼": 1,
+    "여행·모빌리티": 3
+   },
+   "posted": "2026-10-30",
+   "found": "2026-10-31"
+  },
+  {
+   "src": "company",
+   "company": "여기어때",
    "title": "Sales Strategy & Planning Manager",
    "url": "https://gccompany.career.greetinghr.com/ko/o/241655",
    "end": "",
@@ -12919,36 +12988,6 @@
    },
    "posted": "2026-10-19",
    "found": "2026-10-19"
-  },
-  {
-   "src": "company",
-   "company": "여기어때",
-   "title": "Product Owner [주문/결제]",
-   "url": "https://gccompany.career.greetinghr.com/ko/o/237006",
-   "end": "",
-   "years": 5,
-   "w": {
-    "프로덕트·PO": 3,
-    "요구사항 정의": 3,
-    "문제 정의": 1,
-    "사업개발·제휴": 1,
-    "신사업·0to1": 1,
-    "이해관계자 조율": 3,
-    "데이터 분석": 1,
-    "SQL·툴": 1,
-    "품질·검수": 2,
-    "위기·이슈 대응": 1,
-    "정산·계약": 1,
-    "이커머스": 1,
-    "B2B": 2,
-    "노코드·개발 이해": 3,
-    "플랫폼": 3,
-    "금융·핀테크": 3,
-    "여행·모빌리티": 3,
-    "글로벌·해외": 1
-   },
-   "posted": "2026-09-15",
-   "found": "2026-10-03"
   },
   {
    "src": "company",
@@ -14063,6 +14102,41 @@
   {
    "src": "company",
    "company": "로앤컴퍼니",
+   "title": "로톡 CRM 마케터",
+   "url": "https://lawcompany.career.greetinghr.com/ko/o/242740",
+   "end": "",
+   "years": 5,
+   "w": {
+    "프로덕트·PO": 1,
+    "문제 정의": 1,
+    "이해관계자 조율": 3,
+    "데이터 분석": 3,
+    "지표·KPI": 3,
+    "SQL·툴": 2,
+    "인사이트 도출": 3,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 3,
+    "그로스·CRM": 3,
+    "콘텐츠 기획·제작": 3,
+    "행사·이벤트": 1,
+    "프로세스 개선": 3,
+    "문서화·가이드": 2,
+    "영업·세일즈": 1,
+    "B2B": 2,
+    "AI·LLM": 3,
+    "노코드·개발 이해": 1,
+    "플랫폼": 2,
+    "금융·핀테크": 1,
+    "교육": 1,
+    "부동산·프롭테크": 1,
+    "헬스케어": 1
+   },
+   "posted": "2026-10-30",
+   "found": "2026-10-31"
+  },
+  {
+   "src": "company",
+   "company": "로앤컴퍼니",
    "title": "엔터프라이즈 솔루션 영업 담당(B2B Solution Sales)",
    "url": "https://lawcompany.career.greetinghr.com/ko/o/241365",
    "end": "",
@@ -14170,14 +14244,13 @@
     "프로덕트·PO": 1,
     "사업개발·제휴": 3,
     "이해관계자 조율": 3,
-    "SQL·툴": 1,
     "사용자 리서치": 3,
     "인사이트 도출": 1,
     "행사·이벤트": 1,
-    "프로세스 개선": 1,
     "문서화·가이드": 1,
-    "영업·세일즈": 1,
-    "플랫폼": 2,
+    "영업·세일즈": 2,
+    "노코드·개발 이해": 1,
+    "플랫폼": 3,
     "금융·핀테크": 3,
     "교육": 1
    },
@@ -14591,6 +14664,22 @@
    },
    "posted": "2025-08-05",
    "found": "2026-10-03"
+  },
+  {
+   "src": "company",
+   "company": "메가스터디교육",
+   "title": "[유초중] 초중등 학원 프랜차이즈 사업 전략 및 영업 총괄",
+   "url": "https://megastudyedu.career.greetinghr.com/ko/o/242750",
+   "end": "",
+   "years": 10,
+   "w": {
+    "사업기획·전략": 3,
+    "브랜드": 1,
+    "영업·세일즈": 3,
+    "교육": 3
+   },
+   "posted": "2026-10-30",
+   "found": "2026-10-31"
   },
   {
    "src": "company",
@@ -15358,6 +15447,30 @@
   {
    "src": "company",
    "company": "하이브",
+   "title": "[HYBE] 자산관리 (공간 기획 및 운영)*",
+   "url": "https://careers.hybecorp.com/ko/o/242581",
+   "end": "",
+   "years": 3,
+   "w": {
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "SQL·툴": 2,
+    "서비스 운영": 2,
+    "문서화·가이드": 1,
+    "품질·검수": 1,
+    "정산·계약": 3,
+    "B2B": 1,
+    "금융·핀테크": 3,
+    "부동산·프롭테크": 3,
+    "영어": 1,
+    "주도성": 1
+   },
+   "posted": "2026-10-30",
+   "found": "2026-10-31"
+  },
+  {
+   "src": "company",
+   "company": "하이브",
    "title": "[DRIMAGE-KORE스튜디오] 게임기획",
    "url": "https://careers.hybecorp.com/ko/o/242436",
    "end": "",
@@ -15944,33 +16057,6 @@
     "주도성": 2
    },
    "posted": "2026-09-09",
-   "found": "2026-10-03"
-  },
-  {
-   "src": "company",
-   "company": "하이브",
-   "title": "[HYBE] 사운드랩 PM",
-   "url": "https://careers.hybecorp.com/ko/o/236060",
-   "end": "",
-   "years": 2,
-   "w": {
-    "프로덕트·PO": 2,
-    "요구사항 정의": 1,
-    "사업기획·전략": 1,
-    "사업개발·제휴": 1,
-    "프로젝트 관리": 1,
-    "이해관계자 조율": 3,
-    "지표·KPI": 1,
-    "콘텐츠 기획·제작": 1,
-    "프로세스 개선": 1,
-    "문서화·가이드": 1,
-    "위기·이슈 대응": 1,
-    "정산·계약": 2,
-    "엔터·IP": 3,
-    "글로벌·해외": 2,
-    "영어": 1
-   },
-   "posted": "2026-09-07",
    "found": "2026-10-03"
   },
   {
@@ -17831,28 +17917,6 @@
   },
   {
    "src": "company",
-   "company": "11번가",
-   "title": "[11번가] CRM 운영·모니터링 담당자 (계약직)",
-   "url": "https://11st.career.greetinghr.com/ko/o/232121",
-   "end": "",
-   "years": null,
-   "w": {
-    "데이터 분석": 2,
-    "지표·KPI": 1,
-    "SQL·툴": 1,
-    "마케팅 기획": 3,
-    "그로스·CRM": 3,
-    "콘텐츠 기획·제작": 1,
-    "품질·검수": 1,
-    "정산·계약": 1,
-    "이커머스": 2,
-    "영업·세일즈": 1
-   },
-   "posted": "2026-10-20",
-   "found": "2026-10-21"
-  },
-  {
-   "src": "company",
    "company": "크래프톤",
    "title": "[AI Frontier Div.] Product Owner (7년 이상)",
    "url": "https://job-boards.greenhouse.io/krafton/jobs/8465450002",
@@ -18223,31 +18287,6 @@
    },
    "posted": "2026-07-09",
    "found": "2026-10-15"
-  },
-  {
-   "src": "company",
-   "company": "크래프톤",
-   "title": "[Strategy Div.] Corporate Strategy Intern (경력무관 / 인턴)",
-   "url": "https://job-boards.greenhouse.io/krafton/jobs/8819365002",
-   "end": "",
-   "years": null,
-   "w": {
-    "사업기획·전략": 3,
-    "신사업·0to1": 2,
-    "프로젝트 관리": 1,
-    "이해관계자 조율": 3,
-    "사용자 리서치": 2,
-    "시장·트렌드 분석": 1,
-    "그로스·CRM": 3,
-    "콘텐츠 기획·제작": 2,
-    "SNS·소셜": 3,
-    "플랫폼": 1,
-    "엔터·IP": 1,
-    "글로벌·해외": 2,
-    "영어": 1
-   },
-   "posted": "2026-09-20",
-   "found": "2026-10-03"
   },
   {
    "src": "company",
@@ -19479,6 +19518,55 @@
   {
    "src": "company",
    "company": "세일즈포스",
+   "title": "Enterprise Account Executive",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Enterprise-Account-Executive_JR362071",
+   "end": "",
+   "years": 13,
+   "w": {
+    "이해관계자 조율": 2,
+    "마케팅 기획": 3,
+    "그로스·CRM": 3,
+    "품질·검수": 2,
+    "영업·세일즈": 3,
+    "B2B": 3,
+    "AI·LLM": 3,
+    "플랫폼": 1,
+    "교육": 2,
+    "F&B·식품": 1,
+    "리더십·팀 리딩": 1,
+    "주도성": 2
+   },
+   "posted": "",
+   "found": "2026-10-20"
+  },
+  {
+   "src": "company",
+   "company": "세일즈포스",
+   "title": "Strategic Account Executive - DNB",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Strategic-Account-Executive---DNB_JR345405",
+   "end": "",
+   "years": null,
+   "w": {
+    "이해관계자 조율": 2,
+    "데이터 분석": 2,
+    "마케팅 기획": 3,
+    "그로스·CRM": 3,
+    "서비스 운영": 1,
+    "품질·검수": 2,
+    "영업·세일즈": 3,
+    "B2B": 3,
+    "B2C": 3,
+    "AI·LLM": 3,
+    "플랫폼": 3,
+    "교육": 2,
+    "리더십·팀 리딩": 1
+   },
+   "posted": "",
+   "found": "2026-10-20"
+  },
+  {
+   "src": "company",
+   "company": "세일즈포스",
    "title": "Account Executive, Tableau (DNB Industry)",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Account-Executive--Tableau--DNB-Industry-_JR364794-1",
    "end": "",
@@ -19622,30 +19710,6 @@
   {
    "src": "company",
    "company": "세일즈포스",
-   "title": "Account Executive, Tableau (Growth Market)",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Account-Executive--Tableau--Growth-Market-_JR364792",
-   "end": "",
-   "years": 5,
-   "w": {
-    "이해관계자 조율": 1,
-    "SQL·툴": 3,
-    "사용자 리서치": 1,
-    "마케팅 기획": 3,
-    "그로스·CRM": 3,
-    "품질·검수": 3,
-    "영업·세일즈": 3,
-    "B2B": 3,
-    "AI·LLM": 3,
-    "교육": 2,
-    "여행·모빌리티": 1,
-    "영어": 1
-   },
-   "posted": "",
-   "found": "2026-10-23"
-  },
-  {
-   "src": "company",
-   "company": "세일즈포스",
    "title": "Account Executive - Agentforce (South Korea)",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Cloud-Account-Executive---Agentforce--SKR-_JR362277",
    "end": "",
@@ -19667,30 +19731,6 @@
     "플랫폼": 3,
     "교육": 2,
     "영어": 1
-   },
-   "posted": "",
-   "found": "2026-10-20"
-  },
-  {
-   "src": "company",
-   "company": "세일즈포스",
-   "title": "Enterprise Account Executive",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Enterprise-Account-Executive_JR362071",
-   "end": "",
-   "years": 13,
-   "w": {
-    "이해관계자 조율": 2,
-    "마케팅 기획": 3,
-    "그로스·CRM": 3,
-    "품질·검수": 2,
-    "영업·세일즈": 3,
-    "B2B": 3,
-    "AI·LLM": 3,
-    "플랫폼": 1,
-    "교육": 2,
-    "F&B·식품": 1,
-    "리더십·팀 리딩": 1,
-    "주도성": 2
    },
    "posted": "",
    "found": "2026-10-20"
@@ -19818,31 +19858,6 @@
     "교육": 3,
     "헬스케어": 1,
     "영어": 1
-   },
-   "posted": "",
-   "found": "2026-10-20"
-  },
-  {
-   "src": "company",
-   "company": "세일즈포스",
-   "title": "Strategic Account Executive - DNB",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Korea-Republic-of---Seoul/Strategic-Account-Executive---DNB_JR345405",
-   "end": "",
-   "years": null,
-   "w": {
-    "이해관계자 조율": 2,
-    "데이터 분석": 2,
-    "마케팅 기획": 3,
-    "그로스·CRM": 3,
-    "서비스 운영": 1,
-    "품질·검수": 2,
-    "영업·세일즈": 3,
-    "B2B": 3,
-    "B2C": 3,
-    "AI·LLM": 3,
-    "플랫폼": 3,
-    "교육": 2,
-    "리더십·팀 리딩": 1
    },
    "posted": "",
    "found": "2026-10-20"
@@ -20013,6 +20028,61 @@
   {
    "src": "company",
    "company": "넷플릭스",
+   "title": "Korea Finance Director - Strategy, Planning, and Studio Finance",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317631095",
+   "end": "",
+   "years": 15,
+   "w": {
+    "문제 정의": 1,
+    "사업기획·전략": 1,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "시장·트렌드 분석": 1,
+    "인사이트 도출": 3,
+    "마케팅 기획": 2,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "콘텐츠 기획·제작": 3,
+    "서비스 운영": 3,
+    "위기·이슈 대응": 2,
+    "글로벌·해외": 3,
+    "영어": 1,
+    "리더십·팀 리딩": 3
+   },
+   "posted": "",
+   "found": "2026-10-18"
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
+   "title": "Senior Manager, Marketing Partnerships - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317761805",
+   "end": "",
+   "years": 15,
+   "w": {
+    "사업기획·전략": 2,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "지표·KPI": 2,
+    "SQL·툴": 1,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "브랜드": 2,
+    "이커머스": 1,
+    "영업·세일즈": 1,
+    "B2C": 3,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 1,
+    "영어": 1,
+    "주도성": 1
+   },
+   "posted": "",
+   "found": "2026-10-18"
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
    "title": "HR Business Partner - Korea",
    "url": "https://explore.jobs.netflix.net/careers/job/790318403387",
    "end": "",
@@ -20030,6 +20100,36 @@
     "글로벌·해외": 3,
     "영어": 1,
     "리더십·팀 리딩": 1
+   },
+   "posted": "",
+   "found": "2026-10-19"
+  },
+  {
+   "src": "company",
+   "company": "넷플릭스",
+   "title": "Senior Account Manager",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318738586",
+   "end": "",
+   "years": 8,
+   "w": {
+    "사업개발·제휴": 1,
+    "이해관계자 조율": 3,
+    "데이터 분석": 1,
+    "SQL·툴": 2,
+    "사용자 리서치": 1,
+    "인사이트 도출": 3,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "브랜드": 3,
+    "콘텐츠 기획·제작": 1,
+    "서비스 운영": 2,
+    "문서화·가이드": 1,
+    "품질·검수": 3,
+    "위기·이슈 대응": 1,
+    "영업·세일즈": 3,
+    "B2B": 1,
+    "영어": 1
    },
    "posted": "",
    "found": "2026-10-19"
@@ -20103,91 +20203,6 @@
    },
    "posted": "",
    "found": "2026-10-21"
-  },
-  {
-   "src": "company",
-   "company": "넷플릭스",
-   "title": "Korea Finance Director - Strategy, Planning, and Studio Finance",
-   "url": "https://explore.jobs.netflix.net/careers/job/790317631095",
-   "end": "",
-   "years": 15,
-   "w": {
-    "문제 정의": 1,
-    "사업기획·전략": 1,
-    "사업개발·제휴": 3,
-    "이해관계자 조율": 3,
-    "시장·트렌드 분석": 1,
-    "인사이트 도출": 3,
-    "마케팅 기획": 2,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 1,
-    "콘텐츠 기획·제작": 3,
-    "서비스 운영": 3,
-    "위기·이슈 대응": 2,
-    "글로벌·해외": 3,
-    "영어": 1,
-    "리더십·팀 리딩": 3
-   },
-   "posted": "",
-   "found": "2026-10-18"
-  },
-  {
-   "src": "company",
-   "company": "넷플릭스",
-   "title": "Senior Account Manager",
-   "url": "https://explore.jobs.netflix.net/careers/job/790318738586",
-   "end": "",
-   "years": 8,
-   "w": {
-    "사업개발·제휴": 1,
-    "이해관계자 조율": 3,
-    "데이터 분석": 1,
-    "SQL·툴": 2,
-    "사용자 리서치": 1,
-    "인사이트 도출": 3,
-    "마케팅 기획": 3,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 1,
-    "브랜드": 3,
-    "콘텐츠 기획·제작": 1,
-    "서비스 운영": 2,
-    "문서화·가이드": 1,
-    "품질·검수": 3,
-    "위기·이슈 대응": 1,
-    "영업·세일즈": 3,
-    "B2B": 1,
-    "영어": 1
-   },
-   "posted": "",
-   "found": "2026-10-19"
-  },
-  {
-   "src": "company",
-   "company": "넷플릭스",
-   "title": "Senior Manager, Marketing Partnerships - Korea",
-   "url": "https://explore.jobs.netflix.net/careers/job/790317761805",
-   "end": "",
-   "years": 15,
-   "w": {
-    "사업기획·전략": 2,
-    "사업개발·제휴": 3,
-    "이해관계자 조율": 3,
-    "지표·KPI": 2,
-    "SQL·툴": 1,
-    "마케팅 기획": 3,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 1,
-    "브랜드": 2,
-    "이커머스": 1,
-    "영업·세일즈": 1,
-    "B2C": 3,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 1,
-    "영어": 1,
-    "주도성": 1
-   },
-   "posted": "",
-   "found": "2026-10-18"
   },
   {
    "src": "company",
@@ -20562,6 +20577,7 @@
   "https://career.gangnamunni.com/ko/o/242029",
   "https://career.gangnamunni.com/ko/o/201327",
   "https://career.wrtn.io/ko/o/227428",
+  "https://myrealtrip.career.greetinghr.com/ko/o/242599",
   "https://myrealtrip.career.greetinghr.com/ko/o/240173",
   "https://megastudyedu.career.greetinghr.com/ko/o/240193",
   "https://megastudyedu.career.greetinghr.com/ko/o/242410",

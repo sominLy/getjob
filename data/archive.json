@@ -1,6 +1,69 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "jobs": [
+    {
+      "id": "linkareer-357078",
+      "company": "EY한영",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-10-29",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/357078",
+      "hist": "",
+      "found": "2026-10-15"
+    },
+    {
+      "id": "jasoseol-106772",
+      "company": "유안타증권",
+      "title": "IT인프라운영팀 신입/경력직원 채용",
+      "type": "금융",
+      "roles": [],
+      "start": "2026-10-14",
+      "end": "2026-10-29",
+      "endTime": "23:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.yuantakorea.com:4433/jobinfo/jobinfo_view.asp?ID=1951",
+      "hist": "",
+      "found": "2026-10-16"
+    },
+    {
+      "id": "jasoseol-106773",
+      "company": "유안타증권",
+      "title": "온라인시스템팀 신입직원 채용",
+      "type": "금융",
+      "roles": [],
+      "start": "2026-10-14",
+      "end": "2026-10-29",
+      "endTime": "23:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://recruit.yuantakorea.com:4433/jobinfo/jobinfo_view.asp?ID=1952",
+      "hist": "",
+      "found": "2026-10-16"
+    },
+    {
+      "id": "linkareer-358346",
+      "company": "메가마트",
+      "type": "",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-10-29",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/358346",
+      "hist": "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요",
+      "found": "2026-10-20"
+    },
     {
       "id": "jasoseol-106611",
       "company": "우아한청년들",
@@ -7664,6 +7727,23 @@
       "found": "2026-09-21"
     },
     {
+      "id": "jasoseol-106245",
+      "company": "아이쓰리시스템",
+      "title": "구매 부문 신입/경력사원 채용",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-15",
+      "end": "2026-09-27",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://i3system.career.greetinghr.com/ko/intro",
+      "hist": "",
+      "found": "2026-10-30"
+    },
+    {
       "id": "jasoseol-105351",
       "company": "토스뱅크",
       "type": "",
@@ -9060,6 +9140,41 @@
       "url": "https://ilsungis.com/sub_recruit/recruitment_job.php",
       "hist": "",
       "found": "2026-10-27"
+    },
+    {
+      "id": "jasoseol-105882",
+      "company": "AXA손해보험",
+      "title": "장기일반상품팀 상품 개발 및 위험률 관리 담당자 채용",
+      "type": "금융",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "2026-08-26",
+      "end": "2026-09-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://axa.career.greetinghr.com/ko/o/234787",
+      "hist": "",
+      "found": "2026-10-30"
+    },
+    {
+      "id": "jasoseol-105990",
+      "company": "AXA손해보험",
+      "title": "부산자동차 TM부 Trainer 채용 (계약직, 신입/경력)",
+      "type": "금융",
+      "roles": [
+        "영업관리",
+        "HR/인사"
+      ],
+      "start": "2026-08-31",
+      "end": "2026-09-20",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://axa.career.greetinghr.com/ko/o/235320",
+      "hist": "",
+      "found": "2026-10-30"
     },
     {
       "id": "jasoseol-105205",
@@ -10494,378 +10609,6 @@
       "url": "https://www.samsungcareers.com/hr/?no=23126",
       "hist": "",
       "found": "2026-09-10"
-    },
-    {
-      "id": "jasoseol-105678",
-      "company": "스튜디오에스",
-      "type": "대기업",
-      "roles": [
-        "기획/전략",
-        "마케팅"
-      ],
-      "start": "2026-08-21",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://sbs.careerlink.kr/jobs/RC20260818033336",
-      "hist": "",
-      "endTime": "17:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105771",
-      "company": "현대자동차",
-      "type": "대기업",
-      "roles": [
-        "기획/전략",
-        "영업관리",
-        "PM/서비스기획",
-        "홍보/PR",
-        "영업",
-        "브랜드",
-        "마케팅",
-        "MD",
-        "리서치",
-        "HR/인사"
-      ],
-      "start": "2026-09-01",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://talent-hyundai-now.com/?utm_source=jasoseol&utm_medium=banner&utm_campaign=26_09_recruit",
-      "hist": "",
-      "endTime": "17:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105846",
-      "company": "신협",
-      "type": "",
-      "roles": [
-        "영업",
-        "금융/심사"
-      ],
-      "start": "2026-08-27",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://cu1.saramin.co.kr/",
-      "hist": "",
-      "endTime": "18:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105852",
-      "company": "현대카드/현대커머셜",
-      "type": "금융",
-      "roles": [
-        "MD",
-        "마케팅",
-        "브랜드",
-        "영업",
-        "영업관리",
-        "기획/전략",
-        "HR/인사",
-        "홍보/PR"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://m.site.naver.com/21dBn",
-      "hist": "",
-      "endTime": "10:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105861",
-      "company": "인바디",
-      "type": "",
-      "roles": [
-        "영업",
-        "영업관리",
-        "마케팅",
-        "브랜드",
-        "고객/CS"
-      ],
-      "start": "2026-08-27",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ininbody.career.greetinghr.com/ko/2026",
-      "hist": "",
-      "endTime": "11:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105880",
-      "company": "LX세미콘",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-09-01",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://lx.recruiter.co.kr/",
-      "hist": "",
-      "endTime": "23:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105888",
-      "company": "KBS",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "브랜드",
-        "마케팅"
-      ],
-      "start": "2026-09-01",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://recruit.kbs.co.kr",
-      "hist": "",
-      "endTime": "10:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105893",
-      "company": "BGF리테일",
-      "type": "중견기업",
-      "roles": [
-        "영업관리",
-        "영업"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://linktr.ee/bgfhr",
-      "hist": "",
-      "endTime": "14:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105904",
-      "company": "IBK기업은행",
-      "type": "공기업",
-      "roles": [
-        "금융/심사",
-        "영업",
-        "PM/서비스기획",
-        "마케팅"
-      ],
-      "start": "2026-08-28",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://ibk.incruit.com/hire/viewhire.asp?projectid=128",
-      "hist": "",
-      "endTime": "10:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105908",
-      "company": "한국건설생활환경시험연구원",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://kcl.incruit.com",
-      "hist": "",
-      "endTime": "17:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105911",
-      "company": "LG CNS",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획",
-        "기획/전략"
-      ],
-      "start": "2026-08-30",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers-lgcns2026.com/",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105915",
-      "company": "서울외국환중개",
-      "type": "",
-      "roles": [
-        "영업",
-        "금융/심사"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://smbs.recruiter.co.kr/career/jobs/126541",
-      "hist": "",
-      "endTime": "17:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105924",
-      "company": "산일전기",
-      "type": "",
-      "roles": [
-        "HR/인사",
-        "영업"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54883106&view_type=etc",
-      "hist": "",
-      "endTime": "18:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105931",
-      "company": "한국산업은행",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "금융/심사",
-        "PM/서비스기획",
-        "리서치",
-        "HR/인사"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://kdb.incruit.com",
-      "hist": "",
-      "endTime": "16:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105944",
-      "company": "한국알콜그룹",
-      "type": "중견기업",
-      "roles": [
-        "기획/전략",
-        "영업",
-        "리서치",
-        "영업관리"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://enf-recruit.career.greetinghr.com/ko/home",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105946",
-      "company": "한국알콜그룹",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://enf-recruit.career.greetinghr.com/ko/home",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105981",
-      "company": "한국기계전기전자시험연구원(KTC)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-09-03",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ktchr.saramin.co.kr/",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105985",
-      "company": "비씨월드제약",
-      "type": "",
-      "roles": [
-        "기획/전략",
-        "브랜드",
-        "마케팅",
-        "영업"
-      ],
-      "start": "2026-09-04",
-      "end": "2026-09-14",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://bcwp.recruiter.co.kr/career/jobs/126774?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609bcwp",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-106051",
-      "company": "한국전력공사(KEPCO)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-09-08",
-      "end": "2026-09-14",
-      "endTime": "15:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://recruit-kepco26.com",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-106083",
-      "company": "매그나칩반도체",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-08-31",
-      "end": "2026-09-14",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://magnachip.career.greetinghr.com/o/235064",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-106128",
-      "company": "매그나칩반도체",
-      "type": "중견기업",
-      "roles": [
-        "고객/CS"
-      ],
-      "start": "2026-09-07",
-      "end": "2026-09-14",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://magnachip.career.greetinghr.com/ko/o/236151",
-      "hist": "",
-      "found": "2026-09-08"
     }
   ]
 }

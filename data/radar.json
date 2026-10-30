@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-29T19:03:45.464Z",
+  "collectedAt": "2026-10-30T18:44:48.470Z",
   "errors": {},
   "jobs": [
     {
@@ -101,6 +101,8 @@
         "프로덕트 기획"
       ],
       "reqs": [
+        "SQL·데이터",
+        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -417,6 +419,27 @@
     },
     {
       "source": "toss",
+      "company": "토스뱅크",
+      "title": "Technical Product Owner · 공통 · AI",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=8097990003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
+      "years": null,
+      "noLimit": false,
+      "evidence": "기술 기반의 웹/앱 서비스에 대한 이해도가 높은 분이 필요해요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "SQL·데이터",
+        "AI·LLM"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-10-30",
+      "jd": "이런 분과 함께하고 싶어요\n\n기술 기반의 웹/앱 서비스에 대한 이해도가 높은 분이 필요해요.\n복잡한 기술 제품을 리딩한 경험이 있는 분이 필요해요.\n고객의 입장에서 문제를 정의하고 해결해 본 경험이 필요해요. \n데이터를 기반으로 복잡한 문제를 해결할 수 있는 분이 필요해요. \n도전적인 상황에서도 끝까지 해결책을 찾아내는 실행력을 갖춘 분이 필요해요. \n애자일한 방식으로 성과를 만들거나 실패를 경험해본 분이 필요해요. \n사업 기획, 제품 개발, 조직 운영까지 스타트업의 A to Z를 다뤄본 창업 경험이 있으면 좋아요.\n\n"
+    },
+    {
+      "source": "toss",
       "company": "토스플레이스",
       "title": "Technical Product Owner · 공통",
       "location": "서울",
@@ -434,26 +457,6 @@
       "fit": true,
       "firstSeen": "2026-10-02",
       "jd": "이런 분과 함께하고 싶어요\n\n기술 기반의 IT 서비스에 대한 이해도가 높으신 분이 필요해요.\n단순 구현을 넘어서 기술적인 방향성과 구조를 함께 고민해본 경험이 필요해요.\n데이터를 기반으로 문제를 해결할 수 있는 Analytic Mindset이 있으신 분이면 좋아요.\n도전적인 상황에서도 끝까지 해결책을 찾아낸 실행 경험이 있으신 분이면 좋아요.\n여러 도메인에 걸친 복잡한 기술 문제를 조율하고 풀어본 경험이 있으신 분이면 더욱 좋아요.\n복잡한 기술 제품을 리딩해보았거나 개발팀 리더로서 기술 아젠다를 해결해보신 경험이 있다면 더욱 좋아요.\n서비스를 크게 성장시키기 위해 자원을 최적화 하고 지속적인 확장이 가능한 구조를 고민하고 만드셨던 경험이 있다면 더욱 좋아요.\n\n"
-    },
-    {
-      "source": "toss",
-      "company": "토스뱅크",
-      "title": "Technical Product Owner (AI)",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=8042384003",
-      "years": null,
-      "noLimit": false,
-      "evidence": "머신러닝 기반의 제품 또는 시스템을 설계하고 운영해 본 실무 경험이 있는 분이 필요해요.",
-      "roles": [
-        "프로덕트 기획"
-      ],
-      "reqs": [
-        "AI·LLM"
-      ],
-      "bucket": "unstated",
-      "fit": true,
-      "firstSeen": "2026-10-23",
-      "jd": "이런 분과 함께하고 싶어요\n\n머신러닝 기반의 제품 또는 시스템을 설계하고 운영해 본 실무 경험이 있는 분이 필요해요.\nAI 에이전트, 보이스 에이전트(Voice Agent), 음성 인식·합성(STT/TTS), 문서 인식(OCR) 등 다양한 ML 응용 분야에 대한 경험 또는 강한 관심이 있는 분이 필요해요.\n기술적 난이도가 높거나 불확실성이 큰 과제를 끝까지 리딩한 경험이 있는 분이 필요해요.\n비즈니스 임팩트와 기술적 타당성을 함께 고려하며 단계적 성과를 만들 줄 아는 실행력을 갖춘 분이 필요해요.\n\n"
     },
     {
       "source": "toss",
@@ -612,27 +615,6 @@
       "fit": true,
       "firstSeen": "2026-10-10",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.\nExperience with South Korea regulations and country-specific import and export trade requirements.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Head of YouTube Music Partnerships (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/105451889847345862-head-of-youtube-music-partnerships-english-korean",
-      "years": 15,
-      "noLimit": false,
-      "evidence": "15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-10-01",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.\nExperience in a leadership role, managing teams and working with executives in the music industry.\nExperience with commercial agreements, digital music licensing agreements, agreements and support of multi-territorial licensing entities.\nAbility to communicate fluently in English and Korean to engage with clients in the region.\n"
     },
     {
       "source": "google",
@@ -939,28 +921,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "AI Customer Engineer, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/132325631214920390-ai-customer-engineer-google-cloud-english-korean",
-      "years": 6,
-      "noLimit": false,
-      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-10-26",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Outcome Customer Engineer, AI, Google Cloud",
       "location": "Seoul, South Korea",
       "level": "Advanced",
@@ -979,6 +939,26 @@
       "fit": true,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor’s degree or equivalent practical experience.\n7 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with technical delivery strategies and interfacing with product or engineering organizations.\nExperience reading or debugging code in a general purpose coding language (e.g., Java, Python, JavaScript).\nExperience in system design or orchestration frameworks (e.g., LangGraph, AutoGen, CrewAI).\nExperience with enterprise integrations (APIs, enterprise content management (ECMs), identity), cloud infrastructure, or AI/ML model deployments.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Manager, AI and Infrastructure, Strategic Initiatives (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/72572552349655750-manager-ai-and-infrastructure-strategic-initiatives-korean-english",
+      "years": 11,
+      "noLimit": false,
+      "evidence": "11 years of experience in business development, semiconductor supply chain management, partnerships, or hardware operations.",
+      "roles": [],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-10-30",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n11 years of experience in business development, semiconductor supply chain management, partnerships, or hardware operations.\nExperience working with executives, and leading cross-functional hardware or technology projects.\nAbility to communicate in Korean and English fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
@@ -1348,50 +1328,6 @@
       "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "requirements, data residency, model risk, and financial-sector compliance\n Work with internal teams (Product, Engineering, Applied AI, Partnerships, Legal) to tailor solutions that meet financial-sector security and compliance standards\n Stay informed on trends shaping Korean FSI, including digital banking, AI in risk/underwriting, and regulatory shifts around AI use in finance\n Preferred qualifications\n 8+ years of enterprise sales experience in Korea, with significant exposure to financial services\n A genuine understanding of how Korean financial institutions make technology decisions, including the role of regulators, internal risk/compliance functions, and IT governance\n Direct experience navigating Financial Supervisory Service (FSS) requirements and review processes — this is required given how heavily FSS oversight shapes technology adoption in Korean FSI\n A track record of managing complex, multi-stakeholder sales cycles typical of FSI, including rigorous security and compliance review\n Proven experience exceeding revenue targets within financial services accounts\n Excellent communication skills in both Korean and English\n A passion for AI built and deployed safely\n What We Offer\n Competitive base salary and commission\n Equity participation\n Comprehensive benefits\n Hybrid work model\n Access to cutting-edge AI technology and world-class research team\n "
-    },
-    {
-      "source": "anthropic",
-      "company": "Anthropic",
-      "title": "Enterprise Account Executive - Healthcare & Life Science",
-      "location": "Seoul, South Korea",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432590008",
-      "years": 8,
-      "noLimit": false,
-      "evidence": "8+ years of enterprise Healthcare &amp; Life Sciences sales experience in Korea, driving adoption of emerging technologies with a consultative, solutions-oriented sales approach",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-10-05",
-      "jd": "requirements, the Personal Information Protection Act (PIPA) and Medical Service Act as they apply to patient data, and GxP/validation expectations\n Inform product roadmaps and features by gathering customer feedback and conveying the needs of the Korean market. Provide insights that strengthen our value proposition and enhance the customer experience\n Continuously refine the sales methodology by incorporating learnings into playbooks, templates, and best practices. Identify process improvements that optimize sales productivity and consistency\n You may be a good fit if you have\n 8+ years of enterprise Healthcare &amp; Life Sciences sales experience in Korea, driving adoption of emerging technologies with a consultative, solutions-oriented sales approach\n A genuine understanding of how Korean hospitals and life sciences companies make technology decisions, including the role of regulators, quality and compliance functions, and IT governance\n A track record of managing complex sales cycles and securing strategic deals by understanding multifaceted technical requirements and crafting tailored solutions\n Demonstrated ability to navigate dynamic stakeholder ecosystems, building consensus and providing innovative solutions to disparate groups\n Extensive experience negotiating highly complex, customized commercial agreements with multiple stakeholders\n Proven experience exceeding revenue targets in fast-paced organizations by effectively managing an evolving pipeline and sales process\n Excellent communication skills in both Korean and English, and the ability to present confidently and build connections across all customer levels, from ICs to C-level executives\n A knack for bringing order to chaos and an enthusiastic “roll up your sleeves” mentality. You are a true team player\n A strategic, analytical approach to assessing markets combined with creative, tactical execution to capture opportunities\n A passion for and/or experience with advanced AI systems. You feel strongly about ensuring frontier AI systems are developed safely\n What We Offer\n Competitive base salary and commission\n Equity participation\n Comprehensive benefits\n Hybrid work model\n Access to cutting-edge AI technology and world-class research team\n "
-    },
-    {
-      "source": "anthropic",
-      "company": "Anthropic",
-      "title": "Enterprise Account Executive - Manufacturing",
-      "location": "Seoul, South Korea",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443281008",
-      "years": 8,
-      "noLimit": false,
-      "evidence": "8+ years of enterprise sales experience in Korea, with significant exposure to manufacturing",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-10-05",
-      "jd": "requirements, trade secret and IP safeguards, export control considerations, and strict information security review\n Work across group structures, including holding companies, affiliates, and group IT service companies that shape technology procurement and deployment\n Work with internal teams (Product, Engineering, Applied AI, Partnerships, Legal) to tailor solutions that meet manufacturing-sector security and IP protection standards\n Stay informed on trends shaping Korean manufacturing, including AI in engineering and design, smart factory and autonomous manufacturing initiatives, and supply chain resilience\n Preferred qualifications\n 8+ years of enterprise sales experience in Korea, with significant exposure to manufacturing\n A genuine understanding of how Korean manufacturers make technology decisions, including the role of group-level governance, IT affiliates, information security functions, and R&amp;D leadership\n Direct experience navigating security and IP protection reviews in manufacturing environments, including requirements tied to protected industrial technology and restricted data environments\n A track record of managing complex, multi-stakeholder sales cycles typical of large manufacturers, including group-wide rollouts and rigorous security review\n Proven experience exceeding revenue targets within manufacturing accounts\n Excellent communication skills in both Korean and English\n A passion for AI built and deployed safely\n What We Offer\n Competitive base salary and commission\n Equity participation\n Comprehensive benefits\n Hybrid work model\n Access to cutting-edge AI technology and world-class research team\n "
     },
     {
       "source": "anthropic",
