@@ -16854,7 +16854,101 @@
    "archiveTotal": 608,
    "preds": 321,
    "compTotal": 584
+  },
+  {
+   "date": "2026-11-01",
+   "added": [
+    {
+     "id": "jasoseol-106898",
+     "company": "한국알콜그룹",
+     "title": "2026년 10월 채용",
+     "roles": [
+      "기획/전략",
+      "영업",
+      "영업관리",
+      "HR/인사"
+     ],
+     "end": "2026-11-09",
+     "url": "https://enf-recruit.career.greetinghr.com/ko/home"
+    },
+    {
+     "id": "jasoseol-106972",
+     "company": "제이시스메디칼",
+     "title": "2027 공개채용",
+     "roles": [
+      "영업",
+      "영업관리",
+      "마케팅",
+      "콘텐츠"
+     ],
+     "end": "2026-11-22",
+     "url": "https://career.jeisys.com/job_posting/g7d8f0hh"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106351",
+     "company": "밀도",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106356",
+     "company": "밀도",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106357",
+     "company": "밀도",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106383",
+     "company": "밀도",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106452",
+     "company": "밀도",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106703",
+     "company": "한국전기공사협회",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106749",
+     "company": "한국산업기술시험원(KTL)",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "linkareer-357420",
+     "company": "CJ프레시웨이",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106742",
+     "company": "메리츠증권",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106808",
+     "company": "밀도",
+     "end": "2026-10-30"
+    },
+    {
+     "id": "jasoseol-106813",
+     "company": "밀도",
+     "end": "2026-10-30"
+    }
+   ],
+   "removed": [],
+   "compNew": [],
+   "total": 361,
+   "archiveTotal": 582,
+   "preds": 330,
+   "compTotal": 582
   }
  ],
- "updated": "2026-10-31"
+ "updated": "2026-11-01"
 }

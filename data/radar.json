@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-30T18:44:48.470Z",
+  "collectedAt": "2026-10-31T17:52:21.483Z",
   "errors": {},
   "jobs": [
     {
@@ -101,8 +101,6 @@
         "프로덕트 기획"
       ],
       "reqs": [
-        "SQL·데이터",
-        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -896,27 +894,6 @@
       "fit": false,
       "firstSeen": "2026-10-14",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in advertising sales, marketing, consulting or media.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Practice Customer Engineer, Migrations, Infrastructure and App",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/79141233724662470-practice-customer-engineer-migrations-infrastructure-and-app",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "10 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with enterprise architectures and migration strategies for technologies such as Oracle, VMware, or SAP.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience in building product demonstrations and prototypes as part of a technical workshop or executive briefing.\nExperience engaging with, and presenting to, technical stakeholders and executive leaders.\n"
     },
     {
       "source": "google",

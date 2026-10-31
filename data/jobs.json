@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -62,7 +62,6 @@
       "source": "자체 채용페이지",
       "url": "https://www.samsungcareers.com",
       "hist": "2026 하반기 링커리어 예상 9/1~9/8, 서류발표 10/2. 25년 실제 8/27~9/3 · 24년 9/4~9/11 · 23년 9/11~9/18",
-      "doneBy": "jasoseol-106092",
       "doneAt": "2026-09-15"
     },
     {
@@ -133,8 +132,8 @@
       "source": "링커리어",
       "url": "https://hanabank.incruit.com/",
       "hist": "26년 상반기 180명. 25년 하반기 8/29~9/17 18시 (종합금융·ICT·디지털/AI·지역인재). 어학성적 1개 이상 필수",
-      "doneBy": "jasoseol-105995",
-      "doneAt": "2026-09-15"
+      "doneBy": "jasoseol-106214",
+      "doneAt": "2026-09-28"
     },
     {
       "id": "hyundai",
@@ -715,7 +714,6 @@
       "source": "자체 채용페이지",
       "url": "https://wrtn.career.greetinghr.com/ko/career",
       "hist": "수시 · 상시",
-      "doneBy": "jasoseol-105881",
       "doneAt": "2026-09-15"
     },
     {
@@ -3104,57 +3102,6 @@
       "found": "2026-09-18"
     },
     {
-      "id": "jasoseol-106351",
-      "company": "밀도",
-      "type": "",
-      "roles": [
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/H0xkvAup",
-      "hist": "",
-      "found": "2026-09-19",
-      "title": "통번역 & 커뮤니케이션 담당 - 영어"
-    },
-    {
-      "id": "jasoseol-106356",
-      "company": "밀도",
-      "type": "",
-      "roles": [],
-      "start": "2026-09-18",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/xdrzGV3H",
-      "hist": "",
-      "found": "2026-09-19",
-      "title": "매트리스 연구 개발"
-    },
-    {
-      "id": "jasoseol-106357",
-      "company": "밀도",
-      "type": "",
-      "roles": [
-        "마케팅",
-        "MD"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/DqV1PdDH",
-      "hist": "",
-      "found": "2026-09-19",
-      "title": "제품 기획"
-    },
-    {
       "id": "linkareer-352295",
       "company": "어센트AI",
       "type": "",
@@ -3185,21 +3132,6 @@
       "hist": "",
       "found": "2026-09-21",
       "title": "[R&D] 화장품/뷰티 디바이스 인체적용시험 연구 담당 채용연계형 인턴사원 모집"
-    },
-    {
-      "id": "jasoseol-106383",
-      "company": "밀도",
-      "type": "",
-      "roles": [],
-      "start": "2026-09-20",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/m4VFJbjr",
-      "hist": "",
-      "found": "2026-09-22",
-      "title": "해외 구매"
     },
     {
       "id": "wanted-388297",
@@ -3322,25 +3254,6 @@
       "hist": "",
       "found": "2026-09-28",
       "title": "[Management Track] General Affairs(총무) 주임"
-    },
-    {
-      "id": "jasoseol-106452",
-      "company": "밀도",
-      "type": "",
-      "roles": [
-        "브랜드",
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-27",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/Bw5kcjGu",
-      "hist": "",
-      "found": "2026-09-28",
-      "title": "브랜드 콘텐츠 마케터"
     },
     {
       "id": "jasoseol-106474",
@@ -3962,23 +3875,6 @@
       "found": "2026-10-14"
     },
     {
-      "id": "jasoseol-106703",
-      "company": "한국전기공사협회",
-      "title": "2026년 신규 직원 채용공고 (사무행정/교수)",
-      "type": "공기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-10-14",
-      "end": "2026-10-30",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2610130000343&handle=97967F9B881F7FD65FD96EE7A869E72B469EE5C76EB52335251658A3138A4AC5&rf=1",
-      "hist": "",
-      "found": "2026-10-14"
-    },
-    {
       "id": "jasoseol-106707",
       "company": "신영자산운용",
       "title": "2026년 하반기 대졸 신입사원 채용(주식운용, 채권운용, 지원부문)",
@@ -4215,28 +4111,6 @@
       "found": "2026-10-15"
     },
     {
-      "id": "jasoseol-106749",
-      "company": "한국산업기술시험원(KTL)",
-      "title": "2026년 4분기 분야별 공개모집",
-      "type": "공기업",
-      "roles": [
-        "영업",
-        "영업관리",
-        "고객/CS",
-        "홍보/PR",
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-10-15",
-      "end": "2026-10-30",
-      "endTime": "11:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ktl.careerlink.kr/",
-      "hist": "",
-      "found": "2026-10-15"
-    },
-    {
       "id": "jasoseol-106752",
       "company": "이노션",
       "title": "글로벌 앱 기획 및 운영 계약직 (육아휴직 대체)",
@@ -4269,22 +4143,6 @@
       "url": "https://innocean.recruiter.co.kr/career/jobs/131401",
       "hist": "",
       "found": "2026-10-15"
-    },
-    {
-      "id": "linkareer-357420",
-      "company": "CJ프레시웨이",
-      "type": "",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/357420",
-      "hist": "",
-      "found": "2026-10-16"
     },
     {
       "id": "jasoseol-106756",
@@ -4449,26 +4307,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "http://recruit.kunwoneng.com",
-      "hist": "",
-      "found": "2026-10-19"
-    },
-    {
-      "id": "jasoseol-106742",
-      "company": "메리츠증권",
-      "title": "2026년 대졸 신입사원 공개채용",
-      "type": "금융",
-      "roles": [
-        "금융/심사",
-        "영업관리",
-        "영업",
-        "기획/전략"
-      ],
-      "start": "2026-10-19",
-      "end": "2026-10-30",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit-meritz.com/",
       "hist": "",
       "found": "2026-10-19"
     },
@@ -4754,23 +4592,6 @@
       "found": "2026-10-20"
     },
     {
-      "id": "jasoseol-106808",
-      "company": "밀도",
-      "title": "온라인 AMD",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-10-19",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/V88RmqxM",
-      "hist": "",
-      "found": "2026-10-20"
-    },
-    {
       "id": "jasoseol-106810",
       "company": "한온시스템",
       "title": "2026년 하반기 채용연계형 인턴십",
@@ -4856,23 +4677,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://lsmnm.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=269814",
-      "hist": "",
-      "found": "2026-10-21"
-    },
-    {
-      "id": "jasoseol-106813",
-      "company": "밀도",
-      "title": "CX 담당자",
-      "type": "",
-      "roles": [
-        "고객/CS"
-      ],
-      "start": "2026-10-19",
-      "end": "2026-10-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mildo.ninehire.site/job_posting/RIDcfHaI",
       "hist": "",
       "found": "2026-10-21"
     },
@@ -7081,16 +6885,45 @@
       "found": "2026-10-30"
     },
     {
-      "id": "pred-gm-202610",
-      "company": "GM",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-10-30",
-      "end": "2026-11-08",
-      "confirmed": false,
-      "source": "예상(작년 자소설닷컴 기록)",
-      "url": "https://jasoseol.com/recruit/100863",
-      "hist": "작년 10/31~11/09 ‘2026 Technical Center Korea  기술연구소 동계인턴’ 기준 예상"
+      "id": "jasoseol-106898",
+      "company": "한국알콜그룹",
+      "title": "2026년 10월 채용",
+      "type": "중견기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리",
+        "HR/인사"
+      ],
+      "start": "2026-10-26",
+      "end": "2026-11-09",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://enf-recruit.career.greetinghr.com/ko/home",
+      "hist": "",
+      "found": "2026-10-31"
+    },
+    {
+      "id": "jasoseol-106972",
+      "company": "제이시스메디칼",
+      "title": "2027 공개채용",
+      "type": "",
+      "roles": [
+        "영업",
+        "영업관리",
+        "마케팅",
+        "콘텐츠",
+        "홍보/PR"
+      ],
+      "start": "2026-10-31",
+      "end": "2026-11-22",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.jeisys.com/job_posting/g7d8f0hh",
+      "hist": "",
+      "found": "2026-10-31"
     },
     {
       "id": "pred-대방건설-202611",
@@ -7480,6 +7313,22 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/101065",
       "hist": "작년 11/12~11/26 ‘2026년 상반기 일반직 신입직원 채용공고’ 기준 예상"
+    },
+    {
+      "id": "pred-한국관광공사-202611",
+      "company": "한국관광공사",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "마케팅"
+      ],
+      "start": "2026-11-12",
+      "end": "2026-11-23",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/101051",
+      "hist": "작년 11/13~11/24 ‘2026년 제1차 체험형 청년인턴(일반, 장애인) 및 기간제 근로자 채용’ 기준 예상"
     },
     {
       "id": "pred-과학기술인공제회-202611",
@@ -11277,7 +11126,8 @@
       "company": "현대모비스",
       "type": "대기업",
       "roles": [
-        "기획/전략"
+        "기획/전략",
+        "PM/서비스기획"
       ],
       "start": "2027-03-24",
       "end": "2027-04-05",
@@ -11332,6 +11182,21 @@
       "hist": "작년 03/27~04/07 ‘2026년 상반기 정기채용’ 기준 예상"
     },
     {
+      "id": "pred-한국무역보험공사-202703",
+      "company": "한국무역보험공사(K-SURE)",
+      "type": "공기업",
+      "roles": [
+        "영업",
+        "금융/심사"
+      ],
+      "start": "2027-03-29",
+      "end": "2027-04-06",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103262",
+      "hist": "작년 03/30~04/07 ‘2026년 상반기 일반직 신입사원 채용’ 기준 예상"
+    },
+    {
       "id": "pred-경신-202703",
       "company": "경신",
       "type": "대기업",
@@ -11347,6 +11212,37 @@
       "hist": "작년 03/30~04/12 ‘2026년 상반기 신입/경력사원 채용’ 기준 예상"
     },
     {
+      "id": "pred-동국제강-202703",
+      "company": "동국제강",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "HR/인사"
+      ],
+      "start": "2027-03-29",
+      "end": "2027-04-11",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103299",
+      "hist": "작년 03/30~04/12 ‘2026년 신입&경력 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-nh농협손해보험-202703",
+      "company": "NH농협손해보험",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2027-03-29",
+      "end": "2027-04-07",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103317",
+      "hist": "작년 03/30~04/08 ‘2026년 상반기 신규직원 채용’ 기준 예상"
+    },
+    {
       "id": "pred-동부건설-202703",
       "company": "동부건설",
       "type": "대기업",
@@ -11359,6 +11255,70 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/103329",
       "hist": "작년 03/30~04/12 ‘2026년 대졸 신입사원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국언론진흥재단-202703",
+      "company": "한국언론진흥재단(KPF)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사"
+      ],
+      "start": "2027-03-29",
+      "end": "2027-04-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103351",
+      "hist": "작년 03/30~04/13 ‘2026년 1차 체험형 청년인턴 모집 공고(일반행정)’ 기준 예상"
+    },
+    {
+      "id": "pred-kac공항서비스-202703",
+      "company": "KAC공항서비스",
+      "type": "공기업",
+      "roles": [
+        "고객/CS"
+      ],
+      "start": "2027-03-29",
+      "end": "2027-04-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103353",
+      "hist": "작년 03/30~04/13 ‘2026년 상반기 공개채용(채용형 인턴) 공고’ 기준 예상"
+    },
+    {
+      "id": "pred-sk하이스텍-202703",
+      "company": "SK하이스텍",
+      "type": "대기업",
+      "roles": [
+        "HR/인사",
+        "고객/CS",
+        "기획/전략"
+      ],
+      "start": "2027-03-29",
+      "end": "2027-04-07",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103359",
+      "hist": "작년 03/30~04/08 ‘각 부문 신입/경력사원 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-유한킴벌리-202703",
+      "company": "유한킴벌리",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리",
+        "브랜드",
+        "마케팅",
+        "홍보/PR"
+      ],
+      "start": "2027-03-29",
+      "end": "2027-05-05",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103382",
+      "hist": "작년 03/30~05/06 ‘2026년 신입 및 경력사원 채용’ 기준 예상"
     }
   ]
 }

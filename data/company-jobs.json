@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "errors": {},
  "jobs": [
   {
@@ -5539,34 +5539,6 @@
   },
   {
    "company": "컬리",
-   "title": "카페 F&B 상품기획/운영 담당자",
-   "url": "https://kurly.career.greetinghr.com/ko/o/238299",
-   "posted": "2026-09-22",
-   "years": 5,
-   "w": {
-    "요구사항 정의": 1,
-    "사업기획·전략": 1,
-    "사업개발·제휴": 1,
-    "신사업·0to1": 3,
-    "이해관계자 조율": 3,
-    "데이터 분석": 1,
-    "지표·KPI": 1,
-    "사용자 리서치": 2,
-    "브랜드": 3,
-    "콘텐츠 기획·제작": 2,
-    "CX·고객경험": 1,
-    "품질·검수": 3,
-    "물류·SCM": 2,
-    "MD·상품기획": 3,
-    "F&B·식품": 3,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 1
-   },
-   "short": false,
-   "found": "2026-10-03"
-  },
-  {
-   "company": "컬리",
    "title": "커머스 Product Manager (패션·뷰티)",
    "url": "https://kurly.career.greetinghr.com/ko/o/242155",
    "posted": "2026-10-27",
@@ -9691,31 +9663,6 @@
    },
    "short": false,
    "found": "2026-10-01"
-  },
-  {
-   "company": "아우토크립트",
-   "title": "US Business Development Manager [경력]",
-   "url": "https://autocrypt.career.greetinghr.com/ko/o/233526",
-   "posted": "2026-08-19",
-   "years": 10,
-   "w": {
-    "요구사항 정의": 2,
-    "사업개발·제휴": 3,
-    "프로젝트 관리": 1,
-    "이해관계자 조율": 2,
-    "사용자 리서치": 2,
-    "정산·계약": 1,
-    "영업·세일즈": 3,
-    "B2B": 1,
-    "AI·LLM": 1,
-    "노코드·개발 이해": 1,
-    "여행·모빌리티": 3,
-    "글로벌·해외": 1,
-    "영어": 1,
-    "주도성": 1
-   },
-   "short": false,
-   "found": "2026-10-03"
   },
   {
    "company": "아우토크립트",
@@ -15616,25 +15563,22 @@
   },
   {
    "company": "넷플릭스",
-   "title": "Senior Ads Sales Partner - Export",
-   "url": "https://explore.jobs.netflix.net/careers/job/790318350853",
-   "years": 15,
+   "title": "HR Business Partner - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318403387",
+   "years": 10,
    "w": {
     "문제 정의": 1,
-    "사업개발·제휴": 3,
-    "이해관계자 조율": 3,
-    "지표·KPI": 1,
+    "사업기획·전략": 2,
+    "사업개발·제휴": 1,
+    "이해관계자 조율": 1,
     "SQL·툴": 1,
-    "마케팅 기획": 1,
+    "사용자 리서치": 2,
+    "인사이트 도출": 1,
     "퍼포먼스 마케팅": 1,
     "그로스·CRM": 2,
-    "브랜드": 1,
-    "콘텐츠 기획·제작": 1,
-    "CX·고객경험": 2,
-    "영업·세일즈": 3,
     "글로벌·해외": 3,
-    "영어": 2,
-    "리더십·팀 리딩": 2
+    "영어": 1,
+    "리더십·팀 리딩": 1
    },
    "short": false,
    "found": "2026-10-19"
@@ -15666,54 +15610,6 @@
   },
   {
    "company": "넷플릭스",
-   "title": "Senior Manager, Marketing Partnerships - Korea",
-   "url": "https://explore.jobs.netflix.net/careers/job/790317761805",
-   "years": 15,
-   "w": {
-    "사업기획·전략": 2,
-    "사업개발·제휴": 3,
-    "이해관계자 조율": 3,
-    "지표·KPI": 2,
-    "SQL·툴": 1,
-    "마케팅 기획": 3,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 1,
-    "브랜드": 2,
-    "이커머스": 1,
-    "영업·세일즈": 1,
-    "B2C": 3,
-    "여행·모빌리티": 1,
-    "글로벌·해외": 1,
-    "영어": 1,
-    "주도성": 1
-   },
-   "short": false,
-   "found": "2026-10-18"
-  },
-  {
-   "company": "넷플릭스",
-   "title": "HR Business Partner - Korea",
-   "url": "https://explore.jobs.netflix.net/careers/job/790318403387",
-   "years": 10,
-   "w": {
-    "문제 정의": 1,
-    "사업기획·전략": 2,
-    "사업개발·제휴": 1,
-    "이해관계자 조율": 1,
-    "SQL·툴": 1,
-    "사용자 리서치": 2,
-    "인사이트 도출": 1,
-    "퍼포먼스 마케팅": 1,
-    "그로스·CRM": 2,
-    "글로벌·해외": 3,
-    "영어": 1,
-    "리더십·팀 리딩": 1
-   },
-   "short": false,
-   "found": "2026-10-19"
-  },
-  {
-   "company": "넷플릭스",
    "title": "Senior Account Manager",
    "url": "https://explore.jobs.netflix.net/careers/job/790318738586",
    "years": 8,
@@ -15736,6 +15632,31 @@
     "영업·세일즈": 3,
     "B2B": 1,
     "영어": 1
+   },
+   "short": false,
+   "found": "2026-10-19"
+  },
+  {
+   "company": "넷플릭스",
+   "title": "Senior Ads Sales Partner - Export",
+   "url": "https://explore.jobs.netflix.net/careers/job/790318350853",
+   "years": 15,
+   "w": {
+    "문제 정의": 1,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "지표·KPI": 1,
+    "SQL·툴": 1,
+    "마케팅 기획": 1,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 2,
+    "브랜드": 1,
+    "콘텐츠 기획·제작": 1,
+    "CX·고객경험": 2,
+    "영업·세일즈": 3,
+    "글로벌·해외": 3,
+    "영어": 2,
+    "리더십·팀 리딩": 2
    },
    "short": false,
    "found": "2026-10-19"
@@ -15805,6 +15726,32 @@
    },
    "short": false,
    "found": "2026-10-21"
+  },
+  {
+   "company": "넷플릭스",
+   "title": "Senior Manager, Marketing Partnerships - Korea",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317761805",
+   "years": 15,
+   "w": {
+    "사업기획·전략": 2,
+    "사업개발·제휴": 3,
+    "이해관계자 조율": 3,
+    "지표·KPI": 2,
+    "SQL·툴": 1,
+    "마케팅 기획": 3,
+    "퍼포먼스 마케팅": 1,
+    "그로스·CRM": 1,
+    "브랜드": 2,
+    "이커머스": 1,
+    "영업·세일즈": 1,
+    "B2C": 3,
+    "여행·모빌리티": 1,
+    "글로벌·해외": 1,
+    "영어": 1,
+    "주도성": 1
+   },
+   "short": false,
+   "found": "2026-10-18"
   },
   {
    "company": "쏘카",
