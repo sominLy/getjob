@@ -108471,6 +108471,23 @@
         }
       ],
       "applicants": 2
+    },
+    "jasoseol-106385": {
+      "at": "2026-10-31",
+      "tracks": [
+        {
+          "name": "Graphic Designer 인턴",
+          "questions": [
+            {
+              "q": "자기소개서 문항이 존재하지 않습니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 3
+        }
+      ],
+      "applicants": 3
     }
   }
 }
