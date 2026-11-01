@@ -16948,7 +16948,151 @@
    "archiveTotal": 583,
    "preds": 329,
    "compTotal": 582
+  },
+  {
+   "date": "2026-11-02",
+   "added": [
+    {
+     "id": "jasoseol-106951",
+     "company": "패스트파이브",
+     "title": "2026 하반기 공개채용 신입/경력",
+     "roles": [
+      "영업",
+      "영업관리",
+      "고객/CS"
+     ],
+     "end": "2026-11-15",
+     "url": "https://fastfive.career.greetinghr.com/ko/process"
+    },
+    {
+     "id": "jasoseol-106987",
+     "company": "한미그룹",
+     "title": "2026년 11월 수시채용",
+     "roles": [
+      "HR/인사",
+      "PM/서비스기획",
+      "콘텐츠",
+      "마케팅"
+     ],
+     "end": "2026-11-15",
+     "url": "https://hanmi.recruiter.co.kr/career/home"
+    }
+   ],
+   "archived": [
+    {
+     "id": "wanted-384558",
+     "company": "유디임팩트",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "wanted-384515",
+     "company": "마드라스체크(플로우)",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-105988",
+     "company": "에이피알",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106087",
+     "company": "NHN",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "linkareer-352295",
+     "company": "어센트AI",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "wanted-388080",
+     "company": "더스윙",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106544",
+     "company": "NHN Cloud",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106560",
+     "company": "토스페이먼츠",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "linkareer-354841",
+     "company": "SM C&C",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106619",
+     "company": "리마크",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "linkareer-356174",
+     "company": "토스플레이스",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106720",
+     "company": "NHN Cloud",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106721",
+     "company": "토스플레이스",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106724",
+     "company": "토스플레이스",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106730",
+     "company": "토스플레이스",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106731",
+     "company": "토스플레이스",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106732",
+     "company": "토스플레이스",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106828",
+     "company": "아주산업",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106846",
+     "company": "피에스케이",
+     "end": "2026-10-31"
+    },
+    {
+     "id": "jasoseol-106881",
+     "company": "토스플레이스",
+     "end": "2026-10-31"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "당근",
+     "title": "Communication Manager (인턴) - 경영지원 (커뮤니케이션)",
+     "url": "https://about.daangn.com?gh_jid=5838884003"
+    }
+   ],
+   "total": 343,
+   "archiveTotal": 581,
+   "preds": 331,
+   "compTotal": 577
   }
  ],
- "updated": "2026-11-01"
+ "updated": "2026-11-02"
 }
