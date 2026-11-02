@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-02T10:23:44.544410+00:00",
+ "collectedAt": "2026-11-02T22:23:51.168993+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -488,7 +488,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-10-30",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -978,7 +978,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-02",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -992,7 +992,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-02",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -1006,7 +1006,7 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2026-11-02",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -1048,7 +1048,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-02",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -1062,7 +1062,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-02",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -1076,7 +1076,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-02",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -1090,7 +1090,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-02",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -1104,7 +1104,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-02",
-   "new": true,
+   "new": false,
    "found": "2026-11-02"
   },
   {
@@ -2692,20 +2692,6 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Senior Technical Solutions Consultant, Auto Partner Engineering (Korean, English, Chinese)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/141741411513836230",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-23",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
    "title": "Strategy and Operations Lead, Greater China and Korea GTM (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2727,7 +2713,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/128813564247843526",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-02",
    "openDate": ""
   },

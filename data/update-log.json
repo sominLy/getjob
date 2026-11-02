@@ -17363,7 +17363,249 @@
    "archiveTotal": 603,
    "preds": 339,
    "compTotal": 578
+  },
+  {
+   "date": "2026-11-03",
+   "added": [
+    {
+     "id": "linkareer-361533",
+     "company": "삼보모터스",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2027-01-31",
+     "url": "https://linkareer.com/activity/361533"
+    },
+    {
+     "id": "linkareer-361530",
+     "company": "엘앤에프",
+     "title": "",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-15",
+     "url": "https://linkareer.com/activity/361530"
+    },
+    {
+     "id": "linkareer-361526",
+     "company": "한국알프스",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-08",
+     "url": "https://linkareer.com/activity/361526"
+    },
+    {
+     "id": "jasoseol-106916",
+     "company": "더블유컨셉코리아",
+     "title": "2027년 신입사원 공개채용",
+     "roles": [
+      "MD",
+      "마케팅"
+     ],
+     "end": "2026-11-15",
+     "url": "https://career.wconcept.co.kr/ko/o/242288"
+    },
+    {
+     "id": "jasoseol-106979",
+     "company": "농협양곡",
+     "title": "2026년 일반직 6급 신규채용",
+     "roles": [
+      "HR/인사",
+      "마케팅",
+      "홍보/PR",
+      "콘텐츠"
+     ],
+     "end": "2026-11-09",
+     "url": "https://riceall.incruit.com/hire/hirelist.asp"
+    },
+    {
+     "id": "jasoseol-106985",
+     "company": "한국토요타자동차",
+     "title": "2026년 하반기 채용연계형 인턴 모집",
+     "roles": [
+      "기획/전략",
+      "마케팅",
+      "영업관리",
+      "MD"
+     ],
+     "end": "2026-11-11",
+     "url": "https://toyotamotorkorea.applyin.co.kr/"
+    },
+    {
+     "id": "jasoseol-106993",
+     "company": "에코마케팅",
+     "title": "마케팅 어시스턴트 계약직 채용",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-12-28",
+     "url": "https://career.echomarketing.co.kr/ko/home"
+    },
+    {
+     "id": "jasoseol-106995",
+     "company": "녹십자웰빙",
+     "title": "병의원영업(MR)_창원(신입)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-11",
+     "url": "https://careers.gcbiopharma.com/job/%EB%85%B9%EC%8B%AD%EC%9E%90%EC%9B%B0%EB%B9%99-%EB%B3%91%EC%9D%98%EC%9B%90%EC%98%81%EC%97%85%28MR%29_%EC%B0%BD%EC%9B%90%28%EC%8B%A0%EC%9E%85%29/4599650/"
+    },
+    {
+     "id": "jasoseol-106999",
+     "company": "보령",
+     "title": "2027년 상반기 영업(MR) 신입사원 공개채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-22",
+     "url": "https://recruit.boryung.co.kr/job_posting/OIWeHU6A"
+    },
+    {
+     "id": "jasoseol-107001",
+     "company": "한국기초과학지원연구원",
+     "title": "2026년도 11월 과학기술분야 정부출연연구기관 공동채용",
+     "roles": [],
+     "end": "2026-11-17",
+     "url": "https://kbsi.fairy.im/announcement"
+    },
+    {
+     "id": "jasoseol-107002",
+     "company": "엔키에이엑스",
+     "title": "2027 엔키업 채용연계형 인턴십",
+     "roles": [
+      "마케팅",
+      "PM/서비스기획",
+      "콘텐츠"
+     ],
+     "end": "2026-11-15",
+     "url": "https://ankeyax.careerlink.kr/jobs/RC20261030038425"
+    },
+    {
+     "id": "jasoseol-107003",
+     "company": "일화",
+     "title": "2026년 신입 및 경력 채용(9)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-10",
+     "url": "https://ilhwa.recruiter.co.kr/career/jobs/132992"
+    },
+    {
+     "id": "jasoseol-107004",
+     "company": "동국제약",
+     "title": "헬스앤뷰티 신입/경력 채용(마케팅, 영업, SCM, 상품기획, MD 등) ~ 11/11",
+     "roles": [
+      "영업",
+      "콘텐츠",
+      "마케팅",
+      "영업관리"
+     ],
+     "end": "2026-11-11",
+     "url": "https://dkpharm.recruiter.co.kr/career/jobs/132981"
+    },
+    {
+     "id": "jasoseol-107006",
+     "company": "토스증권",
+     "title": "Communications Specialist 채용",
+     "roles": [
+      "홍보/PR"
+     ],
+     "end": "2026-11-21",
+     "url": "https://toss.im/career/job-detail?job_id=8044053003&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2610_comms_specialist"
+    },
+    {
+     "id": "jasoseol-107007",
+     "company": "하나증권",
+     "title": "제1회 청년 금융 아이디어 공모전",
+     "roles": [
+      "기획/전략",
+      "마케팅",
+      "리서치"
+     ],
+     "end": "2026-11-30",
+     "url": "https://www.hanaw.com/contest/contest.html"
+    },
+    {
+     "id": "jasoseol-107008",
+     "company": "경신",
+     "title": "2026년 상주원 신입/경력 채용",
+     "roles": [],
+     "end": "2026-11-08",
+     "url": "https://KyungshinHR.recruiter.co.kr/career/jobs/132659"
+    },
+    {
+     "id": "jasoseol-107010",
+     "company": "이노션",
+     "title": "Global AE (육아휴직 대체)",
+     "roles": [
+      "홍보/PR",
+      "마케팅"
+     ],
+     "end": "2026-11-15",
+     "url": "https://innocean.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=154597"
+    },
+    {
+     "id": "jasoseol-107011",
+     "company": "울산알루미늄",
+     "title": "Payroll(HR) 계약직 채용",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-11-15",
+     "url": "https://ulsanaluminum.com/home/recruit/recruit03_01.jsp?ulaRcMode=view&rcId=ULARC000000000000202&retUrl=&pageIndex=1&searchCondition=&searchKeyword="
+    },
+    {
+     "id": "jasoseol-107014",
+     "company": "경신",
+     "title": "2026년 4분기 신입/경력 채용",
+     "roles": [],
+     "end": "2026-11-15",
+     "url": "https://KyungshinHR.recruiter.co.kr/career/jobs/133033"
+    },
+    {
+     "id": "jasoseol-107015",
+     "company": "동국제약",
+     "title": "신입/경력 채용(Global/관리/마케팅/영업/디자인/개발 등 모집) ~ 11/11",
+     "roles": [
+      "영업",
+      "영업관리",
+      "HR/인사",
+      "마케팅"
+     ],
+     "end": "2026-11-11",
+     "url": "https://dkpharm.recruiter.co.kr/career/jobs/133019"
+    },
+    {
+     "id": "jasoseol-107016",
+     "company": "동국제약",
+     "title": "신입/경력 채용(생산본부, 연구소) ~ 11/11",
+     "roles": [],
+     "end": "2026-11-11",
+     "url": "https://dkpharm.recruiter.co.kr/career/jobs/133053"
+    },
+    {
+     "id": "jasoseol-107017",
+     "company": "AXA손해보험",
+     "title": "마케팅팀 전담직 사원 채용",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-11-11",
+     "url": "https://axa.career.greetinghr.com/o/242677"
+    }
+   ],
+   "archived": [],
+   "removed": [],
+   "compNew": [],
+   "total": 354,
+   "archiveTotal": 605,
+   "preds": 335,
+   "compTotal": 577
   }
  ],
- "updated": "2026-11-02"
+ "updated": "2026-11-03"
 }

@@ -4544,6 +4544,27 @@
       "found": "2026-10-05"
     },
     {
+      "id": "jasoseol-106510",
+      "company": "NH농협은행",
+      "title": "2026년 6급 신규직원 채용",
+      "type": "금융",
+      "roles": [
+        "영업",
+        "영업관리",
+        "고객/CS",
+        "금융/심사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-02",
+      "end": "2026-10-12",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://nhbank.incruit.com/",
+      "hist": "",
+      "found": "2026-11-02"
+    },
+    {
       "id": "jasoseol-105618",
       "company": "NHN",
       "type": "대기업",
@@ -10251,6 +10272,21 @@
       "url": "https://axa.career.greetinghr.com/ko/o/235320",
       "hist": "",
       "found": "2026-10-30"
+    },
+    {
+      "id": "jasoseol-106032",
+      "company": "시스멕스코리아",
+      "title": "2026년 신입사원 채용 (Field Service Engineer)",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-02",
+      "end": "2026-09-20",
+      "endTime": "22:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://sysmex.co.kr/recruit/check/list/?mode=view&recruit_id=105",
+      "hist": "",
+      "found": "2026-11-02"
     },
     {
       "id": "jasoseol-105205",

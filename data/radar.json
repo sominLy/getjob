@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-02T10:25:38.020Z",
+  "collectedAt": "2026-11-02T22:25:45.920Z",
   "errors": {},
   "jobs": [
     {
@@ -600,25 +600,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Google Trade Compliance Program Manager",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/72641756352389830-google-trade-compliance-program-manager",
-      "years": 5,
-      "noLimit": false,
-      "evidence": "5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.",
-      "roles": [
-        "전략·재무"
-      ],
-      "reqs": [],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-10-10",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience identifying issues in processes and creating solutions, and working with cross-functional teams to manage these changes.\nExperience with South Korea regulations and country-specific import and export trade requirements.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Publisher Solutions Engineer, gTech (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -938,6 +919,27 @@
       "fit": false,
       "firstSeen": "2026-10-14",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in advertising sales, marketing, consulting or media.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Outcome Customer Engineer, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/88960528348521158-outcome-customer-engineer-google-cloud-korean-english",
+      "years": 6,
+      "noLimit": false,
+      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-02",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience in deployment planning, orchestration, or change management.\nExperience in programming languages, debugging, or systems design.\nExperience engaging with, presenting to, or influencing technical stakeholders or executive leaders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
