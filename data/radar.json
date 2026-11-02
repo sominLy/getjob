@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-01T18:31:15.513Z",
+  "collectedAt": "2026-11-02T10:25:38.020Z",
   "errors": {},
   "jobs": [
     {
@@ -499,27 +499,29 @@
     {
       "source": "toss",
       "company": "토스",
-      "title": "마케팅 매니저 · Growth · Creative",
+      "title": "마케팅 매니저 · Creative · Growth",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=6258609003&sub_position_id=6258609003&company=%ED%86%A0%EC%8A%A4",
-      "years": 7,
+      "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=7786447003&company=%ED%86%A0%EC%8A%A4",
+      "years": null,
       "noLimit": false,
-      "evidence": "모바일 제품 조직에서 최소 7년 이상의 마케팅 경험이 필요해요.",
+      "evidence": "커머스 마케팅에 대한 이해를 바탕으로 Paid 소재를 직접 제작하고 운영한 경험이 필요해요.",
       "roles": [
         "마케팅·브랜드"
       ],
-      "reqs": [],
-      "bucket": "senior",
+      "reqs": [
+        "SQL·데이터"
+      ],
+      "bucket": "unstated",
       "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n모바일 제품 조직에서 최소 7년 이상의 마케팅 경험이 필요해요.\nPaid 채널에서 임팩트 있는 Growth를 주도적으로 만들어 낸 경험이 필요해요.\n새로운 기회를 찾아내기 위해, 가설 검증을 통해 끊임없이 숫자를 만들어낸 경험이 필요해요.\n프로젝트 또는 제품 단위의 마케팅 전략을 직접 설계하고 리드한 경험이 필요해요.\n데이터 프로세싱에 대한 이해를 바탕으로 유저레벨의 로데이터를 직접 다뤄본 경험이 필요해요.\n\n토스로의 "
+      "firstSeen": "2026-11-02",
+      "jd": "이런 분과 함께하고 싶어요\n\n커머스 마케팅에 대한 이해를 바탕으로 Paid 소재를 직접 제작하고 운영한 경험이 필요해요.\n독립적으로 영상, 이미지를 기획하고 제작하는 것에 어려움이 없는 분이 필요해요.\n새로운 기회를 찾아내기 위한 가설 검증과 지속 가능한 숫자를 만들어낸 경험이 필요해요.\n직감이 아닌 데이터로 설득할 수 있는 논리적인 커뮤니케이션 역량이 필요해요.\n광고 소재의 유려함보다 끊임없는 시도를 통해 지표의 변화를 만들 수 있는 분이 필요해요.\n\n"
     },
     {
       "source": "toss",
       "company": "토스인슈어런스",
       "title": "마케팅 매니저 · Marketing Manager",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=6258609003&sub_position_id=7995571003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%8A%88%EC%96%B4%EB%9F%B0%EC%8A%A4",
+      "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=7995571003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%8A%88%EC%96%B4%EB%9F%B0%EC%8A%A4",
       "years": 5,
       "noLimit": false,
       "evidence": "마케팅 경력 5년 이상으로, 페이드 캠페인 운영과 콘텐츠 기획·발행을 모두 직접 리드해 본 분",
@@ -533,7 +535,7 @@
       ],
       "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-09-29",
+      "firstSeen": "2026-11-02",
       "jd": "이런 분과 함께하고 싶어요\n\n마케팅 경력 5년 이상으로, 페이드 캠페인 운영과 콘텐츠 기획·발행을 모두 직접 리드해 본 분\n페이드 마케팅 캠페인을 직접 기획·운영하며 CAC, CPL, CVR 같은 지표로 성과를 증명해 본 분\n콘텐츠와 브랜드가 퍼포먼스 지표에 어떻게 기여하는지 이해하고, 두 영역을 하나의 퍼널로 설계할 수 있는 분\n데이터를 근거로 가설을 세우고 검증하며, 채널·메시지·예산을 유연하게 조정할 수 있는 분\n보험처럼 정보가 복잡한 도메인을 고객이 이해하기 쉬운 언어로 풀어낼 수 있는 분\n\n이런 경험이 있다면 더 좋아요\n\n보험, 금융 등 광고심의가 필요한 규제 산업에서 리드 제너레이션을 운영해 본 경험\nGEO/AEO, SEO 등 AI 검색 환경에 맞춘 콘텐츠 최적화 경험\n랜딩페이지, 상담신청 폼 등 리드 제너레이션 퍼널을 직접 설계·개선해 본 경험\n제품·세일즈 조직과 협업해 콘텐츠나 캠페인 성과를 실제 매출로 연결해 본 경험\n0에서 1로 마케팅 기능을 세워 본 경험\n\n토스인슈어런스로의 "
     },
     {
@@ -541,7 +543,7 @@
       "company": "토스인컴",
       "title": "마케팅 매니저 · Growth",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=6258609003&sub_position_id=6651340003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%BB%B4",
+      "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=6651340003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%BB%B4",
       "years": null,
       "noLimit": false,
       "evidence": "모바일, 웹 제품에 대한 높은 이해도를 바탕으로 Growth를 만들어낸 경험이 있으신 분이면 좋아요.",
@@ -553,22 +555,24 @@
       ],
       "bucket": "unstated",
       "fit": true,
-      "firstSeen": "2026-09-17",
+      "firstSeen": "2026-11-02",
       "jd": "이런 분과 함께하고 싶어요\n\n모바일, 웹 제품에 대한 높은 이해도를 바탕으로 Growth를 만들어낸 경험이 있으신 분이면 좋아요.\n유저 세그먼트를 직접 정의해 푸시 메시지 발송, 인앱 지면 활용 등 CRM 마케팅 경험이 있으신 분이면 좋아요.\n제품, 비즈니스, 데이터에 대한 이해를 바탕으로 논리적인 커뮤니케이션이 가능한 분과 함께하고 싶어요.\nSQL을 활용해 유저 레벨의 데이터를 자유롭게 다룰 수 있는 분이면 좋아요.\n마케팅 전략을 기획하고, 성과를 데이터로 측정해 본 경험이 있으면 좋아요.\n\n"
     },
     {
       "source": "toss",
       "company": "토스",
-      "title": "브랜드 매니저 · Event",
+      "title": "브랜드 매니저 · Event · Marketing",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=7847411003&sub_position_id=7847411003&company=%ED%86%A0%EC%8A%A4",
       "years": null,
       "noLimit": false,
       "evidence": "복잡한 프로젝트의 프로세스를 관리하면서도, 퀄리티를 끌어올리기 위해 헌신하는 분",
-      "roles": [],
+      "roles": [
+        "마케팅·브랜드"
+      ],
       "reqs": [],
       "bucket": "unstated",
-      "fit": false,
+      "fit": true,
       "firstSeen": "2026-10-28",
       "jd": "이런 분과 함께하고 싶어요\n\n복잡한 프로젝트의 프로세스를 관리하면서도, 퀄리티를 끌어올리기 위해 헌신하는 분\n대형 종합대행사, 인하우스 등 브랜드 조직에서 콘퍼런스를 포함한 대규모 오프라인 행사의 A to Z를 리드해 본 분\n복잡한 프로젝트를 구조화하고 실행 계획으로 구체화할 수 있는 분\n다양한 이해관계자(내부 협업팀, 외부 파트너사)와 원활하게 협업할 수 있는 분\n빠른 상황 판단과 문제 해결을 통해 현장을 안정적으로 운영할 수 있는 분\n\n이런 경험이 있다면 더 좋아요\n\n오프라인 행사 뿐 아니라 마케팅, 콘텐츠, 캠페인 등 다양한 브랜드 프로젝트 경험\n이벤트 오퍼레이션 뿐 아니라 프레젠테이션, 영상 등의 콘텐츠를 매니징한 경험\n전체 행사의 메시지 구조를 짜거나, 세션 스크립트를 작성한 경험\n영상 송출 및 중계 운영에 대한 기본적인 이해\n\n"
     },
@@ -722,6 +726,27 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Practice Customer Engineer, Migrations, Infrastructure and App",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/77872640777167558-practice-customer-engineer-migrations-infrastructure-and-app",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-02",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with enterprise architectures and migration strategies for technologies such as Oracle, VMware, or SAP.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience in building product demonstrations and prototypes as part of a technical workshop or executive briefing.\nExperience engaging with, and presenting to, technical stakeholders and executive leaders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -871,6 +896,27 @@
       "fit": false,
       "firstSeen": "2026-10-28",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\nAbility to travel up to 20% of the time as required.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Head of YouTube Music Partnerships (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/128813564247843526-head-of-youtube-music-partnerships-english-korean",
+      "years": 15,
+      "noLimit": false,
+      "evidence": "15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-02",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.\nExperience in a leadership role, managing teams and working with executives in the music industry.\nExperience with commercial agreements, digital music licensing agreements, agreements and support of multi-territorial licensing entities.\nAbility to communicate fluently in English and Korean to engage with clients in the region.\n"
     },
     {
       "source": "google",
