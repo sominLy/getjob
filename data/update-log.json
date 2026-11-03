@@ -17605,7 +17605,315 @@
    "archiveTotal": 605,
    "preds": 335,
    "compTotal": 577
+  },
+  {
+   "date": "2026-11-04",
+   "added": [
+    {
+     "id": "linkareer-361841",
+     "company": "신영증권",
+     "title": "",
+     "roles": [
+      "기획/전략",
+      "영업",
+      "금융/심사"
+     ],
+     "end": "2026-11-16",
+     "url": "https://linkareer.com/activity/361841"
+    },
+    {
+     "id": "linkareer-361839",
+     "company": "고영테크놀러지",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-18",
+     "url": "https://linkareer.com/activity/361839"
+    },
+    {
+     "id": "jasoseol-107019",
+     "company": "한국도심공항자산관리",
+     "title": "채용연계형 인턴 채용 공고",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-13",
+     "url": "https://calt.incruit.com/main/main.asp"
+    },
+    {
+     "id": "jasoseol-107020",
+     "company": "에이피알",
+     "title": "마케팅 직군 대규모 특별 채용 (신입/경력)",
+     "roles": [
+      "홍보/PR",
+      "콘텐츠",
+      "마케팅"
+     ],
+     "end": "2026-11-22",
+     "url": "https://26mkt-aprcareers.com"
+    },
+    {
+     "id": "jasoseol-107022",
+     "company": "NHN",
+     "title": "사내 피트니스 센터 근무자(계약직)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-12-31",
+     "url": "https://careers.nhn.com/recruits/4454564195819947883?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Corporate"
+    },
+    {
+     "id": "jasoseol-107024",
+     "company": "마이다스그룹",
+     "title": "급여(Payroll) 담당자 채용",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-11-04",
+     "url": "https://midas.recruiter.co.kr/career/jobs/133134"
+    },
+    {
+     "id": "jasoseol-107025",
+     "company": "브이엠",
+     "title": "국내 유일 반도체 건식 식각 장비사, 개발/설계/CS제조 엔지니어 및 영업 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://vmsemi.com/kor/Index"
+    },
+    {
+     "id": "jasoseol-107026",
+     "company": "신영증권",
+     "title": "2026년 하반기 신입사원 공개채용",
+     "roles": [
+      "영업",
+      "금융/심사",
+      "PM/서비스기획",
+      "리서치"
+     ],
+     "end": "2026-11-16",
+     "url": "https://shinrecruit.shinyoung.com/"
+    },
+    {
+     "id": "jasoseol-107031",
+     "company": "한국과학기술연구원(KIST)",
+     "title": "2026-6차 행정인턴 공개채용",
+     "roles": [
+      "홍보/PR",
+      "HR/인사",
+      "기획/전략",
+      "영업관리"
+     ],
+     "end": "2026-11-16",
+     "url": "https://kist.fairy.im/announcement"
+    },
+    {
+     "id": "jasoseol-107034",
+     "company": "린데코리아",
+     "title": "제조운영부문 Project Engineering Team Piping Engineer 정규직 채용",
+     "roles": [],
+     "end": "2026-11-15",
+     "url": "https://dware.intojob.co.kr/main/linde_n.jsp"
+    },
+    {
+     "id": "jasoseol-107049",
+     "company": "고영테크놀러지",
+     "title": "2026하반기 신입사원 채용",
+     "roles": [
+      "영업",
+      "마케팅",
+      "고객/CS",
+      "기획/전략"
+     ],
+     "end": "2026-11-18",
+     "url": "https://m.site.naver.com/2kbkU"
+    },
+    {
+     "id": "jasoseol-107051",
+     "company": "이카운트",
+     "title": "부산·경남권 영업담당자 채용",
+     "roles": [
+      "영업",
+      "영업관리",
+      "고객/CS"
+     ],
+     "end": "2026-11-22",
+     "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55470635&view_type=search"
+    },
+    {
+     "id": "jasoseol-107053",
+     "company": "안랩",
+     "title": "2026년 전직군 대규모 공개채용",
+     "roles": [
+      "영업",
+      "영업관리",
+      "기획/전략",
+      "고객/CS"
+     ],
+     "end": "2026-11-29",
+     "url": "https://ahnlab.recruiter.co.kr/career/Recruiting_2026?utm_source=jasoseol&utm_medium=banner&utm_campaign=2611ahnlab"
+    },
+    {
+     "id": "global-anthropic-5470905008",
+     "company": "Anthropic",
+     "title": "Enterprise Account Executive - FSI · Sales",
+     "roles": [],
+     "end": "",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5470905008"
+    },
+    {
+     "id": "global-anthropic-5470906008",
+     "company": "Anthropic",
+     "title": "Enterprise Account Executive - Healthcare & Life Science · S",
+     "roles": [],
+     "end": "",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5470906008"
+    },
+    {
+     "id": "global-google-124964929953243846",
+     "company": "Google",
+     "title": "Customer Engineer, Digital Native, Google Cloud (English, Ko",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/124964929953243846"
+    },
+    {
+     "id": "global-google-143849042160296646",
+     "company": "Google",
+     "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/143849042160296646"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106024",
+     "company": "NHN",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106025",
+     "company": "NHN",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106036",
+     "company": "NHN Cloud",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106038",
+     "company": "엑시나",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106040",
+     "company": "NHN",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106764",
+     "company": "에스엘",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106793",
+     "company": "한국재정정보원",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106797",
+     "company": "한국건강증진개발원",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106803",
+     "company": "카카오뱅크",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106804",
+     "company": "카카오뱅크",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106824",
+     "company": "켑코솔라",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "jasoseol-106883",
+     "company": "메디테라피",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "linkareer-360133",
+     "company": "신한라이프생명보험",
+     "end": "2026-11-02"
+    },
+    {
+     "id": "linkareer-361093",
+     "company": "종근당바이오",
+     "end": "2026-11-02"
+    }
+   ],
+   "removed": [
+    {
+     "id": "jasoseol-107007",
+     "company": "하나증권",
+     "title": "제1회 청년 금융 아이디어 공모전"
+    }
+   ],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Product Manager (Settlement)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/243059"
+    },
+    {
+     "company": "무신사",
+     "title": "Program Manager (커머스 정책 기획)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/242930"
+    },
+    {
+     "company": "하이컨시",
+     "title": "[하이컨시] IT 운영 및 기획지원 담당자",
+     "url": "https://hiconsy.career.greetinghr.com/ko/o/243020"
+    },
+    {
+     "company": "피에프씨테크놀로지스",
+     "title": "Account Operations Manager(기관고객 운영·계약 담당자)",
+     "url": "https://pfct.career.greetinghr.com/ko/o/243161"
+    },
+    {
+     "company": "하이브",
+     "title": "[ADOR] 레이블 사업PM",
+     "url": "https://careers.hybecorp.com/ko/o/242713"
+    },
+    {
+     "company": "하이브",
+     "title": "[BIGHIT MUSIC] 글로벌 아티스트 전략 (BTS 담당)",
+     "url": "https://careers.hybecorp.com/ko/o/227763"
+    },
+    {
+     "company": "하이브",
+     "title": "[PLEDIS Entertainment] 사진콘텐츠기획/제작*",
+     "url": "https://careers.hybecorp.com/ko/o/217617"
+    },
+    {
+     "company": "숨고",
+     "title": "HR Specialist (Payroll & HR Operations)(계약직)",
+     "url": "https://soomgo.career.greetinghr.com/ko/o/242907"
+    }
+   ],
+   "total": 356,
+   "archiveTotal": 608,
+   "preds": 341,
+   "compTotal": 578
   }
  ],
- "updated": "2026-11-03"
+ "updated": "2026-11-04"
 }

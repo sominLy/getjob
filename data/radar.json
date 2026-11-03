@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-02T22:25:45.920Z",
+  "collectedAt": "2026-11-03T18:32:29.306Z",
   "errors": {},
   "jobs": [
     {
@@ -355,7 +355,7 @@
     {
       "source": "toss",
       "company": "토스",
-      "title": "Project Staff · Product · Tech",
+      "title": "Project Staff (Product)",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=6537982003",
       "years": 5,
@@ -923,6 +923,27 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Customer Engineer, Digital Native, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/124964929953243846-customer-engineer-digital-native-google-cloud-english-korean",
+      "years": 6,
+      "noLimit": false,
+      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-03",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Outcome Customer Engineer, Google Cloud (Korean, English)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -1007,6 +1028,27 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Customer Engineer, Digital Native, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/97264933514683078-customer-engineer-digital-native-google-cloud-english-korean",
+      "years": 10,
+      "noLimit": false,
+      "evidence": "10 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-03",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Strategic Partnerships Manager, YouTube Product Partnerships (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -1024,6 +1066,28 @@
       "fit": true,
       "firstSeen": "2026-10-16",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n7 years of experience in business development, partnerships, sales or management consulting.\nExperience negotiating and managing the implementation and execution of term sheets and signed agreements with partners, and managing partner/internal stakeholders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/143849042160296646-customer-engineer-ai-google-cloud-english-korean",
+      "years": 4,
+      "noLimit": false,
+      "evidence": "4 years of experience with cloud native architecture in a customer-facing or support role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-11-03",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n4 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
     },
     {
       "source": "google",
@@ -1334,7 +1398,7 @@
       "company": "Anthropic",
       "title": "Enterprise Account Executive - FSI",
       "location": "Seoul, South Korea",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5341664008",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5470905008",
       "years": 8,
       "noLimit": false,
       "evidence": "8+ years of enterprise sales experience in Korea, with significant exposure to financial services",
@@ -1349,8 +1413,30 @@
       ],
       "bucket": "senior",
       "fit": false,
-      "firstSeen": "2026-09-17",
+      "firstSeen": "2026-11-03",
       "jd": "requirements, data residency, model risk, and financial-sector compliance\n Work with internal teams (Product, Engineering, Applied AI, Partnerships, Legal) to tailor solutions that meet financial-sector security and compliance standards\n Stay informed on trends shaping Korean FSI, including digital banking, AI in risk/underwriting, and regulatory shifts around AI use in finance\n Preferred qualifications\n 8+ years of enterprise sales experience in Korea, with significant exposure to financial services\n A genuine understanding of how Korean financial institutions make technology decisions, including the role of regulators, internal risk/compliance functions, and IT governance\n Direct experience navigating Financial Supervisory Service (FSS) requirements and review processes — this is required given how heavily FSS oversight shapes technology adoption in Korean FSI\n A track record of managing complex, multi-stakeholder sales cycles typical of FSI, including rigorous security and compliance review\n Proven experience exceeding revenue targets within financial services accounts\n Excellent communication skills in both Korean and English\n A passion for AI built and deployed safely\n What We Offer\n Competitive base salary and commission\n Equity participation\n Comprehensive benefits\n Hybrid work model\n Access to cutting-edge AI technology and world-class research team\n "
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Enterprise Account Executive - Healthcare & Life Science",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5470906008",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "8+ years of enterprise Healthcare &amp; Life Sciences sales experience in Korea, driving adoption of emerging technologies with a consultative, solutions-oriented sales approach",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-03",
+      "jd": "requirements, the Personal Information Protection Act (PIPA) and Medical Service Act as they apply to patient data, and GxP/validation expectations\n Inform product roadmaps and features by gathering customer feedback and conveying the needs of the Korean market. Provide insights that strengthen our value proposition and enhance the customer experience\n Continuously refine the sales methodology by incorporating learnings into playbooks, templates, and best practices. Identify process improvements that optimize sales productivity and consistency\n You may be a good fit if you have\n 8+ years of enterprise Healthcare &amp; Life Sciences sales experience in Korea, driving adoption of emerging technologies with a consultative, solutions-oriented sales approach\n A genuine understanding of how Korean hospitals and life sciences companies make technology decisions, including the role of regulators, quality and compliance functions, and IT governance\n A track record of managing complex sales cycles and securing strategic deals by understanding multifaceted technical requirements and crafting tailored solutions\n Demonstrated ability to navigate dynamic stakeholder ecosystems, building consensus and providing innovative solutions to disparate groups\n Extensive experience negotiating highly complex, customized commercial agreements with multiple stakeholders\n Proven experience exceeding revenue targets in fast-paced organizations by effectively managing an evolving pipeline and sales process\n Excellent communication skills in both Korean and English, and the ability to present confidently and build connections across all customer levels, from ICs to C-level executives\n A knack for bringing order to chaos and an enthusiastic “roll up your sleeves” mentality. You are a true team player\n A strategic, analytical approach to assessing markets combined with creative, tactical execution to capture opportunities\n A passion for and/or experience with advanced AI systems. You feel strongly about ensuring frontier AI systems are developed safely\n What We Offer\n Competitive base salary and commission\n Equity participation\n Comprehensive benefits\n Hybrid work model\n Access to cutting-edge AI technology and world-class research team\n "
     },
     {
       "source": "anthropic",

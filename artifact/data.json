@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-02T22:23:51.168993+00:00",
+ "collectedAt": "2026-11-03T18:30:27.733046+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -229,7 +229,7 @@
    "회사": "CJ올리브영",
    "플랫폼": "greetinghr",
    "title": "올리브영 매장 채용/운영 지원 (계약직)",
-   "career": "경력무관",
+   "career": "경력 1년~",
    "emp": "계약직",
    "due": "상시",
    "link": "https://career.oliveyoung.com/ko/o/240970",
@@ -243,7 +243,7 @@
    "회사": "CJ올리브영",
    "플랫폼": "greetinghr",
    "title": "MD 재고 운영지원 담당자 (계약직)",
-   "career": "경력무관",
+   "career": "경력 1년~",
    "emp": "계약직",
    "due": "상시",
    "link": "https://career.oliveyoung.com/ko/o/240790",
@@ -536,6 +536,20 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
+   "title": "[신사업] 중화권 마케터 (계약직)",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/243101",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-11-03",
+   "new": true,
+   "found": "2026-11-03"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
    "title": "[강남언니] 미국 사업개발 인턴 (체험형)",
    "career": "신입",
    "emp": "인턴",
@@ -560,6 +574,20 @@
    "openDate": "2026-10-27",
    "new": false,
    "found": "2026-10-27"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
+   "title": "[신사업]  Product Operation Manager 인턴 (체험형)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/201327",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-11-03",
+   "new": true,
+   "found": "2026-11-03"
   },
   {
    "회사": "강남언니",
@@ -1598,20 +1626,6 @@
    "found": "2026-10-16"
   },
   {
-   "회사": "카카오페이",
-   "플랫폼": "greetinghr",
-   "title": "[어시스턴트] 유저리서치 업무 지원",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/240498",
-   "cat": "데이터·리서치",
-   "intern": true,
-   "openDate": "2026-10-15",
-   "new": false,
-   "found": "2026-10-15"
-  },
-  {
    "회사": "코나아이",
    "플랫폼": "greetinghr",
    "title": "보안관제 담당자(신입/경력)",
@@ -1936,20 +1950,6 @@
   {
    "회사": "하이컨시",
    "플랫폼": "greetinghr",
-   "title": "[하이컨시북스] 사이트 운영/관리 및 마케팅 담당자",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://hiconsy.career.greetinghr.com/ko/o/240378",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-10-14",
-   "new": false,
-   "found": "2026-10-14"
-  },
-  {
-   "회사": "하이컨시",
-   "플랫폼": "greetinghr",
    "title": "[하이컨시] 성인교육 및 신사업 온/오프라인 기획·운영 담당자",
    "career": "경력무관",
    "emp": "정규직",
@@ -2006,7 +2006,7 @@
   {
    "회사": "헥토",
    "플랫폼": "greetinghr",
-   "title": "[헥토] Chairman Staff (커뮤니케이션 및 사업전략·글로벌) (경력)",
+   "title": "[헥토] Chairman Staff (커뮤니케이션 및 사업전략·글로벌)",
    "career": "경력무관",
    "emp": "정규직",
    "due": "상시",
@@ -2304,12 +2304,26 @@
    "career": "-",
    "emp": "-",
    "due": "Seoul, South Korea",
-   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5341664008",
+   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5470905008",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": "2026-09-01"
+   "new": true,
+   "found": "2026-11-03",
+   "openDate": "2026-11-03"
+  },
+  {
+   "회사": "Anthropic",
+   "플랫폼": "global",
+   "title": "Enterprise Account Executive - Healthcare & Life Science",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5470906008",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-03",
+   "openDate": "2026-11-03"
   },
   {
    "회사": "Anthropic",
@@ -2734,6 +2748,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Customer Engineer, Digital Native, Google Cloud (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/124964929953243846",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-03",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Account Strategist (Fixed-Term Contract) (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2757,6 +2785,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-16",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/143849042160296646",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-03",
    "openDate": ""
   },
   {
