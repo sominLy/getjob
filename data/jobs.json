@@ -11388,6 +11388,36 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/103448",
       "hist": "작년 04/02~04/15 ‘신입/경력사원 수시채용’ 기준 예상"
+    },
+    {
+      "id": "my-네이버클라우드_B2B브랜드마케팅_2026",
+      "company": "네이버클라우드",
+      "type": "대기업",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-11-02",
+      "end": "2026-11-11",
+      "confirmed": true,
+      "source": "직접 등록",
+      "url": "https://recruit.navercloudcorp.com/rcrt/view.do?annoId=30005606",
+      "hist": "B2B 브랜드 마케팅 (체험형 인턴) · 체험형 인턴 (약 3개월, 채용전제형 아님, 기간 종료 시 계약 종료) · 경기도 성남시 분당구 불정로 6 (그린팩토리)",
+      "endTime": "18:00"
+    },
+    {
+      "id": "my-네이버_스마트스토어판매자센터운영_2026",
+      "company": "네이버",
+      "type": "대기업",
+      "roles": [
+        "고객/CS"
+      ],
+      "start": "2026-10-27",
+      "end": "2026-11-04",
+      "confirmed": true,
+      "source": "직접 등록",
+      "url": "https://recruit.navercorp.com/rcrt/view.do?annoId=30005623",
+      "hist": "스마트스토어 판매자센터 운영 (계약) · 계약직 1년 (정규 전환은 고려하지 않음, 공고 명시) · 경기 성남시 분당구 정자일로 95 (1784 사옥), 선택적 근로시간제",
+      "endTime": "18:00"
     }
   ]
 }
