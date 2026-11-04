@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "items": {
     "kakaobank-263159": {
       "at": "2026-09-06",
@@ -15,39 +15,6 @@
         {
           "title": "유의 사항",
           "body": "- 입사지원서에 기재된 내용은 증빙자료 제출을 통해 확인하고 있습니다.\n기재된 내용이 사실과 다를 경우 입사가 취소될 수 있음을 유의하여 주시길 바랍니다.\n- 부정한 채용청탁을 한 사실이 밝혀질 경우 입사가 취소될 수 있음을 유의하여 주시길 바랍니다.\n- 카카오뱅크 내규에 따라 채용금지자에 해당하는 분은 입사가 어려움을 유의하여 주시길 바랍니다.\n관련 공고\n카카오뱅크 인재풀 등록\nD-116\n상시채용\n~ 2026.12.31 (23:59)\n서비스 기획자 - 지급결제\n마감\nService & Biz\n~ 2026.08.06 (23:59)\n서비스 기획자 - 퇴직연금\n마감\nService & Biz\n~ 2026.06.09 (23:59)\n서비스 기획자 - AI\n마감\nService & Biz\n~ 2026.07.03 (23:59)\n서비스 기획자 - 수신\n마감\nService & Biz\n~ 2026.07.06 (23:59)\n서비스 기획자 - 스테이블코인\n마감\nService & Biz\n~ 2026.06.10"
-        }
-      ]
-    },
-    "jasoseol-105205": {
-      "at": "2026-09-06",
-      "sections": [
-        {
-          "title": "담당 업무",
-          "body": "시장, 고객, 업무 환경 분석을 기반으로 AgenticAI 서비스의 비전, 목표 및 로드맵 수립\n다양한 요구사항과 이해관계자의 의견을 구조화, 우선순위 도출\n사용자 업무 흐름과 이슈를 분석하고 Agent가 수행할 역할, 업무 범위, 개입 지점 설계\n서비스 기획(사용자 시나리오, 요구사항, 정책, 화면 설계)\nPoC, MVP 기획 및 사용자 검증을 통한 가설확인, 서비스 개선\n여러 유관부서 간 의사결정 및 프로젝트 커뮤니케이션 주도\n출시 후 사용 데이터 및 고객 피드백 기반 서비스 성과 분석 및 고도화"
-        },
-        {
-          "title": "자격 요건",
-          "body": "IT 플랫폼, SaaS 분야에서 7년이상 서비스 또는 프로덕트 기획 경험\n요구사항 기반 사업 목표 수립 및 구체적인 제품 전략, 실행 계획 전환 경험 보유\n복잡한 업무 프로세스를 분석하고 정책, 기능, 화면 설계 및 사용자 흐름으로 구현 역량 보유\n프로젝트 목표와 기획 의도를 명확하게 설명하고 구성원을 설득할 수 있는 커뮤니케이션 역량\n개발, 디자인, 사업 조직과 협엄 침 프로젝트 리딩 경험 보유"
-        },
-        {
-          "title": "우대 사항",
-          "body": "AI Agent, 생성형 AI, LLM 또는 업무 자동화 서비스의 기획·출시 경험\nAgent 평가 체계 또는 AI 품질 지표를 설계·운영한 경험\nB2B SaaS, 엔터프라이즈 솔루션 또는 사내 업무 시스템 기획 경험\n복잡한 권한·보안·감사 로그·승인 프로세스 설계 경험\nPoC부터 상용화까지 제품 전 과정을 주도한 경험\n지원서는 이렇게 작성하시면 좋아요\n채용 공고에서 요구하는 경험과 역량을 중심으로 기재해주세요.\n해오신 업무를 프로젝트 단위로 잘 정리해서 적어주세요.\n포트폴리오, 노션, 깃허브 등 경험과 역량을 어필할 별도의 자료가 있다면 함께 제출해주세요.\n일부 포지션에서는 포트폴리오 제출이 필수입니다. 확인하시고 꼭 제출해주세요.\n자기소개는 직무 역량을 경험과 잘 연결지어 작성해주시면 좋아요.\nNHN Enterprise로의 합류 여정\n서류전형 > T인터뷰(Tech) > C인터뷰(Career) > 처우협의 > 입사\n합류가이드 확인하기\n*서류 제출 시, 본인이 수행한 프로젝트 경험을 담은 포트폴리오를 제출하세요.(모집 직무와 관련된 프로젝트 한정)\n*서류 합격자에 한하여 사전 과제가 진행됩니다.\n꼭 확인해주세요\n남자의 경우, 병역의무를 필하였거나 면제된 분만 지원 가능합니다.\n해외여행에 결격 사유가 없어야 지원 가능합니다.\n국가보훈해당자 및 장애인은 관련 법률에 의거 우대합니다.(증빙서류 제출자에 한함)\n제출서류에 허위기재 또는 기재착오, 구비서류 미제출 등으로 인한 불이익은 응시자 본인의 책임으로 합니다.\n제출서류나 각종 증명서의 기재내용이 허위일 경우, 응시를 무효로 하며 합격을 취소합니다."
-        },
-        {
-          "title": "근무 조건",
-          "body": "가지고 계신 경험을 충분히 보여주실 수 있도록 학력/경력은 빠짐없이 모두 작성 부탁드립니다."
-        }
-      ],
-      "tracks": [
-        {
-          "name": "AgenticAI 서비스 기획",
-          "questions": [
-            {
-              "q": "자신에 대해 자유롭게 표현해 보세요.",
-              "limit": 1000,
-              "space": true
-            }
-          ]
         }
       ]
     },
@@ -2858,54 +2825,6 @@
         {
           "title": "근무 조건",
           "body": "서울 중구 수표로 34\n리턴제로\nIT, 컨텐츠\n팔로우\n본 채용정보는 원티드랩의 동의없이 무단전재, 재배포, 재가공할 수 없으며, 구직활동 이외의 용도로 사용할 수 없습니다.\n서류 합격 확률이 아주 높아요\n이 포지션 나의 합격 확률은?\n합격 확률 확인하기\n이 포지션을 찾고 계셨나요?\n합격보상금 100만원\n[제로베이스] Business Owner\n데이원컴퍼니\n합격보상금 100만원\n프로덕트 오너 (PO)\n아이엠지베이스\n응답률 매우 높음\n합격보상금 100만원\nAI Enterprise Manager\n업스테이지\n합격보상금 100만원\nProduct Owner (서비스 기획, 사업 관리)\n어딩\n응답률 매우 높음\n합격보상금 100만원\nJunior IT Business Consultant (Product Owner)\n싸이버로지텍\n합격보상금 100만원\n[플랫폼기획팀] 서비스 기획자\n델레오코리아(deleo)\n합격보상금 100만원\nAX 운영 혁신 매니저 / AX Ops. Innovation Manager\n핵클(Hackle)\n응답률 매우 높음\n합격보상금 100만원\nB2B 서비스기획 담당자(PO)\n코딧(CODITCorp.)\n합격보상금 100만원\n해운/물류 IT솔루션 Business Consultant/Product Owner\n싸이버로지텍\n합격보상금 100만원\nAI Product Manager\n라이너(Liner)\n합격보상금 100만원\nProduct Owner\n그래비티랩스\n합격보상금 100만원\n웹 서비스 기획자\n누아\n합격보상금 100만원\nProduct Manager (Senior)\n팀에버플\n합격보상금 100만원\nProduct Manager\n팀에버플\n합격보상금 100만원\nPC/ 모바일 UIUX 기획자\n라익스\n합격보상금 100만원\n[인공지능솔루션] AI Project Manager\n제논\n합격보상금 100만원\n항만 IT 솔루션 Product Owner\n싸이버로지텍\n합격보상금 100만원\n캠핏 프로덕트 매니저\n넥스트에디션\n합격보상금 100만원\nProduct Manager(PM)\n페이타랩(패스오더)\n합격보상금 100만원\nHead of Product\n코코지\n더 많은 포지션을 찾아 볼까요?\n지원할 만한 매력적인 포지션들이 기다리고 있어요.\n탐색하기"
-        }
-      ]
-    },
-    "jasoseol-105206": {
-      "at": "2026-09-06",
-      "sections": [
-        {
-          "title": "회사 소개",
-          "body": "웹툰제작유통팀은 국내외 주요 플랫폼에 론칭할 웹툰을 제작하고 있습니다.\n작가님들을 섭외하고, 계약을 진행하고, 론칭을 준비하고, 연재를 관리하는, 제작 업무 전반을 담당합니다.\n웹툰제작유통팀은 성장하는 조직을 추구합니다.\n어제 만든 작품보다 오늘 만드는 작품이, 오늘 만드는 작품보다 내일 만들 작품이 더 많은 독자분들에게 사랑받을 수 있도록\n계속 재미있는 웹툰을 만들어나가는 것, 그것이 저희의 단 한 가지 목표입니다.\n• 모든 구성원이 본인의 업무에 대한 책임감을 가지고 자율적으로 일합니다.\n늘 최선을 고민하고, 그 과정에서 어떤 문제가 발생해도 누구의 책임인지를 따져 묻기보다 어떻게 해결할지를 함께 고민합니다.\n• 콘텐츠에는 정답이 없습니다.\n최신의 트렌드를 치열하게 분석하고 필사적으로 고민하는 것만이 독자에게 더 가깝게 다가갈 수 있는 방법이라고 믿습니다.\n머리를 맞대고 이야기하는 조직을 추구합니다.\n• 우리는 한 배를 타고 있는 사람들이라는 믿음이 있습니다.\n팀마다 이해관계가 다르더라도 우리의 일이 잘 되어야 한다는 목표의식 하에 수평적이고 열린 커뮤니케이션을 지향합니다.\n함께하면 이런 점들이 좋아요\n공정함을 중요하게 생각합니다. 모든 팀원은 어떤 목표로 일해야 하는지 알 수 있고, 내가 잘 하고 있는지 알 수 있습니다.\n지금 이 순간에 부족함이 있더라도 어떤 방향으로 목표를 수정해야 하는지 가이드를 받을 수 있습니다.\n모든 업무는 주어진 목표를 얼마나 달성했는지 한 가지 기준으로만 평가됩니다.\n자체 플랫폼을 가지고 있기에 출판사나 에이전시에서 경험할 수 없는 서비스의 인사이트를 얻을 수 있습니다.\n다른 제작사와 마찬가지로 외부 플랫폼 론칭도 경험할 수 있기에 가장 최선의 커리어와 포트폴리오를 만들어나갈 수 있습니다."
-        },
-        {
-          "title": "담당 업무",
-          "body": "노블코믹스 원작 및 오리지널 작품 발굴 및 기획\n작가 섭외 및 작품 제작 전반"
-        },
-        {
-          "title": "자격 요건",
-          "body": "콘텐츠 기획력이 있으신 분 (타 콘텐츠 업계 출신 가능)\n웹툰의 재미와 퀄리티에 대한 안목이 있으신 분\n설득력을 포함한 사내/외 커뮤니케이션이 원활하신 분\n포토샵, 클립스튜디오 사용이 가능하신 분"
-        },
-        {
-          "title": "우대 사항",
-          "body": "콘텐츠 기획/제작 경험이 1년 이상이신 분\n지원서는 이렇게 작성하시면 좋아요\n채용 공고에서 요구하는 경험과 역량을 중심으로 기재해주세요.\n해오신 업무를 프로젝트 단위로 잘 정리해서 적어주세요.\n포트폴리오, 노션, 깃허브 등 경험과 역량을 어필할 별도의 자료가 있다면 함께 제출해주세요.\n일부 포지션에서는 포트폴리오 제출이 필수입니다. 확인하시고 꼭 제출해주세요.\n자기소개는 직무 역량을 경험과 잘 연결지어 작성해주시면 좋아요.\nNHN comico Korea로의 합류 여정\n서류전형 > T인터뷰(Tech) > C인터뷰(Career) > 처우협의 > 입사\n* 서류 제출 시, 포트폴리오 제출 필수\n* 서류 합격 시, T인터뷰 전까지 사전 과제 진행 예정\n합류가이드 확인하기\n꼭 확인해주세요\n남자의 경우, 병역의무를 필하였거나 면제된 분만 지원 가능합니다.\n해외여행에 결격 사유가 없어야 지원 가능합니다.\n국가보훈해당자 및 장애인은 관련 법률에 의거 우대합니다.(증빙서류 제출자에 한함)\n제출서류에 허위기재 또는 기재착오, 구비서류 미제출 등으로 인한 불이익은 응시자 본인의 책임으로 합니다.\n제출서류나 각종 증명서의 기재내용이 허위일 경우, 응시를 무효로 하며 합격을 취소합니다.\n근무지는 판교 삼평동 플레이뮤지엄(Play Museum)입니다.\n가지고 계신 경험을 충분히 보여주실 수 있도록 학력/경력은 빠짐없이 모두 작성 부탁드립니다."
-        }
-      ],
-      "tracks": [
-        {
-          "name": "웹툰PD",
-          "questions": [
-            {
-              "q": "NHN에 지원한 동기를 작성해 주세요.",
-              "limit": 1000,
-              "space": true
-            },
-            {
-              "q": "최근에 본 NHN 작품을 분석하여 작성해 주세요.",
-              "limit": 1000,
-              "space": true
-            },
-            {
-              "q": "갈등을 해결해 본 경험을 작성해 주세요.",
-              "limit": 1000,
-              "space": true
-            },
-            {
-              "q": "웹툰PD에게 가장 중요한 역량이 무엇이라고 생각하는지에 대해 자신의 강점과 연결하여 작성해 주세요.",
-              "limit": 1000,
-              "space": true
-            }
-          ]
         }
       ]
     },
@@ -12923,26 +12842,6 @@
             },
             {
               "q": "한화에너지의 인재상은 주인의식, 월등한 차별성, 변화 수용성입니다. 이 중 지원자님과 가장 부합하는 하나를 선택하여 그 이유를 서술해 주세요.\n* 학부 및 대학원 과정, 대내외 활동, 인턴 경험을 중심으로 작성 부탁 드립니다.",
-              "limit": 1000,
-              "space": true
-            }
-          ]
-        }
-      ]
-    },
-    "jasoseol-105885": {
-      "at": "2026-09-06",
-      "tracks": [
-        {
-          "name": "펀딩 프로모션 마케팅 운영 담당자 (인턴)",
-          "questions": [
-            {
-              "q": "지원자님이 생각하시는 와디즈는 어떤 회사인가요? 왜 와디즈에서 함께 하고 싶은 마음이 드셨나요?\n※ 지원자님의 경험, 생각 등을 진솔하게 담아 직접 작성해주세요. 생성형 AI 도구로 작성한 내용이 확인될 경우 채용 전형에 불이익이 있을 수 있습니다. (400자 이상)",
-              "limit": 1000,
-              "space": true
-            },
-            {
-              "q": "와디즈가 하고 있는 일을 살펴 보셨나요? 내가 합류해서 꼭 해보고 싶은 일이 있다면 기록해 주세요.\n※ 지원자님의 경험, 생각 등을 진솔하게 담아 직접 작성해주세요. 생성형 AI 도구로 작성한 내용이 확인될 경우 채용 전형에 불이익이 있을 수 있습니다. (400자 이상)",
               "limit": 1000,
               "space": true
             }
@@ -110059,6 +109958,1305 @@
         }
       ],
       "applicants": 48
+    },
+    "my-네이버클라우드_B2B브랜드마케팅_2026": {
+      "sections": [
+        {
+          "title": "모집 부문",
+          "body": "Corporate\nMarketing\n모집 경력\n신입\n근로 조건\n인턴\n모집 기간\n2026.11.02 ~ 2026.11.11 (18:00)\nShare Save\n부서소개\n저희 부서는 클라우드 시장의 흐름을 분석해 인사이트를 도출하고, 이를 바탕으로 브랜드 아이덴티티와 메시지를 전략적으로 설계합니다. 브랜드 필름, 그래픽, 기술 블로그 등 다양한 형태의 기술 콘텐츠를 기획·제작하여 네이버클라우드의 기술력을 효과적으로 전달합니다. 또한 대내외 컨퍼런스와 주요 행사를 위한 브랜디드 콘텐츠를 기획·운영하며 사례 발굴을 통해 기업과 산업 전반에 AI 브랜드의 가치를 확산시키는 역할을 담당하고 있습니다."
+        },
+        {
+          "title": "담당 업무",
+          "body": "• B2B 인더스트리(국방, 공공, 제조 등) 시장 분석을 바탕으로 한 온·오프라인 마케팅 활동 제안 및 실행 지원\n• 브랜드 캠페인 아이데이션 및 크리에이티브 콘텐츠(카드뉴스, 숏폼 영상 등) 제작\n• B2B SaaS 콘텐츠 마케팅 활동 제안 및 크리에이티브 콘텐츠(테크 블로그, SNS 콘텐츠 등) 제작\n• 대내외 컨퍼런스 및 행사 콘텐츠 운영 지원"
+        },
+        {
+          "title": "자격 요건",
+          "body": "• 국내/외 정규대학(학사) 재학생 또는 기졸업자\n• 인턴십 기간(약 3개월) 동안 Full-Time 근무가 가능하신 분\n• 시장·타깃 분석을 바탕으로 마케팅 아이디어를 기획하고, 파워포인트 및 위키 등의 도구를 활용하여 논리적으로 정리·전달할 수 있으신 분\n• 다양한 직군의 구성원과 적극적으로 소통하며, 맡은 업무를 책임감 있게 완수할 수 있으신 분"
+        },
+        {
+          "title": "우대 사항",
+          "body": "• 기업용 IT 서비스, 클라우드 또는 AI 산업에 대한 배경 지식을 갖추신 분\n• 이미지 및 영상 편집 도구(포토샵, 일러스트레이터, 피그마, 프리미어 등)를 활용할 수 있으신 분\n• AI 도구를 활용한 콘텐츠 제작 또는 프로젝트 수행 경험을 보유하신 분\n• SNS·블로그 등 디지털 채널의 콘텐츠를 기획·운영한 경험을 보유하신 분\n팀 메시지\n저희 부서는 기술 중심의 B2B 사업을 고객이 공감할 수 있는 브랜드 언어와 크리에이티브로 풀어내는 일을 합니다. 낯선 기술과 산업에도 호기심을 갖고 빠르게 이해하려는 태도와 아이디어를 주저 없이 제안하며, 피드백을 통해 함께 발전시켜 나가는 열린 커뮤니케이션을 중요하게 생각합니다.\n인턴십에 참여하시게 된다면, AI Factory, 소버린 AI, B2B SaaS 등 네이버클라우드 핵심 사업의 브랜드 마케팅 캠페인에 직접 참여하게 됩니다. 시장 분석부터 캠페인 아이데이션, 크리에이티브 콘텐츠 제작, 채널 집행까지 B2B 브랜드 마케팅의 전 과정을 경험하실 수 있습니다. 또한 직접 기획하고 제작한 결과물이 실제 캠페인에 반영되는 성취감을 느끼고, 실무 경험을 바탕으로 포트폴리오를 구축하실 수 있습니다."
+        },
+        {
+          "title": "근무 조건",
+          "body": "정규\n계약\n인턴\n경력\n신입\n경력\n무관\n분당\n서울\n춘천\n세종\n글로벌\nClear filters\nfilter 닫기\n[NAVER Cloud] B2B 브랜드 마케팅 (체험형 인턴)\n모집 부서\nNAVER Cloud\n경기도 성남시 분당구 불정로 6 (그린팩토리)\n[근무기간]\n2026년 12월 ~ 2027년 3월 중 (약 3개월 근무 가능자)\n주 5일(10:00 ~ 19:00)\n※ 인턴십 상세 근무 기간은 추후 최종 대상자에게 개별 안내 드릴 예정입니다."
+        },
+        {
+          "title": "전형 절차",
+          "body": "서류 전형 > 인터뷰 전형 > 인턴십 입과\n※ 전형 절차는 일정 및 상황에 따라 변동될 수 있으며, 추가될 수 있습니다.\n※ 인터뷰에 대한 상세 내용은 추후 인터뷰 대상자에게 개별 안내 드릴 예정입니다."
+        },
+        {
+          "title": "유의 사항",
+          "body": "• 본 인턴십은 채용전제형이 아닌 체험형 인턴십으로, 인턴십 기간이 끝나면 계약 종료됩니다.\n• 입사지원서 작성 전 지원자격을 확인해 주시기 바라며, 지원서에 기재된 내용 중 허위사실이 있는 경우에는 합격이 취소될 수 있습니다.\n• 유효기간이 만료되어 추후 증빙이 불가능한 어학성적 및 자격사항은 지원서에 기재하지 않도록 유의해 주시기 바랍니다.\n• 본 공고는 인재 선발 완료 시 조기 마감될 수 있으며, 필요시 모집 기간이 연장될 수 있습니다.\n• 제출된 지원서는 로그인 후 [My page- 지원 현황]에서 확인 가능하며, 공고 마감 전까지 홈페이지에서 수정 및 지원 철회가 가능합니다.\n• 국가유공자 및 장애인 등 취업보호 대상자는 관계법령에 따라 우대합니다.\n• 국가유공자의 가산점 부여를 받기 위해서는 본인이 '취업지원 대상자 증명서'를 회사에 제출해야 합니다.\n• 제출해 주신 지원서의 검토 결과 발표는 지원서에 등록하신 이메일로 개별 안내드립니다.\n• 문의사항은 NAVER Cloud 채용 홈페이지 지원 문의로 접수해 주시기 바랍니다.\n• 입사 확정 이후라도 국제 제재(Sanction) 대상자 또는 관련자로 확인될 경우, OFAC 규정 등 관련 법규에 따라 고용계약 체결이 제한될 수 있음을 안내드립니다.\n• Please be advised that even after an employment offer is finalized, your employment contract may be restricted under applicable laws and regulations, including OFAC rules, if you are identified as a sanctioned individual or as being associated with any sanctioned entity.\n© NAVER Cloud Corp.\nNAVER Cloud Career 약관 및 정책"
+        }
+      ],
+      "at": "2026-11-04"
+    },
+    "linkareer-362175": {
+      "sections": [
+        {
+          "title": "담당 업무",
+          "body": "- 건설 사급자재 PO관리 / 납기 협의 및 검수\n- 기성 청구 및 정산 업무\n- 고객사 및 유관부서 대응\n- 사급자재 품목 발굴, 구매 및 영업 활동"
+        },
+        {
+          "title": "근무 조건",
+          "body": "경기 군포시\n홈페이지\nhttps://www.imarketkorea.com/\n홈페이지 지원\n2\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[아이마켓코리아] 건설인프라 영업 담당자(신입) 채용\n이 친구와 함께 하고 싶다면?\nCRM Marketing Assistant (계약직)\n[아이마켓코리아] 건설인프라 영업 담당자(신입) 채용\n스크랩한 사용자 전체보기 (2명)\n관심 유저 통계 보기\n아이마켓코리아 채팅방\n487명\n채팅방 참여하기\n빨간 별자리\n감사합니다 ㅎㅎ 경쟁률이 너무 궁금해서\n3 : 54\n빨간 별자리\n축하드려요 ㅎㅎ\n3 : 54\n무서운 수중식물\n붙었는데 전체몇명붙었는진 출근해바야 알듯 합니다\n0 : 18\n빨간 별자리\n붙은분 계시면 몇명 붙었는지만 말해주시면 너무 고마울것 같아요.>!\n8 : 10\n단단한 당근\n저도 불합이네요 ㅜㅜ\n8 : 10\n상세내용\n지원·합격 스펙\nNEW\n스터디 모집\n합격자료\nHOT\n현직자·담당자 Q&A\n상세내용\n[아이마켓코리아] 건설인프라 영업 담당자(신입) 채용"
+        },
+        {
+          "title": "지원 방법",
+          "body": "2026.11.04 ~ 2026.11.12\n채용형태\n신입\n11월 04일 ~ 11월 12일\n[채용공고]\n허위·과장·오류 내용이 있다면 신고해주세요.\n신고하기\n기업정보\n채용중\n아이마켓코리아\n대표자명\n김학재\n설립일자\n2000-12-07\n기업형태\n중견기업\n상세업종\n도매 및 소매업\n실시간 채팅\n기업정보 더보기\n실시간 관심 현황\n관심 유저 통계\n스크랩한 2명 기준\n이 공고를 스크랩한 사용자들이 궁금하다면?\n내 정보를 입력하면 스크랩한 사용자들의\n학교, 전공, 연령, 관심 직무 현황을 확인할 수 있어요!\n정보 입력하고 통계 보기\n아이마켓코리아 지원·합격 스펙\n지원자 통계\n서류합격자 통계\n아이마켓코리아 채용 공고에 지원한 36명 기준\n채용\n인턴\n학교\n1\n충남대학교\n6.7%\n2\n동국대학교(서울)\n6.7%\n3\n건국대학교(서울)\n6.7%\n4\n상명대학교(서울)\n6.7%\n전공\n1\n경영학\n40%\n2\n무역ㆍ유통학\n6.7%\n3\n기계로봇에너지공학과\n6.7%\n4\n기계공학\n6.7%\n연령\n25세 미만\n20.7%\n25~26세\n17.2%\n27~28세\n34.6%\n29~30세\n24.1%\n30세 초과\n3.4%\n관심직무\n1\n기획/전략/경영\n22.2%\n2\n재무/회계\n20%\n3\n인사/총무\n11.1%\n4\n마케팅/운영/홍보\n8.9%\n5\n무역사무/수출입\n6.7%\n내 스펙 입력하고 지원자 상세 스펙 확인하기\n이 활동에 관심을 가지는 사용자 (2명)\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[아이마켓코리아] 건설인프라 영업 담당자(신입) 채용\n이 친구와 함께 하고 싶다면?\nCRM Marketing Assistant (계약직)\n[아이마켓코리아] 건설인프라 영업 담당자(신입) 채용\n스터디 모집\n지원부터 면접까지 함께 준비할 스터디를 찾아보세요\n아직 해당 공고의 스터디원을 모집하는 글이 없어요\n직접 모집글을 작성해 스터디원을 모집해보세요!\n스터디 모집글 쓰기\n스터디 모집글 보기\n합격스펙 & 합격자소서\n한국공학대학교 / 전자공학과 / 학점 3.5/4.5\n1. 취미, 특기 - 150자 피아노 연주와 농구를 좋아합니다. 어렸을 때부터 피아노를 연주하며 친구들과 버스킹을 하거나, 저소득층 아이에게 피아노를 가르쳐 주는 봉사를 하는 등 여러 활동을 했고 농구를 좋아하여 시 대회에 출전하는 등 많은 사람과 함께 어울리며 즐기고 있습니다. 2. 존경하는 인물과 이유 - 300자 저는 피아노의 시인 이라는 별명을 갖고있는 프레드릭 쇼팽을 가장 존경합니다. 어렸을 때 우연히 쇼팽의 '빗방울 전주곡'이라는 곡을 듣고, 그 때부터 쇼팽의 다른 곡들과 그의 일화를 찾아보게 되었습니다. 그리고\n2022 상반기\n아이마켓코리아\n쇼핑몰 개발/운영(JAVA)\n서성한 / 정치외교학과 / 학점 3.94/4.5 / 토익: 875, 토익스피킹: 140/레벨6, 오픽: , 기타: / 사회생활 경험: / 한국사검정시험: , 컴퓨터활용능력: , 기타:\n1. 취미, 특기 [10자 이상 150자 이내] 활발하고 외향적인 성격으로 지인들과 같이 자전거를 타는 것을 좋아합니다. 지인들과 자전거를 타며 함께 시간을 보내며 유대감을 형성하고자 하였습니다. 지인의 고민 상담을 진지하게 공감하며 같이 해결방안을 모색하는 것이 저의 특기입니다. 2. 존경하는 인물과 이유 [100자 이상 300자 이내] '앤 설리번'과 '스윙스'를 존경합니다. '앤 설리번'은 저에게 진정한 '소통'의 표본입니다. 저는 '핼런 켈러'와의 일화에서 '공감','배려','이해'와 같은 바람직한 소통 자세를 배웠습니\n2021 상반기\n아이마켓코리아\n영업\nSKY / 상경계열 / 학점 3점초반 / 토익 990 / 인턴1회, 봉사활동 다수\n1. 성격의 장단점 및 생활신조 [100자 이상 600자 이내] 낯선 곳에선소심하고 내성적인 성격 탓에 먼저 다가와 주지 않으면 친해지는 데 시간이 걸립니다. 이런 소심함을 극복하고자리더십 자리에 도전하며 새로운 환경에 당황하지 않도록 노력했지만 수많은 연습과 도전에도 불구하고 여전히 어려움을 느끼는 건 사실입니다. 그러나 이런 소심한 성격 뒤에 쉽게 좌절하거나 무너지지 않는 긍정적인 태도가 제 성격의 장점이라고 생각합니다. 소위 ‘멘탈이 강하다’라고스스로 자신하며 어려운 환경도 잘 버팁니다. 긍정적인 태도를 갖고 있다고 해서 힘\n2016 상반기\n아이마켓코리아\nB2B영업\n최종합격후기\n[한국전력공사] 2026 상반기 인턴 서류 합격 후기\n안녕하세요! 오늘은 2026년 상반기 한국전력공사 체험형 인턴 서류합격 후기를 남겨보려고 합니다.​다행히 서류전형에 합격했습니다!​서류합격 결과와 이후 면접 일정, 지원 당시 스펙 을 정리해보겠습니다. 1. 한국전력공사 인턴 서류합격 결과​결과는 합격!​합격자 발표 시스템에서 1차 전형인 서류전형 합격을 확인할 수 있었습니다.​서류합격 안내와 함께 2차 전형인 종합면접 및 온라인 인성검사 관련 사항도 확인할 수 있었습니다. 2. 한국전력공사 인턴 면접 일정 상반기 발표 토대로 면접 일자 예측해볼 수 있을듯..! 2026 상반기 한국전력공사 체험형 인턴 면접 일정​서류전형 합격 이후에는 2차 전형이 진행됐습니다.​​구분 내용 1차 전형 서류전형 1차 결과 합격 2차 전형 종합면접 및 온라인 인성검사 종합면접 기간 2026. 5. 7.(목) ~ 5. 14.(목) 면접일 기간 중 개인별 지정일 면접은 안내된 기간 중 하루에 진행되는 방식이었습니다.​서류합격 이후에는 면접과 온라인 인성검사를 준비해야 했습니다. 3. 한국전력공사 인턴 지원 스펙​한전 체험형 인턴을 준비하면서 합격자의 지원 스펙이 궁금한 분들도 있을 것 같습니다.​제가 지원 당시 갖추고 있던 경험과 자격은 다음과 같습니다. 구분 내용 어학 TOEIC , 토스 한국사 한국사능력검정시험 자격증 컴퓨터 관련 1개, 국어 관련 1개 인턴 경험 한국수자원공사 청년인턴​※ 개인적인 지원 경험이며, 공식 합격 기준이나 합격자 평균 스펙을 의미하지 않습니다. 4. 서류합격 이후 면접 준비​서류전형 합격 이후에는 기존 공공기관 인턴 경험을 중심으로 면접을 준비했습니다.​특히 한국수자원공사에서 수행했던 계약&middot;구매, 회계, 시설 관리 업무를 정리했습니다.​​또한 한국전력공사 지원"
+        }
+      ],
+      "at": "2026-11-04"
+    },
+    "linkareer-362158": {
+      "sections": [
+        {
+          "title": "모집 부문",
+          "body": "마케팅/광고, IT/개발, 건설\n학력\n대학졸업(2,3년) 이상\n급여\n회사 내규에 따름\n안전보건관리자\nQA\n플랫폼 커뮤니티 마케팅 담당자"
+        },
+        {
+          "title": "근무 조건",
+          "body": "서울 송파구\n홈페이지\nhttps://www.online-pharm.co.kr/\n홈페이지 지원\n0\n스크랩한 사용자 전체보기 (0명)\n관심 유저 통계 보기\n온라인팜 채팅방\n68명\n채팅방 참여하기\n매운 나비국수나무\n안녕하세요 혹시 화장품 PM신입 면접 가시는 분 있나요?\n11 : 03\n자소서 문항 미리보기\n직무 더보기\n[건설] 안전보건관리\n1.\n자신의 가치관에 대해 기술하시오.\n2.\n주위 사람들이 평가하는 나에 대해서 기술하시오.\n자기소개서 작성\n상세내용\n지원·합격 스펙\nNEW\n스터디 모집\n합격자료\nHOT\n현직자·담당자 Q&A\n상세내용\n[온라인팜] 안전보건관리 외 채용"
+        },
+        {
+          "title": "지원 방법",
+          "body": "2026.11.04 ~ 2026.11.12\n채용형태\n신입, 경력직\n11월 04일 ~ 11월 12일\n[채용공고]\n허위·과장·오류 내용이 있다면 신고해주세요.\n신고하기\n실시간 관심 현황\n관심 유저 통계\n스크랩한 0명 기준\n이 공고를 스크랩한 사용자들이 궁금하다면?\n내 정보를 입력하면 스크랩한 사용자들의\n학교, 전공, 연령, 관심 직무 현황을 확인할 수 있어요!\n정보 입력하고 통계 보기\n스터디 모집\n지원부터 면접까지 함께 준비할 스터디를 찾아보세요\n아직 해당 공고의 스터디원을 모집하는 글이 없어요\n직접 모집글을 작성해 스터디원을 모집해보세요!\n스터디 모집글 쓰기\n스터디 모집글 보기\n합격스펙 & 합격자소서\n가천대 / 식품생명공학 / 학점 4.02 / 토익 740, 토스 150/IH / 해외인턴 1회 / 대외활동 1회, 창업경진대회 금상, 해외봉사 1회 / 한국사검정능력시험: 고급\n1. 귀하께서 한독에 지원한 동기는 무엇입니까? 장기 축적된 ‘고객 의약 데이터’와 <바로팜>을 통한 ‘디지털 데이터 인프라’, 제가 한독에 지원한 이유입니다. 고객 맞춤형 영업·마케팅 전략 수립을 위해서는 계절·지역별 의약품 수요를 예측하고, 시장에 선제적으로 대응하는 것이 중요합니다. 이에 한독은 <바로팜>을 통해 유통 채널 접점을 확대하며, 고객 데이터 인프라를 확대하고 있습니다. 저 또한 이러한 환경에서 고객 데이터를 분석하고 현장의 인사이트를 반영하며, 고객 니즈에 부합한 영업·마케팅 전략을 구축하고자 지원했습니다.\n2025 하반기\n한독\n전문의약품 영업/마케팅\n계명대 / 국제통상학과/관광경영학과 / 학점 3.79/4.5 / 토익: 775, 토익스피킹: IM3 / GTEP(지역특화청년무역전문가양성사업)\n이 글은 농협 일반관리직 합격자의 실제 자기소개서입니다. 지역 농축산물 유통 경험을 조직 이해와 실무 역량으로 연결한 구조를 참고해보세요. 👉 공기업·금융·일반관리직 합격 자소서는 [링커리어 자소서 만능검색기]에서 확인하세요. 1. 농협에서 업무를 수행하기 위해 다른 사람과 차별할 수 있는 본인만의 강점은 무엇이고, 그 강점을 보유하기 위하여 어떤 노력과 과정을 거쳤는지 실제 활동했던 경험 위주로 기술하시오. [지역 농축산물 가치 극대화 전문가] 저의 강점은 지역 농축산물의 원활한 유통·판매 전략입니다. 저는 1년 1개월\n2025 상반기\n농협\n일반관리직\n한경국립대학교 / 식물생명환경전공 / 학점 2.89/4.5 / 오픽: IH / 사회생활 경험: 학원 행정사무업무 1년 반 / LS드림사이언스클래스, KB라스쿨 고등 멘토단, 충남생성형AI아이디어공모전 우수상, 여성창업공모전 우수상\n<자유 형식 자소서> 1. 지원동기 제가 가진 경험을 통해 과학기술을 활용한 사회문제 해결하는 '공공융합기술정책과'에 기여하고자 인턴으로 지원하게 되었습니다. 대학교 창업동아리 팀장으로 활동하면서 스마트팜 관련 사회문제에 대해 연구하였습니다. 청년 농부의 수가 급증하고 있지만, 경험과 기술 부족으로 다양한 어려움을 마주함을 알게 되었습니다. 이를 해소하기 위해, 인공지능 모델 VGG16을 활용하여 카메라 인식을 통해 작물 병해충 진단을 도와주는 애플리케이션을 개발하였습니다. 성과를 인정받고 싶어 꾸준히 '과학기술정보통신부\n2025 상반기\n과학기술정보통신부\n행정사무\n최종합격후기\n[한국전력공사] 2026 상반기 인턴 서류 합격 후기\n안녕하세요! 오늘은 2026년 상반기 한국전력공사 체험형 인턴 서류합격 후기를 남겨보려고 합니다.​다행히 서류전형에 합격했습니다!​서류합격 결과와 이후 면접 일정, 지원 당시 스펙 을 정리해보겠습니다. 1. 한국전력공사 인턴 서류합격 결과​결과는 합격!​합격자 발표 시스템에서 1차 전형인 서류전형 합격을 확인할 수 있었습니다.​서류합격 안내와 함께 2차 전형인 종합면접 및 온라인 인성검사 관련 사항도 확인할 수 있었습니다. 2. 한국전력공사 인턴 면접 일정 상반기 발표 토대로 면접 일자 예측해볼 수 있을듯..! 2026 상반기 한국전력공사 체험형 인턴 면접 일정​서류전형 합격 이후에는 2차 전형이 진행됐습니다.​​구분 내용 1차 전형 서류전형 1차 결과 합격 2차 전형 종합면접 및 온라인 인성검사 종합면접 기간 2026. 5. 7.(목) ~ 5. 14.(목) 면접일 기간 중 개인별 지정일 면접은 안내된 기간 중 하루에 진행되는 방식이었습니다.​서류합격 이후에는 면접과 온라인 인성검사를 준비해야 했습니다. 3. 한국전력공사 인턴 지원 스펙​한전 체험형 인턴을 준비하면서 합격자의 지원 스펙이 궁금한 분들도 있을 것 같습니다.​제가 지원 당시 갖추고 있던 경험과 자격은 다음과 같습니다. 구분 내용 어학 TOEIC , 토스 한국사 한국사능력검정시험 자격증 컴퓨터 관련 1개, 국어 관련 1개 인턴 경험 한국수자원공사 청년인턴​※ 개인적인 지원 경험이며, 공식 합격 기준이나 합격자 평균 스펙을 의미하지 않습니다. 4. 서류합격 이후 면접 준비​서류전형 합격 이후에는 기존 공공기관 인턴 경험을 중심으로 면접을 준비했습니다.​특히 한국수자원공사에서 수행했던 계약&middot;구매, 회계, 시설 관리 업무를 정리했습니다.​​또한 한국전력공사 지원동기와 인턴으로서의 자세, 협업 및 의사소통 경험도 함께 정리했습니다. 인터뷰 -슬슬 님 https://blog.naver.com/sula0579/224450321093 🎯 [한국전력공사] 2026년 인턴 채용 공고 보러가기 🎯현재 모집중인 인턴 공고 보러가기 🎯인턴 지원 후기 보러가기 🎯인턴 합격 자기소개서 보러가기 🎯인턴 오픈 카톡방 입장하기 (비번: 1004) 🎯이공계 오픈 카톡방 입장하기 (비번: 1004) 🎯합격자소서 제출하고 15000원 받기 함께 보면 좋을 콘텐츠 대학교 순위 2026, 입결&middot;취업률로 다시 보면? 정시 합격선부터 계약학과까지 CJ 면접 질문 40개ㅣ1차 실무&middot;2차 임원 기출과 답변 구조, 인재상 하고잡이 논술 100% 대학 2027｜20곳 명단과 인문논술, 수리논술 일정, 최저 여부 삼성 면접, 망한 것 같아도 붙을까? 2026 면접 순서 의미&middot;임원면접 질문&middot;일정&middot;후기 🌱대학생고민방 🌱 취업/문과 고민방 🌱 SK멘토질문방 🌱 LG멘토질문방 🌱 취업/이과고민방 🌱 직장인고민방 🌱 삼성멘토질문방 🌱 현대멘토질문방 └ 삼성전자 면접관, 현대자동차 인사담당자 등 원하는 멘토를 선택해 답변을 받을 수 있습니다 😎 *해당 게시글은 링커리어 회원님들이 남겨주신 소중한 후기입니다. 해당 게시글에 포함된 내용에 대한 악의적인 비방 및 비하, 욕설이 담긴 댓글을 남길 시 무통보 활동정지 및 탈퇴 처리됩니다. 본 사이트의 합격수기 및 자료들을 무단 복제, 배포하는 경우에는 저작권법 제"
+        }
+      ],
+      "at": "2026-11-04"
+    },
+    "linkareer-362170": {
+      "sections": [
+        {
+          "title": "모집 부문",
+          "body": "기획/경영, 마케팅/광고, 영업/CS, 생산/제조\n학력\n대학졸업(4년) 이상\n급여\n회사 내규에 따름\n식품경영협의실\n(0명)"
+        },
+        {
+          "title": "담당 업무",
+          "body": "식품계열사 경영기획 총괄\n채용형태\n- 경력\n총무 업무 전반\n관할지역 내 대리점, 직거래처 영업\n시장동향파악 및 기타 영업관련 제반 업무\n채용형태\n- 신입\n할인점/SSM/CVS 본부 영업\n시장동향파악 및 기타 영업관련 제반 업무\n채용형태\n- 신입\n프랜차이즈, 특판, 식자재유통 경로 영업\n시장동향파악 및 기타 영업관련 제반 업무\n채용형태\n- 신입\n온라인 직거래 및 벤더 영업\n시장동향파악 및 기타 영업관련 제반 업무\n채용형태\n- 신입\n주요 매입상품, 원부자재 소싱 및 계약, 단가 관리 등\n시장동향파악 및 기타 제반 업무\n채용형태\n- 신입\n마케팅 PM업무\n식품 시장조사 및 신제품 기획/개발\n마케팅 전략 수립 및 프로모션 기획\n매출/손익 및 지표 분석 관리\n채용형태\n- 신입\n인천공장 생산팀\n(0명)\n생산/공정 관리 업무 전반(대두추출공정 담당)\n채용형태\n- 신입\n생산관리 업무 전반\n채용형태\n- 신입\n품질담당 업무(HACCP, FSSC22000, 위생 클레임, 제품 품질관리 등)\n채용형태\n- 신입"
+        },
+        {
+          "title": "우대 사항",
+          "body": "동종업계 경영기획 업무 4년이상 경력자 우대(식품제조, 유통, 곡물가공)\n인사팀\n(0명)\n동종 업계 업무 경험자 우대\n컴퓨터 활용능력 우수자 우대\n커뮤니케이션 역량 우수자 우대\n영업본부 (본부팀)\n(0명)\n동종 업계 업무 경험자 우대\n컴퓨터 활용능력 우수자 우대\n커뮤니케이션 역량 우수자 우대\n영업본부 (실수요사업부)\n(0명)\n동종 업계 업무 경험자 우대\n컴퓨터 활용능력 우수자 우대\n커뮤니케이션 역량 우수자 우대\n영업본부 (온라인사업부)\n(0명)\n동종 업계 업무 경험자 우대\n컴퓨터 활용능력 우수자 우대\n커뮤니케이션 역량 우수자 우대\n영업본부 (FS구매팀)\n(0명)\n동종업계 업무 경험자 우대\n컴퓨터 활용능력 우수자 우대\n커뮤니케이션 역량 우수자 우대\n마케팅팀\n(0명)\n화학공학계열 전공자 우대\n관련 자격증 보유자 우대\n영천공장 생산팀\n(0명)\n식품공학, 화학공학계열 전공자 우대\n관련 자격증 보유자 우대\n영천공장 품질환경팀\n(0명)\n식품공학, 식품 관련학과 전공자 우대\n관련 자격증 보유자 우대"
+        },
+        {
+          "title": "근무 조건",
+          "body": "서울 서대문구, 인천 서해구, 경북 영천시\n홈페이지\nhttps://dr.sajo.co.kr/\n홈페이지 지원\n20\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[유한킴벌리] 여성용품 (좋은느낌, 화이트) 마케팅 Brand & Product Manager 신입·경력 채용\n이 친구와 함께 하고 싶다면?\n채용 운영 및 브랜딩 담당자(전환형 인턴)\n[삼일회계법인] Human Capital팀 채용·인사 운영 체험형 인턴 채용\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[아이마켓코리아] 건설인프라 영업 담당자(신입) 채용\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[한미그룹] 2026년 11월 수시채용\n이 친구와 함께 하고 싶다면?\n[한국과학기술연구원] KIST 2026-6차 행정인턴 공개채용\n[한양대학교] 2027년 1월 직원 채용\n스크랩한 사용자 전체보기 (20명)\n관심 유저 통계 보기\n사조대림 채팅방\n988명\n채팅방 참여하기\n그리운 표범\n경력 1년정도로 애매한 분들은 경력으로 지원하시나요? 신입으로 지원하시나요?\n17 : 58\nchampegne\n오면 알아요\n5 : 32\n이이\n왜용\n8 : 06\nchampegne\n오지 말라고\n4 : 13\n싫은 수중식물\n저 신입으로 지원했어요\n11 : 09\n자소서 문항 미리보기\n직무 더보기\n[기획/경영] 식품경영협의실\n1.\n1. 지원 분야/직무와 관련하여 본인이 보유한 역량은 무엇이며, 해당 역량을 갖추기 위해 노력한 본인의 경험에 대해 구체적으로 작성해주세요.\n2.\n2. 목표를 수립했으나 달성하지 못했던 경험과 부족했던 역량은 무엇인지, 그 과정을 통하여 느끼거나 배운 점을 작성해주세요.\n자기소개서 작성\n상세내용\n지원·합격 스펙\nNEW\n스터디 모집\n합격자료\nHOT\n현직자·담당자 Q&A\n상세내용\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n급여\n회사 내규에 따름\n서울 서대문구 통일로 107-39 사조그룹\n인천 서해구 봉수대로 126 인천공장\n경북 영천시 화산면 화산공단길 17 영천공장"
+        },
+        {
+          "title": "복리후생",
+          "body": "(시설, 차량, 행사 등)\n안전보건관리\n기타 제반 업무\n채용형태\n- 신입\n영업본부 (대리점/직거래 영업)\n(0명)"
+        },
+        {
+          "title": "지원 방법",
+          "body": "2026.11.04 ~ 2026.11.10\n채용형태\n경력직, 신입\n2026-11-04 ~ 2026-11-10\n홈페이지 지원"
+        },
+        {
+          "title": "유의 사항",
+          "body": "허위 사실이 발견될 경우 채용이 취소될 수 있습니다.\n허위·과장·오류 내용이 있다면 신고해주세요.\n신고하기\n기업정보\n채용중\n사조대림\n대표자명\n김상훈\n설립일자\n1964-04-30\n기업형태\n중견기업\n상세업종\n제조업\n실시간 채팅\n기업정보 더보기\n실시간 관심 현황\n관심 유저 통계\n스크랩한 20명 기준\n이 공고를 스크랩한 사용자들이 궁금하다면?\n내 정보를 입력하면 스크랩한 사용자들의\n학교, 전공, 연령, 관심 직무 현황을 확인할 수 있어요!\n정보 입력하고 통계 보기\n사조대림 지원·합격 스펙\n지원자 통계\n사조대림 채용 공고에 지원한 520명 기준\n채용\n학교\n1\n중앙대학교\n4.6%\n2\n국민대학교\n3.6%\n3\n인천대학교\n3.6%\n4\n한국외국어대학교\n3.3%\n전공\n1\n경영학\n21.1%\n2\n영미어ㆍ문학\n3.8%\n3\n식품영양학\n3.5%\n4\n경제학\n2.4%\n연령\n25세 미만\n20.2%\n25~26세\n45.8%\n27~28세\n21.7%\n29~30세\n6.7%\n30세 초과\n5.6%\n관심직무\n1\n마케팅/운영/홍보\n17.9%\n2\n기획/전략/경영\n16%\n3\n상품기획/MD\n11%\n4\n영업/고객상담\n7.9%\n5\n인사/총무\n7.7%\n내 스펙 입력하고 지원자 상세 스펙 확인하기\n이 활동에 관심을 가지는 사용자 (20명)\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[유한킴벌리] 여성용품 (좋은느낌, 화이트) 마케팅 Brand & Product Manager 신입·경력 채용\n이 친구와 함께 하고 싶다면?\n채용 운영 및 브랜딩 담당자(전환형 인턴)\n[삼일회계법인] Human Capital팀 채용·인사 운영 체험형 인턴 채용\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[아이마켓코리아] 건설인프라 영업 담당자(신입) 채용\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[한미그룹] 2026년 11월 수시채용\n이 친구와 함께 하고 싶다면?\n[한국과학기술연구원] KIST 2026-6차 행정인턴 공개채용\n[한양대학교] 2027년 1월 직원 채용\n이 친구와 함께 하고 싶다면?\n[사조대림] 2026년 하반기 수시채용(신입/경력)\n[태웅로직스"
+        }
+      ],
+      "at": "2026-11-04"
+    },
+    "linkareer-362149": {
+      "image": "https://media-cdn.linkareer.com/se2editor/image/980504",
+      "at": "2026-11-04"
+    },
+    "jasoseol-107030": {
+      "image": "https://with.nonghyup.com/resource/images/front/common/header_emblem_2025.png",
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "[신입]반도체소재 생산",
+          "questions": [
+            {
+              "q": "1. 당사 및 지원분야에 적합한 이유를 구체적 사례를 들어 기술해주시기 바랍니다.",
+              "limit": 400,
+              "space": true
+            },
+            {
+              "q": "2. 어떤일을 하면서 과감한 변화와 도전으로 목표를 달성했던 최근의 사례를 기술해주시기 바랍니다.",
+              "limit": 400,
+              "space": true
+            },
+            {
+              "q": "3. 원칙대로 일을 처리하는 사람임을 나타내는 최근의 사례를 기술해주시기 바랍니다.",
+              "limit": 400,
+              "space": true
+            },
+            {
+              "q": "4. 전문성 향상을 위해 어떤 노력을 했으며, 입사 후 어떻게 활용할건지 기술해주시기 바랍니다.",
+              "limit": 400,
+              "space": true
+            },
+            {
+              "q": "5. 타인을 위해 자신의 이익을 포기하거나 희생을 감수했던 최근의 사례를 기술해 주시기 바랍니다.",
+              "limit": 400,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        }
+      ],
+      "applicants": 1
+    },
+    "jasoseol-107050": {
+      "image": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/assets/logo",
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "Advanced Vehicle Development(AVD) ,Surface Vehicle Integration (SVI) , Customer Experience AI Innovation (CXAI)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 2
+        },
+        {
+          "name": "Body, Exterior, Chassis and After Service Engineering (BECA)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 7
+        },
+        {
+          "name": "Interior/ Seat&Safety/ Thermal Propulsion/Energy Coversion system (ITPE)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 11
+        },
+        {
+          "name": "Engineering Excellence (EE)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 9
+        },
+        {
+          "name": "Propulsion Controls, Vehicle Performance & Virtual Integration Engineer",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 5
+        },
+        {
+          "name": "Software and Electronics Engineering (S&E)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 6
+        },
+        {
+          "name": "Software and Electronics Engineering (S&E)-CyberSecurity Engineer",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 2
+        },
+        {
+          "name": "Supplier Quality & Development(SQD) & Operations(Ops)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 4
+        },
+        {
+          "name": "Virtual Engineering (VE)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 3
+        },
+        {
+          "name": "Manufacturing Engineering (ME)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 18
+        },
+        {
+          "name": "Software Engineer (SW)",
+          "questions": [
+            {
+              "q": "1. Why GM/ Why this Role\n본인의 커리어 목표와 비전을 바탕으로, GM에 지원하게 된 계기와 지원 목적을 작성해 주세요. 또한, 그 목표를 이루기 위해 지금까지 어떤 경험과 역량을 쌓아왔는지 구체적으로 소개해 주세요.\n관련 수업, 프로젝트, 대외활동, 인턴십, 아르바이트, 관련 업무 경력 또는 기타 경험이 있다면 함께 작성해 주세요.\nPlease describe your career goals and aspirations, as well as what motivated you to apply to GM and what you hope to achieve through this opportunity.\nAlso, explain what experiences and capabilities you have built so far to support that goal. You may include relevant coursework, projects, extracurricular activities, internships, part-time jobs, relevant work experience, or other experiences.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "2. Own the Outcome & Lead as One Team\n어떤 과제나 프로젝트에서 목표 달성을 위해 주도적으로 끝까지 책임지고 수행했던 경험을 소개해 주세요.\n그 과정에서 본인이 맡은 역할은 무엇이었는지, 어떤 어려움이 있었는지, 그리고 최종적으로 어떤 성과를 이루었는지 작성해 주세요. 가능하다면 구체적인 결과도 함께 알려 주세요.\nDescribe a task or project where you took full ownership from start to finish. What was your role, what challenges did you face, and what result did you achieve? If possible, please include a specific or measurable outcome.",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "3.  Innovate and Embrace Change\n실패했거나 기대했던 결과를 얻지 못했던 경험을 작성해 주세요. 당시 어떤 상황이었는지, 무엇이 예상처럼 되지 않았는지, 그리고 그 경험을 통해 무엇을 배우고 이후 어떻게 성장했는지 설명해 주세요.\nDescribe a time when you experienced failure or did not achieve the result you expected. What was the situation, what did not go as planned, and what did you learn from the experience?\nPlease also explain how it helped you grow afterward.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 3
+        }
+      ],
+      "applicants": 70
+    },
+    "jasoseol-107064": {
+      "sections": [
+        {
+          "title": "모집 부문",
+          "body": "□\n모집분야 및 모집인원: 전문계약직 총 6명\n제한경쟁채용\t데이터\n전문가\t1명\t해양산업 AI·디지털 플랫폼 및 데이터허브 구축 총괄관리 및 운영\n데이터 플랫폼·클라우드 아키텍처 및 데이터 연계(API/표준) 국가계약(공공조달) 및 기타 행정업무 등\n건축사\t1명\t건축 관련 업무 전반\n- 건축공사 및 프로젝트 관리\n- 건축설계 인허가 및 공사감리\n- 공공계약 및 건축관련 법적분쟁 대응\n- 신사옥 건립 후 시설관리 등\n선박\n관리 전문가\n1명\t- 선박 자산가치 관리\n- 선박 안전성 및 품질관리\n- 선사/선박관리회사 관리\n- 신조선/중고선 기술검토\n- 용대선/매각 과정의 기술적 실사\n- 사고 예방 및 조치 대응 등\n조사(리서치)\n전문가\t3명\t해운시황 분석, 선종별 시황보고서 및 특집보고서 작성, 운임지수 개발 및 관리, 대외정보 관리 등\n전문\n계약직\t데이터\n전문가\n·\n공공 또는 대규모 정보화(SI) 구축사업 PM/PMO, 정보화전략 계획(ISP) 또는 시스템 구축 설계·발주·감리 수행경력 8년 이상\n건축사\n·\n건축사 자격 소지자로서 관련 경력 8년 이상\n선박관리\n전문가\t다음 중 하나 이상의 자격 또는 경력을 갖춘 자\n(1)\n해기사 2급 이상(항해, 기관) 보유 및 승선경력을 포함하여 선박의 관리, 운항, 안전, 품질, 검사, 조선, 건조, 설계 등 관련 업무 8년 이상\n(2)\n선박안전관리사 1급 이상 보유 및 승선, 선박의 관리, 운항, 안전, 품질, 검사, 조선, 건조, 설계 등 관련 업무 8년 이상\n* ISM 내부심사원, ISO 심사원 자격자 우대\n조사\n(리서치)\n전문가\n·\n①선종별 용대선, ②포워딩, ③해운중개, ④해운시황 분석, ⑤운임·선가 리서치 ①~⑤경력 합산 8년 이상(관련전공* 석사 학위 1년, 박사학위 3년 경력 인정)\n* 국제통상학, 물류학, 경영학, 경제학, 통계학, 산업공학, 금융학 限\n* 지원자격 기준, 경력기간 등은 채용공고 마감일을 기준으로 함\n□\n근로조건\n구분\t주요 내용\n-\n불성실 기재 1회 이상 또는 블라인드 위반 사항 3회 이상 있을경우 부적합(두가지 기준 중 최소 하나에 해당하는 경우 부적합) 처리\n*\n평가방법: 감사인 입회하에 불성실 기재 등 검증, 적합/부적합 여부 판단 후 최종 확정\n불성실\n기재\n·\n기재 내용이 없거나 특정 문자만 기재하는 등 무의미한 답변을 작성한 경우\n·\n항목별 최대 분량의 40% 미만으로 기재한 경우\n·\n타 기업 지원 목적의 내용(기관명 오기재 등)인 경우\n- 공사를 지칭하는 의미가 불확실한 경우 타기관명으로 간주\n- 인정 기관명: 한국해양진흥공사, 해양진흥공사, 해진공, KOBC, kobc 코비씨\n·\n그 외 서류전형 심사위원회에서 인정하는 경우\n블라인드\n위반 사항\n·\n개인 인적사항 기재 등 중대한 사항에 대한 블라인드 채용 위배한 경우\n- 예) 장남으로서, 육군병 복무 시 등\n·\n그 외 서류전형 심사위원회에서 인정하는 경우\nㅇ\n면접전형\n-\n기초능력 및 인성, 태도, 자질 등에 대해 평가 후 합격자 선발\n-\n합격 최저점에 2명 이상의 동점자가 있는 경우 ①취업지원대상자 ②장애인 ③해당분야의 근무경력(근무기간)이 많은 자 순으로 선발\n-\n불합격 기준: 면접전형 평가점수 평균 60점 미만\n-\n배점기준\n평가요소\t배점(100점)\t합격 기준\n기본자세(태도)\t10\t면접위원 평가점수\n평균 60점 이상 시\n의사발표의 정확성과 논리성\t20\n성실성\t10\n전문지식과 응용능력(직무역량)\t40\n조직문화 수용성\t20\nㅇ\n결격사유조회 및 신체검사\n-\n결격사유조회: 공사「인사규정」에 따른 적격 판정\nㅇ\n(신체검사)「건강검진기본법」에 따른 신체검사 진행(비용 공사부담)\n-\n입사예정일로부터 2년 이내 발급받은「건강검진기본법」에 따른 채용 건강검진 대체통보서 또는 국가건강검진 결과로 대체 가능"
+        },
+        {
+          "title": "자격 요건",
+          "body": "□\nㅇ\n아래 공통자격 및 채용분야별 자격기준 모두 충족해야 응시 가능\n-\n모집분야별 중복 지원 불가 및 중복 지원시 불합격 처리, 채용 확정 후 즉시 근무 가능한 자여야 함\n공통자격\n· 성별·연령별 제한 없음(임용예정일 기준 공사 정년(만60세) 미만인 자)\n· 남성의 경우 병역필 또는 면제자\n· 「국가공무원법」 제33조 각 호의 어느 하나에 해당하지 않는 자\n· 한국해양진흥공사 「인사규정」제7조(결격사유)에 해당되지 않는 자\n· 해외여행에 결격사유가 없으며, 입사예정일(‘27. 2. 1.) 즉시 근무 가능한 자"
+        },
+        {
+          "title": "우대 사항",
+          "body": "□\nㅇ\n관련 법령, 채용세칙에 따라 취업지원대상자, 장애인 등 우대(입사지원서 접수 마감일 기준으로 유효할 경우)\n-"
+        },
+        {
+          "title": "근무 조건",
+          "body": "계약기간\t‘27. 2. 1. ~ ’29. 1. 31.(2년)\n근무지역\t본사(부산 해운대구 마린시티2로 38, C1동)\n보 수\t경력요건\t부여 직급\t보수 수준\n8년 이상\t4급\t약 80,448천원\n근무시간\t주5일, 1일 8시간(09:00 ~ 18:00)"
+        },
+        {
+          "title": "전형 절차",
+          "body": "□\n지원서 접수기간: 2026. 11. 4.(수) ~ 11. 18.(수) 16:00\n□\n접수방법: 채용 홈페이지(http://kobc1.scout.co.kr)를 통한 온라인 접수 * 개별 방문, 우편, 이메일을 통한 원서접수 불가\n□\n* 전형별 독립적으로 합격자 선정\n지원서 접수\t⇒\t서류전형\n(적합자 전원선발)\t⇒\t면접전형\n(1배수 내 선발)\t⇒\t결격사유\n조회 등\t⇒\t최종발표\n11. 4.(수)\n~ 11. 18.(수)\t11월 말\t12. 7. ~ 11.\n(부산)\t12월 말\t‘27. 1. 15.(금)\n온라인 접수\t합격자 발표\n11. 30.(월)\t합격자 발표\n12월 중\t입사예정일\n‘27. 2. 1.(월)\n□\n세부일정\n※ 대내외 사정에 따라 장소·일정 등 변경 가능, 변동 시 사전공지 예정\n구 분\t내 용\t일 정\t비 고(합격배수 등)\n1 ⃞ 입사지원서 접수\t온라인 접수\n·\n11. 4.(수) ~ 11. 18.(수)\n-\n2 ⃞ 서류전형\t입사지원서 심사\n·\n합격자 발표: 11. 30.(월)\n·\n적합자 전원 선발\n3 ⃞ 면접 참고자료\n(서류 합격자 전체)\t온라인 인성검사\n·\n11월 말 서류전형\n·\n합격자 발표 후 3일 이내\n·\n미제출 시 면접전형 응시 불가\n4 ⃞ 면접전형\t실무 및 심층면접\n·\n실시: 12. 7. ~ 12. 11.\n·\n합격자 발표: 12월 중\n·\n(전형장소) 부산\n·\n모집인원의 1배수 선발\n5 ⃞ 결격사유조회 등\t결격사유조회\n및 신체검사\n·\n실시: 12월 말\n·\n합격자 발표: ‘27. 1. 15.(금)\n-\n6 ⃞ 임 용\t입사\n·\n‘27. 2. 1.(월)\n-\n* 모든 전형의 합격자 발표는 채용 홈페이지 ’합격자 조회‘를 통해 직접 확인\n□\n단계별 심사기준\nㅇ\n서류전형\n-\n지원자가 제출한 입사지원서(자기소개서, 경험·경력기술서) 대상으로 적합/부적합 여부 판단\n-"
+        },
+        {
+          "title": "유의 사항",
+          "body": "-\n(데이터전문가, 건축사 및 조사(리서치) 전문가) 내부평가 결과에 따라 2년 단위 계약 연장 가능하나 정규직 전환 대상 아님.\n- (선박관리전문가) 근무기간 종료 후 자동 종료\n*\n입사지원서 접수 마감일 기준으로 경력기간을 산정하며, 경력기간 세부업무 증빙 필수, 지원분야와 담당업무간 관련성을 명확히 파악하기 어려울 경우 해당 경력은 미인정, 최종 인정 경력기간에 따라 보수수준 변동됨\n**\n기타수당(연장근로수당, 연차미사용수당) 및 경영평가 성과급 등 미포함"
+        }
+      ],
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "데이터 전문가",
+          "questions": [
+            {
+              "q": "[경력기술서] 경력사항에 기재한 각각의 경력에 대해 지원자가 수행했던 담당 업무(사업)을 소개하고 해당 업무(사업) 내 지원자 본인의 역할과 기여도, 성과 등을 상세히 기술하여 주십시오.",
+              "limit": 2000,
+              "space": true
+            },
+            {
+              "q": "[직무수행계획서] 지원자의 지식/경험/경력 등과 지원분야의 관련성을 중심으로 직무에 대한 지원자의 이해도와 지원동기 및 직무수행계획을 상세하게 기술하여 주십시오.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 2
+        },
+        {
+          "name": "건축사",
+          "questions": [
+            {
+              "q": "[경력기술서] 경력사항에 기재한 각각의 경력에 대해 지원자가 수행했던 담당 업무(사업)을 소개하고 해당 업무(사업) 내 지원자 본인의 역할과 기여도, 성과 등을 상세히 기술하여 주십시오.",
+              "limit": 2000,
+              "space": true
+            },
+            {
+              "q": "[직무수행계획서] 지원자의 지식/경험/경력 등과 지원분야의 관련성을 중심으로 직무에 대한 지원자의 이해도와 지원동기 및 직무수행계획을 상세하게 기술하여 주십시오.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        },
+        {
+          "name": "선박 관리 전문가",
+          "questions": [
+            {
+              "q": "[경력기술서] 경력사항에 기재한 각각의 경력에 대해 지원자가 수행했던 담당 업무(사업)을 소개하고 해당 업무(사업) 내 지원자 본인의 역할과 기여도, 성과 등을 상세히 기술하여 주십시오.",
+              "limit": 2000,
+              "space": true
+            },
+            {
+              "q": "[직무수행계획서] 지원자의 지식/경험/경력 등과 지원분야의 관련성을 중심으로 직무에 대한 지원자의 이해도와 지원동기 및 직무수행계획을 상세하게 기술하여 주십시오.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "조사(리서치) 전문가",
+          "questions": [
+            {
+              "q": "[경력기술서] 경력사항에 기재한 각각의 경력에 대해 지원자가 수행했던 담당 업무(사업)을 소개하고 해당 업무(사업) 내 지원자 본인의 역할과 기여도, 성과 등을 상세히 기술하여 주십시오.",
+              "limit": 2000,
+              "space": true
+            },
+            {
+              "q": "[직무수행계획서] 지원자의 지식/경험/경력 등과 지원분야의 관련성을 중심으로 직무에 대한 지원자의 이해도와 지원동기 및 직무수행계획을 상세하게 기술하여 주십시오.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ],
+      "applicants": 3
+    },
+    "jasoseol-107061": {
+      "sections": [
+        {
+          "title": "자격 요건",
+          "body": "2027년 2월 졸업 예정자 또는 기졸업자로, 2027년 3월부터 인턴십 기간 동안 풀타임 근무가 가능하신 분\n게임 기획이나 게임 프로그래밍(서버, 클라이언트) 직무를 준비해 온 분 중 'AI를 활용해 문제를 해결하는 역량'을 갖추신 분\n문제 해결 역량\nAI 리더십\nAI와 사람의 역할을 명확히 구분하여 최적의 워크플로우를 설계하고,\n주도적으로 문제를 해결해 나가는 힘\n구조화 능력\n문제가 무엇인지 먼저 정의하고,\n핵심을 짚어 실행할 수 있는 단위로 나누어 정리하는 힘\n학습 실행력\n새로운 도구와 방식에 민감하게 반응해 빠르게 학습하고,\n배운 것을 바로 적용해 상황에 맞게 응용하는 힘"
+        },
+        {
+          "title": "우대 사항",
+          "body": "AI를 활용해 결과물을 직접 만들어 본 경험이 있는 분 (게임잼, 공모전, 개인 프로젝트 산출물 등)\n직무의 경계를 넘어 결과물을 완성해 본 경험이 있는 분\n과업을 구조화하고 AI와 협업하며 주도적으로 실행한 경험이 있는 분\n프로그래밍에 대한 이해를 바탕으로 AI와 능숙하게 협업하고 결과물을 만들어 본 경험이 있는 분\n전형 일정"
+        },
+        {
+          "title": "근무 조건",
+          "body": "서울특별시 구로구 디지털로26길 38, G-Tower"
+        },
+        {
+          "title": "전형 절차",
+          "body": "인턴십\n콘텐츠\n11. 11.(수) 지원 시작\nNew. Expanding. Outstanding. netmarble Neo\nAI로 만드는 게임의 미래\n2026 넷마블네오 AI 인턴십\n직무의 경계를 넘어서, AI와 함께 게임을 만들 분들을 모십니다.\nNEW\n모집 공고\nAI Game Maker\n아이디어를 실제로 플레이할 수 있는 게임으로 만드는 일을 합니다.\nAI를 도구 삼아 기획과 개발의 경계를 넘나들며, 하나의 결과물을 끝까지 완성합니다.\n채용 형태\n통합 직무 · 채용연계형 인턴십\n인턴십\n2027년 3월부터 5개월"
+        },
+        {
+          "title": "지원 방법",
+          "body": "11. 11.(수) 12:00 ~ 11. 24.(화) 23:59\n11. 11.(수) 지원 시작\n모집 공고 보기\n06\n일\n08\n시간\n15\n분\n03\n초\n취\n취준 노트\n✨\nAI에게 묻기\n기록\n✅\n오늘 할 일\n🎮\n플레이 노트\n🧪\nAI 실험 로그\n만든 것\n📝\n어라이즈 역기획서\n🕹️\n게임 프로토타입 2개\n🐞\nQA 알바 자동화\n📎\n포트폴리오\n지원\n⭐\n넷마블네오 AI 인턴십\n♪\n작업할 때 듣는 것\nlo-fi 게임 OST 모음\n‹\n›\n취준 노트\n/\n오늘 할 일\n⤢\n⋯\n✕\n✅오늘 할 일\n2026년 11월 5일 목요일 ／ 매일 반복\n내 것\n🔒 비공개\n✓\n뱀피르 신규 클래스 해 보고 느낀 점 메모\n✓\n어라이즈 전투 시스템 역기획서, Claude로 문장 다듬기\n역기획서 포트폴리오에 올리기\n넷마블네오 채용 공고 확인\n공고 기다리는 중\n🎯\n이번 달 목표\n뱀피르 누적 플레이 300시간\n212 / 300\n나 혼자만 레벨업: 어라이즈 역기획서\n3 / 5장\nAI로 게임 프로토타입 1개 완성\n60%\n내가 가고 싶던 넷마블네오!\n공고 뜨면 바로 지원해야지.\n기획도 개발도 해 보고 싶은데,\n넷마블네오에 그런 자리 없나?\n🧪\nAI 실험 로그\n⚔️ 액션 전투 프로토타입 v3 ／ 어라이즈 역기획에서 출발\n🤖 AI에게 맡긴 것\n스킬 데미지 표 초안\n전투 씬 코드\n버그 원인 후보 정리\n✍️ 내가 한 것\n무엇이 문제인지 정의하기\n손맛 나는 타격감 기준 정하기\n결과 보고 고칠 방향 판단하기\n🧭\nAI 활용 순서\n1\n상황 정의\n어라이즈 역기획 중, 3타 이후 전투가 단조롭다고 느낌\n구조화\n2\n문제, 목표 정의\n스킬 연계가 끊기는 게 원인. 연계 콤보로 검증하기\n구조화\n3\n작게 쪼개기\n스킬 3종 설계, 데미지 표, 전투 씬 구현\n구조화\n4\nAI 협업 세팅\n기획은 Claude, 코드는 Cursor. 나만의 지시문 템플릿\nAI 리더십\n5\n실행하며 익히기\n처음 쓰는 엔진 기능, 이틀 만에 익혀 v3까지\n학습 실행력\n다른 실험\n🏰 던전 맵 생성기\n🐞 QA 버그 정리봇\nANSWER\n#\n통합 직무\n직무의 경계 없이 게임을 만들어요\n#\n실무 경험\n실제 개발 현장에서 5개월을 보내요\n#\nAI 문제 해결 역량\n첫 커리어부터 AI와 함께 일해요\n내 노트에 저장\n서류 접수 2026. 11. 11. 12:00 ~ 11. 24. 23:59\n📍 매일 하는 게임을 만든 곳.\n언젠가 나도 여기서 게임을 만들고 싶다\n⭐\n넷마블네오 AI 인턴십\n방금 내 노트에 저장함 ／ 서류 마감까지 20일\n모집 단위\n통합 직무\n인턴십 특징\nAI 문제 해결 역량이 중요\n지원 기간\n2026. 11. 11.(수) 12:00 ~ 11. 24.(화) 23:59\n인턴십 기간\n2027년 3월부터 · 5개월\n✓\n게임 두 개 + QA 도구 링크 정리\n지원서 쓰기\n🗓️\n전형 일정\n11. 11. ~ 11. 24.\nAI 활용 테스트\n12월 중\n1차 면접\n1월 중\n역량검사\n1월 중\n2차 면접\n2월 중\n채용검진\n2월 중\n최종 발표\n2월 중\nN.E.O. — NEW · EXPANDING · OUTSTANDING\n넷마블네오, [\n새로운\n확장하는\n탁월한\n] 나를 만나는 곳\nNew\n새로운\n완전히 새로운 방식의 인턴십을 시작합니다.\n기획과 프로그래밍을 나누는 직무 경계를 허뭅니다.\nAI와 함께 문제를 해결하는 과정을 경험합니다.\n단편적인 AI 지식이 아닌, 아이디어를 결과물로 도출해 내는 역량에 집중합니다.\n2026. 11. 11. 12:00 ~ 11. 24. 23:59\nAI 활용 테스트\n2026년 12월 중\n1차 면접\n2027년 1월 중\n역량검사\n2027년 1월 중\n2차 면접\n2027년 2월 중\n채용검진\n2027년 2월 중\n최종 발표\n2027년 2월 중\n인턴십 시작\n2027년 3월\n※ 전형 일정 등 일부 내용은 회사 사정에 따라 변경될 수 있습니다. 변경 시 개별 안내드립니다.\n※ 인턴십 기간 중 최종 평가를 통해 정규직 전환 여부가 결정됩니다.\n접기\nExpanding\n확장하는\nAI와 함께, 여러분의 가능성을 무한히 확장합니다.\nAI와 함께 무엇이든 자유롭게 시도할 수 있습니다.\n동료 인턴 및 선배들과 함께 직접 게임을 기획하고 구현해 봅니다.\n인턴십 멘토링 프로그램을 통해 체계적으로 성장할 수 있습니다.\n인턴십 과정 보기\nEXPANDING\n넷마블네오 채용연계형 인턴십 소개\nAI로 기존의 한계를 넘어서는 것, 그것이 우리가 가는 방향입니다.\n01\n넷마블네오에서 AI와 무한한 가능성을 엽니다\n최적의 AI 도구와 환경 속에서\n게임회사 실무에 AI를 활용하는 법을 배웁니다.\n인턴이라고 시키는 일만 기다릴 필요는 없습니다.\n스스로 과제를 찾고 끝까지 주도하는 실무자로 성장합니다.\nㅋㅋ\n인턴 때 무엇을 해 볼 수 있어요?\n유완\n강유완\nAI 도구를 마음껏 써 보면서 실무자들의 노하우를 배웠어요!\n우진\n왕우진\n인턴 때 기획한 신규 스킬이 실제 라이브에 나갔어요. 정말 뿌듯했어요.\n02\n동료와 함께 게임을 만듭니다\n동료 인턴과 AI로 게임을 직접 제작합니다. 기획자도 코드를 작성하고 프로그래머도 기획에 참여하며, 경계를 넘어 팀으로 시너지를 내는 법을 익힙니다.\n인턴십 기간 중 넷마블네오의 개발 조직에 배치되어 현업에서 일하는 방식을 곁에서 직접 배웁니다.\nㅋㅋ\n인턴십 기간에 팀 프로젝트도 했다면서요!?\n준\n조준\n저는 기획자인데 PM 업무와 코딩까지 하며 직무의 경계를 넘어 AI 도구를 활용해 게임을 제작했어요.\n현진\n이현진\n서로 모르는 걸 배우면서 함께 성장할 수 있었어요. 회사에서 팀이 왜 존재하는지, 협업이 왜 중요한지 알게 됐어요.\n03\n체계적 멘토링을 지원합니다\n작업물 피드백부터 회사 생활 고민까지,\n멘토가 곁에서 함께합니다.\n누구에게 물어봐야 할지 고민하지 않아도 됩니다.\n멘토는 물론 현업 선배들과 대화하며\n성장 경로를 미리 그려 봅니다.\nㅋㅋ\n모르는 게 생기면 누구한테 물어봐요?\n예담\n유예담\n처음이라 모르는 것이 많았는데, 사소한 것도 멘토님께 편하게 물어볼 수 있었어요.\n용정\n김용정\n멘토님이 제3자의 시각에서 작업물을 봐 주셔서 직무 역량도 많이 성장했어요.\nSTORY\n2025 인턴십 선배방 전체 대화 보기\n작년 인턴십을 먼저 경험한 선배들의 회고부터 요즘 AI로 하는 일까지 이야기를 나눠요. 눌러서 단톡방에 들어가 보세요.\n접기\nOutstandi"
+        }
+      ],
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "AI Game Maker (게임기획/개발 통합 직무)",
+          "questions": [],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-107065": {
+      "image": "https://static.toss.im/disposables/career-resource/2611_infosec.png",
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "IT Security Specialist",
+          "questions": [
+            {
+              "q": "자기소개서 문항이 존재하지 않습니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        }
+      ]
+    },
+    "jasoseol-107072": {
+      "sections": [
+        {
+          "title": "회사 소개",
+          "body": "해외법인관리팀은 에이피알의 글로벌 비즈니스가 각 국가에서 안정적이고 지속 가능하게 운영될 수 있도록 해외 자회사들의 영업·운영 전반을 관리하고 지원하는 조직입니다.\n각 해외법인의 매출·비용 등 주요 지표를 점검 및 결산하고, 국가별 사업 환경과 리스크를 고려한 운영 구조를 설계하며, 신규 국가 진출 및 법인 설립 과정에서도 초기 세팅부터 안정화까지 전 과정을 함께합니다.\n에이피알이 빠른 속도로 글로벌 시장을 확장해 나가는 가운데, 해외법인관리팀은 다양한 유관 부서와 긴밀히 협업하며 글로벌 성장 전략을 실행해 나가고 있습니다.\n글로벌 비즈니스를 넓은 시야에서 이해하고, 다양한 분야의 문제해결을 통해 성장하고 싶으신 분들이라면 망설이지 말고 지원해주세요.\n(💬 리더 인터뷰 바로가기)\n이런 일을 해요\n해외법인 매출/비용 취합, 검토 및 전표 마감을 통한 회계적 안정화 기여\n제품, 플랫폼별 결산 데이터 분석을 통한 경영 인사이트 도출\n신규 국가 진출 검토 및 다분야 제도 검토를 통한 운영 안정화\n해외법인 유관부서 운영 및 영업활동 지원 전반\n이런 역량이 가장 중요해요\n법인 운영 간의 이슈를 신속하게 파악하고, 원인을 분석하여 효과적인 해결책을 제시할 수 있는 역량\n업무를 능동적으로 수행하고, 문제 발생 시 적극적으로 해결하려는 자세\n다양한 유관부서와 원활하게 소통하고 협력할 수 있는 커뮤니케이션 역량"
+        },
+        {
+          "title": "자격 요건",
+          "body": "4년제 학사 졸업 또는 졸업 예정자\nExcel, PowerPoint 등 기본 OA 활용이 가능하신 분\n우수한 영어 비즈니스 커뮤니케이션를 보유하신 분\n회계 및 재무 관련 기본적인 이해도를 보유하신 분\n뷰티/소비재 업계에 대한 관심이 있으신 분\n인턴 근무 종료 후 정규직 전환 시 계속 근로에 결격 사유가 없으신 분"
+        },
+        {
+          "title": "우대 사항",
+          "body": "상경계열 전공자 (경영, 회계, 국제통상 등)\n제 2외국어 역량을 보유하신 분\n해외법인 운영, 글로벌 사업 지원, 회계/재무 관련 인턴 경험이 있으신 분\n정기적인 결산 관리 업무 경험 혹은 ERP 시스템 사용 경험이 있으신 분\n보훈 및 장애 대상자는 관련 법령에 따라 우대\n지원 전 반드시 확인해 주세요"
+        },
+        {
+          "title": "근무 조건",
+          "body": "인턴 3개월 계약직(기간 내 우수근무자에 한해 정규직 전환 기회 부여)\n인턴 기간 : 월 300만원(세전)\n정규직 전환 시 : 계약연봉 5,000만원\n대졸 신입사원 기준, 성과급(PS/PI) 별도\n근무시간: 시차출퇴근 제도 시행(오전8시 ~ 11시 사이, 30분 단위로 출근시간 선택)\n근무지: 잠실 롯데타워 27층, 에이피알 본사\n에이피알 합류 여정을 소개해요\n[인턴]\n서류전형 > 조직적합도검사 및 면접전형 > 최종 합격\n본 공고는 지원 접수된 순서대로 검토 및 면접이 진행되는 수시채용으로 진행됩니다.\n최종 제출 후에는 지원서 수정이 불가하오니 이 점 유의하여 주시기 바랍니다.\n지원서 내용이 사실과 다르거나, 허위 서류를 제출하신 경우 채용이 취소될 수 있습니다.\n👉더욱 자세한 에이피알의 합류 여정 알아보기\n지원 시 참고해 보세요\n에이피알 기업 홈페이지 (클릭)\n에이피알 채용 공식 SNS (블로그 / 유튜브 / 인스타그램 / 링크드인)\n인턴\n에이피알(27층)\n[경영지원] 해외법인 관리/결산 채용연계형 인턴사원 모집"
+        },
+        {
+          "title": "유의 사항",
+          "body": "시스템상 반복되는 오류가 있으실 경우, 크롬으로 접속 부탁드립니다.\n기타 문의 사항은 FAQ 참조 또는 에이피알 인재채용팀 메일(recruit@apr-in.com)을 통해 이용 부탁드립니다.\n직군\n경영지원\n경력 사항\n신입"
+        }
+      ],
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "해외법인 관리/결산",
+          "questions": [
+            {
+              "q": "본인이 해당 직무에 적합하다고 판단하는 이유와 근거를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "에이피알이 지향하는 4가지 인재상(Make it, Grow up, Work Together, Customer Success) 중에서 하나를 선택하고, 해당 핵심가치와 부합하는 경험 또는 성과를 구체적으로 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            },
+            {
+              "q": "에이피알에 지원한 동기와 입사 후 이루고자 하는 목표 및 포부를 작성해주세요(글자수 제한 없음)",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 2
+        }
+      ],
+      "applicants": 2
+    },
+    "jasoseol-107038": {
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "개발부",
+          "questions": [
+            {
+              "q": "자소설닷컴에 등록된 문항이 없어요.\n- 채용 사이트에서 문항을 확인해 입력하면 자기소개서를 작성할 수 있어요.\n- 자기소개서를 받지 않는 공고일 수도 있어요.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        },
+        {
+          "name": "영업부",
+          "questions": [
+            {
+              "q": "자소설닷컴에 등록된 문항이 없어요.\n- 채용 사이트에서 문항을 확인해 입력하면 자기소개서를 작성할 수 있어요.\n- 자기소개서를 받지 않는 공고일 수도 있어요.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        }
+      ],
+      "applicants": 2
+    },
+    "jasoseol-107052": {
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "국가통합브랜드·K-FISH 운영 및 홍보",
+          "questions": [
+            {
+              "q": "자기소개, 지원동기, 주요경력, 업무활용능력 등을 구분하여 기술",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 5
+        },
+        {
+          "name": "코리아씨푸드쇼 기획·운영",
+          "questions": [
+            {
+              "q": "자기소개, 지원동기, 주요경력, 업무활용능력 등을 구분하여 기술",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 3
+        },
+        {
+          "name": "연구사업 회계 처리 및 행정업무 지원",
+          "questions": [
+            {
+              "q": "자기소개, 지원동기, 주요경력, 업무활용능력 등을 구분하여 기술",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 2
+        }
+      ],
+      "applicants": 10
+    },
+    "jasoseol-107057": {
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "생산-창원",
+          "questions": [
+            {
+              "q": "세아제강에 지원하게 된 동기를 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "지원한 분야 및 직무를 수행하기 위한 본인의 보유 역량을 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "세아제강 핵심가치 중, 본인에게 가장 부합되는 가치와 그 이유를 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "타인과 협업했던 경험과 그 과정에서 본인은 어떠한 역할을 담당하였으며, 무엇을 느꼈는지 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "기존의 방법을 개선하여 성공적인 결과를 도출하였던 경험이 있다면 기술하시오.",
+              "limit": 500,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "설비관리-창원",
+          "questions": [
+            {
+              "q": "세아제강에 지원하게 된 동기를 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "지원한 분야 및 직무를 수행하기 위한 본인의 보유 역량을 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "세아제강 핵심가치 중, 본인에게 가장 부합되는 가치와 그 이유를 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "타인과 협업했던 경험과 그 과정에서 본인은 어떠한 역할을 담당하였으며, 무엇을 느꼈는지 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "기존의 방법을 개선하여 성공적인 결과를 도출하였던 경험이 있다면 기술하시오.",
+              "limit": 500,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        }
+      ],
+      "applicants": 1
+    },
+    "jasoseol-107059": {
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "영업 및 마케팅-솔루션 영업",
+          "questions": [
+            {
+              "q": "자기소개서 문항이 존재하지 않습니다.",
+              "limit": 0,
+              "space": true
+            }
+          ],
+          "applicants": 6
+        }
+      ],
+      "applicants": 6
+    },
+    "jasoseol-106982": {
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "마케팅 - ETC PM",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 9
+        },
+        {
+          "name": "개발 - RA",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 3
+        },
+        {
+          "name": "글로벌 - 글로벌BD",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 3
+        },
+        {
+          "name": "글로벌 - 해외RA",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "임상의학 - PV",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        },
+        {
+          "name": "임상의학 - MSL",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "임상의학 - 임상 QA",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "품질 - 품질보증",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 14
+        },
+        {
+          "name": "품질 - 품질관리",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 16
+        },
+        {
+          "name": "품질(생산직) - 품질관리(전문학사)",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        },
+        {
+          "name": "품질(생산직) - 품질관리(계약직)",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        },
+        {
+          "name": "생산(생산직) - 주사제(생산)",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "생산(생산직) - 고형제(생산)",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        },
+        {
+          "name": "생산(생산직) - 공무(공조)",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "생산(생산직) - 물류행정(계약직)",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "생산(생산직) - 물류(계약직)",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 0
+        },
+        {
+          "name": "[제일헬스사이언스] 마케팅 - OTC PM",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 2
+        },
+        {
+          "name": "[제일헬스사이언스] 영업 - OTC영업 MR",
+          "questions": [
+            {
+              "q": "제일약품을 선택한 이유와 지원 직무에 관심을 갖게 된 계기를 구체적으로 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "지원 직무 수행에 필요한 핵심 역량은 무엇이라 생각하며, 이를 위해 노력했던 경험을 작성해 주세요.",
+              "limit": 800,
+              "space": true
+            },
+            {
+              "q": "입사 후 이루고자 하는 목표와 이를 위한 계획을 작성해 주세요.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "경력사항과 보유기술에 대해 구체적으로 설명해주세요.\n※ 경력 지원자에 한하여 구체적인 업무 경험과 성과를 중심으로 작성해 주세요.",
+              "limit": 2000,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        }
+      ],
+      "applicants": 52
+    },
+    "jasoseol-107071": {
+      "at": "2026-11-04",
+      "tracks": [
+        {
+          "name": "안전보건관리자",
+          "questions": [
+            {
+              "q": "자신의 가치관에 대해 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "주위 사람들이 평가하는 나에 대해서 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "해당 직무 수행과 관련하여 가지고 있는 개인의 강점 및 경험을 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "살아오면서 부딪혔던 가장 큰 장애물은 무엇이고, 극복하기 위해 어떤 노력을 했는지 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "특별히 하고 싶은 말이 있다면, 기술하시오.",
+              "limit": 500,
+              "space": true
+            }
+          ],
+          "applicants": 5
+        },
+        {
+          "name": "QA",
+          "questions": [
+            {
+              "q": "자신의 가치관에 대해 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "주위 사람들이 평가하는 나에 대해서 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "해당 직무 수행과 관련하여 가지고 있는 개인의 강점 및 경험을 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "살아오면서 부딪혔던 가장 큰 장애물은 무엇이고, 극복하기 위해 어떤 노력을 했는지 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "특별히 하고 싶은 말이 있다면, 기술하시오.",
+              "limit": 500,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        },
+        {
+          "name": "플랫폼커뮤니티마케팅",
+          "questions": [
+            {
+              "q": "자신의 가치관에 대해 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "주위 사람들이 평가하는 나에 대해서 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "해당 직무 수행과 관련하여 가지고 있는 개인의 강점 및 경험을 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "살아오면서 부딪혔던 가장 큰 장애물은 무엇이고, 극복하기 위해 어떤 노력을 했는지 기술하시오.",
+              "limit": 500,
+              "space": true
+            },
+            {
+              "q": "특별히 하고 싶은 말이 있다면, 기술하시오.",
+              "limit": 500,
+              "space": true
+            }
+          ],
+          "applicants": 1
+        }
+      ],
+      "applicants": 7
     }
   }
 }

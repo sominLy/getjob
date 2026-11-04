@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-03T18:32:29.306Z",
+  "collectedAt": "2026-11-04T18:44:08.832Z",
   "errors": {},
   "jobs": [
     {
@@ -10,7 +10,7 @@
       "url": "https://toss.im/career/job-detail?job_id=7639910003",
       "years": null,
       "noLimit": false,
-      "evidence": "개인사업자(SOHO) 대상 여신 상품을 다뤄본 경험이 있으신 분을 찾고 있어요.",
+      "evidence": "개인사업자 대상 여신 상품을 다뤄본 경험이 있으신 분을 찾고 있어요.",
       "roles": [
         "프로덕트 기획"
       ],
@@ -22,7 +22,7 @@
       "bucket": "unstated",
       "fit": true,
       "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n개인사업자(SOHO) 대상 여신 상품을 다뤄본 경험이 있으신 분을 찾고 있어요.\n여신 상품의 구조와 정책을 이해하고, 이를 상품 전략 차원에서 고민해본 경험이 있으신 분을 기대해요.\n복잡한 요인을 제품 요건과 프로세스로 정리해본 경험이 있으신 분을 찾고 있어요.\n오프라인 중심의 운영 경험에 머무르지 않고, 비대면 상품 구조로 전환하거나 기획에 참여해본 경험이 있다면 좋아요.\n현장 경험이 있더라도, 이를 바탕으로 “비대면 환경에서는 우리의 상품을 어떻게 풀 수 있을까?”를 고민해본 분이면 좋아요.\n여러 이해관계자와 협업하며 주도적으로 판단하고 실행으로 이어진 경험을 지닌 분이 필요해요.\n\n이런 경험이 있다면 더 좋아요\n\n개인사업자 여신 상품을 비대면 채널로 기획·개선해본 경험\n여신 정책·프로세스를 시스템 로직으로 설계해본 경험\n모바일 금융 서비스 또는 인터넷전문은행 환경에서의 상품 기획 경험\n여신 포트폴리오 전략 수립 및 데이터 기반 정책 개선 경험\n오프라인 운영 경험을 디지털 상품 설계로 확장해본 경험\n개인사업자 대상 마케팅 전략을 수립해 본 경험\n\n"
+      "jd": "이런 분과 함께하고 싶어요\n\n개인사업자 대상 여신 상품을 다뤄본 경험이 있으신 분을 찾고 있어요.\n여신 상품의 구조와 정책을 이해하고, 이를 상품 전략 차원에서 고민해본 경험이 있으신 분을 기대해요.\n복잡한 요인을 제품 요건과 프로세스로 정리해본 경험이 있으신 분을 찾고 있어요.\n오프라인 중심의 운영 경험에 머무르지 않고, 비대면 상품 구조로 전환하거나 기획에 참여해본 경험이 있다면 좋아요.\n현장 경험이 있더라도, 이를 바탕으로 “비대면 환경에서는 우리의 상품을 어떻게 풀 수 있을까?”를 고민해본 분이면 좋아요.\n여러 이해관계자와 협업하며 주도적으로 판단하고 실행으로 이어진 경험을 지닌 분이 필요해요.\n\n이런 경험이 있다면 더 좋아요\n\n개인사업자 여신 상품을 비대면 채널로 기획·개선해본 경험\n여신 정책·프로세스를 시스템 로직으로 설계해본 경험\n모바일 금융 서비스 또는 인터넷전문은행 환경에서의 상품 기획 경험\n여신 포트폴리오 전략 수립 및 데이터 기반 정책 개선 경험\n오프라인 운영 경험을 디지털 상품 설계로 확장해본 경험\n개인사업자 대상 마케팅 전략을 수립해 본 경험\n\n"
     },
     {
       "source": "toss",
@@ -397,7 +397,7 @@
     {
       "source": "toss",
       "company": "토스뱅크",
-      "title": "Technical Product Owner · 공통 · AI",
+      "title": "Technical Product Owner · 공통",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=8097990003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
       "years": null,
@@ -407,8 +407,7 @@
         "프로덕트 기획"
       ],
       "reqs": [
-        "SQL·데이터",
-        "AI·LLM"
+        "SQL·데이터"
       ],
       "bucket": "unstated",
       "fit": true,
@@ -418,7 +417,7 @@
     {
       "source": "toss",
       "company": "토스플레이스",
-      "title": "Technical Product Owner · 공통",
+      "title": "Technical Product Owner (공통)",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=6585474003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
       "years": null,
@@ -479,27 +478,7 @@
     {
       "source": "toss",
       "company": "토스",
-      "title": "Marketing Team Leader (Global)",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7993829003",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "10년 이상 모바일 App/Web에 대한 높은 이해를 바탕으로 프로덕트 마케팅 전략 수립 경험이 있으시면 더욱 좋습니다.",
-      "roles": [
-        "마케팅·브랜드"
-      ],
-      "reqs": [
-        "SQL·데이터"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n프로덕트 데이터 분석에 대한 높은 이해도를 가지고 마케팅 또는 제품을 통해 Epic Growth를 만들어 낸 경험이 있는 분\n다양한 실험으로 가설을 검증하며, 끊임없는 Iteration을 통해 최적의 CAC를 찾아낸 경험이 있는 분\nTracking 가능한 마케팅 전략을 수립하고, Performance 검증 후 과감한 의사결정과 실행이 가능하신 분\n모바일 비즈니스에 대한 높은 이해도를 바탕으로 주요 지표 개선할 수 있는 분 (User Acquisition, Activation, Resurrection, Retention, Frequency)\n단순 매니징이 아닌 실무에 대한 높은 이해도를 바탕으로 팀 전체의 역량을 이끌어내고 Player-Coach로서 Growth 전략을 도출할 수 있는 분\n\n이런 경험이 있다면 더 좋아요\n\n10년 이상 모바일 App/Web에 대한 높은 이해를 바탕으로 프로덕트 마케팅 전략 수립 경험이 있으시면 더욱 좋습니다.\nProduct Owner로서 제품을 직접 만들어 유의미한 성과를 만들어 낸 경험이 있으시면 더 좋습니다.\nSQL, Python, R, Spark 등 데이터 프로세싱을 자유롭게 다루고, 분석에 그치는 것이 아닌 실행으로 만들어낸 경험이 있으시면 더 좋습니다.\nReferral 설계를 통해 중장기적으로 유의미한 Growth를 만들어 낸 경험이 있으시면 더 좋습니다.\nCRM 마케팅에 대한 높은 이해도를 가지고 Resurrection, Retention, Frequency를 개선한 경험이 있으시면 더 좋습니다.\n글로벌 프로덕트 마케팅 경험이 있으시면 더 좋습니다.\n\n토스로의 "
-    },
-    {
-      "source": "toss",
-      "company": "토스",
-      "title": "마케팅 매니저 · Creative · Growth",
+      "title": "마케팅 매니저 (Marketing Manager) · Creative · Growth",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=7786447003&company=%ED%86%A0%EC%8A%A4",
       "years": null,
@@ -519,7 +498,7 @@
     {
       "source": "toss",
       "company": "토스인슈어런스",
-      "title": "마케팅 매니저 · Marketing Manager",
+      "title": "마케팅 매니저 (Marketing Manager)",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=7995571003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%8A%88%EC%96%B4%EB%9F%B0%EC%8A%A4",
       "years": 5,
@@ -541,7 +520,7 @@
     {
       "source": "toss",
       "company": "토스인컴",
-      "title": "마케팅 매니저 · Growth",
+      "title": "마케팅 매니저 (Marketing Manager) · Growth",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=6651340003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%BB%B4",
       "years": null,
@@ -561,7 +540,7 @@
     {
       "source": "toss",
       "company": "토스",
-      "title": "브랜드 매니저 · Event · Marketing",
+      "title": "브랜드 매니저 (Brand Manager) · Event · Marketing",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=7847411003&sub_position_id=7847411003&company=%ED%86%A0%EC%8A%A4",
       "years": null,
@@ -579,7 +558,7 @@
     {
       "source": "toss",
       "company": "토스플레이스",
-      "title": "브랜드 매니저 · Brand Manager",
+      "title": "브랜드 매니저 (Brand Manager)",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=7847411003&sub_position_id=6508297003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
       "years": null,
@@ -1263,28 +1242,6 @@
       "fit": false,
       "firstSeen": "2026-10-01",
       "jd": "SKILLS YOU'LL NEED TO BRING:\n\n - 5+ years of experience in tech services/consulting, solutions architecture, implementation, customer engineering, or a similar customer-facing role.\n\n - Proven ability to translate ambiguous customer goals into clear workflows, implementation plans, solution architectures, and measurable success criteria.\n\n - Strong consultative discovery skills, including the ability to map current-state workflows, identify customer pain, understand operating models, surface technical constraints, and define practical future-state solutions.\n\n - Hands-on AI builder mindset, with experience using AI tools to design, prototype, automate, or improve real business workflows.\n\n - Proven track record of designing and deploying AI-powered workflows or agents in production for customers.\n\n - Hands-on technical depth in data modeling and permission design, API and integration patterns, agent design and evaluation, enterprise security and governance, and data validation with SQL or scripts. You do not need to write production code.\n\n - Strong experience delivering implementations that drive adoption, change management and long-term customer value.\n\n - Strong project and engagement management skills, including ownership of scope, timeline, deliverables, stakeholder alignment, risks, decisions, dependencies and launch readiness.\n\n - Experience scoping Services work, estimating effort and delivering within agreed commercial boundaries.\n\n - Exceptional written and verbal communication, with the ability to simplify complex technical concepts for business, technical, and executive audiences.\n\n - Strong executive presence and customer judgment, with the ability to build trust, frame tradeoffs clearly, and move ambiguous decisions forward.\n\n - Experience coaching consultants or architects, and building methods, reference architectures or packaged services that others adopt.\n\n - Bias toward action, high learning velocity, and comfort building in fast-changing AI-native product environments.\n\n - Professional fluency in Korean and English.\n\n\n\n\nNICE TO HAVES:\n\n - Experience with Notion, APIs, MCPs, Workers, coding agents or developer platform workflows.\n\n - Experience delivering for large Korean enterprises and navigating complex, multi-stakeholder decision processes.\n\n - Experience enabling or co-delivering with implementation partners.\n\n - Previous experience in a fast-paced, high-growth technology environment.\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI experti"
-    },
-    {
-      "source": "anthropic",
-      "company": "Anthropic",
-      "title": "Applied AI Architect",
-      "location": "Seoul, South Korea",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390735008",
-      "years": 5,
-      "noLimit": false,
-      "evidence": "5+ years of relevant experience",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "requirements and translate them into technical solutions, ensuring alignment between business objectives and technical implementation\n Serve as the primary technical advisor to enterprise customers across South Korea throughout their Claude adoption journey, from discovery to initial evaluation through deployment. You will need to coordinate internally across multiple teams &amp; stakeholders to drive customer success\n Support customers building with both the Claude API and Claude for Work&nbsp;\n Create and deliver compelling technical content tailored to different audiences across South Korea. You will need to be able to run the gamut from technical deep dives for engineering &amp; development teams up to business value focused conversations with executives\n Guide technical architecture decisions and help customers across South Korea integrate Claude effectively into their existing technology stack\n Help customers develop evaluation frameworks to measure Claude's performance for their specific use cases\n Identify common integration patterns and contribute insights back to our Product and Engineering teams\n Travel occasionally to customer sites for workshops, technical deep dives, and relationship building\n Maintain strong knowledge of the latest developments in LLM capabilities and implementation patterns\n Minimum qualifications\n Experience in technical customer-facing roles such as Solutions Architect, Sales Engineer, or Technical Account Manager\n Native-level Korean fluency and business-level English required\n Experience working with enterprise customers, navigating complex buying cycles involving multiple stakeholders\n Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders to include C-suite executives, engineering &amp; IT teams, and more\n Strong technical communication skills with the ability to translate customer requirements between technical and business stakeholders\n Preferred qualifications \n 5+ years of relevant experience\n Experience designing scalable cloud architectures and integrating with enterprise systems\n Comfortable with python\n Familiarity with common LLM frameworks and tools or a background in machine learning or data science\n Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n A love of teaching, mentoring, and helping others succeed\n Excellent communication and interpersonal skills, able to convey complicated topics in easily understandable terms to a diverse set of external and internal stakeholders. You enjoy engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems\n Deadline to apply: None. Applications will be reviewed on a rolling basis.\n "
     },
     {
       "source": "anthropic",

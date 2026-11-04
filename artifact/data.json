@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-03T18:30:27.733046+00:00",
+ "collectedAt": "2026-11-04T18:42:16.970563+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -140,6 +140,20 @@
    "openDate": "2025-04-03",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "글로벌 사업 운영지원 (3개월 계약직)",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/243335",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-04",
+   "new": true,
+   "found": "2026-11-04"
   },
   {
    "회사": "CJ올리브영",
@@ -480,7 +494,7 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
-   "title": "[강남언니] 브랜드 마케터 (주니어)",
+   "title": "[강남언니] 브랜드 마케터",
    "career": "경력 1년~3",
    "emp": "정규직",
    "due": "상시",
@@ -544,22 +558,8 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-11-03",
-   "new": true,
-   "found": "2026-11-03"
-  },
-  {
-   "회사": "강남언니",
-   "플랫폼": "greetinghr",
-   "title": "[강남언니] 미국 사업개발 인턴 (체험형)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.gangnamunni.com/ko/o/237371",
-   "cat": "전략·사업",
-   "intern": true,
-   "openDate": "2026-09-17",
    "new": false,
-   "found": "2026-10-03"
+   "found": "2026-11-03"
   },
   {
    "회사": "강남언니",
@@ -586,7 +586,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-11-03",
-   "new": true,
+   "new": false,
    "found": "2026-11-03"
   },
   {
@@ -1152,6 +1152,20 @@
   {
    "회사": "무신사",
    "플랫폼": "greetinghr",
+   "title": "Associate MD (트렌드상품 & IP 기획)",
+   "career": "-",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://www.musinsacareers.com/ko/o/242947",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-11-04",
+   "new": true,
+   "found": "2026-11-04"
+  },
+  {
+   "회사": "무신사",
+   "플랫폼": "greetinghr",
    "title": "Category Marketing Assistant (29CM)",
    "career": "경력 1년~",
    "emp": "계약직",
@@ -1176,6 +1190,20 @@
    "openDate": "2026-10-30",
    "new": false,
    "found": "2026-10-30"
+  },
+  {
+   "회사": "무신사",
+   "플랫폼": "greetinghr",
+   "title": "Global CX Operations Associate",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://www.musinsacareers.com/ko/o/243338",
+   "cat": "세일즈·CX·제휴",
+   "intern": false,
+   "openDate": "2026-11-04",
+   "new": true,
+   "found": "2026-11-04"
   },
   {
    "회사": "무신사",
@@ -1486,6 +1514,20 @@
    "found": "2026-10-30"
   },
   {
+   "회사": "에코마케팅",
+   "플랫폼": "greetinghr",
+   "title": "마케팅 영상 크리에이터 채용",
+   "career": "경력무관",
+   "emp": "-",
+   "due": "2026-11-15",
+   "link": "https://career.echomarketing.co.kr/ko/o/243010",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-11-03",
+   "new": true,
+   "found": "2026-11-04"
+  },
+  {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
    "title": "마케팅 PD (MD 성장형 포지션/채용연계형 인턴)",
@@ -1586,20 +1628,6 @@
   {
    "회사": "직방",
    "플랫폼": "greetinghr",
-   "title": "[직방] 중개사무소(APT) 광고 영업매니저 (계약직)",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://zigbang.career.greetinghr.com/ko/o/190605",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-02-24",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "직방",
-   "플랫폼": "greetinghr",
    "title": "[직방] 중개사무소 대상 원투룸 광고 영업 매니저 (계약직)",
    "career": "경력무관",
    "emp": "계약직",
@@ -1624,6 +1652,34 @@
    "openDate": "2026-10-16",
    "new": false,
    "found": "2026-10-16"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
+   "title": "[어시스턴트] 송금 서비스 운영 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/243308",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-11-04",
+   "new": true,
+   "found": "2026-11-04"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
+   "title": "[어시스턴트] CS운영 업무 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/243291",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-11-04",
+   "new": true,
+   "found": "2026-11-04"
   },
   {
    "회사": "코나아이",
@@ -2116,34 +2172,6 @@
    "found": "2026-10-03"
   },
   {
-   "회사": "헥토",
-   "플랫폼": "greetinghr",
-   "title": "[헥토파이낸셜] 모바일쿠폰 영업(B2B)",
-   "career": "경력 1년~",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://www.hectocareers.co.kr/ko/o/211430",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-04-10",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "헥토",
-   "플랫폼": "greetinghr",
-   "title": "[헥토미디어] 헥토그룹 그룹홍보2실 홍보담당자 (경력)",
-   "career": "경력 1년~5",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://www.hectocareers.co.kr/ko/o/209565",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-04-01",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
    "회사": "쿠팡",
    "플랫폼": "greenhouse",
    "title": "[쿠팡로지스틱스서비스] 물류 차량 운영기획 담당자 (신입 가능)",
@@ -2174,20 +2202,6 @@
   {
    "회사": "쿠팡",
    "플랫폼": "greenhouse",
-   "title": "[쿠팡로지스틱스서비스] 로켓설치 협력사 운영 및 관리 담당자 (신입)",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8248631",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-10-12",
-   "new": false,
-   "found": "2026-10-13"
-  },
-  {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
    "title": "[쿠팡] 정산 운영 및 프로세스 개선 담당자 (신입채용, Business Operations)",
    "career": "주니어(제목 기준)",
    "emp": "-",
@@ -2198,34 +2212,6 @@
    "openDate": "2026-10-25",
    "new": false,
    "found": "2026-10-26"
-  },
-  {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
-   "title": "데이터 관리 및 운영지원 담당자 (신입가능) (Instant Commerce KAM1)",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8280291",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-10-14",
-   "new": false,
-   "found": "2026-10-15"
-  },
-  {
-   "회사": "Anthropic",
-   "플랫폼": "global",
-   "title": "Applied AI Architect",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5390735008",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": "2026-09-02"
   },
   {
    "회사": "Anthropic",
@@ -2307,7 +2293,7 @@
    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5470905008",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-03",
    "openDate": "2026-11-03"
   },
@@ -2321,7 +2307,7 @@
    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5470906008",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-03",
    "openDate": "2026-11-03"
   },
@@ -2755,7 +2741,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/124964929953243846",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-03",
    "openDate": ""
   },
@@ -2797,7 +2783,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/143849042160296646",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-03",
    "openDate": ""
   },

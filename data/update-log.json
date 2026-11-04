@@ -17913,7 +17913,281 @@
    "archiveTotal": 608,
    "preds": 341,
    "compTotal": 578
+  },
+  {
+   "date": "2026-11-05",
+   "added": [
+    {
+     "id": "linkareer-362175",
+     "company": "아이마켓코리아",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-12",
+     "url": "https://linkareer.com/activity/362175"
+    },
+    {
+     "id": "linkareer-362170",
+     "company": "사조대림",
+     "title": "",
+     "roles": [
+      "기획/전략",
+      "마케팅",
+      "영업"
+     ],
+     "end": "2026-11-10",
+     "url": "https://linkareer.com/activity/362170"
+    },
+    {
+     "id": "linkareer-362158",
+     "company": "온라인팜",
+     "title": "",
+     "roles": [
+      "콘텐츠"
+     ],
+     "end": "2026-11-12",
+     "url": "https://linkareer.com/activity/362158"
+    },
+    {
+     "id": "linkareer-362149",
+     "company": "이공이공",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-30",
+     "url": "https://linkareer.com/activity/362149"
+    },
+    {
+     "id": "jasoseol-106982",
+     "company": "제일약품",
+     "title": "부문별 인재모집",
+     "roles": [
+      "마케팅",
+      "MD",
+      "기획/전략",
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://jeil.recruiter.co.kr/career/jobs/132889"
+    },
+    {
+     "id": "jasoseol-107030",
+     "company": "NES머티리얼즈",
+     "title": "하반기 고졸 신입 모집 (반도체소재 생산 운전)",
+     "roles": [],
+     "end": "2026-11-10",
+     "url": "https://with.nonghyup.com"
+    },
+    {
+     "id": "jasoseol-107038",
+     "company": "선우ENG",
+     "title": "각 부문별 신입/경력 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-18",
+     "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=NEtmNzFnU0hLdXBnN3B3UFhqdGdGUT09"
+    },
+    {
+     "id": "jasoseol-107050",
+     "company": "지엠테크니컬센터코리아",
+     "title": "2027 채용전환형 동계인턴사원모집",
+     "roles": [],
+     "end": "2026-11-15",
+     "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM?hiringCompany=983c57f4d0d8017800d50ee3b21d6093&hiringCompany=983c57f4d0d80108487529e4b21d3695"
+    },
+    {
+     "id": "jasoseol-107052",
+     "company": "한국수산회",
+     "title": "직원 채용 공고 (신입/계약직)",
+     "roles": [
+      "마케팅",
+      "기획/전략"
+     ],
+     "end": "2026-11-10",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611030003878&handle=CE18B5973EFDB9151566ED562F63BF7D5844CA74F190F6B9F46095AA694E8F44"
+    },
+    {
+     "id": "jasoseol-107057",
+     "company": "세아제강",
+     "title": "창원공장 전문직 사원 추가채용 (신입/경력)",
+     "roles": [],
+     "end": "2026-11-15",
+     "url": "https://seahsteel.recruiter.co.kr/career/jobs/133244"
+    },
+    {
+     "id": "jasoseol-107059",
+     "company": "마이다스그룹",
+     "title": "HR 솔루션 영업 담당자 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://midas.recruiter.co.kr/career/jobs/133289"
+    },
+    {
+     "id": "jasoseol-107061",
+     "company": "넷마블네오",
+     "title": "2026 AI 인턴십 (게임개발/기획 통합 직무, 인턴십 5개월, 채용전환형)",
+     "roles": [],
+     "end": "2026-11-24",
+     "url": "https://ai-internship2026.netmarbleneo.com/"
+    },
+    {
+     "id": "jasoseol-107064",
+     "company": "한국해양진흥공사(KOBC)",
+     "title": "2026년도 전문계약직 채용공고",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략",
+      "리서치",
+      "금융/심사"
+     ],
+     "end": "2026-11-18",
+     "url": "https://kobc1.scout.co.kr/jobinfo/jobinfo_view.asp?ID=2015"
+    },
+    {
+     "id": "jasoseol-107065",
+     "company": "토스증권",
+     "title": "IT Security Specialist (IT 보안 담당자) 계약직 채용",
+     "roles": [],
+     "end": "2026-11-23",
+     "url": "https://toss.im/career/job-detail?job_id=8009033003&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2611_itspecialist"
+    },
+    {
+     "id": "jasoseol-107071",
+     "company": "온라인팜",
+     "title": "[한미약품 관계사] 안전보건관리 QA 외 채용",
+     "roles": [
+      "마케팅",
+      "홍보/PR"
+     ],
+     "end": "2026-11-12",
+     "url": "https://hanmi.recruiter.co.kr/career/jobs/133407"
+    },
+    {
+     "id": "jasoseol-107072",
+     "company": "에이피알",
+     "title": "[경영지원] 해외법인 관리/결산 채용연계형 인턴사원 모집",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2027-01-02",
+     "url": "https://apr-careers.com/job_posting/OxiH89IE"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106048",
+     "company": "NHN",
+     "end": "2026-11-03"
+    },
+    {
+     "id": "jasoseol-106798",
+     "company": "BGF로지스",
+     "end": "2026-11-03"
+    },
+    {
+     "id": "jasoseol-106811",
+     "company": "LS MnM",
+     "end": "2026-11-03"
+    },
+    {
+     "id": "jasoseol-106829",
+     "company": "국립농업박물관",
+     "end": "2026-11-03"
+    },
+    {
+     "id": "jasoseol-106838",
+     "company": "한국거래소",
+     "end": "2026-11-03"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Associate MD (유니섹스패션)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/243332"
+    },
+    {
+     "company": "무신사",
+     "title": "Associate MD (트렌드상품 & IP 기획)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/242947"
+    },
+    {
+     "company": "무신사",
+     "title": "Global CX Operations Associate",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/243338"
+    },
+    {
+     "company": "무신사",
+     "title": "Senior MD (아웃도어 스포츠)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/243334"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "글로벌 사업 운영지원 (3개월 계약직)",
+     "url": "https://career.oliveyoung.com/ko/o/243335"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "글로벌 사업운영",
+     "url": "https://career.oliveyoung.com/ko/o/243200"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "브랜딩 커뮤니케이션 & IMC 캠페인 담당자",
+     "url": "https://career.oliveyoung.com/ko/o/211181"
+    },
+    {
+     "company": "컬리",
+     "title": "HRBP(HR Business Partner)",
+     "url": "https://kurly.career.greetinghr.com/ko/o/243322"
+    },
+    {
+     "company": "강남언니",
+     "title": "[병원 운영 솔루션] Data Product Owner",
+     "url": "https://career.gangnamunni.com/ko/o/240728"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토] 서베이 기획·분석 및 경영진단 담당 (경력)",
+     "url": "https://www.hectocareers.co.kr/ko/o/243275"
+    },
+    {
+     "company": "하이브",
+     "title": "[HYBE HBS] 사업운영파트 사업기획·관리 (파트장)",
+     "url": "https://careers.hybecorp.com/ko/o/243292"
+    },
+    {
+     "company": "카카오페이",
+     "title": "[어시스턴트] 송금 서비스 운영 지원",
+     "url": "https://kakaopay.career.greetinghr.com/ko/o/243308"
+    },
+    {
+     "company": "카카오페이",
+     "title": "[어시스턴트] CS운영 업무 지원",
+     "url": "https://kakaopay.career.greetinghr.com/ko/o/243291"
+    },
+    {
+     "company": "아고다",
+     "title": "Cash Management & Banking Operations Specialist – Korea Base",
+     "url": "https://job-boards.greenhouse.io/agoda/jobs/8349335"
+    },
+    {
+     "company": "텐센트",
+     "title": "Media Services Solution Architect Intern — Korea",
+     "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/Media-Services-Solution-Architect-Intern---Korea_R108333"
+    }
+   ],
+   "total": 369,
+   "archiveTotal": 610,
+   "preds": 333,
+   "compTotal": 584
   }
  ],
- "updated": "2026-11-04"
+ "updated": "2026-11-05"
 }

@@ -1,6 +1,91 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "jobs": [
+    {
+      "id": "jasoseol-106048",
+      "company": "NHN",
+      "type": "대기업",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "2026-09-03",
+      "end": "2026-11-03",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4408387626892347377?type=list&utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Business",
+      "hist": "",
+      "endTime": "23:59",
+      "found": "2026-09-06",
+      "title": "게임 서비스 마케터(Senior)"
+    },
+    {
+      "id": "jasoseol-106798",
+      "company": "BGF로지스",
+      "title": "2026년 4분기 채용연계형 인턴 채용",
+      "type": "중견기업",
+      "roles": [],
+      "start": "2026-10-20",
+      "end": "2026-11-03",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://bgflogis.recruiter.co.kr/career/home?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610bgflogis",
+      "hist": "",
+      "found": "2026-10-20"
+    },
+    {
+      "id": "jasoseol-106811",
+      "company": "LS MnM",
+      "title": "신입사원 수시채용",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-10-20",
+      "end": "2026-11-03",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://lsmnm.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=269814",
+      "hist": "",
+      "found": "2026-10-21"
+    },
+    {
+      "id": "jasoseol-106829",
+      "company": "국립농업박물관",
+      "title": "2026년 제6차 직원 채용(정규직, 무기계약직, 기간제 직원)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "고객/CS"
+      ],
+      "start": "2026-10-26",
+      "end": "2026-11-03",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.namuk.or.kr/kr/528/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa3IlMkYxODYlMkYxOTU4JTJGYXJ0Y2xWaWV3LmRvJTNGcGFnZSUzRDElMjZzcmNoQ29sdW1uJTNEJTI2c3JjaFdyZCUzRCUyNmJic0NsU2VxJTNEJTI2YmJzT3BlbldyZFNlcSUzRCUyNnJnc0JnbmRlU3RyJTNEJTI2cmdzRW5kZGVTdHIlM0QlMjZpc1ZpZXdNaW5lJTNEZmFsc2UlMjZwYXNzd29yZCUzRCUyNg%3D%3D",
+      "hist": "",
+      "found": "2026-10-21"
+    },
+    {
+      "id": "jasoseol-106838",
+      "company": "한국거래소",
+      "title": "시장분석전문가 채용",
+      "type": "대기업",
+      "roles": [
+        "금융/심사",
+        "기획/전략",
+        "리서치"
+      ],
+      "start": "2026-10-23",
+      "end": "2026-11-03",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://krx.saramin.co.kr/service/krx/4013/applicant/apply/recruit_default.asp",
+      "hist": "",
+      "found": "2026-10-23"
+    },
     {
       "id": "jasoseol-106024",
       "company": "NHN",
@@ -10523,52 +10608,6 @@
       "url": "https://sysmex.co.kr/recruit/check/list/?mode=view&recruit_id=105",
       "hist": "",
       "found": "2026-11-02"
-    },
-    {
-      "id": "jasoseol-105205",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-20",
-      "end": "2026-09-19",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4377674079511025954?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Enterprise_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105206",
-      "company": "NHN comico Korea",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-07-20",
-      "end": "2026-09-19",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4380802192172537120?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20comico%20Korea_Business",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105885",
-      "company": "와디즈",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-08-26",
-      "end": "2026-09-19",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.job.wadiz.kr/",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
     }
   ]
 }
