@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-04T18:42:16.970563+00:00",
+ "collectedAt": "2026-11-05T18:50:30.496858+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -152,7 +152,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-04",
-   "new": true,
+   "new": false,
    "found": "2026-11-04"
   },
   {
@@ -1160,7 +1160,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-04",
-   "new": true,
+   "new": false,
    "found": "2026-11-04"
   },
   {
@@ -1202,7 +1202,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-04",
-   "new": true,
+   "new": false,
    "found": "2026-11-04"
   },
   {
@@ -1524,22 +1524,22 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-11-03",
-   "new": true,
+   "new": false,
    "found": "2026-11-04"
   },
   {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
-   "title": "마케팅 PD (MD 성장형 포지션/채용연계형 인턴)",
+   "title": "[WBG 2027-1기] 마케팅PD(채용연계형 인턴)",
    "career": "경력무관",
    "emp": "인턴",
-   "due": "2026-11-09",
-   "link": "https://job.wadiz.io/ko/o/241772",
+   "due": "2026-11-16",
+   "link": "https://job.wadiz.io/ko/o/243085",
    "cat": "마케팅·브랜딩",
    "intern": true,
-   "openDate": "2026-10-23",
-   "new": false,
-   "found": "2026-10-23"
+   "openDate": "2026-11-03",
+   "new": true,
+   "found": "2026-11-05"
   },
   {
    "회사": "와디즈",
@@ -1568,6 +1568,20 @@
    "openDate": "2026-09-15",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "직방",
+   "플랫폼": "greetinghr",
+   "title": "[직방] Sr. Strategy Manager",
+   "career": "경력무관",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://zigbang.career.greetinghr.com/ko/o/243438",
+   "cat": "전략·사업",
+   "intern": false,
+   "openDate": "2026-11-05",
+   "new": true,
+   "found": "2026-11-05"
   },
   {
    "회사": "직방",
@@ -1664,7 +1678,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-11-04",
-   "new": true,
+   "new": false,
    "found": "2026-11-04"
   },
   {
@@ -1678,7 +1692,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-11-04",
-   "new": true,
+   "new": false,
    "found": "2026-11-04"
   },
   {
@@ -1820,6 +1834,20 @@
    "openDate": "2026-09-09",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
+   "title": "[HYBE] 사내카페 운영 지원*",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/243520",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-05",
+   "new": true,
+   "found": "2026-11-05"
   },
   {
    "회사": "하이브",
@@ -2214,6 +2242,20 @@
    "found": "2026-10-26"
   },
   {
+   "회사": "쿠팡",
+   "플랫폼": "greenhouse",
+   "title": "[쿠팡] 이츠 카탈로그 데이터 분석 및 운영개선 담당자 (SQL/자동화) - 신입급",
+   "career": "주니어(제목 기준)",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8332845",
+   "cat": "데이터·리서치",
+   "intern": false,
+   "openDate": "2026-10-30",
+   "new": true,
+   "found": "2026-11-05"
+  },
+  {
    "회사": "Anthropic",
    "플랫폼": "global",
    "title": "Applied AI Architects, Partner",
@@ -2524,20 +2566,6 @@
   {
    "회사": "OpenAI",
    "플랫폼": "global",
-   "title": "Strategy & Operations Lead — Korea",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://jobs.ashbyhq.com/openai/345bda68-5b8d-43e4-9c05-ecac06f03912",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": "2026-09-14"
-  },
-  {
-   "회사": "OpenAI",
-   "플랫폼": "global",
    "title": "Account Director, Mid-Market | Korea",
    "career": "-",
    "emp": "-",
@@ -2566,7 +2594,7 @@
   {
    "회사": "OpenAI",
    "플랫폼": "global",
-   "title": "Growth Partnerships Manager, Korea",
+   "title": "Strategic Partnerships Manager, Korea",
    "career": "-",
    "emp": "-",
    "due": "Seoul, South Korea",

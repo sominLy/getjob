@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-04T18:44:08.832Z",
+  "collectedAt": "2026-11-05T18:52:21.485Z",
   "errors": {},
   "jobs": [
     {
@@ -397,7 +397,7 @@
     {
       "source": "toss",
       "company": "토스뱅크",
-      "title": "Technical Product Owner · 공통",
+      "title": "Technical Product Owner · 공통 · AI",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=5452510003&sub_position_id=8097990003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC",
       "years": null,
@@ -407,7 +407,8 @@
         "프로덕트 기획"
       ],
       "reqs": [
-        "SQL·데이터"
+        "SQL·데이터",
+        "AI·LLM"
       ],
       "bucket": "unstated",
       "fit": true,
@@ -575,6 +576,25 @@
       "fit": false,
       "firstSeen": "2026-10-28",
       "jd": "이런 분과 함께하고 싶어요\n\n브랜드 캠페인을 전략 수립부터 실행, 결과 분석까지 A to Z를 주도적으로 이끌어 본 분이 필요해요.\n채널 운영의 전략적 방향을 제시하고, 콘텐츠를 통해 뚜렷한 성장 모멘텀을 만들어 낸 경험이 필요해요.\n복잡한 정보를 큐레이션하여 타겟이 이해하기 쉬운 콘텐츠로 풀어낼 수 있는 미디어 리터러시 역량이 뛰어난 분이 필요해요.\n데이터 기반의 의사결정을 통해 성과 지표(KPI)를 달성하고, Why와 Lesson-learn을 도출해 개선한 경험이 있는 분이 필요해요.\n오프라인 이벤트 및 캠페인 기획/운영을 통해 타겟 고객과의 접점을 만들고, 차별화된 참여 프로그램으로 임팩트를 만든 경험이 있는 분이면 좋아요.\n오프라인 결제 산업이나 자영업 시장에 대한 높은 이해도가 있다면 더욱 좋아요.\n\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Industry Head, Lifestyle DTC, LCS (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/90500171044922054-industry-head-lifestyle-dtc-lcs-korean-english",
+      "years": 11,
+      "noLimit": false,
+      "evidence": "11 years of industry experience in advertising, consultative sales, business development, or IT, or 8 years of experience with an advanced degree.",
+      "roles": [],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-05",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n11 years of industry experience in advertising, consultative sales, business development, or IT, or 8 years of experience with an advanced degree.\n\nAbility to communicate in Korean and English fluently to interact with internal and external stakeholders.\n"
     },
     {
       "source": "google",
@@ -834,6 +854,25 @@
       "fit": false,
       "firstSeen": "2026-10-19",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n1 year of experience with cloud native architecture and development methodologies in a customer-facing or support role.\nExperience with one or more programming languages.\nExperience in delivering technical presentations.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Performance Specialist (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/94627668976116422-performance-specialist-english-korean",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "8 years of experience in digital media, sales, marketing, or product roles.",
+      "roles": [],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-05",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n8 years of experience in digital media, sales, marketing, or product roles.\nAbility to communicate in English and Korean fluently to engage with clients in the region.\n"
     },
     {
       "source": "google",
