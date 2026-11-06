@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -81,6 +81,14 @@
       "department": "Applied AI",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5430869008",
       "updated": "2026-09-22"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Recruiter, GTM  - Seoul",
+      "location": "Seoul, South Korea",
+      "department": "People",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5473862008",
+      "updated": "2026-11-06"
     },
     {
       "company": "Anthropic",

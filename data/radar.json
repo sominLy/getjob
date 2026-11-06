@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-05T18:52:21.485Z",
+  "collectedAt": "2026-11-06T18:18:15.041Z",
   "errors": {},
   "jobs": [
     {
@@ -101,6 +101,8 @@
         "프로덕트 기획"
       ],
       "reqs": [
+        "SQL·데이터",
+        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -541,27 +543,29 @@
     {
       "source": "toss",
       "company": "토스",
-      "title": "브랜드 매니저 (Brand Manager) · Event · Marketing",
+      "title": "Brand Manager (Marketing) · Marketing",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7847411003&sub_position_id=7847411003&company=%ED%86%A0%EC%8A%A4",
-      "years": null,
+      "url": "https://toss.im/career/job-detail?job_id=6508297003&sub_position_id=7893682003&company=%ED%86%A0%EC%8A%A4",
+      "years": 5,
       "noLimit": false,
-      "evidence": "복잡한 프로젝트의 프로세스를 관리하면서도, 퀄리티를 끌어올리기 위해 헌신하는 분",
+      "evidence": "온·오프라인 브랜드 캠페인이나 프로젝트를 기획부터 실행까지 직접 주도하며 성과를 내본 분(5년 이상)",
       "roles": [
         "마케팅·브랜드"
       ],
-      "reqs": [],
-      "bucket": "unstated",
+      "reqs": [
+        "포트폴리오 우대"
+      ],
+      "bucket": "senior",
       "fit": true,
-      "firstSeen": "2026-10-28",
-      "jd": "이런 분과 함께하고 싶어요\n\n복잡한 프로젝트의 프로세스를 관리하면서도, 퀄리티를 끌어올리기 위해 헌신하는 분\n대형 종합대행사, 인하우스 등 브랜드 조직에서 콘퍼런스를 포함한 대규모 오프라인 행사의 A to Z를 리드해 본 분\n복잡한 프로젝트를 구조화하고 실행 계획으로 구체화할 수 있는 분\n다양한 이해관계자(내부 협업팀, 외부 파트너사)와 원활하게 협업할 수 있는 분\n빠른 상황 판단과 문제 해결을 통해 현장을 안정적으로 운영할 수 있는 분\n\n이런 경험이 있다면 더 좋아요\n\n오프라인 행사 뿐 아니라 마케팅, 콘텐츠, 캠페인 등 다양한 브랜드 프로젝트 경험\n이벤트 오퍼레이션 뿐 아니라 프레젠테이션, 영상 등의 콘텐츠를 매니징한 경험\n전체 행사의 메시지 구조를 짜거나, 세션 스크립트를 작성한 경험\n영상 송출 및 중계 운영에 대한 기본적인 이해\n\n"
+      "firstSeen": "2026-11-06",
+      "jd": "이런 분과 함께하고 싶어요\n\n온·오프라인 브랜드 캠페인이나 프로젝트를 기획부터 실행까지 직접 주도하며 성과를 내본 분(5년 이상)\n전체 브랜드 전략 안에서 내 프로젝트가 어떤 역할을 하는지 이해하고, 그 메시지를 콘텐츠, 채널, 경험 등 구체적인 실행안으로 도출할 수 있는 분\n팝업 스토어나 콘퍼런스 등 오프라인 행사를 기획부터 현장 운영까지 직접 실행해 본 분(콘텐츠 기획, 공간 연출, 예산 운용, 현장 관리 등)\n여러 협업 관계자들과 원활히 커뮤니케이션 하며, 일정과 디테일을 꼼꼼히 챙겨 일이 굴러가게 만드는 분\n목표 대비 결과를 스스로 돌아보며, 다음 실행에 바로 반영하는 분\n\n이런 역량이 있다면 더 좋아요\n\n소셜 미디어, 커뮤니티 등 디지털 생태계에 대한 높은 이해도\n고객의 마음을 움직이는 카피라이팅 역량\n\n포트폴리오는 이렇게 작성하시는 걸 추천해요\n\n결과물보다 과정을 알고 싶어요. 문제 정의와 접근 방식, 레슨런(lesson learned)를 담아주세요.\n자신의 기여도가 70% 이상인 프로젝트를 중심으로, 자신의 강점과 기여 범위가 잘 드러나도록 구성해주세요.\n다양한 이해관계자를 조율하며 문제를 해결한 사례를 구체적으로 알려주세요.\n\n토스로의 "
     },
     {
       "source": "toss",
       "company": "토스플레이스",
       "title": "브랜드 매니저 (Brand Manager)",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7847411003&sub_position_id=6508297003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
+      "url": "https://toss.im/career/job-detail?job_id=6508297003&sub_position_id=6508297003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4",
       "years": null,
       "noLimit": false,
       "evidence": "브랜드 캠페인을 전략 수립부터 실행, 결과 분석까지 A to Z를 주도적으로 이끌어 본 분이 필요해요.",
@@ -574,7 +578,7 @@
       ],
       "bucket": "unstated",
       "fit": false,
-      "firstSeen": "2026-10-28",
+      "firstSeen": "2026-11-06",
       "jd": "이런 분과 함께하고 싶어요\n\n브랜드 캠페인을 전략 수립부터 실행, 결과 분석까지 A to Z를 주도적으로 이끌어 본 분이 필요해요.\n채널 운영의 전략적 방향을 제시하고, 콘텐츠를 통해 뚜렷한 성장 모멘텀을 만들어 낸 경험이 필요해요.\n복잡한 정보를 큐레이션하여 타겟이 이해하기 쉬운 콘텐츠로 풀어낼 수 있는 미디어 리터러시 역량이 뛰어난 분이 필요해요.\n데이터 기반의 의사결정을 통해 성과 지표(KPI)를 달성하고, Why와 Lesson-learn을 도출해 개선한 경험이 있는 분이 필요해요.\n오프라인 이벤트 및 캠페인 기획/운영을 통해 타겟 고객과의 접점을 만들고, 차별화된 참여 프로그램으로 임팩트를 만든 경험이 있는 분이면 좋아요.\n오프라인 결제 산업이나 자영업 시장에 대한 높은 이해도가 있다면 더욱 좋아요.\n\n"
     },
     {
@@ -595,27 +599,6 @@
       "fit": false,
       "firstSeen": "2026-11-05",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n11 years of industry experience in advertising, consultative sales, business development, or IT, or 8 years of experience with an advanced degree.\n\nAbility to communicate in Korean and English fluently to interact with internal and external stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Publisher Solutions Engineer, gTech (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/98185512509940422-publisher-solutions-engineer-gtech-english-korean",
-      "years": null,
-      "noLimit": false,
-      "evidence": "Bachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "open",
-      "fit": false,
-      "firstSeen": "2026-10-28",
-      "jd": "Minimum qualifications\nBachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.\nExperience in product implementations, technical solutions consulting, or technical sales.\nExperience troubleshooting technical issues for internal/external partners or customers.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
@@ -641,6 +624,27 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Publisher Solutions Engineer, gTech (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/98185512509940422-publisher-solutions-engineer-gtech-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-10-28",
+      "jd": "Minimum qualifications\nBachelor’s degree in Engineering, Computer Science, a related field, or equivalent practical experience.\nExperience in product implementations, technical solutions consulting, or technical sales.\nExperience troubleshooting technical issues for internal/external partners or customers.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Account Strategist, Google Customer Solutions (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -659,6 +663,27 @@
       "fit": false,
       "firstSeen": "2026-10-29",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently in order to interact in this customer-facing role.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Technical Operations Manager, Third-Party Data Centers (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/79231714458510022-technical-operations-manager-thirdparty-data-centers-english-korean",
+      "years": 9,
+      "noLimit": false,
+      "evidence": "9 years of experience in facility operations or facility engineering experience within operations.",
+      "roles": [
+        "운영"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-11-06",
+      "jd": "Minimum qualifications\nAssociate's degree, trade school certification, or other certified training in a related technical field, or equivalent practical experience.\n9 years of experience in facility operations or facility engineering experience within operations.\nExperience in critical facility operations management and vendor management.\nExperience with electrical (Generators, UPS, battteries, switchgears, STS, ATS), mechanical (Chillers, air-conditioning units, air handling units), and fire systems in mission critical-operations environments.\nAbility to communicate in both English and Korean fluently to work with local and other internal stakeholders.\n"
     },
     {
       "source": "google",
@@ -877,28 +902,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/91709449151881926-account-strategist-midmarket-sales-google-customer-solutions-english-korean",
-      "years": 2,
-      "noLimit": false,
-      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
-      "roles": [
-        "솔루션·컨설팅",
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "junior",
-      "fit": false,
-      "firstSeen": "2026-10-28",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\nAbility to travel up to 20% of the time as required.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Head of YouTube Music Partnerships (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Advanced",
@@ -1021,6 +1024,25 @@
       "fit": true,
       "firstSeen": "2026-10-30",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n11 years of experience in business development, semiconductor supply chain management, partnerships, or hardware operations.\nExperience working with executives, and leading cross-functional hardware or technology projects.\nAbility to communicate in Korean and English fluently to support client relationship management in this region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Account Manager, Large Customer Sales, Commerce",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/84971440033407686-account-manager-large-customer-sales-commerce",
+      "years": 2,
+      "noLimit": false,
+      "evidence": "2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [],
+      "bucket": "junior",
+      "fit": false,
+      "firstSeen": "2026-11-06",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to travel for client meetings and training, as needed.\n"
     },
     {
       "source": "google",

@@ -18531,7 +18531,273 @@
    "archiveTotal": 588,
    "preds": 334,
    "compTotal": 582
+  },
+  {
+   "date": "2026-11-07",
+   "added": [
+    {
+     "id": "linkareer-362835",
+     "company": "KT CS",
+     "title": "",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-17",
+     "url": "https://linkareer.com/activity/362835"
+    },
+    {
+     "id": "linkareer-362819",
+     "company": "금호타이어",
+     "title": "",
+     "roles": [
+      "기획/전략",
+      "마케팅",
+      "영업"
+     ],
+     "end": "2026-11-16",
+     "url": "https://linkareer.com/activity/362819"
+    },
+    {
+     "id": "linkareer-362817",
+     "company": "교원그룹",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://linkareer.com/activity/362817"
+    },
+    {
+     "id": "linkareer-362816",
+     "company": "사세",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-22",
+     "url": "https://linkareer.com/activity/362816"
+    },
+    {
+     "id": "linkareer-362815",
+     "company": "동진쎄미켐",
+     "title": "",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://linkareer.com/activity/362815"
+    },
+    {
+     "id": "jasoseol-106380",
+     "company": "NHN Cloud",
+     "title": "경영관리",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-20",
+     "url": "https://careers.nhn.com/recruits/4380789081860362477?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Corporate"
+    },
+    {
+     "id": "jasoseol-106836",
+     "company": "에이피알",
+     "title": "[제조] PDRN/PN 이물검사 및 포장 담당 계약직 사원 모집",
+     "roles": [],
+     "end": "2026-12-27",
+     "url": "https://apr-careers.com/job_posting/2AFYC0eG"
+    },
+    {
+     "id": "jasoseol-106944",
+     "company": "환인제약",
+     "title": "11월 수시채용",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-11-15",
+     "url": "https://www.whanin.com/recruit/recruit_info.php"
+    },
+    {
+     "id": "jasoseol-107106",
+     "company": "SASE(사세)",
+     "title": "2026년 하반기 신입사원 채용",
+     "roles": [
+      "영업",
+      "영업관리"
+     ],
+     "end": "2026-11-22",
+     "url": "https://sase.career.greetinghr.com/ko/o/243002"
+    },
+    {
+     "id": "jasoseol-107107",
+     "company": "마이다스그룹",
+     "title": "마이다스 신사옥 건설 프로젝트 지원 담당자 채용",
+     "roles": [],
+     "end": "2026-11-15",
+     "url": "https://midas.recruiter.co.kr/career/jobs/133596"
+    },
+    {
+     "id": "jasoseol-107108",
+     "company": "한국리서치",
+     "title": "2027년 상반기 공개채용",
+     "roles": [
+      "리서치"
+     ],
+     "end": "2026-11-18",
+     "url": "https://hrc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=271169"
+    },
+    {
+     "id": "jasoseol-107117",
+     "company": "아주산업",
+     "title": "2026년 모듈러사업팀(설계) 리더 인재채용",
+     "roles": [],
+     "end": "2026-12-31",
+     "url": "https://career.aju.co.kr/recruitNotice/RecruitNotice.do?enterCd=AP00&recSeq=1290"
+    },
+    {
+     "id": "jasoseol-107121",
+     "company": "교원그룹",
+     "title": "SCM 모듈 개발 직무 모집 (신입/경력)",
+     "roles": [],
+     "end": "2026-11-15",
+     "url": "https://kyowon.ninehire.site/"
+    },
+    {
+     "id": "jasoseol-107122",
+     "company": "LG생활건강",
+     "title": "25기 소셜크루 채용",
+     "roles": [
+      "마케팅",
+      "콘텐츠"
+     ],
+     "end": "2026-11-22",
+     "url": "https://lghnh.catchsecu.com/project/57086e1401a1f65/form"
+    },
+    {
+     "id": "jasoseol-107127",
+     "company": "녹십자웰빙",
+     "title": "[GC녹십자계열] 의약품 품질관리(원료, 제품시험) 신입 채용",
+     "roles": [],
+     "end": "2026-11-15",
+     "url": "https://careers.gcbiopharma.com/job/GC%EB%85%B9%EC%8B%AD%EC%9E%90%EC%9B%B0%EB%B9%99-%EC%9D%98%EC%95%BD%ED%92%88-%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC%28%EC%9B%90%EB%A3%8C%E3%86%8D%EC%A0%9C%ED%92%88%EC%8B%9C%ED%97%98%2C-%EC%8B%A0%EC%9E%85%29/4620250/"
+    },
+    {
+     "id": "global-anthropic-5473862008",
+     "company": "Anthropic",
+     "title": "Recruiter, GTM  - Seoul · People",
+     "roles": [],
+     "end": "",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5473862008"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106791",
+     "company": "온라인팜",
+     "end": "2026-11-05"
+    },
+    {
+     "id": "jasoseol-106815",
+     "company": "한국예술인복지재단",
+     "end": "2026-11-05"
+    },
+    {
+     "id": "jasoseol-106784",
+     "company": "한국전자기술연구원",
+     "end": "2026-11-05"
+    },
+    {
+     "id": "jasoseol-106842",
+     "company": "공무원연금공단(GEPS)",
+     "end": "2026-11-05"
+    },
+    {
+     "id": "jasoseol-106853",
+     "company": "울산항만공사",
+     "end": "2026-11-05"
+    },
+    {
+     "id": "jasoseol-106872",
+     "company": "세종학당재단",
+     "end": "2026-11-05"
+    },
+    {
+     "id": "jasoseol-106977",
+     "company": "케이씨텍",
+     "end": "2026-11-05"
+    },
+    {
+     "id": "jasoseol-107098",
+     "company": "NHN",
+     "end": "2026-11-05"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "머천다이징 VMD (무신사 스탠다드)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/243724"
+    },
+    {
+     "company": "마이리얼트립",
+     "title": "뷰티·웰니스 BD 매니저 (제휴영업)",
+     "url": "https://myrealtrip.career.greetinghr.com/ko/o/243802"
+    },
+    {
+     "company": "아이디어스",
+     "title": "[텐바이텐] 오프라인 채널 MD",
+     "url": "https://idus.career.greetinghr.com/ko/o/243766"
+    },
+    {
+     "company": "스푼랩스",
+     "title": "[Vigloo] AI 숏드라마 편집자 (1년 계약직/AI Content Editor)",
+     "url": "https://spoonradio.career.greetinghr.com/ko/o/243677"
+    },
+    {
+     "company": "스캐터랩",
+     "title": "🔥11월 집중채용🔥 zeta 서비스 기획·운영 인턴",
+     "url": "https://scatterlab.career.greetinghr.com/ko/o/243801"
+    },
+    {
+     "company": "메가스터디교육",
+     "title": "[MEXX] 서비스 기획 채용",
+     "url": "https://megastudyedu.career.greetinghr.com/ko/o/243657"
+    },
+    {
+     "company": "메가스터디교육",
+     "title": "[MEXX] 콘텐츠 및 브랜드 마케팅 채용",
+     "url": "https://megastudyedu.career.greetinghr.com/ko/o/243651"
+    },
+    {
+     "company": "하이브",
+     "title": "[BIGHIT MUSIC] 아티스트 마케팅 전략 (BTS 담당)",
+     "url": "https://careers.hybecorp.com/ko/o/243701"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[AI Frontier Div.] AI Business Development (10년 이상)",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8929574002"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[HR Div.] 인재개발(HRD) 기획·운영 담당자 (2년 이상 / 계약직)",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8932922002"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[Operations Div.] Strategic Planning Dept. Member (3년 이상)",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8602195002"
+    },
+    {
+     "company": "당근",
+     "title": "Content Producer (계약직) - 경영지원 (피플)",
+     "url": "https://about.daangn.com?gh_jid=8197459003"
+    }
+   ],
+   "total": 390,
+   "archiveTotal": 580,
+   "preds": 332,
+   "compTotal": 580
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }
