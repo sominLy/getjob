@@ -541,7 +541,7 @@
       "source": "링커리어",
       "url": "",
       "hist": "25년 하반기 10/23~11/6. 백화점(영업관리 의류/잡화/식품/e커머스, 판매기획, 회원서비스) + 홈쇼핑(방송MD, 편성, 신사업검토, 전략기획). 하반기 공채 중 가장 늦게 열림 상반기에는 면세점 디지털기획 등 별도 직무를 뽑기도 함 (26년 상반기 ~5/13)",
-      "doneBy": "linkareer-360410",
+      "doneBy": "jasoseol-106947",
       "doneAt": "2026-11-12"
     },
     {
@@ -4021,40 +4021,6 @@
       "found": "2026-10-22"
     },
     {
-      "id": "linkareer-359333",
-      "company": "농심",
-      "type": "",
-      "roles": [
-        "PM/서비스기획",
-        "기획/전략"
-      ],
-      "start": "",
-      "end": "2026-11-09",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/359333",
-      "hist": "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요",
-      "found": "2026-10-23"
-    },
-    {
-      "id": "linkareer-359329",
-      "company": "농심",
-      "type": "",
-      "roles": [
-        "PM/서비스기획",
-        "기획/전략"
-      ],
-      "start": "",
-      "end": "2026-11-09",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/359329",
-      "hist": "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요",
-      "found": "2026-10-23"
-    },
-    {
       "id": "jasoseol-106839",
       "company": "한국거래소",
       "title": "증권·파생상품연구인력 채용",
@@ -4321,7 +4287,8 @@
       "type": "중견기업",
       "roles": [
         "영업",
-        "기획/전략"
+        "기획/전략",
+        "PM/서비스기획"
       ],
       "start": "2026-10-22",
       "end": "2026-11-09",
@@ -4657,22 +4624,6 @@
       "found": "2026-10-27"
     },
     {
-      "id": "linkareer-360487",
-      "company": "유한킴벌리",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "",
-      "end": "2026-11-11",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/360487",
-      "hist": "",
-      "found": "2026-10-28"
-    },
-    {
       "id": "jasoseol-106876",
       "company": "창비",
       "title": "편집 직무(인문교양) 사원을 모집합니다.",
@@ -4872,24 +4823,6 @@
       "confirmed": true,
       "source": "링커리어",
       "url": "https://linkareer.com/activity/360773",
-      "hist": "",
-      "found": "2026-10-29"
-    },
-    {
-      "id": "linkareer-360410",
-      "company": "현대백화점그룹",
-      "type": "",
-      "roles": [
-        "마케팅",
-        "영업",
-        "MD"
-      ],
-      "start": "",
-      "end": "2026-11-12",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/360410",
       "hist": "",
       "found": "2026-10-29"
     },
@@ -5149,55 +5082,6 @@
       "url": "https://www.google.com/about/careers/applications/jobs/results/130206031299912390",
       "hist": "Account Strategist, Google Customer Solutions (English, Korean)",
       "found": "2026-10-29"
-    },
-    {
-      "id": "linkareer-361083",
-      "company": "(주)프랙티컬스트래티지",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "",
-      "end": "2026-11-15",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/361083",
-      "hist": "",
-      "found": "2026-10-30"
-    },
-    {
-      "id": "linkareer-361081",
-      "company": "신영그룹",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-11-09",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/361081",
-      "hist": "",
-      "found": "2026-10-30"
-    },
-    {
-      "id": "linkareer-361080",
-      "company": "후성그룹",
-      "type": "",
-      "roles": [
-        "기획/전략",
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-11-11",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/361080",
-      "hist": "",
-      "found": "2026-10-30"
     },
     {
       "id": "jasoseol-106307",
@@ -5518,7 +5402,8 @@
       "source": "링커리어",
       "url": "https://linkareer.com/activity/361461",
       "hist": "대졸 신입 공채 — 기획 트랙이 있는지 공고에서 확인하세요",
-      "found": "2026-11-02"
+      "found": "2026-11-02",
+      "title": "에이피알 마케팅 직군 대규모 특별 채용"
     },
     {
       "id": "linkareer-361453",
@@ -5860,22 +5745,6 @@
       "found": "2026-11-02"
     },
     {
-      "id": "linkareer-361526",
-      "company": "한국알프스",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-11-08",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/361526",
-      "hist": "",
-      "found": "2026-11-02"
-    },
-    {
       "id": "jasoseol-106916",
       "company": "더블유컨셉코리아",
       "title": "2027년 신입사원 공개채용",
@@ -6193,40 +6062,6 @@
       "url": "https://axa.career.greetinghr.com/o/242677",
       "hist": "",
       "found": "2026-11-02"
-    },
-    {
-      "id": "linkareer-361841",
-      "company": "신영증권",
-      "type": "",
-      "roles": [
-        "기획/전략",
-        "영업",
-        "금융/심사"
-      ],
-      "start": "",
-      "end": "2026-11-16",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/361841",
-      "hist": "",
-      "found": "2026-11-03"
-    },
-    {
-      "id": "linkareer-361839",
-      "company": "고영테크놀러지",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-11-18",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/361839",
-      "hist": "",
-      "found": "2026-11-03"
     },
     {
       "id": "jasoseol-107019",
@@ -6802,23 +6637,6 @@
       "found": "2026-11-05"
     },
     {
-      "id": "linkareer-362529",
-      "company": "안랩",
-      "type": "",
-      "roles": [
-        "PM/서비스기획",
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-11-29",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/362529",
-      "hist": "",
-      "found": "2026-11-05"
-    },
-    {
       "id": "linkareer-361835",
       "company": "(주)엔에이치알",
       "type": "",
@@ -6832,7 +6650,8 @@
       "source": "링커리어",
       "url": "https://linkareer.com/activity/361835",
       "hist": "",
-      "found": "2026-11-05"
+      "found": "2026-11-05",
+      "title": "[NHR] 2026년 4분기 신입·경력·인턴 채용"
     },
     {
       "id": "jasoseol-106346",
@@ -7186,7 +7005,8 @@
       "source": "링커리어",
       "url": "https://linkareer.com/activity/362835",
       "hist": "",
-      "found": "2026-11-06"
+      "found": "2026-11-06",
+      "title": "2026년 대졸 신입사원 채용"
     },
     {
       "id": "linkareer-362819",
@@ -7204,7 +7024,8 @@
       "source": "링커리어",
       "url": "https://linkareer.com/activity/362819",
       "hist": "",
-      "found": "2026-11-06"
+      "found": "2026-11-06",
+      "title": "'26년 하반기 수시채용"
     },
     {
       "id": "linkareer-362817",
@@ -7220,39 +7041,8 @@
       "source": "링커리어",
       "url": "https://linkareer.com/activity/362817",
       "hist": "",
-      "found": "2026-11-06"
-    },
-    {
-      "id": "linkareer-362816",
-      "company": "사세",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-11-22",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/362816",
-      "hist": "",
-      "found": "2026-11-06"
-    },
-    {
-      "id": "linkareer-362815",
-      "company": "동진쎄미켐",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "",
-      "end": "2026-11-15",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/362815",
-      "hist": "",
-      "found": "2026-11-06"
+      "found": "2026-11-06",
+      "title": "Wells 영업관리(BM) 충청권(신입)(11월)"
     },
     {
       "id": "jasoseol-106380",

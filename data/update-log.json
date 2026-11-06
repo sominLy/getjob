@@ -18730,7 +18730,73 @@
      "end": "2026-11-05"
     }
    ],
-   "removed": [],
+   "removed": [
+    {
+     "id": "linkareer-359333",
+     "company": "농심",
+     "title": ""
+    },
+    {
+     "id": "linkareer-359329",
+     "company": "농심",
+     "title": ""
+    },
+    {
+     "id": "linkareer-360487",
+     "company": "유한킴벌리",
+     "title": ""
+    },
+    {
+     "id": "linkareer-360410",
+     "company": "현대백화점그룹",
+     "title": ""
+    },
+    {
+     "id": "linkareer-361083",
+     "company": "(주)프랙티컬스트래티지",
+     "title": ""
+    },
+    {
+     "id": "linkareer-361081",
+     "company": "신영그룹",
+     "title": ""
+    },
+    {
+     "id": "linkareer-361080",
+     "company": "후성그룹",
+     "title": ""
+    },
+    {
+     "id": "linkareer-361526",
+     "company": "한국알프스",
+     "title": ""
+    },
+    {
+     "id": "linkareer-361841",
+     "company": "신영증권",
+     "title": ""
+    },
+    {
+     "id": "linkareer-361839",
+     "company": "고영테크놀러지",
+     "title": ""
+    },
+    {
+     "id": "linkareer-362529",
+     "company": "안랩",
+     "title": ""
+    },
+    {
+     "id": "linkareer-362816",
+     "company": "사세",
+     "title": ""
+    },
+    {
+     "id": "linkareer-362815",
+     "company": "동진쎄미켐",
+     "title": ""
+    }
+   ],
    "compNew": [
     {
      "company": "무신사",
@@ -18793,8 +18859,8 @@
      "url": "https://about.daangn.com?gh_jid=8197459003"
     }
    ],
-   "total": 390,
-   "archiveTotal": 580,
+   "total": 377,
+   "archiveTotal": 582,
    "preds": 332,
    "compTotal": 580
   }

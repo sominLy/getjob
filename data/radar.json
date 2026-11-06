@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T18:18:15.041Z",
+  "collectedAt": "2026-11-06T22:56:07.661Z",
   "errors": {},
   "jobs": [
     {
@@ -101,8 +101,6 @@
         "프로덕트 기획"
       ],
       "reqs": [
-        "SQL·데이터",
-        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -1150,27 +1148,6 @@
       "fit": false,
       "firstSeen": "2026-10-22",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.\n\nExperience in SQL, databases, and automation techniques (e.g., dashboards, automating custom reports, materializing tables).\nAbility to communicate fluently in English and Korean in order to interact with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Outcome Customer Engineer, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/105359333302117062-outcome-customer-engineer-google-cloud-english-korean",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "10 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-29",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience in deployment planning, orchestration, or change management.\nExperience in programming languages, debugging, or systems design.\nExperience engaging with, presenting to, or influencing technical stakeholders or executive leaders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
