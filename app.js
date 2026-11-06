@@ -4292,7 +4292,7 @@ document.getElementById("logBtn").onclick = async function(){
     list("새로 들어온 공고", e.added, (li, x) => link(li, x.company + (x.title ? " — " + x.title : x.roles && x.roles.length ? " — " + x.roles.join(", ") : "") + (x.end ? " (마감 " + x.end.slice(5).replace("-", "/") + ")" : ""), x.url));
     list("기업 채용 새 공고", e.compNew.slice(0, 40), (li, x) => link(li, x.company + " — " + x.title, x.url));
     if(e.compNew.length > 40){ const p = document.createElement("p"); p.className = "sub"; p.textContent = "…외 " + (e.compNew.length - 40) + "건(첫 수집일이라 많아요)"; det.append(p); }
-    list("교육과정·인재풀 등으로 제외", e.removed, (li, x) => li.append(x.company + (x.title ? " — " + x.title : "")));
+    list("교육과정·인재풀·중복 등으로 제외", e.removed, (li, x) => li.append(x.company + (x.title ? " — " + x.title : "")));
     list("마감돼 보관함으로", e.archived, (li, x) => li.append(x.company + (x.end ? " (" + x.end.slice(5).replace("-", "/") + " 마감)" : "")));
     body.append(det);
   });
