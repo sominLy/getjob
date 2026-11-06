@@ -20,6 +20,15 @@ const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
 
 // ---------- 링커리어 ----------
+/** 링커리어 제목 앞의 '[회사명]' 꼬리표는 화면에 회사명이 따로 나오니 뗀다 */
+function linkareerTitle(title, company) {
+  const t = (title ?? "").replace(/\s+/g, " ").trim();
+  const flat = (x) => (x ?? "").replace(/\(주\)|㈜|주식회사|\s/g, "").toLowerCase();
+  const m = t.match(/^[\[【]([^\]】]{1,40})[\]】]\s*(.+)$/);
+  if (m && flat(company) && (flat(m[1]).includes(flat(company)) || flat(company).includes(flat(m[1])))) return m[2].trim();
+  return t;
+}
+
 async function fetchLinkareer() {
   const res = await fetch("https://linkareer.com/list/recruit", {
     headers: { "User-Agent": UA },
@@ -37,6 +46,11 @@ async function fetchLinkareer() {
   for (const [key, value] of Object.entries(apollo)) {
     if (!key.startsWith("Activity:")) continue;
     if (!Array.isArray(value.jobTypes) || !value.jobTypes.includes("NEW")) continue;
+    const id = `linkareer-${value.id}`;
+    const title = linkareerTitle(value.title, value.organizationName);
+    // 교육 과정·인재풀은 채용이 아니다 — 이미 들어간 것도 오늘 받은 제목으로 다시 걸러 낸다
+    if (isNotJob(value.organizationName ?? "", value.title ?? "") || isTalentPool(value.title ?? "")) { BLOCKED.add(id); continue; }
+    if (title) TITLES.set(id, title);
 
     const categoryNames = (value.categories ?? [])
       .map((ref) => apollo[ref.__ref]?.name)
@@ -50,8 +64,9 @@ async function fetchLinkareer() {
     if (!hit) continue;
 
     results.push({
-      id: `linkareer-${value.id}`,
+      id,
       company: value.organizationName ?? "",
+      title,
       type: "",
       roles: hit.roles,
       start: "",
@@ -190,6 +205,29 @@ async function fetchWanted() {
   return results;
 }
 
+/** 링커리어와 자소설닷컴·원티드에 같은 공고가 함께 올라오면 보드에 두 번 뜬다.
+ *  회사 이름(괄호 속 다른 표기 포함)과 마감일이 같고 직무가 겹치면 같은 공고로 보고,
+ *  제목·공식 지원 링크가 있는 쪽을 남기며 링커리어 쪽 직무는 남는 쪽에 합친다. 뺀 개수를 돌려준다. */
+function dropCrossSourceDupes(jobs) {
+  const keys = (c) => (c || "").replace(/\(주\)|㈜|주식회사|\s/g, "").replace(/\(([^)]*)\)/g, "|$1").toLowerCase().split("|").filter(Boolean);
+  const live = (j) => j.confirmed !== false && j.end;
+  const others = jobs.filter((j) => live(j) && !j.id.startsWith("linkareer-"));
+  const drop = new Set();
+  for (const l of jobs) {
+    if (!live(l) || !l.id.startsWith("linkareer-")) continue;
+    const lk = new Set(keys(l.company));
+    const same = others.find((o) => o.end === l.end && keys(o.company).some((k) => lk.has(k))
+      && ((l.roles || []).some((r) => (o.roles || []).includes(r)) || (!l.roles?.length && !o.roles?.length))
+      && (!l.title || !o.title || /인턴/.test(l.title) === /인턴/.test(o.title)));
+    if (!same) continue;
+    same.roles ||= [];
+    for (const r of l.roles || []) if (!same.roles.includes(r)) same.roles.push(r);
+    drop.add(l.id);
+  }
+  if (drop.size) jobs.splice(0, jobs.length, ...jobs.filter((j) => !drop.has(j.id)));
+  return drop.size;
+}
+
 async function main() {
   const raw = await readFile(JOBS_PATH, "utf-8");
   const db = JSON.parse(raw);
@@ -234,18 +272,23 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10);
   fresh.forEach((job) => { job.found = today; });
 
-  if (fresh.length === 0) {
+  db.jobs.push(...fresh);
+  const dupes = dropCrossSourceDupes(db.jobs);
+  if (dupes) console.log(`다른 사이트에 같은 공고가 있어 합친 링커리어 공고 ${dupes}건`);
+  const ids = new Set(db.jobs.map((j) => j.id));
+  const added = fresh.filter((j) => ids.has(j.id)).length;
+
+  if (added === 0) {
     console.log("새 공고 없음.");
-    if (blocked || titled) await writeFile(JOBS_PATH, JSON.stringify(db, null, 2) + "\n", "utf-8");
+    if (blocked || titled || dupes) await writeFile(JOBS_PATH, JSON.stringify(db, null, 2) + "\n", "utf-8");
     return;
   }
 
-  db.jobs.push(...fresh);
   db.updated = new Date().toISOString().slice(0, 10);
 
   await writeFile(JOBS_PATH, JSON.stringify(db, null, 2) + "\n", "utf-8");
   console.log(
-    `새 공고 ${fresh.length}건 추가 (링커리어 ${linkareer.length}, 자소설닷컴 ${jasoseol.length}, 원티드 ${wanted.length} 중 중복 제외).`
+    `새 공고 ${added}건 추가 (링커리어 ${linkareer.length}, 자소설닷컴 ${jasoseol.length}, 원티드 ${wanted.length} 중 중복 제외).`
   );
 }
 
