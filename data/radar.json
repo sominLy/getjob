@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T22:56:07.661Z",
+  "collectedAt": "2026-11-07T16:56:34.454Z",
   "errors": {},
   "jobs": [
     {
@@ -665,27 +665,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Technical Operations Manager, Third-Party Data Centers (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/79231714458510022-technical-operations-manager-thirdparty-data-centers-english-korean",
-      "years": 9,
-      "noLimit": false,
-      "evidence": "9 years of experience in facility operations or facility engineering experience within operations.",
-      "roles": [
-        "운영"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-11-06",
-      "jd": "Minimum qualifications\nAssociate's degree, trade school certification, or other certified training in a related technical field, or equivalent practical experience.\n9 years of experience in facility operations or facility engineering experience within operations.\nExperience in critical facility operations management and vendor management.\nExperience with electrical (Generators, UPS, battteries, switchgears, STS, ATS), mechanical (Chillers, air-conditioning units, air handling units), and fire systems in mission critical-operations environments.\nAbility to communicate in both English and Korean fluently to work with local and other internal stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Field Sales Representative, Digital Natives, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -704,6 +683,27 @@
       "fit": false,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n7 years of experience with quota-carrying cloud or software sales, or account management at a Business-to-Business (B2B) software company.\nExperience in, or supporting the digital native or gaming industry.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Technical Operations Manager, Third-Party Data Centers (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/79231714458510022-technical-operations-manager-thirdparty-data-centers-english-korean",
+      "years": 9,
+      "noLimit": false,
+      "evidence": "9 years of experience in facility operations or facility engineering experience within operations.",
+      "roles": [
+        "운영"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-11-06",
+      "jd": "Minimum qualifications\nAssociate's degree, trade school certification, or other certified training in a related technical field, or equivalent practical experience.\n9 years of experience in facility operations or facility engineering experience within operations.\nExperience in critical facility operations management and vendor management.\nExperience with electrical (Generators, UPS, battteries, switchgears, STS, ATS), mechanical (Chillers, air-conditioning units, air handling units), and fire systems in mission critical-operations environments.\nAbility to communicate in both English and Korean fluently to work with local and other internal stakeholders.\n"
     },
     {
       "source": "google",
@@ -980,28 +980,6 @@
       "fit": false,
       "firstSeen": "2026-11-02",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience in deployment planning, orchestration, or change management.\nExperience in programming languages, debugging, or systems design.\nExperience engaging with, presenting to, or influencing technical stakeholders or executive leaders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Outcome Customer Engineer, AI, Google Cloud",
-      "location": "Seoul, South Korea",
-      "level": "Advanced",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/76494915395035846-outcome-customer-engineer-ai-google-cloud",
-      "years": 7,
-      "noLimit": false,
-      "evidence": "7 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications\nBachelor’s degree or equivalent practical experience.\n7 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with technical delivery strategies and interfacing with product or engineering organizations.\nExperience reading or debugging code in a general purpose coding language (e.g., Java, Python, JavaScript).\nExperience in system design or orchestration frameworks (e.g., LangGraph, AutoGen, CrewAI).\nExperience with enterprise integrations (APIs, enterprise content management (ECMs), identity), cloud infrastructure, or AI/ML model deployments.\n"
     },
     {
       "source": "google",

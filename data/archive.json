@@ -1,6 +1,114 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "jobs": [
+    {
+      "id": "jasoseol-106089",
+      "company": "힐링페이퍼",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-06",
+      "end": "2026-11-06",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.gangnamunni.com/ko/home",
+      "hist": "",
+      "found": "2026-09-08",
+      "title": "Account Executive 신입/경력 채용"
+    },
+    {
+      "id": "jasoseol-106771",
+      "company": "금호익스프레스",
+      "title": "2027년 신입사원 모집",
+      "type": "",
+      "roles": [
+        "HR/인사",
+        "기획/전략"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-11-06",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.kumhobuslines.co.kr/fr/recruit/job_view/15?csrfToken=ecfcd79e-5e0b-41c4-85ec-3cb5f5695784&offset=0&limit=20&searchProgress=FRONT_ING&searchCompanyNo=",
+      "hist": "",
+      "found": "2026-10-16"
+    },
+    {
+      "id": "jasoseol-106816",
+      "company": "수협중앙회",
+      "title": "2026년 하반기 신입직원 채용",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "MD",
+        "마케팅",
+        "금융/심사",
+        "영업"
+      ],
+      "start": "2026-10-22",
+      "end": "2026-11-06",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://suhyup.incruit.com/",
+      "hist": "",
+      "found": "2026-10-22"
+    },
+    {
+      "id": "jasoseol-106849",
+      "company": "한국산업기술진흥원(KIAT)",
+      "title": "2026년 하반기 전문분야 신규직원 공개채용",
+      "type": "공기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-22",
+      "end": "2026-11-06",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kiat.careerlink.kr/",
+      "hist": "",
+      "found": "2026-10-22"
+    },
+    {
+      "id": "jasoseol-106863",
+      "company": "피에스케이",
+      "title": "전략기획 직무 채용(신입/경력)",
+      "type": "중견기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-19",
+      "end": "2026-11-06",
+      "endTime": "23:50",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://psk.recruiter.co.kr/career/jobs/132142",
+      "hist": "",
+      "found": "2026-10-27"
+    },
+    {
+      "id": "jasoseol-106945",
+      "company": "현대비앤지스틸",
+      "title": "광주공장 생산직 및 대졸신입/경력사원 채용",
+      "type": "대기업",
+      "roles": [
+        "기획/전략",
+        "PM/서비스기획"
+      ],
+      "start": "2026-10-27",
+      "end": "2026-11-06",
+      "endTime": "23:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://hyundai-bngsteel.applyin.co.kr/",
+      "hist": "",
+      "found": "2026-10-29"
+    },
     {
       "id": "jasoseol-106791",
       "company": "온라인팜",
@@ -9931,181 +10039,6 @@
       "url": "https://mitsui.career.greetinghr.com/ko/introver2",
       "hist": "",
       "found": "2026-10-05"
-    },
-    {
-      "id": "jasoseol-105244",
-      "company": "NHN Cloud",
-      "type": "",
-      "roles": [],
-      "start": "2026-07-22",
-      "end": "2026-09-22",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4382721890723855828?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105804",
-      "company": "한국표준협회",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "마케팅",
-        "영업관리"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-22",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ksa.careerlink.kr/",
-      "hist": "",
-      "endTime": "10:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105923",
-      "company": "현대그룹",
-      "type": "대기업",
-      "roles": [
-        "기획/전략",
-        "PM/서비스기획",
-        "영업",
-        "HR/인사"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-22",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://connect-hyundai.com/?utm_source=jasoseol&utm_medium=ad&utm_campaign=26fw",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-106069",
-      "company": "한국고용정보원(KEIS)",
-      "type": "공기업",
-      "roles": [
-        "PM/서비스기획",
-        "기획/전략",
-        "HR/인사",
-        "영업관리",
-        "마케팅",
-        "리서치"
-      ],
-      "start": "2026-09-08",
-      "end": "2026-09-22",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609040002065&handle=02D919970EF06D9C69E7A5AD6AFE8CEDB6D14B0EEA1705DD65B5D4888DC7A5B5",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-106076",
-      "company": "한국교통안전공단(KOTSA)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "리서치"
-      ],
-      "start": "2026-09-07",
-      "end": "2026-09-22",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kotsa1.career.co.kr/",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-106101",
-      "company": "한국전기안전공사(KESCO)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사"
-      ],
-      "start": "2026-09-14",
-      "end": "2026-09-22",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kesco.scout.co.kr/",
-      "hist": "",
-      "found": "2026-09-08"
-    },
-    {
-      "id": "jasoseol-106103",
-      "company": "한국전력기술(KEPCO-ENC)",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "HR/인사",
-        "영업",
-        "리서치"
-      ],
-      "start": "2026-09-14",
-      "end": "2026-09-22",
-      "endTime": "11:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kepco-enc.cairos.co.kr/kepco-enc/",
-      "hist": "",
-      "found": "2026-09-08"
-    },
-    {
-      "id": "jasoseol-106124",
-      "company": "군인공제회C&C",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-09-08",
-      "end": "2026-09-22",
-      "endTime": "11:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2609070004608&handle=F03A1722F0059CD22728E48D058600943BFF88E5FCE10283889EF7165875EA1A",
-      "hist": "",
-      "found": "2026-09-09"
-    },
-    {
-      "id": "jasoseol-106172",
-      "company": "지엠테크니컬센터코리아",
-      "type": "중견기업",
-      "roles": [
-        "기획/전략",
-        "PM/서비스기획"
-      ],
-      "start": "2026-09-09",
-      "end": "2026-09-22",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://generalmotors.wd5.myworkdayjobs.com/ko-KR/Careers_GM/job/Incheon-Korea-Republic-of/Design-Program-Management-Intern_JR-202619725",
-      "hist": "",
-      "found": "2026-09-11"
-    },
-    {
-      "id": "jasoseol-106261",
-      "company": "와디즈",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-09-14",
-      "end": "2026-09-22",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://job.wadiz.io/o/236195",
-      "hist": "",
-      "found": "2026-09-16"
     }
   ]
 }

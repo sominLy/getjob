@@ -18863,7 +18863,49 @@
    "archiveTotal": 582,
    "preds": 332,
    "compTotal": 580
+  },
+  {
+   "date": "2026-11-08",
+   "added": [],
+   "archived": [
+    {
+     "id": "jasoseol-106089",
+     "company": "힐링페이퍼",
+     "end": "2026-11-06"
+    },
+    {
+     "id": "jasoseol-106771",
+     "company": "금호익스프레스",
+     "end": "2026-11-06"
+    },
+    {
+     "id": "jasoseol-106816",
+     "company": "수협중앙회",
+     "end": "2026-11-06"
+    },
+    {
+     "id": "jasoseol-106849",
+     "company": "한국산업기술진흥원(KIAT)",
+     "end": "2026-11-06"
+    },
+    {
+     "id": "jasoseol-106863",
+     "company": "피에스케이",
+     "end": "2026-11-06"
+    },
+    {
+     "id": "jasoseol-106945",
+     "company": "현대비앤지스틸",
+     "end": "2026-11-06"
+    }
+   ],
+   "removed": [],
+   "compNew": [],
+   "total": 371,
+   "archiveTotal": 578,
+   "preds": 334,
+   "compTotal": 580
   }
  ],
- "updated": "2026-11-07"
+ "updated": "2026-11-08"
 }
