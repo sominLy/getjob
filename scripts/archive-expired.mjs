@@ -36,7 +36,8 @@ async function main() {
   const archive = await readJson(ARCHIVE_PATH, { updated: "", jobs: [] });
   const details = await readJson(DETAILS_PATH, { updated: "", items: {} });
 
-  const today = new Date().toISOString().slice(0, 10);
+  // 한국 날짜 기준 — 실행이 새벽(UTC 전날 오후)에 도는 날이 많아 UTC로 보면 어제 마감한 공고가 하루 더 남는다
+  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
   const cutoff = new Date(Date.now() - KEEP_DAYS * 24 * 60 * 60 * 1000)
     .toISOString().slice(0, 10);
 
