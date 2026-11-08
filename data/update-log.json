@@ -18905,7 +18905,68 @@
    "archiveTotal": 578,
    "preds": 334,
    "compTotal": 580
+  },
+  {
+   "date": "2026-11-09",
+   "added": [
+    {
+     "id": "jasoseol-107029",
+     "company": "굴드펌프",
+     "title": "2026년 하반기 신입/경력 채용",
+     "roles": [
+      "기획/전략",
+      "영업",
+      "영업관리"
+     ],
+     "end": "2026-11-22",
+     "url": "https://gouldspumps.com/"
+    },
+    {
+     "id": "jasoseol-107114",
+     "company": "제너시스비비큐",
+     "title": "[그룹공채] 2026년 하반기 신입 및 경력직 공개 채용",
+     "roles": [
+      "영업",
+      "영업관리",
+      "기획/전략",
+      "MD"
+     ],
+     "end": "2026-11-22",
+     "url": "https://bbq.recruiter.co.kr/career/jobs/133641?utm_source=jasoseol&utm_medium=banner&utm_campaign=2611bbq"
+    },
+    {
+     "id": "jasoseol-107118",
+     "company": "아이리스브라이트",
+     "title": "퍼포먼스 콘텐츠 기획자 신입·경력 대규모 채용",
+     "roles": [
+      "콘텐츠",
+      "마케팅",
+      "홍보/PR",
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-22",
+     "url": "https://career.irisbright.co.kr/career"
+    }
+   ],
+   "archived": [
+    {
+     "id": "linkareer-355756",
+     "company": "핀슬러코리아",
+     "end": "2026-11-07"
+    },
+    {
+     "id": "jasoseol-106909",
+     "company": "피에스케이",
+     "end": "2026-11-07"
+    }
+   ],
+   "removed": [],
+   "compNew": [],
+   "total": 372,
+   "archiveTotal": 569,
+   "preds": 334,
+   "compTotal": 570
   }
  ],
- "updated": "2026-11-08"
+ "updated": "2026-11-09"
 }

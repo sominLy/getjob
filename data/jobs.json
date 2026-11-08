@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -3215,22 +3215,6 @@
       "found": "2026-10-08"
     },
     {
-      "id": "linkareer-355756",
-      "company": "핀슬러코리아",
-      "type": "",
-      "roles": [
-        "콘텐츠"
-      ],
-      "start": "",
-      "end": "2026-11-07",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/355756",
-      "hist": "",
-      "found": "2026-10-09"
-    },
-    {
       "id": "global-google-121941418200441542",
       "company": "Google",
       "type": "외국계",
@@ -4419,23 +4403,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hmglobal.recruiter.co.kr/career/apply?utm_source=jasoseol&utm_medium=banner&utm_campaign=2610hmglobal",
-      "hist": "",
-      "found": "2026-10-27"
-    },
-    {
-      "id": "jasoseol-106909",
-      "company": "피에스케이",
-      "title": "인사직무 수시채용(경력/신입)",
-      "type": "중견기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-10-26",
-      "end": "2026-11-07",
-      "endTime": "23:50",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://psk.recruiter.co.kr/career/jobs/132403",
       "hist": "",
       "found": "2026-10-27"
     },
@@ -7110,6 +7077,66 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5473862008",
       "hist": "Recruiter, GTM  - Seoul · People",
       "found": "2026-11-06"
+    },
+    {
+      "id": "jasoseol-107029",
+      "company": "굴드펌프",
+      "title": "2026년 하반기 신입/경력 채용",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-11-08",
+      "end": "2026-11-22",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://gouldspumps.com/",
+      "hist": "",
+      "found": "2026-11-08"
+    },
+    {
+      "id": "jasoseol-107114",
+      "company": "제너시스비비큐",
+      "title": "[그룹공채] 2026년 하반기 신입 및 경력직 공개 채용",
+      "type": "중견기업",
+      "roles": [
+        "영업",
+        "영업관리",
+        "기획/전략",
+        "MD",
+        "마케팅"
+      ],
+      "start": "2026-11-08",
+      "end": "2026-11-22",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://bbq.recruiter.co.kr/career/jobs/133641?utm_source=jasoseol&utm_medium=banner&utm_campaign=2611bbq",
+      "hist": "",
+      "found": "2026-11-08"
+    },
+    {
+      "id": "jasoseol-107118",
+      "company": "아이리스브라이트",
+      "title": "퍼포먼스 콘텐츠 기획자 신입·경력 대규모 채용",
+      "type": "",
+      "roles": [
+        "콘텐츠",
+        "마케팅",
+        "홍보/PR",
+        "PM/서비스기획"
+      ],
+      "start": "2026-11-08",
+      "end": "2026-11-22",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://career.irisbright.co.kr/career",
+      "hist": "",
+      "found": "2026-11-08"
     },
     {
       "id": "pred-롯데건설-202611",

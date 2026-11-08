@@ -1,6 +1,39 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "jobs": [
+    {
+      "id": "linkareer-355756",
+      "company": "핀슬러코리아",
+      "type": "",
+      "roles": [
+        "콘텐츠"
+      ],
+      "start": "",
+      "end": "2026-11-07",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/355756",
+      "hist": "",
+      "found": "2026-10-09"
+    },
+    {
+      "id": "jasoseol-106909",
+      "company": "피에스케이",
+      "title": "인사직무 수시채용(경력/신입)",
+      "type": "중견기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-10-26",
+      "end": "2026-11-07",
+      "endTime": "23:50",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://psk.recruiter.co.kr/career/jobs/132403",
+      "hist": "",
+      "found": "2026-10-27"
+    },
     {
       "id": "jasoseol-106089",
       "company": "힐링페이퍼",
@@ -9872,173 +9905,6 @@
       "hist": "",
       "endTime": "23:59",
       "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105263",
-      "company": "NHN Cloud",
-      "type": "",
-      "roles": [],
-      "start": "2026-07-23",
-      "end": "2026-09-23",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4295806285400996732?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105264",
-      "company": "NHN Enterprise",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-07-23",
-      "end": "2026-09-23",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4188040849792836347?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Enterprise_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105265",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-07-23",
-      "end": "2026-09-23",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4021981752778171144?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105266",
-      "company": "NHN Enterprise",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-07-23",
-      "end": "2026-09-23",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4188035412535447997?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Enterprise_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105269",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-07-23",
-      "end": "2026-09-23",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4356699021596362043?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Business",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105289",
-      "company": "엠알인프라오토",
-      "type": "",
-      "roles": [],
-      "start": "2026-07-24",
-      "end": "2026-09-23",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://jasoseol.com",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105897",
-      "company": "대산문화재단",
-      "type": "공기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-08-31",
-      "end": "2026-09-23",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://www.daesan.or.kr/news.html?Table=ins_bbs1&section=&mode=view&uid=1158",
-      "hist": "",
-      "endTime": "14:00",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-106058",
-      "company": "모락스",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-09-07",
-      "end": "2026-09-23",
-      "endTime": "23:50",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://molax.recruiter.im/jobs/6288?utm_source=jasoseol&utm_medium=banner&utm_campaign=2609molax",
-      "hist": "",
-      "found": "2026-09-07"
-    },
-    {
-      "id": "jasoseol-106186",
-      "company": "농협정보시스템",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-09-14",
-      "end": "2026-09-23",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.nonghyupit.com/",
-      "hist": "",
-      "found": "2026-09-14"
-    },
-    {
-      "id": "jasoseol-106364",
-      "company": "버킷플레이스(오늘의집)",
-      "type": "",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-09-06",
-      "end": "2026-09-23",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://bucketplace.career.greetinghr.com/ko/o/235852",
-      "hist": "",
-      "found": "2026-09-19"
-    },
-    {
-      "id": "jasoseol-106161",
-      "company": "한국미쓰이물산",
-      "title": "2026년 채용연계형 인턴사원 채용",
-      "type": "",
-      "roles": [
-        "영업",
-        "마케팅",
-        "기획/전략"
-      ],
-      "start": "2026-09-13",
-      "end": "2026-09-23",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://mitsui.career.greetinghr.com/ko/introver2",
-      "hist": "",
-      "found": "2026-10-05"
     }
   ]
 }
