@@ -268,8 +268,8 @@ async function main() {
   for (const j of db.jobs) if (!j.title && TITLES.get(j.id)) { j.title = TITLES.get(j.id); titled++; }
   if (blocked || titled) console.log(`교육 과정·인재풀로 확인돼 뺀 공고 ${blocked}건, 제목 채움 ${titled}건`);
 
-  // 처음 발견한 날 — 수시·상시 공고는 언제 떴는지가 중요해서 남긴다(매일 KST 11시 실행이라 UTC 날짜 = KST 날짜)
-  const today = new Date().toISOString().slice(0, 10);
+  // 처음 발견한 날 — 수시·상시 공고는 언제 떴는지가 중요해서 남긴다(새벽에 도는 날이 많아 한국 날짜로 찍는다)
+  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
   fresh.forEach((job) => { job.found = today; });
 
   db.jobs.push(...fresh);
@@ -284,7 +284,7 @@ async function main() {
     return;
   }
 
-  db.updated = new Date().toISOString().slice(0, 10);
+  db.updated = today;
 
   await writeFile(JOBS_PATH, JSON.stringify(db, null, 2) + "\n", "utf-8");
   console.log(
