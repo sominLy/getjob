@@ -18946,6 +18946,14 @@
      ],
      "end": "2026-11-22",
      "url": "https://career.irisbright.co.kr/career"
+    },
+    {
+     "id": "jasoseol-106458",
+     "company": "NHN",
+     "title": "스토리지 엔진 개발",
+     "roles": [],
+     "end": "2026-11-27",
+     "url": "https://careers.nhn.com/recruits/4021981752778171144?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech"
     }
    ],
    "archived": [
@@ -18958,12 +18966,122 @@
      "id": "jasoseol-106909",
      "company": "피에스케이",
      "end": "2026-11-07"
+    },
+    {
+     "id": "jasoseol-106144",
+     "company": "에이피알",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106707",
+     "company": "신영자산운용",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106145",
+     "company": "NHN waplat",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106766",
+     "company": "대웅",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106845",
+     "company": "이카운트",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106869",
+     "company": "한국화낙",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106882",
+     "company": "현대엘앤씨",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106583",
+     "company": "앤비젼",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106800",
+     "company": "유라코퍼레이션",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106868",
+     "company": "고위드",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106870",
+     "company": "CR홀딩스/조선내화",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106858",
+     "company": "iM증권",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106901",
+     "company": "모두투어네트워크",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106902",
+     "company": "경동나비엔",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106908",
+     "company": "한미글로벌",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106932",
+     "company": "에어리퀴드코리아",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106933",
+     "company": "인천종합에너지",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106942",
+     "company": "마이다스그룹",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106948",
+     "company": "경신",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106956",
+     "company": "딜라이트룸",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-106983",
+     "company": "한국알프스",
+     "end": "2026-11-08"
+    },
+    {
+     "id": "jasoseol-107008",
+     "company": "경신",
+     "end": "2026-11-08"
     }
    ],
    "removed": [],
    "compNew": [],
-   "total": 372,
-   "archiveTotal": 569,
+   "total": 351,
+   "archiveTotal": 592,
    "preds": 334,
    "compTotal": 570
   }
