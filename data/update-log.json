@@ -19084,7 +19084,318 @@
    "archiveTotal": 592,
    "preds": 334,
    "compTotal": 570
+  },
+  {
+   "date": "2026-11-10",
+   "added": [
+    {
+     "id": "linkareer-363158",
+     "company": "깨끗한나라",
+     "title": "[리테일3팀] '26년 11월 HL사업부 리테일3팀 정규직 사원 모집(신입)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://linkareer.com/activity/363158"
+    },
+    {
+     "id": "linkareer-363155",
+     "company": "에이치시티",
+     "title": "2026년 해외영업분야 수시채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://linkareer.com/activity/363155"
+    },
+    {
+     "id": "linkareer-363144",
+     "company": "핸즈코퍼레이션",
+     "title": "2026년 3분기 채용공고",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-15",
+     "url": "https://linkareer.com/activity/363144"
+    },
+    {
+     "id": "linkareer-363143",
+     "company": "인라이플",
+     "title": "모비온 광고 영업 담당자 (신입)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2027-02-07",
+     "url": "https://linkareer.com/activity/363143"
+    },
+    {
+     "id": "linkareer-363138",
+     "company": "동성케미컬",
+     "title": "2027 동성케미컬 IMPACT 신입사원 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2027-01-18",
+     "url": "https://linkareer.com/activity/363138"
+    },
+    {
+     "id": "jasoseol-107097",
+     "company": "이삼오구",
+     "title": "2359 MARKETER INTERNSHIP RUN-N-UP",
+     "roles": [
+      "마케팅",
+      "콘텐츠",
+      "MD",
+      "영업관리"
+     ],
+     "end": "2026-12-04",
+     "url": "https://runup.2359.kr/"
+    },
+    {
+     "id": "jasoseol-107111",
+     "company": "신한카드",
+     "title": "2026년 B2사원 채용",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-16",
+     "url": "https://shcard.incruit.com/main/main.asp"
+    },
+    {
+     "id": "jasoseol-107115",
+     "company": "농협경제지주 축산경제부문",
+     "title": "2026년 하반기 신규직원 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-16",
+     "url": "https://nhabgroup.incruit.com/main"
+    },
+    {
+     "id": "jasoseol-107131",
+     "company": "드림라인",
+     "title": "2026 하반기 신입/경력 공개채용",
+     "roles": [
+      "영업",
+      "영업관리",
+      "기획/전략"
+     ],
+     "end": "2026-11-16",
+     "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=55469164&view_type=etc&ref=recruit_manage"
+    },
+    {
+     "id": "jasoseol-107137",
+     "company": "한국콘텐츠공제조합",
+     "title": "직원 채용공고",
+     "roles": [
+      "영업",
+      "금융/심사"
+     ],
+     "end": "2026-11-30",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611090000143"
+    },
+    {
+     "id": "jasoseol-107142",
+     "company": "아주산업",
+     "title": "2026년 모듈러사업팀 생산관리 매니저 채용",
+     "roles": [],
+     "end": "2026-12-31",
+     "url": "https://career.aju.co.kr/recruitNotice/RecruitNotice.do?enterCd=AP00&recSeq=1291"
+    },
+    {
+     "id": "jasoseol-107145",
+     "company": "카카오뱅크",
+     "title": "DevOps 엔지니어링팀 정규직 전환형 인턴 채용",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-25",
+     "url": "https://recruit.kakaobank.com/jobs/271437"
+    },
+    {
+     "id": "jasoseol-107146",
+     "company": "케이씨텍",
+     "title": "[신입] 반도체 장비 출고담당자 계약직 모집(안성)",
+     "roles": [],
+     "end": "2026-11-16",
+     "url": "https://kc-group.recruiter.co.kr/career/jobs/133813"
+    },
+    {
+     "id": "jasoseol-107148",
+     "company": "서울물재생시설공단",
+     "title": "2026년 하반기 정규직 채용공고",
+     "roles": [
+      "홍보/PR",
+      "HR/인사"
+     ],
+     "end": "2026-11-18",
+     "url": "https://swr.plusrecruit.co.kr/"
+    },
+    {
+     "id": "jasoseol-107153",
+     "company": "한국GM",
+     "title": "2027 동계인턴사원 모집 (생산/안전/품질)",
+     "roles": [],
+     "end": "2026-11-16",
+     "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Incheon-Korea-Republic-of/GM----_JR-202623905-1"
+    },
+    {
+     "id": "jasoseol-107156",
+     "company": "NHN Cloud",
+     "title": "모의해킹 및 Red Team 운영",
+     "roles": [],
+     "end": "2027-01-07",
+     "url": "https://careers.nhn.com/recruits/4461956030871120112?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech"
+    },
+    {
+     "id": "global-anthropic-5476577008",
+     "company": "Anthropic",
+     "title": "Applied AI Architect · Applied AI",
+     "roles": [],
+     "end": "",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5476577008"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106176",
+     "company": "앱솔브랩",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106691",
+     "company": "건원엔지니어링",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106790",
+     "company": "하나금융티아이",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106775",
+     "company": "NICE신용평가",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106840",
+     "company": "현대제철",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106163",
+     "company": "NHN Cloud",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106877",
+     "company": "코레일유통",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106885",
+     "company": "농심",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106891",
+     "company": "하나저축은행",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "linkareer-360162",
+     "company": "사조푸디스트",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106915",
+     "company": "인천국제공항보안",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106926",
+     "company": "신영그룹",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106898",
+     "company": "한국알콜그룹",
+     "end": "2026-11-09"
+    },
+    {
+     "id": "jasoseol-106979",
+     "company": "농협양곡",
+     "end": "2026-11-09"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Ad Sales Manager (Retail Media)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/231854"
+    },
+    {
+     "company": "컬리",
+     "title": "커머스 상품 전략 담당자",
+     "url": "https://kurly.career.greetinghr.com/ko/o/244098"
+    },
+    {
+     "company": "캐치테이블",
+     "title": "콘텐츠 마케터 (1년 계약직)",
+     "url": "https://catchtable.career.greetinghr.com/ko/o/244124"
+    },
+    {
+     "company": "뤼튼",
+     "title": "Corp Dev Intern",
+     "url": "https://wrtn.career.greetinghr.com/ko/o/243918"
+    },
+    {
+     "company": "핀다",
+     "title": "[핀다] 프로덕트 오너",
+     "url": "https://finda.career.greetinghr.com/ko/o/239981"
+    },
+    {
+     "company": "핀다",
+     "title": "[핀다뱅크(현 대원저축은행)] 프로덕트 오너",
+     "url": "https://finda.career.greetinghr.com/ko/o/243482"
+    },
+    {
+     "company": "라이드플럭스",
+     "title": "[화성] 자재 구매관리 담당자 모집 (채용연계형 인턴, 신입~경력 2년)",
+     "url": "https://rideflux.career.greetinghr.com/ko/o/244029"
+    },
+    {
+     "company": "메가스터디교육",
+     "title": "[유초중] 중등 사회/역사 콘텐츠 기획 채용",
+     "url": "https://megastudyedu.career.greetinghr.com/ko/o/244027"
+    },
+    {
+     "company": "하이브",
+     "title": "[DRIMAGE] MMORPG 게임 커뮤니티 매니저*",
+     "url": "https://careers.hybecorp.com/ko/o/244113"
+    },
+    {
+     "company": "카카오모빌리티",
+     "title": "[Assistant] 라스트마일사업팀 업무 보조",
+     "url": "https://kakaomobility.career.greetinghr.com/ko/o/243986"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[AI Transformation Dept.] AX Product builder (PO Lead) (10년 ",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8908220002"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[Strategy Div.] Partnerships Manager (7년 이상)",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8908447002"
+    }
+   ],
+   "total": 354,
+   "archiveTotal": 605,
+   "preds": 343,
+   "compTotal": 586
   }
  ],
- "updated": "2026-11-09"
+ "updated": "2026-11-10"
 }

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-08T22:53:53.251Z",
+  "collectedAt": "2026-11-09T21:32:11.537Z",
   "errors": {},
   "jobs": [
     {
@@ -1086,28 +1086,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/143849042160296646-customer-engineer-ai-google-cloud-english-korean",
-      "years": 4,
-      "noLimit": false,
-      "evidence": "4 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-11-03",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n4 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Measurement Specialist, Large Customer Sales (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -1152,6 +1130,28 @@
     {
       "source": "notion",
       "company": "Notion",
+      "title": "Mid-Market Solutions Consultant",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/notion/00960f3c-46b6-4ad5-ae6b-4175035b3cb9",
+      "years": null,
+      "noLimit": false,
+      "evidence": "- Mid-market sales experience. You have experience selling technical products to technical buyers at mid-market organizations (500–2,999 employees).",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "unstated",
+      "fit": false,
+      "firstSeen": "2026-09-17",
+      "jd": "SKILLS YOU’LL NEED TO BRING\n\n - Mid-market sales experience. You have experience selling technical products to technical buyers at mid-market organizations (500–2,999 employees).\n\n - Commercial ownership and pipeline generation. You can demonstrate how you created or advanced business, influenced customer decisions, and owned measurable outcomes. Relevant experience may come from quota-carrying sales or adjacent customer-facing roles.\n\n - Technical fluency and builder mindset. You are comfortable building live in software and can demo, co-design, and troubleshoot with a customer without needing a specialist in the room.\n\n - AI fluency. You are excited about AI, build with new tools, and continually learn new ways of working.\n\n - Discovery, qualification, and value articulation. You can uncover customer needs, map workflows, qualify business impact and urgency, and translate what you learn into commercial outcomes, adoption plans, and clear success criteria.\n\n - Agency, urgency, and learning velocity. You set clear goals, take initiative, learn from customer interactions, and apply those learnings to improve outcomes. You bring new ideas and workflows to customers and make complex problems easier to solve.\n\n - Complex customer engagement. You can lead multi-stakeholder interactions and navigate procurement, legal, and security review cycles.\n\n - Native or bilingual-level Korean fluency and business-level English proficiency\n\n \n\n\nNICE TO HAVES\n\n - Full-cycle B2B software sales experience or solutions engineering experience, with a consistent track record of exceeding quota across new-logo acquisition and expansion motions.\n   \n   - Familiarity with usage-based or consumption-based pricing models and the ability to structure credit-based commercial proposals.\n\n - Prior experience selling to mid-market accounts in productivity, collaboration, or workflow software.\n\n - Experience in a shared account ownership model, partnering with a post-sale or Customer Success team as part of an integrated customer motion.\n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550. https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21\n\n#LI-Onsite\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do e"
+    },
+    {
+      "source": "notion",
+      "company": "Notion",
       "title": "Business Development Representative",
       "location": "Seoul, South Korea",
       "url": "https://jobs.ashbyhq.com/notion/759a9c5a-cdd6-4d05-8eaf-e78eabc34293",
@@ -1169,6 +1169,29 @@
       "fit": true,
       "firstSeen": "2026-09-17",
       "jd": "SKILLS YOU'LL NEED TO BRING\n\n - Fluency in Korean and business level in English\n\n - Proven track record in outbound pipeline generation, with hands-on experience in cold prospecting across phone, email, and social channels\n\n - Strong written and verbal communication skills with the ability to craft compelling, persona-specific outreach that earns a response\n\n - Sharp qualification instincts—able to quickly assess ICP fit, identify urgency, and set solutions consultants up for high-quality first conversations\n\n - Passion for AI/ML and understanding of API-first or consumption-based business models\n\n - High-activity mindset with the discipline to prioritize based on signal and data, not just volume\n\n - You don't need to be an AI expert, but you're curious and willing to adopt AI tools to work smarter and deliver better results.\n\n \n\n\nNICE TO HAVES\n\n - Experience with Salesforce, Outreach, or similar GTM tooling\n\n - Familiarity with Notion as a product or prior experience selling productivity, collaboration, or workflow software\n\n - Background in a high-velocity, metric-driven outbound environment with clear pipeline targets\n   \n   \n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550.  https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21#LI-Onsite\n\n\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and discovery, and excited to use AI as a real collaborator in their work. For some roles, AI fluency is a core requirement — when that’s the case, we'll say so explicitly in the qualifications. People who thrive here don’t treat AI as a novelty. They use it to think better, and make their work easier for others to build on.\n\n\n\n\nEQUAL OPPORTUNITY & ACCOMMODATIONS\n\nWe hire talented people from a wide range of backgrounds. If you’re excited about this role but don’t meet every bullet, we still encourage you to apply. Notion is an equal opportunity employer and does not discriminate on the basis of any legally protected characteristic. Consistent with applicable law, we will consider for employment qualified applicants with arrest and conviction records. Notion provides reasonable accommodations during the applicati"
+    },
+    {
+      "source": "notion",
+      "company": "Notion",
+      "title": "Forward Deployed Architect",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "- 5+ years of experience in tech services/consulting, solutions architecture, implementation, customer engineering, or a similar customer-facing role.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "SQL·데이터",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-10-01",
+      "jd": "SKILLS YOU'LL NEED TO BRING:\n\n - 5+ years of experience in tech services/consulting, solutions architecture, implementation, customer engineering, or a similar customer-facing role.\n\n - Proven ability to translate ambiguous customer goals into clear workflows, implementation plans, solution architectures, and measurable success criteria.\n\n - Strong consultative discovery skills, including the ability to map current-state workflows, identify customer pain, understand operating models, surface technical constraints, and define practical future-state solutions.\n\n - Hands-on AI builder mindset, with experience using AI tools to design, prototype, automate, or improve real business workflows.\n\n - Proven track record of designing and deploying AI-powered workflows or agents in production for customers.\n\n - Hands-on technical depth in data modeling and permission design, API and integration patterns, agent design and evaluation, enterprise security and governance, and data validation with SQL or scripts. You do not need to write production code.\n\n - Strong experience delivering implementations that drive adoption, change management and long-term customer value.\n\n - Strong project and engagement management skills, including ownership of scope, timeline, deliverables, stakeholder alignment, risks, decisions, dependencies and launch readiness.\n\n - Experience scoping Services work, estimating effort and delivering within agreed commercial boundaries.\n\n - Exceptional written and verbal communication, with the ability to simplify complex technical concepts for business, technical, and executive audiences.\n\n - Strong executive presence and customer judgment, with the ability to build trust, frame tradeoffs clearly, and move ambiguous decisions forward.\n\n - Experience coaching consultants or architects, and building methods, reference architectures or packaged services that others adopt.\n\n - Bias toward action, high learning velocity, and comfort building in fast-changing AI-native product environments.\n\n - Professional fluency in Korean and English.\n\n\n\n\nNICE TO HAVES:\n\n - Experience with Notion, APIs, MCPs, Workers, coding agents or developer platform workflows.\n\n - Experience delivering for large Korean enterprises and navigating complex, multi-stakeholder decision processes.\n\n - Experience enabling or co-delivering with implementation partners.\n\n - Previous experience in a fast-paced, high-growth technology environment.\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI experti"
     },
     {
       "source": "notion",
@@ -1215,49 +1238,26 @@
       "jd": "SKILLS YOU’LL NEED TO BRING\n\n - 1-3 years of Experience in selling technical products to technical buyers\n\n - Commercial ownership and pipeline generation. You can demonstrate how you created or advanced business, influenced customer decisions, and owned measurable outcomes. Relevant experience may come from quota-carrying sales or adjacent customer-facing roles.\n\n - Technical fluency and builder mindset. You are comfortable building live in software and can demo, co-design, and troubleshoot with a customer without needing a specialist in the room.\n\n - AI fluency. You are excited about AI, build with new tools, and continually learn new ways of working.\n\n - Discovery, qualification, and value articulation. You can uncover customer needs, map workflows, qualify business impact and urgency, and translate what you learn into commercial outcomes, adoption plans, and clear success criteria.\n\n - Agency, urgency, and learning velocity. You set clear goals, take initiative, learn from customer interactions, and apply those learnings to improve outcomes. You bring new ideas and workflows to customers and make complex problems easier to solve.\n\n - Complex customer engagement. You can lead multi-stakeholder interactions and navigate procurement, legal, and security review cycles.\n\n - Native or bilingual-level Korean fluency and business-level English proficiency\n\n \n\n\nNICE TO HAVES\n\n - Full-cycle B2B software sales experience or solutions engineering experience, with a consistent track record of exceeding quota across new-logo acquisition and expansion motions.\n   \n   - Familiarity with usage-based or consumption-based pricing models and the ability to structure credit-based commercial proposals.\n\n - Prior experience selling to commercial accounts in productivity, collaboration, or workflow software.\n\n - Experience in a shared account ownership model, partnering with a post-sale or Customer Success team as part of an integrated customer motion.\n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550. https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21\n\n#LI-Onsite\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do expect every Notino to be intellectually curious, drawn to tinkering and d"
     },
     {
-      "source": "notion",
-      "company": "Notion",
-      "title": "Mid-Market Solutions Consultant",
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Applied AI Architect",
       "location": "Seoul, South Korea",
-      "url": "https://jobs.ashbyhq.com/notion/00960f3c-46b6-4ad5-ae6b-4175035b3cb9",
-      "years": null,
-      "noLimit": false,
-      "evidence": "- Mid-market sales experience. You have experience selling technical products to technical buyers at mid-market organizations (500–2,999 employees).",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "unstated",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "SKILLS YOU’LL NEED TO BRING\n\n - Mid-market sales experience. You have experience selling technical products to technical buyers at mid-market organizations (500–2,999 employees).\n\n - Commercial ownership and pipeline generation. You can demonstrate how you created or advanced business, influenced customer decisions, and owned measurable outcomes. Relevant experience may come from quota-carrying sales or adjacent customer-facing roles.\n\n - Technical fluency and builder mindset. You are comfortable building live in software and can demo, co-design, and troubleshoot with a customer without needing a specialist in the room.\n\n - AI fluency. You are excited about AI, build with new tools, and continually learn new ways of working.\n\n - Discovery, qualification, and value articulation. You can uncover customer needs, map workflows, qualify business impact and urgency, and translate what you learn into commercial outcomes, adoption plans, and clear success criteria.\n\n - Agency, urgency, and learning velocity. You set clear goals, take initiative, learn from customer interactions, and apply those learnings to improve outcomes. You bring new ideas and workflows to customers and make complex problems easier to solve.\n\n - Complex customer engagement. You can lead multi-stakeholder interactions and navigate procurement, legal, and security review cycles.\n\n - Native or bilingual-level Korean fluency and business-level English proficiency\n\n \n\n\nNICE TO HAVES\n\n - Full-cycle B2B software sales experience or solutions engineering experience, with a consistent track record of exceeding quota across new-logo acquisition and expansion motions.\n   \n   - Familiarity with usage-based or consumption-based pricing models and the ability to structure credit-based commercial proposals.\n\n - Prior experience selling to mid-market accounts in productivity, collaboration, or workflow software.\n\n - Experience in a shared account ownership model, partnering with a post-sale or Customer Success team as part of an integrated customer motion.\n\nBy clicking “Submit Application”, I understand and agree that Notion and its affiliates and subsidiaries will collect and process my information in accordance with Notion’s Global Recruiting Privacy Policy https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550. https://dev.notion.so/a3ce416456924276a59de91bca740028?pvs=21\n\n#LI-Onsite\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI expertise for every role, but we do e"
-    },
-    {
-      "source": "notion",
-      "company": "Notion",
-      "title": "Forward Deployed Architect",
-      "location": "Seoul, South Korea",
-      "url": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5476577008",
       "years": 5,
       "noLimit": false,
-      "evidence": "- 5+ years of experience in tech services/consulting, solutions architecture, implementation, customer engineering, or a similar customer-facing role.",
+      "evidence": "5+ years of relevant experience",
       "roles": [
         "솔루션·컨설팅"
       ],
       "reqs": [
         "영어",
-        "SQL·데이터",
         "AI·LLM",
         "B2B"
       ],
       "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-10-01",
-      "jd": "SKILLS YOU'LL NEED TO BRING:\n\n - 5+ years of experience in tech services/consulting, solutions architecture, implementation, customer engineering, or a similar customer-facing role.\n\n - Proven ability to translate ambiguous customer goals into clear workflows, implementation plans, solution architectures, and measurable success criteria.\n\n - Strong consultative discovery skills, including the ability to map current-state workflows, identify customer pain, understand operating models, surface technical constraints, and define practical future-state solutions.\n\n - Hands-on AI builder mindset, with experience using AI tools to design, prototype, automate, or improve real business workflows.\n\n - Proven track record of designing and deploying AI-powered workflows or agents in production for customers.\n\n - Hands-on technical depth in data modeling and permission design, API and integration patterns, agent design and evaluation, enterprise security and governance, and data validation with SQL or scripts. You do not need to write production code.\n\n - Strong experience delivering implementations that drive adoption, change management and long-term customer value.\n\n - Strong project and engagement management skills, including ownership of scope, timeline, deliverables, stakeholder alignment, risks, decisions, dependencies and launch readiness.\n\n - Experience scoping Services work, estimating effort and delivering within agreed commercial boundaries.\n\n - Exceptional written and verbal communication, with the ability to simplify complex technical concepts for business, technical, and executive audiences.\n\n - Strong executive presence and customer judgment, with the ability to build trust, frame tradeoffs clearly, and move ambiguous decisions forward.\n\n - Experience coaching consultants or architects, and building methods, reference architectures or packaged services that others adopt.\n\n - Bias toward action, high learning velocity, and comfort building in fast-changing AI-native product environments.\n\n - Professional fluency in Korean and English.\n\n\n\n\nNICE TO HAVES:\n\n - Experience with Notion, APIs, MCPs, Workers, coding agents or developer platform workflows.\n\n - Experience delivering for large Korean enterprises and navigating complex, multi-stakeholder decision processes.\n\n - Experience enabling or co-delivering with implementation partners.\n\n - Previous experience in a fast-paced, high-growth technology environment.\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI experti"
+      "fit": true,
+      "firstSeen": "2026-11-09",
+      "jd": "requirements and translate them into technical solutions, ensuring alignment between business objectives and technical implementation\n Serve as the primary technical advisor to enterprise customers across South Korea throughout their Claude adoption journey, from discovery to initial evaluation through deployment. You will need to coordinate internally across multiple teams &amp; stakeholders to drive customer success\n Support customers building with both the Claude API and Claude for Work&nbsp;\n Create and deliver compelling technical content tailored to different audiences across South Korea. You will need to be able to run the gamut from technical deep dives for engineering &amp; development teams up to business value focused conversations with executives\n Guide technical architecture decisions and help customers across South Korea integrate Claude effectively into their existing technology stack\n Help customers develop evaluation frameworks to measure Claude's performance for their specific use cases\n Identify common integration patterns and contribute insights back to our Product and Engineering teams\n Travel occasionally to customer sites for workshops, technical deep dives, and relationship building\n Maintain strong knowledge of the latest developments in LLM capabilities and implementation patterns\n Minimum qualifications\n Experience in technical customer-facing roles such as Solutions Architect, Sales Engineer, or Technical Account Manager\n Native-level Korean fluency and business-level English required\n Experience working with enterprise customers, navigating complex buying cycles involving multiple stakeholders\n Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders to include C-suite executives, engineering &amp; IT teams, and more\n Strong technical communication skills with the ability to translate customer requirements between technical and business stakeholders\n Preferred qualifications \n 5+ years of relevant experience\n Experience designing scalable cloud architectures and integrating with enterprise systems\n Comfortable with python\n Familiarity with common LLM frameworks and tools or a background in machine learning or data science\n Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n A love of teaching, mentoring, and helping others succeed\n Excellent communication and interpersonal skills, able to convey complicated topics in easily understandable terms to a diverse set of external and internal stakeholders. You enjoy engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems\n Deadline to apply: None. Applications will be reviewed on a rolling basis.\n "
     },
     {
       "source": "anthropic",
