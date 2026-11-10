@@ -1,6 +1,132 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "jobs": [
+    {
+      "id": "jasoseol-106789",
+      "company": "H&L Advanced",
+      "title": "2026 하반기 신입 채용",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업"
+      ],
+      "start": "2026-10-21",
+      "end": "2026-11-10",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "http://recruit-hnladvanced.com/?utm_source=jasoseol&utm_medium=paid_social&utm_campaign=recruit_2026q4",
+      "hist": "",
+      "found": "2026-10-21"
+    },
+    {
+      "id": "jasoseol-106839",
+      "company": "한국거래소",
+      "title": "증권·파생상품연구인력 채용",
+      "type": "대기업",
+      "roles": [
+        "금융/심사",
+        "기획/전략",
+        "리서치"
+      ],
+      "start": "2026-10-23",
+      "end": "2026-11-10",
+      "endTime": "14:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://krx.saramin.co.kr/service/krx/4014/applicant/apply/recruit_default.asp",
+      "hist": "",
+      "found": "2026-10-23"
+    },
+    {
+      "id": "jasoseol-106890",
+      "company": "브이엘엔코",
+      "title": "각 부문별 신입/경력 수시 채용",
+      "type": "중견기업",
+      "roles": [
+        "MD",
+        "영업관리",
+        "마케팅",
+        "영업"
+      ],
+      "start": "2026-10-26",
+      "end": "2026-11-10",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "http://career.louiscastel.com/bbs/board.php?tbl=jobsearch&mode=VIEW&num=121&category=&findType=&findWord=&sort1=&sort2=&it_id=&shop_flag=&mobile_flag=&page=1",
+      "hist": "",
+      "found": "2026-10-26"
+    },
+    {
+      "id": "jasoseol-107003",
+      "company": "일화",
+      "title": "2026년 신입 및 경력 채용(9)",
+      "type": "중견기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-11-03",
+      "end": "2026-11-10",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://ilhwa.recruiter.co.kr/career/jobs/132992",
+      "hist": "",
+      "found": "2026-11-02"
+    },
+    {
+      "id": "linkareer-362170",
+      "company": "사조대림",
+      "type": "",
+      "roles": [
+        "기획/전략",
+        "마케팅",
+        "영업"
+      ],
+      "start": "",
+      "end": "2026-11-10",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/362170",
+      "hist": "",
+      "found": "2026-11-04"
+    },
+    {
+      "id": "jasoseol-107030",
+      "company": "NES머티리얼즈",
+      "title": "하반기 고졸 신입 모집 (반도체소재 생산 운전)",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-04",
+      "end": "2026-11-10",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://with.nonghyup.com",
+      "hist": "",
+      "found": "2026-11-04"
+    },
+    {
+      "id": "jasoseol-107052",
+      "company": "한국수산회",
+      "title": "직원 채용 공고 (신입/계약직)",
+      "type": "",
+      "roles": [
+        "마케팅",
+        "기획/전략"
+      ],
+      "start": "2026-11-04",
+      "end": "2026-11-10",
+      "endTime": "16:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611030003878&handle=CE18B5973EFDB9151566ED562F63BF7D5844CA74F190F6B9F46095AA694E8F44",
+      "hist": "",
+      "found": "2026-11-04"
+    },
     {
       "id": "jasoseol-106176",
       "company": "앱솔브랩",
@@ -10448,92 +10574,6 @@
       "url": "https://linkareer.com/activity/351936",
       "hist": "",
       "found": "2026-09-19"
-    },
-    {
-      "id": "jasoseol-105333",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-27",
-      "end": "2026-09-25",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/122494",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105338",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-27",
-      "end": "2026-09-25",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/122543",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105335",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-07-27",
-      "end": "2026-09-25",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/122545",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105336",
-      "company": "이노션",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-07-27",
-      "end": "2026-09-25",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://innocean.recruiter.co.kr/career/jobs/122887",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-106184",
-      "company": "한국우편사업진흥원(POSA)",
-      "type": "공기업",
-      "roles": [
-        "마케팅",
-        "PM/서비스기획",
-        "기획/전략",
-        "브랜드",
-        "MD",
-        "콘텐츠",
-        "영업",
-        "영업관리",
-        "HR/인사"
-      ],
-      "start": "2026-09-11",
-      "end": "2026-09-25",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://posa.incruit.com/",
-      "hist": "",
-      "found": "2026-09-11"
     }
   ]
 }

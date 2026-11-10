@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-09T21:30:21.254991+00:00",
+ "collectedAt": "2026-11-10T18:44:37.481849+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -782,7 +782,7 @@
    "cat": "전략·사업",
    "intern": true,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -816,7 +816,7 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
-   "title": "뷰티·웰니스 BD 매니저 (제휴영업)",
+   "title": "뷰티·웰니스 BD 매니저(제휴영업)",
    "career": "-",
    "emp": "정규직",
    "due": "상시",
@@ -970,20 +970,6 @@
   {
    "회사": "마카롱팩토리",
    "플랫폼": "greetinghr",
-   "title": "그로스 매니저 - 마케팅 파트 (전환형 인턴)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://mycle.career.greetinghr.com/ko/o/240798",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-10-16",
-   "new": false,
-   "found": "2026-10-16"
-  },
-  {
-   "회사": "마카롱팩토리",
-   "플랫폼": "greetinghr",
    "title": "채용·인사 운영 담당자 - People팀 (전환형 인턴)",
    "career": "신입",
    "emp": "인턴",
@@ -1020,7 +1006,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1034,7 +1020,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1048,7 +1034,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1062,7 +1048,7 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1076,7 +1062,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1104,7 +1090,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1118,7 +1104,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1132,7 +1118,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1146,7 +1132,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1160,7 +1146,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1174,7 +1160,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1188,7 +1174,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1202,7 +1188,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-09",
-   "new": true,
+   "new": false,
    "found": "2026-11-09"
   },
   {
@@ -1432,16 +1418,16 @@
   {
    "회사": "업스테이지",
    "플랫폼": "greetinghr",
-   "title": "Education Program Manager Internship (체험형)",
+   "title": "AI Model Production - AI Model Ops",
    "career": "경력무관",
-   "emp": "인턴",
+   "emp": "정규직",
    "due": "상시",
-   "link": "https://careers.upstage.ai/ko/o/234831",
-   "cat": "기획·PM/PO",
-   "intern": true,
-   "openDate": "2026-08-27",
-   "new": false,
-   "found": "2026-10-03"
+   "link": "https://careers.upstage.ai/ko/o/244217",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-10",
+   "new": true,
+   "found": "2026-11-10"
   },
   {
    "회사": "업스테이지",
@@ -1612,6 +1598,34 @@
    "found": "2026-11-05"
   },
   {
+   "회사": "와디즈",
+   "플랫폼": "greetinghr",
+   "title": "펀딩 프로모션 마케팅 운영 담당자 (인턴)",
+   "career": "-",
+   "emp": "인턴",
+   "due": "2026-11-23",
+   "link": "https://job.wadiz.io/ko/o/234747",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-11-10",
+   "new": true,
+   "found": "2026-11-10"
+  },
+  {
+   "회사": "와디즈",
+   "플랫폼": "greetinghr",
+   "title": "정산 담당자",
+   "career": "경력무관",
+   "emp": "정규직",
+   "due": "2026-11-30",
+   "link": "https://job.wadiz.io/ko/o/234270",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-10",
+   "new": true,
+   "found": "2026-11-10"
+  },
+  {
    "회사": "직방",
    "플랫폼": "greetinghr",
    "title": "[직방] Sr. Strategy Manager",
@@ -1708,6 +1722,20 @@
    "openDate": "2026-10-16",
    "new": false,
    "found": "2026-10-16"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
+   "title": "[어시스턴트] 언론 PR/커뮤니케이션 업무 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/244247",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-11-10",
+   "new": true,
+   "found": "2026-11-10"
   },
   {
    "회사": "카카오페이",
@@ -1932,20 +1960,6 @@
    "openDate": "2026-10-14",
    "new": false,
    "found": "2026-10-14"
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
-   "title": "[Weverse Company] 오프라인 커머스 기획/운영",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://careers.hybecorp.com/ko/o/238647",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-09-28",
-   "new": false,
-   "found": "2026-09-29"
   },
   {
    "회사": "하이브",
@@ -2242,20 +2256,6 @@
    "found": "2026-10-26"
   },
   {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
-   "title": "[쿠팡] 이츠 카탈로그 데이터 분석 및 운영개선 담당자 (SQL/자동화) - 신입급",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8332845",
-   "cat": "데이터·리서치",
-   "intern": false,
-   "openDate": "2026-10-30",
-   "new": false,
-   "found": "2026-11-05"
-  },
-  {
    "회사": "Anthropic",
    "플랫폼": "global",
    "title": "Applied AI Architect",
@@ -2265,7 +2265,7 @@
    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5476577008",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-09",
    "openDate": "2026-11-09"
   },
@@ -2296,20 +2296,6 @@
    "new": false,
    "found": "2026-10-03",
    "openDate": "2026-08-31"
-  },
-  {
-   "회사": "Anthropic",
-   "플랫폼": "global",
-   "title": "Compute Country Lead, Korea",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5385557008",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": "2026-08-28"
   },
   {
    "회사": "Anthropic",
@@ -2454,20 +2440,6 @@
   {
    "회사": "Notion",
    "플랫폼": "global",
-   "title": "Mid-Market Solutions Consultant",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://jobs.ashbyhq.com/notion/00960f3c-46b6-4ad5-ae6b-4175035b3cb9",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
-   "openDate": "2026-08-26"
-  },
-  {
-   "회사": "Notion",
-   "플랫폼": "global",
    "title": "Business Development Representative",
    "career": "-",
    "emp": "-",
@@ -2478,20 +2450,6 @@
    "new": false,
    "found": "2026-10-03",
    "openDate": "2026-04-03"
-  },
-  {
-   "회사": "Notion",
-   "플랫폼": "global",
-   "title": "Forward Deployed Architect",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-01",
-   "openDate": "2026-10-01"
   },
   {
    "회사": "Notion",
@@ -2520,6 +2478,34 @@
    "new": false,
    "found": "2026-10-03",
    "openDate": "2026-08-06"
+  },
+  {
+   "회사": "Notion",
+   "플랫폼": "global",
+   "title": "Mid-Market Solutions Consultant",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/notion/00960f3c-46b6-4ad5-ae6b-4175035b3cb9",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": false,
+   "found": "2026-10-03",
+   "openDate": "2026-08-26"
+  },
+  {
+   "회사": "Notion",
+   "플랫폼": "global",
+   "title": "Forward Deployed Architect",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": false,
+   "found": "2026-10-01",
+   "openDate": "2026-10-01"
   },
   {
    "회사": "OpenAI",
@@ -2594,20 +2580,6 @@
   {
    "회사": "OpenAI",
    "플랫폼": "global",
-   "title": "Account Director, Mid-Market | Korea",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-10",
-   "openDate": "2026-10-09"
-  },
-  {
-   "회사": "OpenAI",
-   "플랫폼": "global",
    "title": "Enablement Lead, Knowledge Work",
    "career": "-",
    "emp": "-",
@@ -2664,6 +2636,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Account Strategist, Commerce and Consumer, LCS (Fixed-Term Contract) (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/101347727278777030",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-10",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Strategic Partnerships Manager, Sellside Monetization (Fixed-Term Contract) (English and Korean)",
    "career": "-",
    "emp": "-",
@@ -2678,15 +2664,15 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
+   "title": "Outcome Customer Engineer, AI, Google Cloud",
    "career": "-",
    "emp": "-",
    "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/133842532059488966",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/119840138468434630",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": false,
-   "found": "2026-10-09",
+   "new": true,
+   "found": "2026-11-10",
    "openDate": ""
   },
   {
@@ -2748,6 +2734,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/123599368723800774",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-10",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Strategy and Operations Lead, Greater China and Korea GTM (English, Korean)",
    "career": "-",
    "emp": "-",
@@ -2757,6 +2757,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-27",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "AI Sales Specialist, Google Cloud (Korean, English)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/142582849294213830",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-10",
    "openDate": ""
   },
   {

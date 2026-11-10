@@ -19395,7 +19395,348 @@
    "archiveTotal": 605,
    "preds": 343,
    "compTotal": 586
+  },
+  {
+   "date": "2026-11-11",
+   "added": [
+    {
+     "id": "linkareer-363494",
+     "company": "현대종합금속",
+     "title": "본사 내수영업부 서울사무소 신입사원 모집",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-22",
+     "url": "https://linkareer.com/activity/363494"
+    },
+    {
+     "id": "linkareer-363493",
+     "company": "한국유나이티드제약",
+     "title": "개량신약영업팀(MR) 모집",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-22",
+     "url": "https://linkareer.com/activity/363493"
+    },
+    {
+     "id": "linkareer-363492",
+     "company": "한국유나이티드제약",
+     "title": "해외영업팀 신입/경력사원 모집",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-11-22",
+     "url": "https://linkareer.com/activity/363492"
+    },
+    {
+     "id": "linkareer-363485",
+     "company": "서울물재생시설공단",
+     "title": "2026년 하반기 정규직 채용공고",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-18",
+     "url": "https://linkareer.com/activity/363485"
+    },
+    {
+     "id": "linkareer-363469",
+     "company": "아크모브",
+     "title": "[REREV] 모빌리티 플랫폼 운영팀장 / Product Owner",
+     "roles": [
+      "기획/전략",
+      "PM/서비스기획"
+     ],
+     "end": "2027-02-08",
+     "url": "https://linkareer.com/activity/363469"
+    },
+    {
+     "id": "jasoseol-107141",
+     "company": "이랜드파크",
+     "title": "27년 상반기 호텔경영자 Fast-Track 신입/경력 채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-30",
+     "url": "https://careers.eland.co.kr/announce/recruit/hxCUG2pBJuE73_EHYYo5JSioGl3l"
+    },
+    {
+     "id": "jasoseol-107143",
+     "company": "삼성생명서비스",
+     "title": "2027년 신입사원 채용",
+     "roles": [
+      "금융/심사"
+     ],
+     "end": "2026-11-24",
+     "url": "https://samsunglifeservice.recruiter.co.kr/career/home"
+    },
+    {
+     "id": "jasoseol-107147",
+     "company": "세메스",
+     "title": "2026 하반기 신입사원 채용",
+     "roles": [],
+     "end": "2026-11-17",
+     "url": "https://semes.careerlink.kr/jobs"
+    },
+    {
+     "id": "jasoseol-107149",
+     "company": "삼우종합건축사사무소",
+     "title": "2027 신입사원 채용",
+     "roles": [
+      "PM/서비스기획",
+      "HR/인사"
+     ],
+     "end": "2026-11-19",
+     "url": "https://samoo.recruiter.co.kr/career/jobs/133482"
+    },
+    {
+     "id": "jasoseol-107152",
+     "company": "삼성메디슨",
+     "title": "2026년 하반기 3급 신입사원 채용",
+     "roles": [],
+     "end": "2026-11-19",
+     "url": "https://samsungmedison.careerlink.kr/jobs/RC20261109038995"
+    },
+    {
+     "id": "jasoseol-107154",
+     "company": "현대자동차",
+     "title": "2027 서비스엔지니어 채용전환형 인턴십 High-Tech Talent Track",
+     "roles": [],
+     "end": "2026-11-30",
+     "url": "https://talent.hyundai.com/main/main.hc"
+    },
+    {
+     "id": "jasoseol-107155",
+     "company": "삼성전자로지텍",
+     "title": "2026년 하반기 신입사원 채용",
+     "roles": [
+      "영업관리"
+     ],
+     "end": "2026-11-20",
+     "url": "https://www.selc.co.kr"
+    },
+    {
+     "id": "jasoseol-107159",
+     "company": "토스플레이스",
+     "title": "Graphic Design Assistant 채용 (3개월, 단기계약직)",
+     "roles": [],
+     "end": "2026-11-22",
+     "url": "https://toss.im/career/job-detail?job_id=5589072003&company=%ED%86%A0%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+    },
+    {
+     "id": "jasoseol-107160",
+     "company": "에코마케팅",
+     "title": "Data Engineer(Platform) 신입 채용",
+     "roles": [],
+     "end": "2026-11-22",
+     "url": "https://career.echomarketing.co.kr/ko/o/243814"
+    },
+    {
+     "id": "jasoseol-107162",
+     "company": "용마로지스",
+     "title": "2026년 11월 각 부문별 신입 및 경력 채용",
+     "roles": [
+      "기획/전략",
+      "PM/서비스기획",
+      "영업",
+      "영업관리"
+     ],
+     "end": "2026-11-22",
+     "url": "https://applydongasocio.career.greetinghr.com"
+    },
+    {
+     "id": "jasoseol-107164",
+     "company": "KT cs",
+     "title": "[KT그룹사] 2026년 신입사원 채용(~11.17 15시)",
+     "roles": [
+      "기획/전략",
+      "마케팅"
+     ],
+     "end": "2026-11-17",
+     "url": "https://kt.recruiter.co.kr/career/jobs/131741"
+    },
+    {
+     "id": "jasoseol-107165",
+     "company": "중소기업중앙회",
+     "title": "2027년 정규직(5급) 채용연계형 인턴직원 채용",
+     "roles": [
+      "기획/전략",
+      "HR/인사"
+     ],
+     "end": "2026-11-27",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611100000984"
+    },
+    {
+     "id": "jasoseol-107167",
+     "company": "한국사회적기업진흥원(KoSEA)",
+     "title": "2027년 기능직(총무·비서) 및 기간제근로자 채용공고",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-25",
+     "url": "https://socialenterprise.brms.kr/"
+    },
+    {
+     "id": "jasoseol-107169",
+     "company": "마이다스그룹",
+     "title": "영상 콘텐츠 디자이너 채용",
+     "roles": [
+      "콘텐츠",
+      "마케팅"
+     ],
+     "end": "2026-11-22",
+     "url": "https://midas.recruiter.co.kr/career/jobs/133997"
+    },
+    {
+     "id": "jasoseol-107172",
+     "company": "대상",
+     "title": "2026년 신입/경력사원 채용",
+     "roles": [],
+     "end": "2026-11-22",
+     "url": "https://career.daesang.com/ko/home"
+    },
+    {
+     "id": "jasoseol-107176",
+     "company": "밀도",
+     "title": "아트 디렉터",
+     "roles": [],
+     "end": "2026-11-30",
+     "url": "https://mildo.ninehire.site/job_posting/XRn72Oz7"
+    },
+    {
+     "id": "jasoseol-107177",
+     "company": "경기테크노파크",
+     "title": "(인턴 연계) 2026년 스마트제조 전문인력 육성사업 기술Track교육_autodesk",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-11-17",
+     "url": "https://gtp.career.greetinghr.com/ko/o/243514"
+    },
+    {
+     "id": "global-google-101347727278777030",
+     "company": "Google",
+     "title": "Account Strategist, Commerce and Consumer, LCS (Fixed-Term C",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/101347727278777030"
+    },
+    {
+     "id": "global-google-119840138468434630",
+     "company": "Google",
+     "title": "Outcome Customer Engineer, AI, Google Cloud",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/119840138468434630"
+    },
+    {
+     "id": "global-google-123599368723800774",
+     "company": "Google",
+     "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Ko",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/123599368723800774"
+    },
+    {
+     "id": "global-google-142582849294213830",
+     "company": "Google",
+     "title": "AI Sales Specialist, Google Cloud (Korean, English)",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/142582849294213830"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106789",
+     "company": "H&L Advanced",
+     "end": "2026-11-10"
+    },
+    {
+     "id": "jasoseol-106839",
+     "company": "한국거래소",
+     "end": "2026-11-10"
+    },
+    {
+     "id": "jasoseol-106890",
+     "company": "브이엘엔코",
+     "end": "2026-11-10"
+    },
+    {
+     "id": "jasoseol-107003",
+     "company": "일화",
+     "end": "2026-11-10"
+    },
+    {
+     "id": "linkareer-362170",
+     "company": "사조대림",
+     "end": "2026-11-10"
+    },
+    {
+     "id": "jasoseol-107030",
+     "company": "NES머티리얼즈",
+     "end": "2026-11-10"
+    },
+    {
+     "id": "jasoseol-107052",
+     "company": "한국수산회",
+     "end": "2026-11-10"
+    }
+   ],
+   "removed": [
+    {
+     "id": "linkareer-362835",
+     "company": "KT CS",
+     "title": "2026년 대졸 신입사원 채용"
+    }
+   ],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Buying MD (글로벌패션)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/244147"
+    },
+    {
+     "company": "무신사",
+     "title": "맨즈 상품기획 MD (무신사 스탠다드)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/244112"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "Business Analyst",
+     "url": "https://career.oliveyoung.com/ko/o/244185"
+    },
+    {
+     "company": "업스테이지",
+     "title": "Education Operations Manager (계약직)",
+     "url": "https://upstage.career.greetinghr.com/ko/o/244145"
+    },
+    {
+     "company": "핀다",
+     "title": "[핀다] HRBP (HR Business Partner)",
+     "url": "https://finda.career.greetinghr.com/ko/o/244276"
+    },
+    {
+     "company": "카카오페이",
+     "title": "프로덕트 매니저 - CS챗봇 & 에이전트 기획/운영",
+     "url": "https://kakaopay.career.greetinghr.com/ko/o/244167"
+    },
+    {
+     "company": "카카오페이",
+     "title": "프로덕트 매니저 - 보험 플랫폼 서비스",
+     "url": "https://kakaopay.career.greetinghr.com/ko/o/244099"
+    },
+    {
+     "company": "인텔",
+     "title": "Sales Strategy Specialist",
+     "url": "https://intel.wd1.myworkdayjobs.com/External/job/South-Korea-Seoul/Sales-Strategy-Specialist_JR0289057"
+    }
+   ],
+   "total": 372,
+   "archiveTotal": 607,
+   "preds": 341,
+   "compTotal": 590
   }
  ],
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }

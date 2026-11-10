@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -25,14 +25,6 @@
       "department": "Sales",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391257008",
       "updated": "2026-08-31"
-    },
-    {
-      "company": "Anthropic",
-      "title": "Compute Country Lead, Korea",
-      "location": "Seoul, South Korea",
-      "department": "Compute",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385557008",
-      "updated": "2026-08-28"
     },
     {
       "company": "Anthropic",
@@ -116,27 +108,11 @@
     },
     {
       "company": "Notion",
-      "title": "Mid-Market Solutions Consultant",
-      "location": "Seoul, South Korea",
-      "department": "Sales",
-      "url": "https://jobs.ashbyhq.com/notion/00960f3c-46b6-4ad5-ae6b-4175035b3cb9",
-      "updated": "2026-08-26"
-    },
-    {
-      "company": "Notion",
       "title": "Business Development Representative",
       "location": "Seoul, South Korea",
       "department": "Sales",
       "url": "https://jobs.ashbyhq.com/notion/759a9c5a-cdd6-4d05-8eaf-e78eabc34293",
       "updated": "2026-04-03"
-    },
-    {
-      "company": "Notion",
-      "title": "Forward Deployed Architect",
-      "location": "Seoul, South Korea",
-      "department": "Sales",
-      "url": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
-      "updated": "2026-10-01"
     },
     {
       "company": "Notion",
@@ -153,6 +129,22 @@
       "department": "Sales",
       "url": "https://jobs.ashbyhq.com/notion/d3eab521-8adb-4576-b740-905b3894a031",
       "updated": "2026-08-06"
+    },
+    {
+      "company": "Notion",
+      "title": "Mid-Market Solutions Consultant",
+      "location": "Seoul, South Korea",
+      "department": "Sales",
+      "url": "https://jobs.ashbyhq.com/notion/00960f3c-46b6-4ad5-ae6b-4175035b3cb9",
+      "updated": "2026-08-26"
+    },
+    {
+      "company": "Notion",
+      "title": "Forward Deployed Architect",
+      "location": "Seoul, South Korea",
+      "department": "Sales",
+      "url": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
+      "updated": "2026-10-01"
     },
     {
       "company": "OpenAI",
@@ -196,14 +188,6 @@
     },
     {
       "company": "OpenAI",
-      "title": "Account Director, Mid-Market | Korea",
-      "location": "Seoul, South Korea",
-      "department": "Go To Market",
-      "url": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
-      "updated": "2026-10-09"
-    },
-    {
-      "company": "OpenAI",
       "title": "Enablement Lead, Knowledge Work",
       "location": "Seoul, South Korea",
       "department": "Go To Market",
@@ -236,6 +220,14 @@
     },
     {
       "company": "Google",
+      "title": "Account Strategist, Commerce and Consumer, LCS (Fixed-Term Contract) (English, Korean)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101347727278777030",
+      "updated": ""
+    },
+    {
+      "company": "Google",
       "title": "Strategic Partnerships Manager, Sellside Monetization (Fixed-Term Contract) (English and Korean)",
       "location": "Seoul, South Korea",
       "department": "",
@@ -244,10 +236,10 @@
     },
     {
       "company": "Google",
-      "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
+      "title": "Outcome Customer Engineer, AI, Google Cloud",
       "location": "Seoul, South Korea",
       "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/133842532059488966",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/119840138468434630",
       "updated": ""
     },
     {
@@ -284,10 +276,26 @@
     },
     {
       "company": "Google",
+      "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/123599368723800774",
+      "updated": ""
+    },
+    {
+      "company": "Google",
       "title": "Strategy and Operations Lead, Greater China and Korea GTM (English, Korean)",
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/137587576843182790",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "AI Sales Specialist, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/142582849294213830",
       "updated": ""
     },
     {
