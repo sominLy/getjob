@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-10T18:44:37.481849+00:00",
+ "collectedAt": "2026-11-11T18:46:24.926143+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -550,6 +550,20 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
+   "title": "[신사업] 언니가이드 사업개발 인턴 (체험형)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/215589",
+   "cat": "전략·사업",
+   "intern": true,
+   "openDate": "2026-11-11",
+   "new": true,
+   "found": "2026-11-11"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
    "title": "[신사업] 중화권 마케터 (계약직)",
    "career": "경력 1년~",
    "emp": "계약직",
@@ -938,20 +952,6 @@
    "openDate": "2025-12-05",
    "new": false,
    "found": "2026-10-03"
-  },
-  {
-   "회사": "마카롱팩토리",
-   "플랫폼": "greetinghr",
-   "title": "그로스 매니저 - 마케팅 파트",
-   "career": "경력 1년~",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://mycle.career.greetinghr.com/ko/o/240792",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-10-16",
-   "new": false,
-   "found": "2026-10-16"
   },
   {
    "회사": "마카롱팩토리",
@@ -1426,7 +1426,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-10",
-   "new": true,
+   "new": false,
    "found": "2026-11-10"
   },
   {
@@ -1608,7 +1608,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-11-10",
-   "new": true,
+   "new": false,
    "found": "2026-11-10"
   },
   {
@@ -1622,7 +1622,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-10",
-   "new": true,
+   "new": false,
    "found": "2026-11-10"
   },
   {
@@ -1726,6 +1726,20 @@
   {
    "회사": "카카오페이",
    "플랫폼": "greetinghr",
+   "title": "[어시스턴트] 브랜드 마케팅 업무 지원",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/244356",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-11-11",
+   "new": true,
+   "found": "2026-11-11"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
    "title": "[어시스턴트] 언론 PR/커뮤니케이션 업무 지원",
    "career": "신입",
    "emp": "인턴",
@@ -1734,7 +1748,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-11-10",
-   "new": true,
+   "new": false,
    "found": "2026-11-10"
   },
   {
@@ -2048,6 +2062,20 @@
   {
    "회사": "하이컨시",
    "플랫폼": "greetinghr",
+   "title": "[시대인재 LEET] 학원 운영 담당자",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://hiconsy.career.greetinghr.com/ko/o/232346",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-11",
+   "new": true,
+   "found": "2026-11-11"
+  },
+  {
+   "회사": "하이컨시",
+   "플랫폼": "greetinghr",
    "title": "성인교육 및 신사업 온/오프라인 기획·운영 담당자",
    "career": "경력무관",
    "emp": "정규직",
@@ -2210,20 +2238,6 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-07-09",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
-   "title": "[쿠팡로지스틱스서비스] 물류 차량 운영기획 담당자 (신입 가능)",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8172697",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-09-02",
    "new": false,
    "found": "2026-10-03"
   },
@@ -2580,6 +2594,20 @@
   {
    "회사": "OpenAI",
    "플랫폼": "global",
+   "title": "Account Director, Mid-Market | Korea",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-11",
+   "openDate": "2026-11-11"
+  },
+  {
+   "회사": "OpenAI",
+   "플랫폼": "global",
    "title": "Enablement Lead, Knowledge Work",
    "career": "-",
    "emp": "-",
@@ -2643,7 +2671,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/101347727278777030",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-10",
    "openDate": ""
   },
@@ -2671,7 +2699,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/119840138468434630",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-10",
    "openDate": ""
   },
@@ -2687,6 +2715,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-28",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Associate Customer Engineer, gReach Program for People with Disabilities or Veterans (장애인 or 보훈대상자) (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/134693011551331014",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-11",
    "openDate": ""
   },
   {
@@ -2741,8 +2783,22 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/123599368723800774",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-10",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Head of gTech Ads, Large Customer Sales, Korea (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/105591137787355846",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-11",
    "openDate": ""
   },
   {
@@ -2769,7 +2825,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/142582849294213830",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-10",
    "openDate": ""
   },

@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T18:46:31.116Z",
+  "collectedAt": "2026-11-11T18:48:15.465Z",
   "errors": {},
   "jobs": [
     {
@@ -687,27 +687,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Account Strategist, Commerce and Consumer, LCS (Fixed-Term Contract) (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Early",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101347727278777030-account-strategist-commerce-and-consumer-lcs-fixedterm-contract-english-korean",
-      "years": null,
-      "noLimit": false,
-      "evidence": "Bachelor's degree or equivalent practical experience.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "open",
-      "fit": false,
-      "firstSeen": "2026-11-10",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\nExperience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nExperience in Google Workspace applications, including docs, slides, sheets, and forms.\nAbility to communicate in English and Korean fluently to collaborate with colleagues and complete tasks and projects.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Technical Operations Manager, Third-Party Data Centers (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -725,6 +704,27 @@
       "fit": true,
       "firstSeen": "2026-11-06",
       "jd": "Minimum qualifications\nAssociate's degree, trade school certification, or other certified training in a related technical field, or equivalent practical experience.\n9 years of experience in facility operations or facility engineering experience within operations.\nExperience in critical facility operations management and vendor management.\nExperience with electrical (Generators, UPS, battteries, switchgears, STS, ATS), mechanical (Chillers, air-conditioning units, air handling units), and fire systems in mission critical-operations environments.\nAbility to communicate in both English and Korean fluently to work with local and other internal stakeholders.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Account Strategist, Commerce and Consumer, LCS (Fixed-Term Contract) (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101347727278777030-account-strategist-commerce-and-consumer-lcs-fixedterm-contract-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor's degree or equivalent practical experience.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-11-10",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\nExperience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nExperience in Google Workspace applications, including docs, slides, sheets, and forms.\nAbility to communicate in English and Korean fluently to collaborate with colleagues and complete tasks and projects.\n"
     },
     {
       "source": "google",
@@ -839,6 +839,28 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Associate Customer Engineer, gReach Program for People with Disabilities or Veterans (장애인 or 보훈대상자) (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/134693011551331014-associate-customer-engineer-greach-program-for-people-with-disabilities-or-veterans-or-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor’s degree in relevant STEM field (e.g., Computer Science, Information Systems, Management Information Systems), or equivalent practical experience.",
+      "roles": [
+        "솔루션·컨설팅"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-11-11",
+      "jd": "Minimum qualifications\nBachelor’s degree in relevant STEM field (e.g., Computer Science, Information Systems, Management Information Systems), or equivalent practical experience.\nExperience working with databases, web technologies, machine learning, AI or cloud foundations (e.g., cloud computing) through certifications, internships, coursework, or relevant practical experience.\nExperience in customer service, communication, or leadership.\nExperience with one or more programming languages.\nAbility to communicate in English and Korean fluently to collaborate with colleagues and complete tasks and projects.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Agency Business Development Manager, DV360 (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -939,6 +961,28 @@
       "fit": false,
       "firstSeen": "2026-11-05",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n8 years of experience in digital media, sales, marketing, or product roles.\nAbility to communicate in English and Korean fluently to engage with clients in the region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Head of gTech Ads, Large Customer Sales, Korea (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/105591137787355846-head-of-gtech-ads-large-customer-sales-korea-english-korean",
+      "years": 15,
+      "noLimit": false,
+      "evidence": "15 years of experience working within commercial business organizations, technical project/program management, solutions consulting, or enterprise customer-facing roles, translating technical capabilities into commercial",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-11",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n15 years of experience working within commercial business organizations, technical project/program management, solutions consulting, or enterprise customer-facing roles, translating technical capabilities into commercial goals.\n5 years of people management experience leading customer-facing technical or consultative services teams (e.g., engagement managers, solutions/deployment engineers, solutions architects, or technical consultants).\nAbility to communicate in English and Korean fluently to support executive client relationships and local market operations in Korea.\n"
     },
     {
       "source": "google",
