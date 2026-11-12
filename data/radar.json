@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-11T18:48:15.465Z",
+  "collectedAt": "2026-11-12T19:02:14.336Z",
   "errors": {},
   "jobs": [
     {
@@ -287,7 +287,7 @@
       "bucket": "open",
       "fit": true,
       "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.\n문제 발굴 → 지표 수립 → 가설 검증 → 실험 → 이터레이션의 풀 사이클을 본인이 직접 주도해 본 경험이 필요해요. 실행만 담당한 경험이 아니라, 루프 전체를 돌려 본 경험이요.\n애자일한 프로세스로 비즈니스와 제품에 유의미한 성과를 만들거나, 실패를 통해 러닝한 경험이 필요해요.\n데이터 기반으로 다양하고 복잡한 문제를 해결하는 Analytic Mindset이 필요해요.\nLLM 기반 제품을 기획·운영하며 프롬프트, 평가, 할루시네이션 대응 같은 생성형 AI 제품의 품질 문제를 다뤄 본 경험이 있다면 더 좋아요.\n콘텐츠·추천·개인화 제품에서 리텐션 문제를 풀어 본 경험이 있다면 더 좋아요.\n\n"
+      "jd": "이런 분과 함께하고 싶어요\n\n모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.\n문제 발굴 → 지표 수립 → 가설 검증 → 실험 → 이터레이션의 풀 사이클을 본인이 직접 주도해 본 경험이 필요해요. 실행만 담당한 경험이 아니라, 루프 전체를 돌려 본 경험이요.\n애자일한 프로세스로 비즈니스와 제품에 유의미한 성과를 만들거나, 실패를 통해 러닝한 경험이 필요해요.\n데이터 기반으로 다양하고 복잡한 문제를 해결하는 Analytic Mindset이 필요해요.\n새로운 유저층이나 새로운 시장을 대상으로 제품을 0에서 1로 만들어 본 경험이 있다면 더 좋아요.\n온보딩·콘텐츠·추천·개인화 제품에서 활성화나 리텐션 문제를 풀어 본 경험이 있다면 더 좋아요.\nLLM 기반 제품을 기획·운영하며 프롬프트, 평가, 할루시네이션 대응 같은 생성형 AI 제품의 품질 문제를 다뤄 본 경험이 있다면 더 좋아요.\n\n"
     },
     {
       "source": "toss",
@@ -1543,28 +1543,6 @@
       "fit": true,
       "firstSeen": "2026-09-17",
       "jd": "Minimum qualifications \n Experience across strategic finance, go-to-market finance, private equity, growth equity, venture capital, consulting, and investment banking\n Exceptional analytical skills with an ability to synthesize data into compelling insights and develop / maintain complex financial operating models\n Extraordinary problem-solving and critical thinking abilities to navigate complex financial challenges\n Comfort working cross-functionally and are adept at communicating complex financial information to non-finance audiences\n Excitement about working in a fast paced, dynamic environment and adapt well to change\n Possess a bias towards action, strong work ethic, and have experience driving operational outcomes under tight timelines\n Strong relationship building, business judgment, process management, and communication skills\n Are passionate about Anthropic's mission to build safe, transformative AI systems\n Preferred qualifications \n 10+ years of experience across strategic finance, go-to-market finance, private equity, growth equity, venture capital, consulting, and investment banking\n GTM Finance Business Partnership experience\n A combination of 10+ years in strategic finance, paired with several years prior across private equity, growth equity, venture capital, consulting, and investment banking\n Experience with consumption based and/or complex business models\n High knowledge of and interest in effective go-to-market strategies including deal-desk management\n Background in AI, ML, or related technologies\n "
-    },
-    {
-      "source": "anthropic",
-      "company": "Anthropic",
-      "title": "Manager, Applied AI Architect",
-      "location": "Seoul, South Korea",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5430869008",
-      "years": 5,
-      "noLimit": false,
-      "evidence": "5+ years of experience in people management for the technical sales roles.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-29",
-      "jd": "requirements and translate them into technical solutions, ensuring alignment between business objectives and technical implementation\n Serve as the primary technical advisor to enterprise customers in Korea throughout their Claude adoption journey, from discovery to initial evaluation through deployment. You will need to coordinate internally across multiple teams and stakeholders, including global teams across time zones, to drive customer success\n Support customers building with both the Claude API and Claude for Work\n Create and deliver compelling technical content tailored to different audiences. You will need to be able to span the gamut from technical deep dives for engineering and development teams up to business value focused conversations with executives\n Guide technical architecture decisions and help customers integrate Claude effectively into their existing technology stack\n Help customers develop evaluation frameworks to measure Claude's performance for their specific use cases, including Korean language use cases\n Identify common integration patterns and contribute insights back to our Product and Engineering teams\n Travel occasionally to customer sites for workshops, technical deep dives, and relationship building\n Maintain strong knowledge of the latest developments in LLM capabilities and implementation patterns\n &nbsp;\n You may be a good fit if you have: \n 5+ years of experience in people management for the technical sales roles.\n Experience working with enterprise customers, navigating complex buying cycles involving multiple stakeholders\n Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders, including C-suite executives, engineering and IT teams, and more\n Strong technical communication skills with the ability to translate customer requirements between technical and business stakeholders\n Experience designing scalable cloud architectures and integrating with enterprise systems\n Familiarity with common LLM frameworks and tools or a background in machine learning or data science\n Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities\n A love of teaching, mentoring, and helping others succeed\n Excellent communication and interpersonal skills, able to convey complicated topics in easily understandable terms to a diverse set of external and internal stakeholders\n Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems\n Fluency in Korean and English\n "
     },
     {
       "source": "anthropic",

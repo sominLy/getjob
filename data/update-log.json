@@ -20046,7 +20046,281 @@
    "archiveTotal": 613,
    "preds": 342,
    "compTotal": 587
+  },
+  {
+   "date": "2026-11-13",
+   "added": [
+    {
+     "id": "linkareer-364116",
+     "company": "에코프로머티리얼즈",
+     "title": "전략기획 부문 신입/경력 채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-19",
+     "url": "https://linkareer.com/activity/364116"
+    },
+    {
+     "id": "linkareer-364110",
+     "company": "코리아나화장품",
+     "title": "온라인 MD(신입/경력-대졸) 모집",
+     "roles": [
+      "MD"
+     ],
+     "end": "2026-11-15",
+     "url": "https://linkareer.com/activity/364110"
+    },
+    {
+     "id": "jasoseol-107168",
+     "company": "ST인터내셔널",
+     "title": "2027년 상반기 채용연계형 인턴 채용",
+     "roles": [
+      "마케팅",
+      "영업",
+      "리서치",
+      "기획/전략"
+     ],
+     "end": "2026-11-30",
+     "url": "https://sticorp.recruiter.co.kr/career/jobs/133984"
+    },
+    {
+     "id": "jasoseol-107174",
+     "company": "오오비컴퍼니",
+     "title": "2026년 4분기 채용",
+     "roles": [
+      "마케팅",
+      "홍보/PR",
+      "영업관리"
+     ],
+     "end": "2026-11-23",
+     "url": "https://oobc.careerlink.kr/jobs"
+    },
+    {
+     "id": "jasoseol-107190",
+     "company": "한국평가데이터",
+     "title": "정규직 수시채용",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-11-22",
+     "url": "https://kodata.career.greetinghr.com/"
+    },
+    {
+     "id": "jasoseol-107191",
+     "company": "교보생명",
+     "title": "2026 채용연계형 인턴 모집",
+     "roles": [
+      "금융/심사",
+      "영업"
+     ],
+     "end": "2026-11-22",
+     "url": "https://career.kyobo.co.kr/"
+    },
+    {
+     "id": "jasoseol-107195",
+     "company": "하이트진로음료",
+     "title": "신입 및 경력 채용",
+     "roles": [
+      "기획/전략",
+      "영업관리",
+      "영업",
+      "브랜드"
+     ],
+     "end": "2026-12-02",
+     "url": "https://hitejinrobeverage.ninehire.site/"
+    },
+    {
+     "id": "jasoseol-107203",
+     "company": "에어퍼스트",
+     "title": "2027년 각 부문 동계인턴 채용공고",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략",
+      "영업관리",
+      "HR/인사"
+     ],
+     "end": "2026-11-26",
+     "url": "https://airfirst.career.greetinghr.com/ko/o/244341"
+    },
+    {
+     "id": "jasoseol-107204",
+     "company": "LG생활건강",
+     "title": "HR 신입사원 채용",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-11-23",
+     "url": "https://careers.lg.com/apply/detail?id=1002389"
+    },
+    {
+     "id": "jasoseol-107206",
+     "company": "존슨앤드존슨",
+     "title": "[Johnson&Johnson MedTech]의료기기 영업사원(Electrophysiology) 채용",
+     "roles": [
+      "영업",
+      "고객/CS"
+     ],
+     "end": "2026-12-01",
+     "url": "https://www.careers.jnj.com/en/jobs/r-094006/medtech-clinical-sales-electrophysiology/"
+    },
+    {
+     "id": "jasoseol-107207",
+     "company": "마이다스그룹",
+     "title": "마이다스 급여(Payroll) 담당자 채용",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-11-22",
+     "url": "https://midas.recruiter.co.kr/career/jobs/134273"
+    },
+    {
+     "id": "jasoseol-107208",
+     "company": "삼구아이앤씨",
+     "title": "신세계인터내셔날 코스메틱부문 비디비치 마케팅팀 글로벌 인턴 채용",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-12-14",
+     "url": "https://linkareer.com/activity/361040"
+    },
+    {
+     "id": "jasoseol-107210",
+     "company": "피에스케이",
+     "title": "안전관리 분야 장애인 계약직 채용",
+     "roles": [],
+     "end": "2026-12-31",
+     "url": "https://psk.recruiter.co.kr/career/jobs/131167"
+    },
+    {
+     "id": "jasoseol-107211",
+     "company": "NHN Cloud",
+     "title": "구매",
+     "roles": [],
+     "end": "2027-01-10",
+     "url": "https://careers.nhn.com/recruits/4463975433215526703?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Corporate"
+    },
+    {
+     "id": "jasoseol-107214",
+     "company": "포스코",
+     "title": "2027년 서울/포항/광양/송도 임원비서(계약직) 채용",
+     "roles": [],
+     "end": "2026-11-24",
+     "url": "https://recruit.posco.com/h22a01-front/H22A1001.html?id=741000"
+    },
+    {
+     "id": "jasoseol-107215",
+     "company": "동국제약",
+     "title": "신입/경력 채용(영업/마케팅/관리/SCM 등) ~ 11/19",
+     "roles": [
+      "브랜드",
+      "마케팅",
+      "HR/인사",
+      "영업"
+     ],
+     "end": "2026-11-19",
+     "url": "https://dkpharm.recruiter.co.kr/career/jobs/134286"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106934",
+     "company": "한국교통안전공단(KOTSA)",
+     "end": "2026-11-12"
+    },
+    {
+     "id": "jasoseol-106959",
+     "company": "로지스올",
+     "end": "2026-11-12"
+    },
+    {
+     "id": "jasoseol-106947",
+     "company": "현대백화점그룹",
+     "end": "2026-11-12"
+    },
+    {
+     "id": "jasoseol-106973",
+     "company": "유안타증권",
+     "end": "2026-11-12"
+    },
+    {
+     "id": "linkareer-361436",
+     "company": "글로와이드",
+     "end": "2026-11-12"
+    },
+    {
+     "id": "linkareer-362175",
+     "company": "아이마켓코리아",
+     "end": "2026-11-12"
+    },
+    {
+     "id": "linkareer-362158",
+     "company": "온라인팜",
+     "end": "2026-11-12"
+    },
+    {
+     "id": "jasoseol-107071",
+     "company": "온라인팜",
+     "end": "2026-11-12"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Brand Marketer (PB 브랜드/캐주얼)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/244412"
+    },
+    {
+     "company": "무신사",
+     "title": "라이프스타일 MD (글로벌소싱)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/244577"
+    },
+    {
+     "company": "무신사",
+     "title": "상품기획 MD (PB 브랜드/캐주얼)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/244411"
+    },
+    {
+     "company": "무신사",
+     "title": "패턴사 (PB 브랜드/캐주얼)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/244407"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "Corporate Strategy Manager (주니어)",
+     "url": "https://career.oliveyoung.com/ko/o/211211"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "Corporate Strategy Manager (시니어)",
+     "url": "https://career.oliveyoung.com/ko/o/211210"
+    },
+    {
+     "company": "캐치테이블",
+     "title": "캐치테이블 글로벌셀 리더 (Global B2C PO)",
+     "url": "https://catchtable.career.greetinghr.com/ko/o/244491"
+    },
+    {
+     "company": "직방",
+     "title": "[직방] Ads Business Leader",
+     "url": "https://zigbang.career.greetinghr.com/ko/o/244454"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[Strategy Div.] Corporate Strategy Team Lead(10년 이상)",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8794666002"
+    },
+    {
+     "company": "쏘카",
+     "title": "[계약직] 사업 운영 지원 매니저",
+     "url": "https://socar.career.greetinghr.com/ko/o/244592"
+    }
+   ],
+   "total": 383,
+   "archiveTotal": 593,
+   "preds": 339,
+   "compTotal": 597
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }

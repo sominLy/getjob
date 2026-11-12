@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-11T18:46:24.926143+00:00",
+ "collectedAt": "2026-11-12T19:00:14.672572+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -558,7 +558,7 @@
    "cat": "전략·사업",
    "intern": true,
    "openDate": "2026-11-11",
-   "new": true,
+   "new": false,
    "found": "2026-11-11"
   },
   {
@@ -1264,7 +1264,7 @@
   {
    "회사": "무신사",
    "플랫폼": "greetinghr",
-   "title": "인플루언서 사업 정산/운영 Assistant",
+   "title": "정산/운영 Assistant",
    "career": "경력무관",
    "emp": "계약직",
    "due": "상시",
@@ -1734,7 +1734,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-11-11",
-   "new": true,
+   "new": false,
    "found": "2026-11-11"
   },
   {
@@ -2070,7 +2070,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-11",
-   "new": true,
+   "new": false,
    "found": "2026-11-11"
   },
   {
@@ -2398,20 +2398,6 @@
   {
    "회사": "Anthropic",
    "플랫폼": "global",
-   "title": "Manager, Applied AI Architect",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5430869008",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-09-29",
-   "openDate": "2026-09-22"
-  },
-  {
-   "회사": "Anthropic",
-   "플랫폼": "global",
    "title": "Recruiter, GTM  - Seoul",
    "career": "-",
    "emp": "-",
@@ -2594,20 +2580,6 @@
   {
    "회사": "OpenAI",
    "플랫폼": "global",
-   "title": "Account Director, Mid-Market | Korea",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://jobs.ashbyhq.com/openai/76084eee-9186-4897-ae12-3445307e61be",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": true,
-   "found": "2026-11-11",
-   "openDate": "2026-11-11"
-  },
-  {
-   "회사": "OpenAI",
-   "플랫폼": "global",
    "title": "Enablement Lead, Knowledge Work",
    "career": "-",
    "emp": "-",
@@ -2727,7 +2699,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/134693011551331014",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-11",
    "openDate": ""
   },
@@ -2797,7 +2769,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/105591137787355846",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-11",
    "openDate": ""
   },
