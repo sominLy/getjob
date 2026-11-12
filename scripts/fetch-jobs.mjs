@@ -215,7 +215,9 @@ function dropCrossSourceDupes(jobs) {
   const drop = new Set();
   for (const l of jobs) {
     if (!live(l) || !l.id.startsWith("linkareer-")) continue;
-    const lk = new Set(keys(l.company));
+    // 회사 이름이 한글·영문으로 갈려도('(주)엔에이치알' / 'NHR') 링커리어 제목 앞 '[NHR]' 꼬리표로 같은 회사를 알아본다
+    const tag = (l.title || "").match(/^\s*[\[【]([^\]】]{1,40})[\]】]/)?.[1];
+    const lk = new Set([...keys(l.company), ...(tag ? keys(tag) : [])]);
     const same = others.find((o) => o.end === l.end && keys(o.company).some((k) => lk.has(k))
       && ((l.roles || []).some((r) => (o.roles || []).includes(r)) || (!l.roles?.length && !o.roles?.length))
       && (!l.title || !o.title || /인턴/.test(l.title) === /인턴/.test(o.title)));
