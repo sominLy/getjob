@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-12T19:02:14.336Z",
+  "collectedAt": "2026-11-13T18:37:30.571Z",
   "errors": {},
   "jobs": [
     {
@@ -1346,6 +1346,28 @@
       "fit": false,
       "firstSeen": "2026-10-01",
       "jd": "SKILLS YOU'LL NEED TO BRING:\n\n - 5+ years of experience in tech services/consulting, solutions architecture, implementation, customer engineering, or a similar customer-facing role.\n\n - Proven ability to translate ambiguous customer goals into clear workflows, implementation plans, solution architectures, and measurable success criteria.\n\n - Strong consultative discovery skills, including the ability to map current-state workflows, identify customer pain, understand operating models, surface technical constraints, and define practical future-state solutions.\n\n - Hands-on AI builder mindset, with experience using AI tools to design, prototype, automate, or improve real business workflows.\n\n - Proven track record of designing and deploying AI-powered workflows or agents in production for customers.\n\n - Hands-on technical depth in data modeling and permission design, API and integration patterns, agent design and evaluation, enterprise security and governance, and data validation with SQL or scripts. You do not need to write production code.\n\n - Strong experience delivering implementations that drive adoption, change management and long-term customer value.\n\n - Strong project and engagement management skills, including ownership of scope, timeline, deliverables, stakeholder alignment, risks, decisions, dependencies and launch readiness.\n\n - Experience scoping Services work, estimating effort and delivering within agreed commercial boundaries.\n\n - Exceptional written and verbal communication, with the ability to simplify complex technical concepts for business, technical, and executive audiences.\n\n - Strong executive presence and customer judgment, with the ability to build trust, frame tradeoffs clearly, and move ambiguous decisions forward.\n\n - Experience coaching consultants or architects, and building methods, reference architectures or packaged services that others adopt.\n\n - Bias toward action, high learning velocity, and comfort building in fast-changing AI-native product environments.\n\n - Professional fluency in Korean and English.\n\n\n\n\nNICE TO HAVES:\n\n - Experience with Notion, APIs, MCPs, Workers, coding agents or developer platform workflows.\n\n - Experience delivering for large Korean enterprises and navigating complex, multi-stakeholder decision processes.\n\n - Experience enabling or co-delivering with implementation partners.\n\n - Previous experience in a fast-paced, high-growth technology environment.\n\n\n\n\nA NOTE ON AI\n\nYou don’t need deep AI experti"
+    },
+    {
+      "source": "notion",
+      "company": "Notion",
+      "title": "Field & Events Marketing Manager",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/notion/8e609b06-1c41-40a2-b198-467c85e9bb3d",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by sid",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "unstated",
+      "fit": true,
+      "firstSeen": "2026-11-13",
+      "jd": "WHO WE ARE\n\nNotion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion.\n\n\n\nNotinos (our employees) are customer zero in bringing this future of work to life. We care about craft, building things that last, and the belief that great work is still fundamentally human. Our goal isn’t to ship the next feature. Each and every team of Notinos is working to set the standard for how humans work together in the AI era. From building a business’s system of record to making and managing AI agents to automating away the busy work, we care deeply about giving our customers more time for their life’s work.\n\n\n\n\nABOUT THE ROLE\n\nOwn Korea’s field marketing engine across hosted events, third-party programs, field ABM, and Korean-language webinars. At Notion, you’ll help define how an AI-native product earns trust in Korea: choosing the right rooms, accounts, partners, and follow-up motions—not just maximizing attendance. You’ll work closely with Sales, BDRs, and Solutions Consultants to turn target-account engagement into measurable pipeline and iARR.\n\nThis role is based in Seoul, Korea. We work from our offices on Mondays, Tuesdays and Thursdays (our Anchor Days) because we do our best thinking and building together in person. We’re looking for someone who’s excited to work alongside the team during those days.\n\n\n\n\nWHAT YOU’LL ACHIEVE\n\n - Build the Korea field marketing engine: Establish an event mix that reaches priority accounts, creates meaningful customer engagement, and contributes to pipeline and iARR—not just attendance.\n\n - By your 90th day, complete the handover and establish the plan: Inherit the event playbooks, vendors, and sales relationships; align the H1 calendar, budget, target-account list, and reporting baseline with Sales.\n\n - By your 90th day, use AI to improve the work: Apply AI across event research, account selection, Korean localization, campaign drafts, vendor briefs, follow-up, and pipeline analysis—with sound judgment around data and quality.\n\n - By the end of your first year, run the Korea program independently: Deliver the field events calendar, field ABM programs, third-party presence, and webinars with clear ownership from planning through follow-up.\n\n - By the end of your first year, raise the operating bar: Leave behind a durable Korea field playbook, a strong vendor and agency bench, reliable lead-routing and follow-up discipline, and reporting that helps the team rebalance toward what works.\n   \n   \n\n\nSKILLS YOU’LL BRING\n\n - Demonstrated ability to design and deliver B2B field or events programs that create measurable pipeline and commercial impact; this role is accountable for more than attendance.\n\n - Experience owning event budgets, ve"
     },
     {
       "source": "anthropic",

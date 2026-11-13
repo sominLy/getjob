@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -137,6 +137,14 @@
       "department": "Sales",
       "url": "https://jobs.ashbyhq.com/notion/8cb74a17-1685-4f92-8314-6ef6264b5085",
       "updated": "2026-10-01"
+    },
+    {
+      "company": "Notion",
+      "title": "Field & Events Marketing Manager",
+      "location": "Seoul, South Korea",
+      "department": "Marketing",
+      "url": "https://jobs.ashbyhq.com/notion/8e609b06-1c41-40a2-b198-467c85e9bb3d",
+      "updated": "2026-11-12"
     },
     {
       "company": "OpenAI",

@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-12T19:00:14.672572+00:00",
+ "collectedAt": "2026-11-13T18:35:39.762306+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -140,6 +140,34 @@
    "openDate": "2025-04-03",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "HR 인력운영 담당자 (계약직)",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/244636",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-13",
+   "new": true,
+   "found": "2026-11-13"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "비주얼디자인 Assistant (계약직)",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/244417",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-11",
+   "new": true,
+   "found": "2026-11-13"
   },
   {
    "회사": "CJ올리브영",
@@ -382,20 +410,6 @@
   {
    "회사": "CJ올리브영",
    "플랫폼": "greetinghr",
-   "title": "디지털 마케팅 전략 담당자",
-   "career": "-",
-   "emp": "-",
-   "due": "상시",
-   "link": "https://career.oliveyoung.com/ko/o/211302",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-04-10",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "CJ올리브영",
-   "플랫폼": "greetinghr",
    "title": "글로벌몰 멤버십 마케터",
    "career": "-",
    "emp": "정규직",
@@ -578,6 +592,20 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
+   "title": "[신사업] 미국 사업개발 인턴 (체험형)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/244506",
+   "cat": "전략·사업",
+   "intern": true,
+   "openDate": "2026-11-12",
+   "new": true,
+   "found": "2026-11-13"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
    "title": "[신사업] 사업개발 인턴 (체험형)",
    "career": "신입",
    "emp": "인턴",
@@ -602,6 +630,20 @@
    "openDate": "2026-11-03",
    "new": false,
    "found": "2026-11-03"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
+   "title": "[병원 운영 솔루션] Business Operation Assistant (체험형 인턴)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/190470",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-11-13",
+   "new": true,
+   "found": "2026-11-13"
   },
   {
    "회사": "강남언니",
@@ -826,20 +868,6 @@
    "openDate": "2026-10-22",
    "new": false,
    "found": "2026-10-22"
-  },
-  {
-   "회사": "마이리얼트립",
-   "플랫폼": "greetinghr",
-   "title": "뷰티·웰니스 BD 매니저(제휴영업)",
-   "career": "-",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://myrealtrip.career.greetinghr.com/ko/o/243802",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-11-06",
-   "new": false,
-   "found": "2026-11-06"
   },
   {
    "회사": "마이리얼트립",
@@ -1232,6 +1260,20 @@
    "openDate": "2026-10-30",
    "new": false,
    "found": "2026-10-30"
+  },
+  {
+   "회사": "무신사",
+   "플랫폼": "greetinghr",
+   "title": "CX Operations Assistant",
+   "career": "경력 1년~",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://www.musinsacareers.com/ko/o/244708",
+   "cat": "세일즈·CX·제휴",
+   "intern": false,
+   "openDate": "2026-11-13",
+   "new": true,
+   "found": "2026-11-13"
   },
   {
    "회사": "무신사",
@@ -1894,6 +1936,20 @@
   {
    "회사": "팀스파르타",
    "플랫폼": "greetinghr",
+   "title": "신사업2팀(내배픽) B2C 세일즈 매니저 (계약직)",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.spartaclub.kr/ko/o/244630",
+   "cat": "세일즈·CX·제휴",
+   "intern": false,
+   "openDate": "2026-11-13",
+   "new": true,
+   "found": "2026-11-13"
+  },
+  {
+   "회사": "팀스파르타",
+   "플랫폼": "greetinghr",
    "title": "💼 [내일출근] 커리어 상담 세일즈 매니저 모집 (계약직)",
    "career": "경력무관",
    "emp": "계약직",
@@ -2506,6 +2562,20 @@
    "new": false,
    "found": "2026-10-01",
    "openDate": "2026-10-01"
+  },
+  {
+   "회사": "Notion",
+   "플랫폼": "global",
+   "title": "Field & Events Marketing Manager",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/notion/8e609b06-1c41-40a2-b198-467c85e9bb3d",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-13",
+   "openDate": "2026-11-12"
   },
   {
    "회사": "OpenAI",
