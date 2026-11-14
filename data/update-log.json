@@ -20602,7 +20602,29 @@
    "archiveTotal": 565,
    "preds": 346,
    "compTotal": 602
+  },
+  {
+   "date": "2026-11-15",
+   "added": [],
+   "archived": [
+    {
+     "id": "jasoseol-106237",
+     "company": "앱솔브랩",
+     "end": "2026-11-14"
+    },
+    {
+     "id": "jasoseol-106272",
+     "company": "세스코",
+     "end": "2026-11-14"
+    }
+   ],
+   "removed": [],
+   "compNew": [],
+   "total": 391,
+   "archiveTotal": 569,
+   "preds": 346,
+   "compTotal": 602
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-15"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -2556,25 +2556,6 @@
       "found": "2026-09-14"
     },
     {
-      "id": "jasoseol-106237",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [
-        "브랜드",
-        "콘텐츠",
-        "마케팅"
-      ],
-      "start": "2026-09-14",
-      "end": "2026-11-14",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/tDjTfTb0",
-      "hist": "",
-      "found": "2026-09-15",
-      "title": "[셀리맥스] 인도 인플루언서 마케팅 인턴 채용"
-    },
-    {
       "id": "global-google-127270118626337478",
       "company": "Google",
       "type": "외국계",
@@ -3580,23 +3561,6 @@
       "url": "https://apr-careers.com/job_posting/ZrCZlUN4",
       "hist": "",
       "found": "2026-10-21"
-    },
-    {
-      "id": "jasoseol-106272",
-      "company": "세스코",
-      "title": "2026년 하반기 전문영업직 신입 대규모 채용 (전국)",
-      "type": "중견기업",
-      "roles": [
-        "영업"
-      ],
-      "start": "2026-09-15",
-      "end": "2026-11-14",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://cesco.career.greetinghr.com/ko/o/177766",
-      "hist": "",
-      "found": "2026-10-22"
     },
     {
       "id": "jasoseol-106857",

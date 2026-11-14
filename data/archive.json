@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "jobs": [
+    {
+      "id": "jasoseol-106237",
+      "company": "앱솔브랩",
+      "type": "",
+      "roles": [
+        "브랜드",
+        "콘텐츠",
+        "마케팅"
+      ],
+      "start": "2026-09-14",
+      "end": "2026-11-14",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://celimax.ninehire.site/job_posting/tDjTfTb0",
+      "hist": "",
+      "found": "2026-09-15",
+      "title": "[셀리맥스] 인도 인플루언서 마케팅 인턴 채용"
+    },
+    {
+      "id": "jasoseol-106272",
+      "company": "세스코",
+      "title": "2026년 하반기 전문영업직 신입 대규모 채용 (전국)",
+      "type": "중견기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-09-15",
+      "end": "2026-11-14",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://cesco.career.greetinghr.com/ko/o/177766",
+      "hist": "",
+      "found": "2026-10-22"
+    },
     {
       "id": "jasoseol-106202",
       "company": "오가닉서라운딩",
@@ -1688,6 +1724,21 @@
       "found": "2026-11-03"
     },
     {
+      "id": "jasoseol-106512",
+      "company": "NHN Cloud",
+      "title": "PaaS 백엔드 개발",
+      "type": "",
+      "roles": [],
+      "start": "2026-09-29",
+      "end": "2026-11-04",
+      "endTime": "11:13",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4345782544040635308?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Tech",
+      "hist": "",
+      "found": "2026-11-15"
+    },
+    {
       "id": "jasoseol-106048",
       "company": "NHN",
       "type": "대기업",
@@ -1771,6 +1822,23 @@
       "url": "https://krx.saramin.co.kr/service/krx/4013/applicant/apply/recruit_default.asp",
       "hist": "",
       "found": "2026-10-23"
+    },
+    {
+      "id": "jasoseol-106776",
+      "company": "무역안보관리원",
+      "title": "2026년 하반기 체험형 청년인턴 채용",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2026-10-19",
+      "end": "2026-11-03",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kosti.recruiter.co.kr/appsite/company/index",
+      "hist": "",
+      "found": "2026-11-15"
     },
     {
       "id": "jasoseol-106024",
