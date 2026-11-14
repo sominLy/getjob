@@ -7426,45 +7426,6 @@
       "found": "2026-11-13"
     },
     {
-      "id": "jasoseol-106224",
-      "company": "서울경제진흥원",
-      "title": "2026년 하반기 디지털 역량(AI) 교육과정",
-      "type": "공기업",
-      "roles": [
-        "HR/인사",
-        "콘텐츠",
-        "마케팅",
-        "PM/서비스기획",
-        "브랜드"
-      ],
-      "start": "2026-09-15",
-      "end": "2026-11-21",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://sba.kpcai.app/landing/",
-      "hist": "",
-      "found": "2026-11-14"
-    },
-    {
-      "id": "jasoseol-106461",
-      "company": "현대건설 기술교육원",
-      "title": "THE FIELD 실전 취업 트랙",
-      "type": "",
-      "roles": [
-        "HR/인사",
-        "영업"
-      ],
-      "start": "2026-09-28",
-      "end": "2026-11-30",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://edu.hdec.co.kr/",
-      "hist": "",
-      "found": "2026-11-14"
-    },
-    {
       "id": "pred-롯데바이오로직스-202611",
       "company": "롯데바이오로직스",
       "type": "대기업",

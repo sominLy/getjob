@@ -3,6 +3,8 @@
 
 // 내가 '교육생'으로 들어가는 과정(부트캠프·양성과정·아카데미·대학원 과정)
 const PROGRAM = /공모전|경진\s*대회|서포터즈|대학생\s*기자단|(스쿨|학교|클래스)\s*\d+\s*기|클래스메이트|위촉직|위촉\s*계약|FC\s*(모집|위촉)|매치업|직무\s*능력\s*인증|커리어\s*리스타트|(개발자|전문가|인재|실무자|엔지니어)\s*(양성\s*)?과정|캠퍼스\s*\d+\s*기|\d+\s*기\s*(교육생|수강생|모집\s*\(?교육)|K-?Digital\s*Training|K-?디지털|디지털\s*트레이닝|K-?뉴딜|\bcamp\b|캠프|훈련생|훈련\s*과정|과정\s*(모집|수료)|수료\s*후|사관\s*학교|SSAFY|싸피|\bHINT\b|양성\s*(과정|교육|프로그램)|전문가\s*양성|교육\s*프로그램|아카데미|academy|부트\s*캠프|bootcamp|내일배움|K-?디지털|국비|교육생|수강생|연수생|참여자\s*모집|아카데미\s*참여자|박사\s*과정|석사\s*과정|\((박사|석사|박사후)\)|박사후\s*연구원|전문\s*인력\s*(양성|육성)|인력\s*(양성|육성)\s*사업|Track\s*교육/i;
+// 일반 채용으로 분류돼 들어오는 디지털 역량 교육과 취업 준비 트랙도 제외한다.
+const CAREER_TRAINING = /디지털\s*역량\s*(?:\([^)]*\)\s*)?교육\s*과정|실전\s*취업\s*트랙/i;
 // 대학교 교직원·학사 행정, 병원·의료원(간호·약사·원무 등 의료기관 채용)
 const ACADEMIC = /대학교|미래인재개발원|학교법인|병원|의료원|의료재단|의료법인/;
 
@@ -18,7 +20,7 @@ export const isProgramBody = (text = "") => PROGRAM_STRONG.test(text) || PROGRAM
 
 /** company와 직무·제목 글자를 넣으면 걸러야 할 공고인지 */
 export function isNotJob(company = "", text = "") {
-  return ACADEMIC.test(company) || PROGRAM.test(`${company} ${text}`);
+  return ACADEMIC.test(company) || CAREER_TRAINING.test(text) || PROGRAM.test(`${company} ${text}`);
 }
 
 // 해외 근무지(일본·중국 등) 공고와 한국어·영어 말고 다른 외국어가 필요한 공고.

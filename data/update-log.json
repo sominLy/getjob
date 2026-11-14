@@ -20539,6 +20539,16 @@
      "id": "linkareer-361835",
      "company": "(주)엔에이치알",
      "title": "[NHR] 2026년 4분기 신입·경력·인턴 채용"
+    },
+    {
+     "id": "jasoseol-106224",
+     "company": "서울경제진흥원",
+     "title": "2026년 하반기 디지털 역량(AI) 교육과정"
+    },
+    {
+     "id": "jasoseol-106461",
+     "company": "현대건설 기술교육원",
+     "title": "THE FIELD 실전 취업 트랙"
     }
    ],
    "compNew": [
@@ -20588,7 +20598,7 @@
      "url": "https://career.gangnamunni.com/ko/o/190470"
     }
    ],
-   "total": 395,
+   "total": 393,
    "archiveTotal": 565,
    "preds": 346,
    "compTotal": 602
