@@ -20481,6 +20481,30 @@
      "roles": [],
      "end": "",
      "url": "https://jobs.ashbyhq.com/notion/8e609b06-1c41-40a2-b198-467c85e9bb3d"
+    },
+    {
+     "id": "jasoseol-106224",
+     "company": "서울경제진흥원",
+     "title": "2026년 하반기 디지털 역량(AI) 교육과정",
+     "roles": [
+      "HR/인사",
+      "콘텐츠",
+      "마케팅",
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-21",
+     "url": "https://sba.kpcai.app/landing/"
+    },
+    {
+     "id": "jasoseol-106461",
+     "company": "현대건설 기술교육원",
+     "title": "THE FIELD 실전 취업 트랙",
+     "roles": [
+      "HR/인사",
+      "영업"
+     ],
+     "end": "2026-11-30",
+     "url": "https://edu.hdec.co.kr/"
     }
    ],
    "archived": [
@@ -20564,10 +20588,10 @@
      "url": "https://career.gangnamunni.com/ko/o/190470"
     }
    ],
-   "total": 393,
-   "archiveTotal": 581,
+   "total": 395,
+   "archiveTotal": 565,
    "preds": 346,
-   "compTotal": 601
+   "compTotal": 602
   }
  ],
  "updated": "2026-11-14"

@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-13T18:35:39.762306+00:00",
+ "collectedAt": "2026-11-14T14:10:03.120706+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -152,7 +152,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-13",
-   "new": true,
+   "new": false,
    "found": "2026-11-13"
   },
   {
@@ -166,7 +166,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-11",
-   "new": true,
+   "new": false,
    "found": "2026-11-13"
   },
   {
@@ -600,7 +600,7 @@
    "cat": "전략·사업",
    "intern": true,
    "openDate": "2026-11-12",
-   "new": true,
+   "new": false,
    "found": "2026-11-13"
   },
   {
@@ -642,7 +642,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-11-13",
-   "new": true,
+   "new": false,
    "found": "2026-11-13"
   },
   {
@@ -1272,7 +1272,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-13",
-   "new": true,
+   "new": false,
    "found": "2026-11-13"
   },
   {
@@ -1944,7 +1944,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-11-13",
-   "new": true,
+   "new": false,
    "found": "2026-11-13"
   },
   {
@@ -2573,7 +2573,7 @@
    "link": "https://jobs.ashbyhq.com/notion/8e609b06-1c41-40a2-b198-467c85e9bb3d",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-13",
    "openDate": "2026-11-12"
   },
@@ -2883,20 +2883,6 @@
    "intern": false,
    "new": false,
    "found": "2026-11-02",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "Customer Onboarding Strategist, Google Customer Solutions (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/104173546518782662",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-14",
    "openDate": ""
   },
   {
