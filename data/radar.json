@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-14T17:14:55.110Z",
+  "collectedAt": "2026-11-15T17:51:00.980Z",
   "errors": {},
   "jobs": [
     {
@@ -925,6 +925,25 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Performance Specialist (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/94627668976116422-performance-specialist-english-korean",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "8 years of experience in digital media, sales, marketing, or product roles.",
+      "roles": [],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-05",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n8 years of experience in digital media, sales, marketing, or product roles.\nAbility to communicate in English and Korean fluently to engage with clients in the region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Strategic Partner Manager (Fixed-Term Contract) (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Early",
@@ -942,25 +961,6 @@
       "fit": false,
       "firstSeen": "2026-11-10",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n1 year of experience in business development, partnerships, management consulting, or investment banking.\nExperience in the consumer electronics, auto, OEMs, telecom, e-Commerce/retail, apps, ads, gaming, or technology industries.\nExperience working with C-level executives and cross-functionally across all levels of management.\n\nExperience managing agreements or partnerships.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Performance Specialist (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/94627668976116422-performance-specialist-english-korean",
-      "years": 8,
-      "noLimit": false,
-      "evidence": "8 years of experience in digital media, sales, marketing, or product roles.",
-      "roles": [],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-11-05",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n8 years of experience in digital media, sales, marketing, or product roles.\nAbility to communicate in English and Korean fluently to engage with clients in the region.\n"
     },
     {
       "source": "google",
