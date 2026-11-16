@@ -20885,7 +20885,372 @@
    "archiveTotal": 541,
    "preds": 352,
    "compTotal": 588
+  },
+  {
+   "date": "2026-11-17",
+   "added": [
+    {
+     "id": "linkareer-364885",
+     "company": "강원관광재단",
+     "title": "2026년 하반기 채용 공고",
+     "roles": [
+      "콘텐츠"
+     ],
+     "end": "2026-11-25",
+     "url": "https://linkareer.com/activity/364885"
+    },
+    {
+     "id": "jasoseol-107202",
+     "company": "화신",
+     "title": "2026 하반기 신입(채용연계형인턴) & 경력 채용",
+     "roles": [
+      "영업",
+      "마케팅",
+      "기획/전략"
+     ],
+     "end": "2026-12-06",
+     "url": "https://hwashin.ninehire.site/"
+    },
+    {
+     "id": "jasoseol-107218",
+     "company": "KT텔레캅",
+     "title": "2026년 하반기 신입사원 공개채용",
+     "roles": [
+      "기획/전략",
+      "영업관리",
+      "마케팅",
+      "영업"
+     ],
+     "end": "2026-11-30",
+     "url": "https://recruit.kt.com/careers/272002"
+    },
+    {
+     "id": "jasoseol-107233",
+     "company": "휴스틸",
+     "title": "신입 및 경력사원 수시채용",
+     "roles": [
+      "영업",
+      "영업관리"
+     ],
+     "end": "2026-11-29",
+     "url": "https://husteel.career.greetinghr.com/ko/intro"
+    },
+    {
+     "id": "jasoseol-107238",
+     "company": "도레이첨단소재",
+     "title": "2026 하반기 신입/경력 채용",
+     "roles": [
+      "HR/인사",
+      "영업"
+     ],
+     "end": "2026-11-29",
+     "url": "https://www.torayamk-recruit.com/?utm_source=jasoseol&utm_medium=referral&utm_campaign=2026_recruit"
+    },
+    {
+     "id": "jasoseol-107240",
+     "company": "슈프리마",
+     "title": "2027년 채용연계형 인턴십",
+     "roles": [
+      "PM/서비스기획",
+      "영업",
+      "영업관리",
+      "HR/인사"
+     ],
+     "end": "2026-11-30",
+     "url": "https://hr-suprema.career.greetinghr.com/ko/apply"
+    },
+    {
+     "id": "jasoseol-107243",
+     "company": "네오플",
+     "title": "2027 채용연계형 인턴 (게임기획)",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-11-30",
+     "url": "https://recruit-neoplayer.co.kr/?utm_campaign=2027neoplayer&utm_medium=banner&utm_source=jasoseol"
+    },
+    {
+     "id": "jasoseol-107247",
+     "company": "한국필립모리스",
+     "title": "Philip Morris Korea Graduate Trainee Program",
+     "roles": [
+      "영업",
+      "마케팅",
+      "영업관리"
+     ],
+     "end": "2026-11-30",
+     "url": "https://join.pmicareers.com/kr/ko/job/35839/Graduate-Trainee"
+    },
+    {
+     "id": "jasoseol-107248",
+     "company": "뉴셀렉트",
+     "title": "컨텐츠 PD (채용전환형 인턴)",
+     "roles": [
+      "콘텐츠",
+      "마케팅"
+     ],
+     "end": "2026-11-23",
+     "url": "https://newselect.co.kr/job_posting/mQDC7Cn1"
+    },
+    {
+     "id": "jasoseol-107250",
+     "company": "서울문화재단(SFAC)",
+     "title": "2026년 제3차 직원(기간제계약직) 공개채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-12-07",
+     "url": "https://jobiss.co.kr/sfac/main.php"
+    },
+    {
+     "id": "jasoseol-107251",
+     "company": "롯데그룹",
+     "title": "2026 하반기 LOTTE Job Cafe - The Rehearsal",
+     "roles": [
+      "기획/전략",
+      "HR/인사",
+      "브랜드",
+      "마케팅"
+     ],
+     "end": "2026-11-24",
+     "url": "https://lotte-jobcafe.com/?utm_source=jasoseol&utm_medium=banner&utm_campaign=26h_lotte_jobcafe"
+    },
+    {
+     "id": "jasoseol-107255",
+     "company": "신용보증재단중앙회(KOREG)",
+     "title": "2026년 제2차 신입직원(5급) 공개채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-12-01",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611160000458&handle=2A1FE6CD14746E9DB3862E135E6D13EABFAF5C59BA582CA2B0C378199E464B97&rf=1"
+    },
+    {
+     "id": "jasoseol-107257",
+     "company": "트리니티항공",
+     "title": "일반직(신입), 정비자재(신입) 채용",
+     "roles": [
+      "영업",
+      "HR/인사",
+      "브랜드",
+      "기획/전략"
+     ],
+     "end": "2026-11-25",
+     "url": "https://trinityairways.recruiter.co.kr/career/job"
+    },
+    {
+     "id": "jasoseol-107258",
+     "company": "한국방위산업진흥회",
+     "title": "2026년 수시채용 [감사/정책연구]",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-29",
+     "url": "https://kdia.careerlink.kr/"
+    },
+    {
+     "id": "jasoseol-107260",
+     "company": "녹십자웰빙",
+     "title": "[GC녹십자계열] 의약품 품질관리(원료, 제품시험) 신입 채용",
+     "roles": [],
+     "end": "2026-11-29",
+     "url": "https://careers.gcbiopharma.com/job/GC%EB%85%B9%EC%8B%AD%EC%9E%90%EC%9B%B0%EB%B9%99-%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B8%B0-%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC%28%EC%8B%A0%EC%9E%85%29/4620050/"
+    },
+    {
+     "id": "jasoseol-107262",
+     "company": "토스뱅크",
+     "title": "보안 전직군 집중 채용",
+     "roles": [],
+     "end": "2026-11-29",
+     "url": "https://toss.im/career/job-detail?job_id=8171199003"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106310",
+     "company": "에이피알",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-106316",
+     "company": "NHN",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-106893",
+     "company": "용인특례시",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-106914",
+     "company": "IBK기업은행",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-106876",
+     "company": "창비",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-106307",
+     "company": "피알원",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107026",
+     "company": "신영증권",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107031",
+     "company": "한국과학기술연구원(KIST)",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107033",
+     "company": "한국무역정보통신",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107054",
+     "company": "NHR",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "linkareer-362819",
+     "company": "금호타이어",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107111",
+     "company": "신한카드",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107115",
+     "company": "농협경제지주 축산경제부문",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107131",
+     "company": "드림라인",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107146",
+     "company": "케이씨텍",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "jasoseol-107153",
+     "company": "한국GM",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "linkareer-363786",
+     "company": "용인시산업진흥원",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "linkareer-363785",
+     "company": "용인시시민프로축구단",
+     "end": "2026-11-16"
+    },
+    {
+     "id": "linkareer-363784",
+     "company": "용인문화재단",
+     "end": "2026-11-16"
+    }
+   ],
+   "removed": [
+    {
+     "id": "linkareer-364416",
+     "company": "KT텔레캅",
+     "title": "2026년 하반기 대졸 신입사원 공개채용"
+    }
+   ],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Buying MD (무신사 뷰티)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/245083"
+    },
+    {
+     "company": "무신사",
+     "title": "Program Manager (글로벌사업)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/236011"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "글로벌몰 MD 운영기획 (BPO)",
+     "url": "https://career.oliveyoung.com/ko/o/245135"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD (리빙용품/올리브베러-온라인)",
+     "url": "https://career.oliveyoung.com/ko/o/245131"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "MD (건강식품/올리브베러-오프라인)",
+     "url": "https://career.oliveyoung.com/ko/o/245130"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "BX마케팅2팀 팀장",
+     "url": "https://career.oliveyoung.com/ko/o/245027"
+    },
+    {
+     "company": "넛지헬스케어(캐시워크)",
+     "title": "[캐시워크애즈] 데이터분석 담당 채용전환형 인턴",
+     "url": "https://cashwalk12.career.greetinghr.com/ko/o/245079"
+    },
+    {
+     "company": "메가스터디교육",
+     "title": "[러셀] 러셀광주학원 교무기획 채용",
+     "url": "https://megastudyedu.career.greetinghr.com/ko/o/245024"
+    },
+    {
+     "company": "아우토크립트",
+     "title": "사업관리 및 영업지원 [경력]",
+     "url": "https://autocrypt.career.greetinghr.com/ko/o/245078"
+    },
+    {
+     "company": "하이브",
+     "title": "[Weverse Company] 재무기획 팀장",
+     "url": "https://careers.hybecorp.com/ko/o/238652"
+    },
+    {
+     "company": "카카오페이",
+     "title": "[어시스턴트] 광고 운영 지원",
+     "url": "https://kakaopay.career.greetinghr.com/ko/o/245107"
+    },
+    {
+     "company": "숨고",
+     "title": "Brand Marketing Intern (체험형)",
+     "url": "https://soomgo.career.greetinghr.com/ko/o/244988"
+    },
+    {
+     "company": "인텔",
+     "title": "Undergrad Intern Sales and Marketing",
+     "url": "https://intel.wd1.myworkdayjobs.com/External/job/South-Korea-Seoul/Undergrad-Intern-Sales-and-Marketing_JR0289294"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Sr. Sales Partner (Korea)",
+     "url": "https://explore.jobs.netflix.net/careers/job/790319531762"
+    },
+    {
+     "company": "쏘카",
+     "title": "[계약직] 차량 운영 지원 매니저",
+     "url": "https://socar.career.greetinghr.com/ko/o/239522"
+    }
+   ],
+   "total": 354,
+   "archiveTotal": 557,
+   "preds": 356,
+   "compTotal": 597
   }
  ],
- "updated": "2026-11-16"
+ "updated": "2026-11-17"
 }
