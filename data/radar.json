@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-16T21:09:14.756Z",
+  "collectedAt": "2026-11-17T19:57:22.970Z",
   "errors": {},
   "jobs": [
     {
@@ -27,7 +27,7 @@
     {
       "source": "toss",
       "company": "토스",
-      "title": "Platform Product Owner · 공통 · Facepay · Blockchain",
+      "title": "Platform Product Owner · 공통 · Blockchain",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=6355421003&sub_position_id=6355421003&company=%ED%86%A0%EC%8A%A4",
       "years": null,
@@ -101,6 +101,8 @@
         "프로덕트 기획"
       ],
       "reqs": [
+        "SQL·데이터",
+        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -437,27 +439,6 @@
     },
     {
       "source": "toss",
-      "company": "토스",
-      "title": "검색 품질 운영 매니저 (Search Quality Operations Manager)",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7821118003",
-      "years": null,
-      "noLimit": false,
-      "evidence": "검색 품질 관리, 정보검색(IR), 추천, 데이터 분야에서 경력을 쌓아오신 분",
-      "roles": [
-        "운영"
-      ],
-      "reqs": [
-        "SQL·데이터",
-        "AI·LLM"
-      ],
-      "bucket": "unstated",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n검색 품질 관리, 정보검색(IR), 추천, 데이터 분야에서 경력을 쌓아오신 분\n검색 품질 평가 및 relevance 판정 기준을 수립하고, 평가자 간 편차를 통제하여 데이터의 품질을 관리해보신 분\n검수 인력을 채용, 교육, 관리하며 조직을 키우고, 프로세스를 표준화 및 확장해보신 분\n운영 프로세스를 지표 기반으로 평가하고, 지속적으로 개선한 경험이 있으신 분\nLLM을 데이터 생산 및 평가에 활용하거나, LLM이 만든 결과를 사람이 검증하는 구조를 설계해본 경험이 있으신 분\n\n이런 경험이 있다면 더 좋아요\n\n커머스 도메인에서 상품 속성, 패싯(Facet) 데이터를 구축, 검수하거나 검색에 활용해본 경험이 있으면 좋아요.\n커머스 검색 Knowledge Management - 사전, 온톨로지, 지식그래프 등 검색 지식을 관리, 구축해본 경험이 있으면 좋아요.\n\n토스로의 "
-    },
-    {
-      "source": "toss",
       "company": "토스플레이스",
       "title": "B2B 마케팅 매니저 (Enterprise Marketing Manager)",
       "location": "서울",
@@ -495,28 +476,6 @@
       "fit": true,
       "firstSeen": "2026-11-02",
       "jd": "이런 분과 함께하고 싶어요\n\n커머스 마케팅에 대한 이해를 바탕으로 Paid 소재를 직접 제작하고 운영한 경험이 필요해요.\n독립적으로 영상, 이미지를 기획하고 제작하는 것에 어려움이 없는 분이 필요해요.\n새로운 기회를 찾아내기 위한 가설 검증과 지속 가능한 숫자를 만들어낸 경험이 필요해요.\n직감이 아닌 데이터로 설득할 수 있는 논리적인 커뮤니케이션 역량이 필요해요.\n광고 소재의 유려함보다 끊임없는 시도를 통해 지표의 변화를 만들 수 있는 분이 필요해요.\n\n"
-    },
-    {
-      "source": "toss",
-      "company": "토스인슈어런스",
-      "title": "마케팅 매니저 (Marketing Manager)",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=7995571003&company=%ED%86%A0%EC%8A%A4%EC%9D%B8%EC%8A%88%EC%96%B4%EB%9F%B0%EC%8A%A4",
-      "years": 5,
-      "noLimit": false,
-      "evidence": "마케팅 경력 5년 이상으로, 페이드 캠페인 운영과 콘텐츠 기획·발행을 모두 직접 리드해 본 분",
-      "roles": [
-        "마케팅·브랜드"
-      ],
-      "reqs": [
-        "SQL·데이터",
-        "AI·LLM",
-        "금융 도메인"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-11-02",
-      "jd": "이런 분과 함께하고 싶어요\n\n마케팅 경력 5년 이상으로, 페이드 캠페인 운영과 콘텐츠 기획·발행을 모두 직접 리드해 본 분\n페이드 마케팅 캠페인을 직접 기획·운영하며 CAC, CPL, CVR 같은 지표로 성과를 증명해 본 분\n콘텐츠와 브랜드가 퍼포먼스 지표에 어떻게 기여하는지 이해하고, 두 영역을 하나의 퍼널로 설계할 수 있는 분\n데이터를 근거로 가설을 세우고 검증하며, 채널·메시지·예산을 유연하게 조정할 수 있는 분\n보험처럼 정보가 복잡한 도메인을 고객이 이해하기 쉬운 언어로 풀어낼 수 있는 분\n\n이런 경험이 있다면 더 좋아요\n\n보험, 금융 등 광고심의가 필요한 규제 산업에서 리드 제너레이션을 운영해 본 경험\nGEO/AEO, SEO 등 AI 검색 환경에 맞춘 콘텐츠 최적화 경험\n랜딩페이지, 상담신청 폼 등 리드 제너레이션 퍼널을 직접 설계·개선해 본 경험\n제품·세일즈 조직과 협업해 콘텐츠나 캠페인 성과를 실제 매출로 연결해 본 경험\n0에서 1로 마케팅 기능을 세워 본 경험\n\n토스인슈어런스로의 "
     },
     {
       "source": "toss",
@@ -578,6 +537,27 @@
       "fit": false,
       "firstSeen": "2026-11-06",
       "jd": "이런 분과 함께하고 싶어요\n\n브랜드 캠페인을 전략 수립부터 실행, 결과 분석까지 A to Z를 주도적으로 이끌어 본 분이 필요해요.\n채널 운영의 전략적 방향을 제시하고, 콘텐츠를 통해 뚜렷한 성장 모멘텀을 만들어 낸 경험이 필요해요.\n복잡한 정보를 큐레이션하여 타겟이 이해하기 쉬운 콘텐츠로 풀어낼 수 있는 미디어 리터러시 역량이 뛰어난 분이 필요해요.\n데이터 기반의 의사결정을 통해 성과 지표(KPI)를 달성하고, Why와 Lesson-learn을 도출해 개선한 경험이 있는 분이 필요해요.\n오프라인 이벤트 및 캠페인 기획/운영을 통해 타겟 고객과의 접점을 만들고, 차별화된 참여 프로그램으로 임팩트를 만든 경험이 있는 분이면 좋아요.\n오프라인 결제 산업이나 자영업 시장에 대한 높은 이해도가 있다면 더욱 좋아요.\n\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Agency Business Development Manager, DV360 (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/84970505878020806-agency-business-development-manager-dv360-english-korean",
+      "years": 8,
+      "noLimit": false,
+      "evidence": "8 years of industry experience in digital advertising, consultative sales, business development, or digital marketing.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-11-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n8 years of industry experience in digital advertising, consultative sales, business development, or digital marketing.\n\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\n"
     },
     {
       "source": "google",
@@ -729,6 +709,28 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "People Consultant (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/139150453165171398-people-consultant-english-korean",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.",
+      "roles": [
+        "솔루션·컨설팅",
+        "HR"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n7 years of experience as an HR Business Partner or HR Generalist providing consultations to the business on topics such as performance management, workplace concerns, etc.\n\nExperience of managing multiple stakeholders.\n\nAbility to communicate in English and Korean fluently to manage the client relationships in the area.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Strategic Partnerships Manager, Sellside Monetization (Fixed-Term Contract) (English and Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -861,27 +863,6 @@
     {
       "source": "google",
       "company": "Google",
-      "title": "Agency Business Development Manager, DV360 (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/123877215795323590-agency-business-development-manager-dv360-english-korean",
-      "years": 5,
-      "noLimit": false,
-      "evidence": "5 years of industry experience in digital advertising, consultative sales, business development, or digital marketing.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-10-19",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of industry experience in digital advertising, consultative sales, business development, or digital marketing.\nAbility to communicate in English and Korean fluently to interact in this customer-facing role.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
       "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -983,6 +964,27 @@
       "fit": false,
       "firstSeen": "2026-11-11",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n15 years of experience working within commercial business organizations, technical project/program management, solutions consulting, or enterprise customer-facing roles, translating technical capabilities into commercial goals.\n5 years of people management experience leading customer-facing technical or consultative services teams (e.g., engagement managers, solutions/deployment engineers, solutions architects, or technical consultants).\nAbility to communicate in English and Korean fluently to support executive client relationships and local market operations in Korea.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Strategic Partnerships Manager, YouTube Product Partnerships (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/138732638746616518-strategic-partnerships-manager-youtube-product-partnerships-english-korean",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "7 years of experience in business development, partnerships, sales or management consulting.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-11-17",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n7 years of experience in business development, partnerships, sales or management consulting.\nExperience negotiating and managing the implementation and execution of term sheets and signed agreements with partners, and managing partner/internal stakeholders.\nAbility to communicate in English and Korean fluently to support client relationship management in this region.\n"
     },
     {
       "source": "google",
@@ -1521,28 +1523,6 @@
       "fit": false,
       "firstSeen": "2026-10-22",
       "jd": "Minimum qualifications \n PhD in Economics\n Strong track record of empirical research, particularly studies combining novel data sources and economic theory or implementing frontier methods in causal inference and machine learning\n Demonstrated experience working in, and relevant relationships across, the region\n Proficiency in Python, R, SQL, or similar tools for large-scale data analysis\n Demonstrated ability to lead complex research projects from conception to publication\n Demonstrated ability to communicate technical findings to diverse audiences\n Demonstrated ability to build relationships across academic, policy, and industry communities\n Preferred qualifications \n Experience relevant to the study of AI’s impact on the economy, such as labor market analysis and occupational change; task-based approaches to technological transformation; large-scale data analysis and econometric methods; large language models for social science research; policy-relevant economic research; experimental and quasi-experimental methods for causal inference; macroeconomic modeling and time series forecasting; or agent-based modeling and large-scale simulation\n Experience working with novel datasets and measurement systems\n Comfort learning new technical tools and frameworks\n Strong interest in ensuring AI development benefits humanity\n Comfort working with AI systems and ability to think critically about their capabilities and limitations\n Representative projects \n How Australia Uses Claude: Findings from the Anthropic Economic Index \n Anthropic Economic Index Report: Economic Primitives \n Anthropic Economic Index Report: Uneven Geographic and Enterprise AI Adoption \n Estimating AI productivity gains from Claude conversations \n The Anthropic Economic Index \n "
-    },
-    {
-      "source": "anthropic",
-      "company": "Anthropic",
-      "title": "Sales Director, Enterprise",
-      "location": "Seoul, South Korea",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391344008",
-      "years": 15,
-      "noLimit": false,
-      "evidence": "15+ years of enterprise sales experience, preferably driving adoption of SaaS or emerging technologies",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM",
-        "B2B"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "qualifications \n 15+ years of enterprise sales experience, preferably driving adoption of SaaS or emerging technologies\n 5+ years of sales leadership experience within the Enterprise segment\n Proven track record of building and leading high-performing sales teams selling into large enterprises, with demonstrated success in coaching and developing AEs\n Experience establishing and scaling sales processes, tools, and methodologies in fast-growing organizations\n Strong technical acumen with ability to enable credible AI conversations\n Track record of successful partnership with technical teams throughout the customer journey\n Deep understanding of enterprise buying cycles, procurement frameworks, and common pain points across industries\n Demonstrated ability to navigate complex, multithreaded sales cycles across diverse stakeholder groups and drive cross-functional initiatives\n Experience managing complex enterprise sales cycles and helping AEs secure strategic deals\n Excellent communication skills and ability to build relationships across all levels, from individual contributors to C-suite executives\n Strategic approach to market analysis combined with tactical excellence in execution\n Passion for AI technology and commitment to its safe, responsible development\n Business-level Korean required; English proficiency strongly preferred\n "
     }
   ]
 }

@@ -21250,7 +21250,236 @@
    "archiveTotal": 557,
    "preds": 356,
    "compTotal": 597
+  },
+  {
+   "date": "2026-11-18",
+   "added": [
+    {
+     "id": "linkareer-365234",
+     "company": "국가유산청",
+     "title": "재단법인 국립역사문화권진흥원 신규직원 채용 공고문",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-30",
+     "url": "https://linkareer.com/activity/365234"
+    },
+    {
+     "id": "jasoseol-107256",
+     "company": "MBC(문화방송)",
+     "title": "2027 신입사원 공개채용",
+     "roles": [
+      "PM/서비스기획",
+      "마케팅",
+      "홍보/PR",
+      "콘텐츠"
+     ],
+     "end": "2026-11-30",
+     "url": "https://mbc.careerlink.kr/jobs/RC20261112039167"
+    },
+    {
+     "id": "jasoseol-107263",
+     "company": "화승코퍼레이션",
+     "title": "2026년 하반기 3차 수시채용 신입/경력",
+     "roles": [
+      "HR/인사",
+      "기획/전략"
+     ],
+     "end": "2026-11-29",
+     "url": "https://hwaseung.recruiter.co.kr/career/jobs/134660"
+    },
+    {
+     "id": "jasoseol-107268",
+     "company": "퍼블릭보이드",
+     "title": "[bite] BL/로맨스 AI 숏폼 드라마 제작자 (풀재택)",
+     "roles": [],
+     "end": "2026-12-06",
+     "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=55591231"
+    },
+    {
+     "id": "jasoseol-107269",
+     "company": "동아에스티",
+     "title": "2026년 하반기 수시채용",
+     "roles": [],
+     "end": "2026-11-29",
+     "url": "https://applydongasocio.career.greetinghr.com/o/245153"
+    },
+    {
+     "id": "jasoseol-107271",
+     "company": "퍼블릭보이드",
+     "title": "용용사주 크리에이티브 마케터",
+     "roles": [
+      "콘텐츠",
+      "마케팅"
+     ],
+     "end": "2026-12-06",
+     "url": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=55590817"
+    },
+    {
+     "id": "jasoseol-107274",
+     "company": "한국예탁결제원(KSD)",
+     "title": "2027년 채용공고",
+     "roles": [
+      "영업",
+      "영업관리"
+     ],
+     "end": "2026-11-30",
+     "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611160004240"
+    },
+    {
+     "id": "jasoseol-107276",
+     "company": "HL디앤아이한라",
+     "title": "2026 하반기 신입사원 채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-24",
+     "url": "https://hlcompany.recruiter.co.kr/career/job"
+    },
+    {
+     "id": "jasoseol-107279",
+     "company": "LS ITC",
+     "title": "2027년 채용연계형 인턴 모집",
+     "roles": [],
+     "end": "2026-11-29",
+     "url": "https://lsitc.recruiter.co.kr/career/jobs/134608"
+    },
+    {
+     "id": "jasoseol-107280",
+     "company": "토스뱅크",
+     "title": "HR Planning Manager (~12/7)",
+     "roles": [
+      "HR/인사"
+     ],
+     "end": "2026-12-07",
+     "url": "https://toss.im/career/job-detail?job_id=8204582003"
+    },
+    {
+     "id": "jasoseol-107281",
+     "company": "토스뱅크",
+     "title": "General Affairs Assistant",
+     "roles": [],
+     "end": "2027-01-14",
+     "url": "https://toss.im/career/job-detail?job_id=5051743003&company=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC"
+    },
+    {
+     "id": "global-google-139150453165171398",
+     "company": "Google",
+     "title": "People Consultant (English, Korean)",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/139150453165171398"
+    },
+    {
+     "id": "global-google-138732638746616518",
+     "company": "Google",
+     "title": "Strategic Partnerships Manager, YouTube Product Partnerships",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/138732638746616518"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106327",
+     "company": "토스플레이스",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-107001",
+     "company": "한국기초과학지원연구원",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-106346",
+     "company": "NHN comico Korea",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-107046",
+     "company": "NHN AD",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-107090",
+     "company": "존슨앤드존슨",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-107147",
+     "company": "세메스",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-107164",
+     "company": "KT cs",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-107182",
+     "company": "피에스케이",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-107194",
+     "company": "신한은행",
+     "end": "2026-11-17"
+    },
+    {
+     "id": "jasoseol-107196",
+     "company": "피에스케이",
+     "end": "2026-11-17"
+    }
+   ],
+   "removed": [
+    {
+     "id": "linkareer-364424",
+     "company": "MBC",
+     "title": "2027 신입사원 공개채용"
+    }
+   ],
+   "compNew": [
+    {
+     "company": "강남언니",
+     "title": "[강남언니] Data Analyst 인턴 (마켓 인사이트, 체험형)",
+     "url": "https://career.gangnamunni.com/ko/o/216495"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토파이낸셜] B2B H/W 영업 담당",
+     "url": "https://www.hectocareers.co.kr/ko/o/245157"
+    },
+    {
+     "company": "하이브",
+     "title": "[ABD] 아티스트 콘텐츠 마케팅(영상 콘텐츠 담당) Sr.",
+     "url": "https://careers.hybecorp.com/ko/o/245263"
+    },
+    {
+     "company": "하이브",
+     "title": "[HYBE 360] 사업전략/기획",
+     "url": "https://careers.hybecorp.com/ko/o/245222"
+    },
+    {
+     "company": "숨고",
+     "title": "Marketing Data Analyst",
+     "url": "https://soomgo.career.greetinghr.com/ko/o/245282"
+    },
+    {
+     "company": "42dot",
+     "title": "Senior Business Development Manager (Playground Growth Team)",
+     "url": "https://jobs.ashbyhq.com/42dot/74c930be-9757-47ad-a718-a6ca010f3c7d"
+    },
+    {
+     "company": "인텔",
+     "title": "Senior Technical Sales Architect, AI Infrastructure",
+     "url": "https://intel.wd1.myworkdayjobs.com/External/job/South-Korea-Seoul/Senior-Technical-Sales-Architect--AI-Infrastructure_JR0289295"
+    }
+   ],
+   "total": 356,
+   "archiveTotal": 558,
+   "preds": 353,
+   "compTotal": 597
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }
