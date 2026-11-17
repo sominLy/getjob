@@ -9,6 +9,8 @@ test("교육 과정과 취업 준비 트랙을 채용 공고에서 제외한다"
     ["현대건설 기술교육원", "THE FIELD 실전 취업 트랙 HR/인사 영업"],
     ["현대건설 기술교육원", "THE FIELD 실전취업트랙 https://edu.hdec.co.kr/"],
     ["교육기관", "K-Digital Training 교육생 모집"],
+    ["경기테크노파크", "(인턴 연계) 2026년 스마트제조 전문인력 육성사업 기술Track교육_autodesk"],
+    ["롯데그룹", "2026 하반기 LOTTE Job Cafe - The Rehearsal"],
   ]) {
     assert.equal(isNotJob(company, title), true, title);
   }
@@ -20,6 +22,8 @@ test("교육과 취업 서비스를 운영하는 실제 채용은 유지한다",
     ["취업서비스", "커리어 플랫폼 마케팅 매니저"],
     ["현대건설", "2026년 신입사원 채용"],
     ["서울경제진흥원", "사업기획 및 마케팅 담당자 채용"],
+    ["롯데그룹", "2026 하반기 롯데 신입사원 공개채용"],
+    ["카페 브랜드", "카페 매장 운영 매니저 채용"],
   ]) {
     assert.equal(isNotJob(company, title), false, title);
   }
