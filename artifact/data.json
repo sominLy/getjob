@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-17T19:55:37.196220+00:00",
+ "collectedAt": "2026-11-18T19:27:28.401815+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -502,7 +502,7 @@
    "cat": "데이터·리서치",
    "intern": true,
    "openDate": "2026-11-17",
-   "new": true,
+   "new": false,
    "found": "2026-11-17"
   },
   {
@@ -740,7 +740,7 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2026-11-17",
-   "new": true,
+   "new": false,
    "found": "2026-11-17"
   },
   {
@@ -870,6 +870,20 @@
    "found": "2026-10-22"
   },
   {
+   "회사": "뤼튼",
+   "플랫폼": "greetinghr",
+   "title": "Ad Operations Intern",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.wrtn.io/ko/o/245363",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-11-18",
+   "new": true,
+   "found": "2026-11-18"
+  },
+  {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
    "title": "T&A 호주 사업개발 매니저",
@@ -992,8 +1006,22 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-17",
-   "new": true,
+   "new": false,
    "found": "2026-11-17"
+  },
+  {
+   "회사": "마카롱팩토리",
+   "플랫폼": "greetinghr",
+   "title": "오피스 운영 담당자 - 총무/GA (전환형 인턴)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://mycle.career.greetinghr.com/ko/o/245211",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-11-17",
+   "new": true,
+   "found": "2026-11-18"
   },
   {
    "회사": "마카롱팩토리",
@@ -1229,7 +1257,7 @@
    "link": "https://www.musinsacareers.com/ko/o/242947",
    "cat": "기획·PM/PO",
    "intern": false,
-   "openDate": "2026-11-04",
+   "openDate": "2026-11-18",
    "new": false,
    "found": "2026-11-04"
   },
@@ -1304,20 +1332,6 @@
    "found": "2026-10-19"
   },
   {
-   "회사": "무신사",
-   "플랫폼": "greetinghr",
-   "title": "정산/운영 Assistant",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://www.musinsacareers.com/ko/o/241682",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-10-23",
-   "new": false,
-   "found": "2026-10-28"
-  },
-  {
    "회사": "스캐터랩",
    "플랫폼": "greetinghr",
    "title": "🔥11월 집중채용🔥 zeta 서비스 기획·운영 인턴",
@@ -1386,6 +1400,20 @@
    "openDate": "2026-10-13",
    "new": false,
    "found": "2026-10-14"
+  },
+  {
+   "회사": "아우토크립트",
+   "플랫폼": "greetinghr",
+   "title": "자동차 사이버보안 기능 검증 엔지니어 [경력]",
+   "career": "경력 1년~",
+   "emp": "정규직",
+   "due": "2026-11-30",
+   "link": "https://autocrypt.career.greetinghr.com/ko/o/239149",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-10-01",
+   "new": true,
+   "found": "2026-11-18"
   },
   {
    "회사": "아우토크립트",
@@ -1810,20 +1838,6 @@
   {
    "회사": "코나아이",
    "플랫폼": "greetinghr",
-   "title": "보안관제 담당자(신입/경력)",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://konai.career.greetinghr.com/ko/o/227132",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-07-09",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "코나아이",
-   "플랫폼": "greetinghr",
    "title": "영업_USIM사업(경력)",
    "career": "경력무관",
    "emp": "정규직",
@@ -1832,6 +1846,20 @@
    "cat": "세일즈·CX·제휴",
    "intern": false,
    "openDate": "2026-09-15",
+   "new": false,
+   "found": "2026-10-03"
+  },
+  {
+   "회사": "코나아이",
+   "플랫폼": "greetinghr",
+   "title": "보안관제 담당자(신입/경력)",
+   "career": "경력무관",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://konai.career.greetinghr.com/ko/o/227132",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-07-09",
    "new": false,
    "found": "2026-10-03"
   },
@@ -2270,6 +2298,20 @@
    "found": "2026-10-26"
   },
   {
+   "회사": "당근",
+   "플랫폼": "greenhouse",
+   "title": "Account Manager (인턴) - 로컬 잡스",
+   "career": "주니어(제목 기준)",
+   "emp": "-",
+   "due": "seoul",
+   "link": "https://about.daangn.com?gh_jid=8207998003",
+   "cat": "세일즈·CX·제휴",
+   "intern": true,
+   "openDate": "2026-11-18",
+   "new": true,
+   "found": "2026-11-18"
+  },
+  {
    "회사": "Anthropic",
    "플랫폼": "global",
    "title": "Applied AI Architect",
@@ -2606,6 +2648,20 @@
    "openDate": "2026-10-22"
   },
   {
+   "회사": "OpenAI",
+   "플랫폼": "global",
+   "title": "Deployment Lead (DL), FDE - Seoul",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/openai/e47f0627-6aef-49b0-beea-f46cb6cc07ad",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-18",
+   "openDate": "2026-11-17"
+  },
+  {
    "회사": "Google",
    "플랫폼": "global",
    "title": "Growth Manager, App Sales (English, Korean)",
@@ -2657,7 +2713,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/139150453165171398",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-17",
    "openDate": ""
   },
@@ -2692,6 +2748,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Associate Account Strategist, gReach Program for People with Disabilities or Veterans (장애인 or 보훈대상자) (English, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/121216851580461766",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-18",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
    "career": "-",
    "emp": "-",
@@ -2715,20 +2785,6 @@
    "intern": false,
    "new": false,
    "found": "2026-11-11",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
-   "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/113194397327073990",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-03",
    "openDate": ""
   },
   {
@@ -2783,7 +2839,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/138732638746616518",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-17",
    "openDate": ""
   },

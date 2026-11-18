@@ -1,6 +1,148 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "jobs": [
+    {
+      "id": "jasoseol-106920",
+      "company": "한국기계연구원",
+      "title": "2026년도 제3회 신입직원 공개채용 공고",
+      "type": "공기업",
+      "roles": [],
+      "start": "2026-10-28",
+      "end": "2026-11-18",
+      "endTime": "16:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2610270002237&handle=85C442B277D3144420B4E46B9959F4E3BD7A2ACE3B29AD8A8A1D9BEACE30F23D&rf=1",
+      "hist": "",
+      "found": "2026-10-28"
+    },
+    {
+      "id": "jasoseol-106961",
+      "company": "에스엔에프코리아",
+      "title": "가치영업팀 기술영업 신입사원 정규직 채용(서울 본사)",
+      "type": "",
+      "roles": [
+        "영업",
+        "영업관리"
+      ],
+      "start": "2026-10-29",
+      "end": "2026-11-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50200805?Oem_Code=C1",
+      "hist": "",
+      "found": "2026-10-29"
+    },
+    {
+      "id": "jasoseol-107049",
+      "company": "고영테크놀러지",
+      "title": "2026하반기 신입사원 채용",
+      "type": "중견기업",
+      "roles": [
+        "영업",
+        "마케팅",
+        "고객/CS",
+        "기획/전략"
+      ],
+      "start": "2026-11-02",
+      "end": "2026-11-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://m.site.naver.com/2kbkU",
+      "hist": "",
+      "found": "2026-11-03"
+    },
+    {
+      "id": "jasoseol-107038",
+      "company": "선우ENG",
+      "title": "각 부문별 신입/경력 채용",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "2026-11-04",
+      "end": "2026-11-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=NEtmNzFnU0hLdXBnN3B3UFhqdGdGUT09",
+      "hist": "",
+      "found": "2026-11-04"
+    },
+    {
+      "id": "jasoseol-107064",
+      "company": "한국해양진흥공사(KOBC)",
+      "title": "2026년도 전문계약직 채용공고",
+      "type": "공기업",
+      "roles": [
+        "PM/서비스기획",
+        "기획/전략",
+        "리서치",
+        "금융/심사"
+      ],
+      "start": "2026-11-04",
+      "end": "2026-11-18",
+      "endTime": "16:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://kobc1.scout.co.kr/jobinfo/jobinfo_view.asp?ID=2015",
+      "hist": "",
+      "found": "2026-11-04"
+    },
+    {
+      "id": "jasoseol-107108",
+      "company": "한국리서치",
+      "title": "2027년 상반기 공개채용",
+      "type": "",
+      "roles": [
+        "리서치"
+      ],
+      "start": "2026-11-05",
+      "end": "2026-11-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://hrc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=271169",
+      "hist": "",
+      "found": "2026-11-06"
+    },
+    {
+      "id": "jasoseol-107148",
+      "company": "서울물재생시설공단",
+      "title": "2026년 하반기 정규직 채용공고",
+      "type": "공기업",
+      "roles": [
+        "홍보/PR",
+        "HR/인사"
+      ],
+      "start": "2026-11-11",
+      "end": "2026-11-18",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://swr.plusrecruit.co.kr/",
+      "hist": "",
+      "found": "2026-11-10"
+    },
+    {
+      "id": "linkareer-363485",
+      "company": "서울물재생시설공단",
+      "title": "2026년 하반기 정규직 채용공고",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-11-18",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/363485",
+      "hist": "",
+      "found": "2026-11-11"
+    },
     {
       "id": "jasoseol-106327",
       "company": "토스플레이스",
@@ -9749,22 +9891,6 @@
       "url": "https://midas.recruiter.co.kr/career/jobs/128969",
       "hist": "",
       "found": "2026-11-14"
-    },
-    {
-      "id": "jasoseol-105467",
-      "company": "앱솔브랩",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-08-03",
-      "end": "2026-10-03",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://celimax.ninehire.site/job_posting/6aOlYODK",
-      "hist": "",
-      "found": "2026-10-03"
     }
   ]
 }

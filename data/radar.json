@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-17T19:57:22.970Z",
+  "collectedAt": "2026-11-18T19:29:22.840Z",
   "errors": {},
   "jobs": [
     {
@@ -101,8 +101,6 @@
         "프로덕트 기획"
       ],
       "reqs": [
-        "SQL·데이터",
-        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -795,6 +793,27 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Associate Account Strategist, gReach Program for People with Disabilities or Veterans (장애인 or 보훈대상자) (English, Korean)",
+      "location": "Seoul, South Korea",
+      "level": "Early",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/121216851580461766-associate-account-strategist-greach-program-for-people-with-disabilities-or-veterans-or-english-korean",
+      "years": null,
+      "noLimit": false,
+      "evidence": "Bachelor's degree or equivalent practical experience.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "open",
+      "fit": false,
+      "firstSeen": "2026-11-18",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\nExperience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to communicate in English and Korean fluently in order to interact in this customer-facing role.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Agentic Data Cloud Sales Specialist II, Google Cloud (Korean, English)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -859,28 +878,6 @@
       "fit": false,
       "firstSeen": "2026-11-11",
       "jd": "Minimum qualifications\nBachelor’s degree in relevant STEM field (e.g., Computer Science, Information Systems, Management Information Systems), or equivalent practical experience.\nExperience working with databases, web technologies, machine learning, AI or cloud foundations (e.g., cloud computing) through certifications, internships, coursework, or relevant practical experience.\nExperience in customer service, communication, or leadership.\nExperience with one or more programming languages.\nAbility to communicate in English and Korean fluently to collaborate with colleagues and complete tasks and projects.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Customer Engineer, AI, Google Cloud (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/113194397327073990-customer-engineer-ai-google-cloud-english-korean",
-      "years": 6,
-      "noLimit": false,
-      "evidence": "6 years of experience with cloud native architecture in a customer-facing or support role.",
-      "roles": [
-        "솔루션·컨설팅"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM"
-      ],
-      "bucket": "senior",
-      "fit": true,
-      "firstSeen": "2026-09-22",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n6 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
     },
     {
       "source": "google",

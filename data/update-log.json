@@ -21479,7 +21479,171 @@
    "archiveTotal": 558,
    "preds": 353,
    "compTotal": 597
+  },
+  {
+   "date": "2026-11-19",
+   "added": [
+    {
+     "id": "jasoseol-107283",
+     "company": "이랜드리테일",
+     "title": "2027년 상반기 신입사원 채용",
+     "roles": [
+      "영업",
+      "영업관리",
+      "MD",
+      "마케팅"
+     ],
+     "end": "2026-11-29",
+     "url": "https://recruit.elandretail.com/"
+    },
+    {
+     "id": "jasoseol-107286",
+     "company": "카카오뱅크",
+     "title": "고객서비스실 정규직 전환형 인턴",
+     "roles": [
+      "기획/전략",
+      "고객/CS",
+      "영업관리"
+     ],
+     "end": "2026-12-01",
+     "url": "https://recruit.kakaobank.com/jobs/272465"
+    },
+    {
+     "id": "jasoseol-107300",
+     "company": "현대퓨처넷",
+     "title": "2027년 상반기 신입/경력 채용",
+     "roles": [
+      "마케팅",
+      "홍보/PR",
+      "MD",
+      "기획/전략"
+     ],
+     "end": "2026-12-02",
+     "url": "https://recruit.ehyundai.com/"
+    },
+    {
+     "id": "wanted-398767",
+     "company": "와이브랜즈",
+     "title": "",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-11-30",
+     "url": "https://www.wanted.co.kr/wd/398767"
+    },
+    {
+     "id": "global-openai-e47f0627-6aef-49b0-beea-",
+     "company": "OpenAI",
+     "title": "Deployment Lead (DL), FDE - Seoul · Forward Deployed Enginee",
+     "roles": [],
+     "end": "",
+     "url": "https://jobs.ashbyhq.com/openai/e47f0627-6aef-49b0-beea-f46cb6cc07ad"
+    },
+    {
+     "id": "global-google-121216851580461766",
+     "company": "Google",
+     "title": "Associate Account Strategist, gReach Program for People with",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/121216851580461766"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106920",
+     "company": "한국기계연구원",
+     "end": "2026-11-18"
+    },
+    {
+     "id": "jasoseol-106961",
+     "company": "에스엔에프코리아",
+     "end": "2026-11-18"
+    },
+    {
+     "id": "jasoseol-107049",
+     "company": "고영테크놀러지",
+     "end": "2026-11-18"
+    },
+    {
+     "id": "jasoseol-107038",
+     "company": "선우ENG",
+     "end": "2026-11-18"
+    },
+    {
+     "id": "jasoseol-107064",
+     "company": "한국해양진흥공사(KOBC)",
+     "end": "2026-11-18"
+    },
+    {
+     "id": "jasoseol-107108",
+     "company": "한국리서치",
+     "end": "2026-11-18"
+    },
+    {
+     "id": "jasoseol-107148",
+     "company": "서울물재생시설공단",
+     "end": "2026-11-18"
+    },
+    {
+     "id": "linkareer-363485",
+     "company": "서울물재생시설공단",
+     "end": "2026-11-18"
+    }
+   ],
+   "removed": [
+    {
+     "id": "jasoseol-107251",
+     "company": "롯데그룹",
+     "title": "2026 하반기 LOTTE Job Cafe - The Rehearsal"
+    }
+   ],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Buying MD (풋웨어 바이어)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/245389"
+    },
+    {
+     "company": "컬리",
+     "title": "광고 PM(Product Manager)",
+     "url": "https://kurly.career.greetinghr.com/ko/o/245372"
+    },
+    {
+     "company": "뤼튼",
+     "title": "Ad Operations Intern",
+     "url": "https://wrtn.career.greetinghr.com/ko/o/245363"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토파이낸셜] 결제기획 담당자 (내통장결제/선불서비스)",
+     "url": "https://www.hectocareers.co.kr/ko/o/245394"
+    },
+    {
+     "company": "당근",
+     "title": "Account Manager (인턴) - 로컬 잡스",
+     "url": "https://about.daangn.com?gh_jid=8207998003"
+    },
+    {
+     "company": "당근",
+     "title": "Operations Manager - 커뮤니티 (Trust & Safety)",
+     "url": "https://about.daangn.com?gh_jid=6025085003"
+    },
+    {
+     "company": "아고다",
+     "title": "Account Manager",
+     "url": "https://job-boards.greenhouse.io/agoda/jobs/8392198"
+    },
+    {
+     "company": "42dot",
+     "title": "Employee & Executive Program Operations Owner",
+     "url": "https://jobs.ashbyhq.com/42dot/511c91ac-3f3a-4a19-a32f-e2f5b6e6a0cd"
+    }
+   ],
+   "total": 353,
+   "archiveTotal": 565,
+   "preds": 352,
+   "compTotal": 595
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }
