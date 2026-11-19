@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -89,6 +89,14 @@
       "department": "Public Benefit",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460519008",
       "updated": "2026-10-22"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Sales Director ",
+      "location": "Seoul, South Korea",
+      "department": "Sales",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5474013008",
+      "updated": "2026-11-19"
     },
     {
       "company": "Notion",

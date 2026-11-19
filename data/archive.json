@@ -1,6 +1,77 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "jobs": [
+    {
+      "id": "jasoseol-107149",
+      "company": "삼우종합건축사사무소",
+      "title": "2027 신입사원 채용",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획",
+        "HR/인사"
+      ],
+      "start": "2026-11-10",
+      "end": "2026-11-19",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://samoo.recruiter.co.kr/career/jobs/133482",
+      "hist": "",
+      "found": "2026-11-11"
+    },
+    {
+      "id": "jasoseol-107152",
+      "company": "삼성메디슨",
+      "title": "2026년 하반기 3급 신입사원 채용",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-10",
+      "end": "2026-11-19",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://samsungmedison.careerlink.kr/jobs/RC20261109038995",
+      "hist": "",
+      "found": "2026-11-11"
+    },
+    {
+      "id": "linkareer-364116",
+      "company": "에코프로머티리얼즈",
+      "title": "전략기획 부문 신입/경력 채용",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-11-19",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/364116",
+      "hist": "",
+      "found": "2026-11-13"
+    },
+    {
+      "id": "jasoseol-107215",
+      "company": "동국제약",
+      "title": "신입/경력 채용(영업/마케팅/관리/SCM 등) ~ 11/19",
+      "type": "중견기업",
+      "roles": [
+        "브랜드",
+        "마케팅",
+        "HR/인사",
+        "영업",
+        "PM/서비스기획"
+      ],
+      "start": "2026-11-11",
+      "end": "2026-11-19",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://dkpharm.recruiter.co.kr/career/jobs/134286",
+      "hist": "",
+      "found": "2026-11-13"
+    },
     {
       "id": "jasoseol-106920",
       "company": "한국기계연구원",
@@ -142,6 +213,23 @@
       "url": "https://linkareer.com/activity/363485",
       "hist": "",
       "found": "2026-11-11"
+    },
+    {
+      "id": "jasoseol-107100",
+      "company": "그렙",
+      "title": "Java·Spring 백엔드 데브코스 15기",
+      "type": "",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-11-05",
+      "end": "2026-11-18",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://www.allforyoung.com/posts/89450",
+      "hist": "",
+      "found": "2026-11-20"
     },
     {
       "id": "jasoseol-106327",
@@ -9760,135 +9848,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://hyundaiweld.saramin.co.kr/apply_site/recruit/list",
-      "hist": "",
-      "found": "2026-11-14"
-    },
-    {
-      "id": "wanted-384521",
-      "company": "밀버스",
-      "type": "",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "",
-      "end": "2026-10-04",
-      "confirmed": true,
-      "source": "원티드",
-      "url": "https://www.wanted.co.kr/wd/384521",
-      "hist": "",
-      "found": "2026-09-06"
-    },
-    {
-      "id": "jasoseol-105494",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [
-        "HR/인사"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-10-04",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4301079317268163889?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Corporate",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06",
-      "title": "노무"
-    },
-    {
-      "id": "jasoseol-105508",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-04",
-      "end": "2026-10-04",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4148113903310673616?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Corporate",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06",
-      "title": "개인정보보호"
-    },
-    {
-      "id": "jasoseol-105509",
-      "company": "NHN",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-08-04",
-      "end": "2026-10-04",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4370711607830110861?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06",
-      "title": "LLM 기술 개발 (LLM / Agent)"
-    },
-    {
-      "id": "jasoseol-105515",
-      "company": "NHN Dooray",
-      "type": "",
-      "roles": [],
-      "start": "2026-08-04",
-      "end": "2026-10-04",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4355427437363474243?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Dooray_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06",
-      "title": "협업 서비스 프론트엔드 개발"
-    },
-    {
-      "id": "jasoseol-105524",
-      "company": "NHN Dooray",
-      "type": "",
-      "roles": [
-        "기획/전략",
-        "PM/서비스기획"
-      ],
-      "start": "2026-08-04",
-      "end": "2026-10-04",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.nhn.com/recruits/4368278317848221368?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Dooray_Tech",
-      "hist": "",
-      "endTime": "23:59",
-      "found": "2026-09-06",
-      "title": "ERP 기획 및 운영"
-    },
-    {
-      "id": "jasoseol-106345",
-      "company": "콘레브",
-      "type": "",
-      "roles": [
-        "콘텐츠",
-        "마케팅",
-        "홍보/PR"
-      ],
-      "start": "2026-09-20",
-      "end": "2026-10-04",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://careers.konrev.com/recruit",
-      "hist": "",
-      "found": "2026-09-21",
-      "title": "2026 인턴/스탭 채용 공고"
-    },
-    {
-      "id": "jasoseol-106366",
-      "company": "마이다스그룹",
-      "title": "2D 모션그래픽 디자이너 채용",
-      "type": "",
-      "roles": [],
-      "start": "2026-09-17",
-      "end": "2026-10-04",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://midas.recruiter.co.kr/career/jobs/128969",
       "hist": "",
       "found": "2026-11-14"
     }

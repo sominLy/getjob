@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-18T19:29:22.840Z",
+  "collectedAt": "2026-11-19T19:33:28.144Z",
   "errors": {},
   "jobs": [
     {
@@ -458,22 +458,40 @@
     {
       "source": "toss",
       "company": "토스",
-      "title": "마케팅 매니저 (Marketing Manager) · Creative · Growth",
+      "title": "마케팅 매니저 (Marketing Manager) · Growth",
       "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=7786447003&company=%ED%86%A0%EC%8A%A4",
+      "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=6258609003&company=%ED%86%A0%EC%8A%A4",
+      "years": 7,
+      "noLimit": false,
+      "evidence": "모바일 제품 조직에서 최소 7년 이상의 마케팅 경험이 필요해요.",
+      "roles": [
+        "마케팅·브랜드"
+      ],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-11-19",
+      "jd": "이런 분과 함께하고 싶어요\n\n모바일 제품 조직에서 최소 7년 이상의 마케팅 경험이 필요해요.\nPaid 채널에서 임팩트 있는 Growth를 주도적으로 만들어 낸 경험이 필요해요.\n새로운 기회를 찾아내기 위해, 가설 검증을 통해 끊임없이 숫자를 만들어낸 경험이 필요해요.\n프로젝트 또는 제품 단위의 마케팅 전략을 직접 설계하고 리드한 경험이 필요해요.\n데이터 프로세싱에 대한 이해를 바탕으로 유저레벨의 로데이터를 직접 다뤄본 경험이 필요해요.\n\n토스로의 "
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
+      "title": "Marketing Manager (Creative) · Korea Creative",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=6651340003&sub_position_id=8207974003&company=%ED%86%A0%EC%8A%A4%EC%A6%9D%EA%B6%8C",
       "years": null,
       "noLimit": false,
-      "evidence": "커머스 마케팅에 대한 이해를 바탕으로 Paid 소재를 직접 제작하고 운영한 경험이 필요해요.",
+      "evidence": "기획부터 제작까지 독립적으로 완결할 수 있는 분이 필요해요.",
       "roles": [
         "마케팅·브랜드"
       ],
       "reqs": [
-        "SQL·데이터"
+        "AI·LLM"
       ],
       "bucket": "unstated",
       "fit": true,
-      "firstSeen": "2026-11-02",
-      "jd": "이런 분과 함께하고 싶어요\n\n커머스 마케팅에 대한 이해를 바탕으로 Paid 소재를 직접 제작하고 운영한 경험이 필요해요.\n독립적으로 영상, 이미지를 기획하고 제작하는 것에 어려움이 없는 분이 필요해요.\n새로운 기회를 찾아내기 위한 가설 검증과 지속 가능한 숫자를 만들어낸 경험이 필요해요.\n직감이 아닌 데이터로 설득할 수 있는 논리적인 커뮤니케이션 역량이 필요해요.\n광고 소재의 유려함보다 끊임없는 시도를 통해 지표의 변화를 만들 수 있는 분이 필요해요.\n\n"
+      "firstSeen": "2026-11-19",
+      "jd": "이런 분과 함께하고 싶어요\n\n기획부터 제작까지 독립적으로 완결할 수 있는 분이 필요해요.\n이미지, 영상, 모션 등 다양한 포맷의 Creative를 직접 만들어 본 경험이 필요해요.\n퍼포먼스 마케팅을 통해 새로운 기회를 찾아내기 위한 가설 검증과 지속 가능한 숫자를 만들어낸 경험이 필요해요.\nAI 툴을 활용한 Creative 프로세스 효율화를 많이 시도하고 관련한 스킬을 높이는데 관심이 많으신 분이면 좋아요\n\n이런 경험이 있으면 더 좋아요\n\n퍼포먼스 광고 트래킹과 데이터 해석에 대한 이해가 있는 분\n\n"
     },
     {
       "source": "toss",
@@ -1520,6 +1538,28 @@
       "fit": false,
       "firstSeen": "2026-10-22",
       "jd": "Minimum qualifications \n PhD in Economics\n Strong track record of empirical research, particularly studies combining novel data sources and economic theory or implementing frontier methods in causal inference and machine learning\n Demonstrated experience working in, and relevant relationships across, the region\n Proficiency in Python, R, SQL, or similar tools for large-scale data analysis\n Demonstrated ability to lead complex research projects from conception to publication\n Demonstrated ability to communicate technical findings to diverse audiences\n Demonstrated ability to build relationships across academic, policy, and industry communities\n Preferred qualifications \n Experience relevant to the study of AI’s impact on the economy, such as labor market analysis and occupational change; task-based approaches to technological transformation; large-scale data analysis and econometric methods; large language models for social science research; policy-relevant economic research; experimental and quasi-experimental methods for causal inference; macroeconomic modeling and time series forecasting; or agent-based modeling and large-scale simulation\n Experience working with novel datasets and measurement systems\n Comfort learning new technical tools and frameworks\n Strong interest in ensuring AI development benefits humanity\n Comfort working with AI systems and ability to think critically about their capabilities and limitations\n Representative projects \n How Australia Uses Claude: Findings from the Anthropic Economic Index \n Anthropic Economic Index Report: Economic Primitives \n Anthropic Economic Index Report: Uneven Geographic and Enterprise AI Adoption \n Estimating AI productivity gains from Claude conversations \n The Anthropic Economic Index \n "
+    },
+    {
+      "source": "anthropic",
+      "company": "Anthropic",
+      "title": "Sales Director ",
+      "location": "Seoul, South Korea",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5474013008",
+      "years": 15,
+      "noLimit": false,
+      "evidence": "15+ years of enterprise sales experience, preferably driving adoption of SaaS or emerging technologies",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어",
+        "AI·LLM",
+        "B2B"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-19",
+      "jd": "qualifications \n 15+ years of enterprise sales experience, preferably driving adoption of SaaS or emerging technologies\n 5+ years of sales leadership experience within the Enterprise segment\n Proven track record of building and leading high-performing sales teams selling into large enterprises, with demonstrated success in coaching and developing AEs\n Experience establishing and scaling sales processes, tools, and methodologies in fast-growing organizations\n Strong technical acumen with ability to enable credible AI conversations\n Track record of successful partnership with technical teams throughout the customer journey\n Deep understanding of enterprise buying cycles, procurement frameworks, and common pain points across industries\n Demonstrated ability to navigate complex, multithreaded sales cycles across diverse stakeholder groups and drive cross-functional initiatives\n Experience managing complex enterprise sales cycles and helping AEs secure strategic deals\n Excellent communication skills and ability to build relationships across all levels, from individual contributors to C-suite executives\n Strategic approach to market analysis combined with tactical excellence in execution\n Passion for AI technology and commitment to its safe, responsible development\n Business-level Korean required; English proficiency strongly preferred\n "
     }
   ]
 }

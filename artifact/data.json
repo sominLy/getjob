@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-18T19:27:28.401815+00:00",
+ "collectedAt": "2026-11-19T19:31:42.057037+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -492,6 +492,20 @@
    "found": "2026-10-03"
   },
   {
+   "회사": "pfct",
+   "플랫폼": "greetinghr",
+   "title": "[체험형 인턴] 여신상품 운영 매니저",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://pfct.career.greetinghr.com/ko/o/245525",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-11-19",
+   "new": true,
+   "found": "2026-11-19"
+  },
+  {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
    "title": "[강남언니] Data Analyst 인턴 (마켓 인사이트, 체험형)",
@@ -704,20 +718,6 @@
   {
    "회사": "넛지헬스케어",
    "플랫폼": "greetinghr",
-   "title": "[캐시워크애즈] BM(Brand Manager) 채용전환형 인턴",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://cashwalk12.career.greetinghr.com/ko/o/223165",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-06-16",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "넛지헬스케어",
-   "플랫폼": "greetinghr",
    "title": "[캐시워크애즈] 데이터분석 담당 채용전환형 인턴",
    "career": "신입",
    "emp": "인턴",
@@ -880,7 +880,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-11-18",
-   "new": true,
+   "new": false,
    "found": "2026-11-18"
   },
   {
@@ -1020,7 +1020,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-11-17",
-   "new": true,
+   "new": false,
    "found": "2026-11-18"
   },
   {
@@ -1412,7 +1412,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-10-01",
-   "new": true,
+   "new": false,
    "found": "2026-11-18"
   },
   {
@@ -1964,20 +1964,6 @@
   {
    "회사": "하이브",
    "플랫폼": "greetinghr",
-   "title": "[BIGHIT MUSIC] 영상콘텐츠편집 (TXT 담당)*",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://careers.hybecorp.com/ko/o/241668",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-10-23",
-   "new": false,
-   "found": "2026-10-23"
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
    "title": "[BELIFT LAB] 콘텐츠 외주관리/제작 행정 담당자*",
    "career": "경력무관",
    "emp": "계약직",
@@ -2308,7 +2294,7 @@
    "cat": "세일즈·CX·제휴",
    "intern": true,
    "openDate": "2026-11-18",
-   "new": true,
+   "new": false,
    "found": "2026-11-18"
   },
   {
@@ -2464,6 +2450,20 @@
    "new": false,
    "found": "2026-10-22",
    "openDate": "2026-10-22"
+  },
+  {
+   "회사": "Anthropic",
+   "플랫폼": "global",
+   "title": "Sales Director ",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5474013008",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-19",
+   "openDate": "2026-11-19"
   },
   {
    "회사": "Notion",
@@ -2657,7 +2657,7 @@
    "link": "https://jobs.ashbyhq.com/openai/e47f0627-6aef-49b0-beea-f46cb6cc07ad",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-18",
    "openDate": "2026-11-17"
   },
@@ -2755,7 +2755,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/121216851580461766",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-18",
    "openDate": ""
   },
