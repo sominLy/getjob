@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-19T19:31:42.057037+00:00",
+ "collectedAt": "2026-11-20T19:10:16.363007+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -502,7 +502,7 @@
    "cat": "운영·오퍼레이션",
    "intern": true,
    "openDate": "2026-11-19",
-   "new": true,
+   "new": false,
    "found": "2026-11-19"
   },
   {
@@ -1782,6 +1782,20 @@
   {
    "회사": "카카오페이",
    "플랫폼": "greetinghr",
+   "title": "[계약직] 사업 담당자 - 광고 운영",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/245821",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-11-20",
+   "new": true,
+   "found": "2026-11-20"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
    "title": "[어시스턴트] 광고 운영 지원",
    "career": "신입",
    "emp": "인턴",
@@ -2461,7 +2475,7 @@
    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5474013008",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-19",
    "openDate": "2026-11-19"
   },
@@ -2762,6 +2776,20 @@
   {
    "회사": "Google",
    "플랫폼": "global",
+   "title": "Measurement and Incrementality Expert, gTech Ads, Google Customer Solutions (English, Japanese, Korean)",
+   "career": "-",
+   "emp": "-",
+   "due": "Tokyo, Japan",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/112478551638188742",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-20",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
    "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
    "career": "-",
    "emp": "-",
@@ -2911,6 +2939,20 @@
    "intern": false,
    "new": false,
    "found": "2026-10-28",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Senior Technical Solutions Consultant, Auto Partner Engineering (Korean, English, Chinese)",
+   "career": "-",
+   "emp": "-",
+   "due": "Tokyo, Japan",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/127375594164757190",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-20",
    "openDate": ""
   },
   {

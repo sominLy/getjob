@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -268,6 +268,14 @@
     },
     {
       "company": "Google",
+      "title": "Measurement and Incrementality Expert, gTech Ads, Google Customer Solutions (English, Japanese, Korean)",
+      "location": "Tokyo, Japan",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/112478551638188742",
+      "updated": ""
+    },
+    {
+      "company": "Google",
       "title": "Agentic Data Cloud Sales Specialist III, Google Cloud (Korean, English)",
       "location": "Seoul, South Korea",
       "department": "",
@@ -352,6 +360,14 @@
       "location": "Seoul, South Korea",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/137028019913925318",
+      "updated": ""
+    },
+    {
+      "company": "Google",
+      "title": "Senior Technical Solutions Consultant, Auto Partner Engineering (Korean, English, Chinese)",
+      "location": "Tokyo, Japan",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/127375594164757190",
       "updated": ""
     },
     {
