@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -73,6 +73,14 @@
       "department": "Finance",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079133008",
       "updated": "2026-10-07"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Manager, Applied AI Architect",
+      "location": "Seoul, South Korea",
+      "department": "Applied AI",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5480986008",
+      "updated": "2026-11-21"
     },
     {
       "company": "Anthropic",

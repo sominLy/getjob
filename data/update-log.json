@@ -22081,7 +22081,41 @@
    "archiveTotal": 557,
    "preds": 351,
    "compTotal": 589
+  },
+  {
+   "date": "2026-11-22",
+   "added": [
+    {
+     "id": "jasoseol-106754",
+     "company": "NHN Cloud",
+     "title": "법무",
+     "roles": [],
+     "end": "2026-12-14",
+     "url": "https://careers.nhn.com/recruits/4393119308199846458?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Corporate"
+    },
+    {
+     "id": "global-anthropic-5480986008",
+     "company": "Anthropic",
+     "title": "Manager, Applied AI Architect · Applied AI",
+     "roles": [],
+     "end": "",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5480986008"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-107006",
+     "company": "토스증권",
+     "end": "2026-11-21"
+    }
+   ],
+   "removed": [],
+   "compNew": [],
+   "total": 372,
+   "archiveTotal": 541,
+   "preds": 355,
+   "compTotal": 574
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }

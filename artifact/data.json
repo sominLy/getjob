@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-20T19:10:16.363007+00:00",
+ "collectedAt": "2026-11-21T18:03:17.318360+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -1790,7 +1790,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-11-20",
-   "new": true,
+   "new": false,
    "found": "2026-11-20"
   },
   {
@@ -2440,6 +2440,20 @@
   {
    "회사": "Anthropic",
    "플랫폼": "global",
+   "title": "Manager, Applied AI Architect",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5480986008",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-21",
+   "openDate": "2026-11-21"
+  },
+  {
+   "회사": "Anthropic",
+   "플랫폼": "global",
    "title": "Recruiter, GTM  - Seoul",
    "career": "-",
    "emp": "-",
@@ -2783,7 +2797,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/112478551638188742",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-20",
    "openDate": ""
   },
@@ -2951,7 +2965,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/127375594164757190",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-20",
    "openDate": ""
   },

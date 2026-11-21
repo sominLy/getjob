@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -4303,23 +4303,6 @@
       "found": "2026-11-02"
     },
     {
-      "id": "jasoseol-107006",
-      "company": "토스증권",
-      "title": "Communications Specialist 채용",
-      "type": "금융",
-      "roles": [
-        "홍보/PR"
-      ],
-      "start": "2026-10-29",
-      "end": "2026-11-21",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://toss.im/career/job-detail?job_id=8044053003&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2610_comms_specialist",
-      "hist": "",
-      "found": "2026-11-02"
-    },
-    {
       "id": "jasoseol-107020",
       "company": "에이피알",
       "title": "마케팅 직군 대규모 특별 채용 (신입/경력)",
@@ -7048,34 +7031,32 @@
       "found": "2026-11-20"
     },
     {
-      "id": "pred-nc문화재단-202611",
-      "company": "NC문화재단",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-11-20",
-      "end": "2026-12-04",
-      "confirmed": false,
-      "source": "예상(작년 자소설닷컴 기록)",
-      "url": "https://jasoseol.com/recruit/101168",
-      "hist": "작년 11/21~12/05 ‘2026 프로젝토리 크루(인턴) 채용’ 기준 예상"
+      "id": "jasoseol-106754",
+      "company": "NHN Cloud",
+      "title": "법무",
+      "type": "",
+      "roles": [],
+      "start": "2026-10-14",
+      "end": "2026-12-14",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4393119308199846458?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Corporate",
+      "hist": "",
+      "found": "2026-11-22"
     },
     {
-      "id": "pred-인크로스-202611",
-      "company": "인크로스",
-      "type": "대기업",
-      "roles": [
-        "홍보/PR",
-        "마케팅",
-        "HR/인사"
-      ],
-      "start": "2026-11-20",
-      "end": "2026-11-30",
-      "confirmed": false,
-      "source": "예상(작년 자소설닷컴 기록)",
-      "url": "https://jasoseol.com/recruit/101241",
-      "hist": "작년 11/21~12/01 ‘2026년 상반기 신입(인턴) 채용’ 기준 예상"
+      "id": "global-anthropic-5480986008",
+      "company": "Anthropic",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "Anthropic 채용페이지",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5480986008",
+      "hist": "Manager, Applied AI Architect · Applied AI",
+      "found": "2026-11-21"
     },
     {
       "id": "pred-주택도시보증공사-202611",
@@ -11769,6 +11750,52 @@
       "hist": "작년 04/20~04/27 ‘2026년 상반기 신입직원(채용형 인턴) 및 하반기 체험형 청년인턴 채용’ 기준 예상"
     },
     {
+      "id": "pred-한화솔루션인사이트부문-202704",
+      "company": "한화솔루션 인사이트부문",
+      "type": "대기업",
+      "roles": [
+        "영업",
+        "기획/전략",
+        "마케팅"
+      ],
+      "start": "2027-04-19",
+      "end": "2027-05-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103678",
+      "hist": "작년 04/20~05/03 ‘2026 상반기 신입사원 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-sk그룹-202704",
+      "company": "SK그룹",
+      "type": "대기업",
+      "roles": [
+        "PM/서비스기획"
+      ],
+      "start": "2027-04-19",
+      "end": "2027-05-12",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103689",
+      "hist": "작년 04/20~05/13 ‘SK 채용연계과정 SKALA 4기 모집’ 기준 예상"
+    },
+    {
+      "id": "pred-대구경북과학기술원-202704",
+      "company": "대구경북과학기술원(DGIST)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업관리"
+      ],
+      "start": "2027-04-19",
+      "end": "2027-05-05",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103696",
+      "hist": "작년 04/20~05/06 ‘2026년도 제1차 일반직원(정규직) 공개채용’ 기준 예상"
+    },
+    {
       "id": "pred-김앤장법률사무소-202704",
       "company": "김앤장 법률사무소",
       "type": "대기업",
@@ -11779,6 +11806,51 @@
       "source": "예상(작년 자소설닷컴 기록)",
       "url": "https://jasoseol.com/recruit/103713",
       "hist": "작년 04/20~04/28 ‘송무 및 상업등기 스탭(신입) 채용’ 기준 예상"
+    },
+    {
+      "id": "pred-한국산업기술진흥협회-202704",
+      "company": "한국산업기술진흥협회(KOITA)",
+      "type": "공기업",
+      "roles": [
+        "기획/전략",
+        "HR/인사",
+        "영업관리",
+        "리서치"
+      ],
+      "start": "2027-04-19",
+      "end": "2027-05-05",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103716",
+      "hist": "작년 04/20~05/06 ‘정규직 직원 공개채용’ 기준 예상"
+    },
+    {
+      "id": "pred-경기창조경제혁신센터-202704",
+      "company": "경기창조경제혁신센터",
+      "type": "공기업",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "2027-04-19",
+      "end": "2027-05-02",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103727",
+      "hist": "작년 04/20~05/03 ‘창업기업AC, 글로벌창업AC, 오픈이노베이션 코디네이터 경력 및 신입 직’ 기준 예상"
+    },
+    {
+      "id": "pred-nh농협무역-202704",
+      "company": "NH농협무역",
+      "type": "대기업",
+      "roles": [
+        "영업"
+      ],
+      "start": "2027-04-19",
+      "end": "2027-05-07",
+      "confirmed": false,
+      "source": "예상(작년 자소설닷컴 기록)",
+      "url": "https://jasoseol.com/recruit/103917",
+      "hist": "작년 04/20~05/08 ‘2026년 상반기 정규직 직원 공개채용’ 기준 예상"
     }
   ]
 }
