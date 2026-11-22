@@ -22115,7 +22115,215 @@
    "archiveTotal": 541,
    "preds": 355,
    "compTotal": 574
+  },
+  {
+   "date": "2026-11-23",
+   "added": [
+    {
+     "id": "jasoseol-107189",
+     "company": "와이씨",
+     "title": "2026년 하반기 신입사원 공개채용",
+     "roles": [
+      "고객/CS",
+      "영업",
+      "브랜드",
+      "콘텐츠"
+     ],
+     "end": "2026-12-04",
+     "url": "https://yc-exicon-semcnsgroup.recruiter.co.kr/career/jobs/134118"
+    },
+    {
+     "id": "jasoseol-107282",
+     "company": "프로텍",
+     "title": "2027년도 신입/경력사원 공개채용",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2026-12-01",
+     "url": "http://www.saramin.co.kr/zf_user/jobs/view/preview?rec_idx=55595952"
+    },
+    {
+     "id": "jasoseol-107293",
+     "company": "한국뇌연구원",
+     "title": "2026년도 제6차 직원 공개채용 공고",
+     "roles": [
+      "기획/전략",
+      "HR/인사",
+      "홍보/PR",
+      "영업관리"
+     ],
+     "end": "2026-12-07",
+     "url": "https://kbri.recruiter.co.kr/"
+    },
+    {
+     "id": "jasoseol-107330",
+     "company": "팀제이커브",
+     "title": "공채 1기 AX 프로젝트 매니저 신입 모집",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략"
+     ],
+     "end": "2026-12-06",
+     "url": "https://fci8mu63.ninehire.site/job_posting/DSTpiRXB"
+    },
+    {
+     "id": "jasoseol-107333",
+     "company": "OK금융그룹",
+     "title": "2026 AI Native 채용형 인턴 공개모집",
+     "roles": [
+      "PM/서비스기획",
+      "금융/심사",
+      "영업",
+      "마케팅"
+     ],
+     "end": "2026-12-06",
+     "url": "https://recruit.okfngroup.com/ko/o/245190"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106435",
+     "company": "넥스트",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-106972",
+     "company": "제이시스메디칼",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "linkareer-361461",
+     "company": "에이피알",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-106999",
+     "company": "보령",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107020",
+     "company": "에이피알",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107051",
+     "company": "이카운트",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107075",
+     "company": "뷰티셀렉션",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107106",
+     "company": "SASE(사세)",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107122",
+     "company": "LG생활건강",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107029",
+     "company": "굴드펌프",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107114",
+     "company": "제너시스비비큐",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107118",
+     "company": "아이리스브라이트",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "linkareer-363494",
+     "company": "현대종합금속",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "linkareer-363493",
+     "company": "한국유나이티드제약",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "linkareer-363492",
+     "company": "한국유나이티드제약",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107159",
+     "company": "토스플레이스",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107160",
+     "company": "에코마케팅",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107162",
+     "company": "용마로지스",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107169",
+     "company": "마이다스그룹",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107172",
+     "company": "대상",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107200",
+     "company": "제때",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107190",
+     "company": "한국평가데이터",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107191",
+     "company": "교보생명",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107207",
+     "company": "마이다스그룹",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107217",
+     "company": "BGF로지스",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107180",
+     "company": "금화저축은행",
+     "end": "2026-11-22"
+    },
+    {
+     "id": "jasoseol-107312",
+     "company": "한화세미텍",
+     "end": "2026-11-22"
+    }
+   ],
+   "removed": [],
+   "compNew": [],
+   "total": 350,
+   "archiveTotal": 554,
+   "preds": 358,
+   "compTotal": 578
   }
  ],
- "updated": "2026-11-22"
+ "updated": "2026-11-23"
 }
