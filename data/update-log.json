@@ -22323,7 +22323,148 @@
    "archiveTotal": 554,
    "preds": 358,
    "compTotal": 578
+  },
+  {
+   "date": "2026-11-24",
+   "added": [
+    {
+     "id": "linkareer-366477",
+     "company": "에프앤자산평가",
+     "title": "평가사업본부(주식파생실, 금리파생실) 정규직 채용(~12/06)",
+     "roles": [
+      "금융/심사"
+     ],
+     "end": "2026-12-06",
+     "url": "https://linkareer.com/activity/366477"
+    },
+    {
+     "id": "linkareer-366476",
+     "company": "SFA반도체",
+     "title": "[공채] 2026년 5차 수시채용_정보보안(팀원) 부문 (11월 29일 마감)",
+     "roles": [
+      "PM/서비스기획",
+      "기획/전략"
+     ],
+     "end": "2026-11-29",
+     "url": "https://linkareer.com/activity/366476"
+    },
+    {
+     "id": "linkareer-366475",
+     "company": "SFA반도체",
+     "title": "[공채] 2026년 5차 수시채용_20개 부문 (12월 6일 마감)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-12-06",
+     "url": "https://linkareer.com/activity/366475"
+    },
+    {
+     "id": "linkareer-366471",
+     "company": "NIT서비스",
+     "title": "네이버 플랫폼 서비스 운영",
+     "roles": [
+      "PM/서비스기획"
+     ],
+     "end": "2027-02-21",
+     "url": "https://linkareer.com/activity/366471"
+    },
+    {
+     "id": "linkareer-366447",
+     "company": "현대종합금속",
+     "title": "본사 수출영업(유럽) 신입사원 모집",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-12-06",
+     "url": "https://linkareer.com/activity/366447"
+    },
+    {
+     "id": "global-openai-8afcc20f-c4ca-4c9e-959c-",
+     "company": "OpenAI",
+     "title": "Product Marketing Manager, Hardware (Korea) · Marketing",
+     "roles": [],
+     "end": "",
+     "url": "https://jobs.ashbyhq.com/openai/8afcc20f-c4ca-4c9e-959c-2447b1c5c8da"
+    },
+    {
+     "id": "global-google-113835512195621574",
+     "company": "Google",
+     "title": "Software Engineer, Machine Learning, Edge TPU",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/113835512195621574"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-107065",
+     "company": "토스증권",
+     "end": "2026-11-23"
+    },
+    {
+     "id": "jasoseol-107174",
+     "company": "오오비컴퍼니",
+     "end": "2026-11-23"
+    },
+    {
+     "id": "jasoseol-107204",
+     "company": "LG생활건강",
+     "end": "2026-11-23"
+    },
+    {
+     "id": "linkareer-364414",
+     "company": "경기문화재단",
+     "end": "2026-11-23"
+    },
+    {
+     "id": "jasoseol-107205",
+     "company": "우리금융캐피탈",
+     "end": "2026-11-23"
+    },
+    {
+     "id": "jasoseol-107229",
+     "company": "NHN",
+     "end": "2026-11-23"
+    },
+    {
+     "id": "jasoseol-107235",
+     "company": "데일리앤코",
+     "end": "2026-11-23"
+    },
+    {
+     "id": "jasoseol-107248",
+     "company": "뉴셀렉트",
+     "end": "2026-11-23"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "CJ올리브영",
+     "title": "MD (파트 리드)",
+     "url": "https://career.oliveyoung.com/ko/o/245975"
+    },
+    {
+     "company": "헥토",
+     "title": "[헥토이노베이션] 휘슬 Product Manager (경력)",
+     "url": "https://www.hectocareers.co.kr/ko/o/244469"
+    },
+    {
+     "company": "OpenAI",
+     "title": "Product Marketing Manager, Hardware (Korea)",
+     "url": "https://jobs.ashbyhq.com/openai/8afcc20f-c4ca-4c9e-959c-2447b1c5c8da"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Communications - Commerce (Ads/Business Partnership), Produc",
+     "url": "https://explore.jobs.netflix.net/careers/job/790319660706"
+    }
+   ],
+   "total": 349,
+   "archiveTotal": 556,
+   "preds": 358,
+   "compTotal": 576
   }
  ],
- "updated": "2026-11-23"
+ "updated": "2026-11-24"
 }

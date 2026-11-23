@@ -1,6 +1,146 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "jobs": [
+    {
+      "id": "jasoseol-107065",
+      "company": "토스증권",
+      "title": "IT Security Specialist (IT 보안 담당자) 계약직 채용",
+      "type": "금융",
+      "roles": [],
+      "start": "2026-11-03",
+      "end": "2026-11-23",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://toss.im/career/job-detail?job_id=8009033003&gh_src=1b6a9aff3us&utm_source=jasoseol&utm_medium=post&utm_campaign=2611_itspecialist",
+      "hist": "",
+      "found": "2026-11-04"
+    },
+    {
+      "id": "jasoseol-107174",
+      "company": "오오비컴퍼니",
+      "title": "2026년 4분기 채용",
+      "type": "",
+      "roles": [
+        "마케팅",
+        "홍보/PR",
+        "영업관리"
+      ],
+      "start": "2026-11-12",
+      "end": "2026-11-23",
+      "endTime": "15:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://oobc.careerlink.kr/jobs",
+      "hist": "",
+      "found": "2026-11-13"
+    },
+    {
+      "id": "jasoseol-107204",
+      "company": "LG생활건강",
+      "title": "HR 신입사원 채용",
+      "type": "대기업",
+      "roles": [
+        "HR/인사"
+      ],
+      "start": "2026-11-11",
+      "end": "2026-11-23",
+      "endTime": "15:00",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.lg.com/apply/detail?id=1002389",
+      "hist": "",
+      "found": "2026-11-13"
+    },
+    {
+      "id": "linkareer-364414",
+      "company": "경기문화재단",
+      "title": "2026년 제5회 직원 채용(일반직 및 운영직)",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-11-23",
+      "endTime": "17:00",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/364414",
+      "hist": "",
+      "found": "2026-11-14"
+    },
+    {
+      "id": "jasoseol-107205",
+      "company": "우리금융캐피탈",
+      "title": "2027년 정규직 신입사원 채용",
+      "type": "금융",
+      "roles": [
+        "기획/전략",
+        "영업",
+        "영업관리",
+        "금융/심사",
+        "PM/서비스기획"
+      ],
+      "start": "2026-11-13",
+      "end": "2026-11-23",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://woorifcapital.incruit.com/main/main.asp",
+      "hist": "",
+      "found": "2026-11-14"
+    },
+    {
+      "id": "jasoseol-107229",
+      "company": "NHN",
+      "title": "UI/UX 디자이너 인턴 (체험형)",
+      "type": "대기업",
+      "roles": [],
+      "start": "2026-11-12",
+      "end": "2026-11-23",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://careers.nhn.com/recruits/4464150961272779331?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN_Design",
+      "hist": "",
+      "found": "2026-11-14"
+    },
+    {
+      "id": "jasoseol-107235",
+      "company": "데일리앤코",
+      "title": "[클럭, 몽제] 마케팅팀 인턴 채용 (채용 연계형)",
+      "type": "",
+      "roles": [
+        "브랜드",
+        "마케팅"
+      ],
+      "start": "2026-11-12",
+      "end": "2026-11-23",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://dailynco.career.greetinghr.com/o/242826",
+      "hist": "",
+      "found": "2026-11-14"
+    },
+    {
+      "id": "jasoseol-107248",
+      "company": "뉴셀렉트",
+      "title": "컨텐츠 PD (채용전환형 인턴)",
+      "type": "",
+      "roles": [
+        "콘텐츠",
+        "마케팅"
+      ],
+      "start": "2026-11-16",
+      "end": "2026-11-23",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "자소설닷컴",
+      "url": "https://newselect.co.kr/job_posting/mQDC7Cn1",
+      "hist": "",
+      "found": "2026-11-17"
+    },
     {
       "id": "jasoseol-106435",
       "company": "넥스트",
@@ -9591,109 +9731,6 @@
       "hist": "",
       "found": "2026-09-19",
       "title": "커뮤니케이션팀 채용 연계형 인턴사원 모집"
-    },
-    {
-      "id": "jasoseol-106341",
-      "company": "클래스101",
-      "type": "",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-09-18",
-      "end": "2026-10-08",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://jobs.class101.net",
-      "hist": "",
-      "found": "2026-09-18",
-      "title": "[채용연계형인턴] 비즈니스 빌더[BD]"
-    },
-    {
-      "id": "jasoseol-106267",
-      "company": "광주도시관리공사",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-09-23",
-      "end": "2026-10-08",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://gumc.brms.kr/",
-      "hist": "",
-      "found": "2026-09-19",
-      "title": "2026년 하반기 정규직 직원채용 공고"
-    },
-    {
-      "id": "jasoseol-106348",
-      "company": "한국선급",
-      "type": "공기업",
-      "roles": [
-        "기획/전략",
-        "PM/서비스기획"
-      ],
-      "start": "2026-09-24",
-      "end": "2026-10-08",
-      "endTime": "15:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://krs.recruit-zone.co.kr/",
-      "hist": "",
-      "found": "2026-09-21",
-      "title": "2026년도 직원 채용 공고 (제2차)"
-    },
-    {
-      "id": "jasoseol-106445",
-      "company": "한국사학진흥재단(KASFO)",
-      "type": "공기업",
-      "roles": [],
-      "start": "2026-09-30",
-      "end": "2026-10-08",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://kasfo.scout.co.kr",
-      "hist": "",
-      "found": "2026-09-28",
-      "title": "2026년 3차 체험형 청년인턴 채용 (장애인제한경쟁)"
-    },
-    {
-      "id": "jasoseol-106448",
-      "company": "NH농협캐피탈",
-      "type": "금융",
-      "roles": [
-        "금융/심사",
-        "영업",
-        "영업관리"
-      ],
-      "start": "2026-09-29",
-      "end": "2026-10-08",
-      "endTime": "10:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "http://nhcapital.saramin.co.kr",
-      "hist": "",
-      "found": "2026-09-29",
-      "title": "2026년 신규직원 채용"
-    },
-    {
-      "id": "jasoseol-106528",
-      "company": "공항철도",
-      "type": "중견기업",
-      "roles": [
-        "영업관리"
-      ],
-      "start": "2026-10-01",
-      "end": "2026-10-08",
-      "endTime": "11:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://arex.incruit.com/hire/hirelist.asp",
-      "hist": "",
-      "found": "2026-10-01",
-      "title": "2026년 하반기 채용 공고"
     }
   ]
 }

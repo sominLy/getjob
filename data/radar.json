@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-22T18:37:31.569Z",
+  "collectedAt": "2026-11-23T22:45:35.093Z",
   "errors": {},
   "jobs": [
     {
@@ -101,8 +101,6 @@
         "프로덕트 기획"
       ],
       "reqs": [
-        "SQL·데이터",
-        "금융 도메인",
         "B2B"
       ],
       "bucket": "senior",
@@ -683,6 +681,23 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Director of Communications, Korea",
+      "location": "Seoul, South Korea",
+      "level": null,
+      "url": "https://www.google.com/about/careers/applications/jobs/results/87092778067993286-director-of-communications-korea",
+      "years": 15,
+      "noLimit": false,
+      "evidence": "15 years of communications experience in a business or consumer media environment.",
+      "roles": [],
+      "reqs": [],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-23",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n15 years of communications experience in a business or consumer media environment.\nExperience building relationships with media, writing external communications, working with social media creators, podcasters and shaping communications strategies.\nExperience serving as a communications partner to senior executives and Korea cross-functional leadership teams.\nExperience leading a team.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Field Sales Representative, Digital Natives, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -1070,6 +1085,27 @@
     {
       "source": "google",
       "company": "Google",
+      "title": "Software Engineer, Machine Learning, Edge TPU",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/113835512195621574-software-engineer-machine-learning-edge-tpu",
+      "years": 5,
+      "noLimit": false,
+      "evidence": "5 years of experience with software development in one or more programming languages.",
+      "roles": [
+        "엔지니어링"
+      ],
+      "reqs": [
+        "AI·LLM"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-23",
+      "jd": "Minimum qualifications\nBachelor’s degree or equivalent practical experience.\n\n5 years of experience with software development in one or more programming languages.\n3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.\n\n3 years of experience with one or more of the following: speech/audio (e.g., technology duplicating and responding to the human voice), reinforcement learning (e.g., sequential decision making), ML infrastructure, or specialization in another ML field.\n\n3 years of experience with end-to-end machine learning (e.g., model deployment, model evaluation, data processing, debugging).\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
       "title": "Customer Engineer, Digital Native, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "level": "Mid",
@@ -1189,28 +1225,6 @@
       "fit": false,
       "firstSeen": "2026-11-03",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n10 years of experience with cloud native architecture in a customer-facing or support role.\nExperience with cloud engineering, on-premise engineering, virtualization, or containerization platforms.\nExperience engaging with, or presenting to, technical stakeholders or executive leaders.\nExperience in programming languages, debugging, systems design, prototyping, demos, or customer workshops.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions with local stakeholders.\n"
-    },
-    {
-      "source": "google",
-      "company": "Google",
-      "title": "Measurement Specialist, Large Customer Sales (English, Korean)",
-      "location": "Seoul, South Korea",
-      "level": "Mid",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/128586509996434118-measurement-specialist-large-customer-sales-english-korean",
-      "years": 5,
-      "noLimit": false,
-      "evidence": "5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.",
-      "roles": [
-        "세일즈·파트너십"
-      ],
-      "reqs": [
-        "영어",
-        "SQL·데이터"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-10-22",
-      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n5 years of experience in media analytics, advertising sales, digital media and marketing, consulting, or financial analysis.\n\nExperience in SQL, databases, and automation techniques (e.g., dashboards, automating custom reports, materializing tables).\nAbility to communicate fluently in English and Korean in order to interact with local stakeholders.\n"
     },
     {
       "source": "notion",
@@ -1499,27 +1513,6 @@
       "fit": false,
       "firstSeen": "2026-11-03",
       "jd": "requirements, the Personal Information Protection Act (PIPA) and Medical Service Act as they apply to patient data, and GxP/validation expectations\n Inform product roadmaps and features by gathering customer feedback and conveying the needs of the Korean market. Provide insights that strengthen our value proposition and enhance the customer experience\n Continuously refine the sales methodology by incorporating learnings into playbooks, templates, and best practices. Identify process improvements that optimize sales productivity and consistency\n You may be a good fit if you have\n 8+ years of enterprise Healthcare &amp; Life Sciences sales experience in Korea, driving adoption of emerging technologies with a consultative, solutions-oriented sales approach\n A genuine understanding of how Korean hospitals and life sciences companies make technology decisions, including the role of regulators, quality and compliance functions, and IT governance\n A track record of managing complex sales cycles and securing strategic deals by understanding multifaceted technical requirements and crafting tailored solutions\n Demonstrated ability to navigate dynamic stakeholder ecosystems, building consensus and providing innovative solutions to disparate groups\n Extensive experience negotiating highly complex, customized commercial agreements with multiple stakeholders\n Proven experience exceeding revenue targets in fast-paced organizations by effectively managing an evolving pipeline and sales process\n Excellent communication skills in both Korean and English, and the ability to present confidently and build connections across all customer levels, from ICs to C-level executives\n A knack for bringing order to chaos and an enthusiastic “roll up your sleeves” mentality. You are a true team player\n A strategic, analytical approach to assessing markets combined with creative, tactical execution to capture opportunities\n A passion for and/or experience with advanced AI systems. You feel strongly about ensuring frontier AI systems are developed safely\n What We Offer\n Competitive base salary and commission\n Equity participation\n Comprehensive benefits\n Hybrid work model\n Access to cutting-edge AI technology and world-class research team\n "
-    },
-    {
-      "source": "anthropic",
-      "company": "Anthropic",
-      "title": "External Affairs, South Korea",
-      "location": "Seoul, South Korea",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5417967008",
-      "years": 10,
-      "noLimit": false,
-      "evidence": "Preferred 10+ years of professional experience in government, technology, legal, and/or other policy-relevant environments",
-      "roles": [
-        "전략·재무"
-      ],
-      "reqs": [
-        "영어",
-        "AI·LLM"
-      ],
-      "bucket": "senior",
-      "fit": false,
-      "firstSeen": "2026-09-17",
-      "jd": "Minimum qualifications \n Preferred 10+ years of professional experience in government, technology, legal, and/or other policy-relevant environments\n Have a track record of effective, information-rich advocacy with Korean government authorities at the federal and/or state level\n Have experience analyzing legislation and engaging in regulatory processes\n Are energized by agency — you will be the first policy hire in Korea and will be building the operation from scratch\n Enjoy drafting and executing complex policy campaigns that move the needle\n Thrive when engaging with policymakers, civil society, and think tanks to translate complex technical topics into accessible and relevant information\n Excel at translating high-level vision into executable operational plans\n Have demonstrated an ability to quickly get up to speed on complex technical areas and policy dynamics\n Are deeply curious about frontier technological research and are eager to work closely with technical colleagues to translate new discoveries into policy outcomes\n Are fluent in Korean and English\n Preferred qualifications\n AI/technology industry experience (heavily preferred)\n Experience working with international companies or organizations\n Academic or think tank background in AI policy or related fields\n Experience in both government and private sector roles\n Familiarity with intelligence and security cooperation frameworks\n &nbsp;\n "
     },
     {
       "source": "anthropic",

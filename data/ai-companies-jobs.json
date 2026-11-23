@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "note": "구글/앤스로픽/노션/OpenAI 서울 오피스 공고 전체(직무·경력 무관).",
   "jobs": [
     {
@@ -57,14 +57,6 @@
       "department": "Sales",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5470906008",
       "updated": "2026-11-03"
-    },
-    {
-      "company": "Anthropic",
-      "title": "External Affairs, South Korea",
-      "location": "Seoul, South Korea",
-      "department": "Public Policy",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5417967008",
-      "updated": "2026-09-24"
     },
     {
       "company": "Anthropic",
@@ -219,6 +211,14 @@
       "updated": "2026-11-17"
     },
     {
+      "company": "OpenAI",
+      "title": "Product Marketing Manager, Hardware (Korea)",
+      "location": "Seoul, South Korea",
+      "department": "Marketing",
+      "url": "https://jobs.ashbyhq.com/openai/8afcc20f-c4ca-4c9e-959c-2447b1c5c8da",
+      "updated": "2026-11-23"
+    },
+    {
       "company": "Google",
       "title": "Growth Manager, App Sales (English, Korean)",
       "location": "Seoul, South Korea",
@@ -356,6 +356,14 @@
     },
     {
       "company": "Google",
+      "title": "Software Engineer, Machine Learning, Edge TPU",
+      "location": "Seoul, South Korea",
+      "department": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/113835512195621574",
+      "updated": ""
+    },
+    {
+      "company": "Google",
       "title": "Customer Engineer, Digital Native, Google Cloud (English, Korean)",
       "location": "Seoul, South Korea",
       "department": "",
@@ -376,14 +384,6 @@
       "location": "Tokyo, Japan",
       "department": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/127375594164757190",
-      "updated": ""
-    },
-    {
-      "company": "Google",
-      "title": "Measurement Specialist, Large Customer Sales (English, Korean)",
-      "location": "Seoul, South Korea",
-      "department": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/128586509996434118",
       "updated": ""
     }
   ]
