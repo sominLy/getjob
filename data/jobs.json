@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -4371,21 +4371,6 @@
       "found": "2026-11-04"
     },
     {
-      "id": "jasoseol-107061",
-      "company": "넷마블네오",
-      "title": "2026 AI 인턴십 (게임개발/기획 통합 직무, 인턴십 5개월, 채용전환형)",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-11-11",
-      "end": "2026-11-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://ai-internship2026.netmarbleneo.com/",
-      "hist": "",
-      "found": "2026-11-04"
-    },
-    {
       "id": "jasoseol-107072",
       "company": "에이피알",
       "title": "[경영지원] 해외법인 관리/결산 채용연계형 인턴사원 모집",
@@ -4678,23 +4663,6 @@
       "found": "2026-11-11"
     },
     {
-      "id": "jasoseol-107143",
-      "company": "삼성생명서비스",
-      "title": "2027년 신입사원 채용",
-      "type": "금융",
-      "roles": [
-        "금융/심사"
-      ],
-      "start": "2026-11-10",
-      "end": "2026-11-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://samsunglifeservice.recruiter.co.kr/career/home",
-      "hist": "",
-      "found": "2026-11-11"
-    },
-    {
       "id": "jasoseol-107154",
       "company": "현대자동차",
       "title": "2027 서비스엔지니어 채용전환형 인턴십 High-Tech Talent Track",
@@ -4861,23 +4829,6 @@
       "found": "2026-11-12"
     },
     {
-      "id": "jasoseol-107186",
-      "company": "에프엠커뮤니케이션즈",
-      "title": "2027 상반기 대규모 공개채용 프로모션·영상그래픽",
-      "type": "",
-      "roles": [
-        "마케팅"
-      ],
-      "start": "2026-11-11",
-      "end": "2026-11-24",
-      "endTime": "17:30",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://fmcommunications.recruiter.im/job",
-      "hist": "",
-      "found": "2026-11-12"
-    },
-    {
       "id": "jasoseol-107187",
       "company": "한국한의학연구원",
       "title": "[2026년 2차] 한국한의학연구원 정규직 채용공고",
@@ -4892,26 +4843,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://kiom.fairy.im/",
-      "hist": "",
-      "found": "2026-11-12"
-    },
-    {
-      "id": "jasoseol-107192",
-      "company": "부광약품",
-      "title": "OCI그룹 부광약품 2026년 하반기 제약 영업(MR) 신입 공개채용 및 부문별 경력 채용",
-      "type": "대기업",
-      "roles": [
-        "영업",
-        "마케팅",
-        "MD",
-        "기획/전략"
-      ],
-      "start": "2026-11-10",
-      "end": "2026-11-24",
-      "endTime": "16:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://oci.career.greetinghr.com/o/244277",
       "hist": "",
       "found": "2026-11-12"
     },
@@ -5119,21 +5050,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://careers.nhn.com/recruits/4463975433215526703?utm_source=jasoseol&utm_medium=jobposting&utm_campaign=NHN%20Cloud_Corporate",
-      "hist": "",
-      "found": "2026-11-13"
-    },
-    {
-      "id": "jasoseol-107214",
-      "company": "포스코",
-      "title": "2027년 서울/포항/광양/송도 임원비서(계약직) 채용",
-      "type": "대기업",
-      "roles": [],
-      "start": "2026-11-12",
-      "end": "2026-11-24",
-      "endTime": "17:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.posco.com/h22a01-front/H22A1001.html?id=741000",
       "hist": "",
       "found": "2026-11-13"
     },
@@ -5734,23 +5650,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611160004240",
-      "hist": "",
-      "found": "2026-11-18"
-    },
-    {
-      "id": "jasoseol-107276",
-      "company": "HL디앤아이한라",
-      "title": "2026 하반기 신입사원 채용",
-      "type": "중견기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-11-17",
-      "end": "2026-11-24",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://hlcompany.recruiter.co.kr/career/job",
       "hist": "",
       "found": "2026-11-18"
     },
@@ -11487,6 +11386,83 @@
       "url": "https://www.google.com/about/careers/applications/jobs/results/113835512195621574",
       "hist": "Software Engineer, Machine Learning, Edge TPU",
       "found": "2026-11-23"
+    },
+    {
+      "id": "linkareer-366797",
+      "company": "유한킴벌리",
+      "title": "유아용품마케팅팀 Brand & Product Manager 신입/경력 채용",
+      "type": "",
+      "roles": [
+        "브랜드"
+      ],
+      "start": "",
+      "end": "2026-12-04",
+      "endTime": "18:00",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/366797",
+      "hist": "",
+      "found": "2026-11-25"
+    },
+    {
+      "id": "linkareer-366781",
+      "company": "대한장애인체육회",
+      "title": "2026년 제4차 채용",
+      "type": "",
+      "roles": [
+        "기획/전략"
+      ],
+      "start": "",
+      "end": "2026-12-08",
+      "endTime": "15:00",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/366781",
+      "hist": "",
+      "found": "2026-11-25"
+    },
+    {
+      "id": "linkareer-366779",
+      "company": "필립스코리아",
+      "title": "Service Contract Administrator",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "",
+      "end": "2027-02-22",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/366779",
+      "hist": "",
+      "found": "2026-11-25"
+    },
+    {
+      "id": "global-openai-da30ac77-307b-4ffb-9e47-",
+      "company": "OpenAI",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "OpenAI 채용페이지",
+      "url": "https://jobs.ashbyhq.com/openai/da30ac77-307b-4ffb-9e47-d5df9dd191d2",
+      "hist": "Greenfield Startups, Account Director · Go To Market",
+      "found": "2026-11-24"
+    },
+    {
+      "id": "global-google-131541703851942598",
+      "company": "Google",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "Google 채용페이지",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/131541703851942598",
+      "hist": "Strategic Agency Manager (Korean, English)",
+      "found": "2026-11-24"
     }
   ]
 }

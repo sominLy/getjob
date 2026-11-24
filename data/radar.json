@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-23T22:58:17.389Z",
+  "collectedAt": "2026-11-24T21:22:25.943Z",
   "errors": {},
   "jobs": [
     {
@@ -1081,6 +1081,25 @@
       "fit": false,
       "firstSeen": "2026-11-02",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n15 years of experience in business development, partnerships, or management within the music, digital content, or technology industries.\nExperience in a leadership role, managing teams and working with executives in the music industry.\nExperience with commercial agreements, digital music licensing agreements, agreements and support of multi-territorial licensing entities.\nAbility to communicate fluently in English and Korean to engage with clients in the region.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Strategic Agency Manager (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Mid",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/131541703851942598-strategic-agency-manager-korean-english",
+      "years": 4,
+      "noLimit": false,
+      "evidence": "4 years of experience working in business development, marketing, or consultative sales.",
+      "roles": [],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": false,
+      "firstSeen": "2026-11-24",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n\n4 years of experience working in business development, marketing, or consultative sales.\nAbility to communicate in English and Korean fluently as this is a customer-facing role that requires interactions in English and Korean with local stakeholders.\n"
     },
     {
       "source": "google",

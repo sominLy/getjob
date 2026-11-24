@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-23T22:56:24.023505+00:00",
+ "collectedAt": "2026-11-24T21:20:31.504415+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -585,7 +585,7 @@
    "link": "https://career.gangnamunni.com/ko/o/242029",
    "cat": "전략·사업",
    "intern": true,
-   "openDate": "2026-10-27",
+   "openDate": "2026-11-24",
    "new": false,
    "found": "2026-10-27"
   },
@@ -732,6 +732,20 @@
   {
    "회사": "뤼튼",
    "플랫폼": "greetinghr",
+   "title": "광고 사업 운영 인턴",
+   "career": "경력무관",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.wrtn.io/ko/o/245363",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-11-18",
+   "new": false,
+   "found": "2026-11-18"
+  },
+  {
+   "회사": "뤼튼",
+   "플랫폼": "greetinghr",
    "title": "Service Operations Manager (OOC)",
    "career": "경력무관",
    "emp": "정규직",
@@ -826,20 +840,6 @@
    "openDate": "2026-10-22",
    "new": false,
    "found": "2026-10-22"
-  },
-  {
-   "회사": "뤼튼",
-   "플랫폼": "greetinghr",
-   "title": "Ad Operations 인턴",
-   "career": "경력무관",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.wrtn.io/ko/o/245363",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-11-18",
-   "new": false,
-   "found": "2026-11-18"
   },
   {
    "회사": "마이리얼트립",
@@ -1082,10 +1082,10 @@
   {
    "회사": "메가스터디교육",
    "플랫폼": "greetinghr",
-   "title": "[러셀] 러셀전주학원 교무기획 채용",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "2026-11-29",
+   "title": "[러셀] 러셀전주학원 입시담임/교무기획 채용",
+   "career": "-",
+   "emp": "-",
+   "due": "2026-12-06",
    "link": "https://megastudyedu.career.greetinghr.com/ko/o/240641",
    "cat": "기획·PM/PO",
    "intern": false,
@@ -1162,20 +1162,6 @@
    "openDate": "2026-11-18",
    "new": false,
    "found": "2026-11-04"
-  },
-  {
-   "회사": "무신사",
-   "플랫폼": "greetinghr",
-   "title": "Content Editor (29CM)",
-   "career": "경력 1년~2",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://www.musinsacareers.com/ko/o/242543",
-   "cat": "마케팅·브랜딩",
-   "intern": false,
-   "openDate": "2026-10-30",
-   "new": false,
-   "found": "2026-10-30"
   },
   {
    "회사": "무신사",
@@ -1670,6 +1656,20 @@
   {
    "회사": "카카오페이",
    "플랫폼": "greetinghr",
+   "title": "[계약직] 마케터 - 온라인 결제 마케팅 및 채널 운영",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://kakaopay.career.greetinghr.com/ko/o/246143",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-11-24",
+   "new": true,
+   "found": "2026-11-24"
+  },
+  {
+   "회사": "카카오페이",
+   "플랫폼": "greetinghr",
    "title": "[계약직] 사업 담당자 - 광고 운영",
    "career": "신입",
    "emp": "계약직",
@@ -1708,20 +1708,6 @@
    "openDate": "2026-11-11",
    "new": false,
    "found": "2026-11-11"
-  },
-  {
-   "회사": "카카오페이",
-   "플랫폼": "greetinghr",
-   "title": "[어시스턴트] CS운영 업무 지원",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/243291",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-11-04",
-   "new": false,
-   "found": "2026-11-04"
   },
   {
    "회사": "코나아이",
@@ -1810,21 +1796,7 @@
   {
    "회사": "팀스파르타",
    "플랫폼": "greetinghr",
-   "title": "신사업2팀(내배픽) B2C 세일즈 매니저 (계약직)",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://career.spartaclub.kr/ko/o/244630",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-11-13",
-   "new": false,
-   "found": "2026-11-13"
-  },
-  {
-   "회사": "팀스파르타",
-   "플랫폼": "greetinghr",
-   "title": "💼 [내일출근] 커리어 상담 세일즈 매니저 모집 (계약직)",
+   "title": "💼 [내일출근] 커리어 상담 세일즈 매니저 모집",
    "career": "경력무관",
    "emp": "계약직",
    "due": "상시",
@@ -2156,20 +2128,6 @@
    "openDate": "2026-10-23",
    "new": false,
    "found": "2026-10-23"
-  },
-  {
-   "회사": "쿠팡",
-   "플랫폼": "greenhouse",
-   "title": "[쿠팡] 정산 운영 및 프로세스 개선 담당자 (신입채용, Business Operations)",
-   "career": "주니어(제목 기준)",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8323748",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-10-25",
-   "new": false,
-   "found": "2026-10-26"
   },
   {
    "회사": "당근",
@@ -2564,6 +2522,20 @@
    "openDate": "2026-11-23"
   },
   {
+   "회사": "OpenAI",
+   "플랫폼": "global",
+   "title": "Greenfield Startups, Account Director",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://jobs.ashbyhq.com/openai/da30ac77-307b-4ffb-9e47-d5df9dd191d2",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-24",
+   "openDate": "2026-11-24"
+  },
+  {
    "회사": "Google",
    "플랫폼": "global",
    "title": "Growth Manager, App Sales (English, Korean)",
@@ -2799,6 +2771,20 @@
    "intern": false,
    "new": false,
    "found": "2026-11-02",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Strategic Agency Manager (Korean, English)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/131541703851942598",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-24",
    "openDate": ""
   },
   {

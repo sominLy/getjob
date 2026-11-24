@@ -22464,7 +22464,117 @@
    "archiveTotal": 556,
    "preds": 358,
    "compTotal": 577
+  },
+  {
+   "date": "2026-11-25",
+   "added": [
+    {
+     "id": "linkareer-366797",
+     "company": "유한킴벌리",
+     "title": "유아용품마케팅팀 Brand & Product Manager 신입/경력 채용",
+     "roles": [
+      "브랜드"
+     ],
+     "end": "2026-12-04",
+     "url": "https://linkareer.com/activity/366797"
+    },
+    {
+     "id": "linkareer-366781",
+     "company": "대한장애인체육회",
+     "title": "2026년 제4차 채용",
+     "roles": [
+      "기획/전략"
+     ],
+     "end": "2026-12-08",
+     "url": "https://linkareer.com/activity/366781"
+    },
+    {
+     "id": "linkareer-366779",
+     "company": "필립스코리아",
+     "title": "Service Contract Administrator",
+     "roles": [
+      "영업"
+     ],
+     "end": "2027-02-22",
+     "url": "https://linkareer.com/activity/366779"
+    },
+    {
+     "id": "global-openai-da30ac77-307b-4ffb-9e47-",
+     "company": "OpenAI",
+     "title": "Greenfield Startups, Account Director · Go To Market",
+     "roles": [],
+     "end": "",
+     "url": "https://jobs.ashbyhq.com/openai/da30ac77-307b-4ffb-9e47-d5df9dd191d2"
+    },
+    {
+     "id": "global-google-131541703851942598",
+     "company": "Google",
+     "title": "Strategic Agency Manager (Korean, English)",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/131541703851942598"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-107061",
+     "company": "넷마블네오",
+     "end": "2026-11-24"
+    },
+    {
+     "id": "jasoseol-107143",
+     "company": "삼성생명서비스",
+     "end": "2026-11-24"
+    },
+    {
+     "id": "jasoseol-107186",
+     "company": "에프엠커뮤니케이션즈",
+     "end": "2026-11-24"
+    },
+    {
+     "id": "jasoseol-107192",
+     "company": "부광약품",
+     "end": "2026-11-24"
+    },
+    {
+     "id": "jasoseol-107214",
+     "company": "포스코",
+     "end": "2026-11-24"
+    },
+    {
+     "id": "jasoseol-107276",
+     "company": "HL디앤아이한라",
+     "end": "2026-11-24"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "Product Manager (Partner Platform)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/246022"
+    },
+    {
+     "company": "스푼랩스",
+     "title": "재무 인턴 (6개월)",
+     "url": "https://spoonradio.career.greetinghr.com/ko/o/245939"
+    },
+    {
+     "company": "카카오페이",
+     "title": "[계약직] 마케터 - 온라인 결제 마케팅 및 채널 운영",
+     "url": "https://kakaopay.career.greetinghr.com/ko/o/246143"
+    },
+    {
+     "company": "넷플릭스",
+     "title": "Ads Sales Partner - Korea",
+     "url": "https://explore.jobs.netflix.net/careers/job/790319711015"
+    }
+   ],
+   "total": 348,
+   "archiveTotal": 559,
+   "preds": 358,
+   "compTotal": 567
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }
