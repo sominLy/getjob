@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-24T21:22:25.943Z",
+  "collectedAt": "2026-11-25T20:33:10.925Z",
   "errors": {},
   "jobs": [
     {
@@ -291,6 +291,28 @@
     {
       "source": "toss",
       "company": "토스증권",
+      "title": "Product Owner (Trading)",
+      "location": "서울",
+      "url": "https://toss.im/career/job-detail?job_id=8215325003",
+      "years": null,
+      "noLimit": true,
+      "evidence": "모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.",
+      "roles": [
+        "프로덕트 기획"
+      ],
+      "reqs": [
+        "SQL·데이터",
+        "AI·LLM",
+        "금융 도메인"
+      ],
+      "bucket": "open",
+      "fit": true,
+      "firstSeen": "2026-11-25",
+      "jd": "이런 분과 함께하고 싶어요\n\n모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.\n문제 발굴 → 지표 수립 → 가설 검증 → 실험 → 이터레이션의 풀 사이클을 본인이 직접 주도해 본 경험이 필요해요. 실행만 담당한 경험이 아니라, 루프 전체를 돌려 본 경험이요.\n애자일한 프로세스로 비즈니스와 제품에 유의미한 성과를 만들거나, 실패를 통해 러닝한 경험이 필요해요.\n데이터 기반으로 다양하고 복잡한 문제를 해결하는 Analytic Mindset이 필요해요.\n새로운 시장이나 새로운 거래 방식을 대상으로 제품을 0에서 1로 만들어 본 경험이 있다면 더 좋아요.\n주문·결제·정산처럼 돈이 오가는 트랜잭션 제품에서, Conversion과 안정성을 함께 책임져 본 경험이 있다면 더 좋아요.\n조건주문·자동 투자·AI 에이전트처럼 유저의 전략을 대신 실행하는 제품이나, Open API처럼 개발자를 대상으로 한 플랫폼 제품을 기획·운영해 본 경험이 있다면 더 좋아요.\n금융·헬스케어처럼 규제가 있는 산업에서, 제도의 복잡성을 빠르게 학습해 제품으로 풀어 본 경험이 있다면 더 좋아요.\n\n"
+    },
+    {
+      "source": "toss",
+      "company": "토스증권",
       "title": "Product Owner (User Journey)",
       "location": "서울",
       "url": "https://toss.im/career/job-detail?job_id=7804051003",
@@ -308,27 +330,6 @@
       "fit": true,
       "firstSeen": "2026-09-17",
       "jd": "이런 분과 함께하고 싶어요\n\n모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.\n문제 발굴 → 지표 수립 → 가설 검증 → 실험 → 이터레이션의 풀 사이클을 본인이 직접 주도해 본 경험이 필요해요. 실행만 담당한 경험이 아니라, 루프 전체를 돌려 본 경험이요.\n애자일한 프로세스로 비즈니스와 제품에 유의미한 성과를 만들거나, 실패를 통해 러닝한 경험이 필요해요.\n데이터 기반으로 다양하고 복잡한 문제를 해결하는 Analytic Mindset이 필요해요.\n새로운 유저층이나 새로운 시장을 대상으로 제품을 0에서 1로 만들어 본 경험이 있다면 더 좋아요.\n온보딩·콘텐츠·추천·개인화 제품에서 활성화나 리텐션 문제를 풀어 본 경험이 있다면 더 좋아요.\nLLM 기반 제품을 기획·운영하며 프롬프트, 평가, 할루시네이션 대응 같은 생성형 AI 제품의 품질 문제를 다뤄 본 경험이 있다면 더 좋아요.\n\n"
-    },
-    {
-      "source": "toss",
-      "company": "토스증권",
-      "title": "Product Owner (Vertical)",
-      "location": "서울",
-      "url": "https://toss.im/career/job-detail?job_id=7803925003",
-      "years": null,
-      "noLimit": true,
-      "evidence": "모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.",
-      "roles": [
-        "프로덕트 기획"
-      ],
-      "reqs": [
-        "SQL·데이터",
-        "금융 도메인"
-      ],
-      "bucket": "open",
-      "fit": true,
-      "firstSeen": "2026-09-17",
-      "jd": "이런 분과 함께하고 싶어요\n\n모바일 제품에 대한 이해와 농도짙은 경험이 필요해요. 단, 경험의 깊이는 연차와 비례하지 않아 연차에 제한을 두고 있지 않아요.\n문제 발굴 → 지표 수립 → 가설 검증 → 실험 → 이터레이션의 풀 사이클을 본인이 직접 주도해 본 경험이 필요해요. 실행만 담당한 경험이 아니라, 루프 전체를 돌려 본 경험이요.\n애자일한 프로세스로 비즈니스와 제품에 유의미한 성과를 만들거나, 실패를 통해 러닝한 경험이 필요해요.\n데이터 기반으로 다양하고 복잡한 문제를 해결하는 Analytic Mindset이 필요해요.\n제품이나 사업을 0에서 1로 런칭해 본 경험이 있다면 더 좋아요. 특히 수익 모델 설계까지 직접 해 본 경험이요.\n금융·헬스케어처럼 규제가 있는 산업에서, 제도의 복잡성을 빠르게 학습해 제품으로 풀어 본 경험이 있다면 더 좋아요.\n\n"
     },
     {
       "source": "toss",
@@ -1202,6 +1203,27 @@
       "fit": false,
       "firstSeen": "2026-11-06",
       "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n2 years of experience in digital advertising, consultative sales, digital media sales, business development, online media environment, or digital marketing role.\nAbility to travel for client meetings and training, as needed.\n"
+    },
+    {
+      "source": "google",
+      "company": "Google",
+      "title": "Venture Capital Business Development Manager, Google Cloud (Korean, English)",
+      "location": "Seoul, South Korea",
+      "level": "Advanced",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/139638833896399558-venture-capital-business-development-manager-google-cloud-korean-english",
+      "years": 15,
+      "noLimit": false,
+      "evidence": "15 years of experience in Venture Capital/Private Equity (VC/PE) firms, Investment Banking, Consulting, Partnerships, or Business Development roles working with C-level stakeholders.",
+      "roles": [
+        "세일즈·파트너십"
+      ],
+      "reqs": [
+        "영어"
+      ],
+      "bucket": "senior",
+      "fit": true,
+      "firstSeen": "2026-11-25",
+      "jd": "Minimum qualifications\nBachelor's degree or equivalent practical experience.\n15 years of experience in Venture Capital/Private Equity (VC/PE) firms, Investment Banking, Consulting, Partnerships, or Business Development roles working with C-level stakeholders.\nAbility to communicate in English and Korean fluently to support client relationship management in the region.\n"
     },
     {
       "source": "google",

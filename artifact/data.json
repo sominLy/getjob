@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-24T21:20:31.504415+00:00",
+ "collectedAt": "2026-11-25T20:31:10.691768+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -578,34 +578,6 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
-   "title": "[신사업] 사업개발 인턴 (체험형)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.gangnamunni.com/ko/o/242029",
-   "cat": "전략·사업",
-   "intern": true,
-   "openDate": "2026-11-24",
-   "new": false,
-   "found": "2026-10-27"
-  },
-  {
-   "회사": "강남언니",
-   "플랫폼": "greetinghr",
-   "title": "[신사업]  Product Operation Manager 인턴 (체험형)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.gangnamunni.com/ko/o/201327",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-11-03",
-   "new": false,
-   "found": "2026-11-03"
-  },
-  {
-   "회사": "강남언니",
-   "플랫폼": "greetinghr",
    "title": "[병원 운영 솔루션] Business Operation Assistant (체험형 인턴)",
    "career": "신입",
    "emp": "인턴",
@@ -756,20 +728,6 @@
    "openDate": "2026-10-06",
    "new": false,
    "found": "2026-10-06"
-  },
-  {
-   "회사": "뤼튼",
-   "플랫폼": "greetinghr",
-   "title": "Service Operations Manager",
-   "career": "경력무관",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://career.wrtn.io/ko/o/232409",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-08-07",
-   "new": false,
-   "found": "2026-10-03"
   },
   {
    "회사": "뤼튼",
@@ -952,20 +910,6 @@
    "openDate": "2026-11-17",
    "new": false,
    "found": "2026-11-18"
-  },
-  {
-   "회사": "마카롱팩토리",
-   "플랫폼": "greetinghr",
-   "title": "채용·인사 운영 담당자 - People팀 (전환형 인턴)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://mycle.career.greetinghr.com/ko/o/242469",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-10-29",
-   "new": false,
-   "found": "2026-10-29"
   },
   {
    "회사": "마카롱팩토리",
@@ -1208,20 +1152,6 @@
   {
    "회사": "스캐터랩",
    "플랫폼": "greetinghr",
-   "title": "ML Research Intern",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://www.scatterlab.co.kr/ko/o/220860",
-   "cat": "데이터·리서치",
-   "intern": true,
-   "openDate": "2026-06-10",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "스캐터랩",
-   "플랫폼": "greetinghr",
    "title": "ML Researcher",
    "career": "경력무관",
    "emp": "정규직",
@@ -1358,6 +1288,20 @@
    "openDate": "2026-11-10",
    "new": false,
    "found": "2026-11-10"
+  },
+  {
+   "회사": "업스테이지",
+   "플랫폼": "greetinghr",
+   "title": "Data Program Manager",
+   "career": "경력무관",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://careers.upstage.ai/ko/o/245487",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-11-18",
+   "new": true,
+   "found": "2026-11-25"
   },
   {
    "회사": "업스테이지",
@@ -1664,7 +1608,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-11-24",
-   "new": true,
+   "new": false,
    "found": "2026-11-24"
   },
   {
@@ -1768,6 +1712,20 @@
   {
    "회사": "팀스파르타",
    "플랫폼": "greetinghr",
+   "title": "B2B 사업 운영 매니저 (AX 교육사업)",
+   "career": "경력 1년~5",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://career.spartaclub.kr/ko/o/246236",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-25",
+   "new": true,
+   "found": "2026-11-25"
+  },
+  {
+   "회사": "팀스파르타",
+   "플랫폼": "greetinghr",
    "title": "B2G 사업운영 매니저 (미래내일 일경험 사업)",
    "career": "경력 1년~3",
    "emp": "정규직",
@@ -1792,6 +1750,20 @@
    "openDate": "2026-08-27",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "팀스파르타",
+   "플랫폼": "greetinghr",
+   "title": "콘텐츠 마케터 (Content Marketer)",
+   "career": "경력 1년~3",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://career.spartaclub.kr/ko/o/246246",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-11-25",
+   "new": true,
+   "found": "2026-11-25"
   },
   {
    "회사": "팀스파르타",
@@ -1852,20 +1824,6 @@
   {
    "회사": "하이브",
    "플랫폼": "greetinghr",
-   "title": "[HYBE] ITSM/CS*",
-   "career": "경력 1년~",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://careers.hybecorp.com/ko/o/240417",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-10-14",
-   "new": false,
-   "found": "2026-10-14"
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
    "title": "[BELIFT LAB] 정산관리*",
    "career": "경력 1년~",
    "emp": "계약직",
@@ -1874,20 +1832,6 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-09-02",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "하이브",
-   "플랫폼": "greetinghr",
-   "title": "[BIGHIT MUSIC] 콘텐츠기획(영상콘텐츠제작) (BTS 담당)*",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://careers.hybecorp.com/ko/o/231174",
-   "cat": "기획·PM/PO",
-   "intern": false,
-   "openDate": "2026-07-30",
    "new": false,
    "found": "2026-10-03"
   },
@@ -2034,20 +1978,6 @@
   {
    "회사": "헥토",
    "플랫폼": "greetinghr",
-   "title": "[헥토이노베이션] 월렛 해외 B2B영업 (경력)",
-   "career": "경력 1년~4",
-   "emp": "정규직",
-   "due": "상시",
-   "link": "https://www.hectocareers.co.kr/ko/o/240915",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-10-19",
-   "new": false,
-   "found": "2026-10-19"
-  },
-  {
-   "회사": "헥토",
-   "플랫폼": "greetinghr",
    "title": "[헥토] AI 상품기획 및 PM (신입/경력)",
    "career": "경력 0년~10",
    "emp": "정규직",
@@ -2128,6 +2058,20 @@
    "openDate": "2026-10-23",
    "new": false,
    "found": "2026-10-23"
+  },
+  {
+   "회사": "쿠팡",
+   "플랫폼": "greenhouse",
+   "title": "[쿠팡] 중/소형 셀러 광고 영업 담당자(신입/정규직) (Ads SMB Sales)",
+   "career": "주니어(제목 기준)",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8416462",
+   "cat": "마케팅·브랜딩",
+   "intern": false,
+   "openDate": "2026-11-25",
+   "new": true,
+   "found": "2026-11-25"
   },
   {
    "회사": "당근",
@@ -2531,7 +2475,7 @@
    "link": "https://jobs.ashbyhq.com/openai/da30ac77-307b-4ffb-9e47-d5df9dd191d2",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-24",
    "openDate": "2026-11-24"
   },
@@ -2783,7 +2727,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/131541703851942598",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-24",
    "openDate": ""
   },
@@ -2813,6 +2757,20 @@
    "intern": false,
    "new": false,
    "found": "2026-11-03",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Venture Capital Business Development Manager, Google Cloud (Korean, English)",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/139638833896399558",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-25",
    "openDate": ""
   },
   {

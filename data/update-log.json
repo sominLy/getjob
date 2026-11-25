@@ -22574,7 +22574,99 @@
    "archiveTotal": 559,
    "preds": 358,
    "compTotal": 567
+  },
+  {
+   "date": "2026-11-26",
+   "added": [
+    {
+     "id": "linkareer-367116",
+     "company": "에프앤자산평가",
+     "title": "마케팅본부 정규직 채용(~12/13)",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-12-13",
+     "url": "https://linkareer.com/activity/367116"
+    },
+    {
+     "id": "linkareer-367115",
+     "company": "에프앤자산평가",
+     "title": "평가사업본부(외화채권실) 정규직원 채용(~12/13)",
+     "roles": [
+      "금융/심사"
+     ],
+     "end": "2026-12-13",
+     "url": "https://linkareer.com/activity/367115"
+    },
+    {
+     "id": "linkareer-367079",
+     "company": "현대종합금속",
+     "title": "본사 수출영업부(러시아) 신입사원 모집",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-12-06",
+     "url": "https://linkareer.com/activity/367079"
+    },
+    {
+     "id": "global-google-139638833896399558",
+     "company": "Google",
+     "title": "Venture Capital Business Development Manager, Google Cloud (",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/139638833896399558"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-107145",
+     "company": "카카오뱅크",
+     "end": "2026-11-25"
+    },
+    {
+     "id": "jasoseol-107167",
+     "company": "한국사회적기업진흥원(KoSEA)",
+     "end": "2026-11-25"
+    },
+    {
+     "id": "jasoseol-107237",
+     "company": "법무법인 태평양",
+     "end": "2026-11-25"
+    },
+    {
+     "id": "linkareer-364885",
+     "company": "강원관광재단",
+     "end": "2026-11-25"
+    },
+    {
+     "id": "jasoseol-107257",
+     "company": "트리니티항공",
+     "end": "2026-11-25"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "업스테이지",
+     "title": "Data Program Manager",
+     "url": "https://upstage.career.greetinghr.com/ko/o/245487"
+    },
+    {
+     "company": "카카오모빌리티",
+     "title": "[Assistant] DeepAI팀 인턴십 프로그램",
+     "url": "https://kakaomobility.career.greetinghr.com/ko/o/246227"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[AI Research Div.] Data Project Manager (경력무관 / 인턴)",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8798984002"
+    }
+   ],
+   "total": 347,
+   "archiveTotal": 561,
+   "preds": 359,
+   "compTotal": 558
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }

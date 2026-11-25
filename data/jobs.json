@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "note": "공개 정보만 담습니다. 개인 메모·자소서는 각자 브라우저에만 저장됩니다. confirmed:false는 과거 접수 패턴으로 추정한 예상 일정입니다.",
   "stages": [
     "서류 발표",
@@ -714,8 +714,7 @@
       "source": "자체 채용페이지",
       "url": "https://wrtn.career.greetinghr.com/ko/career",
       "hist": "수시 · 상시",
-      "doneAt": "2026-10-10",
-      "doneBy": "jasoseol-106385"
+      "doneAt": "2026-10-10"
     },
     {
       "id": "scatterlab",
@@ -4583,23 +4582,6 @@
       "found": "2026-11-10"
     },
     {
-      "id": "jasoseol-107145",
-      "company": "카카오뱅크",
-      "title": "DevOps 엔지니어링팀 정규직 전환형 인턴 채용",
-      "type": "대기업",
-      "roles": [
-        "PM/서비스기획"
-      ],
-      "start": "2026-11-09",
-      "end": "2026-11-25",
-      "endTime": "23:59",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.kakaobank.com/jobs/271437",
-      "hist": "",
-      "found": "2026-11-10"
-    },
-    {
       "id": "jasoseol-107156",
       "company": "NHN Cloud",
       "title": "모의해킹 및 Red Team 운영",
@@ -4692,23 +4674,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611100000984",
-      "hist": "",
-      "found": "2026-11-11"
-    },
-    {
-      "id": "jasoseol-107167",
-      "company": "한국사회적기업진흥원(KoSEA)",
-      "title": "2027년 기능직(총무·비서) 및 기간제근로자 채용공고",
-      "type": "공기업",
-      "roles": [
-        "기획/전략"
-      ],
-      "start": "2026-11-10",
-      "end": "2026-11-25",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://socialenterprise.brms.kr/",
       "hist": "",
       "found": "2026-11-11"
     },
@@ -5137,21 +5102,6 @@
       "found": "2026-11-14"
     },
     {
-      "id": "jasoseol-107237",
-      "company": "법무법인 태평양",
-      "title": "신입(채용연계형 인턴)/경력직원 정기채용 안내",
-      "type": "중견기업",
-      "roles": [],
-      "start": "2026-11-13",
-      "end": "2026-11-25",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://recruit.bkl.co.kr/ko/home",
-      "hist": "",
-      "found": "2026-11-14"
-    },
-    {
       "id": "jasoseol-107241",
       "company": "서울창조경제혁신센터",
       "title": "2026년 제6차 직원 채용공고",
@@ -5277,23 +5227,6 @@
       "url": "https://www.banksaladfs.com/career?utm_source=jasoseol&utm_medium=paid_recruit&utm_campaign=internship2_mkt_jasoseol&utm_content=261116-261130",
       "hist": "",
       "found": "2026-11-16"
-    },
-    {
-      "id": "linkareer-364885",
-      "company": "강원관광재단",
-      "title": "2026년 하반기 채용 공고",
-      "type": "",
-      "roles": [
-        "콘텐츠"
-      ],
-      "start": "",
-      "end": "2026-11-25",
-      "endTime": "18:00",
-      "confirmed": true,
-      "source": "링커리어",
-      "url": "https://linkareer.com/activity/364885",
-      "hist": "",
-      "found": "2026-11-17"
     },
     {
       "id": "jasoseol-107202",
@@ -5457,29 +5390,6 @@
       "confirmed": true,
       "source": "자소설닷컴",
       "url": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2611160000458&handle=2A1FE6CD14746E9DB3862E135E6D13EABFAF5C59BA582CA2B0C378199E464B97&rf=1",
-      "hist": "",
-      "found": "2026-11-17"
-    },
-    {
-      "id": "jasoseol-107257",
-      "company": "트리니티항공",
-      "title": "일반직(신입), 정비자재(신입) 채용",
-      "type": "중견기업",
-      "roles": [
-        "영업",
-        "HR/인사",
-        "브랜드",
-        "기획/전략",
-        "영업관리",
-        "고객/CS",
-        "마케팅"
-      ],
-      "start": "2026-11-11",
-      "end": "2026-11-25",
-      "endTime": "14:00",
-      "confirmed": true,
-      "source": "자소설닷컴",
-      "url": "https://trinityairways.recruiter.co.kr/career/job",
       "hist": "",
       "found": "2026-11-17"
     },
@@ -11463,6 +11373,70 @@
       "url": "https://www.google.com/about/careers/applications/jobs/results/131541703851942598",
       "hist": "Strategic Agency Manager (Korean, English)",
       "found": "2026-11-24"
+    },
+    {
+      "id": "linkareer-367116",
+      "company": "에프앤자산평가",
+      "title": "마케팅본부 정규직 채용(~12/13)",
+      "type": "",
+      "roles": [
+        "마케팅"
+      ],
+      "start": "",
+      "end": "2026-12-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/367116",
+      "hist": "",
+      "found": "2026-11-26"
+    },
+    {
+      "id": "linkareer-367115",
+      "company": "에프앤자산평가",
+      "title": "평가사업본부(외화채권실) 정규직원 채용(~12/13)",
+      "type": "",
+      "roles": [
+        "금융/심사"
+      ],
+      "start": "",
+      "end": "2026-12-13",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/367115",
+      "hist": "",
+      "found": "2026-11-26"
+    },
+    {
+      "id": "linkareer-367079",
+      "company": "현대종합금속",
+      "title": "본사 수출영업부(러시아) 신입사원 모집",
+      "type": "",
+      "roles": [
+        "영업"
+      ],
+      "start": "",
+      "end": "2026-12-06",
+      "endTime": "23:59",
+      "confirmed": true,
+      "source": "링커리어",
+      "url": "https://linkareer.com/activity/367079",
+      "hist": "",
+      "found": "2026-11-26"
+    },
+    {
+      "id": "global-google-139638833896399558",
+      "company": "Google",
+      "type": "외국계",
+      "roles": [],
+      "start": "",
+      "end": "",
+      "confirmed": true,
+      "source": "Google 채용페이지",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/139638833896399558",
+      "hist": "Venture Capital Business Development Manager, Google Cloud (Korean, English)",
+      "found": "2026-11-25"
     }
   ]
 }
