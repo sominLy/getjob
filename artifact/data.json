@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-25T20:31:10.691768+00:00",
+ "collectedAt": "2026-11-26T20:14:48.820827+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -140,6 +140,20 @@
    "openDate": "2025-04-03",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "CJ올리브영",
+   "플랫폼": "greetinghr",
+   "title": "도심물류매장 MFC 운영(무기계약직) - 서초점",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.oliveyoung.com/ko/o/246306",
+   "cat": "운영·오퍼레이션",
+   "intern": false,
+   "openDate": "2026-11-26",
+   "new": true,
+   "found": "2026-11-26"
   },
   {
    "회사": "CJ올리브영",
@@ -1122,20 +1136,6 @@
    "found": "2026-11-13"
   },
   {
-   "회사": "무신사",
-   "플랫폼": "greetinghr",
-   "title": "Global CX Operations Associate",
-   "career": "경력무관",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://www.musinsacareers.com/ko/o/243338",
-   "cat": "세일즈·CX·제휴",
-   "intern": false,
-   "openDate": "2026-11-04",
-   "new": false,
-   "found": "2026-11-04"
-  },
-  {
    "회사": "스캐터랩",
    "플랫폼": "greetinghr",
    "title": "🔥11월 집중채용🔥 zeta 서비스 기획·운영 인턴",
@@ -1300,7 +1300,7 @@
    "cat": "기획·PM/PO",
    "intern": false,
    "openDate": "2026-11-18",
-   "new": true,
+   "new": false,
    "found": "2026-11-25"
   },
   {
@@ -1516,20 +1516,6 @@
   {
    "회사": "직방",
    "플랫폼": "greetinghr",
-   "title": "[직방] 단기임대 운영 매니저 (계약직)",
-   "career": "경력 1년~",
-   "emp": "계약직",
-   "due": "상시",
-   "link": "https://zigbang.career.greetinghr.com/ko/o/242143",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-10-27",
-   "new": false,
-   "found": "2026-10-27"
-  },
-  {
-   "회사": "직방",
-   "플랫폼": "greetinghr",
    "title": "[직방] 중개사무소(APT) 광고 영업매니저 (계약직)_지역무관",
    "career": "경력무관",
    "emp": "계약직",
@@ -1640,20 +1626,6 @@
    "found": "2026-11-16"
   },
   {
-   "회사": "카카오페이",
-   "플랫폼": "greetinghr",
-   "title": "[어시스턴트] 브랜드 마케팅 업무 지원",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://kakaopay.career.greetinghr.com/ko/o/244356",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-11-11",
-   "new": false,
-   "found": "2026-11-11"
-  },
-  {
    "회사": "코나아이",
    "플랫폼": "greetinghr",
    "title": "영업_USIM사업(경력)",
@@ -1720,7 +1692,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-25",
-   "new": true,
+   "new": false,
    "found": "2026-11-25"
   },
   {
@@ -1762,8 +1734,22 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-11-25",
-   "new": true,
+   "new": false,
    "found": "2026-11-25"
+  },
+  {
+   "회사": "팀스파르타",
+   "플랫폼": "greetinghr",
+   "title": "콘텐츠 마케터 채용연계형 인턴 (Content Marketer)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://career.spartaclub.kr/ko/o/246319",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-11-26",
+   "new": true,
+   "found": "2026-11-26"
   },
   {
    "회사": "팀스파르타",
@@ -2070,7 +2056,7 @@
    "cat": "마케팅·브랜딩",
    "intern": false,
    "openDate": "2026-11-25",
-   "new": true,
+   "new": false,
    "found": "2026-11-25"
   },
   {
@@ -2769,7 +2755,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/139638833896399558",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-25",
    "openDate": ""
   },
@@ -2799,6 +2785,20 @@
    "intern": false,
    "new": false,
    "found": "2026-11-20",
+   "openDate": ""
+  },
+  {
+   "회사": "Google",
+   "플랫폼": "global",
+   "title": "Measurement Specialist, Large Customer Sales",
+   "career": "-",
+   "emp": "-",
+   "due": "Seoul, South Korea",
+   "link": "https://www.google.com/about/careers/applications/jobs/results/105180448719545030",
+   "cat": "외국계 AI (연차 미표기)",
+   "intern": false,
+   "new": true,
+   "found": "2026-11-26",
    "openDate": ""
   }
  ]

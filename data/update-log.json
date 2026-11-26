@@ -22666,7 +22666,104 @@
    "archiveTotal": 561,
    "preds": 359,
    "compTotal": 558
+  },
+  {
+   "date": "2026-11-27",
+   "added": [
+    {
+     "id": "linkareer-367395",
+     "company": "유나이티드파슬서비스코리아",
+     "title": "Healthcare Sales - Major Account Executive",
+     "roles": [
+      "영업"
+     ],
+     "end": "2027-02-24",
+     "url": "https://linkareer.com/activity/367395"
+    },
+    {
+     "id": "linkareer-367393",
+     "company": "한국삼공",
+     "title": "마케팅 CRM팀 제주지점 신입/경력 수시 채용",
+     "roles": [
+      "마케팅"
+     ],
+     "end": "2026-11-30",
+     "url": "https://linkareer.com/activity/367393"
+    },
+    {
+     "id": "linkareer-367373",
+     "company": "서울우유협동조합",
+     "title": "2027년 대졸 신입직원 모집 (일반직/기술직)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-12-07",
+     "url": "https://linkareer.com/activity/367373"
+    },
+    {
+     "id": "global-google-105180448719545030",
+     "company": "Google",
+     "title": "Measurement Specialist, Large Customer Sales",
+     "roles": [],
+     "end": "",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/105180448719545030"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106082",
+     "company": "앳홈",
+     "end": "2026-11-26"
+    },
+    {
+     "id": "jasoseol-107187",
+     "company": "한국한의학연구원",
+     "end": "2026-11-26"
+    },
+    {
+     "id": "jasoseol-107197",
+     "company": "한국해양과학기술원",
+     "end": "2026-11-26"
+    },
+    {
+     "id": "jasoseol-107203",
+     "company": "에어퍼스트",
+     "end": "2026-11-26"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "글로벌플랫폼 사업관리 담당자 (P&L)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/246383"
+    },
+    {
+     "company": "무신사",
+     "title": "액션스포츠 MD",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/246400"
+    },
+    {
+     "company": "CJ올리브영",
+     "title": "도심물류매장 MFC 운영(무기계약직) - 서초점",
+     "url": "https://career.oliveyoung.com/ko/o/246306"
+    },
+    {
+     "company": "카카오모빌리티",
+     "title": "[Contract] 서비스 운영 기획자",
+     "url": "https://kakaomobility.career.greetinghr.com/ko/o/246409"
+    },
+    {
+     "company": "크래프톤",
+     "title": "[CNTD Dept.] AI Investment & Strategy Analyst (7년 이상)",
+     "url": "https://job-boards.greenhouse.io/krafton/jobs/8963319002"
+    }
+   ],
+   "total": 347,
+   "archiveTotal": 524,
+   "preds": 360,
+   "compTotal": 547
   }
  ],
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }
