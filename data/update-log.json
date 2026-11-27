@@ -22763,7 +22763,92 @@
    "archiveTotal": 524,
    "preds": 360,
    "compTotal": 547
+  },
+  {
+   "date": "2026-11-28",
+   "added": [
+    {
+     "id": "linkareer-367628",
+     "company": "남양유업",
+     "title": "2026년 하반기 신입사원 수시채용(지점영업)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-12-03",
+     "url": "https://linkareer.com/activity/367628"
+    },
+    {
+     "id": "linkareer-367625",
+     "company": "앤마들린 주식회사",
+     "title": "글로브/플릭스 뷰티 전환형 매니저",
+     "roles": [
+      "브랜드",
+      "영업"
+     ],
+     "end": "2027-02-25",
+     "url": "https://linkareer.com/activity/367625"
+    },
+    {
+     "id": "linkareer-367612",
+     "company": "온라인팜",
+     "title": "디자이너, 개발자, 병원영업 채용",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-12-10",
+     "url": "https://linkareer.com/activity/367612"
+    },
+    {
+     "id": "linkareer-367607",
+     "company": "아이디스",
+     "title": "2026년 11월 수시 채용 (신입/경력)",
+     "roles": [
+      "영업"
+     ],
+     "end": "2026-12-07",
+     "url": "https://linkareer.com/activity/367607"
+    }
+   ],
+   "archived": [
+    {
+     "id": "jasoseol-106458",
+     "company": "NHN",
+     "end": "2026-11-27"
+    },
+    {
+     "id": "jasoseol-107165",
+     "company": "중소기업중앙회",
+     "end": "2026-11-27"
+    },
+    {
+     "id": "jasoseol-107201",
+     "company": "스포츠윤리센터",
+     "end": "2026-11-27"
+    },
+    {
+     "id": "jasoseol-107242",
+     "company": "식품안전정보원",
+     "end": "2026-11-27"
+    }
+   ],
+   "removed": [],
+   "compNew": [
+    {
+     "company": "무신사",
+     "title": "브랜드 물류 운영 담당자 (무신사 트레이딩)",
+     "url": "https://musinsa.career.greetinghr.com/ko/o/246550"
+    },
+    {
+     "company": "Snowflake",
+     "title": "Sales Development Representative",
+     "url": "https://jobs.ashbyhq.com/snowflake/02e9f023-ffc7-408e-b602-eb852a5a8e2e"
+    }
+   ],
+   "total": 347,
+   "archiveTotal": 509,
+   "preds": 360,
+   "compTotal": 532
   }
  ],
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }

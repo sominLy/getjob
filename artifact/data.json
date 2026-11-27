@@ -1,5 +1,5 @@
 {
- "collectedAt": "2026-11-26T20:14:48.820827+00:00",
+ "collectedAt": "2026-11-27T20:01:18.784576+00:00",
  "rows": [
   {
    "회사": "BAT",
@@ -152,7 +152,7 @@
    "cat": "운영·오퍼레이션",
    "intern": false,
    "openDate": "2026-11-26",
-   "new": true,
+   "new": false,
    "found": "2026-11-26"
   },
   {
@@ -522,20 +522,6 @@
   {
    "회사": "강남언니",
    "플랫폼": "greetinghr",
-   "title": "[강남언니] 태국 소셜 마케팅 인턴 (체험형)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://career.gangnamunni.com/ko/o/235941",
-   "cat": "마케팅·브랜딩",
-   "intern": true,
-   "openDate": "2026-09-07",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "강남언니",
-   "플랫폼": "greetinghr",
    "title": "[강남언니] 태국 콘텐츠 마케터 인턴 (체험형)",
    "career": "신입",
    "emp": "인턴",
@@ -588,6 +574,20 @@
    "openDate": "2026-11-12",
    "new": false,
    "found": "2026-11-13"
+  },
+  {
+   "회사": "강남언니",
+   "플랫폼": "greetinghr",
+   "title": "[강남언니] Account Executive",
+   "career": "신입",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://career.gangnamunni.com/ko/o/235707",
+   "cat": "세일즈·CX·제휴",
+   "intern": false,
+   "openDate": "2026-11-27",
+   "new": true,
+   "found": "2026-11-27"
   },
   {
    "회사": "강남언니",
@@ -816,6 +816,20 @@
   {
    "회사": "마이리얼트립",
    "플랫폼": "greetinghr",
+   "title": "T&A실 유럽팀 사업개발 매니저",
+   "career": "-",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://myrealtrip.career.greetinghr.com/ko/o/246546",
+   "cat": "전략·사업",
+   "intern": false,
+   "openDate": "2026-11-27",
+   "new": true,
+   "found": "2026-11-27"
+  },
+  {
+   "회사": "마이리얼트립",
+   "플랫폼": "greetinghr",
    "title": "T&A 호주 사업개발 매니저",
    "career": "-",
    "emp": "정규직",
@@ -914,20 +928,6 @@
   {
    "회사": "마카롱팩토리",
    "플랫폼": "greetinghr",
-   "title": "오피스 운영 담당자 - 총무/GA (전환형 인턴)",
-   "career": "신입",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://mycle.career.greetinghr.com/ko/o/245211",
-   "cat": "운영·오퍼레이션",
-   "intern": true,
-   "openDate": "2026-11-17",
-   "new": false,
-   "found": "2026-11-18"
-  },
-  {
-   "회사": "마카롱팩토리",
-   "플랫폼": "greetinghr",
    "title": "CS 매니저 (전환형 인턴)",
    "career": "신입",
    "emp": "인턴",
@@ -938,6 +938,20 @@
    "openDate": "2026-10-30",
    "new": false,
    "found": "2026-10-30"
+  },
+  {
+   "회사": "마카롱팩토리",
+   "플랫폼": "greetinghr",
+   "title": "오피스 운영 담당자 - 총무/GA (전환형 인턴)",
+   "career": "신입",
+   "emp": "인턴",
+   "due": "상시",
+   "link": "https://mycle.career.greetinghr.com/ko/o/245211",
+   "cat": "운영·오퍼레이션",
+   "intern": true,
+   "openDate": "2026-11-17",
+   "new": false,
+   "found": "2026-11-18"
   },
   {
    "회사": "마카롱팩토리",
@@ -1124,30 +1138,16 @@
   {
    "회사": "무신사",
    "플랫폼": "greetinghr",
-   "title": "CX Operations Assistant",
+   "title": "K-POP 파트너십 마케터",
    "career": "경력 1년~",
-   "emp": "계약직",
+   "emp": "정규직",
    "due": "상시",
-   "link": "https://www.musinsacareers.com/ko/o/244708",
-   "cat": "세일즈·CX·제휴",
+   "link": "https://www.musinsacareers.com/ko/o/246554",
+   "cat": "마케팅·브랜딩",
    "intern": false,
-   "openDate": "2026-11-13",
-   "new": false,
-   "found": "2026-11-13"
-  },
-  {
-   "회사": "스캐터랩",
-   "플랫폼": "greetinghr",
-   "title": "🔥11월 집중채용🔥 zeta 서비스 기획·운영 인턴",
-   "career": "경력무관",
-   "emp": "인턴",
-   "due": "상시",
-   "link": "https://www.scatterlab.co.kr/ko/o/243801",
-   "cat": "기획·PM/PO",
-   "intern": true,
-   "openDate": "2026-11-06",
-   "new": false,
-   "found": "2026-11-06"
+   "openDate": "2026-11-27",
+   "new": true,
+   "found": "2026-11-27"
   },
   {
    "회사": "스캐터랩",
@@ -1160,20 +1160,6 @@
    "cat": "데이터·리서치",
    "intern": false,
    "openDate": "2025-02-28",
-   "new": false,
-   "found": "2026-10-03"
-  },
-  {
-   "회사": "스캐터랩",
-   "플랫폼": "greetinghr",
-   "title": "zeta US Service Monitoring Manager (플롯 검수)",
-   "career": "경력무관",
-   "emp": "FREE_LANCER",
-   "due": "상시",
-   "link": "https://www.scatterlab.co.kr/ko/o/234638",
-   "cat": "운영·오퍼레이션",
-   "intern": false,
-   "openDate": "2026-08-26",
    "new": false,
    "found": "2026-10-03"
   },
@@ -1460,16 +1446,16 @@
   {
    "회사": "와디즈",
    "플랫폼": "greetinghr",
-   "title": "그로스 프로덕트 오너(PO) 인턴",
+   "title": "그로스 프로덕트 운영 인턴",
    "career": "경력무관",
    "emp": "인턴",
    "due": "2026-12-07",
-   "link": "https://job.wadiz.io/ko/o/245965",
+   "link": "https://job.wadiz.io/ko/o/246481",
    "cat": "기획·PM/PO",
    "intern": true,
-   "openDate": "2026-11-23",
-   "new": false,
-   "found": "2026-11-23"
+   "openDate": "2026-11-27",
+   "new": true,
+   "found": "2026-11-27"
   },
   {
    "회사": "와디즈",
@@ -1748,7 +1734,7 @@
    "cat": "마케팅·브랜딩",
    "intern": true,
    "openDate": "2026-11-26",
-   "new": true,
+   "new": false,
    "found": "2026-11-26"
   },
   {
@@ -1764,6 +1750,20 @@
    "openDate": "2026-09-09",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
+   "title": "[DRIMAGE-A스튜디오] 게임 기획 (시나리오/콘텐츠 기획)",
+   "career": "경력 1년~",
+   "emp": "정규직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/246520",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-11-27",
+   "new": true,
+   "found": "2026-11-27"
   },
   {
    "회사": "하이브",
@@ -1820,6 +1820,20 @@
    "openDate": "2026-09-02",
    "new": false,
    "found": "2026-10-03"
+  },
+  {
+   "회사": "하이브",
+   "플랫폼": "greetinghr",
+   "title": "[BIGHIT MUSIC] 콘텐츠기획(영상콘텐츠제작) (BTS 담당)*",
+   "career": "경력무관",
+   "emp": "계약직",
+   "due": "상시",
+   "link": "https://careers.hybecorp.com/ko/o/231174",
+   "cat": "기획·PM/PO",
+   "intern": false,
+   "openDate": "2026-11-26",
+   "new": true,
+   "found": "2026-11-27"
   },
   {
    "회사": "하이브",
@@ -2034,16 +2048,16 @@
   {
    "회사": "쿠팡",
    "플랫폼": "greenhouse",
-   "title": "[쿠팡로지스틱스서비스] 물류 데이터 분석 담당자 (신입 가능)",
+   "title": "[쿠팡] 로켓그로스 신규 채널 마케터 (인턴_6개월 계약직)",
    "career": "주니어(제목 기준)",
    "emp": "-",
    "due": "Seoul, South Korea",
-   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8316768",
-   "cat": "데이터·리서치",
-   "intern": false,
-   "openDate": "2026-10-23",
-   "new": false,
-   "found": "2026-10-23"
+   "link": "https://www.coupang.jobs/en/jobs/?gh_jid=8195077",
+   "cat": "마케팅·브랜딩",
+   "intern": true,
+   "openDate": "2026-09-15",
+   "new": true,
+   "found": "2026-11-27"
   },
   {
    "회사": "쿠팡",
@@ -2664,20 +2678,6 @@
   {
    "회사": "Google",
    "플랫폼": "global",
-   "title": "Strategy and Operations Lead, Greater China and Korea GTM (English, Korean)",
-   "career": "-",
-   "emp": "-",
-   "due": "Seoul, South Korea",
-   "link": "https://www.google.com/about/careers/applications/jobs/results/137587576843182790",
-   "cat": "외국계 AI (연차 미표기)",
-   "intern": false,
-   "new": false,
-   "found": "2026-10-27",
-   "openDate": ""
-  },
-  {
-   "회사": "Google",
-   "플랫폼": "global",
    "title": "AI Sales Specialist, Google Cloud (Korean, English)",
    "career": "-",
    "emp": "-",
@@ -2797,7 +2797,7 @@
    "link": "https://www.google.com/about/careers/applications/jobs/results/105180448719545030",
    "cat": "외국계 AI (연차 미표기)",
    "intern": false,
-   "new": true,
+   "new": false,
    "found": "2026-11-26",
    "openDate": ""
   }
